@@ -9,6 +9,7 @@ import {
 } from "@/data/chamberData";
 import BusinessDirectory from "@/components/BusinessDirectory";
 import MerchantToolkit from "@/components/MerchantToolkit";
+import CoopSavingsCalculator from "@/components/CoopSavingsCalculator";
 import {
   Globe,
   Building2,
@@ -516,6 +517,16 @@ export default function YemeniChamberNYCPage() {
                 : "Individual stores pay retail-adjacent distributor markups. As a united Chamber, our members unlock national chain pricing on daily essentials."}
             </p>
           </div>
+        </div>
+
+        <div className="mb-10">
+          <CoopSavingsCalculator
+            lang={lang}
+            onJoinClick={(tierLabel) => {
+              setJoinModalTier(tierLabel);
+              setJoinSubmitted(false);
+            }}
+          />
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
