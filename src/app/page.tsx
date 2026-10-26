@@ -10,6 +10,7 @@ import {
 import BusinessDirectory from "@/components/BusinessDirectory";
 import MerchantToolkit from "@/components/MerchantToolkit";
 import CoopSavingsCalculator from "@/components/CoopSavingsCalculator";
+import DigitalStorefrontBuilder from "@/components/DigitalStorefrontBuilder";
 import {
   Globe,
   Building2,
@@ -132,11 +133,17 @@ export default function YemeniChamberNYCPage() {
               {isAr ? "دليل محلات نيويورك" : "NYC Business Directory"}
             </a>
             <a
+              href="#digitalize"
+              className="text-amber-400 hover:text-amber-300 font-bold flex items-center gap-1"
+            >
+              <Sparkles className="w-3.5 h-3.5" />
+              {isAr ? "ابنِ متجرك الرقمي" : "Digitalize Your Shop"}
+            </a>
+            <a
               href="#toolkit"
               className="text-emerald-400 hover:text-emerald-300 font-bold flex items-center gap-1"
             >
-              <Sparkles className="w-3.5 h-3.5" />
-              {isAr ? "بوابة التاجر (دكّاني AI)" : "Merchant Toolkit (AI)"}
+              {isAr ? "فاحص المخالفات (AI)" : "Compliance AI"}
             </a>
             <a
               href="#coop"
@@ -484,6 +491,14 @@ export default function YemeniChamberNYCPage() {
         </div>
 
         <BusinessDirectory lang={lang} />
+      </section>
+
+      {/* SECTION 2.5: MERCHANT DIGITALIZATION ENGINE (STOREFRONT & QR BUILDER) */}
+      <section
+        id="digitalize"
+        className="max-w-7xl mx-auto px-4 sm:px-6 py-16 border-b border-stone-900"
+      >
+        <DigitalStorefrontBuilder lang={lang} />
       </section>
 
       {/* SECTION 3: INTERACTIVE MERCHANT TOOLKIT (DUKKANI AI) */}
