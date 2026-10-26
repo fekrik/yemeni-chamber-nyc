@@ -239,27 +239,31 @@ export default function BusinessDirectory({ lang }: BusinessDirectoryProps) {
             />
           </div>
 
-          <div className="flex flex-wrap items-center gap-3">
+          <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-2.5 sm:gap-3">
             <button
               onClick={() => setB2bOnly(!b2bOnly)}
-              className={`inline-flex items-center gap-2 px-4 py-2.5 rounded-xl text-xs sm:text-sm font-semibold border transition-all ${
+              className={`inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl text-xs sm:text-sm font-semibold border transition-all ${
                 b2bOnly
                   ? "bg-emerald-500/20 border-emerald-400 text-emerald-300"
                   : "bg-stone-950 border-stone-800 text-stone-300 hover:border-stone-700"
               }`}
             >
-              <Handshake className="w-4 h-4" />
-              {isAr
-                ? "موردو الجملة وشركاء B2B فقط"
-                : "Wholesale / B2B Suppliers Only"}
+              <Handshake className="w-4 h-4 shrink-0" />
+              <span>
+                {isAr
+                  ? "موردو الجملة وشركاء B2B فقط"
+                  : "Wholesale / B2B Suppliers Only"}
+              </span>
             </button>
 
             <button
               onClick={() => setShowAddModal(true)}
-              className="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-amber-500 hover:bg-amber-400 text-stone-950 font-bold text-xs sm:text-sm transition-all shadow-md"
+              className="inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl bg-amber-500 hover:bg-amber-400 text-stone-950 font-bold text-xs sm:text-sm transition-all shadow-md"
             >
-              <PlusCircle className="w-4 h-4" />
-              {isAr ? "أضف محلك أو شركتك للدليل" : "List Your NYC Business"}
+              <PlusCircle className="w-4 h-4 shrink-0" />
+              <span>
+                {isAr ? "أضف محلك أو شركتك للدليل" : "List Your NYC Business"}
+              </span>
             </button>
           </div>
         </div>

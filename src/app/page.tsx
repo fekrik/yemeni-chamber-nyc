@@ -2,10 +2,7 @@
 
 import React, { useState } from "react";
 import { Language } from "@/data/mockData";
-import {
-  CHAMBER_EVENTS,
-  MEMBERSHIP_TIERS,
-} from "@/data/chamberData";
+import { CHAMBER_EVENTS, MEMBERSHIP_TIERS } from "@/data/chamberData";
 import ChamberLogo from "@/components/ChamberLogo";
 import BusinessDirectory from "@/components/BusinessDirectory";
 import MerchantToolkit from "@/components/MerchantToolkit";
@@ -33,7 +30,6 @@ export default function YemeniChamberNYCPage() {
   const [lang, setLang] = useState<Language>("en");
   const isAr = lang === "ar";
 
-  // Unified Platform Tab (keeps the page clean & focused instead of stacking all 3 heavy tools)
   const [activePlatformTool, setActivePlatformTool] = useState<
     "calculator" | "digitalize" | "compliance"
   >("calculator");
@@ -68,26 +64,29 @@ export default function YemeniChamberNYCPage() {
   return (
     <div
       dir={isAr ? "rtl" : "ltr"}
-      className="min-h-screen bg-[#0B0F0E] text-stone-100 selection:bg-amber-500 selection:text-stone-950"
+      className="min-h-screen bg-[#0B0F0E] text-stone-100 selection:bg-amber-500 selection:text-stone-950 overflow-x-hidden"
     >
-      {/* Clean Executive Header */}
-      <header className="sticky top-0 z-40 bg-[#0B0F0E]/90 backdrop-blur-md border-b border-stone-800/70">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between gap-4">
+      {/* Mobile-First Executive Header */}
+      <header className="sticky top-0 z-40 bg-[#0B0F0E]/95 backdrop-blur-md border-b border-stone-800/80">
+        <div className="max-w-7xl mx-auto px-3.5 sm:px-6 lg:px-8 py-3 sm:py-4 flex items-center justify-between gap-2 sm:gap-4">
           {/* Official Crest + Organization Name */}
-          <a href="#" className="flex items-center gap-3.5 group">
-            <ChamberLogo size="md" />
-            <div>
-              <div className="flex items-center gap-2">
-                <span className="font-bold text-base sm:text-lg text-white tracking-tight group-hover:text-amber-300 transition-colors">
+          <a href="#" className="flex items-center gap-2.5 sm:gap-3.5 min-w-0 group">
+            <ChamberLogo size="sm" className="sm:w-12 sm:h-12" />
+            <div className="min-w-0">
+              <div className="flex items-center gap-1.5 sm:gap-2">
+                <span className="font-bold text-sm sm:text-lg text-white tracking-tight truncate group-hover:text-amber-300 transition-colors">
                   {isAr
-                    ? "الغرفة التجارية اليمنية في نيويورك"
-                    : "Yemeni Chamber of Commerce"}
+                    ? "الغرفة التجارية اليمنية"
+                    : "Yemeni Chamber"}
+                  <span className="hidden md:inline">
+                    {isAr ? " في نيويورك" : " of Commerce"}
+                  </span>
                 </span>
-                <span className="hidden sm:inline-block text-[10px] font-bold uppercase tracking-widest px-2 py-0.5 rounded bg-amber-500/15 text-amber-300 border border-amber-500/30">
+                <span className="shrink-0 text-[10px] font-bold uppercase tracking-wider px-1.5 py-0.5 rounded bg-amber-500/15 text-amber-300 border border-amber-500/30">
                   NYC
                 </span>
               </div>
-              <p className="text-xs text-stone-400">
+              <p className="hidden sm:block text-xs text-stone-400 truncate">
                 {isAr
                   ? "تمكين التاجر اليمني في مناطق نيويورك الخمس والولايات المتحدة"
                   : "Five Boroughs • National Merchant Network"}
@@ -95,30 +94,18 @@ export default function YemeniChamberNYCPage() {
             </div>
           </a>
 
-          {/* Minimal, Breathable Navigation */}
-          <nav className="hidden lg:flex items-center gap-8 text-sm font-medium text-stone-300">
-            <a
-              href="#mission"
-              className="hover:text-white transition-colors"
-            >
+          {/* Desktop Navigation */}
+          <nav className="hidden lg:flex items-center gap-7 text-sm font-medium text-stone-300 shrink-0">
+            <a href="#mission" className="hover:text-white transition-colors">
               {isAr ? "الرسالة والأثر" : "Mission"}
             </a>
-            <a
-              href="#platform"
-              className="hover:text-white transition-colors"
-            >
+            <a href="#platform" className="hover:text-white transition-colors">
               {isAr ? "منصة التاجر الرقمية" : "Merchant Platform"}
             </a>
-            <a
-              href="#directory"
-              className="hover:text-white transition-colors"
-            >
+            <a href="#directory" className="hover:text-white transition-colors">
               {isAr ? "دليل أعمال نيويورك" : "NYC Directory"}
             </a>
-            <a
-              href="#events"
-              className="hover:text-white transition-colors"
-            >
+            <a href="#events" className="hover:text-white transition-colors">
               {isAr ? "الفعاليات" : "Events"}
             </a>
             <a
@@ -129,14 +116,14 @@ export default function YemeniChamberNYCPage() {
             </a>
           </nav>
 
-          {/* Actions */}
-          <div className="flex items-center gap-3">
+          {/* Compact, Non-Wrapping Mobile/Desktop Actions */}
+          <div className="flex items-center gap-2 shrink-0">
             <button
               onClick={toggleLanguage}
-              className="inline-flex items-center gap-2 px-3.5 py-2 rounded-xl bg-stone-900/90 hover:bg-stone-800 border border-stone-700/80 text-stone-200 font-semibold text-xs transition-all"
+              className="inline-flex items-center gap-1.5 px-2.5 sm:px-3.5 py-2 rounded-xl bg-stone-900 hover:bg-stone-800 border border-stone-700/80 text-stone-200 font-semibold text-xs whitespace-nowrap transition-all"
             >
-              <Globe className="w-3.5 h-3.5 text-amber-400" />
-              <span>{isAr ? "English" : "العربية"}</span>
+              <Globe className="w-3.5 h-3.5 text-amber-400 shrink-0" />
+              <span>{isAr ? "EN" : "العربية"}</span>
             </button>
 
             <button
@@ -146,32 +133,71 @@ export default function YemeniChamberNYCPage() {
                 );
                 setJoinSubmitted(false);
               }}
-              className="inline-flex items-center gap-1.5 px-4 py-2.5 rounded-xl bg-amber-500 hover:bg-amber-400 text-stone-950 font-bold text-xs sm:text-sm transition-all shadow-sm"
+              className="inline-flex items-center gap-1 px-3 sm:px-4 py-2 sm:py-2.5 rounded-xl bg-amber-500 hover:bg-amber-400 text-stone-950 font-bold text-xs sm:text-sm whitespace-nowrap transition-all shadow-sm"
             >
-              <span>{isAr ? "انضم للغرفة" : "Become a Member"}</span>
-              <ArrowUpRight className="w-4 h-4" />
+              <span className="sm:hidden">
+                {isAr ? "انضم" : "Join"}
+              </span>
+              <span className="hidden sm:inline">
+                {isAr ? "انضم للغرفة" : "Become a Member"}
+              </span>
+              <ArrowUpRight className="w-3.5 h-3.5 sm:w-4 sm:h-4 shrink-0" />
             </button>
           </div>
         </div>
+
+        {/* Mobile Quick-Jump Scrollable Bar (Only visible on < lg screens) */}
+        <div className="lg:hidden border-t border-stone-800/60 bg-stone-950/80 px-3.5 py-2 flex items-center gap-2 overflow-x-auto no-scrollbar text-xs font-semibold text-stone-300">
+          <a
+            href="#platform"
+            className="px-3 py-1 rounded-lg bg-amber-500/15 text-amber-300 border border-amber-500/25 whitespace-nowrap"
+          >
+            {isAr ? "منصة التاجر الرقمية" : "Merchant Tools"}
+          </a>
+          <a
+            href="#directory"
+            className="px-3 py-1 rounded-lg bg-stone-900 text-stone-300 whitespace-nowrap"
+          >
+            {isAr ? "دليل نيويورك" : "NYC Directory"}
+          </a>
+          <a
+            href="#mission"
+            className="px-3 py-1 rounded-lg bg-stone-900 text-stone-300 whitespace-nowrap"
+          >
+            {isAr ? "رسالتنا" : "Mission"}
+          </a>
+          <a
+            href="#events"
+            className="px-3 py-1 rounded-lg bg-stone-900 text-stone-300 whitespace-nowrap"
+          >
+            {isAr ? "الفعاليات" : "Events"}
+          </a>
+          <a
+            href="#membership"
+            className="px-3 py-1 rounded-lg bg-stone-900 text-stone-300 whitespace-nowrap"
+          >
+            {isAr ? "العضوية" : "Membership"}
+          </a>
+        </div>
       </header>
 
-      {/* REFINED INSTITUTIONAL HERO */}
+      {/* REFINED MOBILE-FRIENDLY HERO */}
       <section className="relative overflow-hidden border-b border-stone-800/80 bg-gradient-to-b from-[#0F1715] via-[#0B0F0E] to-[#0B0F0E]">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-16 pb-20 lg:pt-24 lg:pb-24">
-          <div className="max-w-4xl mx-auto text-center space-y-6">
-            <div className="flex justify-center mb-2">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-10 pb-14 sm:pt-20 sm:pb-24">
+          <div className="max-w-4xl mx-auto text-center space-y-5 sm:space-y-6">
+            <div className="flex justify-center">
               <ChamberLogo size="lg" />
             </div>
 
-            <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-amber-500/10 border border-amber-500/25 text-amber-300 text-xs font-semibold tracking-wide">
-              <span>
+            <div className="inline-flex items-center justify-center px-3 py-1.5 rounded-full bg-amber-500/10 border border-amber-500/25 text-amber-300 text-[11px] sm:text-xs font-semibold tracking-wide leading-snug max-w-full">
+              <span className="truncate sm:whitespace-normal">
                 {isAr
                   ? "المؤسسة الاقتصادية للتجار ورواد الأعمال اليمنيين • نيويورك"
-                  : "THE ECONOMIC INSTITUTION FOR YEMENI MERCHANTS & FOUNDERS"}
+                  : "YEMENI MERCHANTS & FOUNDERS • NEW YORK CITY"}
               </span>
             </div>
 
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black text-white leading-[1.12] tracking-tight">
+            <h1 className="text-2xl sm:text-5xl lg:text-6xl font-black text-white leading-[1.3] sm:leading-[1.15] tracking-tight px-1">
               {isAr ? (
                 <>
                   قوة شرائية موحدة، تحول رقمي، وتمثيل رسمي لأكثر من{" "}
@@ -187,31 +213,31 @@ export default function YemeniChamberNYCPage() {
               )}
             </h1>
 
-            <p className="text-base sm:text-lg text-stone-300 leading-relaxed max-w-2xl mx-auto">
+            <p className="text-sm sm:text-lg text-stone-300 leading-relaxed max-w-2xl mx-auto px-1">
               {isAr
                 ? "من «اليمن الصغير» في البرونكس إلى باي ريدج وأتلانتيك أفينيو في بروكلين — نمكّن أصحاب البوديقا ومقاهي القهوة اليمنية المختصة عبر الشراء التعاوني، رقمنة المحلات، والحماية القانونية."
                 : "Starting across New York City’s five boroughs, we empower Yemeni bodegas, specialty Qahwah houses, wholesalers, and founders with collective purchasing power, digital storefronts, and regulatory defense."}
             </p>
 
-            {/* Primary Hero Buttons */}
-            <div className="pt-4 flex flex-wrap items-center justify-center gap-4">
+            {/* Primary Hero Buttons: Full-Width Stacked on Mobile, Side-by-Side on Desktop */}
+            <div className="pt-2 flex flex-col sm:flex-row items-stretch sm:items-center justify-center gap-3 sm:gap-4">
               <a
                 href="#platform"
-                className="px-7 py-3.5 rounded-xl bg-amber-500 hover:bg-amber-400 text-stone-950 font-bold text-sm shadow-lg transition-all inline-flex items-center gap-2"
+                className="w-full sm:w-auto px-6 py-3.5 rounded-xl bg-amber-500 hover:bg-amber-400 text-stone-950 font-bold text-sm shadow-lg transition-all inline-flex items-center justify-center gap-2"
               >
                 <span>
                   {isAr
                     ? "استكشف منصة التاجر وأدوات التوفير"
                     : "Explore the Merchant Platform"}
                 </span>
-                <ArrowUpRight className="w-4 h-4" />
+                <ArrowUpRight className="w-4 h-4 shrink-0" />
               </a>
 
               <a
                 href="#directory"
-                className="px-7 py-3.5 rounded-xl bg-stone-900 hover:bg-stone-800 text-stone-100 border border-stone-700 font-semibold text-sm transition-all inline-flex items-center gap-2"
+                className="w-full sm:w-auto px-6 py-3.5 rounded-xl bg-stone-900 hover:bg-stone-800 text-stone-100 border border-stone-700 font-semibold text-sm transition-all inline-flex items-center justify-center gap-2"
               >
-                <Store className="w-4 h-4 text-amber-400" />
+                <Store className="w-4 h-4 text-amber-400 shrink-0" />
                 <span>
                   {isAr
                     ? "تصفح دليل أعمال نيويورك"
@@ -221,83 +247,83 @@ export default function YemeniChamberNYCPage() {
             </div>
           </div>
 
-          {/* Clean 4-Metric Institutional Strip */}
-          <div className="mt-16 pt-10 border-t border-stone-800/80 grid grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8">
-            <div className="text-center">
-              <p className="text-3xl sm:text-4xl font-black text-white">
+          {/* Clean 4-Metric Institutional Cards (2x2 on Mobile, 4x1 on Desktop) */}
+          <div className="mt-12 sm:mt-16 pt-8 sm:pt-10 border-t border-stone-800/80 grid grid-cols-2 lg:grid-cols-4 gap-3.5 sm:gap-6">
+            <div className="bg-stone-900/40 border border-stone-800/70 rounded-2xl p-4 sm:p-5 text-center">
+              <p className="text-2xl sm:text-4xl font-black text-white">
                 6,000+
               </p>
-              <p className="text-xs sm:text-sm font-semibold text-amber-400 mt-1">
+              <p className="text-xs sm:text-sm font-semibold text-amber-400 mt-1 leading-snug">
                 {isAr
-                  ? "بوديقا وسوبرماركت يمني في نيويورك"
-                  : "Yemeni-Owned NYC Bodegas & Delis"}
+                  ? "بوديقا وسوبرماركت يمني"
+                  : "Yemeni-Owned Bodegas"}
               </p>
-              <p className="text-xs text-stone-400 mt-0.5">
-                {isAr ? "في المناطق الخمس" : "Across all 5 boroughs"}
+              <p className="text-[11px] text-stone-400 mt-0.5">
+                {isAr ? "في مناطق نيويورك الخمس" : "Across all 5 NYC boroughs"}
               </p>
             </div>
 
-            <div className="text-center">
-              <p className="text-3xl sm:text-4xl font-black text-white">
+            <div className="bg-stone-900/40 border border-stone-800/70 rounded-2xl p-4 sm:p-5 text-center">
+              <p className="text-2xl sm:text-4xl font-black text-white">
                 180+
               </p>
-              <p className="text-xs sm:text-sm font-semibold text-emerald-400 mt-1">
+              <p className="text-xs sm:text-sm font-semibold text-emerald-400 mt-1 leading-snug">
                 {isAr
                   ? "مقهى قهوة يمنية مختصة"
-                  : "Specialty Yemeni Qahwah Houses"}
+                  : "Yemeni Qahwah Houses"}
               </p>
-              <p className="text-xs text-stone-400 mt-0.5">
+              <p className="text-[11px] text-stone-400 mt-0.5">
                 {isAr
                   ? "تقود نهضة القهوة المختصة"
-                  : "Leading America's coffee renaissance"}
+                  : "Specialty coffee renaissance"}
               </p>
             </div>
 
-            <div className="text-center">
-              <p className="text-3xl sm:text-4xl font-black text-white">
+            <div className="bg-stone-900/40 border border-stone-800/70 rounded-2xl p-4 sm:p-5 text-center">
+              <p className="text-2xl sm:text-4xl font-black text-white">
                 15–22%
               </p>
-              <p className="text-xs sm:text-sm font-semibold text-amber-400 mt-1">
+              <p className="text-xs sm:text-sm font-semibold text-amber-400 mt-1 leading-snug">
                 {isAr
-                  ? "وفر الشراء الجماعي للأعضاء"
-                  : "Collective Wholesale Savings"}
+                  ? "وفر الشراء الجماعي"
+                  : "Co-Op Wholesale Savings"}
               </p>
-              <p className="text-xs text-stone-400 mt-0.5">
+              <p className="text-[11px] text-stone-400 mt-0.5">
                 {isAr
                   ? "بن، ألبان، تغليف، ونقاط بيع"
-                  : "On coffee, dairy, paper & POS fees"}
+                  : "Coffee, dairy, paper & POS"}
               </p>
             </div>
 
-            <div className="text-center">
-              <p className="text-3xl sm:text-4xl font-black text-white">
+            <div className="bg-stone-900/40 border border-stone-800/70 rounded-2xl p-4 sm:p-5 text-center">
+              <p className="text-2xl sm:text-4xl font-black text-white">
                 NYC → US
               </p>
-              <p className="text-xs sm:text-sm font-semibold text-emerald-400 mt-1">
+              <p className="text-xs sm:text-sm font-semibold text-emerald-400 mt-1 leading-snug">
                 {isAr
                   ? "نموذج وطني عابر للولايات"
-                  : "National Expansion Blueprint"}
+                  : "National Network"}
               </p>
-              <p className="text-xs text-stone-400 mt-0.5">
+              <p className="text-[11px] text-stone-400 mt-0.5">
                 {isAr
-                  ? "نيويورك • ميشيغان • كاليفورنيا • شيكاغو"
-                  : "NYC • Dearborn • Bay Area • Chicago"}
+                  ? "نيويورك • ميشيغان • كاليفورنيا"
+                  : "NYC • Dearborn • Bay Area"}
               </p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* SECTION 1: FOUR STRATEGIC PILLARS (CLEAN, SPACIOUS) */}
+      {/* SECTION 1: FOUR STRATEGIC PILLARS */}
       <section
         id="mission"
-        className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 border-b border-stone-900"
+        className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14 sm:py-20 border-b border-stone-900"
       >
-        <div className="max-w-2xl mb-12">
+        <div className="max-w-2xl mb-10 sm:mb-12">
           <span className="text-xs font-bold uppercase tracking-widest text-amber-400">
             {isAr ? "رسالة الغرفة التجارية" : "Our Institutional Mandate"}
           </span>
-          <h2 className="text-2xl sm:text-4xl font-bold text-white mt-2 tracking-tight">
+          <h2 className="text-2xl sm:text-4xl font-bold text-white mt-2 leading-snug tracking-tight">
             {isAr
               ? "ماذا يمكن لمنظمة موحدة أن تصنع لمجتمعنا؟"
               : "What a United Chamber Unlocks for Our Community"}
@@ -309,9 +335,9 @@ export default function YemeniChamberNYCPage() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-          <div className="bg-stone-900/50 border border-stone-800/80 rounded-2xl p-6 hover:border-stone-700 transition-all">
-            <div className="w-10 h-10 rounded-xl bg-amber-500/10 border border-amber-500/25 flex items-center justify-center text-amber-400 mb-5">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6">
+          <div className="bg-stone-900/50 border border-stone-800/80 rounded-2xl p-5 sm:p-6">
+            <div className="w-10 h-10 rounded-xl bg-amber-500/10 border border-amber-500/25 flex items-center justify-center text-amber-400 mb-4">
               <Handshake className="w-5 h-5" />
             </div>
             <h3 className="text-base font-bold text-white mb-2">
@@ -326,8 +352,8 @@ export default function YemeniChamberNYCPage() {
             </p>
           </div>
 
-          <div className="bg-stone-900/50 border border-stone-800/80 rounded-2xl p-6 hover:border-stone-700 transition-all">
-            <div className="w-10 h-10 rounded-xl bg-emerald-500/10 border border-emerald-500/25 flex items-center justify-center text-emerald-400 mb-5">
+          <div className="bg-stone-900/50 border border-stone-800/80 rounded-2xl p-5 sm:p-6">
+            <div className="w-10 h-10 rounded-xl bg-emerald-500/10 border border-emerald-500/25 flex items-center justify-center text-emerald-400 mb-4">
               <Smartphone className="w-5 h-5" />
             </div>
             <h3 className="text-base font-bold text-white mb-2">
@@ -342,8 +368,8 @@ export default function YemeniChamberNYCPage() {
             </p>
           </div>
 
-          <div className="bg-stone-900/50 border border-stone-800/80 rounded-2xl p-6 hover:border-stone-700 transition-all">
-            <div className="w-10 h-10 rounded-xl bg-amber-500/10 border border-amber-500/25 flex items-center justify-center text-amber-400 mb-5">
+          <div className="bg-stone-900/50 border border-stone-800/80 rounded-2xl p-5 sm:p-6">
+            <div className="w-10 h-10 rounded-xl bg-amber-500/10 border border-amber-500/25 flex items-center justify-center text-amber-400 mb-4">
               <Scale className="w-5 h-5" />
             </div>
             <h3 className="text-base font-bold text-white mb-2">
@@ -358,8 +384,8 @@ export default function YemeniChamberNYCPage() {
             </p>
           </div>
 
-          <div className="bg-stone-900/50 border border-stone-800/80 rounded-2xl p-6 hover:border-stone-700 transition-all">
-            <div className="w-10 h-10 rounded-xl bg-emerald-500/10 border border-emerald-500/25 flex items-center justify-center text-emerald-400 mb-5">
+          <div className="bg-stone-900/50 border border-stone-800/80 rounded-2xl p-5 sm:p-6">
+            <div className="w-10 h-10 rounded-xl bg-emerald-500/10 border border-emerald-500/25 flex items-center justify-center text-emerald-400 mb-4">
               <Building2 className="w-5 h-5" />
             </div>
             <h3 className="text-base font-bold text-white mb-2">
@@ -376,55 +402,57 @@ export default function YemeniChamberNYCPage() {
         </div>
       </section>
 
-      {/* SECTION 2: UNIFIED MERCHANT PLATFORM (TABBED TO ELIMINATE VISUAL CLUTTER) */}
+      {/* SECTION 2: UNIFIED MERCHANT PLATFORM (STACKED FULL-WIDTH TABS ON MOBILE) */}
       <section
         id="platform"
-        className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 border-b border-stone-900"
+        className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14 sm:py-20 border-b border-stone-900"
       >
-        <div className="flex flex-col lg:flex-row lg:items-end justify-between gap-6 mb-10">
+        <div className="flex flex-col lg:flex-row lg:items-end justify-between gap-5 mb-8 sm:mb-10">
           <div>
             <span className="text-xs font-bold uppercase tracking-widest text-emerald-400">
               {isAr
                 ? "منصة الخدمات الرقمية للتاجر"
                 : "Interactive Merchant Operating System"}
             </span>
-            <h2 className="text-2xl sm:text-4xl font-bold text-white mt-2 tracking-tight">
+            <h2 className="text-2xl sm:text-4xl font-bold text-white mt-2 leading-snug tracking-tight">
               {isAr
                 ? "أدوات عملية تخدم محلك اليوم"
                 : "Digital Tools Built for Your Storefront"}
             </h2>
-            <p className="text-sm text-stone-400 mt-1 max-w-xl">
+            <p className="text-xs sm:text-sm text-stone-400 mt-1 max-w-xl leading-relaxed">
               {isAr
                 ? "اختر الأداة التي تريد تجربتها الآن: حساب وفر الشراء الجماعي، بناء متجرك الرقمي، أو فحص مخالفات البلدية."
                 : "Switch between our three core member tools below to calculate wholesale savings, build a digital menu, or scan a city violation."}
             </p>
           </div>
 
-          {/* Clean 3-Tab Switcher */}
-          <div className="inline-flex flex-wrap items-center gap-2 bg-stone-900/90 p-1.5 rounded-2xl border border-stone-800">
+          {/* Mobile-Friendly 3-Tab Switcher: Full-Width Grid on Mobile, Inline Pill on Desktop */}
+          <div className="grid grid-cols-1 sm:inline-flex items-stretch sm:items-center gap-2 bg-stone-900/90 p-2 rounded-2xl border border-stone-800 w-full lg:w-auto">
             <button
               onClick={() => setActivePlatformTool("calculator")}
-              className={`inline-flex items-center gap-2 px-4 py-2.5 rounded-xl text-xs sm:text-sm font-bold transition-all ${
+              className={`flex items-center justify-center sm:justify-start gap-2 px-4 py-3 sm:py-2.5 rounded-xl text-xs sm:text-sm font-bold transition-all ${
                 activePlatformTool === "calculator"
                   ? "bg-amber-500 text-stone-950 shadow"
-                  : "text-stone-300 hover:text-white"
+                  : "text-stone-300 hover:text-white bg-stone-950/50 sm:bg-transparent"
               }`}
             >
-              <Calculator className="w-4 h-4" />
+              <Calculator className="w-4 h-4 shrink-0" />
               <span>
-                {isAr ? "١. حاسبة التوفير التعاوني" : "1. Co-Op Savings Calculator"}
+                {isAr
+                  ? "١. حاسبة التوفير التعاوني"
+                  : "1. Co-Op Savings Calculator"}
               </span>
             </button>
 
             <button
               onClick={() => setActivePlatformTool("digitalize")}
-              className={`inline-flex items-center gap-2 px-4 py-2.5 rounded-xl text-xs sm:text-sm font-bold transition-all ${
+              className={`flex items-center justify-center sm:justify-start gap-2 px-4 py-3 sm:py-2.5 rounded-xl text-xs sm:text-sm font-bold transition-all ${
                 activePlatformTool === "digitalize"
                   ? "bg-amber-500 text-stone-950 shadow"
-                  : "text-stone-300 hover:text-white"
+                  : "text-stone-300 hover:text-white bg-stone-950/50 sm:bg-transparent"
               }`}
             >
-              <Smartphone className="w-4 h-4" />
+              <Smartphone className="w-4 h-4 shrink-0" />
               <span>
                 {isAr
                   ? "٢. منشئ المتجر الرقمي والـ QR"
@@ -434,13 +462,13 @@ export default function YemeniChamberNYCPage() {
 
             <button
               onClick={() => setActivePlatformTool("compliance")}
-              className={`inline-flex items-center gap-2 px-4 py-2.5 rounded-xl text-xs sm:text-sm font-bold transition-all ${
+              className={`flex items-center justify-center sm:justify-start gap-2 px-4 py-3 sm:py-2.5 rounded-xl text-xs sm:text-sm font-bold transition-all ${
                 activePlatformTool === "compliance"
                   ? "bg-amber-500 text-stone-950 shadow"
-                  : "text-stone-300 hover:text-white"
+                  : "text-stone-300 hover:text-white bg-stone-950/50 sm:bg-transparent"
               }`}
             >
-              <ShieldCheck className="w-4 h-4" />
+              <ShieldCheck className="w-4 h-4 shrink-0" />
               <span>
                 {isAr
                   ? "٣. فاحص المخالفات والتراخيص"
@@ -450,7 +478,7 @@ export default function YemeniChamberNYCPage() {
           </div>
         </div>
 
-        {/* Active Tool Render (Only 1 shown at a time for a clean, focused UI) */}
+        {/* Active Tool Render */}
         <div>
           {activePlatformTool === "calculator" && (
             <CoopSavingsCalculator
@@ -475,20 +503,20 @@ export default function YemeniChamberNYCPage() {
       {/* SECTION 3: VERIFIED NYC YEMENI BUSINESS DIRECTORY */}
       <section
         id="directory"
-        className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 border-b border-stone-900"
+        className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14 sm:py-20 border-b border-stone-900"
       >
-        <div className="mb-10">
+        <div className="mb-8 sm:mb-10">
           <span className="text-xs font-bold uppercase tracking-widest text-amber-400">
             {isAr
               ? "البرونكس • بروكلين • مانهاتن • كوينز • ستاتن آيلاند"
               : "Five-Borough Commercial Network"}
           </span>
-          <h2 className="text-2xl sm:text-4xl font-bold text-white mt-2 tracking-tight">
+          <h2 className="text-2xl sm:text-4xl font-bold text-white mt-2 leading-snug tracking-tight">
             {isAr
               ? "دليل الأعمال والمحلات اليمنية الموثق في نيويورك"
               : "Verified NYC Yemeni Business Directory"}
           </h2>
-          <p className="text-sm text-stone-400 mt-1 max-w-2xl">
+          <p className="text-xs sm:text-sm text-stone-400 mt-1 max-w-2xl leading-relaxed">
             {isAr
               ? "اكتشف المقاهي المختصة، البوديقا، المطاعم، وتجار الجملة المعتمدين لدى الغرفة التجارية، أو أضف محلك مجاناً."
               : "Connect with verified Yemeni specialty coffee roasters, neighborhood bodegas, traditional restaurants, wholesale suppliers, and bilingual CPAs."}
@@ -501,35 +529,35 @@ export default function YemeniChamberNYCPage() {
       {/* SECTION 4: UPCOMING NYC EVENTS & CLINICS */}
       <section
         id="events"
-        className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 border-b border-stone-900"
+        className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14 sm:py-20 border-b border-stone-900"
       >
-        <div className="mb-10">
+        <div className="mb-8 sm:mb-10">
           <span className="text-xs font-bold uppercase tracking-widest text-emerald-400">
             {isAr
               ? "العيادات القانونية وملتقيات التجار"
               : "Community Calendar & Legal Clinics"}
           </span>
-          <h2 className="text-2xl sm:text-4xl font-bold text-white mt-2 tracking-tight">
+          <h2 className="text-2xl sm:text-4xl font-bold text-white mt-2 leading-snug tracking-tight">
             {isAr
               ? "الفعاليات القادمة في نيويورك"
               : "Upcoming NYC Clinics, Summits & Roundtables"}
           </h2>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-5 sm:gap-6">
           {CHAMBER_EVENTS.map((evt) => {
             const isReserved = !!rsvpedEvents[evt.id];
             return (
               <div
                 key={evt.id}
-                className="bg-stone-900/50 border border-stone-800/80 rounded-2xl p-6 flex flex-col justify-between hover:border-stone-700 transition-all"
+                className="bg-stone-900/50 border border-stone-800/80 rounded-2xl p-5 sm:p-6 flex flex-col justify-between"
               >
                 <div>
-                  <div className="flex items-center justify-between gap-2 mb-4">
+                  <div className="flex items-center justify-between gap-2 mb-3.5">
                     <span className="text-xs font-semibold px-2.5 py-1 rounded-lg bg-amber-500/10 text-amber-300 border border-amber-500/20">
                       {evt.category[lang]}
                     </span>
-                    <span className="text-xs text-stone-400 font-medium">
+                    <span className="text-xs text-stone-400 font-medium shrink-0">
                       {evt.borough}
                     </span>
                   </div>
@@ -543,16 +571,19 @@ export default function YemeniChamberNYCPage() {
                   </p>
                 </div>
 
-                <div className="mt-6 pt-4 border-t border-stone-800/80 space-y-3">
+                <div className="mt-5 pt-4 border-t border-stone-800/80 space-y-3">
                   <div className="text-xs text-stone-300 space-y-1.5">
-                    <div className="flex items-center gap-2">
+                    <div className="flex flex-wrap items-center gap-1.5">
                       <Calendar className="w-3.5 h-3.5 text-amber-400 shrink-0" />
-                      <span className="font-medium">{evt.date[lang]}</span> •{" "}
+                      <span className="font-medium">{evt.date[lang]}</span>
+                      <span className="text-stone-500">•</span>
                       <span className="text-stone-400">{evt.time}</span>
                     </div>
-                    <div className="flex items-center gap-2">
-                      <MapPin className="w-3.5 h-3.5 text-emerald-400 shrink-0" />
-                      <span className="text-stone-400">{evt.location[lang]}</span>
+                    <div className="flex items-start gap-1.5">
+                      <MapPin className="w-3.5 h-3.5 text-emerald-400 shrink-0 mt-0.5" />
+                      <span className="text-stone-400 leading-snug">
+                        {evt.location[lang]}
+                      </span>
                     </div>
                   </div>
 
@@ -582,29 +613,29 @@ export default function YemeniChamberNYCPage() {
       {/* SECTION 5: MEMBERSHIP TIERS & NATIONAL VISION */}
       <section
         id="membership"
-        className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20"
+        className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14 sm:py-20"
       >
-        <div className="text-center max-w-2xl mx-auto mb-14">
+        <div className="text-center max-w-2xl mx-auto mb-10 sm:mb-14">
           <span className="text-xs font-bold uppercase tracking-widest text-amber-400">
             {isAr ? "عضوية الغرفة التجارية" : "Membership & Representation"}
           </span>
-          <h2 className="text-2xl sm:text-4xl font-bold text-white mt-2 tracking-tight">
+          <h2 className="text-2xl sm:text-4xl font-bold text-white mt-2 leading-snug tracking-tight">
             {isAr
               ? "اختر عضوية محلك أو شركتك"
               : "Join the Yemeni Chamber of Commerce NYC"}
           </h2>
-          <p className="text-sm text-stone-400 mt-2">
+          <p className="text-xs sm:text-sm text-stone-400 mt-2 leading-relaxed">
             {isAr
               ? "جميع العضويات تشمل الوصول الكامل لمنصة التاجر الرقمية وعقود الشراء التعاوني والعيادة القانونية."
               : "Every tier includes full access to our digital storefront builder, collective supplier contracts, and bilingual legal clinics."}
           </p>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-5 sm:gap-6">
           {MEMBERSHIP_TIERS.map((tier) => (
             <div
               key={tier.id}
-              className={`rounded-2xl p-7 flex flex-col justify-between border transition-all ${
+              className={`rounded-2xl p-6 sm:p-7 flex flex-col justify-between border transition-all ${
                 tier.featured
                   ? "bg-stone-900/90 border-amber-500/60 shadow-xl"
                   : "bg-stone-900/40 border-stone-800/80"
@@ -616,14 +647,14 @@ export default function YemeniChamberNYCPage() {
                     {tier.badge[lang]}
                   </span>
                 )}
-                <h3 className="text-xl font-bold text-white">
+                <h3 className="text-lg sm:text-xl font-bold text-white leading-snug">
                   {tier.name[lang]}
                 </h3>
-                <p className="text-xs text-stone-400 mt-1">
+                <p className="text-xs text-stone-400 mt-1 leading-relaxed">
                   {tier.subtitle[lang]}
                 </p>
 
-                <div className="mt-5 pb-5 border-b border-stone-800/80 flex items-baseline gap-1.5">
+                <div className="mt-5 pb-5 border-b border-stone-800/80 flex flex-wrap items-baseline gap-1.5">
                   <span className="text-3xl sm:text-4xl font-black text-white">
                     {tier.price[lang]}
                   </span>
@@ -636,7 +667,7 @@ export default function YemeniChamberNYCPage() {
                   {tier.features.map((f, idx) => (
                     <li
                       key={idx}
-                      className="flex items-start gap-2.5 text-xs sm:text-sm text-stone-300"
+                      className="flex items-start gap-2.5 text-xs sm:text-sm text-stone-300 leading-relaxed"
                     >
                       <CheckCircle2 className="w-4 h-4 text-emerald-400 shrink-0 mt-0.5" />
                       <span>{f[lang]}</span>
@@ -650,7 +681,7 @@ export default function YemeniChamberNYCPage() {
                   setJoinModalTier(tier.name[lang]);
                   setJoinSubmitted(false);
                 }}
-                className={`mt-8 w-full py-3 rounded-xl font-bold text-xs sm:text-sm transition-all ${
+                className={`mt-7 w-full py-3 rounded-xl font-bold text-xs sm:text-sm transition-all ${
                   tier.featured
                     ? "bg-amber-500 hover:bg-amber-400 text-stone-950"
                     : "bg-stone-800 hover:bg-stone-700 text-white"
@@ -663,17 +694,17 @@ export default function YemeniChamberNYCPage() {
         </div>
 
         {/* Clean National Expansion Banner */}
-        <div className="mt-16 bg-stone-900/60 border border-stone-800 rounded-2xl p-8 flex flex-col lg:flex-row items-center justify-between gap-6">
+        <div className="mt-12 sm:mt-16 bg-stone-900/60 border border-stone-800 rounded-2xl p-6 sm:p-8 flex flex-col lg:flex-row items-start lg:items-center justify-between gap-5">
           <div className="space-y-2 max-w-2xl">
             <div className="inline-flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-emerald-400">
-              <Users className="w-4 h-4" />
+              <Users className="w-4 h-4 shrink-0" />
               <span>
                 {isAr
                   ? "شبكة التجار اليمنيين الوطنية"
                   : "National Chapter Network"}
               </span>
             </div>
-            <h3 className="text-xl sm:text-2xl font-bold text-white">
+            <h3 className="text-lg sm:text-2xl font-bold text-white leading-snug">
               {isAr
                 ? "نبدأ من نيويورك، ونربط التاجر اليمني في كل ولاية أمريكية"
                 : "Born in New York City. Connecting Yemeni Merchants Coast to Coast."}
@@ -692,7 +723,7 @@ export default function YemeniChamberNYCPage() {
               );
               setJoinSubmitted(false);
             }}
-            className="px-6 py-3 rounded-xl bg-stone-800 hover:bg-stone-700 border border-stone-700 text-white font-bold text-xs sm:text-sm shrink-0 transition-all"
+            className="w-full sm:w-auto px-6 py-3 rounded-xl bg-stone-800 hover:bg-stone-700 border border-stone-700 text-white font-bold text-xs sm:text-sm shrink-0 text-center transition-all"
           >
             {isAr
               ? "تواصل مع مجلس التأسيس"
@@ -702,9 +733,9 @@ export default function YemeniChamberNYCPage() {
       </section>
 
       {/* CLEAN INSTITUTIONAL FOOTER */}
-      <footer className="bg-[#080B0A] border-t border-stone-900 py-12 px-4 sm:px-6 lg:px-8 text-xs text-stone-400">
-        <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-6">
-          <div className="flex items-center gap-3.5">
+      <footer className="bg-[#080B0A] border-t border-stone-900 py-10 sm:py-12 px-4 sm:px-6 lg:px-8 text-xs text-stone-400">
+        <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-start sm:items-center justify-between gap-5">
+          <div className="flex items-center gap-3">
             <ChamberLogo size="sm" />
             <div>
               <p className="font-bold text-sm text-white">
@@ -712,17 +743,17 @@ export default function YemeniChamberNYCPage() {
                   ? "الغرفة التجارية اليمنية في نيويورك (YCC-NYC)"
                   : "Yemeni Chamber of Commerce NYC (YCC-NYC)"}
               </p>
-              <p className="text-xs text-stone-500 mt-0.5">
+              <p className="text-xs text-stone-500 mt-0.5 leading-relaxed">
                 {isAr
-                  ? "البرونكس (موريس بارك) • بروكلين (باي ريدج وأتلانتيك) • مانهاتن • كوينز • ستاتن آيلاند"
-                  : "Bronx (Little Yemen) • Brooklyn (Bay Ridge & Atlantic Ave) • Manhattan • Queens • Staten Island"}
+                  ? "البرونكس • بروكلين • مانهاتن • كوينز • ستاتن آيلاند"
+                  : "Bronx • Brooklyn • Manhattan • Queens • Staten Island"}
               </p>
             </div>
           </div>
 
           <div className="flex items-center gap-6 text-stone-400">
             <span className="inline-flex items-center gap-1.5 text-amber-400/90 font-medium">
-              <Coffee className="w-3.5 h-3.5" />
+              <Coffee className="w-3.5 h-3.5 shrink-0" />
               {isAr ? "تراث • تجارة • تمكين" : "Heritage • Commerce • Unity"}
             </span>
           </div>
@@ -732,22 +763,22 @@ export default function YemeniChamberNYCPage() {
       {/* MEMBERSHIP APPLICATION MODAL */}
       {joinModalTier && (
         <div className="fixed inset-0 z-50 bg-black/80 backdrop-blur-sm flex items-center justify-center p-4">
-          <div className="bg-stone-900 border border-stone-700 rounded-2xl max-w-md w-full p-6 shadow-2xl">
-            <div className="flex items-center justify-between pb-3 mb-4 border-b border-stone-800">
-              <div className="flex items-center gap-2.5">
+          <div className="bg-stone-900 border border-stone-700 rounded-2xl max-w-md w-full p-5 sm:p-6 shadow-2xl max-h-[90vh] overflow-y-auto">
+            <div className="flex items-center justify-between pb-3 mb-4 border-b border-stone-800 gap-2">
+              <div className="flex items-center gap-2.5 min-w-0">
                 <ChamberLogo size="sm" />
-                <div>
+                <div className="min-w-0">
                   <span className="text-[10px] font-bold text-amber-400 uppercase tracking-wider block">
                     {isAr ? "طلب عضوية الغرفة" : "Membership Registration"}
                   </span>
-                  <h4 className="text-base font-bold text-white">
+                  <h4 className="text-sm sm:text-base font-bold text-white truncate">
                     {joinModalTier}
                   </h4>
                 </div>
               </div>
               <button
                 onClick={() => setJoinModalTier(null)}
-                className="p-1.5 rounded-lg bg-stone-800 text-stone-300 hover:text-white"
+                className="p-1.5 rounded-lg bg-stone-800 text-stone-300 hover:text-white shrink-0"
               >
                 <X className="w-4 h-4" />
               </button>
@@ -815,7 +846,7 @@ export default function YemeniChamberNYCPage() {
                   />
                 </div>
 
-                <div className="grid grid-cols-2 gap-3">
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                   <div>
                     <label className="block text-xs text-stone-300 mb-1 font-semibold">
                       {isAr ? "المنطقة" : "NYC Borough / State"}

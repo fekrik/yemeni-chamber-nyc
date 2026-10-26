@@ -106,40 +106,40 @@ export default function CoopSavingsCalculator({
         </div>
 
         {/* Store Type Quick Presets */}
-        <div className="flex flex-wrap items-center gap-2 bg-stone-950 p-1.5 rounded-2xl border border-stone-800">
+        <div className="grid grid-cols-1 sm:flex items-stretch sm:items-center gap-2 bg-stone-950 p-2 rounded-2xl border border-stone-800 w-full lg:w-auto">
           <button
             onClick={() => applyPreset("bodega")}
-            className={`inline-flex items-center gap-1.5 px-3.5 py-2 rounded-xl text-xs font-bold transition-all ${
+            className={`inline-flex items-center justify-center gap-1.5 px-3.5 py-2.5 sm:py-2 rounded-xl text-xs font-bold transition-all ${
               preset === "bodega"
                 ? "bg-amber-500 text-stone-950 shadow"
-                : "text-stone-300 hover:text-white"
+                : "text-stone-300 hover:text-white bg-stone-900/60 sm:bg-transparent"
             }`}
           >
-            <Store className="w-3.5 h-3.5" />
+            <Store className="w-3.5 h-3.5 shrink-0" />
             <span>{isAr ? "بوديقا وديلي" : "Corner Bodega & Deli"}</span>
           </button>
 
           <button
             onClick={() => applyPreset("qahwah")}
-            className={`inline-flex items-center gap-1.5 px-3.5 py-2 rounded-xl text-xs font-bold transition-all ${
+            className={`inline-flex items-center justify-center gap-1.5 px-3.5 py-2.5 sm:py-2 rounded-xl text-xs font-bold transition-all ${
               preset === "qahwah"
                 ? "bg-amber-500 text-stone-950 shadow"
-                : "text-stone-300 hover:text-white"
+                : "text-stone-300 hover:text-white bg-stone-900/60 sm:bg-transparent"
             }`}
           >
-            <Coffee className="w-3.5 h-3.5" />
+            <Coffee className="w-3.5 h-3.5 shrink-0" />
             <span>{isAr ? "مقهى قهوة يمنية" : "Yemeni Qahwah Cafe"}</span>
           </button>
 
           <button
             onClick={() => applyPreset("multi")}
-            className={`inline-flex items-center gap-1.5 px-3.5 py-2 rounded-xl text-xs font-bold transition-all ${
+            className={`inline-flex items-center justify-center gap-1.5 px-3.5 py-2.5 sm:py-2 rounded-xl text-xs font-bold transition-all ${
               preset === "multi"
                 ? "bg-amber-500 text-stone-950 shadow"
-                : "text-stone-300 hover:text-white"
+                : "text-stone-300 hover:text-white bg-stone-900/60 sm:bg-transparent"
             }`}
           >
-            <Building2 className="w-3.5 h-3.5" />
+            <Building2 className="w-3.5 h-3.5 shrink-0" />
             <span>
               {isAr ? "سوبرماركت / عدة فروع (٣)" : "Multi-Store / Market (3x)"}
             </span>
@@ -153,14 +153,16 @@ export default function CoopSavingsCalculator({
         <div className="lg:col-span-7 space-y-6 bg-stone-950/80 border border-stone-800/90 rounded-2xl p-5 sm:p-6">
           {/* Slider 1: Dairy, Condensed Milk & Deli Provisions */}
           <div>
-            <div className="flex items-center justify-between gap-2 mb-2">
-              <label className="text-xs sm:text-sm font-bold text-white flex items-center gap-2">
-                <Store className="w-4 h-4 text-emerald-400" />
-                {isAr
-                  ? "١. مشتريات الحليب، الألبان، ومستلزمات الديلي شهرياً"
-                  : "1. Monthly Dairy, Milk & Halal Deli Wholesale Spend"}
+            <div className="flex items-start sm:items-center justify-between gap-3 mb-2">
+              <label className="text-xs sm:text-sm font-bold text-white flex items-start sm:items-center gap-2 leading-snug">
+                <Store className="w-4 h-4 text-emerald-400 shrink-0 mt-0.5 sm:mt-0" />
+                <span>
+                  {isAr
+                    ? "١. مشتريات الحليب، الألبان، ومستلزمات الديلي شهرياً"
+                    : "1. Monthly Dairy, Milk & Halal Deli Wholesale Spend"}
+                </span>
               </label>
-              <span className="text-sm sm:text-base font-black text-amber-400">
+              <span className="text-sm sm:text-base font-black text-amber-400 shrink-0 whitespace-nowrap">
                 ${dairyDeliSpend.toLocaleString()}{" "}
                 <span className="text-xs font-normal text-stone-400">
                   /{isAr ? "شهر" : "mo"}
@@ -176,13 +178,13 @@ export default function CoopSavingsCalculator({
               onChange={(e) => setDairyDeliSpend(Number(e.target.value))}
               className="w-full accent-amber-500 cursor-pointer h-2 bg-stone-800 rounded-lg"
             />
-            <div className="flex items-center justify-between text-[11px] text-stone-400 mt-1">
-              <span>
+            <div className="flex items-center justify-between gap-2 text-[11px] text-stone-400 mt-1">
+              <span className="leading-snug">
                 {isAr
                   ? "خصم التعاقد الجماعي للغرفة: 14% + توصيل مجاني"
-                  : "Chamber Co-Op Discount: 14% off wholesale + free drop-off"}
+                  : "Chamber Co-Op Discount: 14% off wholesale"}
               </span>
-              <span className="text-emerald-400 font-bold">
+              <span className="text-emerald-400 font-bold shrink-0 whitespace-nowrap">
                 +${(dairyMonthlySavings * storeCount).toLocaleString()}/
                 {isAr ? "شهر" : "mo"}
               </span>
@@ -191,14 +193,16 @@ export default function CoopSavingsCalculator({
 
           {/* Slider 2: Coffee Beans, Spices, Paper Cups & Packaging */}
           <div>
-            <div className="flex items-center justify-between gap-2 mb-2">
-              <label className="text-xs sm:text-sm font-bold text-white flex items-center gap-2">
-                <PackageCheck className="w-4 h-4 text-amber-400" />
-                {isAr
-                  ? "٢. مشتريات البن اليمني، الهيل، الأكواب والأكياس شهرياً"
-                  : "2. Monthly Yemeni Coffee Beans, Spices & Paper Goods"}
+            <div className="flex items-start sm:items-center justify-between gap-3 mb-2">
+              <label className="text-xs sm:text-sm font-bold text-white flex items-start sm:items-center gap-2 leading-snug">
+                <PackageCheck className="w-4 h-4 text-amber-400 shrink-0 mt-0.5 sm:mt-0" />
+                <span>
+                  {isAr
+                    ? "٢. مشتريات البن اليمني، الهيل، الأكواب والأكياس شهرياً"
+                    : "2. Monthly Yemeni Coffee Beans, Spices & Paper Goods"}
+                </span>
               </label>
-              <span className="text-sm sm:text-base font-black text-amber-400">
+              <span className="text-sm sm:text-base font-black text-amber-400 shrink-0 whitespace-nowrap">
                 ${coffeePaperSpend.toLocaleString()}{" "}
                 <span className="text-xs font-normal text-stone-400">
                   /{isAr ? "شهر" : "mo"}
@@ -214,13 +218,13 @@ export default function CoopSavingsCalculator({
               onChange={(e) => setCoffeePaperSpend(Number(e.target.value))}
               className="w-full accent-amber-500 cursor-pointer h-2 bg-stone-800 rounded-lg"
             />
-            <div className="flex items-center justify-between text-[11px] text-stone-400 mt-1">
-              <span>
+            <div className="flex items-center justify-between gap-2 text-[11px] text-stone-400 mt-1">
+              <span className="leading-snug">
                 {isAr
                   ? "استيراد مباشر وتصنيع أكواب موحد: وفر 18%"
-                  : "Pooled container imports & custom cup run: 18% savings"}
+                  : "Pooled container imports & custom cups: 18% savings"}
               </span>
-              <span className="text-emerald-400 font-bold">
+              <span className="text-emerald-400 font-bold shrink-0 whitespace-nowrap">
                 +${(coffeeMonthlySavings * storeCount).toLocaleString()}/
                 {isAr ? "شهر" : "mo"}
               </span>
@@ -229,14 +233,16 @@ export default function CoopSavingsCalculator({
 
           {/* Slider 3: Monthly Credit Card / POS Processing Volume */}
           <div>
-            <div className="flex items-center justify-between gap-2 mb-2">
-              <label className="text-xs sm:text-sm font-bold text-white flex items-center gap-2">
-                <CreditCard className="w-4 h-4 text-sky-400" />
-                {isAr
-                  ? "٣. مبيعات البطاقات البنكية (Credit / Debit POS) شهرياً"
-                  : "3. Monthly Credit/Debit Card POS Volume"}
+            <div className="flex items-start sm:items-center justify-between gap-3 mb-2">
+              <label className="text-xs sm:text-sm font-bold text-white flex items-start sm:items-center gap-2 leading-snug">
+                <CreditCard className="w-4 h-4 text-sky-400 shrink-0 mt-0.5 sm:mt-0" />
+                <span>
+                  {isAr
+                    ? "٣. مبيعات البطاقات البنكية (Credit / Debit POS) شهرياً"
+                    : "3. Monthly Credit/Debit Card POS Volume"}
+                </span>
               </label>
-              <span className="text-sm sm:text-base font-black text-amber-400">
+              <span className="text-sm sm:text-base font-black text-amber-400 shrink-0 whitespace-nowrap">
                 ${cardVolume.toLocaleString()}{" "}
                 <span className="text-xs font-normal text-stone-400">
                   /{isAr ? "شهر" : "mo"}
@@ -252,13 +258,13 @@ export default function CoopSavingsCalculator({
               onChange={(e) => setCardVolume(Number(e.target.value))}
               className="w-full accent-amber-500 cursor-pointer h-2 bg-stone-800 rounded-lg"
             />
-            <div className="flex items-center justify-between text-[11px] text-stone-400 mt-1">
-              <span>
+            <div className="flex items-center justify-between gap-2 text-[11px] text-stone-400 mt-1">
+              <span className="leading-snug">
                 {isAr
-                  ? "تخفيض عمولة البنك + إعداد تسعيرة الكاش القانونية (بدون غرامة $500)"
+                  ? "تخفيض عمولة البنك + إعداد تسعيرة الكاش القانونية"
                   : "Interchange-plus rate cut & legal NYS Cash/Credit setup"}
               </span>
-              <span className="text-emerald-400 font-bold">
+              <span className="text-emerald-400 font-bold shrink-0 whitespace-nowrap">
                 +${(posMonthlySavings * storeCount).toLocaleString()}/
                 {isAr ? "شهر" : "mo"}
               </span>
@@ -267,22 +273,24 @@ export default function CoopSavingsCalculator({
 
           {/* Slider 4: Number of Storefronts */}
           <div className="pt-2 border-t border-stone-800">
-            <div className="flex items-center justify-between gap-2 mb-2">
-              <label className="text-xs sm:text-sm font-bold text-white flex items-center gap-2">
-                <Users className="w-4 h-4 text-purple-400" />
-                {isAr
-                  ? "٤. عدد المحلات أو الفروع التابعة لك أو لعائلتك"
-                  : "4. Number of Storefronts in Your Family / Group"}
+            <div className="flex items-start sm:items-center justify-between gap-3 mb-2">
+              <label className="text-xs sm:text-sm font-bold text-white flex items-start sm:items-center gap-2 leading-snug">
+                <Users className="w-4 h-4 text-purple-400 shrink-0 mt-0.5 sm:mt-0" />
+                <span>
+                  {isAr
+                    ? "٤. عدد المحلات أو الفروع التابعة لك أو لعائلتك"
+                    : "4. Number of Storefronts in Your Family / Group"}
+                </span>
               </label>
-              <span className="px-3 py-1 rounded-lg bg-amber-500/20 border border-amber-500/40 text-amber-300 font-black text-xs">
+              <span className="px-2.5 py-1 rounded-lg bg-amber-500/20 border border-amber-500/40 text-amber-300 font-black text-xs shrink-0 whitespace-nowrap">
                 {storeCount}{" "}
                 {isAr
                   ? storeCount === 1
-                    ? "محل واحد"
+                    ? "محل"
                     : "فروع"
                   : storeCount === 1
-                  ? "Storefront"
-                  : "Locations"}
+                  ? "Store"
+                  : "Stores"}
               </span>
             </div>
             <input
@@ -298,21 +306,21 @@ export default function CoopSavingsCalculator({
         </div>
 
         {/* Right 5 Cols: Live Annual Savings & Community Power Output */}
-        <div className="lg:col-span-5 flex flex-col justify-between bg-stone-950 border-2 border-emerald-500/40 rounded-2xl p-6 shadow-xl">
+        <div className="lg:col-span-5 flex flex-col justify-between bg-stone-950 border-2 border-emerald-500/40 rounded-2xl p-5 sm:p-6 shadow-xl">
           <div>
-            <div className="flex items-center justify-between gap-2">
+            <div className="flex flex-wrap items-center justify-between gap-2">
               <span className="text-xs font-bold uppercase tracking-wider text-emerald-400">
                 {isAr
                   ? "إجمالي التوفير السنوي المتوقع لمحلك"
                   : "Your Estimated Annual Net Savings"}
               </span>
-              <span className="px-2.5 py-1 rounded-full bg-amber-500/20 text-amber-300 border border-amber-500/30 text-xs font-extrabold">
+              <span className="px-2.5 py-1 rounded-full bg-amber-500/20 text-amber-300 border border-amber-500/30 text-xs font-extrabold shrink-0">
                 {roiMultiple}x {isAr ? "ضعف رسوم العضوية" : "Membership ROI"}
               </span>
             </div>
 
-            <div className="mt-3 flex items-baseline gap-2">
-              <span className="text-4xl sm:text-5xl font-black text-emerald-400 tracking-tight">
+            <div className="mt-3 flex flex-wrap items-baseline gap-2">
+              <span className="text-3xl sm:text-5xl font-black text-emerald-400 tracking-tight">
                 ${totalAnnualSavings.toLocaleString()}
               </span>
               <span className="text-xs text-stone-400 font-semibold">
@@ -328,46 +336,46 @@ export default function CoopSavingsCalculator({
 
             {/* Itemized Breakdown */}
             <div className="mt-5 space-y-2.5 pt-4 border-t border-stone-800 text-xs">
-              <div className="flex items-center justify-between text-stone-300">
-                <span>
+              <div className="flex items-start justify-between gap-2 text-stone-300">
+                <span className="leading-snug">
                   {isAr
                     ? "• وفر الألبان والحليب والديلي (14%):"
-                    : "• Dairy, Condensed Milk & Deli Co-Op (14%):"}
+                    : "• Dairy, Milk & Deli Co-Op (14%):"}
                 </span>
-                <strong className="text-white">
+                <strong className="text-white shrink-0 whitespace-nowrap">
                   +${(dairyMonthlySavings * 12 * storeCount).toLocaleString()}
                   /{isAr ? "سنة" : "yr"}
                 </strong>
               </div>
-              <div className="flex items-center justify-between text-stone-300">
-                <span>
+              <div className="flex items-start justify-between gap-2 text-stone-300">
+                <span className="leading-snug">
                   {isAr
                     ? "• وفر البن اليمني والأكواب والتغليف (18%):"
-                    : "• Direct Coffee Beans & Custom Cups (18%):"}
+                    : "• Coffee Beans & Custom Cups (18%):"}
                 </span>
-                <strong className="text-white">
+                <strong className="text-white shrink-0 whitespace-nowrap">
                   +${(coffeeMonthlySavings * 12 * storeCount).toLocaleString()}
                   /{isAr ? "سنة" : "yr"}
                 </strong>
               </div>
-              <div className="flex items-center justify-between text-stone-300">
-                <span>
+              <div className="flex items-start justify-between gap-2 text-stone-300">
+                <span className="leading-snug">
                   {isAr
                     ? "• وفر عمولات الكريدت كارد (POS):"
-                    : "• POS Processing & Dual-Pricing Savings:"}
+                    : "• POS Processing & Dual Pricing:"}
                 </span>
-                <strong className="text-white">
+                <strong className="text-white shrink-0 whitespace-nowrap">
                   +${(posMonthlySavings * 12 * storeCount).toLocaleString()}/
                   {isAr ? "سنة" : "yr"}
                 </strong>
               </div>
-              <div className="flex items-center justify-between text-stone-300">
-                <span>
+              <div className="flex items-start justify-between gap-2 text-stone-300">
+                <span className="leading-snug">
                   {isAr
                     ? "• تفادي غرامات OATH وأتعاب المعاملات:"
-                    : "• Avoided OATH Default Fines & Filing Prep:"}
+                    : "• Avoided OATH Fines & Filing Prep:"}
                 </span>
-                <strong className="text-emerald-300">
+                <strong className="text-emerald-300 shrink-0 whitespace-nowrap">
                   +${(complianceSavingsPerMonth * 12 * storeCount).toLocaleString()}
                   /{isAr ? "سنة" : "yr"}
                 </strong>

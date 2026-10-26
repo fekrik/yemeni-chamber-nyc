@@ -273,16 +273,16 @@ export default function DigitalStorefrontBuilder({
           </div>
 
           {/* Template Switcher */}
-          <div className="flex items-center gap-2 bg-stone-950 p-1.5 rounded-2xl border border-stone-800 shrink-0">
+          <div className="grid grid-cols-1 sm:flex items-stretch sm:items-center gap-2 bg-stone-950 p-2 rounded-2xl border border-stone-800 w-full lg:w-auto shrink-0">
             <button
               onClick={() => switchTemplate("qahwah")}
-              className={`inline-flex items-center gap-2 px-4 py-2.5 rounded-xl text-xs sm:text-sm font-bold transition-all ${
+              className={`inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl text-xs sm:text-sm font-bold transition-all ${
                 template === "qahwah"
                   ? "bg-amber-500 text-stone-950 shadow"
-                  : "text-stone-300 hover:text-white"
+                  : "text-stone-300 hover:text-white bg-stone-900/60 sm:bg-transparent"
               }`}
             >
-              <Coffee className="w-4 h-4" />
+              <Coffee className="w-4 h-4 shrink-0" />
               <span>
                 {isAr ? "نموذج مقهى قهوة يمنية" : "Yemeni Qahwah Template"}
               </span>
@@ -290,13 +290,13 @@ export default function DigitalStorefrontBuilder({
 
             <button
               onClick={() => switchTemplate("bodega")}
-              className={`inline-flex items-center gap-2 px-4 py-2.5 rounded-xl text-xs sm:text-sm font-bold transition-all ${
+              className={`inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl text-xs sm:text-sm font-bold transition-all ${
                 template === "bodega"
                   ? "bg-emerald-500 text-stone-950 shadow"
-                  : "text-stone-300 hover:text-white"
+                  : "text-stone-300 hover:text-white bg-stone-900/60 sm:bg-transparent"
               }`}
             >
-              <Store className="w-4 h-4" />
+              <Store className="w-4 h-4 shrink-0" />
               <span>
                 {isAr ? "نموذج بوديقا وديلي حلال" : "NYC Bodega & Deli Template"}
               </span>
@@ -465,17 +465,17 @@ export default function DigitalStorefrontBuilder({
             </form>
 
             {/* Menu Items List */}
-            <div className="space-y-2 max-h-[300px] overflow-y-auto pr-1">
+            <div className="space-y-2.5 max-h-[320px] overflow-y-auto pr-1">
               {items.map((item) => {
                 const cardPrice = getCardPrice(item.cashPrice);
                 return (
                   <div
                     key={item.id}
-                    className="flex items-center justify-between gap-3 bg-stone-900/90 border border-stone-800 rounded-xl p-3"
+                    className="flex flex-col sm:flex-row sm:items-center justify-between gap-2.5 bg-stone-900/90 border border-stone-800 rounded-xl p-3.5"
                   >
                     <div className="min-w-0">
                       <div className="flex flex-wrap items-center gap-1.5">
-                        <span className="font-bold text-white text-xs sm:text-sm truncate">
+                        <span className="font-bold text-white text-xs sm:text-sm leading-snug">
                           {item.name[lang]}
                         </span>
                         {item.ebtEligible ? (
@@ -501,10 +501,10 @@ export default function DigitalStorefrontBuilder({
                       </div>
                     </div>
 
-                    <div className="flex items-center gap-2 shrink-0">
+                    <div className="flex items-center justify-end gap-2 shrink-0 pt-1 sm:pt-0 border-t sm:border-t-0 border-stone-800/70">
                       <button
                         onClick={() => updateCart(item.id, 1)}
-                        className="px-2.5 py-1 rounded-lg bg-emerald-500/20 hover:bg-emerald-500/30 text-emerald-300 text-xs font-bold"
+                        className="px-3 py-1.5 rounded-lg bg-emerald-500/20 hover:bg-emerald-500/30 text-emerald-300 text-xs font-bold whitespace-nowrap"
                       >
                         + {isAr ? "للطلب" : "Test Order"}
                       </button>
