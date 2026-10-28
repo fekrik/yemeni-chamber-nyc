@@ -25,10 +25,17 @@ import {
   Send,
   Delete,
   Delete as Backspace,
+  Pause,
+  Play,
 } from "lucide-react";
 import { Exam, Question, Passage } from "@/types/shsat";
 import FormulaSheetModal from "./FormulaSheetModal";
 import ScoreReportModal from "./ScoreReportModal";
+import {
+  getExamSession,
+  saveExamSession,
+  clearExamSession,
+} from "@/lib/shsatStorage";
 
 interface ExamSimulatorProps {
   exam: Exam;
@@ -77,6 +84,62 @@ export default function ExamSimulator({
 
   // Font size multiplier for passage (1 = base, 1.15 = large, 1.3 = xlarge)
   const [passageFontSize, setPassageFontSize] = useState<"sm" | "base" | "lg">("base");
+
+  // Pause modal state
+  const [pauseModalOpen, setPauseModalOpen] = useState(false);
+
+  // Initial restoration flag to prevent overwriting saved progress on mount
+  const isRestoredRef = useRef(false);
+
+  // Restore saved session from localStorage on mount
+  useEffect(() => {
+    if (isRestoredRef.current) return;
+    const saved = getExamSession(exam.id);
+    if (saved) {
+      if (saved.answers) setAnswers(saved.answers);
+      if (saved.flaggedQuestions) setFlaggedQuestions(saved.flaggedQuestions);
+      if (saved.struckOptions) setStruckOptions(saved.struckOptions);
+      if (saved.revealedHints) setRevealedHints(saved.revealedHints);
+      if (saved.checkedAnswers) setCheckedAnswers(saved.checkedAnswers);
+      if (typeof saved.currentIndex === "number" && saved.currentIndex < questions.length) {
+        setCurrentIndex(saved.currentIndex);
+      }
+      if (typeof saved.timeRemaining === "number" && saved.timeRemaining > 0) {
+        setTimeRemaining(saved.timeRemaining);
+      }
+    }
+    isRestoredRef.current = true;
+  }, [exam.id, questions.length]);
+
+  // Auto-save progress whenever answers, flags, hints, or positions change
+  useEffect(() => {
+    if (!isRestoredRef.current) return;
+    saveExamSession({
+      examId: exam.id,
+      mode,
+      currentIndex,
+      answers,
+      flaggedQuestions,
+      struckOptions,
+      revealedHints,
+      checkedAnswers,
+      timeRemaining,
+      answeredCount: Object.keys(answers).length,
+      totalQuestions: questions.length,
+      updatedAt: Date.now(),
+    });
+  }, [
+    exam.id,
+    mode,
+    currentIndex,
+    answers,
+    flaggedQuestions,
+    struckOptions,
+    revealedHints,
+    checkedAnswers,
+    timeRemaining,
+    questions.length,
+  ]);
 
   // Keypad buffer for text entry items
   const [keypadInput, setKeypadInput] = useState("");
@@ -269,10 +332,15 @@ export default function ExamSimulator({
           {/* Left: Test Name & Section Pills */}
           <div className="flex items-center space-x-3">
             <button
-              onClick={onExit}
-              className="px-2.5 py-1.5 rounded-lg border border-slate-700 bg-slate-800 hover:bg-slate-700 text-xs text-slate-300 font-medium transition-colors"
+              onClick={() => {
+                setIsTimerPaused(true);
+                setPauseModalOpen(true);
+              }}
+              className="px-3 py-1.5 rounded-lg border border-amber-500/40 bg-amber-500/10 hover:bg-amber-500/20 text-xs text-amber-300 font-bold flex items-center space-x-1.5 transition-all shadow-sm"
+              title="Pause and save progress"
             >
-              Exit
+              <Pause className="w-3.5 h-3.5" />
+              <span>Pause & Save</span>
             </button>
             <div className="hidden sm:block">
               <h2 className="text-sm font-bold text-white truncate max-w-[200px] md:max-w-xs">
@@ -927,6 +995,61 @@ export default function ExamSimulator({
         </div>
       )}
 
+      {/* Pause / Resume Modal */}
+      {pauseModalOpen && (
+        <div className="fixed inset-0 z-50 bg-slate-950/80 backdrop-blur-sm flex items-center justify-center p-4">
+          <div className="bg-slate-900 border border-slate-700 rounded-3xl max-w-md w-full p-6 text-white shadow-2xl animate-in fade-in zoom-in-95">
+            <div className="w-12 h-12 rounded-2xl bg-amber-500/20 text-amber-400 border border-amber-500/30 flex items-center justify-center mx-auto mb-4">
+              <Pause className="w-6 h-6" />
+            </div>
+            <h3 className="text-xl font-bold text-center">Test Paused & Saved</h3>
+            <p className="text-xs text-slate-300 text-center mt-2 leading-relaxed">
+              Your test session has been safely saved on this device. You can close your browser or resume whenever you're ready.
+            </p>
+
+            <div className="my-5 p-4 rounded-2xl bg-slate-950/70 border border-slate-800 space-y-2.5 text-xs">
+              <div className="flex justify-between text-slate-400">
+                <span>Questions Answered:</span>
+                <span className="font-bold text-white">
+                  {Object.keys(answers).filter((k) => answers[k]).length} of {questions.length}
+                </span>
+              </div>
+              <div className="flex justify-between text-slate-400">
+                <span>Current Position:</span>
+                <span className="font-bold text-indigo-400">Question #{currentIndex + 1}</span>
+              </div>
+              <div className="flex justify-between text-slate-400">
+                <span>Time Remaining:</span>
+                <span className="font-bold text-amber-400 font-mono">{formattedTime}</span>
+              </div>
+            </div>
+
+            <div className="flex flex-col gap-2.5">
+              <button
+                onClick={() => {
+                  setIsTimerPaused(false);
+                  setPauseModalOpen(false);
+                }}
+                className="w-full py-3 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-xs flex items-center justify-center space-x-2 transition-all shadow-lg shadow-indigo-600/30"
+              >
+                <Play className="w-4 h-4 fill-current" />
+                <span>Resume Test Now</span>
+              </button>
+
+              <button
+                onClick={() => {
+                  setPauseModalOpen(false);
+                  onExit();
+                }}
+                className="w-full py-2.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-300 text-xs font-semibold transition-colors"
+              >
+                Save & Exit to Dashboard
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+
       {/* Score Report Modal */}
       <ScoreReportModal
         isOpen={scoreReportOpen}
@@ -944,6 +1067,7 @@ export default function ExamSimulator({
           setCurrentIndex(0);
         }}
         onRetakeExam={() => {
+          clearExamSession(exam.id);
           setScoreReportOpen(false);
           setAnswers({});
           setStruckOptions({});
