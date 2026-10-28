@@ -85,6 +85,9 @@ export default function ExamSimulator({
   // Font size multiplier for passage (1 = base, 1.15 = large, 1.3 = xlarge)
   const [passageFontSize, setPassageFontSize] = useState<"sm" | "base" | "lg">("base");
 
+  // Mobile segmented view state for ELA (passage vs question)
+  const [mobileTab, setMobileTab] = useState<"passage" | "question">("question");
+
   // Pause modal state
   const [pauseModalOpen, setPauseModalOpen] = useState(false);
 
@@ -327,23 +330,26 @@ export default function ExamSimulator({
   return (
     <div className="min-h-screen bg-slate-950 text-slate-100 flex flex-col select-none">
       {/* Test Runner Top Header */}
-      <header className="sticky top-0 z-40 bg-slate-900/95 border-b border-slate-800 backdrop-blur-md px-4 sm:px-6 py-3">
-        <div className="max-w-7xl mx-auto flex items-center justify-between gap-2">
-          {/* Left: Test Name & Section Pills */}
-          <div className="flex items-center space-x-3">
+      <header className="sticky top-0 z-40 bg-slate-900/95 border-b border-slate-800 backdrop-blur-md px-3 sm:px-6 py-2.5 sm:py-3">
+        <div className="max-w-7xl mx-auto space-y-2 md:space-y-0 md:flex md:items-center md:justify-between md:gap-2">
+          {/* Row 1 on Mobile: Pause, Center Timer, Submit */}
+          <div className="flex items-center justify-between w-full md:w-auto md:space-x-3">
             <button
               onClick={() => {
                 setIsTimerPaused(true);
                 setPauseModalOpen(true);
               }}
-              className="px-3 py-1.5 rounded-lg border border-amber-500/40 bg-amber-500/10 hover:bg-amber-500/20 text-xs text-amber-300 font-bold flex items-center space-x-1.5 transition-all shadow-sm"
+              className="px-2.5 sm:px-3 py-1.5 rounded-lg border border-amber-500/40 bg-amber-500/10 hover:bg-amber-500/20 text-xs text-amber-300 font-bold flex items-center space-x-1.5 transition-all shadow-sm"
               title="Pause and save progress"
             >
               <Pause className="w-3.5 h-3.5" />
-              <span>Pause & Save</span>
+              <span className="hidden xs:inline">Pause & Save</span>
+              <span className="xs:hidden">Pause</span>
             </button>
-            <div className="hidden sm:block">
-              <h2 className="text-sm font-bold text-white truncate max-w-[200px] md:max-w-xs">
+
+            {/* Title on medium+ screens */}
+            <div className="hidden lg:block">
+              <h2 className="text-sm font-bold text-white truncate max-w-[180px] xl:max-w-xs">
                 {exam.title}
               </h2>
               <span className="text-[10px] text-amber-400 font-mono">
@@ -351,94 +357,102 @@ export default function ExamSimulator({
               </span>
             </div>
 
+            {/* Mobile Center Timer */}
+            <div className="flex items-center space-x-1.5 bg-slate-800/90 border border-slate-700 px-2.5 py-1 sm:py-1.5 rounded-xl">
+              <Timer
+                className={`w-3.5 h-3.5 sm:w-4 sm:h-4 ${
+                  timeRemaining < 600 ? "text-rose-400 animate-pulse" : "text-amber-400"
+                }`}
+              />
+              {!isTimerHidden ? (
+                <span
+                  className={`font-mono text-xs sm:text-sm font-bold tracking-wider ${
+                    timeRemaining < 600 ? "text-rose-400" : "text-slate-200"
+                  }`}
+                >
+                  {formattedTime}
+                </span>
+              ) : (
+                <span className="font-mono text-xs text-slate-400">Hidden</span>
+              )}
+              <button
+                onClick={() => setIsTimerHidden(!isTimerHidden)}
+                className="text-slate-400 hover:text-slate-200 p-0.5"
+                title="Toggle timer visibility"
+              >
+                {isTimerHidden ? <Eye className="w-3 h-3" /> : <EyeOff className="w-3 h-3" />}
+              </button>
+            </div>
+
+            {/* Mobile Submit Button */}
+            <button
+              onClick={() => setScoreReportOpen(true)}
+              className="md:hidden px-2.5 py-1.5 rounded-lg bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold shadow-md shadow-indigo-600/30 transition-all"
+            >
+              {mode === "full_sim" ? "Finish" : "Score"}
+            </button>
+          </div>
+
+          {/* Row 2 on Mobile / Right side on Desktop: Tool belt & Section Switcher */}
+          <div className="flex items-center justify-between sm:justify-end gap-1.5 sm:gap-2 overflow-x-auto no-scrollbar pt-1 md:pt-0">
             {/* Section Switcher */}
-            <div className="flex bg-slate-800 p-0.5 rounded-lg border border-slate-700/80 text-xs">
+            <div className="flex bg-slate-800 p-0.5 rounded-lg border border-slate-700/80 text-xs shrink-0">
               <button
                 onClick={() => {
                   const firstElaIdx = questions.findIndex((q) => q.section === "ela");
                   if (firstElaIdx >= 0) setCurrentIndex(firstElaIdx);
                 }}
-                className={`px-3 py-1 rounded-md font-medium transition-colors ${
+                className={`px-2.5 sm:px-3 py-1 rounded-md font-medium text-[11px] sm:text-xs transition-colors ${
                   currentQ.section === "ela"
                     ? "bg-indigo-600 text-white shadow-sm"
                     : "text-slate-400 hover:text-white"
                 }`}
               >
-                Part 1: ELA
+                ELA
               </button>
               <button
                 onClick={() => {
                   const firstMathIdx = questions.findIndex((q) => q.section === "math");
                   if (firstMathIdx >= 0) setCurrentIndex(firstMathIdx);
                 }}
-                className={`px-3 py-1 rounded-md font-medium transition-colors ${
+                className={`px-2.5 sm:px-3 py-1 rounded-md font-medium text-[11px] sm:text-xs transition-colors ${
                   currentQ.section === "math"
                     ? "bg-emerald-600 text-white shadow-sm"
                     : "text-slate-400 hover:text-white"
                 }`}
               >
-                Part 2: Math
+                Math
               </button>
             </div>
-          </div>
 
-          {/* Center: Countdown Timer */}
-          <div className="flex items-center space-x-2 bg-slate-800/90 border border-slate-700 px-3 py-1.5 rounded-xl">
-            <Timer
-              className={`w-4 h-4 ${
-                timeRemaining < 600 ? "text-rose-400 animate-pulse" : "text-amber-400"
-              }`}
-            />
-            {!isTimerHidden ? (
-              <span
-                className={`font-mono text-sm font-bold tracking-wider ${
-                  timeRemaining < 600 ? "text-rose-400" : "text-slate-200"
-                }`}
-              >
-                {formattedTime}
-              </span>
-            ) : (
-              <span className="font-mono text-xs text-slate-400">Hidden</span>
-            )}
-            <button
-              onClick={() => setIsTimerHidden(!isTimerHidden)}
-              className="text-slate-400 hover:text-slate-200 p-0.5"
-              title="Toggle timer visibility"
-            >
-              {isTimerHidden ? <Eye className="w-3.5 h-3.5" /> : <EyeOff className="w-3.5 h-3.5" />}
-            </button>
-          </div>
-
-          {/* Right: Test Day Action Tools */}
-          <div className="flex items-center space-x-2">
             {/* Strike-Through Tool */}
             <button
               onClick={() => setStrikeThroughActive(!strikeThroughActive)}
-              className={`p-2 rounded-lg border text-xs font-semibold flex items-center space-x-1.5 transition-all ${
+              className={`p-1.5 sm:p-2 rounded-lg border text-xs font-semibold flex items-center space-x-1 transition-all shrink-0 ${
                 strikeThroughActive
                   ? "bg-rose-500/20 text-rose-300 border-rose-500/50 shadow-sm"
                   : "bg-slate-800 border-slate-700 text-slate-300 hover:text-white"
               }`}
-              title="Strike-Through Elimination Tool: Click any option to cross it out"
+              title="Strike-Through Elimination Tool"
             >
-              <Strikethrough className="w-4 h-4 text-rose-400" />
-              <span className="hidden md:inline">POE</span>
+              <Strikethrough className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-rose-400" />
+              <span className="text-[11px]">POE</span>
             </button>
 
             {/* Formula Reference */}
             <button
               onClick={() => setFormulaModalOpen(true)}
-              className="p-2 rounded-lg bg-slate-800 border border-slate-700 hover:bg-slate-700 text-slate-300 hover:text-white text-xs font-semibold flex items-center space-x-1.5 transition-colors"
+              className="p-1.5 sm:p-2 rounded-lg bg-slate-800 border border-slate-700 hover:bg-slate-700 text-slate-300 hover:text-white text-xs font-semibold flex items-center space-x-1 transition-colors shrink-0"
               title="Official NYC SHSAT Math Formulas Sheet"
             >
-              <FileText className="w-4 h-4 text-indigo-400" />
-              <span className="hidden md:inline">Formulas</span>
+              <FileText className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-indigo-400" />
+              <span className="hidden sm:inline text-[11px]">Formulas</span>
             </button>
 
             {/* Flag for Review */}
             <button
               onClick={toggleFlag}
-              className={`p-2 rounded-lg border text-xs font-semibold flex items-center space-x-1.5 transition-all ${
+              className={`p-1.5 sm:p-2 rounded-lg border text-xs font-semibold flex items-center space-x-1 transition-all shrink-0 ${
                 flaggedQuestions[currentQ.id]
                   ? "bg-amber-500/20 text-amber-300 border-amber-500/50"
                   : "bg-slate-800 border-slate-700 text-slate-300 hover:text-white"
@@ -446,27 +460,27 @@ export default function ExamSimulator({
               title="Flag question for later review"
             >
               <Flag
-                className={`w-4 h-4 ${
+                className={`w-3.5 h-3.5 sm:w-4 sm:h-4 ${
                   flaggedQuestions[currentQ.id] ? "text-amber-400 fill-amber-400" : "text-slate-400"
                 }`}
               />
-              <span className="hidden md:inline">Flag</span>
+              <span className="hidden sm:inline text-[11px]">Flag</span>
             </button>
 
             {/* Question Palette Grid */}
             <button
               onClick={() => setPaletteModalOpen(true)}
-              className="p-2 rounded-lg bg-slate-800 border border-slate-700 hover:bg-slate-700 text-slate-300 hover:text-white text-xs font-semibold flex items-center space-x-1.5 transition-colors"
+              className="p-1.5 sm:p-2 rounded-lg bg-slate-800 border border-slate-700 hover:bg-slate-700 text-slate-300 hover:text-white text-xs font-semibold flex items-center space-x-1 transition-colors shrink-0"
               title="Question Navigator Palette (1-100)"
             >
-              <Grid className="w-4 h-4 text-cyan-400" />
-              <span className="font-mono text-xs">{currentIndex + 1}/100</span>
+              <Grid className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-cyan-400" />
+              <span className="font-mono text-[11px] sm:text-xs">{currentIndex + 1}/100</span>
             </button>
 
-            {/* Finish & Grade */}
+            {/* Finish & Grade on Desktop */}
             <button
               onClick={() => setScoreReportOpen(true)}
-              className="px-3.5 py-1.5 rounded-lg bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold shadow-md shadow-indigo-600/30 transition-all"
+              className="hidden md:inline-flex px-3.5 py-1.5 rounded-lg bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold shadow-md shadow-indigo-600/30 transition-all shrink-0"
             >
               {mode === "full_sim" ? "Submit Exam" : "View Score"}
             </button>
@@ -475,10 +489,42 @@ export default function ExamSimulator({
       </header>
 
       {/* Main Test Content Grid */}
-      <main className="flex-1 max-w-7xl w-full mx-auto p-4 sm:p-6 grid grid-cols-1 lg:grid-cols-12 gap-6 overflow-hidden">
+      <main className="flex-1 max-w-7xl w-full mx-auto p-3 sm:p-6 flex flex-col lg:grid lg:grid-cols-12 gap-4 lg:gap-6 overflow-hidden">
+        {/* Mobile Segmented Switcher for ELA Passage vs Question */}
+        {currentQ.section === "ela" && currentPassage && (
+          <div className="lg:hidden flex items-center bg-slate-900 border border-slate-800 rounded-xl p-1 shrink-0">
+            <button
+              onClick={() => setMobileTab("passage")}
+              className={`flex-1 py-1.5 px-3 rounded-lg text-xs font-bold transition-all flex items-center justify-center space-x-1.5 ${
+                mobileTab === "passage"
+                  ? "bg-indigo-600 text-white shadow-sm"
+                  : "text-slate-400 hover:text-white"
+              }`}
+            >
+              <BookOpen className="w-3.5 h-3.5" />
+              <span>Read Passage {currentPassage.passageNumber}</span>
+            </button>
+            <button
+              onClick={() => setMobileTab("question")}
+              className={`flex-1 py-1.5 px-3 rounded-lg text-xs font-bold transition-all flex items-center justify-center space-x-1.5 ${
+                mobileTab === "question"
+                  ? "bg-indigo-600 text-white shadow-sm"
+                  : "text-slate-400 hover:text-white"
+              }`}
+            >
+              <HelpCircle className="w-3.5 h-3.5" />
+              <span>Question #{currentQ.questionNumber}</span>
+            </button>
+          </div>
+        )}
+
         {/* Left Column: ELA Reading Passage (Only shown in ELA section) */}
         {currentQ.section === "ela" && currentPassage && (
-          <div className="lg:col-span-6 bg-slate-900 border border-slate-800 rounded-2xl flex flex-col max-h-[calc(100vh-140px)] shadow-xl overflow-hidden">
+          <div
+            className={`lg:col-span-6 bg-slate-900 border border-slate-800 rounded-2xl flex-col max-h-[calc(100vh-190px)] lg:max-h-[calc(100vh-140px)] shadow-xl overflow-hidden ${
+              mobileTab === "passage" ? "flex" : "hidden lg:flex"
+            }`}
+          >
             {/* Passage Header */}
             <div className="px-5 py-3 border-b border-slate-800 bg-slate-900/90 flex items-center justify-between">
               <div>
@@ -563,6 +609,17 @@ export default function ExamSimulator({
                 </div>
               )}
             </div>
+
+            {/* Mobile "Go to Question" shortcut */}
+            <div className="lg:hidden p-3 border-t border-slate-800 bg-slate-900/90 flex justify-end shrink-0">
+              <button
+                onClick={() => setMobileTab("question")}
+                className="w-full py-2.5 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-xs flex items-center justify-center space-x-1.5 shadow-md shadow-indigo-600/30"
+              >
+                <span>Answer Question #{currentQ.questionNumber}</span>
+                <ChevronRight className="w-4 h-4" />
+              </button>
+            </div>
           </div>
         )}
 
@@ -570,8 +627,26 @@ export default function ExamSimulator({
         <div
           className={`${
             currentQ.section === "ela" && currentPassage ? "lg:col-span-6" : "lg:col-span-12 max-w-3xl mx-auto"
-          } w-full flex flex-col space-y-4 max-h-[calc(100vh-140px)] overflow-y-auto pr-1`}
+          } w-full flex-col space-y-4 max-h-[calc(100vh-190px)] lg:max-h-[calc(100vh-140px)] overflow-y-auto pr-1 ${
+            currentQ.section === "ela" && currentPassage && mobileTab === "passage"
+              ? "hidden lg:flex"
+              : "flex"
+          }`}
         >
+          {/* Quick Mobile button to jump back to Passage */}
+          {currentPassage && (
+            <button
+              onClick={() => setMobileTab("passage")}
+              className="lg:hidden py-1.5 px-3 rounded-xl bg-indigo-500/10 hover:bg-indigo-500/20 text-indigo-300 border border-indigo-500/30 text-xs font-semibold flex items-center justify-between transition-colors shrink-0"
+            >
+              <span className="flex items-center space-x-1.5 truncate">
+                <BookOpen className="w-3.5 h-3.5 shrink-0" />
+                <span className="truncate">Passage: {currentPassage.title}</span>
+              </span>
+              <span className="text-[11px] font-bold text-indigo-400 shrink-0 ml-2">Re-read 📖</span>
+            </button>
+          )}
+
           {/* Question Card */}
           <div className="bg-slate-900 border border-slate-800 rounded-2xl p-5 shadow-xl flex flex-col space-y-4">
             {/* Question Subheader */}
@@ -904,7 +979,7 @@ export default function ExamSimulator({
                 <p className="text-xs font-bold uppercase text-indigo-400 tracking-wider mb-2">
                   Part 1: English Language Arts (Questions 1–50)
                 </p>
-                <div className="grid grid-cols-10 gap-1.5">
+                <div className="grid grid-cols-5 sm:grid-cols-10 gap-2 sm:gap-1.5">
                   {questions.slice(0, 50).map((q, idx) => {
                     const isAns = !!answers[q.id];
                     const isFlg = !!flaggedQuestions[q.id];
@@ -940,7 +1015,7 @@ export default function ExamSimulator({
                 <p className="text-xs font-bold uppercase text-emerald-400 tracking-wider mb-2">
                   Part 2: Mathematics (Questions 51–100)
                 </p>
-                <div className="grid grid-cols-10 gap-1.5">
+                <div className="grid grid-cols-5 sm:grid-cols-10 gap-2 sm:gap-1.5">
                   {questions.slice(50, 100).map((q, idx) => {
                     const actualIdx = idx + 50;
                     const isAns = !!answers[q.id];
