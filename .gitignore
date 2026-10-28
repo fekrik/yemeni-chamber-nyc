@@ -26,3 +26,15 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# scratch & unrelated subprojects
+/scopelock/
+/collect-plants/
+/scripts/
+/data/
+/public/exams/
+src/components/shsat/
+src/data/shsatExams.ts
+src/types/shsat.ts
+
+

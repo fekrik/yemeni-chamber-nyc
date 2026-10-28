@@ -260,6 +260,96 @@ export const INITIAL_DIRECTORY_BUSINESSES: DirectoryBusiness[] = [
       { ar: "تخفيضات عائلية لحاملي بطاقة الغرفة", en: "Member Family Grocery Perks" },
     ],
   },
+  {
+    id: "biz-8",
+    name: {
+      ar: "أسواق ومستودع دار الحجر للجملة (اليمن الصغير)",
+      en: "Dar Alhajr Markets & Wholesale (Little Yemen)",
+    },
+    category: "wholesale",
+    categoryLabel: { ar: "سوق جملة ومواد غذائية", en: "Wholesale & Arabic Grocery" },
+    borough: "Bronx",
+    boroughAr: "البرونكس",
+    neighborhood: { ar: "موريس بارك (اليمن الصغير)", en: "Morris Park (Little Yemen)" },
+    address: "666 Morris Park Ave, Bronx, NY 10462",
+    foundedYear: 2010,
+    verifiedMember: true,
+    b2bPartner: true,
+    specialty: {
+      ar: "بهارات يمنية، عسل سدر دوعني، تمور، ومستلزمات البوديقا بالجملة",
+      en: "Doani Sidr Honey, Adani Spices, Bulk Rice, Olive Oil & Bodega Paper Goods",
+    },
+    description: {
+      ar: "المركز التمويني الأكبر للجالية اليمنية وأصحاب البوديقا في شارع موريس بارك بالبرونكس.",
+      en: "The historic wholesale anchor of the Little Yemen corridor in the Bronx, supplying hundreds of delis.",
+    },
+    phone: "(718) 824-6000",
+    hours: { ar: "٧:٠٠ ص – ١١:٠٠ م", en: "7:00 AM – 11:00 PM" },
+    highlights: [
+      { ar: "توريد بالجملة للمحلات الأعضاء", en: "Commercial Wholesale Pricing for Members" },
+      { ar: "عسل سدر يمني أصيل ومفحوص", en: "Authentic Doan Valley Sidr Honey" },
+    ],
+  },
+  {
+    id: "biz-9",
+    name: {
+      ar: "مطعم ومقهى اليمن في شارع أتلانتيك التاريخي",
+      en: "Yemen Cafe & Restaurant (Atlantic Ave)",
+    },
+    category: "restaurant",
+    categoryLabel: { ar: "مطعم يمني عريق", en: "Historic Traditional Yemeni Restaurant" },
+    borough: "Brooklyn",
+    boroughAr: "بروكلين",
+    neighborhood: { ar: "شارع أتلانتيك / كابل هيل", en: "Atlantic Ave (Cobble Hill / Brooklyn Heights)" },
+    address: "176 Atlantic Ave, Brooklyn, NY 11201",
+    foundedYear: 1986,
+    verifiedMember: true,
+    b2bPartner: true,
+    specialty: {
+      ar: "سلتة، حنيذ لحم غنم، فحسة بالمرق، خبز ملوح ساخن، وضيافة خارجية",
+      en: "Stone-pot Saltah, Slow-roasted Haneeth Lamb, Sizzling Fahsah & Corporate Catering",
+    },
+    description: {
+      ar: "أول وأعرق مطعم يمني في نيويورك منذ عام 1986. مقصد محبي المطبخ اليمني الأصيل من جميع أنحاء أمريكا.",
+      en: "NYC's oldest and most celebrated Yemeni culinary institution since 1986, featured in the New York Times.",
+    },
+    phone: "(718) 834-9533",
+    hours: { ar: "١١:٠٠ ص – ١١:٠٠ م يومياً", en: "11:00 AM – 11:00 PM Daily" },
+    highlights: [
+      { ar: "أعرق مطعم يمني في نيويورك (١٩٨٦)", en: "NYC's Pioneer Yemeni Restaurant Since 1986" },
+      { ar: "شريك التموين الرسمي للمؤتمرات", en: "Official Chamber Catering Partner" },
+    ],
+  },
+  {
+    id: "biz-10",
+    name: {
+      ar: "قهوة بيت القهوة (Qahwah House) — ويليامزبرغ",
+      en: "Qahwah House (Williamsburg Flagship)",
+    },
+    category: "qahwah",
+    categoryLabel: { ar: "مقهى ومحمصة بن يمني مختص", en: "Specialty Yemeni Qahwah House" },
+    borough: "Brooklyn",
+    boroughAr: "بروكلين",
+    neighborhood: { ar: "ويليامزبرغ (بيدفورد أفينيو)", en: "Williamsburg (Bedford Ave)" },
+    address: "162 Bedford Ave, Brooklyn, NY 11211",
+    foundedYear: 2022,
+    verifiedMember: true,
+    b2bPartner: true,
+    specialty: {
+      ar: "مفور بالحليب والهيل، شاي عدني، سباعية، وخلية نحل طازجة",
+      en: "Mufawar Cardamom Pour-over, Adeni Chai, Sabaya & Fresh Honeycomb Pastry",
+    },
+    description: {
+      ar: "الوجهة الأبرز للقهوة اليمنية الأصيلة في أرقى شوارع ويليامزبرغ ببروكلين.",
+      en: "High-volume flagship coffee house introducing authentic Yemeni coffee culture to NYC's creative corridor.",
+    },
+    phone: "(347) 799-1776",
+    hours: { ar: "٨:٠٠ ص – ١٢:٠٠ ص (نهاية الأسبوع حتى ١:٠٠ ص)", en: "8:00 AM – 12:00 AM (1:00 AM Fri-Sat)" },
+    highlights: [
+      { ar: "محطة ضيافة القهوة الخارجية للشركات", en: "Corporate Pop-Up Coffee Bar Provider" },
+      { ar: "بن يمني مباشر من المزارع الجبلية", en: "Direct-from-Origin Mountain Crop" },
+    ],
+  },
 ];
 
 export const CHAMBER_EVENTS: ChamberEvent[] = [
