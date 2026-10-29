@@ -713,24 +713,24 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 7,
     "passageId": "e1_p2",
     "type": "multiple_choice",
-    "prompt": "Based on Excerpt from 'Niagara Falls', which statement best evaluates examines rupert brooke's meditative awe before the eternal cascading waters.?",
+    "prompt": "",
     "imageSrc": "/exams/exam1/items/ela_q07.png",
     "options": [
       {
         "id": "A",
-        "text": "It highlights how cultural traditions and scientific dedication shape the author's primary perspective."
+        "text": "Choice A"
       },
       {
         "id": "B",
-        "text": "It underscores the contrast between external obstacles and internal determination."
+        "text": "Choice B"
       },
       {
         "id": "C",
-        "text": "It provides evidence that careful observation reveals truths that casual onlookers overlook."
+        "text": "Choice C"
       },
       {
         "id": "D",
-        "text": "It demonstrates how generational wisdom informs innovative modern practices."
+        "text": "Choice D"
       }
     ],
     "correctAnswer": "C",
@@ -751,24 +751,24 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 8,
     "passageId": "e1_p2",
     "type": "multiple_choice",
-    "prompt": "Based on Excerpt from 'Niagara Falls', which statement best evaluates analyzes how brooke uses personification and sensory imagery to depict the colossal cataract.?",
+    "prompt": "",
     "imageSrc": "/exams/exam1/items/ela_q08.png",
     "options": [
       {
         "id": "A",
-        "text": "It highlights how cultural traditions and scientific dedication shape the author's primary perspective."
+        "text": "Choice A"
       },
       {
         "id": "B",
-        "text": "It underscores the contrast between external obstacles and internal determination."
+        "text": "Choice B"
       },
       {
         "id": "C",
-        "text": "It provides evidence that careful observation reveals truths that casual onlookers overlook."
+        "text": "Choice C"
       },
       {
         "id": "D",
-        "text": "It demonstrates how generational wisdom informs innovative modern practices."
+        "text": "Choice D"
       }
     ],
     "correctAnswer": "B",
@@ -789,24 +789,24 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 9,
     "passageId": "e1_p2",
     "type": "multiple_choice",
-    "prompt": "Based on Excerpt from 'Niagara Falls', which statement best evaluates identifies how the author contrasts the noise of human civilization with the primeval roar of the falls.?",
+    "prompt": "",
     "imageSrc": "/exams/exam1/items/ela_q09.png",
     "options": [
       {
         "id": "A",
-        "text": "It highlights how cultural traditions and scientific dedication shape the author's primary perspective."
+        "text": "Choice A"
       },
       {
         "id": "B",
-        "text": "It underscores the contrast between external obstacles and internal determination."
+        "text": "Choice B"
       },
       {
         "id": "C",
-        "text": "It provides evidence that careful observation reveals truths that casual onlookers overlook."
+        "text": "Choice C"
       },
       {
         "id": "D",
-        "text": "It demonstrates how generational wisdom informs innovative modern practices."
+        "text": "Choice D"
       }
     ],
     "correctAnswer": "D",
@@ -827,24 +827,24 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 10,
     "passageId": "e1_p2",
     "type": "multiple_choice",
-    "prompt": "Based on Excerpt from 'Niagara Falls', which statement best evaluates explores the philosophical theme of human insignificance in the presence of timeless natural power.?",
+    "prompt": "",
     "imageSrc": "/exams/exam1/items/ela_q10.png",
     "options": [
       {
         "id": "A",
-        "text": "It highlights how cultural traditions and scientific dedication shape the author's primary perspective."
+        "text": "Choice A"
       },
       {
         "id": "B",
-        "text": "It underscores the contrast between external obstacles and internal determination."
+        "text": "Choice B"
       },
       {
         "id": "C",
-        "text": "It provides evidence that careful observation reveals truths that casual onlookers overlook."
+        "text": "Choice C"
       },
       {
         "id": "D",
-        "text": "It demonstrates how generational wisdom informs innovative modern practices."
+        "text": "Choice D"
       }
     ],
     "correctAnswer": "A",
@@ -865,24 +865,24 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 11,
     "passageId": "e1_p2",
     "type": "multiple_choice",
-    "prompt": "Based on Excerpt from 'Niagara Falls', which statement best evaluates deciphers archaic and literary expressions in brooke's edwardian prose.?",
+    "prompt": "",
     "imageSrc": "/exams/exam1/items/ela_q11.png",
     "options": [
       {
         "id": "A",
-        "text": "It highlights how cultural traditions and scientific dedication shape the author's primary perspective."
+        "text": "Choice A"
       },
       {
         "id": "B",
-        "text": "It underscores the contrast between external obstacles and internal determination."
+        "text": "Choice B"
       },
       {
         "id": "C",
-        "text": "It provides evidence that careful observation reveals truths that casual onlookers overlook."
+        "text": "Choice C"
       },
       {
         "id": "D",
-        "text": "It demonstrates how generational wisdom informs innovative modern practices."
+        "text": "Choice D"
       }
     ],
     "correctAnswer": "C",
@@ -903,24 +903,24 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 12,
     "passageId": "e1_p2",
     "type": "multiple_choice",
-    "prompt": "Based on Excerpt from 'Niagara Falls', which statement best evaluates evaluates how the shift from daytime observation to nocturnal contemplation deepens the essay.?",
+    "prompt": "",
     "imageSrc": "/exams/exam1/items/ela_q12.png",
     "options": [
       {
         "id": "A",
-        "text": "It highlights how cultural traditions and scientific dedication shape the author's primary perspective."
+        "text": "Choice A"
       },
       {
         "id": "B",
-        "text": "It underscores the contrast between external obstacles and internal determination."
+        "text": "Choice B"
       },
       {
         "id": "C",
-        "text": "It provides evidence that careful observation reveals truths that casual onlookers overlook."
+        "text": "Choice C"
       },
       {
         "id": "D",
-        "text": "It demonstrates how generational wisdom informs innovative modern practices."
+        "text": "Choice D"
       }
     ],
     "correctAnswer": "B",
@@ -941,24 +941,24 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 13,
     "passageId": "e1_p3",
     "type": "multiple_choice",
-    "prompt": "Based on Impressions of an Indian Childhood, which statement best evaluates traces zitkala-sa's tender learning of beadwork from her mother on the yankton reservation.?",
+    "prompt": "",
     "imageSrc": "/exams/exam1/items/ela_q13.png",
     "options": [
       {
         "id": "A",
-        "text": "It highlights how cultural traditions and scientific dedication shape the author's primary perspective."
+        "text": "Choice A"
       },
       {
         "id": "B",
-        "text": "It underscores the contrast between external obstacles and internal determination."
+        "text": "Choice B"
       },
       {
         "id": "C",
-        "text": "It provides evidence that careful observation reveals truths that casual onlookers overlook."
+        "text": "Choice C"
       },
       {
         "id": "D",
-        "text": "It demonstrates how generational wisdom informs innovative modern practices."
+        "text": "Choice D"
       }
     ],
     "correctAnswer": "D",
@@ -979,24 +979,24 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 14,
     "passageId": "e1_p3",
     "type": "multiple_choice",
-    "prompt": "Based on Impressions of an Indian Childhood, which statement best evaluates examines the narrator's transition from playful impatience to artistic pride and maturity.?",
+    "prompt": "",
     "imageSrc": "/exams/exam1/items/ela_q14.png",
     "options": [
       {
         "id": "A",
-        "text": "It highlights how cultural traditions and scientific dedication shape the author's primary perspective."
+        "text": "Choice A"
       },
       {
         "id": "B",
-        "text": "It underscores the contrast between external obstacles and internal determination."
+        "text": "Choice B"
       },
       {
         "id": "C",
-        "text": "It provides evidence that careful observation reveals truths that casual onlookers overlook."
+        "text": "Choice C"
       },
       {
         "id": "D",
-        "text": "It demonstrates how generational wisdom informs innovative modern practices."
+        "text": "Choice D"
       }
     ],
     "correctAnswer": "A",
@@ -1017,24 +1017,24 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 15,
     "passageId": "e1_p3",
     "type": "multiple_choice",
-    "prompt": "Based on Impressions of an Indian Childhood, which statement best evaluates interprets the symbolism of beadwork patterns as cultural heritage and generational memory.?",
+    "prompt": "",
     "imageSrc": "/exams/exam1/items/ela_q15.png",
     "options": [
       {
         "id": "A",
-        "text": "It highlights how cultural traditions and scientific dedication shape the author's primary perspective."
+        "text": "Choice A"
       },
       {
         "id": "B",
-        "text": "It underscores the contrast between external obstacles and internal determination."
+        "text": "Choice B"
       },
       {
         "id": "C",
-        "text": "It provides evidence that careful observation reveals truths that casual onlookers overlook."
+        "text": "Choice C"
       },
       {
         "id": "D",
-        "text": "It demonstrates how generational wisdom informs innovative modern practices."
+        "text": "Choice D"
       }
     ],
     "correctAnswer": "C",
@@ -1053,38 +1053,38 @@ export const QUESTIONS: Question[] = [
     "examId": "exam1",
     "section": "ela",
     "questionNumber": 16,
-    "passageId": "e1_p3",
+    "passageId": "e1_p4",
     "type": "multiple_choice",
-    "prompt": "Based on Bird Talk, which statement best evaluates explores carl sandburg's colloquial metaphors and rhythmic celebration of avian migration.?",
+    "prompt": "Throughout the poem, the poet conveys the speaker's point of view by",
     "imageSrc": "/exams/exam1/items/ela_q16.png",
     "options": [
       {
         "id": "A",
-        "text": "It highlights how cultural traditions and scientific dedication shape the author's primary perspective."
+        "text": "gradually moving the speaker's attention from one element of nature to another."
       },
       {
         "id": "B",
-        "text": "It underscores the contrast between external obstacles and internal determination."
+        "text": "providing the speaker's motivation for describing the landscape in great detail."
       },
       {
         "id": "C",
-        "text": "It provides evidence that careful observation reveals truths that casual onlookers overlook."
+        "text": "highlighting the speaker's emotional response as each season passes."
       },
       {
         "id": "D",
-        "text": "It demonstrates how generational wisdom informs innovative modern practices."
+        "text": "shifting the speaker's focus from external observations to personal reflection."
       }
     ],
-    "correctAnswer": "B",
-    "topic": "Reading Comprehension: Figurative Language",
+    "correctAnswer": "A",
+    "topic": "Reading Comprehension: Speaker's Point of View",
     "difficulty": "Medium",
     "hints": [
-      "Re-read the specific paragraphs referenced in the passage excerpt.",
-      "Eliminate choices that make sweeping generalizations not grounded in the text lines.",
-      "Look for the choice that accurately captures the author's precise rhetorical intent."
+      "Notice how the speaker observes different elements of nature in sequence: frogs and mud, summer garden, birds talking, yellowhammer, blackbird, snow, and sunlight.",
+      "The poet structures the poem by shifting attention smoothly between distinct natural occurrences.",
+      "Choice E (represented as A in the system) accurately describes how the speaker's attention moves across nature."
     ],
-    "trapAlert": "Be careful not to pick choices that sound inspiring or scientifically plausible on their own unless they are directly verified by line evidence in the passage.",
-    "explanation": "The correct option is supported directly by textual citations, illustrating the nuanced balance between evidence and analytical inference."
+    "trapAlert": "Trap H suggests a shift to personal reflection, but the poem remains grounded in direct observation of external natural phenomena rather than introspection.",
+    "explanation": "Option E (Option A in system) is correct. Throughout 'Bird Talk', Carl Sandburg develops the speaker's point of view by gradually moving attention from one natural element to another across shifting seasons."
   },
   {
     "id": "e1_ela_17",
@@ -1093,24 +1093,24 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 17,
     "passageId": "e1_p3",
     "type": "multiple_choice",
-    "prompt": "Based on Bird Talk, which statement best evaluates analyzes the musical cadence, repetition, and shifts in sandburg's free verse stanzas.?",
+    "prompt": "",
     "imageSrc": "/exams/exam1/items/ela_q17.png",
     "options": [
       {
         "id": "A",
-        "text": "It highlights how cultural traditions and scientific dedication shape the author's primary perspective."
+        "text": "Choice A"
       },
       {
         "id": "B",
-        "text": "It underscores the contrast between external obstacles and internal determination."
+        "text": "Choice B"
       },
       {
         "id": "C",
-        "text": "It provides evidence that careful observation reveals truths that casual onlookers overlook."
+        "text": "Choice C"
       },
       {
         "id": "D",
-        "text": "It demonstrates how generational wisdom informs innovative modern practices."
+        "text": "Choice D"
       }
     ],
     "correctAnswer": "D",
@@ -1131,24 +1131,24 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 18,
     "passageId": "e1_p3",
     "type": "multiple_choice",
-    "prompt": "Based on The Great Serpent Mound, which statement best evaluates synthesizes radiocarbon dating debates between adena and fort ancient culture origins.?",
+    "prompt": "",
     "imageSrc": "/exams/exam1/items/ela_q18.png",
     "options": [
       {
         "id": "A",
-        "text": "It highlights how cultural traditions and scientific dedication shape the author's primary perspective."
+        "text": "Choice A"
       },
       {
         "id": "B",
-        "text": "It underscores the contrast between external obstacles and internal determination."
+        "text": "Choice B"
       },
       {
         "id": "C",
-        "text": "It provides evidence that careful observation reveals truths that casual onlookers overlook."
+        "text": "Choice C"
       },
       {
         "id": "D",
-        "text": "It demonstrates how generational wisdom informs innovative modern practices."
+        "text": "Choice D"
       }
     ],
     "correctAnswer": "A",
@@ -1169,24 +1169,24 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 19,
     "passageId": "e1_p3",
     "type": "multiple_choice",
-    "prompt": "Based on The Great Serpent Mound, which statement best evaluates identifies the primary hypothesis concerning celestial alignment and astronomical observation.?",
+    "prompt": "",
     "imageSrc": "/exams/exam1/items/ela_q19.png",
     "options": [
       {
         "id": "A",
-        "text": "It highlights how cultural traditions and scientific dedication shape the author's primary perspective."
+        "text": "Choice A"
       },
       {
         "id": "B",
-        "text": "It underscores the contrast between external obstacles and internal determination."
+        "text": "Choice B"
       },
       {
         "id": "C",
-        "text": "It provides evidence that careful observation reveals truths that casual onlookers overlook."
+        "text": "Choice C"
       },
       {
         "id": "D",
-        "text": "It demonstrates how generational wisdom informs innovative modern practices."
+        "text": "Choice D"
       }
     ],
     "correctAnswer": "C",
@@ -1207,24 +1207,24 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 20,
     "passageId": "e1_p4",
     "type": "multiple_choice",
-    "prompt": "Based on Growing Peppers on the ISS, which statement best evaluates evaluates melanie canales's controlled soil vs. hydro-gel trials aboard the space station.?",
+    "prompt": "",
     "imageSrc": "/exams/exam1/items/ela_q20.png",
     "options": [
       {
         "id": "A",
-        "text": "It highlights how cultural traditions and scientific dedication shape the author's primary perspective."
+        "text": "Choice A"
       },
       {
         "id": "B",
-        "text": "It underscores the contrast between external obstacles and internal determination."
+        "text": "Choice B"
       },
       {
         "id": "C",
-        "text": "It provides evidence that careful observation reveals truths that casual onlookers overlook."
+        "text": "Choice C"
       },
       {
         "id": "D",
-        "text": "It demonstrates how generational wisdom informs innovative modern practices."
+        "text": "Choice D"
       }
     ],
     "correctAnswer": "B",
@@ -1245,24 +1245,24 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 21,
     "passageId": "e1_p4",
     "type": "multiple_choice",
-    "prompt": "Based on Growing Peppers on the ISS, which statement best evaluates assesses how astronauts' psychological well-being is elevated by tending fresh living green crops.?",
+    "prompt": "",
     "imageSrc": "/exams/exam1/items/ela_q21.png",
     "options": [
       {
         "id": "A",
-        "text": "It highlights how cultural traditions and scientific dedication shape the author's primary perspective."
+        "text": "Choice A"
       },
       {
         "id": "B",
-        "text": "It underscores the contrast between external obstacles and internal determination."
+        "text": "Choice B"
       },
       {
         "id": "C",
-        "text": "It provides evidence that careful observation reveals truths that casual onlookers overlook."
+        "text": "Choice C"
       },
       {
         "id": "D",
-        "text": "It demonstrates how generational wisdom informs innovative modern practices."
+        "text": "Choice D"
       }
     ],
     "correctAnswer": "D",
@@ -1283,24 +1283,24 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 22,
     "passageId": "e1_p4",
     "type": "multiple_choice",
-    "prompt": "Based on Excerpt from 'Niagara Falls', which statement best evaluates examines rupert brooke's meditative awe before the eternal cascading waters.?",
+    "prompt": "",
     "imageSrc": "/exams/exam1/items/ela_q22.png",
     "options": [
       {
         "id": "A",
-        "text": "It highlights how cultural traditions and scientific dedication shape the author's primary perspective."
+        "text": "Choice A"
       },
       {
         "id": "B",
-        "text": "It underscores the contrast between external obstacles and internal determination."
+        "text": "Choice B"
       },
       {
         "id": "C",
-        "text": "It provides evidence that careful observation reveals truths that casual onlookers overlook."
+        "text": "Choice C"
       },
       {
         "id": "D",
-        "text": "It demonstrates how generational wisdom informs innovative modern practices."
+        "text": "Choice D"
       }
     ],
     "correctAnswer": "A",
@@ -1321,24 +1321,24 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 23,
     "passageId": "e1_p4",
     "type": "multiple_choice",
-    "prompt": "Based on Excerpt from 'Niagara Falls', which statement best evaluates analyzes how brooke uses personification and sensory imagery to depict the colossal cataract.?",
+    "prompt": "",
     "imageSrc": "/exams/exam1/items/ela_q23.png",
     "options": [
       {
         "id": "A",
-        "text": "It highlights how cultural traditions and scientific dedication shape the author's primary perspective."
+        "text": "Choice A"
       },
       {
         "id": "B",
-        "text": "It underscores the contrast between external obstacles and internal determination."
+        "text": "Choice B"
       },
       {
         "id": "C",
-        "text": "It provides evidence that careful observation reveals truths that casual onlookers overlook."
+        "text": "Choice C"
       },
       {
         "id": "D",
-        "text": "It demonstrates how generational wisdom informs innovative modern practices."
+        "text": "Choice D"
       }
     ],
     "correctAnswer": "C",
@@ -1359,24 +1359,24 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 24,
     "passageId": "e1_p4",
     "type": "multiple_choice",
-    "prompt": "Based on Excerpt from 'Niagara Falls', which statement best evaluates identifies how the author contrasts the noise of human civilization with the primeval roar of the falls.?",
+    "prompt": "",
     "imageSrc": "/exams/exam1/items/ela_q24.png",
     "options": [
       {
         "id": "A",
-        "text": "It highlights how cultural traditions and scientific dedication shape the author's primary perspective."
+        "text": "Choice A"
       },
       {
         "id": "B",
-        "text": "It underscores the contrast between external obstacles and internal determination."
+        "text": "Choice B"
       },
       {
         "id": "C",
-        "text": "It provides evidence that careful observation reveals truths that casual onlookers overlook."
+        "text": "Choice C"
       },
       {
         "id": "D",
-        "text": "It demonstrates how generational wisdom informs innovative modern practices."
+        "text": "Choice D"
       }
     ],
     "correctAnswer": "B",
@@ -1397,24 +1397,24 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 25,
     "passageId": "e1_p4",
     "type": "multiple_choice",
-    "prompt": "Based on Excerpt from 'Niagara Falls', which statement best evaluates explores the philosophical theme of human insignificance in the presence of timeless natural power.?",
+    "prompt": "",
     "imageSrc": "/exams/exam1/items/ela_q25.png",
     "options": [
       {
         "id": "A",
-        "text": "It highlights how cultural traditions and scientific dedication shape the author's primary perspective."
+        "text": "Choice A"
       },
       {
         "id": "B",
-        "text": "It underscores the contrast between external obstacles and internal determination."
+        "text": "Choice B"
       },
       {
         "id": "C",
-        "text": "It provides evidence that careful observation reveals truths that casual onlookers overlook."
+        "text": "Choice C"
       },
       {
         "id": "D",
-        "text": "It demonstrates how generational wisdom informs innovative modern practices."
+        "text": "Choice D"
       }
     ],
     "correctAnswer": "D",
@@ -1435,24 +1435,24 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 26,
     "passageId": "e1_p5",
     "type": "multiple_choice",
-    "prompt": "Based on Excerpt from 'Niagara Falls', which statement best evaluates deciphers archaic and literary expressions in brooke's edwardian prose.?",
+    "prompt": "",
     "imageSrc": "/exams/exam1/items/ela_q26.png",
     "options": [
       {
         "id": "A",
-        "text": "It highlights how cultural traditions and scientific dedication shape the author's primary perspective."
+        "text": "Choice A"
       },
       {
         "id": "B",
-        "text": "It underscores the contrast between external obstacles and internal determination."
+        "text": "Choice B"
       },
       {
         "id": "C",
-        "text": "It provides evidence that careful observation reveals truths that casual onlookers overlook."
+        "text": "Choice C"
       },
       {
         "id": "D",
-        "text": "It demonstrates how generational wisdom informs innovative modern practices."
+        "text": "Choice D"
       }
     ],
     "correctAnswer": "A",
@@ -1473,24 +1473,24 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 27,
     "passageId": "e1_p5",
     "type": "multiple_choice",
-    "prompt": "Based on Excerpt from 'Niagara Falls', which statement best evaluates evaluates how the shift from daytime observation to nocturnal contemplation deepens the essay.?",
+    "prompt": "",
     "imageSrc": "/exams/exam1/items/ela_q27.png",
     "options": [
       {
         "id": "A",
-        "text": "It highlights how cultural traditions and scientific dedication shape the author's primary perspective."
+        "text": "Choice A"
       },
       {
         "id": "B",
-        "text": "It underscores the contrast between external obstacles and internal determination."
+        "text": "Choice B"
       },
       {
         "id": "C",
-        "text": "It provides evidence that careful observation reveals truths that casual onlookers overlook."
+        "text": "Choice C"
       },
       {
         "id": "D",
-        "text": "It demonstrates how generational wisdom informs innovative modern practices."
+        "text": "Choice D"
       }
     ],
     "correctAnswer": "C",
@@ -1511,24 +1511,24 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 28,
     "passageId": "e1_p5",
     "type": "multiple_choice",
-    "prompt": "Based on Impressions of an Indian Childhood, which statement best evaluates traces zitkala-sa's tender learning of beadwork from her mother on the yankton reservation.?",
+    "prompt": "",
     "imageSrc": "/exams/exam1/items/ela_q28.png",
     "options": [
       {
         "id": "A",
-        "text": "It highlights how cultural traditions and scientific dedication shape the author's primary perspective."
+        "text": "Choice A"
       },
       {
         "id": "B",
-        "text": "It underscores the contrast between external obstacles and internal determination."
+        "text": "Choice B"
       },
       {
         "id": "C",
-        "text": "It provides evidence that careful observation reveals truths that casual onlookers overlook."
+        "text": "Choice C"
       },
       {
         "id": "D",
-        "text": "It demonstrates how generational wisdom informs innovative modern practices."
+        "text": "Choice D"
       }
     ],
     "correctAnswer": "B",
@@ -1549,24 +1549,24 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 29,
     "passageId": "e1_p5",
     "type": "multiple_choice",
-    "prompt": "Based on Impressions of an Indian Childhood, which statement best evaluates examines the narrator's transition from playful impatience to artistic pride and maturity.?",
+    "prompt": "",
     "imageSrc": "/exams/exam1/items/ela_q29.png",
     "options": [
       {
         "id": "A",
-        "text": "It highlights how cultural traditions and scientific dedication shape the author's primary perspective."
+        "text": "Choice A"
       },
       {
         "id": "B",
-        "text": "It underscores the contrast between external obstacles and internal determination."
+        "text": "Choice B"
       },
       {
         "id": "C",
-        "text": "It provides evidence that careful observation reveals truths that casual onlookers overlook."
+        "text": "Choice C"
       },
       {
         "id": "D",
-        "text": "It demonstrates how generational wisdom informs innovative modern practices."
+        "text": "Choice D"
       }
     ],
     "correctAnswer": "D",
@@ -1587,24 +1587,24 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 30,
     "passageId": "e1_p5",
     "type": "multiple_choice",
-    "prompt": "Based on Impressions of an Indian Childhood, which statement best evaluates interprets the symbolism of beadwork patterns as cultural heritage and generational memory.?",
+    "prompt": "",
     "imageSrc": "/exams/exam1/items/ela_q30.png",
     "options": [
       {
         "id": "A",
-        "text": "It highlights how cultural traditions and scientific dedication shape the author's primary perspective."
+        "text": "Choice A"
       },
       {
         "id": "B",
-        "text": "It underscores the contrast between external obstacles and internal determination."
+        "text": "Choice B"
       },
       {
         "id": "C",
-        "text": "It provides evidence that careful observation reveals truths that casual onlookers overlook."
+        "text": "Choice C"
       },
       {
         "id": "D",
-        "text": "It demonstrates how generational wisdom informs innovative modern practices."
+        "text": "Choice D"
       }
     ],
     "correctAnswer": "A",
@@ -1625,24 +1625,24 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 31,
     "passageId": "e1_p5",
     "type": "multiple_choice",
-    "prompt": "Based on Bird Talk, which statement best evaluates explores carl sandburg's colloquial metaphors and rhythmic celebration of avian migration.?",
+    "prompt": "",
     "imageSrc": "/exams/exam1/items/ela_q31.png",
     "options": [
       {
         "id": "A",
-        "text": "It highlights how cultural traditions and scientific dedication shape the author's primary perspective."
+        "text": "Choice A"
       },
       {
         "id": "B",
-        "text": "It underscores the contrast between external obstacles and internal determination."
+        "text": "Choice B"
       },
       {
         "id": "C",
-        "text": "It provides evidence that careful observation reveals truths that casual onlookers overlook."
+        "text": "Choice C"
       },
       {
         "id": "D",
-        "text": "It demonstrates how generational wisdom informs innovative modern practices."
+        "text": "Choice D"
       }
     ],
     "correctAnswer": "C",
@@ -1663,24 +1663,24 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 32,
     "passageId": "e1_p5",
     "type": "multiple_choice",
-    "prompt": "Based on Bird Talk, which statement best evaluates analyzes the musical cadence, repetition, and shifts in sandburg's free verse stanzas.?",
+    "prompt": "",
     "imageSrc": "/exams/exam1/items/ela_q32.png",
     "options": [
       {
         "id": "A",
-        "text": "It highlights how cultural traditions and scientific dedication shape the author's primary perspective."
+        "text": "Choice A"
       },
       {
         "id": "B",
-        "text": "It underscores the contrast between external obstacles and internal determination."
+        "text": "Choice B"
       },
       {
         "id": "C",
-        "text": "It provides evidence that careful observation reveals truths that casual onlookers overlook."
+        "text": "Choice C"
       },
       {
         "id": "D",
-        "text": "It demonstrates how generational wisdom informs innovative modern practices."
+        "text": "Choice D"
       }
     ],
     "correctAnswer": "B",
@@ -1701,24 +1701,24 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 33,
     "passageId": "e1_p5",
     "type": "multiple_choice",
-    "prompt": "Based on The Great Serpent Mound, which statement best evaluates synthesizes radiocarbon dating debates between adena and fort ancient culture origins.?",
+    "prompt": "",
     "imageSrc": "/exams/exam1/items/ela_q33.png",
     "options": [
       {
         "id": "A",
-        "text": "It highlights how cultural traditions and scientific dedication shape the author's primary perspective."
+        "text": "Choice A"
       },
       {
         "id": "B",
-        "text": "It underscores the contrast between external obstacles and internal determination."
+        "text": "Choice B"
       },
       {
         "id": "C",
-        "text": "It provides evidence that careful observation reveals truths that casual onlookers overlook."
+        "text": "Choice C"
       },
       {
         "id": "D",
-        "text": "It demonstrates how generational wisdom informs innovative modern practices."
+        "text": "Choice D"
       }
     ],
     "correctAnswer": "D",
@@ -1739,24 +1739,24 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 34,
     "passageId": "e1_p6",
     "type": "multiple_choice",
-    "prompt": "Based on The Great Serpent Mound, which statement best evaluates identifies the primary hypothesis concerning celestial alignment and astronomical observation.?",
+    "prompt": "",
     "imageSrc": "/exams/exam1/items/ela_q34.png",
     "options": [
       {
         "id": "A",
-        "text": "It highlights how cultural traditions and scientific dedication shape the author's primary perspective."
+        "text": "Choice A"
       },
       {
         "id": "B",
-        "text": "It underscores the contrast between external obstacles and internal determination."
+        "text": "Choice B"
       },
       {
         "id": "C",
-        "text": "It provides evidence that careful observation reveals truths that casual onlookers overlook."
+        "text": "Choice C"
       },
       {
         "id": "D",
-        "text": "It demonstrates how generational wisdom informs innovative modern practices."
+        "text": "Choice D"
       }
     ],
     "correctAnswer": "A",
@@ -1777,24 +1777,24 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 35,
     "passageId": "e1_p6",
     "type": "multiple_choice",
-    "prompt": "Based on Growing Peppers on the ISS, which statement best evaluates evaluates melanie canales's controlled soil vs. hydro-gel trials aboard the space station.?",
+    "prompt": "",
     "imageSrc": "/exams/exam1/items/ela_q35.png",
     "options": [
       {
         "id": "A",
-        "text": "It highlights how cultural traditions and scientific dedication shape the author's primary perspective."
+        "text": "Choice A"
       },
       {
         "id": "B",
-        "text": "It underscores the contrast between external obstacles and internal determination."
+        "text": "Choice B"
       },
       {
         "id": "C",
-        "text": "It provides evidence that careful observation reveals truths that casual onlookers overlook."
+        "text": "Choice C"
       },
       {
         "id": "D",
-        "text": "It demonstrates how generational wisdom informs innovative modern practices."
+        "text": "Choice D"
       }
     ],
     "correctAnswer": "C",
@@ -1815,24 +1815,24 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 36,
     "passageId": "e1_p6",
     "type": "multiple_choice",
-    "prompt": "Based on Growing Peppers on the ISS, which statement best evaluates assesses how astronauts' psychological well-being is elevated by tending fresh living green crops.?",
+    "prompt": "",
     "imageSrc": "/exams/exam1/items/ela_q36.png",
     "options": [
       {
         "id": "A",
-        "text": "It highlights how cultural traditions and scientific dedication shape the author's primary perspective."
+        "text": "Choice A"
       },
       {
         "id": "B",
-        "text": "It underscores the contrast between external obstacles and internal determination."
+        "text": "Choice B"
       },
       {
         "id": "C",
-        "text": "It provides evidence that careful observation reveals truths that casual onlookers overlook."
+        "text": "Choice C"
       },
       {
         "id": "D",
-        "text": "It demonstrates how generational wisdom informs innovative modern practices."
+        "text": "Choice D"
       }
     ],
     "correctAnswer": "B",
@@ -1853,24 +1853,24 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 37,
     "passageId": "e1_p6",
     "type": "multiple_choice",
-    "prompt": "Based on Excerpt from 'Niagara Falls', which statement best evaluates examines rupert brooke's meditative awe before the eternal cascading waters.?",
+    "prompt": "",
     "imageSrc": "/exams/exam1/items/ela_q37.png",
     "options": [
       {
         "id": "A",
-        "text": "It highlights how cultural traditions and scientific dedication shape the author's primary perspective."
+        "text": "Choice A"
       },
       {
         "id": "B",
-        "text": "It underscores the contrast between external obstacles and internal determination."
+        "text": "Choice B"
       },
       {
         "id": "C",
-        "text": "It provides evidence that careful observation reveals truths that casual onlookers overlook."
+        "text": "Choice C"
       },
       {
         "id": "D",
-        "text": "It demonstrates how generational wisdom informs innovative modern practices."
+        "text": "Choice D"
       }
     ],
     "correctAnswer": "D",
@@ -1891,24 +1891,24 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 38,
     "passageId": "e1_p6",
     "type": "multiple_choice",
-    "prompt": "Based on Excerpt from 'Niagara Falls', which statement best evaluates analyzes how brooke uses personification and sensory imagery to depict the colossal cataract.?",
+    "prompt": "",
     "imageSrc": "/exams/exam1/items/ela_q38.png",
     "options": [
       {
         "id": "A",
-        "text": "It highlights how cultural traditions and scientific dedication shape the author's primary perspective."
+        "text": "Choice A"
       },
       {
         "id": "B",
-        "text": "It underscores the contrast between external obstacles and internal determination."
+        "text": "Choice B"
       },
       {
         "id": "C",
-        "text": "It provides evidence that careful observation reveals truths that casual onlookers overlook."
+        "text": "Choice C"
       },
       {
         "id": "D",
-        "text": "It demonstrates how generational wisdom informs innovative modern practices."
+        "text": "Choice D"
       }
     ],
     "correctAnswer": "A",
@@ -1929,24 +1929,24 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 39,
     "passageId": "e1_p6",
     "type": "multiple_choice",
-    "prompt": "Based on Excerpt from 'Niagara Falls', which statement best evaluates identifies how the author contrasts the noise of human civilization with the primeval roar of the falls.?",
+    "prompt": "",
     "imageSrc": "/exams/exam1/items/ela_q39.png",
     "options": [
       {
         "id": "A",
-        "text": "It highlights how cultural traditions and scientific dedication shape the author's primary perspective."
+        "text": "Choice A"
       },
       {
         "id": "B",
-        "text": "It underscores the contrast between external obstacles and internal determination."
+        "text": "Choice B"
       },
       {
         "id": "C",
-        "text": "It provides evidence that careful observation reveals truths that casual onlookers overlook."
+        "text": "Choice C"
       },
       {
         "id": "D",
-        "text": "It demonstrates how generational wisdom informs innovative modern practices."
+        "text": "Choice D"
       }
     ],
     "correctAnswer": "C",
@@ -1967,24 +1967,24 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 40,
     "passageId": "e1_p6",
     "type": "multiple_choice",
-    "prompt": "Based on Excerpt from 'Niagara Falls', which statement best evaluates explores the philosophical theme of human insignificance in the presence of timeless natural power.?",
+    "prompt": "",
     "imageSrc": "/exams/exam1/items/ela_q40.png",
     "options": [
       {
         "id": "A",
-        "text": "It highlights how cultural traditions and scientific dedication shape the author's primary perspective."
+        "text": "Choice A"
       },
       {
         "id": "B",
-        "text": "It underscores the contrast between external obstacles and internal determination."
+        "text": "Choice B"
       },
       {
         "id": "C",
-        "text": "It provides evidence that careful observation reveals truths that casual onlookers overlook."
+        "text": "Choice C"
       },
       {
         "id": "D",
-        "text": "It demonstrates how generational wisdom informs innovative modern practices."
+        "text": "Choice D"
       }
     ],
     "correctAnswer": "B",
@@ -2005,24 +2005,24 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 41,
     "passageId": "e1_p6",
     "type": "multiple_choice",
-    "prompt": "Based on Excerpt from 'Niagara Falls', which statement best evaluates deciphers archaic and literary expressions in brooke's edwardian prose.?",
+    "prompt": "",
     "imageSrc": "/exams/exam1/items/ela_q41.png",
     "options": [
       {
         "id": "A",
-        "text": "It highlights how cultural traditions and scientific dedication shape the author's primary perspective."
+        "text": "Choice A"
       },
       {
         "id": "B",
-        "text": "It underscores the contrast between external obstacles and internal determination."
+        "text": "Choice B"
       },
       {
         "id": "C",
-        "text": "It provides evidence that careful observation reveals truths that casual onlookers overlook."
+        "text": "Choice C"
       },
       {
         "id": "D",
-        "text": "It demonstrates how generational wisdom informs innovative modern practices."
+        "text": "Choice D"
       }
     ],
     "correctAnswer": "D",
@@ -2043,24 +2043,24 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 42,
     "passageId": "e1_p6",
     "type": "multiple_choice",
-    "prompt": "Based on Excerpt from 'Niagara Falls', which statement best evaluates evaluates how the shift from daytime observation to nocturnal contemplation deepens the essay.?",
+    "prompt": "",
     "imageSrc": "/exams/exam1/items/ela_q42.png",
     "options": [
       {
         "id": "A",
-        "text": "It highlights how cultural traditions and scientific dedication shape the author's primary perspective."
+        "text": "Choice A"
       },
       {
         "id": "B",
-        "text": "It underscores the contrast between external obstacles and internal determination."
+        "text": "Choice B"
       },
       {
         "id": "C",
-        "text": "It provides evidence that careful observation reveals truths that casual onlookers overlook."
+        "text": "Choice C"
       },
       {
         "id": "D",
-        "text": "It demonstrates how generational wisdom informs innovative modern practices."
+        "text": "Choice D"
       }
     ],
     "correctAnswer": "A",
@@ -2081,24 +2081,24 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 43,
     "passageId": "e1_p6",
     "type": "multiple_choice",
-    "prompt": "Based on Impressions of an Indian Childhood, which statement best evaluates traces zitkala-sa's tender learning of beadwork from her mother on the yankton reservation.?",
+    "prompt": "",
     "imageSrc": "/exams/exam1/items/ela_q43.png",
     "options": [
       {
         "id": "A",
-        "text": "It highlights how cultural traditions and scientific dedication shape the author's primary perspective."
+        "text": "Choice A"
       },
       {
         "id": "B",
-        "text": "It underscores the contrast between external obstacles and internal determination."
+        "text": "Choice B"
       },
       {
         "id": "C",
-        "text": "It provides evidence that careful observation reveals truths that casual onlookers overlook."
+        "text": "Choice C"
       },
       {
         "id": "D",
-        "text": "It demonstrates how generational wisdom informs innovative modern practices."
+        "text": "Choice D"
       }
     ],
     "correctAnswer": "C",
@@ -2799,24 +2799,24 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 63,
     "type": "multiple_choice",
-    "prompt": "Item 13: Algebra: Systems of Linear Equations application problem.",
+    "prompt": "",
     "imageSrc": "/exams/exam1/items/math_q13.png",
     "options": [
       {
         "id": "A",
-        "text": "Calculation result A"
+        "text": "Choice A"
       },
       {
         "id": "B",
-        "text": "Calculation result B"
+        "text": "Choice B"
       },
       {
         "id": "C",
-        "text": "Calculation result C"
+        "text": "Choice C"
       },
       {
         "id": "D",
-        "text": "Calculation result D"
+        "text": "Choice D"
       }
     ],
     "correctAnswer": "D",
@@ -2836,24 +2836,24 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 64,
     "type": "multiple_choice",
-    "prompt": "Item 14: Geometry: Pythagorean Theorem & Triangles application problem.",
+    "prompt": "",
     "imageSrc": "/exams/exam1/items/math_q14.png",
     "options": [
       {
         "id": "A",
-        "text": "Calculation result A"
+        "text": "Choice A"
       },
       {
         "id": "B",
-        "text": "Calculation result B"
+        "text": "Choice B"
       },
       {
         "id": "C",
-        "text": "Calculation result C"
+        "text": "Choice C"
       },
       {
         "id": "D",
-        "text": "Calculation result D"
+        "text": "Choice D"
       }
     ],
     "correctAnswer": "C",
@@ -2873,24 +2873,24 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 65,
     "type": "multiple_choice",
-    "prompt": "Item 15: Geometry: Volume of Cylinders & Prisms application problem.",
+    "prompt": "",
     "imageSrc": "/exams/exam1/items/math_q15.png",
     "options": [
       {
         "id": "A",
-        "text": "Calculation result A"
+        "text": "Choice A"
       },
       {
         "id": "B",
-        "text": "Calculation result B"
+        "text": "Choice B"
       },
       {
         "id": "C",
-        "text": "Calculation result C"
+        "text": "Choice C"
       },
       {
         "id": "D",
-        "text": "Calculation result D"
+        "text": "Choice D"
       }
     ],
     "correctAnswer": "B",
@@ -2910,24 +2910,24 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 66,
     "type": "multiple_choice",
-    "prompt": "Item 16: Statistics: Mean, Median, Mode & Range application problem.",
+    "prompt": "",
     "imageSrc": "/exams/exam1/items/math_q16.png",
     "options": [
       {
         "id": "A",
-        "text": "Calculation result A"
+        "text": "Choice A"
       },
       {
         "id": "B",
-        "text": "Calculation result B"
+        "text": "Choice B"
       },
       {
         "id": "C",
-        "text": "Calculation result C"
+        "text": "Choice C"
       },
       {
         "id": "D",
-        "text": "Calculation result D"
+        "text": "Choice D"
       }
     ],
     "correctAnswer": "A",
@@ -2947,7 +2947,7 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 67,
     "type": "text_entry",
-    "prompt": "Item 17: Ratios & Proportions: Scale Factor application problem.",
+    "prompt": "",
     "imageSrc": "/exams/exam1/items/math_q17.png",
     "options": null,
     "correctAnswer": "42",
@@ -2967,24 +2967,24 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 68,
     "type": "multiple_choice",
-    "prompt": "Item 18: Percents: Tax, Discount & Successive Percents application problem.",
+    "prompt": "",
     "imageSrc": "/exams/exam1/items/math_q18.png",
     "options": [
       {
         "id": "A",
-        "text": "Calculation result A"
+        "text": "Choice A"
       },
       {
         "id": "B",
-        "text": "Calculation result B"
+        "text": "Choice B"
       },
       {
         "id": "C",
-        "text": "Calculation result C"
+        "text": "Choice C"
       },
       {
         "id": "D",
-        "text": "Calculation result D"
+        "text": "Choice D"
       }
     ],
     "correctAnswer": "C",
@@ -3004,24 +3004,24 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 69,
     "type": "multiple_choice",
-    "prompt": "Item 19: Coordinate Geometry: Slope & Line Equations application problem.",
+    "prompt": "",
     "imageSrc": "/exams/exam1/items/math_q19.png",
     "options": [
       {
         "id": "A",
-        "text": "Calculation result A"
+        "text": "Choice A"
       },
       {
         "id": "B",
-        "text": "Calculation result B"
+        "text": "Choice B"
       },
       {
         "id": "C",
-        "text": "Calculation result C"
+        "text": "Choice C"
       },
       {
         "id": "D",
-        "text": "Calculation result D"
+        "text": "Choice D"
       }
     ],
     "correctAnswer": "B",
@@ -3041,24 +3041,24 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 70,
     "type": "multiple_choice",
-    "prompt": "Item 20: Algebra: Systems of Linear Equations application problem.",
+    "prompt": "",
     "imageSrc": "/exams/exam1/items/math_q20.png",
     "options": [
       {
         "id": "A",
-        "text": "Calculation result A"
+        "text": "Choice A"
       },
       {
         "id": "B",
-        "text": "Calculation result B"
+        "text": "Choice B"
       },
       {
         "id": "C",
-        "text": "Calculation result C"
+        "text": "Choice C"
       },
       {
         "id": "D",
-        "text": "Calculation result D"
+        "text": "Choice D"
       }
     ],
     "correctAnswer": "A",
@@ -3078,24 +3078,24 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 71,
     "type": "multiple_choice",
-    "prompt": "Item 21: Geometry: Pythagorean Theorem & Triangles application problem.",
+    "prompt": "",
     "imageSrc": "/exams/exam1/items/math_q21.png",
     "options": [
       {
         "id": "A",
-        "text": "Calculation result A"
+        "text": "Choice A"
       },
       {
         "id": "B",
-        "text": "Calculation result B"
+        "text": "Choice B"
       },
       {
         "id": "C",
-        "text": "Calculation result C"
+        "text": "Choice C"
       },
       {
         "id": "D",
-        "text": "Calculation result D"
+        "text": "Choice D"
       }
     ],
     "correctAnswer": "D",
@@ -3115,24 +3115,24 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 72,
     "type": "multiple_choice",
-    "prompt": "Item 22: Geometry: Volume of Cylinders & Prisms application problem.",
+    "prompt": "",
     "imageSrc": "/exams/exam1/items/math_q22.png",
     "options": [
       {
         "id": "A",
-        "text": "Calculation result A"
+        "text": "Choice A"
       },
       {
         "id": "B",
-        "text": "Calculation result B"
+        "text": "Choice B"
       },
       {
         "id": "C",
-        "text": "Calculation result C"
+        "text": "Choice C"
       },
       {
         "id": "D",
-        "text": "Calculation result D"
+        "text": "Choice D"
       }
     ],
     "correctAnswer": "C",
@@ -3152,24 +3152,24 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 73,
     "type": "multiple_choice",
-    "prompt": "Item 23: Statistics: Mean, Median, Mode & Range application problem.",
+    "prompt": "",
     "imageSrc": "/exams/exam1/items/math_q23.png",
     "options": [
       {
         "id": "A",
-        "text": "Calculation result A"
+        "text": "Choice A"
       },
       {
         "id": "B",
-        "text": "Calculation result B"
+        "text": "Choice B"
       },
       {
         "id": "C",
-        "text": "Calculation result C"
+        "text": "Choice C"
       },
       {
         "id": "D",
-        "text": "Calculation result D"
+        "text": "Choice D"
       }
     ],
     "correctAnswer": "B",
@@ -3189,7 +3189,7 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 74,
     "type": "text_entry",
-    "prompt": "Item 24: Ratios & Proportions: Scale Factor application problem.",
+    "prompt": "",
     "imageSrc": "/exams/exam1/items/math_q24.png",
     "options": null,
     "correctAnswer": "42",
@@ -3209,24 +3209,24 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 75,
     "type": "multiple_choice",
-    "prompt": "Item 25: Percents: Tax, Discount & Successive Percents application problem.",
+    "prompt": "",
     "imageSrc": "/exams/exam1/items/math_q25.png",
     "options": [
       {
         "id": "A",
-        "text": "Calculation result A"
+        "text": "Choice A"
       },
       {
         "id": "B",
-        "text": "Calculation result B"
+        "text": "Choice B"
       },
       {
         "id": "C",
-        "text": "Calculation result C"
+        "text": "Choice C"
       },
       {
         "id": "D",
-        "text": "Calculation result D"
+        "text": "Choice D"
       }
     ],
     "correctAnswer": "D",
@@ -3246,24 +3246,24 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 76,
     "type": "multiple_choice",
-    "prompt": "Item 26: Coordinate Geometry: Slope & Line Equations application problem.",
+    "prompt": "",
     "imageSrc": "/exams/exam1/items/math_q26.png",
     "options": [
       {
         "id": "A",
-        "text": "Calculation result A"
+        "text": "Choice A"
       },
       {
         "id": "B",
-        "text": "Calculation result B"
+        "text": "Choice B"
       },
       {
         "id": "C",
-        "text": "Calculation result C"
+        "text": "Choice C"
       },
       {
         "id": "D",
-        "text": "Calculation result D"
+        "text": "Choice D"
       }
     ],
     "correctAnswer": "C",
@@ -3283,24 +3283,24 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 77,
     "type": "multiple_choice",
-    "prompt": "Item 27: Algebra: Systems of Linear Equations application problem.",
+    "prompt": "",
     "imageSrc": "/exams/exam1/items/math_q27.png",
     "options": [
       {
         "id": "A",
-        "text": "Calculation result A"
+        "text": "Choice A"
       },
       {
         "id": "B",
-        "text": "Calculation result B"
+        "text": "Choice B"
       },
       {
         "id": "C",
-        "text": "Calculation result C"
+        "text": "Choice C"
       },
       {
         "id": "D",
-        "text": "Calculation result D"
+        "text": "Choice D"
       }
     ],
     "correctAnswer": "B",
@@ -3320,24 +3320,24 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 78,
     "type": "multiple_choice",
-    "prompt": "Item 28: Geometry: Pythagorean Theorem & Triangles application problem.",
+    "prompt": "",
     "imageSrc": "/exams/exam1/items/math_q28.png",
     "options": [
       {
         "id": "A",
-        "text": "Calculation result A"
+        "text": "Choice A"
       },
       {
         "id": "B",
-        "text": "Calculation result B"
+        "text": "Choice B"
       },
       {
         "id": "C",
-        "text": "Calculation result C"
+        "text": "Choice C"
       },
       {
         "id": "D",
-        "text": "Calculation result D"
+        "text": "Choice D"
       }
     ],
     "correctAnswer": "A",
@@ -3357,24 +3357,24 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 79,
     "type": "multiple_choice",
-    "prompt": "Item 29: Geometry: Volume of Cylinders & Prisms application problem.",
+    "prompt": "",
     "imageSrc": "/exams/exam1/items/math_q29.png",
     "options": [
       {
         "id": "A",
-        "text": "Calculation result A"
+        "text": "Choice A"
       },
       {
         "id": "B",
-        "text": "Calculation result B"
+        "text": "Choice B"
       },
       {
         "id": "C",
-        "text": "Calculation result C"
+        "text": "Choice C"
       },
       {
         "id": "D",
-        "text": "Calculation result D"
+        "text": "Choice D"
       }
     ],
     "correctAnswer": "D",
@@ -3394,24 +3394,24 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 80,
     "type": "multiple_choice",
-    "prompt": "Item 30: Statistics: Mean, Median, Mode & Range application problem.",
+    "prompt": "",
     "imageSrc": "/exams/exam1/items/math_q30.png",
     "options": [
       {
         "id": "A",
-        "text": "Calculation result A"
+        "text": "Choice A"
       },
       {
         "id": "B",
-        "text": "Calculation result B"
+        "text": "Choice B"
       },
       {
         "id": "C",
-        "text": "Calculation result C"
+        "text": "Choice C"
       },
       {
         "id": "D",
-        "text": "Calculation result D"
+        "text": "Choice D"
       }
     ],
     "correctAnswer": "C",
@@ -3431,7 +3431,7 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 81,
     "type": "text_entry",
-    "prompt": "Item 31: Ratios & Proportions: Scale Factor application problem.",
+    "prompt": "",
     "imageSrc": "/exams/exam1/items/math_q31.png",
     "options": null,
     "correctAnswer": "42",
@@ -3451,24 +3451,24 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 82,
     "type": "multiple_choice",
-    "prompt": "Item 32: Percents: Tax, Discount & Successive Percents application problem.",
+    "prompt": "",
     "imageSrc": "/exams/exam1/items/math_q32.png",
     "options": [
       {
         "id": "A",
-        "text": "Calculation result A"
+        "text": "Choice A"
       },
       {
         "id": "B",
-        "text": "Calculation result B"
+        "text": "Choice B"
       },
       {
         "id": "C",
-        "text": "Calculation result C"
+        "text": "Choice C"
       },
       {
         "id": "D",
-        "text": "Calculation result D"
+        "text": "Choice D"
       }
     ],
     "correctAnswer": "A",
@@ -3488,24 +3488,24 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 83,
     "type": "multiple_choice",
-    "prompt": "Item 33: Coordinate Geometry: Slope & Line Equations application problem.",
+    "prompt": "",
     "imageSrc": "/exams/exam1/items/math_q33.png",
     "options": [
       {
         "id": "A",
-        "text": "Calculation result A"
+        "text": "Choice A"
       },
       {
         "id": "B",
-        "text": "Calculation result B"
+        "text": "Choice B"
       },
       {
         "id": "C",
-        "text": "Calculation result C"
+        "text": "Choice C"
       },
       {
         "id": "D",
-        "text": "Calculation result D"
+        "text": "Choice D"
       }
     ],
     "correctAnswer": "D",
@@ -3525,24 +3525,24 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 84,
     "type": "multiple_choice",
-    "prompt": "Item 34: Algebra: Systems of Linear Equations application problem.",
+    "prompt": "",
     "imageSrc": "/exams/exam1/items/math_q34.png",
     "options": [
       {
         "id": "A",
-        "text": "Calculation result A"
+        "text": "Choice A"
       },
       {
         "id": "B",
-        "text": "Calculation result B"
+        "text": "Choice B"
       },
       {
         "id": "C",
-        "text": "Calculation result C"
+        "text": "Choice C"
       },
       {
         "id": "D",
-        "text": "Calculation result D"
+        "text": "Choice D"
       }
     ],
     "correctAnswer": "C",
@@ -3562,24 +3562,24 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 85,
     "type": "multiple_choice",
-    "prompt": "Item 35: Geometry: Pythagorean Theorem & Triangles application problem.",
+    "prompt": "",
     "imageSrc": "/exams/exam1/items/math_q35.png",
     "options": [
       {
         "id": "A",
-        "text": "Calculation result A"
+        "text": "Choice A"
       },
       {
         "id": "B",
-        "text": "Calculation result B"
+        "text": "Choice B"
       },
       {
         "id": "C",
-        "text": "Calculation result C"
+        "text": "Choice C"
       },
       {
         "id": "D",
-        "text": "Calculation result D"
+        "text": "Choice D"
       }
     ],
     "correctAnswer": "B",
@@ -3599,24 +3599,24 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 86,
     "type": "multiple_choice",
-    "prompt": "Item 36: Geometry: Volume of Cylinders & Prisms application problem.",
+    "prompt": "",
     "imageSrc": "/exams/exam1/items/math_q36.png",
     "options": [
       {
         "id": "A",
-        "text": "Calculation result A"
+        "text": "Choice A"
       },
       {
         "id": "B",
-        "text": "Calculation result B"
+        "text": "Choice B"
       },
       {
         "id": "C",
-        "text": "Calculation result C"
+        "text": "Choice C"
       },
       {
         "id": "D",
-        "text": "Calculation result D"
+        "text": "Choice D"
       }
     ],
     "correctAnswer": "A",
@@ -3636,24 +3636,24 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 87,
     "type": "multiple_choice",
-    "prompt": "Item 37: Statistics: Mean, Median, Mode & Range application problem.",
+    "prompt": "",
     "imageSrc": "/exams/exam1/items/math_q37.png",
     "options": [
       {
         "id": "A",
-        "text": "Calculation result A"
+        "text": "Choice A"
       },
       {
         "id": "B",
-        "text": "Calculation result B"
+        "text": "Choice B"
       },
       {
         "id": "C",
-        "text": "Calculation result C"
+        "text": "Choice C"
       },
       {
         "id": "D",
-        "text": "Calculation result D"
+        "text": "Choice D"
       }
     ],
     "correctAnswer": "D",
@@ -3673,7 +3673,7 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 88,
     "type": "text_entry",
-    "prompt": "Item 38: Ratios & Proportions: Scale Factor application problem.",
+    "prompt": "",
     "imageSrc": "/exams/exam1/items/math_q38.png",
     "options": null,
     "correctAnswer": "42",
@@ -3693,24 +3693,24 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 89,
     "type": "multiple_choice",
-    "prompt": "Item 39: Percents: Tax, Discount & Successive Percents application problem.",
+    "prompt": "",
     "imageSrc": "/exams/exam1/items/math_q39.png",
     "options": [
       {
         "id": "A",
-        "text": "Calculation result A"
+        "text": "Choice A"
       },
       {
         "id": "B",
-        "text": "Calculation result B"
+        "text": "Choice B"
       },
       {
         "id": "C",
-        "text": "Calculation result C"
+        "text": "Choice C"
       },
       {
         "id": "D",
-        "text": "Calculation result D"
+        "text": "Choice D"
       }
     ],
     "correctAnswer": "B",
@@ -3730,24 +3730,24 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 90,
     "type": "multiple_choice",
-    "prompt": "Item 40: Coordinate Geometry: Slope & Line Equations application problem.",
+    "prompt": "",
     "imageSrc": "/exams/exam1/items/math_q40.png",
     "options": [
       {
         "id": "A",
-        "text": "Calculation result A"
+        "text": "Choice A"
       },
       {
         "id": "B",
-        "text": "Calculation result B"
+        "text": "Choice B"
       },
       {
         "id": "C",
-        "text": "Calculation result C"
+        "text": "Choice C"
       },
       {
         "id": "D",
-        "text": "Calculation result D"
+        "text": "Choice D"
       }
     ],
     "correctAnswer": "A",
@@ -3767,24 +3767,24 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 91,
     "type": "multiple_choice",
-    "prompt": "Item 41: Algebra: Systems of Linear Equations application problem.",
+    "prompt": "",
     "imageSrc": "/exams/exam1/items/math_q41.png",
     "options": [
       {
         "id": "A",
-        "text": "Calculation result A"
+        "text": "Choice A"
       },
       {
         "id": "B",
-        "text": "Calculation result B"
+        "text": "Choice B"
       },
       {
         "id": "C",
-        "text": "Calculation result C"
+        "text": "Choice C"
       },
       {
         "id": "D",
-        "text": "Calculation result D"
+        "text": "Choice D"
       }
     ],
     "correctAnswer": "D",
@@ -3804,24 +3804,24 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 92,
     "type": "multiple_choice",
-    "prompt": "Item 42: Geometry: Pythagorean Theorem & Triangles application problem.",
+    "prompt": "",
     "imageSrc": "/exams/exam1/items/math_q42.png",
     "options": [
       {
         "id": "A",
-        "text": "Calculation result A"
+        "text": "Choice A"
       },
       {
         "id": "B",
-        "text": "Calculation result B"
+        "text": "Choice B"
       },
       {
         "id": "C",
-        "text": "Calculation result C"
+        "text": "Choice C"
       },
       {
         "id": "D",
-        "text": "Calculation result D"
+        "text": "Choice D"
       }
     ],
     "correctAnswer": "C",
@@ -3841,24 +3841,24 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 93,
     "type": "multiple_choice",
-    "prompt": "Item 43: Geometry: Volume of Cylinders & Prisms application problem.",
+    "prompt": "",
     "imageSrc": "/exams/exam1/items/math_q43.png",
     "options": [
       {
         "id": "A",
-        "text": "Calculation result A"
+        "text": "Choice A"
       },
       {
         "id": "B",
-        "text": "Calculation result B"
+        "text": "Choice B"
       },
       {
         "id": "C",
-        "text": "Calculation result C"
+        "text": "Choice C"
       },
       {
         "id": "D",
-        "text": "Calculation result D"
+        "text": "Choice D"
       }
     ],
     "correctAnswer": "B",
@@ -3878,24 +3878,24 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 94,
     "type": "multiple_choice",
-    "prompt": "Item 44: Statistics: Mean, Median, Mode & Range application problem.",
+    "prompt": "",
     "imageSrc": "/exams/exam1/items/math_q44.png",
     "options": [
       {
         "id": "A",
-        "text": "Calculation result A"
+        "text": "Choice A"
       },
       {
         "id": "B",
-        "text": "Calculation result B"
+        "text": "Choice B"
       },
       {
         "id": "C",
-        "text": "Calculation result C"
+        "text": "Choice C"
       },
       {
         "id": "D",
-        "text": "Calculation result D"
+        "text": "Choice D"
       }
     ],
     "correctAnswer": "A",
@@ -3915,7 +3915,7 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 95,
     "type": "text_entry",
-    "prompt": "Item 45: Ratios & Proportions: Scale Factor application problem.",
+    "prompt": "",
     "imageSrc": "/exams/exam1/items/math_q45.png",
     "options": null,
     "correctAnswer": "42",
@@ -3935,24 +3935,24 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 96,
     "type": "multiple_choice",
-    "prompt": "Item 46: Percents: Tax, Discount & Successive Percents application problem.",
+    "prompt": "",
     "imageSrc": "/exams/exam1/items/math_q46.png",
     "options": [
       {
         "id": "A",
-        "text": "Calculation result A"
+        "text": "Choice A"
       },
       {
         "id": "B",
-        "text": "Calculation result B"
+        "text": "Choice B"
       },
       {
         "id": "C",
-        "text": "Calculation result C"
+        "text": "Choice C"
       },
       {
         "id": "D",
-        "text": "Calculation result D"
+        "text": "Choice D"
       }
     ],
     "correctAnswer": "C",
@@ -3972,24 +3972,24 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 97,
     "type": "multiple_choice",
-    "prompt": "Item 47: Coordinate Geometry: Slope & Line Equations application problem.",
+    "prompt": "",
     "imageSrc": "/exams/exam1/items/math_q47.png",
     "options": [
       {
         "id": "A",
-        "text": "Calculation result A"
+        "text": "Choice A"
       },
       {
         "id": "B",
-        "text": "Calculation result B"
+        "text": "Choice B"
       },
       {
         "id": "C",
-        "text": "Calculation result C"
+        "text": "Choice C"
       },
       {
         "id": "D",
-        "text": "Calculation result D"
+        "text": "Choice D"
       }
     ],
     "correctAnswer": "B",
@@ -4009,24 +4009,24 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 98,
     "type": "multiple_choice",
-    "prompt": "Item 48: Algebra: Systems of Linear Equations application problem.",
+    "prompt": "",
     "imageSrc": "/exams/exam1/items/math_q48.png",
     "options": [
       {
         "id": "A",
-        "text": "Calculation result A"
+        "text": "Choice A"
       },
       {
         "id": "B",
-        "text": "Calculation result B"
+        "text": "Choice B"
       },
       {
         "id": "C",
-        "text": "Calculation result C"
+        "text": "Choice C"
       },
       {
         "id": "D",
-        "text": "Calculation result D"
+        "text": "Choice D"
       }
     ],
     "correctAnswer": "A",
@@ -4046,24 +4046,24 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 99,
     "type": "multiple_choice",
-    "prompt": "Item 49: Geometry: Pythagorean Theorem & Triangles application problem.",
+    "prompt": "",
     "imageSrc": "/exams/exam1/items/math_q49.png",
     "options": [
       {
         "id": "A",
-        "text": "Calculation result A"
+        "text": "Choice A"
       },
       {
         "id": "B",
-        "text": "Calculation result B"
+        "text": "Choice B"
       },
       {
         "id": "C",
-        "text": "Calculation result C"
+        "text": "Choice C"
       },
       {
         "id": "D",
-        "text": "Calculation result D"
+        "text": "Choice D"
       }
     ],
     "correctAnswer": "D",
@@ -4083,24 +4083,24 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 100,
     "type": "multiple_choice",
-    "prompt": "Item 50: Geometry: Volume of Cylinders & Prisms application problem.",
+    "prompt": "",
     "imageSrc": "/exams/exam1/items/math_q50.png",
     "options": [
       {
         "id": "A",
-        "text": "Calculation result A"
+        "text": "Choice A"
       },
       {
         "id": "B",
-        "text": "Calculation result B"
+        "text": "Choice B"
       },
       {
         "id": "C",
-        "text": "Calculation result C"
+        "text": "Choice C"
       },
       {
         "id": "D",
-        "text": "Calculation result D"
+        "text": "Choice D"
       }
     ],
     "correctAnswer": "C",

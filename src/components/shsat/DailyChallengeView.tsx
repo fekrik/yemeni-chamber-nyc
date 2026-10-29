@@ -183,7 +183,10 @@ export default function DailyChallengeView() {
         </div>
 
         {/* Crisp Readable Question Prompt (Never Squint!) */}
-        {q.prompt && !q.prompt.startsWith("Practice Form") && (
+        {q.prompt && 
+         !q.prompt.startsWith("Practice Form") && 
+         !q.prompt.includes("which statement best evaluates") && 
+         !q.prompt.includes("application problem.") && (
           <div className="p-3.5 rounded-2xl bg-slate-800/80 border border-slate-700/80">
             <span className="text-[10px] uppercase font-extrabold text-amber-400 tracking-wider block mb-1">
               Question Prompt
@@ -257,6 +260,17 @@ export default function DailyChallengeView() {
             {q.options.map((opt) => {
               const isSelected = userAns === opt.id;
               const isOptionCorrect = opt.id === q.correctAnswer;
+              const isEven = (q.questionNumber % 2 === 0);
+              const displayLetter = isEven
+                ? (opt.id === "A" ? "E" : opt.id === "B" ? "F" : opt.id === "C" ? "G" : opt.id === "D" ? "H" : opt.id)
+                : opt.id;
+              const isGeneric = !opt.text || 
+                opt.text.startsWith("Choice ") || 
+                opt.text.includes("cultural traditions") || 
+                opt.text.includes("Calculation result") || 
+                opt.text.includes("foundational background") ||
+                opt.text.includes("Solution option");
+              const displayText = isGeneric ? `Choice ${displayLetter}` : opt.text;
 
               let btnStyle =
                 "bg-slate-800/80 border-slate-700 text-slate-200 hover:border-indigo-500/50";
@@ -279,9 +293,9 @@ export default function DailyChallengeView() {
                   className={`p-3 rounded-xl border text-left text-xs flex items-center space-x-2.5 transition-all ${btnStyle}`}
                 >
                   <span className="w-6 h-6 rounded-lg bg-slate-900 border border-slate-700 font-bold font-mono flex items-center justify-center shrink-0">
-                    {opt.id}
+                    {displayLetter}
                   </span>
-                  <span className="font-medium flex-1">{opt.text}</span>
+                  <span className="font-medium flex-1">{displayText}</span>
                   {isChecked && isOptionCorrect && (
                     <CheckCircle2 className="w-4 h-4 text-emerald-400 shrink-0" />
                   )}

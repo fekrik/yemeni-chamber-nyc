@@ -715,7 +715,10 @@ export default function ExamSimulator({
             </div>
 
             {/* Crisp Readable Question Prompt */}
-            {currentQ.prompt && !currentQ.prompt.startsWith("Practice Form") && (
+            {currentQ.prompt && 
+             !currentQ.prompt.startsWith("Practice Form") && 
+             !currentQ.prompt.includes("which statement best evaluates") && 
+             !currentQ.prompt.includes("application problem.") && (
               <div className="p-3.5 rounded-xl bg-slate-800/80 border border-slate-700/80">
                 <span className="text-[10px] uppercase font-extrabold text-amber-400 tracking-wider block mb-1">
                   Question Prompt
@@ -769,6 +772,17 @@ export default function ExamSimulator({
                     const isStruck = currentStruck.includes(opt.id);
                     const isSelected = currentAnswer === opt.id;
                     const isCorrectChoice = opt.id === currentQ.correctAnswer;
+                    const isEven = (currentQ.questionNumber % 2 === 0);
+                    const displayLetter = isEven
+                      ? (opt.id === "A" ? "E" : opt.id === "B" ? "F" : opt.id === "C" ? "G" : opt.id === "D" ? "H" : opt.id)
+                      : opt.id;
+                    const isGeneric = !opt.text || 
+                      opt.text.startsWith("Choice ") || 
+                      opt.text.includes("cultural traditions") || 
+                      opt.text.includes("Calculation result") || 
+                      opt.text.includes("foundational background") ||
+                      opt.text.includes("Solution option");
+                    const displayText = isGeneric ? `Choice ${displayLetter}` : opt.text;
 
                     let borderClass = "border-slate-800 bg-slate-800/50 hover:bg-slate-800";
                     if (isSelected) {
@@ -797,14 +811,14 @@ export default function ExamSimulator({
                               : "bg-slate-700 text-slate-300"
                           } ${isStruck ? "line-through text-rose-400" : ""}`}
                         >
-                          {opt.id}
+                          {displayLetter}
                         </div>
                         <span
                           className={`text-xs font-medium leading-relaxed ${
                             isStruck ? "line-through text-slate-500" : "text-slate-200"
                           }`}
                         >
-                          {opt.text}
+                          {displayText}
                         </span>
                       </div>
                     );
