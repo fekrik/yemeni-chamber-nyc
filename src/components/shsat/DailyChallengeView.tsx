@@ -15,10 +15,13 @@ import {
   BookOpen,
   Calculator,
   RotateCcw,
+  ZoomIn,
+  Eye,
 } from "lucide-react";
-import { QUESTIONS } from "@/data/shsatExams";
-import { Question } from "@/types/shsat";
+import { QUESTIONS, PASSAGES } from "@/data/shsatExams";
+import { Question, Passage } from "@/types/shsat";
 import { getDailyProgress, saveDailyProgress } from "@/lib/shsatStorage";
+import ImageZoomModal from "@/components/shsat/ImageZoomModal";
 
 const STREAK_KEY = "shsat_daily_streak_count";
 const LAST_DATE_KEY = "shsat_daily_streak_date";
@@ -30,6 +33,12 @@ export default function DailyChallengeView() {
     {}
   );
   const [submitted, setSubmitted] = useState<Record<string, boolean>>({});
+  const [zoomingImage, setZoomingImage] = useState<{
+    src: string;
+    title: string;
+    prompt?: string;
+  } | null>(null);
+  const [expandedPassageId, setExpandedPassageId] = useState<string | null>(null);
 
   const todayStr = new Date().toISOString().slice(0, 10);
   const formattedToday = new Date().toLocaleDateString("en-US", {
@@ -43,9 +52,21 @@ export default function DailyChallengeView() {
     .split("-")
     .reduce((acc, part) => acc + parseInt(part, 10), 0);
 
-  const elaQuestions = QUESTIONS.filter(
-    (q) => q.section === "ela" && q.options && q.options.length > 0
+  // For daily sprint: prioritize standalone Revising & Editing Part A & high-yield grammar
+  const revisingEla = QUESTIONS.filter(
+    (q) =>
+      q.section === "ela" &&
+      q.options &&
+      q.options.length > 0 &&
+      (q.topic.toLowerCase().includes("revising") ||
+        q.topic.toLowerCase().includes("grammar") ||
+        q.questionNumber <= 10)
   );
+  const elaQuestions =
+    revisingEla.length > 0
+      ? revisingEla
+      : QUESTIONS.filter((q) => q.section === "ela" && q.options && q.options.length > 0);
+
   const mathQuestions = QUESTIONS.filter(
     (q) => q.section === "math" && q.options && q.options.length > 0
   );
@@ -138,6 +159,7 @@ export default function DailyChallengeView() {
     const userAns = selectedAnswers[q.id];
     const isChecked = !!submitted[q.id];
     const isCorrect = userAns?.toUpperCase() === q.correctAnswer.toUpperCase();
+    const passage = q.passageId ? PASSAGES.find((p) => p.id === q.passageId) : null;
 
     return (
       <div className="bg-slate-900 border border-slate-800 rounded-3xl p-5 sm:p-6 shadow-xl space-y-4">
@@ -160,13 +182,73 @@ export default function DailyChallengeView() {
           </span>
         </div>
 
-        {/* Question High-Res Image */}
-        <div className="bg-white rounded-2xl p-3 border border-slate-700/80 shadow-inner">
+        {/* Crisp Readable Question Prompt (Never Squint!) */}
+        {q.prompt && (
+          <div className="p-3.5 rounded-2xl bg-slate-800/80 border border-slate-700/80">
+            <span className="text-[10px] uppercase font-extrabold text-amber-400 tracking-wider block mb-1">
+              Question Prompt
+            </span>
+            <p className="text-xs sm:text-sm font-semibold text-slate-100 leading-relaxed">
+              {q.prompt}
+            </p>
+          </div>
+        )}
+
+        {/* Expandable Clean-Text Passage Drawer if applicable */}
+        {passage && (
+          <div className="rounded-2xl border border-indigo-900/50 bg-indigo-950/20 overflow-hidden">
+            <button
+              onClick={() =>
+                setExpandedPassageId(
+                  expandedPassageId === passage.id ? null : passage.id
+                )
+              }
+              className="w-full p-3 flex items-center justify-between text-left text-xs font-bold text-indigo-300 hover:bg-indigo-950/40 transition-colors"
+            >
+              <span className="flex items-center space-x-2 truncate">
+                <BookOpen className="w-4 h-4 text-indigo-400 shrink-0" />
+                <span className="truncate">Passage: {passage.title}</span>
+              </span>
+              <span className="text-[11px] font-bold text-amber-400 shrink-0 ml-2">
+                {expandedPassageId === passage.id ? "Hide Text ▲" : "Read Full Passage (Clean Text) ▼"}
+              </span>
+            </button>
+            {expandedPassageId === passage.id && (
+              <div className="p-4 bg-slate-950 border-t border-indigo-900/40 max-h-72 overflow-y-auto space-y-3 font-serif text-slate-200 text-xs sm:text-sm leading-relaxed">
+                {passage.text.split("\n\n").map((para, i) => (
+                  <p key={i} className="indent-4">
+                    <span className="font-sans font-bold text-indigo-400/80 text-[10px] mr-1.5 select-none">
+                      [{i + 1}]
+                    </span>
+                    {para}
+                  </p>
+                ))}
+              </div>
+            )}
+          </div>
+        )}
+
+        {/* Question Authentic Graphic / Diagram with Zoom Button */}
+        <div className="relative bg-white rounded-2xl p-3 border border-slate-700/80 shadow-inner group">
           <img
             src={q.imageSrc}
             alt="Daily Challenge Question"
-            className="w-full object-contain max-h-[300px]"
+            className="w-full object-contain max-h-[220px]"
           />
+          <button
+            onClick={() =>
+              setZoomingImage({
+                src: q.imageSrc,
+                title: `${label}: ${q.topic}`,
+                prompt: q.prompt,
+              })
+            }
+            className="absolute top-2 right-2 px-3 py-1.5 rounded-xl bg-slate-900/90 hover:bg-slate-900 text-amber-300 border border-slate-700 text-xs font-bold flex items-center space-x-1.5 shadow-lg transition-all hover:scale-105"
+            title="Click to zoom in full-screen"
+          >
+            <ZoomIn className="w-3.5 h-3.5 text-amber-400" />
+            <span>Magnify (Full Size)</span>
+          </button>
         </div>
 
         {/* Options */}
@@ -323,6 +405,17 @@ export default function DailyChallengeView() {
         {renderQuestionBox(dailyEla, "Part 1: Daily ELA")}
         {renderQuestionBox(dailyMath, "Part 2: Daily Math")}
       </div>
+
+      {/* Full-Screen Image Lightbox & Magnifier */}
+      {zoomingImage && (
+        <ImageZoomModal
+          isOpen={!!zoomingImage}
+          onClose={() => setZoomingImage(null)}
+          imageSrc={zoomingImage.src}
+          title={zoomingImage.title}
+          prompt={zoomingImage.prompt}
+        />
+      )}
     </div>
   );
 }

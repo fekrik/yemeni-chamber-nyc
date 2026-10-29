@@ -33,6 +33,8 @@ import {
 import { Exam, Question, Passage } from "@/types/shsat";
 import FormulaSheetModal from "./FormulaSheetModal";
 import ScoreReportModal from "./ScoreReportModal";
+import ImageZoomModal from "./ImageZoomModal";
+import CrossDeviceSyncModal from "./CrossDeviceSyncModal";
 import { ambientSound } from "@/lib/audioAmbience";
 import {
   getExamSession,
@@ -93,6 +95,8 @@ export default function ExamSimulator({
 
   // Pause modal state
   const [pauseModalOpen, setPauseModalOpen] = useState(false);
+  const [zoomModalOpen, setZoomModalOpen] = useState(false);
+  const [syncModalOpen, setSyncModalOpen] = useState(false);
 
   // Test day ambient sound state
   const [isAudioActive, setIsAudioActive] = useState(false);
@@ -710,13 +714,33 @@ export default function ExamSimulator({
               </span>
             </div>
 
-            {/* High-Resolution Authentic Question Image */}
-            <div className="bg-white rounded-xl p-3 border border-slate-700/80 shadow-inner overflow-hidden">
+            {/* Crisp Readable Question Prompt */}
+            {currentQ.prompt && (
+              <div className="p-3.5 rounded-xl bg-slate-800/80 border border-slate-700/80">
+                <span className="text-[10px] uppercase font-extrabold text-amber-400 tracking-wider block mb-1">
+                  Question Prompt
+                </span>
+                <p className="text-xs sm:text-sm font-semibold text-slate-100 leading-relaxed">
+                  {currentQ.prompt}
+                </p>
+              </div>
+            )}
+
+            {/* High-Resolution Authentic Question Image with Zoom */}
+            <div className="relative bg-white rounded-xl p-3 border border-slate-700/80 shadow-inner overflow-hidden group">
               <img
                 src={currentQ.imageSrc}
                 alt={`Question ${currentQ.questionNumber}`}
-                className="w-full object-contain"
+                className="w-full object-contain max-h-[380px]"
               />
+              <button
+                onClick={() => setZoomModalOpen(true)}
+                className="absolute top-2 right-2 px-2.5 py-1.5 rounded-lg bg-slate-900/90 hover:bg-slate-900 text-amber-300 border border-slate-700 text-xs font-bold flex items-center space-x-1 shadow-md transition-all hover:scale-105"
+                title="Click to view diagram or passage in full-screen zoom"
+              >
+                <ZoomIn className="w-3.5 h-3.5 text-amber-400" />
+                <span>Zoom Diagram</span>
+              </button>
             </div>
 
             {/* Strike-Through Instruction Hint */}
@@ -1152,13 +1176,20 @@ export default function ExamSimulator({
               </button>
 
               <button
+                onClick={() => setSyncModalOpen(true)}
+                className="w-full py-2.5 rounded-xl bg-amber-500/10 hover:bg-amber-500/20 text-amber-300 border border-amber-500/30 text-xs font-bold transition-colors flex items-center justify-center space-x-2"
+              >
+                <span>📱 Sync &amp; Continue on Phone / Other Device</span>
+              </button>
+
+              <button
                 onClick={() => {
                   setPauseModalOpen(false);
                   onExit();
                 }}
                 className="w-full py-2.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-300 text-xs font-semibold transition-colors"
               >
-                Save & Exit to Dashboard
+                Save &amp; Exit to Dashboard
               </button>
             </div>
           </div>
@@ -1190,6 +1221,21 @@ export default function ExamSimulator({
           setTimeRemaining(exam.timeLimitMinutes * 60);
           setCurrentIndex(0);
         }}
+      />
+
+      {/* Image Lightbox Magnifier */}
+      <ImageZoomModal
+        isOpen={zoomModalOpen}
+        onClose={() => setZoomModalOpen(false)}
+        imageSrc={currentQ.imageSrc}
+        title={`Question ${currentQ.questionNumber} Diagram & Detail`}
+        prompt={currentQ.prompt}
+      />
+
+      {/* Cross-Device Cloud Sync Modal */}
+      <CrossDeviceSyncModal
+        isOpen={syncModalOpen}
+        onClose={() => setSyncModalOpen(false)}
       />
     </div>
   );

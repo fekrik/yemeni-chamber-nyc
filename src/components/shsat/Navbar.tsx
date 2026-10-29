@@ -12,6 +12,7 @@ import {
   Calendar,
   Flame,
   FileDown,
+  Smartphone,
 } from "lucide-react";
 
 export type NavTab =
@@ -29,6 +30,7 @@ interface NavbarProps {
   targetSchoolName?: string;
   targetCutoff?: number;
   onOpenCheatSheets?: () => void;
+  onOpenSync?: () => void;
 }
 
 export default function Navbar({
@@ -37,6 +39,7 @@ export default function Navbar({
   targetSchoolName = "Brooklyn Tech",
   targetCutoff = 505,
   onOpenCheatSheets,
+  onOpenSync,
 }: NavbarProps) {
   return (
     <header className="sticky top-0 z-50 bg-slate-900 border-b border-slate-800 text-white shadow-md">
@@ -156,7 +159,16 @@ export default function Navbar({
 
           {/* Right Actions: Subway Sheet + Target School Badge */}
           <div className="flex items-center space-x-2 sm:space-x-3">
-            {onOpenCheatSheets && (
+            {onOpenSync && (
+            <button
+              onClick={onOpenSync}
+              className="px-3 py-1 rounded-md text-xs font-bold whitespace-nowrap bg-indigo-500/20 text-indigo-300 border border-indigo-500/30 flex items-center space-x-1"
+            >
+              <Smartphone className="w-3 h-3" />
+              <span>Sync Devices</span>
+            </button>
+          )}
+          {onOpenCheatSheets && (
               <button
                 onClick={onOpenCheatSheets}
                 className="hidden sm:inline-flex items-center space-x-1.5 px-2.5 py-1.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-amber-300 border border-slate-700 hover:border-amber-500/40 text-xs font-bold transition-all shadow-sm"
@@ -164,6 +176,17 @@ export default function Navbar({
               >
                 <FileDown className="w-3.5 h-3.5" />
                 <span className="hidden xl:inline">Cheat Sheets</span>
+              </button>
+            )}
+
+            {onOpenSync && (
+              <button
+                onClick={onOpenSync}
+                className="inline-flex items-center space-x-1.5 px-2.5 py-1.5 rounded-xl bg-indigo-500/10 hover:bg-indigo-500/20 text-indigo-300 border border-indigo-500/30 text-xs font-bold transition-all shadow-sm"
+                title="Sync and continue practice on your phone or tablet"
+              >
+                <Smartphone className="w-3.5 h-3.5 text-indigo-400" />
+                <span className="hidden sm:inline">Sync</span>
               </button>
             )}
 
@@ -226,6 +249,15 @@ export default function Navbar({
           >
             Skill Drills
           </button>
+          {onOpenSync && (
+            <button
+              onClick={onOpenSync}
+              className="px-3 py-1 rounded-md text-xs font-bold whitespace-nowrap bg-indigo-500/20 text-indigo-300 border border-indigo-500/30 flex items-center space-x-1"
+            >
+              <Smartphone className="w-3 h-3" />
+              <span>Sync Devices</span>
+            </button>
+          )}
           {onOpenCheatSheets && (
             <button
               onClick={onOpenCheatSheets}
