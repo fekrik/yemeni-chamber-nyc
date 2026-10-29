@@ -48,7 +48,7 @@ import {
 } from "@/types/marketplace";
 
 export default function DukkaniPrototypePage() {
-  const [lang, setLang] = useState<"en" | "ar">("ar");
+  const [lang, setLang] = useState<"en" | "ar">("en");
   const isAr = lang === "ar";
 
   // Active Role Simulator:
