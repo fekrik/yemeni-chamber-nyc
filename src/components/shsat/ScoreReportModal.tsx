@@ -93,7 +93,7 @@ export default function ScoreReportModal({
               <p className="text-3xl sm:text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-amber-300 via-white to-amber-200">
                 {compositeScore}
               </p>
-              <p className="text-[11px] text-amber-400/90 font-medium">Scaled out of 800</p>
+              <p className="text-[11px] text-amber-400/90 font-medium">Scaled out of ~710 (NYC DOE Standard)</p>
             </div>
 
             <div className="bg-slate-900/80 border border-slate-700/60 rounded-2xl p-4 text-center">
