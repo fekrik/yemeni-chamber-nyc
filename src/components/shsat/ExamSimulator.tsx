@@ -715,7 +715,7 @@ export default function ExamSimulator({
             </div>
 
             {/* Crisp Readable Question Prompt */}
-            {currentQ.prompt && (
+            {currentQ.prompt && !currentQ.prompt.startsWith("Practice Form") && (
               <div className="p-3.5 rounded-xl bg-slate-800/80 border border-slate-700/80">
                 <span className="text-[10px] uppercase font-extrabold text-amber-400 tracking-wider block mb-1">
                   Question Prompt

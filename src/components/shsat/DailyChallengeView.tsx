@@ -183,7 +183,7 @@ export default function DailyChallengeView() {
         </div>
 
         {/* Crisp Readable Question Prompt (Never Squint!) */}
-        {q.prompt && (
+        {q.prompt && !q.prompt.startsWith("Practice Form") && (
           <div className="p-3.5 rounded-2xl bg-slate-800/80 border border-slate-700/80">
             <span className="text-[10px] uppercase font-extrabold text-amber-400 tracking-wider block mb-1">
               Question Prompt

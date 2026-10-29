@@ -4126,19 +4126,19 @@ export const QUESTIONS: Question[] = [
     "options": [
       {
         "id": "A",
-        "text": "It illustrates the foundational background necessary to understand the subsequent discovery."
+        "text": "Choice A"
       },
       {
         "id": "B",
-        "text": "It presents evidence that challenges prevailing assumptions of the era."
+        "text": "Choice B"
       },
       {
         "id": "C",
-        "text": "It emphasizes the emotional resonance of the protagonist's journey."
+        "text": "Choice C"
       },
       {
         "id": "D",
-        "text": "It demonstrates how empirical research validated the author's working hypothesis."
+        "text": "Choice D"
       }
     ],
     "correctAnswer": "A",
@@ -4164,19 +4164,19 @@ export const QUESTIONS: Question[] = [
     "options": [
       {
         "id": "A",
-        "text": "It illustrates the foundational background necessary to understand the subsequent discovery."
+        "text": "Choice A"
       },
       {
         "id": "B",
-        "text": "It presents evidence that challenges prevailing assumptions of the era."
+        "text": "Choice B"
       },
       {
         "id": "C",
-        "text": "It emphasizes the emotional resonance of the protagonist's journey."
+        "text": "Choice C"
       },
       {
         "id": "D",
-        "text": "It demonstrates how empirical research validated the author's working hypothesis."
+        "text": "Choice D"
       }
     ],
     "correctAnswer": "C",
@@ -4202,19 +4202,19 @@ export const QUESTIONS: Question[] = [
     "options": [
       {
         "id": "A",
-        "text": "It illustrates the foundational background necessary to understand the subsequent discovery."
+        "text": "Choice A"
       },
       {
         "id": "B",
-        "text": "It presents evidence that challenges prevailing assumptions of the era."
+        "text": "Choice B"
       },
       {
         "id": "C",
-        "text": "It emphasizes the emotional resonance of the protagonist's journey."
+        "text": "Choice C"
       },
       {
         "id": "D",
-        "text": "It demonstrates how empirical research validated the author's working hypothesis."
+        "text": "Choice D"
       }
     ],
     "correctAnswer": "D",
@@ -4240,19 +4240,19 @@ export const QUESTIONS: Question[] = [
     "options": [
       {
         "id": "A",
-        "text": "It illustrates the foundational background necessary to understand the subsequent discovery."
+        "text": "Choice A"
       },
       {
         "id": "B",
-        "text": "It presents evidence that challenges prevailing assumptions of the era."
+        "text": "Choice B"
       },
       {
         "id": "C",
-        "text": "It emphasizes the emotional resonance of the protagonist's journey."
+        "text": "Choice C"
       },
       {
         "id": "D",
-        "text": "It demonstrates how empirical research validated the author's working hypothesis."
+        "text": "Choice D"
       }
     ],
     "correctAnswer": "B",
@@ -4278,19 +4278,19 @@ export const QUESTIONS: Question[] = [
     "options": [
       {
         "id": "A",
-        "text": "It illustrates the foundational background necessary to understand the subsequent discovery."
+        "text": "Choice A"
       },
       {
         "id": "B",
-        "text": "It presents evidence that challenges prevailing assumptions of the era."
+        "text": "Choice B"
       },
       {
         "id": "C",
-        "text": "It emphasizes the emotional resonance of the protagonist's journey."
+        "text": "Choice C"
       },
       {
         "id": "D",
-        "text": "It demonstrates how empirical research validated the author's working hypothesis."
+        "text": "Choice D"
       }
     ],
     "correctAnswer": "A",
@@ -4316,19 +4316,19 @@ export const QUESTIONS: Question[] = [
     "options": [
       {
         "id": "A",
-        "text": "It illustrates the foundational background necessary to understand the subsequent discovery."
+        "text": "Choice A"
       },
       {
         "id": "B",
-        "text": "It presents evidence that challenges prevailing assumptions of the era."
+        "text": "Choice B"
       },
       {
         "id": "C",
-        "text": "It emphasizes the emotional resonance of the protagonist's journey."
+        "text": "Choice C"
       },
       {
         "id": "D",
-        "text": "It demonstrates how empirical research validated the author's working hypothesis."
+        "text": "Choice D"
       }
     ],
     "correctAnswer": "C",
@@ -4354,19 +4354,19 @@ export const QUESTIONS: Question[] = [
     "options": [
       {
         "id": "A",
-        "text": "It illustrates the foundational background necessary to understand the subsequent discovery."
+        "text": "Choice A"
       },
       {
         "id": "B",
-        "text": "It presents evidence that challenges prevailing assumptions of the era."
+        "text": "Choice B"
       },
       {
         "id": "C",
-        "text": "It emphasizes the emotional resonance of the protagonist's journey."
+        "text": "Choice C"
       },
       {
         "id": "D",
-        "text": "It demonstrates how empirical research validated the author's working hypothesis."
+        "text": "Choice D"
       }
     ],
     "correctAnswer": "D",
@@ -4392,19 +4392,19 @@ export const QUESTIONS: Question[] = [
     "options": [
       {
         "id": "A",
-        "text": "It illustrates the foundational background necessary to understand the subsequent discovery."
+        "text": "Choice A"
       },
       {
         "id": "B",
-        "text": "It presents evidence that challenges prevailing assumptions of the era."
+        "text": "Choice B"
       },
       {
         "id": "C",
-        "text": "It emphasizes the emotional resonance of the protagonist's journey."
+        "text": "Choice C"
       },
       {
         "id": "D",
-        "text": "It demonstrates how empirical research validated the author's working hypothesis."
+        "text": "Choice D"
       }
     ],
     "correctAnswer": "B",
@@ -4430,19 +4430,19 @@ export const QUESTIONS: Question[] = [
     "options": [
       {
         "id": "A",
-        "text": "It illustrates the foundational background necessary to understand the subsequent discovery."
+        "text": "Choice A"
       },
       {
         "id": "B",
-        "text": "It presents evidence that challenges prevailing assumptions of the era."
+        "text": "Choice B"
       },
       {
         "id": "C",
-        "text": "It emphasizes the emotional resonance of the protagonist's journey."
+        "text": "Choice C"
       },
       {
         "id": "D",
-        "text": "It demonstrates how empirical research validated the author's working hypothesis."
+        "text": "Choice D"
       }
     ],
     "correctAnswer": "A",
@@ -4468,19 +4468,19 @@ export const QUESTIONS: Question[] = [
     "options": [
       {
         "id": "A",
-        "text": "It illustrates the foundational background necessary to understand the subsequent discovery."
+        "text": "Choice A"
       },
       {
         "id": "B",
-        "text": "It presents evidence that challenges prevailing assumptions of the era."
+        "text": "Choice B"
       },
       {
         "id": "C",
-        "text": "It emphasizes the emotional resonance of the protagonist's journey."
+        "text": "Choice C"
       },
       {
         "id": "D",
-        "text": "It demonstrates how empirical research validated the author's working hypothesis."
+        "text": "Choice D"
       }
     ],
     "correctAnswer": "C",
@@ -4505,19 +4505,19 @@ export const QUESTIONS: Question[] = [
     "options": [
       {
         "id": "A",
-        "text": "Solution option A"
+        "text": "Choice A"
       },
       {
         "id": "B",
-        "text": "Solution option B"
+        "text": "Choice B"
       },
       {
         "id": "C",
-        "text": "Solution option C"
+        "text": "Choice C"
       },
       {
         "id": "D",
-        "text": "Solution option D"
+        "text": "Choice D"
       }
     ],
     "correctAnswer": "A",
@@ -4542,19 +4542,19 @@ export const QUESTIONS: Question[] = [
     "options": [
       {
         "id": "A",
-        "text": "Solution option A"
+        "text": "Choice A"
       },
       {
         "id": "B",
-        "text": "Solution option B"
+        "text": "Choice B"
       },
       {
         "id": "C",
-        "text": "Solution option C"
+        "text": "Choice C"
       },
       {
         "id": "D",
-        "text": "Solution option D"
+        "text": "Choice D"
       }
     ],
     "correctAnswer": "D",
@@ -4579,19 +4579,19 @@ export const QUESTIONS: Question[] = [
     "options": [
       {
         "id": "A",
-        "text": "Solution option A"
+        "text": "Choice A"
       },
       {
         "id": "B",
-        "text": "Solution option B"
+        "text": "Choice B"
       },
       {
         "id": "C",
-        "text": "Solution option C"
+        "text": "Choice C"
       },
       {
         "id": "D",
-        "text": "Solution option D"
+        "text": "Choice D"
       }
     ],
     "correctAnswer": "B",
@@ -4616,19 +4616,19 @@ export const QUESTIONS: Question[] = [
     "options": [
       {
         "id": "A",
-        "text": "Solution option A"
+        "text": "Choice A"
       },
       {
         "id": "B",
-        "text": "Solution option B"
+        "text": "Choice B"
       },
       {
         "id": "C",
-        "text": "Solution option C"
+        "text": "Choice C"
       },
       {
         "id": "D",
-        "text": "Solution option D"
+        "text": "Choice D"
       }
     ],
     "correctAnswer": "C",
@@ -4653,19 +4653,19 @@ export const QUESTIONS: Question[] = [
     "options": [
       {
         "id": "A",
-        "text": "Solution option A"
+        "text": "Choice A"
       },
       {
         "id": "B",
-        "text": "Solution option B"
+        "text": "Choice B"
       },
       {
         "id": "C",
-        "text": "Solution option C"
+        "text": "Choice C"
       },
       {
         "id": "D",
-        "text": "Solution option D"
+        "text": "Choice D"
       }
     ],
     "correctAnswer": "A",
@@ -4690,19 +4690,19 @@ export const QUESTIONS: Question[] = [
     "options": [
       {
         "id": "A",
-        "text": "Solution option A"
+        "text": "Choice A"
       },
       {
         "id": "B",
-        "text": "Solution option B"
+        "text": "Choice B"
       },
       {
         "id": "C",
-        "text": "Solution option C"
+        "text": "Choice C"
       },
       {
         "id": "D",
-        "text": "Solution option D"
+        "text": "Choice D"
       }
     ],
     "correctAnswer": "D",
@@ -4727,19 +4727,19 @@ export const QUESTIONS: Question[] = [
     "options": [
       {
         "id": "A",
-        "text": "Solution option A"
+        "text": "Choice A"
       },
       {
         "id": "B",
-        "text": "Solution option B"
+        "text": "Choice B"
       },
       {
         "id": "C",
-        "text": "Solution option C"
+        "text": "Choice C"
       },
       {
         "id": "D",
-        "text": "Solution option D"
+        "text": "Choice D"
       }
     ],
     "correctAnswer": "B",
@@ -4764,19 +4764,19 @@ export const QUESTIONS: Question[] = [
     "options": [
       {
         "id": "A",
-        "text": "Solution option A"
+        "text": "Choice A"
       },
       {
         "id": "B",
-        "text": "Solution option B"
+        "text": "Choice B"
       },
       {
         "id": "C",
-        "text": "Solution option C"
+        "text": "Choice C"
       },
       {
         "id": "D",
-        "text": "Solution option D"
+        "text": "Choice D"
       }
     ],
     "correctAnswer": "C",
@@ -4801,19 +4801,19 @@ export const QUESTIONS: Question[] = [
     "options": [
       {
         "id": "A",
-        "text": "Solution option A"
+        "text": "Choice A"
       },
       {
         "id": "B",
-        "text": "Solution option B"
+        "text": "Choice B"
       },
       {
         "id": "C",
-        "text": "Solution option C"
+        "text": "Choice C"
       },
       {
         "id": "D",
-        "text": "Solution option D"
+        "text": "Choice D"
       }
     ],
     "correctAnswer": "A",
@@ -4838,19 +4838,19 @@ export const QUESTIONS: Question[] = [
     "options": [
       {
         "id": "A",
-        "text": "Solution option A"
+        "text": "Choice A"
       },
       {
         "id": "B",
-        "text": "Solution option B"
+        "text": "Choice B"
       },
       {
         "id": "C",
-        "text": "Solution option C"
+        "text": "Choice C"
       },
       {
         "id": "D",
-        "text": "Solution option D"
+        "text": "Choice D"
       }
     ],
     "correctAnswer": "D",
@@ -4876,19 +4876,19 @@ export const QUESTIONS: Question[] = [
     "options": [
       {
         "id": "A",
-        "text": "It illustrates the foundational background necessary to understand the subsequent discovery."
+        "text": "Choice A"
       },
       {
         "id": "B",
-        "text": "It presents evidence that challenges prevailing assumptions of the era."
+        "text": "Choice B"
       },
       {
         "id": "C",
-        "text": "It emphasizes the emotional resonance of the protagonist's journey."
+        "text": "Choice C"
       },
       {
         "id": "D",
-        "text": "It demonstrates how empirical research validated the author's working hypothesis."
+        "text": "Choice D"
       }
     ],
     "correctAnswer": "A",
@@ -4914,19 +4914,19 @@ export const QUESTIONS: Question[] = [
     "options": [
       {
         "id": "A",
-        "text": "It illustrates the foundational background necessary to understand the subsequent discovery."
+        "text": "Choice A"
       },
       {
         "id": "B",
-        "text": "It presents evidence that challenges prevailing assumptions of the era."
+        "text": "Choice B"
       },
       {
         "id": "C",
-        "text": "It emphasizes the emotional resonance of the protagonist's journey."
+        "text": "Choice C"
       },
       {
         "id": "D",
-        "text": "It demonstrates how empirical research validated the author's working hypothesis."
+        "text": "Choice D"
       }
     ],
     "correctAnswer": "C",
@@ -4952,19 +4952,19 @@ export const QUESTIONS: Question[] = [
     "options": [
       {
         "id": "A",
-        "text": "It illustrates the foundational background necessary to understand the subsequent discovery."
+        "text": "Choice A"
       },
       {
         "id": "B",
-        "text": "It presents evidence that challenges prevailing assumptions of the era."
+        "text": "Choice B"
       },
       {
         "id": "C",
-        "text": "It emphasizes the emotional resonance of the protagonist's journey."
+        "text": "Choice C"
       },
       {
         "id": "D",
-        "text": "It demonstrates how empirical research validated the author's working hypothesis."
+        "text": "Choice D"
       }
     ],
     "correctAnswer": "D",
@@ -4990,19 +4990,19 @@ export const QUESTIONS: Question[] = [
     "options": [
       {
         "id": "A",
-        "text": "It illustrates the foundational background necessary to understand the subsequent discovery."
+        "text": "Choice A"
       },
       {
         "id": "B",
-        "text": "It presents evidence that challenges prevailing assumptions of the era."
+        "text": "Choice B"
       },
       {
         "id": "C",
-        "text": "It emphasizes the emotional resonance of the protagonist's journey."
+        "text": "Choice C"
       },
       {
         "id": "D",
-        "text": "It demonstrates how empirical research validated the author's working hypothesis."
+        "text": "Choice D"
       }
     ],
     "correctAnswer": "B",
@@ -5028,19 +5028,19 @@ export const QUESTIONS: Question[] = [
     "options": [
       {
         "id": "A",
-        "text": "It illustrates the foundational background necessary to understand the subsequent discovery."
+        "text": "Choice A"
       },
       {
         "id": "B",
-        "text": "It presents evidence that challenges prevailing assumptions of the era."
+        "text": "Choice B"
       },
       {
         "id": "C",
-        "text": "It emphasizes the emotional resonance of the protagonist's journey."
+        "text": "Choice C"
       },
       {
         "id": "D",
-        "text": "It demonstrates how empirical research validated the author's working hypothesis."
+        "text": "Choice D"
       }
     ],
     "correctAnswer": "A",
@@ -5066,19 +5066,19 @@ export const QUESTIONS: Question[] = [
     "options": [
       {
         "id": "A",
-        "text": "It illustrates the foundational background necessary to understand the subsequent discovery."
+        "text": "Choice A"
       },
       {
         "id": "B",
-        "text": "It presents evidence that challenges prevailing assumptions of the era."
+        "text": "Choice B"
       },
       {
         "id": "C",
-        "text": "It emphasizes the emotional resonance of the protagonist's journey."
+        "text": "Choice C"
       },
       {
         "id": "D",
-        "text": "It demonstrates how empirical research validated the author's working hypothesis."
+        "text": "Choice D"
       }
     ],
     "correctAnswer": "C",
@@ -5104,19 +5104,19 @@ export const QUESTIONS: Question[] = [
     "options": [
       {
         "id": "A",
-        "text": "It illustrates the foundational background necessary to understand the subsequent discovery."
+        "text": "Choice A"
       },
       {
         "id": "B",
-        "text": "It presents evidence that challenges prevailing assumptions of the era."
+        "text": "Choice B"
       },
       {
         "id": "C",
-        "text": "It emphasizes the emotional resonance of the protagonist's journey."
+        "text": "Choice C"
       },
       {
         "id": "D",
-        "text": "It demonstrates how empirical research validated the author's working hypothesis."
+        "text": "Choice D"
       }
     ],
     "correctAnswer": "D",
@@ -5142,19 +5142,19 @@ export const QUESTIONS: Question[] = [
     "options": [
       {
         "id": "A",
-        "text": "It illustrates the foundational background necessary to understand the subsequent discovery."
+        "text": "Choice A"
       },
       {
         "id": "B",
-        "text": "It presents evidence that challenges prevailing assumptions of the era."
+        "text": "Choice B"
       },
       {
         "id": "C",
-        "text": "It emphasizes the emotional resonance of the protagonist's journey."
+        "text": "Choice C"
       },
       {
         "id": "D",
-        "text": "It demonstrates how empirical research validated the author's working hypothesis."
+        "text": "Choice D"
       }
     ],
     "correctAnswer": "B",
@@ -5180,19 +5180,19 @@ export const QUESTIONS: Question[] = [
     "options": [
       {
         "id": "A",
-        "text": "It illustrates the foundational background necessary to understand the subsequent discovery."
+        "text": "Choice A"
       },
       {
         "id": "B",
-        "text": "It presents evidence that challenges prevailing assumptions of the era."
+        "text": "Choice B"
       },
       {
         "id": "C",
-        "text": "It emphasizes the emotional resonance of the protagonist's journey."
+        "text": "Choice C"
       },
       {
         "id": "D",
-        "text": "It demonstrates how empirical research validated the author's working hypothesis."
+        "text": "Choice D"
       }
     ],
     "correctAnswer": "A",
@@ -5218,19 +5218,19 @@ export const QUESTIONS: Question[] = [
     "options": [
       {
         "id": "A",
-        "text": "It illustrates the foundational background necessary to understand the subsequent discovery."
+        "text": "Choice A"
       },
       {
         "id": "B",
-        "text": "It presents evidence that challenges prevailing assumptions of the era."
+        "text": "Choice B"
       },
       {
         "id": "C",
-        "text": "It emphasizes the emotional resonance of the protagonist's journey."
+        "text": "Choice C"
       },
       {
         "id": "D",
-        "text": "It demonstrates how empirical research validated the author's working hypothesis."
+        "text": "Choice D"
       }
     ],
     "correctAnswer": "C",
@@ -5255,19 +5255,19 @@ export const QUESTIONS: Question[] = [
     "options": [
       {
         "id": "A",
-        "text": "Solution option A"
+        "text": "Choice A"
       },
       {
         "id": "B",
-        "text": "Solution option B"
+        "text": "Choice B"
       },
       {
         "id": "C",
-        "text": "Solution option C"
+        "text": "Choice C"
       },
       {
         "id": "D",
-        "text": "Solution option D"
+        "text": "Choice D"
       }
     ],
     "correctAnswer": "A",
@@ -5292,19 +5292,19 @@ export const QUESTIONS: Question[] = [
     "options": [
       {
         "id": "A",
-        "text": "Solution option A"
+        "text": "Choice A"
       },
       {
         "id": "B",
-        "text": "Solution option B"
+        "text": "Choice B"
       },
       {
         "id": "C",
-        "text": "Solution option C"
+        "text": "Choice C"
       },
       {
         "id": "D",
-        "text": "Solution option D"
+        "text": "Choice D"
       }
     ],
     "correctAnswer": "D",
@@ -5329,19 +5329,19 @@ export const QUESTIONS: Question[] = [
     "options": [
       {
         "id": "A",
-        "text": "Solution option A"
+        "text": "Choice A"
       },
       {
         "id": "B",
-        "text": "Solution option B"
+        "text": "Choice B"
       },
       {
         "id": "C",
-        "text": "Solution option C"
+        "text": "Choice C"
       },
       {
         "id": "D",
-        "text": "Solution option D"
+        "text": "Choice D"
       }
     ],
     "correctAnswer": "B",
@@ -5366,19 +5366,19 @@ export const QUESTIONS: Question[] = [
     "options": [
       {
         "id": "A",
-        "text": "Solution option A"
+        "text": "Choice A"
       },
       {
         "id": "B",
-        "text": "Solution option B"
+        "text": "Choice B"
       },
       {
         "id": "C",
-        "text": "Solution option C"
+        "text": "Choice C"
       },
       {
         "id": "D",
-        "text": "Solution option D"
+        "text": "Choice D"
       }
     ],
     "correctAnswer": "C",
@@ -5403,19 +5403,19 @@ export const QUESTIONS: Question[] = [
     "options": [
       {
         "id": "A",
-        "text": "Solution option A"
+        "text": "Choice A"
       },
       {
         "id": "B",
-        "text": "Solution option B"
+        "text": "Choice B"
       },
       {
         "id": "C",
-        "text": "Solution option C"
+        "text": "Choice C"
       },
       {
         "id": "D",
-        "text": "Solution option D"
+        "text": "Choice D"
       }
     ],
     "correctAnswer": "A",
@@ -5440,19 +5440,19 @@ export const QUESTIONS: Question[] = [
     "options": [
       {
         "id": "A",
-        "text": "Solution option A"
+        "text": "Choice A"
       },
       {
         "id": "B",
-        "text": "Solution option B"
+        "text": "Choice B"
       },
       {
         "id": "C",
-        "text": "Solution option C"
+        "text": "Choice C"
       },
       {
         "id": "D",
-        "text": "Solution option D"
+        "text": "Choice D"
       }
     ],
     "correctAnswer": "D",
@@ -5477,19 +5477,19 @@ export const QUESTIONS: Question[] = [
     "options": [
       {
         "id": "A",
-        "text": "Solution option A"
+        "text": "Choice A"
       },
       {
         "id": "B",
-        "text": "Solution option B"
+        "text": "Choice B"
       },
       {
         "id": "C",
-        "text": "Solution option C"
+        "text": "Choice C"
       },
       {
         "id": "D",
-        "text": "Solution option D"
+        "text": "Choice D"
       }
     ],
     "correctAnswer": "B",
@@ -5514,19 +5514,19 @@ export const QUESTIONS: Question[] = [
     "options": [
       {
         "id": "A",
-        "text": "Solution option A"
+        "text": "Choice A"
       },
       {
         "id": "B",
-        "text": "Solution option B"
+        "text": "Choice B"
       },
       {
         "id": "C",
-        "text": "Solution option C"
+        "text": "Choice C"
       },
       {
         "id": "D",
-        "text": "Solution option D"
+        "text": "Choice D"
       }
     ],
     "correctAnswer": "C",
@@ -5551,19 +5551,19 @@ export const QUESTIONS: Question[] = [
     "options": [
       {
         "id": "A",
-        "text": "Solution option A"
+        "text": "Choice A"
       },
       {
         "id": "B",
-        "text": "Solution option B"
+        "text": "Choice B"
       },
       {
         "id": "C",
-        "text": "Solution option C"
+        "text": "Choice C"
       },
       {
         "id": "D",
-        "text": "Solution option D"
+        "text": "Choice D"
       }
     ],
     "correctAnswer": "A",
@@ -5588,19 +5588,19 @@ export const QUESTIONS: Question[] = [
     "options": [
       {
         "id": "A",
-        "text": "Solution option A"
+        "text": "Choice A"
       },
       {
         "id": "B",
-        "text": "Solution option B"
+        "text": "Choice B"
       },
       {
         "id": "C",
-        "text": "Solution option C"
+        "text": "Choice C"
       },
       {
         "id": "D",
-        "text": "Solution option D"
+        "text": "Choice D"
       }
     ],
     "correctAnswer": "D",
@@ -5626,19 +5626,19 @@ export const QUESTIONS: Question[] = [
     "options": [
       {
         "id": "A",
-        "text": "It illustrates the foundational background necessary to understand the subsequent discovery."
+        "text": "Choice A"
       },
       {
         "id": "B",
-        "text": "It presents evidence that challenges prevailing assumptions of the era."
+        "text": "Choice B"
       },
       {
         "id": "C",
-        "text": "It emphasizes the emotional resonance of the protagonist's journey."
+        "text": "Choice C"
       },
       {
         "id": "D",
-        "text": "It demonstrates how empirical research validated the author's working hypothesis."
+        "text": "Choice D"
       }
     ],
     "correctAnswer": "A",
@@ -5664,19 +5664,19 @@ export const QUESTIONS: Question[] = [
     "options": [
       {
         "id": "A",
-        "text": "It illustrates the foundational background necessary to understand the subsequent discovery."
+        "text": "Choice A"
       },
       {
         "id": "B",
-        "text": "It presents evidence that challenges prevailing assumptions of the era."
+        "text": "Choice B"
       },
       {
         "id": "C",
-        "text": "It emphasizes the emotional resonance of the protagonist's journey."
+        "text": "Choice C"
       },
       {
         "id": "D",
-        "text": "It demonstrates how empirical research validated the author's working hypothesis."
+        "text": "Choice D"
       }
     ],
     "correctAnswer": "C",
@@ -5702,19 +5702,19 @@ export const QUESTIONS: Question[] = [
     "options": [
       {
         "id": "A",
-        "text": "It illustrates the foundational background necessary to understand the subsequent discovery."
+        "text": "Choice A"
       },
       {
         "id": "B",
-        "text": "It presents evidence that challenges prevailing assumptions of the era."
+        "text": "Choice B"
       },
       {
         "id": "C",
-        "text": "It emphasizes the emotional resonance of the protagonist's journey."
+        "text": "Choice C"
       },
       {
         "id": "D",
-        "text": "It demonstrates how empirical research validated the author's working hypothesis."
+        "text": "Choice D"
       }
     ],
     "correctAnswer": "D",
@@ -5740,19 +5740,19 @@ export const QUESTIONS: Question[] = [
     "options": [
       {
         "id": "A",
-        "text": "It illustrates the foundational background necessary to understand the subsequent discovery."
+        "text": "Choice A"
       },
       {
         "id": "B",
-        "text": "It presents evidence that challenges prevailing assumptions of the era."
+        "text": "Choice B"
       },
       {
         "id": "C",
-        "text": "It emphasizes the emotional resonance of the protagonist's journey."
+        "text": "Choice C"
       },
       {
         "id": "D",
-        "text": "It demonstrates how empirical research validated the author's working hypothesis."
+        "text": "Choice D"
       }
     ],
     "correctAnswer": "B",
@@ -5778,19 +5778,19 @@ export const QUESTIONS: Question[] = [
     "options": [
       {
         "id": "A",
-        "text": "It illustrates the foundational background necessary to understand the subsequent discovery."
+        "text": "Choice A"
       },
       {
         "id": "B",
-        "text": "It presents evidence that challenges prevailing assumptions of the era."
+        "text": "Choice B"
       },
       {
         "id": "C",
-        "text": "It emphasizes the emotional resonance of the protagonist's journey."
+        "text": "Choice C"
       },
       {
         "id": "D",
-        "text": "It demonstrates how empirical research validated the author's working hypothesis."
+        "text": "Choice D"
       }
     ],
     "correctAnswer": "A",
@@ -5816,19 +5816,19 @@ export const QUESTIONS: Question[] = [
     "options": [
       {
         "id": "A",
-        "text": "It illustrates the foundational background necessary to understand the subsequent discovery."
+        "text": "Choice A"
       },
       {
         "id": "B",
-        "text": "It presents evidence that challenges prevailing assumptions of the era."
+        "text": "Choice B"
       },
       {
         "id": "C",
-        "text": "It emphasizes the emotional resonance of the protagonist's journey."
+        "text": "Choice C"
       },
       {
         "id": "D",
-        "text": "It demonstrates how empirical research validated the author's working hypothesis."
+        "text": "Choice D"
       }
     ],
     "correctAnswer": "C",
@@ -5854,19 +5854,19 @@ export const QUESTIONS: Question[] = [
     "options": [
       {
         "id": "A",
-        "text": "It illustrates the foundational background necessary to understand the subsequent discovery."
+        "text": "Choice A"
       },
       {
         "id": "B",
-        "text": "It presents evidence that challenges prevailing assumptions of the era."
+        "text": "Choice B"
       },
       {
         "id": "C",
-        "text": "It emphasizes the emotional resonance of the protagonist's journey."
+        "text": "Choice C"
       },
       {
         "id": "D",
-        "text": "It demonstrates how empirical research validated the author's working hypothesis."
+        "text": "Choice D"
       }
     ],
     "correctAnswer": "D",
@@ -5887,36 +5887,36 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 8,
     "passageId": "e4_p2",
     "type": "multiple_choice",
-    "prompt": "Practice Form D: Reading Comprehension analysis question 8.",
+    "prompt": "The words \"feat,\" \"humanly impossible,\" and \"impenetrable barrier\" in paragraph 1 affect the tone of the paragraph because they",
     "imageSrc": "/exams/exam4/items/ela_q08.png",
     "options": [
       {
         "id": "A",
-        "text": "It illustrates the foundational background necessary to understand the subsequent discovery."
+        "text": "highlight the idea that only the most skilled runners would be able to run a four-minute mile."
       },
       {
         "id": "B",
-        "text": "It presents evidence that challenges prevailing assumptions of the era."
+        "text": "emphasize the idea that running a mile in less than four minutes was a seemingly unattainable goal."
       },
       {
         "id": "C",
-        "text": "It emphasizes the emotional resonance of the protagonist's journey."
+        "text": "convey the competitiveness among elite runners to consistently set and break speed records."
       },
       {
         "id": "D",
-        "text": "It demonstrates how empirical research validated the author's working hypothesis."
+        "text": "show the intensity of the training programs athletes endure in order to achieve their goals."
       }
     ],
     "correctAnswer": "B",
-    "topic": "Reading Comprehension: Evidence & Inference",
+    "topic": "Reading Comprehension: Tone & Word Choice",
     "difficulty": "Medium",
     "hints": [
-      "Locate the specific lines in the passage.",
-      "Compare each answer choice strictly to the line citations.",
-      "Eliminate distractors that exaggerate or misrepresent the author's tone."
+      "Look back at paragraph 1 of 'A Miracle Mile'. What attitude or perception do phrases like 'humanly impossible' and 'impenetrable barrier' evoke about the 4-minute mile?",
+      "Notice how the paragraph establishes that before Roger Bannister, people believed running a sub-4-minute mile was fundamentally beyond human capability.",
+      "The phrase 'impenetrable barrier' underscores how impossible and unreachable the target seemed to the world."
     ],
-    "trapAlert": "Avoid choices that use extreme absolute words like 'always', 'never', or 'entirely' unless backed by the passage.",
-    "explanation": "The selected choice is backed directly by textual evidence in the official practice test."
+    "trapAlert": "Traps A and C mention skilled runners and competition, but the heightened language specifically emphasizes how unattainable the milestone seemed before it was broken.",
+    "explanation": "Option B is correct. In paragraph 1, the words 'feat,' 'humanly impossible,' and 'impenetrable barrier' emphasize that running a mile in less than four minutes was viewed as a seemingly unattainable goal."
   },
   {
     "id": "e4_ela_09",
@@ -5930,19 +5930,19 @@ export const QUESTIONS: Question[] = [
     "options": [
       {
         "id": "A",
-        "text": "It illustrates the foundational background necessary to understand the subsequent discovery."
+        "text": "Choice A"
       },
       {
         "id": "B",
-        "text": "It presents evidence that challenges prevailing assumptions of the era."
+        "text": "Choice B"
       },
       {
         "id": "C",
-        "text": "It emphasizes the emotional resonance of the protagonist's journey."
+        "text": "Choice C"
       },
       {
         "id": "D",
-        "text": "It demonstrates how empirical research validated the author's working hypothesis."
+        "text": "Choice D"
       }
     ],
     "correctAnswer": "A",
@@ -5968,19 +5968,19 @@ export const QUESTIONS: Question[] = [
     "options": [
       {
         "id": "A",
-        "text": "It illustrates the foundational background necessary to understand the subsequent discovery."
+        "text": "Choice A"
       },
       {
         "id": "B",
-        "text": "It presents evidence that challenges prevailing assumptions of the era."
+        "text": "Choice B"
       },
       {
         "id": "C",
-        "text": "It emphasizes the emotional resonance of the protagonist's journey."
+        "text": "Choice C"
       },
       {
         "id": "D",
-        "text": "It demonstrates how empirical research validated the author's working hypothesis."
+        "text": "Choice D"
       }
     ],
     "correctAnswer": "C",
@@ -6005,19 +6005,19 @@ export const QUESTIONS: Question[] = [
     "options": [
       {
         "id": "A",
-        "text": "Solution option A"
+        "text": "Choice A"
       },
       {
         "id": "B",
-        "text": "Solution option B"
+        "text": "Choice B"
       },
       {
         "id": "C",
-        "text": "Solution option C"
+        "text": "Choice C"
       },
       {
         "id": "D",
-        "text": "Solution option D"
+        "text": "Choice D"
       }
     ],
     "correctAnswer": "A",
@@ -6042,19 +6042,19 @@ export const QUESTIONS: Question[] = [
     "options": [
       {
         "id": "A",
-        "text": "Solution option A"
+        "text": "Choice A"
       },
       {
         "id": "B",
-        "text": "Solution option B"
+        "text": "Choice B"
       },
       {
         "id": "C",
-        "text": "Solution option C"
+        "text": "Choice C"
       },
       {
         "id": "D",
-        "text": "Solution option D"
+        "text": "Choice D"
       }
     ],
     "correctAnswer": "D",
@@ -6079,19 +6079,19 @@ export const QUESTIONS: Question[] = [
     "options": [
       {
         "id": "A",
-        "text": "Solution option A"
+        "text": "Choice A"
       },
       {
         "id": "B",
-        "text": "Solution option B"
+        "text": "Choice B"
       },
       {
         "id": "C",
-        "text": "Solution option C"
+        "text": "Choice C"
       },
       {
         "id": "D",
-        "text": "Solution option D"
+        "text": "Choice D"
       }
     ],
     "correctAnswer": "B",
@@ -6116,19 +6116,19 @@ export const QUESTIONS: Question[] = [
     "options": [
       {
         "id": "A",
-        "text": "Solution option A"
+        "text": "Choice A"
       },
       {
         "id": "B",
-        "text": "Solution option B"
+        "text": "Choice B"
       },
       {
         "id": "C",
-        "text": "Solution option C"
+        "text": "Choice C"
       },
       {
         "id": "D",
-        "text": "Solution option D"
+        "text": "Choice D"
       }
     ],
     "correctAnswer": "C",
@@ -6153,19 +6153,19 @@ export const QUESTIONS: Question[] = [
     "options": [
       {
         "id": "A",
-        "text": "Solution option A"
+        "text": "Choice A"
       },
       {
         "id": "B",
-        "text": "Solution option B"
+        "text": "Choice B"
       },
       {
         "id": "C",
-        "text": "Solution option C"
+        "text": "Choice C"
       },
       {
         "id": "D",
-        "text": "Solution option D"
+        "text": "Choice D"
       }
     ],
     "correctAnswer": "A",
@@ -6190,19 +6190,19 @@ export const QUESTIONS: Question[] = [
     "options": [
       {
         "id": "A",
-        "text": "Solution option A"
+        "text": "Choice A"
       },
       {
         "id": "B",
-        "text": "Solution option B"
+        "text": "Choice B"
       },
       {
         "id": "C",
-        "text": "Solution option C"
+        "text": "Choice C"
       },
       {
         "id": "D",
-        "text": "Solution option D"
+        "text": "Choice D"
       }
     ],
     "correctAnswer": "D",
@@ -6227,19 +6227,19 @@ export const QUESTIONS: Question[] = [
     "options": [
       {
         "id": "A",
-        "text": "Solution option A"
+        "text": "Choice A"
       },
       {
         "id": "B",
-        "text": "Solution option B"
+        "text": "Choice B"
       },
       {
         "id": "C",
-        "text": "Solution option C"
+        "text": "Choice C"
       },
       {
         "id": "D",
-        "text": "Solution option D"
+        "text": "Choice D"
       }
     ],
     "correctAnswer": "B",
@@ -6264,19 +6264,19 @@ export const QUESTIONS: Question[] = [
     "options": [
       {
         "id": "A",
-        "text": "Solution option A"
+        "text": "Choice A"
       },
       {
         "id": "B",
-        "text": "Solution option B"
+        "text": "Choice B"
       },
       {
         "id": "C",
-        "text": "Solution option C"
+        "text": "Choice C"
       },
       {
         "id": "D",
-        "text": "Solution option D"
+        "text": "Choice D"
       }
     ],
     "correctAnswer": "C",
@@ -6301,19 +6301,19 @@ export const QUESTIONS: Question[] = [
     "options": [
       {
         "id": "A",
-        "text": "Solution option A"
+        "text": "Choice A"
       },
       {
         "id": "B",
-        "text": "Solution option B"
+        "text": "Choice B"
       },
       {
         "id": "C",
-        "text": "Solution option C"
+        "text": "Choice C"
       },
       {
         "id": "D",
-        "text": "Solution option D"
+        "text": "Choice D"
       }
     ],
     "correctAnswer": "A",
@@ -6338,19 +6338,19 @@ export const QUESTIONS: Question[] = [
     "options": [
       {
         "id": "A",
-        "text": "Solution option A"
+        "text": "Choice A"
       },
       {
         "id": "B",
-        "text": "Solution option B"
+        "text": "Choice B"
       },
       {
         "id": "C",
-        "text": "Solution option C"
+        "text": "Choice C"
       },
       {
         "id": "D",
-        "text": "Solution option D"
+        "text": "Choice D"
       }
     ],
     "correctAnswer": "D",
