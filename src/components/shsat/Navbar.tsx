@@ -85,12 +85,12 @@ export default function Navbar({
               onClick={() => setActiveTab("roadmap")}
               className={`flex items-center space-x-1.5 px-3 py-2 rounded-lg text-xs font-semibold transition-all ${
                 activeTab === "roadmap"
-                  ? "bg-indigo-600 text-white shadow-sm"
+                  ? "bg-indigo-600 text-white shadow-sm ring-1 ring-amber-400/50"
                   : "text-slate-300 hover:text-white hover:bg-slate-800/60"
               }`}
             >
               <Calendar className="w-3.5 h-3.5 text-amber-400" />
-              <span>4-Week Plan</span>
+              <span>Brooklyn Tech Roadmap</span>
             </button>
 
             <button
@@ -194,11 +194,11 @@ export default function Navbar({
           </button>
           <button
             onClick={() => setActiveTab("roadmap")}
-            className={`px-3 py-1 rounded-md text-xs font-medium whitespace-nowrap ${
-              activeTab === "roadmap" ? "bg-indigo-600 text-white" : "text-slate-300 bg-slate-800"
+            className={`px-3 py-1 rounded-md text-xs font-bold whitespace-nowrap ${
+              activeTab === "roadmap" ? "bg-indigo-600 text-white" : "text-amber-300 bg-slate-800 border border-amber-500/30"
             }`}
           >
-            4-Week Plan
+            Brooklyn Tech Roadmap
           </button>
           <button
             onClick={() => setActiveTab("daily")}

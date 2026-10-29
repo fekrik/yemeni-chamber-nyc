@@ -14,6 +14,7 @@ import {
   ChevronRight,
   Play,
   RotateCcw,
+  Calendar,
 } from "lucide-react";
 import { Exam, SpecializedHighSchool } from "@/types/shsat";
 import {
@@ -29,6 +30,7 @@ interface DashboardHeroProps {
   onSelectSchool: (id: string) => void;
   onStartExam: (examId: string, mode: "full_sim" | "tutor") => void;
   onLaunchDrill: () => void;
+  onOpenRoadmap?: () => void;
 }
 
 export default function DashboardHero({
@@ -38,6 +40,7 @@ export default function DashboardHero({
   onSelectSchool,
   onStartExam,
   onLaunchDrill,
+  onOpenRoadmap,
 }: DashboardHeroProps) {
   const selectedSchool =
     schools.find((s) => s.id === selectedSchoolId) || schools[0];
@@ -123,6 +126,48 @@ export default function DashboardHero({
             </div>
           </div>
         </div>
+      </div>
+
+      {/* 4-Week Brooklyn Tech Roadmap Quick Launcher */}
+      <div className="rounded-3xl bg-gradient-to-r from-indigo-950/80 via-slate-900 to-amber-950/40 border border-amber-500/30 p-5 sm:p-6 shadow-xl flex flex-col md:flex-row md:items-center justify-between gap-5 relative overflow-hidden group">
+        <div className="absolute top-0 right-0 w-64 h-64 bg-amber-500/5 rounded-full blur-2xl pointer-events-none" />
+
+        <div className="flex items-start space-x-4 relative z-10">
+          <div className="w-12 h-12 rounded-2xl bg-gradient-to-tr from-amber-500 to-amber-300 p-0.5 shrink-0 shadow-lg shadow-amber-500/20">
+            <div className="w-full h-full bg-slate-950 rounded-[14px] flex items-center justify-center text-amber-400">
+              <Calendar className="w-6 h-6" />
+            </div>
+          </div>
+          <div>
+            <div className="flex flex-wrap items-center gap-2">
+              <span className="text-xs font-extrabold uppercase tracking-wider text-amber-400">
+                Official Brooklyn Tech 505 Target Sprint
+              </span>
+              <span className="text-[10px] font-extrabold px-2 py-0.5 rounded-full bg-emerald-500/20 text-emerald-300 border border-emerald-500/30">
+                4-Week Daily Guide
+              </span>
+            </div>
+            <h3 className="text-base sm:text-lg font-bold text-white mt-1">
+              Brooklyn Tech 4-Week Study Roadmap
+            </h3>
+            <p className="text-xs sm:text-sm text-slate-300 mt-1 max-w-2xl leading-relaxed">
+              20 progressive daily missions (15–45 min/day) designed to guarantee 35+ correct raw Math & ELA answers, eliminate test traps, and secure a 505+ scaled cutoff score.
+            </p>
+          </div>
+        </div>
+
+        {onOpenRoadmap && (
+          <div className="flex items-center gap-3 shrink-0 relative z-10">
+            <button
+              onClick={onOpenRoadmap}
+              className="w-full md:w-auto px-5 py-3 rounded-xl bg-gradient-to-r from-amber-500 via-amber-400 to-amber-500 hover:from-amber-400 hover:to-amber-300 text-slate-950 font-extrabold text-xs shadow-lg shadow-amber-500/20 flex items-center justify-center space-x-2 transition-all hover:scale-[1.02]"
+            >
+              <Calendar className="w-4 h-4 text-slate-950" />
+              <span>Open Brooklyn Tech Roadmap</span>
+              <ArrowRight className="w-3.5 h-3.5 ml-1" />
+            </button>
+          </div>
+        )}
       </div>
 
       {/* 4 Official Full Practice Tests Grid */}

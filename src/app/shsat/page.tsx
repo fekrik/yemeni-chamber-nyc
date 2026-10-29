@@ -196,6 +196,7 @@ export default function ShsatMainPage() {
             onSelectSchool={handleSelectSchool}
             onStartExam={handleStartExam}
             onLaunchDrill={() => handleTabChange("drills")}
+            onOpenRoadmap={() => handleTabChange("roadmap")}
           />
         )}
 
