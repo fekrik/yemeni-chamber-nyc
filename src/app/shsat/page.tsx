@@ -8,6 +8,9 @@ import TopicDrillsView from "@/components/shsat/TopicDrillsView";
 import MistakeNotebookView from "@/components/shsat/MistakeNotebookView";
 import CutoffPredictorView from "@/components/shsat/CutoffPredictorView";
 import StrategyGuideView from "@/components/shsat/StrategyGuideView";
+import StudyRoadmapView from "@/components/shsat/StudyRoadmapView";
+import DailyChallengeView from "@/components/shsat/DailyChallengeView";
+import PrintableCheatSheetsModal from "@/components/shsat/PrintableCheatSheetsModal";
 import {
   EXAMS,
   SPECIALIZED_HIGH_SCHOOLS,
@@ -20,6 +23,7 @@ import { getTargetSchoolId, setTargetSchoolId } from "@/lib/shsatStorage";
 export default function ShsatMainPage() {
   const [activeTab, setActiveTab] = useState<NavTab>("dashboard");
   const [selectedSchoolId, setSelectedSchoolId] = useState<string>("brooklyn_tech");
+  const [cheatSheetsOpen, setCheatSheetsOpen] = useState(false);
 
   useEffect(() => {
     setSelectedSchoolId(getTargetSchoolId());
@@ -111,6 +115,7 @@ export default function ShsatMainPage() {
         setActiveTab={setActiveTab}
         targetSchoolName={selectedSchool.shortName}
         targetCutoff={selectedSchool.cutoffScore}
+        onOpenCheatSheets={() => setCheatSheetsOpen(true)}
       />
 
       <main className="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-8">
@@ -125,6 +130,17 @@ export default function ShsatMainPage() {
           />
         )}
 
+        {activeTab === "roadmap" && (
+          <StudyRoadmapView
+            onStartExam={handleStartExam}
+            onOpenCheatSheets={() => setCheatSheetsOpen(true)}
+            onLaunchDrill={() => setActiveTab("drills")}
+            onOpenNotebook={() => setActiveTab("notebook")}
+          />
+        )}
+
+        {activeTab === "daily" && <DailyChallengeView />}
+
         {activeTab === "drills" && (
           <TopicDrillsView onStartCustomDrill={handleStartCustomDrill} />
         )}
@@ -137,6 +153,11 @@ export default function ShsatMainPage() {
 
         {activeTab === "strategies" && <StrategyGuideView />}
       </main>
+
+      <PrintableCheatSheetsModal
+        isOpen={cheatSheetsOpen}
+        onClose={() => setCheatSheetsOpen(false)}
+      />
 
       <footer className="border-t border-slate-900 bg-slate-950 py-6 text-center text-xs text-slate-400">
         <div className="max-w-7xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-3">

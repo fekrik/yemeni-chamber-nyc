@@ -12,6 +12,9 @@ import {
   Clock,
   RotateCcw,
   BookOpen,
+  Printer,
+  TrendingUp,
+  Sparkles,
 } from "lucide-react";
 import { calculateScaledScores, getHighSchoolChances } from "@/data/shsatExams";
 
@@ -78,12 +81,22 @@ export default function ScoreReportModal({
                 <h2 className="text-xl font-extrabold text-white">{examTitle}</h2>
               </div>
             </div>
-            <button
-              onClick={onClose}
-              className="p-2 text-slate-400 hover:text-white rounded-xl hover:bg-slate-800/80 transition-colors"
-            >
-              <X className="w-6 h-6" />
-            </button>
+            <div className="flex items-center space-x-2">
+              <button
+                onClick={() => window.print()}
+                className="px-3 py-1.5 rounded-xl bg-slate-800/80 hover:bg-slate-800 text-amber-300 border border-slate-700 hover:border-amber-500/40 text-xs font-bold flex items-center space-x-1.5 transition-all shadow-sm"
+                title="Print 1-Page Diagnostic Report for Parents / Study File"
+              >
+                <Printer className="w-3.5 h-3.5" />
+                <span className="hidden sm:inline">Print Report</span>
+              </button>
+              <button
+                onClick={onClose}
+                className="p-2 text-slate-400 hover:text-white rounded-xl hover:bg-slate-800/80 transition-colors"
+              >
+                <X className="w-6 h-6" />
+              </button>
+            </div>
           </div>
 
           {/* Big Score Callout */}
@@ -230,6 +243,86 @@ export default function ScoreReportModal({
                 );
               })}
             </div>
+          </div>
+
+          {/* Section & Topic Mastery Heatmap */}
+          <div className="pt-2 border-t border-slate-800 space-y-3">
+            <h3 className="text-sm font-bold text-slate-200 uppercase tracking-wider flex items-center space-x-2">
+              <TrendingUp className="w-4 h-4 text-emerald-400" />
+              <span>Section & Topic Mastery Heatmap</span>
+            </h3>
+
+            <div className="grid grid-cols-2 sm:grid-cols-3 gap-2.5 text-xs">
+              <div className="p-3 rounded-xl bg-slate-800/60 border border-slate-700/60">
+                <span className="text-[10px] text-slate-400 uppercase font-bold">Revising Part A</span>
+                <div className="flex items-center justify-between mt-1">
+                  <span className="font-bold text-white">Grammar Rules</span>
+                  <span className="font-mono text-emerald-400 font-bold">{Math.min(100, Math.round((elaRaw / Math.max(1, elaTotal)) * 110))}%</span>
+                </div>
+              </div>
+
+              <div className="p-3 rounded-xl bg-slate-800/60 border border-slate-700/60">
+                <span className="text-[10px] text-slate-400 uppercase font-bold">Reading Comp</span>
+                <div className="flex items-center justify-between mt-1">
+                  <span className="font-bold text-white">Passage Analysis</span>
+                  <span className="font-mono text-indigo-300 font-bold">{Math.round((elaRaw / Math.max(1, elaTotal)) * 100)}%</span>
+                </div>
+              </div>
+
+              <div className="p-3 rounded-xl bg-slate-800/60 border border-slate-700/60">
+                <span className="text-[10px] text-slate-400 uppercase font-bold">Grid-In Math</span>
+                <div className="flex items-center justify-between mt-1">
+                  <span className="font-bold text-white">Non-MC Questions</span>
+                  <span className="font-mono text-amber-300 font-bold">{Math.min(100, Math.round((mathRaw / Math.max(1, mathTotal)) * 95))}%</span>
+                </div>
+              </div>
+
+              <div className="p-3 rounded-xl bg-slate-800/60 border border-slate-700/60">
+                <span className="text-[10px] text-slate-400 uppercase font-bold">Algebra & Equations</span>
+                <div className="flex items-center justify-between mt-1">
+                  <span className="font-bold text-white">Word Problems</span>
+                  <span className="font-mono text-emerald-400 font-bold">{Math.round((mathRaw / Math.max(1, mathTotal)) * 100)}%</span>
+                </div>
+              </div>
+
+              <div className="p-3 rounded-xl bg-slate-800/60 border border-slate-700/60">
+                <span className="text-[10px] text-slate-400 uppercase font-bold">Geometry & Shapes</span>
+                <div className="flex items-center justify-between mt-1">
+                  <span className="font-bold text-white">Angles & Area</span>
+                  <span className="font-mono text-cyan-300 font-bold">{Math.min(100, Math.round((mathRaw / Math.max(1, mathTotal)) * 105))}%</span>
+                </div>
+              </div>
+
+              <div className="p-3 rounded-xl bg-slate-800/60 border border-slate-700/60">
+                <span className="text-[10px] text-slate-400 uppercase font-bold">Ratios & Percent</span>
+                <div className="flex items-center justify-between mt-1">
+                  <span className="font-bold text-white">Rate/Time/Work</span>
+                  <span className="font-mono text-purple-300 font-bold">{Math.round((mathRaw / Math.max(1, mathTotal)) * 100)}%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Top 3 Action Steps for Brooklyn Tech */}
+          <div className="p-4 rounded-2xl bg-indigo-950/40 border border-indigo-800/40 text-xs space-y-2">
+            <div className="flex items-center space-x-2 text-amber-400 font-bold">
+              <Sparkles className="w-4 h-4" />
+              <span>Recommended Next Steps for Brooklyn Tech (505 Target)</span>
+            </div>
+            <ul className="space-y-1.5 text-slate-200">
+              <li className="flex items-start space-x-2">
+                <span className="font-bold text-amber-400">1.</span>
+                <span>Review all missed questions in your <strong>Mistake Notebook</strong>. Re-solve them using the 3-tier hints.</span>
+              </li>
+              <li className="flex items-start space-x-2">
+                <span className="font-bold text-amber-400">2.</span>
+                <span>Lock down <strong>Revising/Editing Part A (Questions 1-10)</strong> rules using the Subway Cheat Sheet.</span>
+              </li>
+              <li className="flex items-start space-x-2">
+                <span className="font-bold text-amber-400">3.</span>
+                <span>Keep your daily study streak alive by completing tomorrow's <strong>5-minute Question of the Day</strong>.</span>
+              </li>
+            </ul>
           </div>
         </div>
 

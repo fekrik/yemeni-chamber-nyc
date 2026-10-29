@@ -9,15 +9,26 @@ import {
   School,
   Lightbulb,
   Award,
+  Calendar,
+  Flame,
+  FileDown,
 } from "lucide-react";
 
-export type NavTab = "dashboard" | "drills" | "notebook" | "cutoffs" | "strategies";
+export type NavTab =
+  | "dashboard"
+  | "roadmap"
+  | "daily"
+  | "drills"
+  | "notebook"
+  | "cutoffs"
+  | "strategies";
 
 interface NavbarProps {
   activeTab: NavTab;
   setActiveTab: (tab: NavTab) => void;
   targetSchoolName?: string;
   targetCutoff?: number;
+  onOpenCheatSheets?: () => void;
 }
 
 export default function Navbar({
@@ -25,6 +36,7 @@ export default function Navbar({
   setActiveTab,
   targetSchoolName = "Brooklyn Tech",
   targetCutoff = 505,
+  onOpenCheatSheets,
 }: NavbarProps) {
   return (
     <header className="sticky top-0 z-50 bg-slate-900 border-b border-slate-800 text-white shadow-md">
@@ -56,70 +68,105 @@ export default function Navbar({
           </div>
 
           {/* Navigation Links */}
-          <nav className="hidden md:flex items-center space-x-1">
+          <nav className="hidden lg:flex items-center space-x-1">
             <button
               onClick={() => setActiveTab("dashboard")}
-              className={`flex items-center space-x-2 px-3.5 py-2 rounded-lg text-sm font-medium transition-all ${
+              className={`flex items-center space-x-1.5 px-3 py-2 rounded-lg text-xs font-semibold transition-all ${
                 activeTab === "dashboard"
                   ? "bg-indigo-600 text-white shadow-sm"
                   : "text-slate-300 hover:text-white hover:bg-slate-800/60"
               }`}
             >
-              <Target className="w-4 h-4" />
-              <span>Full Practice Tests</span>
+              <Target className="w-3.5 h-3.5" />
+              <span>Mock Tests</span>
+            </button>
+
+            <button
+              onClick={() => setActiveTab("roadmap")}
+              className={`flex items-center space-x-1.5 px-3 py-2 rounded-lg text-xs font-semibold transition-all ${
+                activeTab === "roadmap"
+                  ? "bg-indigo-600 text-white shadow-sm"
+                  : "text-slate-300 hover:text-white hover:bg-slate-800/60"
+              }`}
+            >
+              <Calendar className="w-3.5 h-3.5 text-amber-400" />
+              <span>4-Week Plan</span>
+            </button>
+
+            <button
+              onClick={() => setActiveTab("daily")}
+              className={`flex items-center space-x-1.5 px-3 py-2 rounded-lg text-xs font-semibold transition-all ${
+                activeTab === "daily"
+                  ? "bg-indigo-600 text-white shadow-sm"
+                  : "text-slate-300 hover:text-white hover:bg-slate-800/60"
+              }`}
+            >
+              <Flame className="w-3.5 h-3.5 text-orange-400 fill-orange-400" />
+              <span>Daily Sprint</span>
             </button>
 
             <button
               onClick={() => setActiveTab("drills")}
-              className={`flex items-center space-x-2 px-3.5 py-2 rounded-lg text-sm font-medium transition-all ${
+              className={`flex items-center space-x-1.5 px-3 py-2 rounded-lg text-xs font-semibold transition-all ${
                 activeTab === "drills"
                   ? "bg-indigo-600 text-white shadow-sm"
                   : "text-slate-300 hover:text-white hover:bg-slate-800/60"
               }`}
             >
-              <Zap className="w-4 h-4 text-amber-400" />
-              <span>Skill Drills</span>
+              <Zap className="w-3.5 h-3.5 text-amber-400" />
+              <span>Topic Drills</span>
             </button>
 
             <button
               onClick={() => setActiveTab("notebook")}
-              className={`flex items-center space-x-2 px-3.5 py-2 rounded-lg text-sm font-medium transition-all ${
+              className={`flex items-center space-x-1.5 px-3 py-2 rounded-lg text-xs font-semibold transition-all ${
                 activeTab === "notebook"
                   ? "bg-indigo-600 text-white shadow-sm"
                   : "text-slate-300 hover:text-white hover:bg-slate-800/60"
               }`}
             >
-              <BookMarked className="w-4 h-4 text-rose-400" />
-              <span>Mistake Notebook</span>
+              <BookMarked className="w-3.5 h-3.5 text-rose-400" />
+              <span>Mistakes</span>
             </button>
 
             <button
               onClick={() => setActiveTab("cutoffs")}
-              className={`flex items-center space-x-2 px-3.5 py-2 rounded-lg text-sm font-medium transition-all ${
+              className={`flex items-center space-x-1.5 px-3 py-2 rounded-lg text-xs font-semibold transition-all ${
                 activeTab === "cutoffs"
                   ? "bg-indigo-600 text-white shadow-sm"
                   : "text-slate-300 hover:text-white hover:bg-slate-800/60"
               }`}
             >
-              <School className="w-4 h-4 text-cyan-400" />
-              <span>Cutoff Predictor</span>
+              <School className="w-3.5 h-3.5 text-cyan-400" />
+              <span>Cutoffs</span>
             </button>
 
             <button
               onClick={() => setActiveTab("strategies")}
-              className={`flex items-center space-x-2 px-3.5 py-2 rounded-lg text-sm font-medium transition-all ${
+              className={`flex items-center space-x-1.5 px-3 py-2 rounded-lg text-xs font-semibold transition-all ${
                 activeTab === "strategies"
                   ? "bg-indigo-600 text-white shadow-sm"
                   : "text-slate-300 hover:text-white hover:bg-slate-800/60"
               }`}
             >
-              <Lightbulb className="w-4 h-4 text-emerald-400" />
-              <span>Test Tactics</span>
+              <Lightbulb className="w-3.5 h-3.5 text-emerald-400" />
+              <span>Tactics</span>
             </button>
           </nav>
 
-          {/* Target School Badge */}
-          <div className="flex items-center space-x-3">
+          {/* Right Actions: Subway Sheet + Target School Badge */}
+          <div className="flex items-center space-x-2 sm:space-x-3">
+            {onOpenCheatSheets && (
+              <button
+                onClick={onOpenCheatSheets}
+                className="hidden sm:inline-flex items-center space-x-1.5 px-2.5 py-1.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-amber-300 border border-slate-700 hover:border-amber-500/40 text-xs font-bold transition-all shadow-sm"
+                title="Print Subway & Advisory Cheat Sheets (Formulas, Grammar, Pacing)"
+              >
+                <FileDown className="w-3.5 h-3.5" />
+                <span className="hidden xl:inline">Cheat Sheets</span>
+              </button>
+            )}
+
             <div
               onClick={() => setActiveTab("cutoffs")}
               className="flex items-center space-x-2 px-3 py-1.5 rounded-full bg-slate-800/80 border border-slate-700 hover:border-amber-500/50 cursor-pointer transition-colors"
@@ -136,7 +183,7 @@ export default function Navbar({
         </div>
 
         {/* Mobile Submenu Bar */}
-        <div className="flex md:hidden overflow-x-auto py-2 border-t border-slate-800 space-x-2 no-scrollbar">
+        <div className="flex lg:hidden overflow-x-auto py-2 border-t border-slate-800 space-x-2 no-scrollbar">
           <button
             onClick={() => setActiveTab("dashboard")}
             className={`px-3 py-1 rounded-md text-xs font-medium whitespace-nowrap ${
@@ -146,6 +193,23 @@ export default function Navbar({
             Practice Tests
           </button>
           <button
+            onClick={() => setActiveTab("roadmap")}
+            className={`px-3 py-1 rounded-md text-xs font-medium whitespace-nowrap ${
+              activeTab === "roadmap" ? "bg-indigo-600 text-white" : "text-slate-300 bg-slate-800"
+            }`}
+          >
+            4-Week Plan
+          </button>
+          <button
+            onClick={() => setActiveTab("daily")}
+            className={`px-3 py-1 rounded-md text-xs font-medium whitespace-nowrap flex items-center space-x-1 ${
+              activeTab === "daily" ? "bg-indigo-600 text-white" : "text-slate-300 bg-slate-800"
+            }`}
+          >
+            <Flame className="w-3 h-3 text-orange-400 fill-orange-400" />
+            <span>Daily Sprint</span>
+          </button>
+          <button
             onClick={() => setActiveTab("drills")}
             className={`px-3 py-1 rounded-md text-xs font-medium whitespace-nowrap ${
               activeTab === "drills" ? "bg-indigo-600 text-white" : "text-slate-300 bg-slate-800"
@@ -153,6 +217,15 @@ export default function Navbar({
           >
             Skill Drills
           </button>
+          {onOpenCheatSheets && (
+            <button
+              onClick={onOpenCheatSheets}
+              className="px-3 py-1 rounded-md text-xs font-bold whitespace-nowrap bg-amber-500/20 text-amber-300 border border-amber-500/30 flex items-center space-x-1"
+            >
+              <FileDown className="w-3 h-3" />
+              <span>Cheat Sheet</span>
+            </button>
+          )}
           <button
             onClick={() => setActiveTab("notebook")}
             className={`px-3 py-1 rounded-md text-xs font-medium whitespace-nowrap ${

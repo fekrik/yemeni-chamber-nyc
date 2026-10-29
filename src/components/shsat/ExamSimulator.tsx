@@ -27,10 +27,13 @@ import {
   Delete as Backspace,
   Pause,
   Play,
+  Volume2,
+  VolumeX,
 } from "lucide-react";
 import { Exam, Question, Passage } from "@/types/shsat";
 import FormulaSheetModal from "./FormulaSheetModal";
 import ScoreReportModal from "./ScoreReportModal";
+import { ambientSound } from "@/lib/audioAmbience";
 import {
   getExamSession,
   saveExamSession,
@@ -90,6 +93,25 @@ export default function ExamSimulator({
 
   // Pause modal state
   const [pauseModalOpen, setPauseModalOpen] = useState(false);
+
+  // Test day ambient sound state
+  const [isAudioActive, setIsAudioActive] = useState(false);
+
+  useEffect(() => {
+    return () => {
+      ambientSound.stop();
+    };
+  }, []);
+
+  const toggleAudio = () => {
+    if (isAudioActive) {
+      ambientSound.stop();
+      setIsAudioActive(false);
+    } else {
+      const ok = ambientSound.start();
+      setIsAudioActive(ok);
+    }
+  };
 
   // Initial restoration flag to prevent overwriting saved progress on mount
   const isRestoredRef = useRef(false);
@@ -447,6 +469,24 @@ export default function ExamSimulator({
             >
               <FileText className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-indigo-400" />
               <span className="hidden sm:inline text-[11px]">Formulas</span>
+            </button>
+
+            {/* Test Room Ambient Audio */}
+            <button
+              onClick={toggleAudio}
+              className={`p-1.5 sm:p-2 rounded-lg border text-xs font-semibold flex items-center space-x-1 transition-all shrink-0 ${
+                isAudioActive
+                  ? "bg-emerald-500/20 text-emerald-300 border-emerald-500/50 shadow-sm ring-1 ring-emerald-500"
+                  : "bg-slate-800 border-slate-700 text-slate-300 hover:text-white"
+              }`}
+              title="Ambient Test Hall Sound (Gentle classroom audio for test-day mental conditioning)"
+            >
+              {isAudioActive ? (
+                <Volume2 className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-emerald-400" />
+              ) : (
+                <VolumeX className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-slate-400" />
+              )}
+              <span className="hidden xl:inline text-[11px]">Room Sound</span>
             </button>
 
             {/* Flag for Review */}
