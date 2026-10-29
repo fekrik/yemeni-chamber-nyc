@@ -18,6 +18,25 @@ export interface SavedExamSession {
 const STORAGE_KEY_PREFIX = "shsat_session_";
 const ALL_SESSIONS_INDEX_KEY = "shsat_active_sessions";
 const STUDENT_NAME_KEY = "shsat_student_name";
+const TARGET_SCHOOL_KEY = "shsat_target_school";
+
+export function getTargetSchoolId(): string {
+  if (typeof window === "undefined") return "brooklyn_tech";
+  try {
+    return localStorage.getItem(TARGET_SCHOOL_KEY) || "brooklyn_tech";
+  } catch {
+    return "brooklyn_tech";
+  }
+}
+
+export function setTargetSchoolId(id: string): void {
+  if (typeof window === "undefined") return;
+  try {
+    localStorage.setItem(TARGET_SCHOOL_KEY, id);
+  } catch (err) {
+    console.error("Failed to save target school", err);
+  }
+}
 
 export function getStudentName(): string {
   if (typeof window === "undefined") return "8th Grade Scholar";

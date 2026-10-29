@@ -23,8 +23,8 @@ interface NavbarProps {
 export default function Navbar({
   activeTab,
   setActiveTab,
-  targetSchoolName = "Stuyvesant",
-  targetCutoff = 560,
+  targetSchoolName = "Brooklyn Tech",
+  targetCutoff = 505,
 }: NavbarProps) {
   return (
     <header className="sticky top-0 z-50 bg-slate-900 border-b border-slate-800 text-white shadow-md">

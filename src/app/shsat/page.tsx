@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Navbar, { NavTab } from "@/components/shsat/Navbar";
 import DashboardHero from "@/components/shsat/DashboardHero";
 import ExamSimulator from "@/components/shsat/ExamSimulator";
@@ -15,10 +15,20 @@ import {
   QUESTIONS,
 } from "@/data/shsatExams";
 import { Exam, Question } from "@/types/shsat";
+import { getTargetSchoolId, setTargetSchoolId } from "@/lib/shsatStorage";
 
 export default function ShsatMainPage() {
   const [activeTab, setActiveTab] = useState<NavTab>("dashboard");
-  const [selectedSchoolId, setSelectedSchoolId] = useState<string>("stuyvesant");
+  const [selectedSchoolId, setSelectedSchoolId] = useState<string>("brooklyn_tech");
+
+  useEffect(() => {
+    setSelectedSchoolId(getTargetSchoolId());
+  }, []);
+
+  const handleSelectSchool = (schoolId: string) => {
+    setSelectedSchoolId(schoolId);
+    setTargetSchoolId(schoolId);
+  };
 
   // Exam simulator active state
   const [activeExam, setActiveExam] = useState<Exam | null>(null);
@@ -109,7 +119,7 @@ export default function ShsatMainPage() {
             exams={EXAMS}
             schools={SPECIALIZED_HIGH_SCHOOLS}
             selectedSchoolId={selectedSchoolId}
-            onSelectSchool={setSelectedSchoolId}
+            onSelectSchool={handleSelectSchool}
             onStartExam={handleStartExam}
             onLaunchDrill={() => setActiveTab("drills")}
           />

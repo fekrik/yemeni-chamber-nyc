@@ -52,7 +52,7 @@ export default function ExamSimulator({
   passages,
   mode,
   onExit,
-  targetSchoolId = "stuyvesant",
+  targetSchoolId = "brooklyn_tech",
 }: ExamSimulatorProps) {
   // Current question index in this test
   const [currentIndex, setCurrentIndex] = useState(0);
