@@ -18,26 +18,75 @@ import {
   QUESTIONS,
 } from "@/data/shsatExams";
 import { Exam, Question } from "@/types/shsat";
-import { getTargetSchoolId, setTargetSchoolId } from "@/lib/shsatStorage";
+import {
+  getTargetSchoolId,
+  setTargetSchoolId,
+  getActiveTab,
+  saveActiveTab,
+  getOngoingExamState,
+  setOngoingExamState,
+  clearOngoingExamState,
+} from "@/lib/shsatStorage";
 
 export default function ShsatMainPage() {
   const [activeTab, setActiveTab] = useState<NavTab>("dashboard");
   const [selectedSchoolId, setSelectedSchoolId] = useState<string>("brooklyn_tech");
   const [cheatSheetsOpen, setCheatSheetsOpen] = useState(false);
 
+  // Exam simulator active state
+  const [activeExam, setActiveExam] = useState<Exam | null>(null);
+  const [activeQuestions, setActiveQuestions] = useState<Question[]>([]);
+  const [examMode, setExamMode] = useState<"full_sim" | "tutor">("full_sim");
+
   useEffect(() => {
+    // 1. Restore target high school preference
     setSelectedSchoolId(getTargetSchoolId());
+
+    // 2. Restore active tab / study path
+    const savedTab = getActiveTab();
+    if (
+      savedTab &&
+      [
+        "dashboard",
+        "roadmap",
+        "daily",
+        "drills",
+        "notebook",
+        "cutoffs",
+        "strategies",
+      ].includes(savedTab)
+    ) {
+      setActiveTab(savedTab as NavTab);
+    }
+
+    // 3. Restore ongoing exam session if browser refreshed mid-test
+    const ongoing = getOngoingExamState();
+    if (ongoing) {
+      if (ongoing.isCustom && ongoing.customExam) {
+        setActiveExam(ongoing.customExam);
+        setActiveQuestions(ongoing.customQuestions || []);
+        setExamMode(ongoing.mode);
+      } else {
+        const exam = EXAMS.find((e) => e.id === ongoing.examId);
+        if (exam) {
+          const examQuestions = QUESTIONS.filter((q) => q.examId === ongoing.examId);
+          setActiveExam(exam);
+          setActiveQuestions(examQuestions);
+          setExamMode(ongoing.mode);
+        }
+      }
+    }
   }, []);
+
+  const handleTabChange = (tab: NavTab) => {
+    setActiveTab(tab);
+    saveActiveTab(tab);
+  };
 
   const handleSelectSchool = (schoolId: string) => {
     setSelectedSchoolId(schoolId);
     setTargetSchoolId(schoolId);
   };
-
-  // Exam simulator active state
-  const [activeExam, setActiveExam] = useState<Exam | null>(null);
-  const [activeQuestions, setActiveQuestions] = useState<Question[]>([]);
-  const [examMode, setExamMode] = useState<"full_sim" | "tutor">("full_sim");
 
   const selectedSchool =
     SPECIALIZED_HIGH_SCHOOLS.find((s) => s.id === selectedSchoolId) ||
@@ -50,6 +99,11 @@ export default function ShsatMainPage() {
     setActiveExam(exam);
     setActiveQuestions(examQuestions);
     setExamMode(mode);
+    setOngoingExamState({
+      examId,
+      mode,
+      isCustom: false,
+    });
   };
 
   const handleStartCustomDrill = (
@@ -70,6 +124,13 @@ export default function ShsatMainPage() {
     setActiveExam(drillExam);
     setActiveQuestions(drillQuestions);
     setExamMode("tutor");
+    setOngoingExamState({
+      examId: "custom_drill",
+      mode: "tutor",
+      isCustom: true,
+      customExam: drillExam,
+      customQuestions: drillQuestions,
+    });
   };
 
   const handleRetryQuestion = (q: Question) => {
@@ -87,11 +148,19 @@ export default function ShsatMainPage() {
     setActiveExam(retryExam);
     setActiveQuestions([q]);
     setExamMode("tutor");
+    setOngoingExamState({
+      examId: retryExam.id,
+      mode: "tutor",
+      isCustom: true,
+      customExam: retryExam,
+      customQuestions: [q],
+    });
   };
 
   const handleExitExam = () => {
     setActiveExam(null);
     setActiveQuestions([]);
+    clearOngoingExamState();
   };
 
   // If inside an active simulation, show ExamSimulator in full-screen mode
@@ -112,7 +181,7 @@ export default function ShsatMainPage() {
     <div className="min-h-screen bg-slate-950 text-slate-100 flex flex-col selection:bg-amber-500 selection:text-slate-950">
       <Navbar
         activeTab={activeTab}
-        setActiveTab={setActiveTab}
+        setActiveTab={handleTabChange}
         targetSchoolName={selectedSchool.shortName}
         targetCutoff={selectedSchool.cutoffScore}
         onOpenCheatSheets={() => setCheatSheetsOpen(true)}
@@ -126,7 +195,7 @@ export default function ShsatMainPage() {
             selectedSchoolId={selectedSchoolId}
             onSelectSchool={handleSelectSchool}
             onStartExam={handleStartExam}
-            onLaunchDrill={() => setActiveTab("drills")}
+            onLaunchDrill={() => handleTabChange("drills")}
           />
         )}
 
@@ -134,8 +203,8 @@ export default function ShsatMainPage() {
           <StudyRoadmapView
             onStartExam={handleStartExam}
             onOpenCheatSheets={() => setCheatSheetsOpen(true)}
-            onLaunchDrill={() => setActiveTab("drills")}
-            onOpenNotebook={() => setActiveTab("notebook")}
+            onLaunchDrill={() => handleTabChange("drills")}
+            onOpenNotebook={() => handleTabChange("notebook")}
           />
         )}
 

@@ -18,6 +18,7 @@ import {
 } from "lucide-react";
 import { QUESTIONS } from "@/data/shsatExams";
 import { Question } from "@/types/shsat";
+import { getDailyProgress, saveDailyProgress } from "@/lib/shsatStorage";
 
 const STREAK_KEY = "shsat_daily_streak_count";
 const LAST_DATE_KEY = "shsat_daily_streak_date";
@@ -55,24 +56,36 @@ export default function DailyChallengeView() {
   useEffect(() => {
     try {
       const savedStreak = localStorage.getItem(STREAK_KEY);
-      const savedDate = localStorage.getItem(LAST_DATE_KEY);
-
       if (savedStreak) {
         setStreak(parseInt(savedStreak, 10) || 1);
+      }
+
+      // Restore today's progress if refreshed
+      const savedProgress = getDailyProgress(todayStr);
+      if (savedProgress) {
+        if (savedProgress.selectedAnswers) {
+          setSelectedAnswers(savedProgress.selectedAnswers);
+        }
+        if (savedProgress.submitted) {
+          setSubmitted(savedProgress.submitted);
+        }
       }
     } catch {
       // ignore
     }
-  }, []);
+  }, [todayStr]);
 
   const handleSelect = (qId: string, optId: string) => {
     if (submitted[qId]) return;
-    setSelectedAnswers((prev) => ({ ...prev, [qId]: optId }));
+    const nextAnswers = { ...selectedAnswers, [qId]: optId };
+    setSelectedAnswers(nextAnswers);
+    saveDailyProgress(todayStr, nextAnswers, submitted);
   };
 
   const handleSubmitQuestion = (qId: string) => {
     setSubmitted((prev) => {
       const next = { ...prev, [qId]: true };
+      saveDailyProgress(todayStr, selectedAnswers, next);
 
       // If both completed today, advance streak
       if (next[dailyEla.id] && next[dailyMath.id]) {

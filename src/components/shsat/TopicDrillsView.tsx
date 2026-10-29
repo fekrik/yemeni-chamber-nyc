@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import {
   Zap,
   CheckCircle2,
@@ -25,6 +25,26 @@ interface TopicDrillsViewProps {
 
 export default function TopicDrillsView({ onStartCustomDrill }: TopicDrillsViewProps) {
   const [activeSubject, setActiveSubject] = useState<"all" | "math" | "ela">("all");
+
+  useEffect(() => {
+    try {
+      const saved = localStorage.getItem("shsat_drill_subject");
+      if (saved && ["all", "math", "ela"].includes(saved)) {
+        setActiveSubject(saved as "all" | "math" | "ela");
+      }
+    } catch {
+      // ignore
+    }
+  }, []);
+
+  const handleSelectSubject = (subj: "all" | "math" | "ela") => {
+    setActiveSubject(subj);
+    try {
+      localStorage.setItem("shsat_drill_subject", subj);
+    } catch {
+      // ignore
+    }
+  };
 
   const filteredDrills = TOPIC_DRILLS.filter((d) =>
     activeSubject === "all" ? true : d.subject === activeSubject
@@ -79,7 +99,7 @@ export default function TopicDrillsView({ onStartCustomDrill }: TopicDrillsViewP
         {/* Filter Pills */}
         <div className="flex bg-slate-900 p-1 rounded-xl border border-slate-800 text-xs self-start">
           <button
-            onClick={() => setActiveSubject("all")}
+            onClick={() => handleSelectSubject("all")}
             className={`px-3 py-1.5 rounded-lg font-medium transition-colors ${
               activeSubject === "all"
                 ? "bg-indigo-600 text-white shadow-sm"
@@ -89,7 +109,7 @@ export default function TopicDrillsView({ onStartCustomDrill }: TopicDrillsViewP
             All Skills ({TOPIC_DRILLS.length})
           </button>
           <button
-            onClick={() => setActiveSubject("math")}
+            onClick={() => handleSelectSubject("math")}
             className={`px-3 py-1.5 rounded-lg font-medium transition-colors ${
               activeSubject === "math"
                 ? "bg-emerald-600 text-white shadow-sm"
@@ -99,7 +119,7 @@ export default function TopicDrillsView({ onStartCustomDrill }: TopicDrillsViewP
             Math Drills (5)
           </button>
           <button
-            onClick={() => setActiveSubject("ela")}
+            onClick={() => handleSelectSubject("ela")}
             className={`px-3 py-1.5 rounded-lg font-medium transition-colors ${
               activeSubject === "ela"
                 ? "bg-indigo-600 text-white shadow-sm"

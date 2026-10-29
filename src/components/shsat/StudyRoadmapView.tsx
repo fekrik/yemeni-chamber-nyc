@@ -15,6 +15,7 @@ import {
   Download,
   Share2,
 } from "lucide-react";
+import { getRoadmapActiveWeek, setRoadmapActiveWeek } from "@/lib/shsatStorage";
 
 interface RoadmapTask {
   id: string;
@@ -275,6 +276,7 @@ export default function StudyRoadmapView({
   const [activeWeek, setActiveWeek] = useState<number>(1);
 
   useEffect(() => {
+    // 1. Restore completed roadmap tasks
     try {
       const saved = localStorage.getItem(STORAGE_KEY);
       if (saved) {
@@ -283,7 +285,15 @@ export default function StudyRoadmapView({
     } catch {
       // ignore
     }
+
+    // 2. Restore active week tab
+    setActiveWeek(getRoadmapActiveWeek());
   }, []);
+
+  const handleSelectWeek = (week: number) => {
+    setActiveWeek(week);
+    setRoadmapActiveWeek(week);
+  };
 
   const toggleTask = (taskId: string) => {
     setCompletedTasks((prev) => {
@@ -365,7 +375,7 @@ export default function StudyRoadmapView({
           return (
             <button
               key={w.weekNumber}
-              onClick={() => setActiveWeek(w.weekNumber)}
+              onClick={() => handleSelectWeek(w.weekNumber)}
               className={`px-4 py-3 rounded-2xl border text-left shrink-0 transition-all ${
                 isSelected
                   ? "bg-indigo-600 text-white border-indigo-500 shadow-lg shadow-indigo-600/30"

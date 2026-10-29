@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import {
   School,
   Calculator,
@@ -22,6 +22,7 @@ import {
   getHighSchoolChances,
   AdaptiveProfile,
 } from "@/data/shsatExams";
+import { getCalculatorState, setCalculatorState } from "@/lib/shsatStorage";
 
 export default function CutoffPredictorView() {
   // Defaults calibrated for Brooklyn Tech target (36 ELA + 37 Math ≈ 517 scaled)
@@ -29,6 +30,30 @@ export default function CutoffPredictorView() {
   const [mathRaw, setMathRaw] = useState(37);
   const [adaptiveProfile, setAdaptiveProfile] =
     useState<AdaptiveProfile>("standard");
+
+  useEffect(() => {
+    const saved = getCalculatorState();
+    if (saved) {
+      if (typeof saved.elaRaw === "number") setElaRaw(saved.elaRaw);
+      if (typeof saved.mathRaw === "number") setMathRaw(saved.mathRaw);
+      if (saved.adaptiveProfile) setAdaptiveProfile(saved.adaptiveProfile);
+    }
+  }, []);
+
+  const handleElaChange = (val: number) => {
+    setElaRaw(val);
+    setCalculatorState({ elaRaw: val, mathRaw, adaptiveProfile });
+  };
+
+  const handleMathChange = (val: number) => {
+    setMathRaw(val);
+    setCalculatorState({ elaRaw, mathRaw: val, adaptiveProfile });
+  };
+
+  const handleProfileChange = (profile: AdaptiveProfile) => {
+    setAdaptiveProfile(profile);
+    setCalculatorState({ elaRaw, mathRaw, adaptiveProfile: profile });
+  };
 
   const {
     elaScaled,
@@ -139,7 +164,7 @@ export default function CutoffPredictorView() {
               min={0}
               max={50}
               value={elaRaw}
-              onChange={(e) => setElaRaw(parseInt(e.target.value))}
+              onChange={(e) => handleElaChange(parseInt(e.target.value))}
               className="w-full accent-indigo-500 cursor-pointer h-2 bg-slate-800 rounded-lg"
             />
             <div className="flex justify-between text-[10px] text-slate-500 font-mono">
@@ -164,7 +189,7 @@ export default function CutoffPredictorView() {
               min={0}
               max={50}
               value={mathRaw}
-              onChange={(e) => setMathRaw(parseInt(e.target.value))}
+              onChange={(e) => handleMathChange(parseInt(e.target.value))}
               className="w-full accent-emerald-500 cursor-pointer h-2 bg-slate-800 rounded-lg"
             />
             <div className="flex justify-between text-[10px] text-slate-500 font-mono">
@@ -191,7 +216,7 @@ export default function CutoffPredictorView() {
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-2 pt-1">
               <button
                 type="button"
-                onClick={() => setAdaptiveProfile("standard")}
+                onClick={() => handleProfileChange("standard")}
                 className={`p-2.5 rounded-xl border text-left text-xs transition-all ${
                   adaptiveProfile === "standard"
                     ? "bg-indigo-600/20 border-indigo-500 text-white shadow-sm ring-1 ring-indigo-500"
@@ -204,7 +229,7 @@ export default function CutoffPredictorView() {
 
               <button
                 type="button"
-                onClick={() => setAdaptiveProfile("high_difficulty")}
+                onClick={() => handleProfileChange("high_difficulty")}
                 className={`p-2.5 rounded-xl border text-left text-xs transition-all ${
                   adaptiveProfile === "high_difficulty"
                     ? "bg-emerald-600/20 border-emerald-500 text-white shadow-sm ring-1 ring-emerald-500"
@@ -217,7 +242,7 @@ export default function CutoffPredictorView() {
 
               <button
                 type="button"
-                onClick={() => setAdaptiveProfile("careless")}
+                onClick={() => handleProfileChange("careless")}
                 className={`p-2.5 rounded-xl border text-left text-xs transition-all ${
                   adaptiveProfile === "careless"
                     ? "bg-rose-600/20 border-rose-500 text-white shadow-sm ring-1 ring-rose-500"
