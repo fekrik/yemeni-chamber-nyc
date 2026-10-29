@@ -20,6 +20,7 @@ import { getRoadmapActiveWeek, setRoadmapActiveWeek } from "@/lib/shsatStorage";
 interface RoadmapTask {
   id: string;
   day: number;
+  dateLabel: string;
   title: string;
   category: "ELA" | "Math" | "Mock Exam" | "Review";
   timeMinutes: number;
@@ -31,6 +32,7 @@ interface RoadmapTask {
 interface RoadmapWeek {
   weekNumber: number;
   title: string;
+  dateRange: string;
   focus: string;
   targetMilestone: string;
   tasks: RoadmapTask[];
@@ -40,12 +42,14 @@ const ROADMAP_WEEKS: RoadmapWeek[] = [
   {
     weekNumber: 1,
     title: "Week 1: High-Yield Point Lock & Baseline",
+    dateRange: "Oct 28 – Nov 2",
     focus: "Revising & Editing Part A + Geometry/Angle Rules + Diagnostic",
     targetMilestone: "Reach 440+ Baseline (Identify highest-yield point gaps)",
     tasks: [
       {
         id: "w1_d1",
         day: 1,
+        dateLabel: "Thu, Oct 29",
         title: "Take Diagnostic Practice Test (Form A)",
         category: "Mock Exam",
         timeMinutes: 90,
@@ -56,6 +60,7 @@ const ROADMAP_WEEKS: RoadmapWeek[] = [
       {
         id: "w1_d2",
         day: 2,
+        dateLabel: "Fri, Oct 30",
         title: "Master the 6 Revising/Editing Part A Rules",
         category: "ELA",
         timeMinutes: 20,
@@ -65,6 +70,7 @@ const ROADMAP_WEEKS: RoadmapWeek[] = [
       {
         id: "w1_d3",
         day: 3,
+        dateLabel: "Sat, Oct 31",
         title: "10-Minute Geometry & Coordinate Angles Drill",
         category: "Math",
         timeMinutes: 15,
@@ -74,6 +80,7 @@ const ROADMAP_WEEKS: RoadmapWeek[] = [
       {
         id: "w1_d4",
         day: 4,
+        dateLabel: "Sun, Nov 1",
         title: "Mistake Notebook Deep-Dive",
         category: "Review",
         timeMinutes: 20,
@@ -83,6 +90,7 @@ const ROADMAP_WEEKS: RoadmapWeek[] = [
       {
         id: "w1_d5",
         day: 5,
+        dateLabel: "Mon, Nov 2",
         title: "Math Grid-In Speed Sprint (Questions 51-55)",
         category: "Math",
         timeMinutes: 20,
@@ -94,12 +102,14 @@ const ROADMAP_WEEKS: RoadmapWeek[] = [
   {
     weekNumber: 2,
     title: "Week 2: Algebraic Word Problems & Deep Reading",
+    dateRange: "Nov 3 – Nov 8",
     focus: "Ratios, Rates, Proportions & Poetry/Historical Paired Passages",
     targetMilestone: "Reach 475+ (Within 30 points of Brooklyn Tech)",
     tasks: [
       {
         id: "w2_d1",
         day: 6,
+        dateLabel: "Tue, Nov 3",
         title: "Ratios, Proportions & Percent Change Drills",
         category: "Math",
         timeMinutes: 25,
@@ -109,6 +119,7 @@ const ROADMAP_WEEKS: RoadmapWeek[] = [
       {
         id: "w2_d2",
         day: 7,
+        dateLabel: "Wed, Nov 4",
         title: "Poetry & Dual Historical Passages Analysis",
         category: "ELA",
         timeMinutes: 30,
@@ -118,6 +129,7 @@ const ROADMAP_WEEKS: RoadmapWeek[] = [
       {
         id: "w2_d3",
         day: 8,
+        dateLabel: "Thu, Nov 5",
         title: "Speed Elimination (Process of Elimination - POE)",
         category: "Review",
         timeMinutes: 20,
@@ -127,6 +139,7 @@ const ROADMAP_WEEKS: RoadmapWeek[] = [
       {
         id: "w2_d4",
         day: 9,
+        dateLabel: "Fri, Nov 6",
         title: "Algebraic Word Problems & Expressions",
         category: "Math",
         timeMinutes: 25,
@@ -136,6 +149,7 @@ const ROADMAP_WEEKS: RoadmapWeek[] = [
       {
         id: "w2_d5",
         day: 10,
+        dateLabel: "Sat, Nov 7",
         title: "Mid-Sprint Diagnostic Review (Form B)",
         category: "Mock Exam",
         timeMinutes: 90,
@@ -148,12 +162,14 @@ const ROADMAP_WEEKS: RoadmapWeek[] = [
   {
     weekNumber: 3,
     title: "Week 3: The 180-Minute Pacing Clock & CAT Mastery",
+    dateRange: "Nov 9 – Nov 14",
     focus: "1.5-minute pacing speed, hard-item CAT routing, and stamina",
     targetMilestone: "Reach 505+ (Brooklyn Tech Admissions Threshold!)",
     tasks: [
       {
         id: "w3_d1",
         day: 11,
+        dateLabel: "Sun, Nov 8",
         title: "Internalize the 180-Minute Pacing Clock",
         category: "Review",
         timeMinutes: 15,
@@ -163,6 +179,7 @@ const ROADMAP_WEEKS: RoadmapWeek[] = [
       {
         id: "w3_d2",
         day: 12,
+        dateLabel: "Mon, Nov 9",
         title: "High-Difficulty CAT Algebra & Probability",
         category: "Math",
         timeMinutes: 30,
@@ -172,6 +189,7 @@ const ROADMAP_WEEKS: RoadmapWeek[] = [
       {
         id: "w3_d3",
         day: 13,
+        dateLabel: "Tue, Nov 10",
         title: "ELA Inferences & Author's Tone Sprint",
         category: "ELA",
         timeMinutes: 25,
@@ -181,6 +199,7 @@ const ROADMAP_WEEKS: RoadmapWeek[] = [
       {
         id: "w3_d4",
         day: 14,
+        dateLabel: "Wed, Nov 11",
         title: "Mistake Notebook Zero-Out",
         category: "Review",
         timeMinutes: 30,
@@ -190,6 +209,7 @@ const ROADMAP_WEEKS: RoadmapWeek[] = [
       {
         id: "w3_d5",
         day: 15,
+        dateLabel: "Thu, Nov 12",
         title: "Timed Speed Run (50 Questions in 75 Min)",
         category: "Mock Exam",
         timeMinutes: 75,
@@ -201,13 +221,15 @@ const ROADMAP_WEEKS: RoadmapWeek[] = [
   },
   {
     weekNumber: 4,
-    title: "Week 4: Final Test-Day Polish & Confidence Lock",
+    title: "Week 4: Final Sprint, Test-Day Eve & Nov 18 Test Day",
+    dateRange: "Nov 13 – Nov 18",
     focus: "Full 180-min authentic simulation, sleep routine & test room tactics",
     targetMilestone: "525+ (Secure Brooklyn Tech & Reach for Bronx Science / Stuyvesant)",
     tasks: [
       {
         id: "w4_d1",
         day: 16,
+        dateLabel: "Fri, Nov 13",
         title: "Full 180-Minute Official Mock Exam (Form D)",
         category: "Mock Exam",
         timeMinutes: 180,
@@ -218,6 +240,7 @@ const ROADMAP_WEEKS: RoadmapWeek[] = [
       {
         id: "w4_d2",
         day: 17,
+        dateLabel: "Sat, Nov 14",
         title: "Diagnostic Score Report Review with Parents/Tutor",
         category: "Review",
         timeMinutes: 30,
@@ -227,6 +250,7 @@ const ROADMAP_WEEKS: RoadmapWeek[] = [
       {
         id: "w4_d3",
         day: 18,
+        dateLabel: "Sun, Nov 15",
         title: "Review Top 20 Brooklyn Tech Math Formulas",
         category: "Math",
         timeMinutes: 20,
@@ -236,6 +260,7 @@ const ROADMAP_WEEKS: RoadmapWeek[] = [
       {
         id: "w4_d4",
         day: 19,
+        dateLabel: "Mon, Nov 16",
         title: "Review Top 8 Grammar Rules & Traps Matrix",
         category: "ELA",
         timeMinutes: 20,
@@ -245,10 +270,21 @@ const ROADMAP_WEEKS: RoadmapWeek[] = [
       {
         id: "w4_d5",
         day: 20,
+        dateLabel: "Tue, Nov 17 (Eve)",
         title: "Test-Day Eve Protocol (Rest & Mental Prep)",
         category: "Review",
         timeMinutes: 15,
         description: "No heavy studying! Pack your pencils, student ID / admissions ticket, water bottle, and snack. Get 8-9 hours of sleep.",
+        actionType: "cheat_sheet",
+      },
+      {
+        id: "w4_d6",
+        day: 21,
+        dateLabel: "Wed, Nov 18 (TEST DAY!)",
+        title: "🏆 Official NYC SHSAT Test Day: Brooklyn Tech Victory!",
+        category: "Review",
+        timeMinutes: 180,
+        description: "Arrive at your test site by 8:00 AM with your test ticket and two #2 pencils. Stay calm, pace yourself with the 180-min clock, and claim your Brooklyn Tech offer!",
         actionType: "cheat_sheet",
       },
     ],
@@ -314,6 +350,12 @@ export default function StudyRoadmapView({
   const completedCount = Object.values(completedTasks).filter(Boolean).length;
   const progressPct = Math.round((completedCount / totalTasks) * 100);
 
+  // Countdown to November 18, 2026
+  const testDate = new Date("2026-11-18T08:00:00");
+  const now = new Date();
+  const diffMs = testDate.getTime() - now.getTime();
+  const daysRemaining = Math.max(0, Math.ceil(diffMs / (1000 * 60 * 60 * 24)));
+
   const handleAction = (task: RoadmapTask) => {
     if (task.actionType === "mock" && task.actionTarget) {
       onStartExam(task.actionTarget, "full_sim");
@@ -332,15 +374,21 @@ export default function StudyRoadmapView({
       <div className="relative rounded-3xl bg-gradient-to-br from-indigo-950 via-slate-900 to-slate-950 border border-indigo-900/50 p-6 sm:p-8 shadow-2xl overflow-hidden">
         <div className="relative z-10 flex flex-col sm:flex-row sm:items-center justify-between gap-6">
           <div className="space-y-2 max-w-2xl">
-            <div className="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-amber-500/10 border border-amber-500/30 text-amber-300 text-xs font-bold">
-              <Sparkles className="w-3.5 h-3.5" />
-              <span>Brooklyn Tech 505 Readiness Sprint</span>
+            <div className="flex flex-wrap items-center gap-2">
+              <div className="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-amber-500/10 border border-amber-500/30 text-amber-300 text-xs font-bold">
+                <Sparkles className="w-3.5 h-3.5" />
+                <span>Brooklyn Tech 505 Readiness Sprint</span>
+              </div>
+              <div className="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-rose-500/20 border border-rose-500/40 text-rose-300 text-xs font-bold">
+                <Clock className="w-3.5 h-3.5 text-rose-400" />
+                <span>Test Day: Wednesday, Nov 18, 2026 ({daysRemaining} Days Left)</span>
+              </div>
             </div>
             <h2 className="text-2xl sm:text-3xl font-extrabold text-white tracking-tight">
-              The 4-Week High-Yield Study Roadmap
+              The Brooklyn Tech 4-Week Study Roadmap
             </h2>
             <p className="text-xs sm:text-sm text-slate-300 leading-relaxed">
-              A daily, structured training plan designed by NYC specialized high school alumni to bridge your score directly to <strong>Brooklyn Tech's 505 cutoff</strong>.
+              Targeted countdown plan calibrated to <strong>Wednesday, November 18, 2026</strong>. 21 structured daily missions to build test stamina, lock down high-yield formulas, and clear <strong>Brooklyn Tech's 505 cutoff score</strong>.
             </p>
           </div>
 
@@ -378,7 +426,7 @@ export default function StudyRoadmapView({
               onClick={() => handleSelectWeek(w.weekNumber)}
               className={`px-4 py-3 rounded-2xl border text-left shrink-0 transition-all ${
                 isSelected
-                  ? "bg-indigo-600 text-white border-indigo-500 shadow-lg shadow-indigo-600/30"
+                  ? "bg-indigo-600 text-white border-indigo-500 shadow-lg shadow-indigo-600/30 ring-1 ring-amber-400/50"
                   : "bg-slate-900 text-slate-400 border-slate-800 hover:text-white hover:border-slate-700"
               }`}
             >
@@ -396,8 +444,11 @@ export default function StudyRoadmapView({
                   {weekDone}/{w.tasks.length}
                 </span>
               </div>
+              <div className="text-[11px] font-mono text-amber-300 font-bold mt-0.5">
+                {w.dateRange}
+              </div>
               <p
-                className={`text-xs font-semibold mt-1 truncate max-w-[160px] ${
+                className={`text-xs font-semibold mt-1 truncate max-w-[170px] ${
                   isSelected ? "text-indigo-100" : "text-slate-300"
                 }`}
               >
@@ -413,10 +464,12 @@ export default function StudyRoadmapView({
         <div key={w.weekNumber} className="space-y-4 animate-in fade-in duration-200">
           <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 p-4 rounded-2xl bg-slate-900/80 border border-slate-800">
             <div>
-              <span className="text-xs uppercase font-extrabold text-amber-400 tracking-wider">
-                Week {w.weekNumber} Milestone Target
-              </span>
-              <h3 className="text-base font-bold text-white">{w.targetMilestone}</h3>
+              <div className="flex items-center space-x-2">
+                <span className="text-xs uppercase font-extrabold text-amber-400 tracking-wider">
+                  Week {w.weekNumber} • {w.dateRange}
+                </span>
+              </div>
+              <h3 className="text-base font-bold text-white mt-0.5">{w.targetMilestone}</h3>
               <p className="text-xs text-slate-400 mt-0.5">{w.focus}</p>
             </div>
             <button
@@ -431,12 +484,15 @@ export default function StudyRoadmapView({
           <div className="space-y-3">
             {w.tasks.map((task) => {
               const isDone = !!completedTasks[task.id];
+              const isTestDay = task.dateLabel.includes("TEST DAY");
 
               return (
                 <div
                   key={task.id}
                   className={`p-4 sm:p-5 rounded-2xl border transition-all flex items-start justify-between gap-4 group ${
-                    isDone
+                    isTestDay
+                      ? "bg-gradient-to-r from-amber-950/40 via-slate-900 to-indigo-950/50 border-amber-500/50 shadow-lg shadow-amber-500/10"
+                      : isDone
                       ? "bg-slate-900/50 border-slate-800/80 opacity-75"
                       : "bg-slate-900 border-slate-800 hover:border-indigo-500/40 shadow-md"
                   }`}
@@ -461,6 +517,9 @@ export default function StudyRoadmapView({
                       <div className="flex flex-wrap items-center gap-2 mb-1">
                         <span className="px-2 py-0.5 rounded text-[10px] font-bold font-mono uppercase bg-slate-800 text-slate-300 border border-slate-700">
                           Day {task.day}
+                        </span>
+                        <span className="px-2 py-0.5 rounded text-[10px] font-bold font-mono bg-amber-500/15 text-amber-300 border border-amber-500/30">
+                          {task.dateLabel}
                         </span>
                         <span
                           className={`px-2 py-0.5 rounded text-[10px] font-bold uppercase ${

@@ -168,6 +168,15 @@ export default function Navbar({
             )}
 
             <div
+              onClick={() => setActiveTab("roadmap")}
+              className="hidden md:flex items-center space-x-1.5 px-2.5 py-1 rounded-full bg-rose-500/15 border border-rose-500/30 text-rose-300 text-xs font-semibold cursor-pointer hover:bg-rose-500/20 transition-colors"
+              title="Official NYC SHSAT: Wednesday, November 18, 2026"
+            >
+              <Calendar className="w-3.5 h-3.5 text-rose-400" />
+              <span>Test: Nov 18</span>
+            </div>
+
+            <div
               onClick={() => setActiveTab("cutoffs")}
               className="flex items-center space-x-2 px-3 py-1.5 rounded-full bg-slate-800/80 border border-slate-700 hover:border-amber-500/50 cursor-pointer transition-colors"
               title="Click to view and adjust cutoff target"

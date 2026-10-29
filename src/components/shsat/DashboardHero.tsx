@@ -143,15 +143,19 @@ export default function DashboardHero({
               <span className="text-xs font-extrabold uppercase tracking-wider text-amber-400">
                 Official Brooklyn Tech 505 Target Sprint
               </span>
+              <span className="text-[10px] font-extrabold px-2.5 py-0.5 rounded-full bg-rose-500/20 text-rose-300 border border-rose-500/30 flex items-center space-x-1">
+                <Clock className="w-3 h-3 text-rose-400" />
+                <span>Test Date: Nov 18, 2026</span>
+              </span>
               <span className="text-[10px] font-extrabold px-2 py-0.5 rounded-full bg-emerald-500/20 text-emerald-300 border border-emerald-500/30">
-                4-Week Daily Guide
+                21-Day Countdown
               </span>
             </div>
             <h3 className="text-base sm:text-lg font-bold text-white mt-1">
-              Brooklyn Tech 4-Week Study Roadmap
+              Brooklyn Tech 4-Week Study Roadmap (Target: Nov 18 Exam)
             </h3>
             <p className="text-xs sm:text-sm text-slate-300 mt-1 max-w-2xl leading-relaxed">
-              20 progressive daily missions (15–45 min/day) designed to guarantee 35+ correct raw Math & ELA answers, eliminate test traps, and secure a 505+ scaled cutoff score.
+              21 structured daily missions (15–45 min/day) designed to guarantee 35+ correct raw Math &amp; ELA answers, eliminate test traps, and secure a 505+ scaled cutoff score by November 18.
             </p>
           </div>
         </div>
