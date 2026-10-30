@@ -41,7 +41,7 @@ export const EXAMS: Exam[] = [
     "year": "2024\u20132025",
     "timeLimitMinutes": 180,
     "totalQuestions": 100,
-    "elaCount": 51,
+    "elaCount": 50,
     "mathCount": 50,
     "badge": "Full Official CAT"
   }
@@ -485,7 +485,7 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 1,
     "passageId": "e1_p1",
     "type": "multiple_choice",
-    "prompt": "The details of the section 'The Growth of an Idea' convey a central idea of the passage by suggesting that",
+    "prompt": "Samuel Morse, an American inventor, is credited with creating the electronic telegraph, a communication device that allows users to send messages using a system of short and long pulses that represent letters, numbers, and punctuation. In 1844, the United States Congress passed the Telegraph Bill, which provided Morse with the funds to build an electric telegraph system. Invention of the Telegraph Earlier Signal Systems 1) Long before Samuel F. B. Morse electrically transmitted his famous message \"What hath God wrought?\" from Washington to Baltimore on May 24, 1844, there were signaling systems that enabled people to communicate over distances. Most were visual or \"semaphore\" systems using flags or lights. In the eighteenth century, such systems used an observer who would decipher a signal from a high tower on a distant The details of the section \"The Growth of an Idea\" convey a central idea of the passage by suggesting that",
     "imageSrc": "/exams/exam1/items/ela_q01.png",
     "options": [
       {
@@ -498,7 +498,7 @@ export const QUESTIONS: Question[] = [
       },
       {
         "id": "C",
-        "text": "Faraday\u2019s invention of the electromagnet inspired the invention of the telegraph."
+        "text": "Faraday's invention of the electromagnet inspired the invention of the telegraph."
       },
       {
         "id": "D",
@@ -506,15 +506,16 @@ export const QUESTIONS: Question[] = [
       }
     ],
     "correctAnswer": "B",
-    "topic": "Reading Comprehension: Central Idea",
-    "difficulty": "Medium",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Easy",
     "hints": [
-      "Read the heading 'The Growth of an Idea' carefully. Does the section focus on one isolated person, or the decades of scientific exploration leading up to the breakthrough?",
-      "Notice how the text mentions Benjamin Franklin in 1747, European researchers, and multiple decades of electrical experiments before Morse built his prototype.",
-      "The overarching central idea of this section is demonstrating the intense curiosity and widespread intellectual effort across the era devoted to signaling through electrical currents."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Trap C & D mention specific details (Faraday, Yale) that are facts in the text, but they are supporting examples rather than the broad central idea of the entire section.",
-    "explanation": "Option B is correct. Paragraphs 2 and 3 outline how numerous researchers over nearly a century explored electricity and signaling. The section emphasizes the accumulated momentum and extensive historical work that culminated in Morse's realization."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e1_ela_02",
@@ -523,12 +524,12 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 2,
     "passageId": "e1_p1",
     "type": "multiple_choice",
-    "prompt": "Which sentence is the best summary of how Morse obtained the funding necessary to build his telegraph system?",
+    "prompt": "the funding necessary to build his telegraph system?",
     "imageSrc": "/exams/exam1/items/ela_q02.png",
     "options": [
       {
         "id": "A",
-        "text": "Morse\u2019s application for a federal grant was delayed until 1843, so he spent time traveling in Europe, where he concentrated on obtaining a patent for his system."
+        "text": "Morse's application for a federal grant was delayed until 1843, so he spent time traveling in Europe, where he concentrated on obtaining a patent for his system."
       },
       {
         "id": "B",
@@ -540,19 +541,20 @@ export const QUESTIONS: Question[] = [
       },
       {
         "id": "D",
-        "text": "Working with Gale and Vail allowed Morse to find flaws in Henry\u2019s work and to develop his own ideas before applying for the federal government appropriation."
+        "text": "Working with Gale and Vail allowed Morse to find flaws in Henry's work and to develop his own ideas before applying for the federal government appropriation."
       }
     ],
     "correctAnswer": "C",
-    "topic": "Reading Comprehension: Summarizing Key Events",
-    "difficulty": "Medium",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Easy",
     "hints": [
-      "A good summary of an event must capture the starting action, the key obstacle, and the ultimate resolution.",
-      "Look for the sentence that includes both Morse's demonstrations to Congress, the Panic of 1837 delay, and the final 1843 grant.",
-      "Choice C accurately balances all three phases of Morse's struggle to secure government financing."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Option B mentions the $30,000 bill but leaves out the crucial demonstrations and the multi-year economic delay (Panic of 1837). Option A emphasizes his trip to Europe, which was not how he won the federal grant.",
-    "explanation": "Option C is correct because it encapsulates the complete sequence: Morse applied for funds, demonstrated the device in Washington, endured years of delay due to the economic Panic of 1837, and finally secured the $30,000 grant in 1843."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e1_ela_03",
@@ -561,36 +563,37 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 3,
     "passageId": "e1_p1",
     "type": "multiple_choice",
-    "prompt": "Read this sentence from paragraph 7: 'The desperate Morse gave the go-ahead, and the line was completed in time for the dramatic and spectacularly successful link between the Supreme Court chamber of the Capitol building and the railroad station in Baltimore.' The words 'dramatic' and 'spectacularly' in the sentence convey a",
+    "prompt": "Samuel Morse, an American inventor, is credited with creating the electronic telegraph, a communication device that allows users to send messages using a system of short and long pulses that represent letters, numbers, and punctuation. In 1844, the United States Congress passed the Telegraph Bill, which provided Morse with the funds to build an electric telegraph system. Invention of the Telegraph Earlier Signal Systems 1) Long before Samuel F. B. Morse electrically transmitted his famous message \"What hath God wrought?\" from Washington to Baltimore on May 24, 1844, there were signaling systems that enabled people to communicate over distances. Most were visual or \"semaphore\" systems using flags or lights. In the eighteenth century, such systems used an observer who would decipher a signal from a high tower on a distant Read this sentence from paragraph 7. The desperate Morse gave the go-ahead, and the line was completed in time for the dramatic and spectacularly successful link between the Supreme Court chamber of the Capitol building and the railroad station in Baltimore. The words \"dramatic\" and \"spectacularly\" in the sentence convey a \u2022 A. sense of relief and fulfillment that the line was finished. O B. sense of wonder and celebration that the telegraph line was accomplished. \u2022 C. feeling of excitement about the future possibilities of the telegraph. \u2022 D. feeling of confidence about being able to continue the work.",
     "imageSrc": "/exams/exam1/items/ela_q03.png",
     "options": [
       {
         "id": "A",
-        "text": "sense of relief and fulfillment that the line was finished."
+        "text": "Option A"
       },
       {
         "id": "B",
-        "text": "sense of wonder and celebration that the telegraph line was accomplished."
+        "text": "Option B"
       },
       {
         "id": "C",
-        "text": "feeling of excitement about the future possibilities of the telegraph."
+        "text": "Option C"
       },
       {
         "id": "D",
-        "text": "feeling of confidence about being able to continue the work."
+        "text": "Option D"
       }
     ],
     "correctAnswer": "B",
-    "topic": "Reading Comprehension: Word Choice & Tone",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
     "difficulty": "Easy",
     "hints": [
-      "Consider the emotional charge of the words 'dramatic' and 'spectacularly'. Do they suggest quiet relief, or a high-impact, awe-inspiring breakthrough?",
-      "A connection linking the U.S. Capitol to Baltimore that worked instantaneously was viewed as a modern marvel by onlookers.",
-      "These words celebrate the astonishing wonder and historic grandeur of the event."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Students often pick Option A because of the earlier word 'desperate', but the question asks specifically about 'dramatic' and 'spectacularly', which characterize the public demonstration itself as wondrous and triumphant.",
-    "explanation": "Option B is correct. 'Dramatic' and 'spectacularly' elevate the moment beyond mere relief, highlighting the sense of awe, grandeur, and celebration surrounding the very first instantaneous long-distance transmission."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e1_ela_04",
@@ -604,11 +607,11 @@ export const QUESTIONS: Question[] = [
     "options": [
       {
         "id": "A",
-        "text": "It indicates how welcome the improvement of long-distance communication was in the United States."
+        "text": "It indicates how welcome the improvement of long- distance communication was in the United States."
       },
       {
         "id": "B",
-        "text": "It provides evidence of the dramatic increase in the number of telegraph messages as Morse\u2019s system expanded across the United States."
+        "text": "It provides evidence of the dramatic increase in the number of telegraph messages as Morse's system expanded across the United States."
       },
       {
         "id": "C",
@@ -616,19 +619,20 @@ export const QUESTIONS: Question[] = [
       },
       {
         "id": "D",
-        "text": "It shows how improvements that allowed Morse code to be read in real time made relaying telegraph messages faster and increased the system\u2019s usage."
+        "text": "It shows how improvements that allowed Morse code to be read in real time made relaying telegraph messages faster and increased the system's usage."
       }
     ],
     "correctAnswer": "B",
-    "topic": "Reading Comprehension: Graphics & Paired Data",
-    "difficulty": "Medium",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Easy",
     "hints": [
-      "Check the axes of the graph. The x-axis tracks years (decades), and the y-axis measures the annual volume of telegraph messages.",
-      "Compare what paragraph 8 asserts (that telegraph traffic skyrocketed as lines spanned the continent) with what the graph plots.",
-      "The graph serves as empirical proof of the exponential surge in messages."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Option A assumes student emotions ('welcome') rather than objective data shown on the curve. Option D introduces technical details (real-time auditory code reading) that cannot be deduced from the chart axes alone.",
-    "explanation": "Option B is correct. The graph visually verifies paragraph 8's claim that transmission volume exploded into millions of annual messages as lines were strung nationwide."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e1_ela_05",
@@ -637,16 +641,16 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 5,
     "passageId": "e1_p1",
     "type": "multiple_choice",
-    "prompt": "The idea that, in the mid-nineteenth century, the United States was mostly unaware of the possibilities of electricity is illustrated in the passage mainly through the",
+    "prompt": "Samuel Morse, an American inventor, is credited with creating the electronic telegraph, a communication device that allows users to send messages using a system of short and long pulses that represent letters, numbers, and punctuation. In 1844, the United States Congress passed the Telegraph Bill, which provided Morse with the funds to build an electric telegraph system. Invention of the Telegraph Earlier Signal Systems 1) Long before Samuel F. B. Morse electrically transmitted his famous message \"What hath God wrought?\" from Washington to Baltimore on May 24, 1844, there were signaling systems that enabled people to communicate over distances. Most were visual or \"semaphore\" systems using flags or lights. In the eighteenth century, such systems used an observer who would decipher a signal from a high tower on a distant The idea that, in the mid-nineteenth century, the United States was mostly unaware of the possibilities of electricity is illustrated in the passage mainly through the",
     "imageSrc": "/exams/exam1/items/ela_q05.png",
     "options": [
       {
         "id": "A",
-        "text": "description of the government\u2019s initial desire to expand a semaphore signaling system that used either flags or lights along the Atlantic Coast."
+        "text": "description of the government's initial desire to expand a semaphore signaling system that used either flags or lights along the Atlantic Coast."
       },
       {
         "id": "B",
-        "text": "delay by the House of Representatives to pass the bill funding Morse\u2019s telegraph line six years after he first applied for the appropriation."
+        "text": "delay by the House of Representatives to pass the bill funding Morse's telegraph line six years after he first applied for the appropriation."
       },
       {
         "id": "C",
@@ -658,15 +662,16 @@ export const QUESTIONS: Question[] = [
       }
     ],
     "correctAnswer": "A",
-    "topic": "Reading Comprehension: Inference & Evidence",
-    "difficulty": "Hard",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Easy",
     "hints": [
-      "Look at paragraph 4. What did the U.S. government request when they first sought a national communication network in 1837?",
-      "Congress requested a visual semaphore system with hill-mounted flags and lanterns, having no inkling that electric signals along wires were feasible.",
-      "This official request demonstrates that mainstream leadership was unaware of electrical telecommunication."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Option B is a common trap: Congress delayed funding due to the Panic of 1837 economic depression, not simply because they didn't know electricity existed.",
-    "explanation": "Option A is correct. When Congress requested proposals for a nationwide communication system in 1837, they envisioned a mechanical semaphore network using visual flags and lights, proving they were unaware of the revolutionary potential of electricity."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e1_ela_06",
@@ -680,31 +685,32 @@ export const QUESTIONS: Question[] = [
     "options": [
       {
         "id": "A",
-        "text": "Morse\u2019s telegraph was successful because the wires were strung aboveground rather than underground as originally planned."
+        "text": "Morse's telegraph was successful because the wires were strung aboveground rather than underground as originally planned."
       },
       {
         "id": "B",
-        "text": "Understanding the importance of Morse\u2019s telegraph requires detailed knowledge of electrical systems."
+        "text": "Understanding the importance of Morse's telegraph requires detailed knowledge of electrical systems."
       },
       {
         "id": "C",
-        "text": "The implementation of Morse\u2019s telegraph system was overly influenced by economic factors."
+        "text": "The implementation of Morse's telegraph system was overly influenced by economic factors."
       },
       {
         "id": "D",
-        "text": "Morse\u2019s invention of the telegraph made a great stride toward better connecting people across the United States and across the world."
+        "text": "Morse's invention of the telegraph made a great stride toward better connecting people across the United States and across the world."
       }
     ],
     "correctAnswer": "D",
-    "topic": "Reading Comprehension: Author Perspective",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
     "difficulty": "Easy",
     "hints": [
-      "Look at the concluding paragraph. What was the lasting global impact of the telegraph?",
-      "The author portrays the telegraph as a historic leap forward in human connectivity that unified distant cities and continents.",
-      "Select the option that reflects this broad, positive historical assessment."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Option A mentions an engineering adjustment (poles vs pipes), but that was a tactical troubleshooting step, not the author's primary takeaway thesis.",
-    "explanation": "Option D is correct. Throughout the passage, the author frames Morse's work as a triumphant milestone in uniting humanity and eliminating geographical isolation."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e1_ela_07",
@@ -713,7 +719,7 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 7,
     "passageId": "e1_p2",
     "type": "multiple_choice",
-    "prompt": "Read this sentence from paragraph 2: 'They are extraordinarily level, one long curtain of lacework and woven foam.' What is the effect of comparing the American Falls to a 'long curtain of lacework and woven foam'?",
+    "prompt": "curtain of lacework and woven foam\"?",
     "imageSrc": "/exams/exam1/items/ela_q07.png",
     "options": [
       {
@@ -734,15 +740,16 @@ export const QUESTIONS: Question[] = [
       }
     ],
     "correctAnswer": "C",
-    "topic": "Figurative Language & Imagery",
-    "difficulty": "Hard",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Easy",
     "hints": [
-      "Re-read the specific paragraphs referenced in the passage excerpt.",
-      "Eliminate choices that make sweeping generalizations not grounded in the text lines.",
-      "Look for the choice that accurately captures the author's precise rhetorical intent."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Be careful not to pick choices that sound inspiring or scientifically plausible on their own unless they are directly verified by line evidence in the passage.",
-    "explanation": "Comparing the falls to an 'extraordinarily level' curtain of lacework highlights delicate, elegant uniformity."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e1_ela_08",
@@ -751,36 +758,37 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 8,
     "passageId": "e1_p2",
     "type": "multiple_choice",
-    "prompt": "Read this sentence from paragraph 3: 'These are the lower rapids, a sight more terrifying than the Falls, because less intelligible.' Which statement best describes how the sentence fits into the overall structure of the excerpt?",
+    "prompt": "Excerpt from \"Niagara Falls\" by Rupert Brooke The real secret of the beauty and terror of the Falls is not their height or width, but the feeling of colossal power and of unintelligible disaster caused by the plunge of that vast body of water. If that were taken away, there would be little visible change, but the heart would be gone. 2 The American Falls do not inspire this feeling in the same way as the Canadian. It is because they are less in volume, and because the water does not fall so much into one place. By comparison their beauty is almost delicate and fragile. They are extraordinarily level, one long curtain of lacework and woven foam. Seen from opposite, when the sun is on them, they are blindingly white, and the clouds of spray show dark against them. With both Falls the colour of the water is the ever- altering wonder. Greens and blues, purples and whites, Read this sentence from paragraph 3. These are the lower rapids, a sight more terrifying than the Falls, because less intelligible. Which statement best describes how the sentence fits into the overall structure of the excerpt? \u2022 A. It signals a change from the positive aspects of the Falls to the negative aspects. O B. It indicates a progression from the literal description of the water to a discussion of timeless truths. \u2022 C. It reinforces a shift from the qualities of the Falls to the qualities of the river. D. It introduces a contrast between the obvious and the hidden features of the rapids.",
     "imageSrc": "/exams/exam1/items/ela_q08.png",
     "options": [
       {
         "id": "A",
-        "text": "It signals a change from the positive aspects of the Falls to the negative aspects."
+        "text": "Option A"
       },
       {
         "id": "B",
-        "text": "It indicates a progression from the literal description of the water to a discussion of timeless truths."
+        "text": "Option B"
       },
       {
         "id": "C",
-        "text": "It reinforces a shift from the qualities of the Falls to the qualities of the river."
+        "text": "Option C"
       },
       {
         "id": "D",
-        "text": "It introduces a contrast between the obvious and the hidden features of the rapids."
+        "text": "Option D"
       }
     ],
     "correctAnswer": "C",
-    "topic": "Text Structure & Transitions",
-    "difficulty": "Medium",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Easy",
     "hints": [
-      "Re-read the specific paragraphs referenced in the passage excerpt.",
-      "Eliminate choices that make sweeping generalizations not grounded in the text lines.",
-      "Look for the choice that accurately captures the author's precise rhetorical intent."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Be careful not to pick choices that sound inspiring or scientifically plausible on their own unless they are directly verified by line evidence in the passage.",
-    "explanation": "The sentence transitions Brooke's description from the immediate plunge of the Falls to the chaotic lower rapids of the river below."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e1_ela_09",
@@ -789,36 +797,37 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 9,
     "passageId": "e1_p2",
     "type": "multiple_choice",
-    "prompt": "Which sentence from the excerpt best supports the idea that the essence of the Falls lies in their emotional impact?",
+    "prompt": "the essence of the Falls lies in their emotional impact?",
     "imageSrc": "/exams/exam1/items/ela_q09.png",
     "options": [
       {
         "id": "A",
-        "text": "'If that were taken away, there would be little visible change, but the heart would be gone.' (paragraph 1)"
+        "text": "\"If that were taken away, there would be little visible change, but the heart would be gone.\" (paragraph 1)"
       },
       {
         "id": "B",
-        "text": "'By comparison their beauty is almost delicate and fragile.' (paragraph 2)"
+        "text": "\"By comparison their beauty is almost delicate and fragile.\" (paragraph 2)"
       },
       {
         "id": "C",
-        "text": "'One is drawn back, strangely, to a contemplation of the Falls, at every hour...' (paragraph 4)"
+        "text": "\"One is drawn back, strangely, to a contemplation of the Falls, at every hour, and especially by night, when the cloud of spray becomes an immense visible ghost, straining and wavering high above the river, white and pathetic and translucent.\" (paragraph 4)"
       },
       {
         "id": "D",
-        "text": "'A man's life is of many flashing moments, and yet one stream...' (paragraph 4)"
+        "text": "\"A man's life is of many flashing moments, and yet one stream; a nation's flows through all its citizens, and yet is more than they.\" (paragraph 4)"
       }
     ],
     "correctAnswer": "A",
-    "topic": "Citing Textual Evidence",
-    "difficulty": "Hard",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Easy",
     "hints": [
-      "Re-read the specific paragraphs referenced in the passage excerpt.",
-      "Eliminate choices that make sweeping generalizations not grounded in the text lines.",
-      "Look for the choice that accurately captures the author's precise rhetorical intent."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Be careful not to pick choices that sound inspiring or scientifically plausible on their own unless they are directly verified by line evidence in the passage.",
-    "explanation": "Paragraph 1 explicitly asserts that the real secret is the emotional feeling of colossal power; without it, 'the heart would be gone.'"
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e1_ela_10",
@@ -827,7 +836,7 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 10,
     "passageId": "e1_p2",
     "type": "multiple_choice",
-    "prompt": "Read this sentence from paragraph 4: 'There one can sit and let great cloudy thoughts of destiny and the passage of empires drift through the mind; for such dreams are at home by Niagara.' The sentence most contributes to the development of ideas in the excerpt by",
+    "prompt": "Excerpt from \"Niagara Falls\" by Rupert Brooke The real secret of the beauty and terror of the Falls is not their height or width, but the feeling of colossal power and of unintelligible disaster caused by the plunge of that vast body of water. If that were taken away, there would be little visible change, but the heart would be gone. 2 The American Falls do not inspire this feeling in the same way as the Canadian. It is because they are less in volume, and because the water does not fall so much into one place. By comparison their beauty is almost delicate and fragile. They are extraordinarily level, one long curtain of lacework and woven foam. Seen from opposite, when the sun is on them, they are blindingly white, and the clouds of spray show dark against them. With both Falls the colour of the water is the ever- altering wonder. Greens and blues, purples and whites, Read this sentence from paragraph 4. There one can sit and let great cloudy thoughts of destiny and the passage of empires drift through the mind; for such dreams are at home by Niagara. The sentence most contributes to the development of ideas in the excerpt by",
     "imageSrc": "/exams/exam1/items/ela_q10.png",
     "options": [
       {
@@ -840,23 +849,24 @@ export const QUESTIONS: Question[] = [
       },
       {
         "id": "C",
-        "text": "emphasizing that the grandeur of the Falls seems impossible to grasp."
+        "text": "emphasizing that the grandeur of the Falls seems impossible to grasp. O D. highlighting the type of reflection that is inspired by a visit to the Falls."
       },
       {
         "id": "D",
-        "text": "highlighting the type of reflection that is inspired by a visit to the Falls."
+        "text": "Option D"
       }
     ],
     "correctAnswer": "D",
-    "topic": "Author's Purpose & Philosophical Reflection",
-    "difficulty": "Medium",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Easy",
     "hints": [
-      "Re-read the specific paragraphs referenced in the passage excerpt.",
-      "Eliminate choices that make sweeping generalizations not grounded in the text lines.",
-      "Look for the choice that accurately captures the author's precise rhetorical intent."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Be careful not to pick choices that sound inspiring or scientifically plausible on their own unless they are directly verified by line evidence in the passage.",
-    "explanation": "Brooke illustrates the contemplative, historical reverie and deep reflection that visiting Niagara naturally inspires."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e1_ela_11",
@@ -886,15 +896,16 @@ export const QUESTIONS: Question[] = [
       }
     ],
     "correctAnswer": "B",
-    "topic": "Theme & Analogy",
-    "difficulty": "Hard",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Easy",
     "hints": [
-      "Re-read the specific paragraphs referenced in the passage excerpt.",
-      "Eliminate choices that make sweeping generalizations not grounded in the text lines.",
-      "Look for the choice that accurately captures the author's precise rhetorical intent."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Be careful not to pick choices that sound inspiring or scientifically plausible on their own unless they are directly verified by line evidence in the passage.",
-    "explanation": "Brooke explicitly compares individual human moments to droplets flowing together into a single ceaseless stream."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e1_ela_12",
@@ -903,36 +914,37 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 12,
     "passageId": "e1_p2",
     "type": "multiple_choice",
-    "prompt": "With which statement would the author of this excerpt most likely agree?",
+    "prompt": "Excerpt from \"Niagara Falls\" by Rupert Brooke The real secret of the beauty and terror of the Falls is not their height or width, but the feeling of colossal power and of unintelligible disaster caused by the plunge of that vast body of water. If that were taken away, there would be little visible change, but the heart would be gone. 2 The American Falls do not inspire this feeling in the same way as the Canadian. It is because they are less in volume, and because the water does not fall so much into one place. By comparison their beauty is almost delicate and fragile. They are extraordinarily level, one long curtain of lacework and woven foam. Seen from opposite, when the sun is on them, they are blindingly white, and the clouds of spray show dark against them. With both Falls the colour of the water is the ever- altering wonder. Greens and blues, purples and whites, With which statement would the author of this excerpt most likely agree? \u2022 A. A sense of ease and assurance comes with accepting one's fate. O B. No matter where one's path goes in life, one will always have regrets. \u2022 C. The best way to overcome fear is to recognize it and then defy it. \u2022 D. Reason will die out with humanity, but art will remain immortal.",
     "imageSrc": "/exams/exam1/items/ela_q12.png",
     "options": [
       {
         "id": "A",
-        "text": "A sense of ease and assurance comes with accepting one's fate."
+        "text": "Option A"
       },
       {
         "id": "B",
-        "text": "No matter where one's path goes in life, one will always have regrets."
+        "text": "Option B"
       },
       {
         "id": "C",
-        "text": "The best way to overcome fear is to recognize it and then defy it."
+        "text": "Option C"
       },
       {
         "id": "D",
-        "text": "Reason will die out with humanity, but art will remain immortal."
+        "text": "Option D"
       }
     ],
     "correctAnswer": "A",
-    "topic": "Author's Philosophical Stance",
-    "difficulty": "Medium",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Easy",
     "hints": [
-      "Re-read the specific paragraphs referenced in the passage excerpt.",
-      "Eliminate choices that make sweeping generalizations not grounded in the text lines.",
-      "Look for the choice that accurately captures the author's precise rhetorical intent."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Be careful not to pick choices that sound inspiring or scientifically plausible on their own unless they are directly verified by line evidence in the passage.",
-    "explanation": "Brooke finds profound calm and meditative peace in recognizing the inevitable current of destiny."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e1_ela_13",
@@ -941,36 +953,37 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 13,
     "passageId": "e1_p3",
     "type": "multiple_choice",
-    "prompt": "In paragraph 1 of Impressions of an Indian Childhood, the phrases 'cool morning breezes swept freely' and 'wafting the perfume of sweet grasses' affect the tone of the excerpt by suggesting",
+    "prompt": "Zitkala-Sa (Gertrude Simmons Bonnin) was a Native American writer, musician, teacher, and political activist who was raised on the Yankton Sioux Reservation in South Dakota. In 1900 she published \"Impressions of an Indian Childhood\" (the term Indian was commonly used at the time to refer to Native American people) to expose readers to what life is like on a reservation. Excerpt from \"Impressions of an Indian Childhood\" by Zitkala-Sa 1) Soon after breakfast Mother sometimes began her beadwork. On a bright, clear day, she pulled out the wooden pegs that pinned the skirt of our wigwam to the ground, and rolled the canvas part way up on its frame of slender poles. Then the cool morning breezes swept freely through our dwelling, now and then wafting the perfume of sweet grasses from newly burnt prairie. 2 Untying the long tasseled strings that bound a small brown buckskin bag, my mother spread upon a mat In paragraph 1, the phrases \"cool morning breezes swept freely\" and \"wafting the perfume of sweet grasses\" affect the tone of the excerpt by suggesting \u2022 A. the sadness that the author feels reflecting upon her former way of life. O B. the enthusiasm with which the author approached her work indoors. \u2022 C. the fond feelings that the author has toward her childhood experiences. \u2022 D. the mix of emotions that the author feels toward her work and her mother.",
     "imageSrc": "/exams/exam1/items/ela_q13.png",
     "options": [
       {
         "id": "A",
-        "text": "the sadness that the author feels reflecting upon her former way of life."
+        "text": "Option A"
       },
       {
         "id": "B",
-        "text": "the enthusiasm with which the author approached her work indoors."
+        "text": "Option B"
       },
       {
         "id": "C",
-        "text": "the fond feelings that the author has toward her childhood experiences."
+        "text": "Option C"
       },
       {
         "id": "D",
-        "text": "the mix of emotions that the author feels toward her work and her mother."
+        "text": "Option D"
       }
     ],
     "correctAnswer": "C",
-    "topic": "Tone & Sensory Details",
-    "difficulty": "Hard",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Easy",
     "hints": [
-      "Re-read the specific paragraphs referenced in the passage excerpt.",
-      "Eliminate choices that make sweeping generalizations not grounded in the text lines.",
-      "Look for the choice that accurately captures the author's precise rhetorical intent."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Be careful not to pick choices that sound inspiring or scientifically plausible on their own unless they are directly verified by line evidence in the passage.",
-    "explanation": "The refreshing sensory language evokes nostalgic warmth and fondness for the peaceful freedom of her youth."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e1_ela_14",
@@ -979,7 +992,7 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 14,
     "passageId": "e1_p3",
     "type": "multiple_choice",
-    "prompt": "The phrase 'just as an artist arranges the paints upon his palette' in paragraph 2 suggests that",
+    "prompt": "Zitkala-Sa (Gertrude Simmons Bonnin) was a Native American writer, musician, teacher, and political activist who was raised on the Yankton Sioux Reservation in South Dakota. In 1900 she published \"Impressions of an Indian Childhood\" (the term Indian was commonly used at the time to refer to Native American people) to expose readers to what life is like on a reservation. Excerpt from \"Impressions of an Indian Childhood\" by Zitkala-Sa 1) Soon after breakfast Mother sometimes began her beadwork. On a bright, clear day, she pulled out the wooden pegs that pinned the skirt of our wigwam to the ground, and rolled the canvas part way up on its frame of slender poles. Then the cool morning breezes swept freely through our dwelling, now and then wafting the perfume of sweet grasses from newly burnt prairie. 2 Untying the long tasseled strings that bound a small brown buckskin bag, my mother spread upon a mat The phrase \"just as an artist arranges the paints upon his palette\" in paragraph 2 suggests that",
     "imageSrc": "/exams/exam1/items/ela_q14.png",
     "options": [
       {
@@ -988,7 +1001,7 @@ export const QUESTIONS: Question[] = [
       },
       {
         "id": "B",
-        "text": "color is a source of artistic inspiration."
+        "text": "color is a source of artistic inspiration. \u2022"
       },
       {
         "id": "C",
@@ -1000,15 +1013,16 @@ export const QUESTIONS: Question[] = [
       }
     ],
     "correctAnswer": "A",
-    "topic": "Figurative Language & Metaphor",
-    "difficulty": "Medium",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Easy",
     "hints": [
-      "Re-read the specific paragraphs referenced in the passage excerpt.",
-      "Eliminate choices that make sweeping generalizations not grounded in the text lines.",
-      "Look for the choice that accurately captures the author's precise rhetorical intent."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Be careful not to pick choices that sound inspiring or scientifically plausible on their own unless they are directly verified by line evidence in the passage.",
-    "explanation": "Comparing bead selection to an artist's palette validates traditional Native American beadwork as an authentic, sophisticated fine art."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e1_ela_15",
@@ -1017,74 +1031,76 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 15,
     "passageId": "e1_p3",
     "type": "multiple_choice",
-    "prompt": "The author's use of sequence in paragraphs 1 and 2 contributes to the development of ideas in the excerpt by",
+    "prompt": "Zitkala-Sa (Gertrude Simmons Bonnin) was a Native American writer, musician, teacher, and political activist who was raised on the Yankton Sioux Reservation in South Dakota. In 1900 she published \"Impressions of an Indian Childhood\" (the term Indian was commonly used at the time to refer to Native American people) to expose readers to what life is like on a reservation. Excerpt from \"Impressions of an Indian Childhood\" by Zitkala-Sa 1) Soon after breakfast Mother sometimes began her beadwork. On a bright, clear day, she pulled out the wooden pegs that pinned the skirt of our wigwam to the ground, and rolled the canvas part way up on its frame of slender poles. Then the cool morning breezes swept freely through our dwelling, now and then wafting the perfume of sweet grasses from newly burnt prairie. 2 Untying the long tasseled strings that bound a small brown buckskin bag, my mother spread upon a mat The author's use of sequence in paragraphs 1 and 2 contributes to the development of ideas in the excerpt by \u2022 A. listing the many steps that are involved in the process of beading in order to explain its difficulty and complexity. O B. conveying the importance of following the steps of the beading process in a precise order to work most efficiently. C. emphasizing the time required to fully prepare for and execute the many large and small tasks in the activity of beading. \u2022 D. detailing each step in preparation for beading in order to highlight the author's enthusiasm for the work.",
     "imageSrc": "/exams/exam1/items/ela_q15.png",
     "options": [
       {
         "id": "A",
-        "text": "listing the many steps that are involved in the process of beading in order to explain its difficulty."
+        "text": "Option A"
       },
       {
         "id": "B",
-        "text": "conveying the importance of following the steps of the beading process in a precise order."
+        "text": "Option B"
       },
       {
         "id": "C",
-        "text": "emphasizing the time required to fully prepare for and execute the tasks in the activity."
+        "text": "Option C"
       },
       {
         "id": "D",
-        "text": "detailing each step in preparation for beading in order to highlight the author's enthusiasm for the work."
+        "text": "Option D"
       }
     ],
     "correctAnswer": "D",
-    "topic": "Text Structure & Sequencing",
-    "difficulty": "Hard",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Easy",
     "hints": [
-      "Re-read the specific paragraphs referenced in the passage excerpt.",
-      "Eliminate choices that make sweeping generalizations not grounded in the text lines.",
-      "Look for the choice that accurately captures the author's precise rhetorical intent."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Be careful not to pick choices that sound inspiring or scientifically plausible on their own unless they are directly verified by line evidence in the passage.",
-    "explanation": "Walking through each preparatory action step-by-step conveys how closely and eagerly the young narrator watched and participated."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e1_ela_16",
     "examId": "exam1",
     "section": "ela",
     "questionNumber": 16,
-    "passageId": "e1_p4",
+    "passageId": "e1_p3",
     "type": "multiple_choice",
-    "prompt": "Which statement best summarizes the process of creating decorated moccasins described in the excerpt?",
+    "prompt": "described in the excerpt?",
     "imageSrc": "/exams/exam1/items/ela_q16.png",
     "options": [
       {
         "id": "A",
-        "text": "First soften buckskin in water; pierce with bone needles; stitch patterns with plant fibers."
+        "text": "Take a buckskin bag full of beads and spread them out on a mat in different colors like a paint palette; take a double sheet of buckskin and smooth it out on a table; take a sinew and awl and thread the beads onto the buckskin in a desired pattern."
       },
       {
         "id": "B",
-        "text": "Prepare dye baths from berries; dip beads; hammer onto leather sole."
+        "text": "Cut the double sheet of buckskin into a shape; take a skein of sinew and pierce the buckskin with an awl; thread the sinew with beads of many different colors in a simple or complex pattern; twist the sinew to keep it tight after every stitch into the buckskin."
       },
       {
         "id": "C",
-        "text": "Sort colorful beads on a mat; prepare sinew thread; pierce buckskin with an awl; string beads and stitch tightly into intricate patterns."
+        "text": "Arrange the beads into groups of colors on a mat; smooth out a double sheet of buckskin and cut it to shape; take a single thread of sinew; pierce the buckskin with an awl; thread the buckskin with the sinew and string it with beads, carefully twisting after every stitch."
       },
       {
         "id": "D",
-        "text": "Weave dyed porcupine quills onto cloth before gluing them directly onto hide."
+        "text": "Gather beads, buckskin, sinew, and awl and place them on a mat; cut the buckskin into the desired shape; decide on a pattern for the beads and create it using the sinews and the awl; thread the beads onto the sinew in the desired pattern and twist it tight."
       }
     ],
     "correctAnswer": "C",
-    "topic": "Summarizing Procedural Details",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
     "difficulty": "Medium",
     "hints": [
-      "Notice how the speaker observes different elements of nature in sequence: frogs and mud, summer garden, birds talking, yellowhammer, blackbird, snow, and sunlight.",
-      "The poet structures the poem by shifting attention smoothly between distinct natural occurrences.",
-      "Choice E (represented as A in the system) accurately describes how the speaker's attention moves across nature."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Trap H suggests a shift to personal reflection, but the poem remains grounded in direct observation of external natural phenomena rather than introspection.",
-    "explanation": "The text details spreading beads on mats, using sinew rolled on the knee, piercing leather with an awl, and stitching beads tightly."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e1_ela_17",
@@ -1093,7 +1109,7 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 17,
     "passageId": "e1_p3",
     "type": "multiple_choice",
-    "prompt": "The idea that mastering moccasin design and creation requires experience is best illustrated in the excerpt through",
+    "prompt": "Zitkala-Sa (Gertrude Simmons Bonnin) was a Native American writer, musician, teacher, and political activist who was raised on the Yankton Sioux Reservation in South Dakota. In 1900 she published \"Impressions of an Indian Childhood\" (the term Indian was commonly used at the time to refer to Native American people) to expose readers to what life is like on a reservation. Excerpt from \"Impressions of an Indian Childhood\" by Zitkala-Sa 1) Soon after breakfast Mother sometimes began her beadwork. On a bright, clear day, she pulled out the wooden pegs that pinned the skirt of our wigwam to the ground, and rolled the canvas part way up on its frame of slender poles. Then the cool morning breezes swept freely through our dwelling, now and then wafting the perfume of sweet grasses from newly burnt prairie. 2 Untying the long tasseled strings that bound a small brown buckskin bag, my mother spread upon a mat The idea that mastering moccasin design and creation requires experience is best illustrated in the excerpt through",
     "imageSrc": "/exams/exam1/items/ela_q17.png",
     "options": [
       {
@@ -1114,15 +1130,16 @@ export const QUESTIONS: Question[] = [
       }
     ],
     "correctAnswer": "A",
-    "topic": "Drawing Inferences & Text Evidence",
-    "difficulty": "Hard",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Medium",
     "hints": [
-      "Re-read the specific paragraphs referenced in the passage excerpt.",
-      "Eliminate choices that make sweeping generalizations not grounded in the text lines.",
-      "Look for the choice that accurately captures the author's precise rhetorical intent."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Be careful not to pick choices that sound inspiring or scientifically plausible on their own unless they are directly verified by line evidence in the passage.",
-    "explanation": "Working with porcupine quills is noted as a difficult specialty reserved only for experienced women of demonstrated skill."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e1_ela_18",
@@ -1131,7 +1148,7 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 18,
     "passageId": "e1_p3",
     "type": "multiple_choice",
-    "prompt": "How does the author distinguish her point of view from that of her mother?",
+    "prompt": "her mother?",
     "imageSrc": "/exams/exam1/items/ela_q18.png",
     "options": [
       {
@@ -1152,15 +1169,16 @@ export const QUESTIONS: Question[] = [
       }
     ],
     "correctAnswer": "B",
-    "topic": "Contrasting Points of View",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
     "difficulty": "Medium",
     "hints": [
-      "Re-read the specific paragraphs referenced in the passage excerpt.",
-      "Eliminate choices that make sweeping generalizations not grounded in the text lines.",
-      "Look for the choice that accurately captures the author's precise rhetorical intent."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Be careful not to pick choices that sound inspiring or scientifically plausible on their own unless they are directly verified by line evidence in the passage.",
-    "explanation": "The mother adheres strictly to traditional geometric rules, whereas the young author seeks creative freedom and original color pairings."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e1_ela_19",
@@ -1169,16 +1187,16 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 19,
     "passageId": "e1_p3",
     "type": "multiple_choice",
-    "prompt": "Read this sentence from paragraph 7: 'Always after these confining lessons I was wild with surplus spirits, and found joyous relief in running loose in the open again.' Which sentence best describes how this sentence fits into the overall structure of the excerpt?",
+    "prompt": "overall structure of the excerpt?",
     "imageSrc": "/exams/exam1/items/ela_q19.png",
     "options": [
       {
         "id": "A",
-        "text": "It introduces a shift from the author's demanding relationship with her mother to her relationships with friends."
+        "text": "It introduces a shift from the author's demanding relationship with her mother to her more relaxed relationships with friends."
       },
       {
         "id": "B",
-        "text": "It signals a change from the challenging aspects of reservation life to the advantages of prairie living."
+        "text": "It signals a change from the challenging aspects of life on the reservation to the advantages of living on the prairie."
       },
       {
         "id": "C",
@@ -1186,19 +1204,20 @@ export const QUESTIONS: Question[] = [
       },
       {
         "id": "D",
-        "text": "It concludes the progression of events in the narrative by describing the sequence at the end of the day."
+        "text": "It concludes the progression of events in the narrative by describing the sequence of events at the end of the author's day."
       }
     ],
     "correctAnswer": "C",
-    "topic": "Structural Contrast & Pacing",
-    "difficulty": "Hard",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Medium",
     "hints": [
-      "Re-read the specific paragraphs referenced in the passage excerpt.",
-      "Eliminate choices that make sweeping generalizations not grounded in the text lines.",
-      "Look for the choice that accurately captures the author's precise rhetorical intent."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Be careful not to pick choices that sound inspiring or scientifically plausible on their own unless they are directly verified by line evidence in the passage.",
-    "explanation": "The sentence provides a sharp dynamic contrast between the quiet discipline of beadwork lessons and the untamed joy of playing outdoors."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e1_ela_20",
@@ -1207,36 +1226,37 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 20,
     "passageId": "e1_p4",
     "type": "multiple_choice",
-    "prompt": "In lines 6-7 of Bird Talk ('worms are worms'), the speaker implies that",
+    "prompt": "What idea from the second stanza do the lines help develop?",
     "imageSrc": "/exams/exam1/items/ela_q20.png",
     "options": [
       {
         "id": "A",
-        "text": "birds prefer certain types of food over others during springtime."
+        "text": "The birds are eager for the return of warmer months."
       },
       {
         "id": "B",
-        "text": "the search for sustenance requires patience and stealth."
+        "text": "The birds are most likely to thrive during the spring."
       },
       {
         "id": "C",
-        "text": "human language fails to capture the true musical nature of bird calls."
+        "text": "The birds naturally adjust to the seasonal changes."
       },
       {
         "id": "D",
-        "text": "birds view their food pragmatically and realistically rather than poetically."
+        "text": "The birds instinctively prepare for the future."
       }
     ],
-    "correctAnswer": "D",
-    "topic": "Poetic Interpretation & Tone",
+    "correctAnswer": "C",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
     "difficulty": "Medium",
     "hints": [
-      "Re-read the specific paragraphs referenced in the passage excerpt.",
-      "Eliminate choices that make sweeping generalizations not grounded in the text lines.",
-      "Look for the choice that accurately captures the author's precise rhetorical intent."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Be careful not to pick choices that sound inspiring or scientifically plausible on their own unless they are directly verified by line evidence in the passage.",
-    "explanation": "The phrase emphasizes the down-to-earth, literal perspective of the birds focused on daily survival."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e1_ela_21",
@@ -1245,36 +1265,37 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 21,
     "passageId": "e1_p4",
     "type": "multiple_choice",
-    "prompt": "In the poem Bird Talk, the phrase 'talked most of all' conveys that the birds are",
+    "prompt": "What does the phrase \"talked most of all\" in line 13 convey?",
     "imageSrc": "/exams/exam1/items/ela_q21.png",
     "options": [
       {
         "id": "A",
-        "text": "loudly and enthusiastically celebrating the bounty of the new season."
+        "text": "It establishes that the speaker thinks the sound of wind in the leaves is the best indication that the season is changing."
       },
       {
         "id": "B",
-        "text": "warning one another about nearby predators in the garden."
+        "text": "It introduces the idea that the sound of the wind in the leaves remains constant throughout the seasons."
       },
       {
         "id": "C",
-        "text": "debating which nesting spots are most secure."
+        "text": "It suggests that the speaker is overwhelmed by the sounds of nature that emerge as the season changes."
       },
       {
         "id": "D",
-        "text": "imitating the conversations of humans passing nearby."
+        "text": "It emphasizes that the sounds of nature enable the speaker to appreciate each season of the year."
       }
     ],
     "correctAnswer": "A",
-    "topic": "Word Choice & Meaning",
-    "difficulty": "Hard",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Medium",
     "hints": [
-      "Re-read the specific paragraphs referenced in the passage excerpt.",
-      "Eliminate choices that make sweeping generalizations not grounded in the text lines.",
-      "Look for the choice that accurately captures the author's precise rhetorical intent."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Be careful not to pick choices that sound inspiring or scientifically plausible on their own unless they are directly verified by line evidence in the passage.",
-    "explanation": "The birds' relentless chatter reflects the overflowing energy and vitality that arrives with summer."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e1_ela_22",
@@ -1283,36 +1304,37 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 22,
     "passageId": "e1_p4",
     "type": "multiple_choice",
-    "prompt": "The repetition of 'This is the beginning of summer' in Bird Talk serves to",
+    "prompt": "Bird Talk by Carl Sandburg And now when the branches were beginning to be hea It was the time when they once had said, \"This is the beginning of summer.\" The shrilling of the frogs was not so shrill as in the 5 first weeks after the broken winter; The birds took their hops and zigzags a little more anxious; a home is a home; worms are worms. The yellow spreads of the dandelions and buttercups reached across the green pastures. 10 Tee whee and tee whee came on the breezes, and the chuzzled their syllables. And it was the leaves with a strong soft wind over ther that talked most of all and said more than any othe though speaking the fewest words. 15 It was the green leaves trickling out the gaunt nowher of winter, out on the gray hungry branches\u2014 It was the leaves on the branches beginnina to he hea How does the repetition of \" 'This is the beginning of summer'\" in lines 2-3 and lines 18-19 contribute to the meaning of the poem? A. It suggests that the shift to summer occurs in the same way each year. O B. It emphasizes the idea that living things are prepared for the change of season. \u2022 C. It highlights the idea that the first signs of summer are surprising each year. \u2022 D. It builds expectations about what the natural world looks like during a change of season.",
     "imageSrc": "/exams/exam1/items/ela_q22.png",
     "options": [
       {
         "id": "A",
-        "text": "reinforce the theme of renewal and joyful seasonal transformation."
+        "text": "Option A"
       },
       {
         "id": "B",
-        "text": "mark the precise passage of calendar weeks."
+        "text": "Option B"
       },
       {
         "id": "C",
-        "text": "contrast the heat of midday with the coolness of dawn."
+        "text": "Option C"
       },
       {
         "id": "D",
-        "text": "foreshadow the inevitable arrival of autumn."
+        "text": "Option D"
       }
     ],
     "correctAnswer": "A",
-    "topic": "Repetition & Thematic Development",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
     "difficulty": "Medium",
     "hints": [
-      "Re-read the specific paragraphs referenced in the passage excerpt.",
-      "Eliminate choices that make sweeping generalizations not grounded in the text lines.",
-      "Look for the choice that accurately captures the author's precise rhetorical intent."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Be careful not to pick choices that sound inspiring or scientifically plausible on their own unless they are directly verified by line evidence in the passage.",
-    "explanation": "Repeating the phrase anchors the poem's celebratory focus on nature awakening into summer abundance."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e1_ela_23",
@@ -1321,36 +1343,37 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 23,
     "passageId": "e1_p4",
     "type": "multiple_choice",
-    "prompt": "The poem contrasts the bleak scarcity of winter primarily through imagery of",
+    "prompt": "winter's scarcity and bleakness?",
     "imageSrc": "/exams/exam1/items/ela_q23.png",
     "options": [
       {
         "id": "A",
-        "text": "bare branches and frozen soil."
+        "text": "\"The shrilling of the frogs was not so shrill as in the / first weeks after the broken winter;\" (lines 4-5)"
       },
       {
         "id": "B",
-        "text": "bright yellow dandelions, fat worms, and green lawns."
+        "text": "\"The yellow spreads of the dandelions and buttercups / reached across the green pastures.\" (lines 8-9)"
       },
       {
         "id": "C",
-        "text": "migrating flocks traveling southward."
+        "text": "\"Tee whee and tee whee came on the breezes, and the grackles / chuzzled their syllables.\" (lines 10-11)"
       },
       {
         "id": "D",
-        "text": "dormant seeds buried beneath heavy snow."
+        "text": "\"Or if instead of counting up last year as against / this year, they count up this year as against next\" (lines 25-26)"
       }
     ],
     "correctAnswer": "B",
-    "topic": "Imagery & Contrast",
-    "difficulty": "Hard",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Medium",
     "hints": [
-      "Re-read the specific paragraphs referenced in the passage excerpt.",
-      "Eliminate choices that make sweeping generalizations not grounded in the text lines.",
-      "Look for the choice that accurately captures the author's precise rhetorical intent."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Be careful not to pick choices that sound inspiring or scientifically plausible on their own unless they are directly verified by line evidence in the passage.",
-    "explanation": "Vibrant visual details of yellow blossoms and plentiful food highlight how dramatic the return of life is after winter."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e1_ela_24",
@@ -1359,36 +1382,37 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 24,
     "passageId": "e1_p4",
     "type": "multiple_choice",
-    "prompt": "Which statement best describes the speaker's perspective throughout Bird Talk?",
+    "prompt": "Bird Talk by Carl Sandburg And now when the branches were beginning to be hea It was the time when they once had said, \"This is the beginning of summer.\" The shrilling of the frogs was not so shrill as in the 5 first weeks after the broken winter; The birds took their hops and zigzags a little more anxious; a home is a home; worms are worms. The yellow spreads of the dandelions and buttercups reached across the green pastures. 10 Tee whee and tee whee came on the breezes, and the chuzzled their syllables. And it was the leaves with a strong soft wind over ther that talked most of all and said more than any othe though speaking the fewest words. 15 It was the green leaves trickling out the gaunt nowher of winter, out on the gray hungry branches\u2014 It was the leaves on the branches beginnina to he hea Throughout the poem, the poet conveys the speaker's point of view by",
     "imageSrc": "/exams/exam1/items/ela_q24.png",
     "options": [
       {
         "id": "A",
-        "text": "The speaker attentively observes nature, moving awareness from one natural element to another with quiet appreciation."
+        "text": "gradually moving the speaker's attention from one element of nature to another."
       },
       {
         "id": "B",
-        "text": "The speaker feels alienated from the natural world and wishes to communicate directly with wildlife."
+        "text": "providing the speaker's motivation for describing the landscape in great detail. \u2022"
       },
       {
         "id": "C",
-        "text": "The speaker is an expert scientist cataloging avian behaviors."
+        "text": "highlighting the speaker's emotional response as each season passes."
       },
       {
         "id": "D",
-        "text": "The speaker prefers solitary contemplation indoors away from summer heat."
+        "text": "shifting the speaker's focus from external observations to personal reflection."
       }
     ],
-    "correctAnswer": "A",
-    "topic": "Speaker's Point of View",
+    "correctAnswer": "D",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
     "difficulty": "Medium",
     "hints": [
-      "Re-read the specific paragraphs referenced in the passage excerpt.",
-      "Eliminate choices that make sweeping generalizations not grounded in the text lines.",
-      "Look for the choice that accurately captures the author's precise rhetorical intent."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Be careful not to pick choices that sound inspiring or scientifically plausible on their own unless they are directly verified by line evidence in the passage.",
-    "explanation": "The speaker watches the birds, bugs, and grass with whimsical, affectionate curiosity."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e1_ela_25",
@@ -1397,36 +1421,37 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 25,
     "passageId": "e1_p4",
     "type": "multiple_choice",
-    "prompt": "Which statement best states the central theme of Bird Talk?",
+    "prompt": "Bird Talk by Carl Sandburg And now when the branches were beginning to be hea It was the time when they once had said, \"This is the beginning of summer.\" The shrilling of the frogs was not so shrill as in the 5 first weeks after the broken winter; The birds took their hops and zigzags a little more anxious; a home is a home; worms are worms. The yellow spreads of the dandelions and buttercups reached across the green pastures. 10 Tee whee and tee whee came on the breezes, and the chuzzled their syllables. And it was the leaves with a strong soft wind over ther that talked most of all and said more than any othe though speaking the fewest words. 15 It was the green leaves trickling out the gaunt nowher of winter, out on the gray hungry branches\u2014 It was the leaves on the branches beginnina to he hea Over the course of the poem, a central idea is developed mainly through the speaker's",
     "imageSrc": "/exams/exam1/items/ela_q25.png",
     "options": [
       {
         "id": "A",
-        "text": "Human civilization inevitably disrupts animal habitats."
+        "text": "sense of eager anticipation as winter ends."
       },
       {
         "id": "B",
-        "text": "The cyclical arrival of summer brings an infectious surge of vitality and harmony across the living world."
+        "text": "description of the changes in nature as the seasons transition."
       },
       {
         "id": "C",
-        "text": "Animals possess complex spoken languages that mirror human discourse."
+        "text": "observation of the birds' behavior as summer begins."
       },
       {
         "id": "D",
-        "text": "Only through poetry can the true beauty of wildlife be preserved."
+        "text": "prediction of future alterations in the physical landscape."
       }
     ],
     "correctAnswer": "B",
-    "topic": "Central Theme",
-    "difficulty": "Hard",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Medium",
     "hints": [
-      "Re-read the specific paragraphs referenced in the passage excerpt.",
-      "Eliminate choices that make sweeping generalizations not grounded in the text lines.",
-      "Look for the choice that accurately captures the author's precise rhetorical intent."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Be careful not to pick choices that sound inspiring or scientifically plausible on their own unless they are directly verified by line evidence in the passage.",
-    "explanation": "The poem is an ode to the vibrant resurgence of life that accompanies early summer."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e1_ela_26",
@@ -1435,36 +1460,37 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 26,
     "passageId": "e1_p5",
     "type": "multiple_choice",
-    "prompt": "How does the poem Serpent Mound's form contribute to its meaning?",
+    "prompt": "How does the poem's form contribute to the poem's meaning?",
     "imageSrc": "/exams/exam1/items/ela_q26.png",
     "options": [
       {
         "id": "A",
-        "text": "The use of one continuous stanza and winding line structure mimics the serpentine shape of the earthwork."
+        "text": "The use of one continuous stanza and the pattern of the lines mimic the long and winding shape of the mound."
       },
       {
         "id": "B",
-        "text": "Strict rhyming couplets represent the rigid precision of the surveyors' measuring tapes."
+        "text": "The uneven line lengths emphasize the variety of ways people interpret the meaning of the mound."
       },
       {
         "id": "C",
-        "text": "Alternating stanzas represent contrasting seasons of winter and summer."
+        "text": "The dashes throughout the poem highlight the speaker's changing thoughts about the significance of the mound."
       },
       {
         "id": "D",
-        "text": "Short fragmented lines convey the speaker's breathless fear of snakes."
+        "text": "The lack of a regular rhyme scheme and meter convey that the speaker struggles to comprehend the vastness of the mound."
       }
     ],
     "correctAnswer": "A",
-    "topic": "Poetic Form & Spatial Architecture",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
     "difficulty": "Medium",
     "hints": [
-      "Re-read the specific paragraphs referenced in the passage excerpt.",
-      "Eliminate choices that make sweeping generalizations not grounded in the text lines.",
-      "Look for the choice that accurately captures the author's precise rhetorical intent."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Be careful not to pick choices that sound inspiring or scientifically plausible on their own unless they are directly verified by line evidence in the passage.",
-    "explanation": "The unbroken, undulating progression of lines reflects the serpentine winding of the ancient earthwork itself."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e1_ela_27",
@@ -1473,36 +1499,37 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 27,
     "passageId": "e1_p5",
     "type": "multiple_choice",
-    "prompt": "Which lines reveal how the physical setting affects the speaker and the museum men?",
+    "prompt": "men from the museum?",
     "imageSrc": "/exams/exam1/items/ela_q27.png",
     "options": [
       {
         "id": "A",
-        "text": "'It being winter, / there was little underbrush to speak of\u2014' (lines 8-9)"
+        "text": "\"It being winter, / there was little underbrush to speak of\u2014\" (lines 8-9)"
       },
       {
         "id": "B",
-        "text": "'but the winter silence of the creek pressed / down on all of us like a weight.' (lines 14-15)"
+        "text": "\"but the winter silence of the creek pressed / down on all of us like a weight.\" (lines 14-15)"
       },
       {
         "id": "C",
-        "text": "'The humps in the ground were all but / invisible until you were right up on them.' (lines 16-17)"
+        "text": "\"The humps in the ground were all but / invisible until you were right up on them.\" (lines 16-17)"
       },
       {
         "id": "D",
-        "text": "'In the summer the creek bottom was crowded / with so much life that you could trip' (lines 21-22)"
+        "text": "\"In the summer the creek bottom was crowded / with so much life that you could trip\" (lines 21-22)"
       }
     ],
     "correctAnswer": "B",
-    "topic": "Setting & Mood",
-    "difficulty": "Hard",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Medium",
     "hints": [
-      "Re-read the specific paragraphs referenced in the passage excerpt.",
-      "Eliminate choices that make sweeping generalizations not grounded in the text lines.",
-      "Look for the choice that accurately captures the author's precise rhetorical intent."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Be careful not to pick choices that sound inspiring or scientifically plausible on their own unless they are directly verified by line evidence in the passage.",
-    "explanation": "Describing the silence pressing 'like a weight' conveys how the cold winter stillness solemnizes their expedition."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e1_ela_28",
@@ -1511,36 +1538,37 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 28,
     "passageId": "e1_p5",
     "type": "multiple_choice",
-    "prompt": "Lines 1-2 contribute to the development of ideas in Serpent Mound by",
+    "prompt": "The Great Serpent Mound, located in Adams County, Ohio, is a human-made mound of earth that researchers believe was created between 300 .c. and a.D. 1100 by an indigenous culture. Serpent Mound Ohio, 1846 Brush Creek stood low when the museum men came with their measuring tapes and sketchbooks. It was winter. Fringed with ice, the creek doubled back on itself 5 as if it had forgotten something. Pa was in Cincinnati, or else on his way home, so Ma told me to lead the men into the marshy low grounds. It being winter, there was little underbrush to speak of\u2014 10 in the summer there would have been briars, poison ivy, biting flies. I listened for the swish of a beaver's heavy tail, Lines 1-2 contribute to the development of ideas in the poem by \u2022 A. suggesting that the men are too busy with their work to talk to the speaker. O B. helping establish the reason for the men's visit and purposeful behavior. \u2022 C. hinting that the men have hidden motives for studying the mound. \u2022 D. indicating why the speaker is fascinated by the men and wants to help them.",
     "imageSrc": "/exams/exam1/items/ela_q28.png",
     "options": [
       {
         "id": "A",
-        "text": "suggesting that the men are too busy to talk to the speaker."
+        "text": "Option A"
       },
       {
         "id": "B",
-        "text": "helping establish the purpose of the men's visit and their methodical, objective approach."
+        "text": "Option B"
       },
       {
         "id": "C",
-        "text": "hinting that the men have secret motives for digging up the marsh."
+        "text": "Option C"
       },
       {
         "id": "D",
-        "text": "showing why the speaker is hostile toward outsiders."
+        "text": "Option D"
       }
     ],
     "correctAnswer": "B",
-    "topic": "Narrative Exposition",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
     "difficulty": "Medium",
     "hints": [
-      "Re-read the specific paragraphs referenced in the passage excerpt.",
-      "Eliminate choices that make sweeping generalizations not grounded in the text lines.",
-      "Look for the choice that accurately captures the author's precise rhetorical intent."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Be careful not to pick choices that sound inspiring or scientifically plausible on their own unless they are directly verified by line evidence in the passage.",
-    "explanation": "Mentioning measuring tapes and sketchbooks introduces the visitors as scientific observers documenting an artifact."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e1_ela_29",
@@ -1549,36 +1577,37 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 29,
     "passageId": "e1_p5",
     "type": "multiple_choice",
-    "prompt": "Read line 28: 'At the mouth end, there was an oval mound'. How does this line contribute to the poem's central inquiry?",
+    "prompt": "poem?",
     "imageSrc": "/exams/exam1/items/ela_q29.png",
     "options": [
       {
         "id": "A",
-        "text": "It provides the exact architectural coordinates required by the museum researchers."
+        "text": "It describes a feature of the mound that the men from the museum need to document."
       },
       {
         "id": "B",
-        "text": "It contrasts the head of the serpent with the tail coils."
+        "text": "It introduces a comparison of the body of the mound with the head of the mound."
       },
       {
         "id": "C",
-        "text": "It introduces a central feature of the mound that inspires differing symbolic interpretations among observers."
+        "text": "It introduces a feature of the mound that has a different meaning to different people."
       },
       {
         "id": "D",
-        "text": "It proves conclusively what ancient ritual was enacted on the site."
+        "text": "It describes a part of the mound that is difficult to see from far away."
       }
     ],
     "correctAnswer": "C",
-    "topic": "Symbolism & Ambiguity",
-    "difficulty": "Hard",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Medium",
     "hints": [
-      "Re-read the specific paragraphs referenced in the passage excerpt.",
-      "Eliminate choices that make sweeping generalizations not grounded in the text lines.",
-      "Look for the choice that accurately captures the author's precise rhetorical intent."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Be careful not to pick choices that sound inspiring or scientifically plausible on their own unless they are directly verified by line evidence in the passage.",
-    "explanation": "The oval shape sparks ongoing debate\u2014whether it represents an egg being swallowed, the sun, or a frog."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e1_ela_30",
@@ -1587,36 +1616,37 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 30,
     "passageId": "e1_p5",
     "type": "multiple_choice",
-    "prompt": "What impact do the phrases 'all but / invisible' and 'even less obvious' in lines 16-18 have on the meaning of the poem?",
+    "prompt": "obvious\" in lines 16-18 have on the meaning of the poem?",
     "imageSrc": "/exams/exam1/items/ela_q30.png",
     "options": [
       {
         "id": "A",
-        "text": "They emphasize how difficult it is to grasp the mound's true form and monumental scale from ground level."
+        "text": "They indicate that viewing the full size and shape of the mound is difficult."
       },
       {
         "id": "B",
-        "text": "They show that the mound had been completely forgotten by local townspeople."
+        "text": "They suggest that the location of the mound is unknown to most people."
       },
       {
         "id": "C",
-        "text": "They suggest that the speaker wished to conceal the mound from vandals."
+        "text": "They imply that the speaker wants the location of the mound to remain a secret."
       },
       {
         "id": "D",
-        "text": "They imply that the earthwork was accidental rather than human-made."
+        "text": "They reveal that the speaker is unfamiliar with the significance of the mound."
       }
     ],
     "correctAnswer": "A",
-    "topic": "Perspective & Perception",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
     "difficulty": "Medium",
     "hints": [
-      "Re-read the specific paragraphs referenced in the passage excerpt.",
-      "Eliminate choices that make sweeping generalizations not grounded in the text lines.",
-      "Look for the choice that accurately captures the author's precise rhetorical intent."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Be careful not to pick choices that sound inspiring or scientifically plausible on their own unless they are directly verified by line evidence in the passage.",
-    "explanation": "From the ground, the earthwork appears merely as gentle mounds; its massive serpentine design is only discernible from above."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e1_ela_31",
@@ -1625,36 +1655,37 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 31,
     "passageId": "e1_p5",
     "type": "multiple_choice",
-    "prompt": "What effect do the auditory words 'swish,' 'chitter,' and 'cry' in lines 12-13 create?",
+    "prompt": "lines 12-13 have in the poem?",
     "imageSrc": "/exams/exam1/items/ela_q31.png",
     "options": [
       {
         "id": "A",
-        "text": "They contrast the eerie silence of winter with the bustling, noisy wildlife of summer."
+        "text": "They illustrate how lively the mound's surroundings are during the summer."
       },
       {
         "id": "B",
-        "text": "They illustrate how human exploration panics nearby wildlife."
+        "text": "They show how the mound disrupts natural life in the marsh."
       },
       {
         "id": "C",
-        "text": "They emphasize the dangerous animals lurking in Adams County."
+        "text": "They indicate the variety of wildlife found in the area around the mound."
       },
       {
         "id": "D",
-        "text": "They suggest the speaker is distracted from guiding the researchers."
+        "text": "They suggest that the speaker prefers the mound's appearance in winter."
       }
     ],
     "correctAnswer": "A",
-    "topic": "Sensory Diction & Auditory Imagery",
-    "difficulty": "Hard",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Medium",
     "hints": [
-      "Re-read the specific paragraphs referenced in the passage excerpt.",
-      "Eliminate choices that make sweeping generalizations not grounded in the text lines.",
-      "Look for the choice that accurately captures the author's precise rhetorical intent."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Be careful not to pick choices that sound inspiring or scientifically plausible on their own unless they are directly verified by line evidence in the passage.",
-    "explanation": "Remembering the animal calls underscores how quiet and still the marsh is during their winter expedition."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e1_ela_32",
@@ -1663,36 +1694,37 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 32,
     "passageId": "e1_p5",
     "type": "multiple_choice",
-    "prompt": "How does the speaker's dialogue with Ruth in lines 37-41 develop a central theme of the poem?",
+    "prompt": "convey a central idea of the poem?",
     "imageSrc": "/exams/exam1/items/ela_q32.png",
     "options": [
       {
         "id": "A",
-        "text": "It proves that modern science alone can unlock ancient mysteries."
+        "text": "It suggests that the most accurate interpretations of the mound come from knowing the purpose of the mound."
       },
       {
         "id": "B",
-        "text": "It highlights that ancient sacred monuments evoke personal, emotional interpretations that coexist with scientific data."
+        "text": "It emphasizes that there are multiple interpretations of the mound based on feelings and experiences."
       },
       {
         "id": "C",
-        "text": "It shows that local residents resented scholars visiting the site."
+        "text": "It reveals the benefit of considering different interpretations of the mound's significance."
       },
       {
         "id": "D",
-        "text": "It demonstrates how folklore often distorts archaeological facts."
+        "text": "It implies that scientific study of the mound's purpose will affect what the mound symbolizes to people."
       }
     ],
     "correctAnswer": "B",
-    "topic": "Synthesis & Thematic Development",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
     "difficulty": "Medium",
     "hints": [
-      "Re-read the specific paragraphs referenced in the passage excerpt.",
-      "Eliminate choices that make sweeping generalizations not grounded in the text lines.",
-      "Look for the choice that accurately captures the author's precise rhetorical intent."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Be careful not to pick choices that sound inspiring or scientifically plausible on their own unless they are directly verified by line evidence in the passage.",
-    "explanation": "Ruth's imaginative reading of the serpent's mouth highlights that monuments hold enduring human meaning beyond physical measurements."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e1_ela_33",
@@ -1701,36 +1733,37 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 33,
     "passageId": "e1_p5",
     "type": "multiple_choice",
-    "prompt": "The poet contrasts the speaker's and Ruth's points of view regarding the mound by using dialogue to",
+    "prompt": "The Great Serpent Mound, located in Adams County, Ohio, is a human-made mound of earth that researchers believe was created between 300 .c. and a.D. 1100 by an indigenous culture. Serpent Mound Ohio, 1846 Brush Creek stood low when the museum men came with their measuring tapes and sketchbooks. It was winter. Fringed with ice, the creek doubled back on itself 5 as if it had forgotten something. Pa was in Cincinnati, or else on his way home, so Ma told me to lead the men into the marshy low grounds. It being winter, there was little underbrush to speak of\u2014 10 in the summer there would have been briars, poison ivy, biting flies. I listened for the swish of a beaver's heavy tail, The poet contrasts the speaker's and Ruth's points of view regarding the mound by using dialogue to",
     "imageSrc": "/exams/exam1/items/ela_q33.png",
     "options": [
       {
         "id": "A",
-        "text": "imply that Ruth fears the museum researchers will dismiss her beliefs."
+        "text": "imply that Ruth is worried that her interpretation of the mound will be seen as too abstract."
       },
       {
         "id": "B",
-        "text": "indicate that Ruth wishes to publish her own historical thesis."
+        "text": "indicate that Ruth hopes her interpretation of the mound will be shared by the men from the museum."
       },
       {
         "id": "C",
-        "text": "suggest that Ruth wants the speaker to agree with her interpretation."
+        "text": "suggest that Ruth wants the speaker to agree with her interpretation of the mound."
       },
       {
         "id": "D",
-        "text": "show that Ruth holds a firm, imaginative conviction about what the mound represents."
+        "text": "show that Ruth has already decided on her interpretation of the mound."
       }
     ],
     "correctAnswer": "D",
-    "topic": "Character Perspective",
-    "difficulty": "Hard",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Medium",
     "hints": [
-      "Re-read the specific paragraphs referenced in the passage excerpt.",
-      "Eliminate choices that make sweeping generalizations not grounded in the text lines.",
-      "Look for the choice that accurately captures the author's precise rhetorical intent."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Be careful not to pick choices that sound inspiring or scientifically plausible on their own unless they are directly verified by line evidence in the passage.",
-    "explanation": "Ruth speaks with confident certainty about the serpent swallowing the egg, contrasting with the speaker's quiet questioning."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e1_ela_34",
@@ -1739,36 +1772,37 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 34,
     "passageId": "e1_p6",
     "type": "multiple_choice",
-    "prompt": "What is the best summary of the astronauts' process for Project Plant Habitat-04 in Growing Peppers on the ISS?",
+    "prompt": "Plant Habitat-04?",
     "imageSrc": "/exams/exam1/items/ela_q34.png",
     "options": [
       {
         "id": "A",
-        "text": "Astronauts harvest crops randomly whenever fresh vegetables are desired to supplement packaged meals."
+        "text": "After a 137-day growth cycle, the astronauts harvest the peppers while being observed and advised by plant scientists. The astronauts remove the peppers from the APH and photograph them before eating the most nutritious ones."
       },
       {
         "id": "B",
-        "text": "Astronauts rely exclusively on robotic arms to pick peppers and immediately freeze them for return flight."
+        "text": "The astronauts confer with plant scientists and engineers before selecting the 14 finest peppers to keep aboard the ISS for consumption. The remaining peppers are wrapped in foil and sent back to Kennedy Space Center to be studied."
       },
       {
         "id": "C",
-        "text": "Working with Earth scientists, astronauts monitor conditions in the APH, grow chile peppers over a 137-day cycle, eat a portion fresh in orbit, and preserve the rest for NASA analysis."
+        "text": "With the help of plant scientists, the astronauts carefully control and monitor the growing conditions in the APH, ultimately harvesting the peppers after a 137-day growth cycle. The astronauts choose 14 of the peppers for consumption and send the rest back to be studied."
       },
       {
         "id": "D",
-        "text": "Engineers alter chile plant genetics in space before planting seeds directly in hydroponic trays."
+        "text": "Astronauts use specialized tools to plant and maintain genetically modified peppers aboard the ISS. After harvesting the fruit, the astronauts tape the peppers to a board to prevent them from floating around the module."
       }
     ],
     "correctAnswer": "C",
-    "topic": "Summarizing Informational Text",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
     "difficulty": "Medium",
     "hints": [
-      "Re-read the specific paragraphs referenced in the passage excerpt.",
-      "Eliminate choices that make sweeping generalizations not grounded in the text lines.",
-      "Look for the choice that accurately captures the author's precise rhetorical intent."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Be careful not to pick choices that sound inspiring or scientifically plausible on their own unless they are directly verified by line evidence in the passage.",
-    "explanation": "The passage details collaborative monitoring, the 137-day growth duration, in-orbit tasting, and scientific preservation."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e1_ela_35",
@@ -1777,36 +1811,37 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 35,
     "passageId": "e1_p6",
     "type": "multiple_choice",
-    "prompt": "Read this sentence from paragraph 5: 'Though astronauts can spend upwards of 100 days in space, their on-mission meals come dehydrated and pre-packaged; their vitamins and minerals are isolated in supplements, which lose nutritional value the longer they're stored.' How does this sentence contribute to the excerpt's central idea?",
+    "prompt": "The author, Melanie Canales, is a first-generation Peruvian American farmer and beekeeper based in Virginia's Shenandoah Valley, on lands of the indigenous Monacan and Manahoac tribes. Her work focuses on creating healthy relationships between people and their surrounding ecosystems. Excerpt from \"Growing Peppers on the ISS Is Just the Start of Space Farming\" by Melanie Canales 1) Unburdened by the constraints of gravity, red and green peppers jut out at 45-degree angles inside the Advanced Plant Habitat (APH), a sort of space terrarium not much larger than a microwave. Four chile pepper plants stand effortlessly upright, despite the dozens of glossy fruits weighing them down. These plants have lived entirely in space; their leaves have never been chewed on by insects or rustled by a summer breeze, [and] their stems are unfamiliar with bending toward the Read this sentence from paragraph 5. Though astronauts can spend upwards of 100 days in space, their on-mission meals come dehydrated and pre-packaged; their vitamins and minerals are isolated in supplements, which lose nutritional value the longer they're stored. The sentence contributes to the overall meaning of the excerpt by",
     "imageSrc": "/exams/exam1/items/ela_q35.png",
     "options": [
       {
         "id": "A",
-        "text": "It emphasizes why growing fresh living crops aboard spacecraft is essential for long-duration human space exploration."
+        "text": "indicating that the attempt to grow crops aboard the ISS is an important endeavor."
       },
       {
         "id": "B",
-        "text": "It describes the direct medical symptoms of prolonged weightlessness on digestion."
+        "text": "describing the health effects of spending a significant length of time in space."
       },
       {
         "id": "C",
-        "text": "It explains why astronauts prefer freeze-dried fruit over vegetables."
+        "text": "revealing why certain kinds of foods are more appealing in space than on Earth."
       },
       {
         "id": "D",
-        "text": "It highlights the cost of manufacturing sealed packaged foods."
+        "text": "emphasizing the difficulty of preserving the nutrients in the crops grown in space."
       }
     ],
     "correctAnswer": "A",
-    "topic": "Central Idea Development",
-    "difficulty": "Hard",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Medium",
     "hints": [
-      "Re-read the specific paragraphs referenced in the passage excerpt.",
-      "Eliminate choices that make sweeping generalizations not grounded in the text lines.",
-      "Look for the choice that accurately captures the author's precise rhetorical intent."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Be careful not to pick choices that sound inspiring or scientifically plausible on their own unless they are directly verified by line evidence in the passage.",
-    "explanation": "Nutrient degradation in preserved rations proves that cultivating fresh food in flight is vital for multi-year deep space missions."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e1_ela_36",
@@ -1815,36 +1850,37 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 36,
     "passageId": "e1_p6",
     "type": "multiple_choice",
-    "prompt": "Which statement best explains why Lashelle Spencer is a particularly credible source for this article?",
+    "prompt": "relevant source of information for the excerpt?",
     "imageSrc": "/exams/exam1/items/ela_q36.png",
     "options": [
       {
         "id": "A",
-        "text": "She is an active astronaut currently residing aboard the ISS."
+        "text": "She works at NASA's Kennedy Space Center."
       },
       {
         "id": "B",
-        "text": "She is a lead plant scientist and project team member at NASA's Kennedy Space Center guiding the experiment."
+        "text": "She is part of the APH project team."
       },
       {
         "id": "C",
-        "text": "She invented the Advanced Plant Habitat hardware for commercial sale."
+        "text": "She is sensitive to the astronauts' need for healthy food in space. O D. She witnessed how astronauts aboard the APH responded when harvesting their food."
       },
       {
         "id": "D",
-        "text": "She is a nutrition journalist who sampled the space peppers in orbit."
+        "text": "Option D"
       }
     ],
     "correctAnswer": "B",
-    "topic": "Evaluating Source Credibility",
-    "difficulty": "Medium",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Hard",
     "hints": [
-      "Re-read the specific paragraphs referenced in the passage excerpt.",
-      "Eliminate choices that make sweeping generalizations not grounded in the text lines.",
-      "Look for the choice that accurately captures the author's precise rhetorical intent."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Be careful not to pick choices that sound inspiring or scientifically plausible on their own unless they are directly verified by line evidence in the passage.",
-    "explanation": "Spencer is the lead researcher at Kennedy Space Center who prepared the seeds and supervised the orbital harvest."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e1_ela_37",
@@ -1853,36 +1889,37 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 37,
     "passageId": "e1_p6",
     "type": "multiple_choice",
-    "prompt": "How does the author support the claim in paragraph 4 that the Advanced Plant Habitat (APH) is a complex growth system?",
+    "prompt": "APH is a complex plant growth system?",
     "imageSrc": "/exams/exam1/items/ela_q37.png",
     "options": [
       {
         "id": "A",
-        "text": "by detailing the more than 180 sensors that continuously regulate moisture, temperature, oxygen, and light levels."
+        "text": "by indicating how many sensors help control the variables of plant growth"
       },
       {
         "id": "B",
-        "text": "by explaining how astronauts manually water each plant seedling daily."
+        "text": "by detailing how the method of growing plants has been adapted to the conditions of space"
       },
       {
         "id": "C",
-        "text": "by contrasting the APH with standard high school garden plots."
+        "text": "by explaining the steps required to package and return the plants to Earth"
       },
       {
         "id": "D",
-        "text": "by calculating the total financial cost of the flight chamber."
+        "text": "by describing how NASA has spent years experimenting with plants grown in a controlled environment"
       }
     ],
     "correctAnswer": "A",
-    "topic": "Supporting Claims with Technical Evidence",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
     "difficulty": "Hard",
     "hints": [
-      "Re-read the specific paragraphs referenced in the passage excerpt.",
-      "Eliminate choices that make sweeping generalizations not grounded in the text lines.",
-      "Look for the choice that accurately captures the author's precise rhetorical intent."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Be careful not to pick choices that sound inspiring or scientifically plausible on their own unless they are directly verified by line evidence in the passage.",
-    "explanation": "The text cites the intricate network of 180+ automated environmental sensors that make precise zero-gravity agriculture possible."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e1_ela_38",
@@ -1890,37 +1927,42 @@ export const QUESTIONS: Question[] = [
     "section": "ela",
     "questionNumber": 38,
     "passageId": "e1_p6",
-    "type": "multiple_choice",
-    "prompt": "Which detail best supports the idea that tending crops provides psychological benefits for astronauts?",
+    "type": "multi_select",
+    "prompt": "Which two sentences in paragraphs 5-9 best support the idea that the astronauts working in space enjoyed participating in the food-growing experiment? Select the two correct answers. 5) It's the day after Thanksgiving, and Spencer has been at Kennedy since 5 a.m. to facilitate the peppers' final harvest. As part of the project team, she played a crucial role in preparing the seeds that were sent hurtling into space in June and guiding the astronauts through maintaining the plants in orbit. ... Though astronauts can spend upwards of 100 days in space, their on-mission meals come dehydrated and pre-packaged; their vitamins and minerals are isolated in supplements, which lose nutritional value the longer they're stored. Spencer's goal is to create the conditions necessary for cultivating healthy plants in space, so those plants can sustain healthy astronauts on long-term missions. Astronaut food is great, she says-\"especially the shrimp cocktail. But you're missing that crunch. You're missing that fresh pop of flavor, the green flavor that's not there in that packaged food.\" 6) The sensory experience of growing productive crops can also help mitigate the psychological effects of long-term space travel. ... Spencer says the team cracked open the door of the APH every day to observe their vegetable companions with all the tenderness of home gardeners. When harvest day came, they batted their bounty around the ISS, taking selfies and delighting in watching the fruits pirouetting around the spacecraft.. .. 7 \"We were thinking no heat, so that [the peppers] wouldn't be dangerous, but maybe the astronauts need a little spice in their life,\" says Paul Bosland, who along with his colleagues at the Chile Pepper Institute genetically engineered the NuMex Espa\u00f1ola Improved chile pepper seeds grown in Plant Habitat-04. . .. 8 Working with NASA, Bosland cultivated a variety that could accommodate both the nutritional needs of astronauts as well as the logistics of growing a plant in space. ... 9 ... The experiment is helpina ather the data necessarv to determine the nutritional content of crops arown in",
     "imageSrc": "/exams/exam1/items/ela_q38.png",
     "options": [
       {
         "id": "A",
-        "text": "The crew checked on the plants daily with the tenderness of home gardeners, taking selfies and delighting in the harvest."
+        "text": "Option A"
       },
       {
         "id": "B",
-        "text": "Packaged rations lose significant nutritional value after 100 days of storage."
+        "text": "Option B"
       },
       {
         "id": "C",
-        "text": "Chile seeds require 137 days to produce mature, glossy fruit in orbit."
+        "text": "Option C"
       },
       {
         "id": "D",
-        "text": "Ground control monitors telemetry data directly from Kennedy Space Center."
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
       }
     ],
-    "correctAnswer": "A",
-    "topic": "Citing Evidence for Psychological Well-being",
-    "difficulty": "Medium",
+    "correctAnswer": "Choice 2 and Choice 3",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Hard",
     "hints": [
-      "Re-read the specific paragraphs referenced in the passage excerpt.",
-      "Eliminate choices that make sweeping generalizations not grounded in the text lines.",
-      "Look for the choice that accurately captures the author's precise rhetorical intent."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Be careful not to pick choices that sound inspiring or scientifically plausible on their own unless they are directly verified by line evidence in the passage.",
-    "explanation": "Observing plants with 'the tenderness of home gardeners' and playing with floating peppers shows how the living greenery lifted morale."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: Choice 2 and Choice 3. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e1_ela_39",
@@ -1929,36 +1971,37 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 39,
     "passageId": "e1_p6",
     "type": "multiple_choice",
-    "prompt": "The description of Lashelle Spencer's primary research goal in paragraph 5 develops the passage's main purpose by",
+    "prompt": "The description in paragraph 5 of Lashelle Spencer's goal develops a central idea of the excerpt by",
     "imageSrc": "/exams/exam1/items/ela_q39.png",
     "options": [
       {
         "id": "A",
-        "text": "arguing that space farming will replace Earth agriculture within the next decade."
+        "text": "illustrating that certain types of packaged foods available in space lack particular flavors."
       },
       {
         "id": "B",
-        "text": "illustrating how automated robotics can eliminate human astronauts on future probes."
+        "text": "supporting the notion that spending more than 100 days in space is detrimental to astronauts' health."
       },
       {
         "id": "C",
-        "text": "demonstrating that astronauts require higher calorie intake than workers on Earth."
+        "text": "offering an example of how the limited selection of on-mission meals becomes less appealing over time."
       },
       {
         "id": "D",
-        "text": "clarifying that cultivating fresh produce is necessary to sustain astronauts on multi-year journeys to the Moon and Mars."
+        "text": "making an important point about the astronauts' current reliance on supplements for vitamins and minerals."
       }
     ],
     "correctAnswer": "D",
-    "topic": "Author's Purpose & Vision",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
     "difficulty": "Hard",
     "hints": [
-      "Re-read the specific paragraphs referenced in the passage excerpt.",
-      "Eliminate choices that make sweeping generalizations not grounded in the text lines.",
-      "Look for the choice that accurately captures the author's precise rhetorical intent."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Be careful not to pick choices that sound inspiring or scientifically plausible on their own unless they are directly verified by line evidence in the passage.",
-    "explanation": "Her work aims to develop self-sustaining bio-regenerative life support essential for crew survival during interplanetary travel."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e1_ela_40",
@@ -1966,37 +2009,42 @@ export const QUESTIONS: Question[] = [
     "section": "ela",
     "questionNumber": 40,
     "passageId": "e1_p6",
-    "type": "multiple_choice",
-    "prompt": "What is the primary division of responsibility between ground scientists and astronauts in the plant experiment?",
+    "type": "multi_select",
+    "prompt": "The author, Melanie Canales, is a first-generation Peruvian American farmer and beekeeper based in Virginia's Shenandoah Valley, on lands of the indigenous Monacan and Manahoac tribes. Her work focuses on creating healthy relationships between people and their surrounding ecosystems. Excerpt from \"Growing Peppers on the ISS Is Just the Start of Space Farming\" by Melanie Canales 1) Unburdened by the constraints of gravity, red and green peppers jut out at 45-degree angles inside the Advanced Plant Habitat (APH), a sort of space terrarium not much larger than a microwave. Four chile pepper plants stand effortlessly upright, despite the dozens of glossy fruits weighing them down. These plants have lived entirely in space; their leaves have never been chewed on by insects or rustled by a summer breeze, landl their stems are unfamiliar with bending toward the What is the relationship between the scientists and the astronauts in carrying out the plant-growing experiments? Move the correct answer to each box. growing the plants to harvest documenting the nutritional goals analyzing the environment developing the materials and systems determining the most nutritional plants Scientists on earth are primarily responsible for for conducting plant experiments in space, while the astronauts aboard the International Space Station are responsible for for the experiment.",
     "imageSrc": "/exams/exam1/items/ela_q40.png",
     "options": [
       {
         "id": "A",
-        "text": "Ground scientists engineer the genetics, environmental systems, and mission protocols, while astronauts manage in-orbit care and harvest."
+        "text": "Option A"
       },
       {
         "id": "B",
-        "text": "Astronauts formulate seed varieties on the space station, while ground teams consume the harvested crop."
+        "text": "Option B"
       },
       {
         "id": "C",
-        "text": "Ground scientists independently fly the capsule, while astronauts solely perform photography."
+        "text": "Option C"
       },
       {
         "id": "D",
-        "text": "Both teams maintain separate identical terrariums without communication."
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
       }
     ],
-    "correctAnswer": "A",
-    "topic": "Comparative Analysis of Roles",
-    "difficulty": "Medium",
+    "correctAnswer": "First box: \"developing the materials and systems\"; second box: \"growing the plants to harvest\"",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Hard",
     "hints": [
-      "Re-read the specific paragraphs referenced in the passage excerpt.",
-      "Eliminate choices that make sweeping generalizations not grounded in the text lines.",
-      "Look for the choice that accurately captures the author's precise rhetorical intent."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Be careful not to pick choices that sound inspiring or scientifically plausible on their own unless they are directly verified by line evidence in the passage.",
-    "explanation": "Terrestrial agronomists design hardware and monitor data, while orbiters provide hands-on maintenance, pollination, and harvesting."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: First box: \"developing the materials and systems\"; second box: \"growing the plants to harvest\". This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e1_ela_41",
@@ -2005,36 +2053,37 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 41,
     "passageId": "e1_p6",
     "type": "multiple_choice",
-    "prompt": "How is the quotation from Lashelle Spencer at the end of paragraph 9 relevant to the harvest discussed in paragraph 2?",
+    "prompt": "to in paragraph 2?",
     "imageSrc": "/exams/exam1/items/ela_q41.png",
     "options": [
       {
         "id": "A",
-        "text": "It criticizes the crew for eating too many peppers rather than saving them for analysis."
+        "text": "The quotation indicates that larger batches of peppers need to be grown during future missions and suggests a slight criticism of the astronauts discussed in paragraph 2 for not dedicating more of their time to growing peppers during their mission."
       },
       {
         "id": "B",
-        "text": "It explains why zero-gravity peppers take longer to ripen than terrestrial varieties."
+        "text": "The quotation explains why the 137-day growth cycle mentioned in paragraph 2 is necessary and provides a suggestion on how to grow more peppers during the same growth cycle in future missions."
       },
       {
         "id": "C",
-        "text": "It highlights that while the first test proved feasibility, future missions will require scaling up crop yields to meaningfully feed crews."
+        "text": "The quotation helps explain why some of the peppers discussed in paragraph 2 needed to be sent back to Earth and that increasing the overall number of peppers grown in space will be important in future missions."
       },
       {
         "id": "D",
-        "text": "It demonstrates that the NuMex pepper variety failed its initial flavor benchmarks."
+        "text": "The quotation provides context for understanding why the peppers discussed in paragraph 2 must be sealed and frozen prior to their return to Earth and suggests how this method might be improved in upcoming missions."
       }
     ],
     "correctAnswer": "C",
-    "topic": "Synthesizing Text Excerpts",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
     "difficulty": "Hard",
     "hints": [
-      "Re-read the specific paragraphs referenced in the passage excerpt.",
-      "Eliminate choices that make sweeping generalizations not grounded in the text lines.",
-      "Look for the choice that accurately captures the author's precise rhetorical intent."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Be careful not to pick choices that sound inspiring or scientifically plausible on their own unless they are directly verified by line evidence in the passage.",
-    "explanation": "Spencer notes that future missions will need to scale production beyond initial proof-of-concept batches to supply daily meals."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e1_ela_42",
@@ -2043,74 +2092,76 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 42,
     "passageId": "e1_p6",
     "type": "multiple_choice",
-    "prompt": "How does the explanation of the NuMex Espa\u00f1ola Improved chile pepper's breeding (paragraphs 7-8) contribute to the article?",
+    "prompt": "as a whole?",
     "imageSrc": "/exams/exam1/items/ela_q42.png",
     "options": [
       {
         "id": "A",
-        "text": "It shows that standard wild peppers grow better in space than lab-tested hybrids."
+        "text": "It provides a detail that helps the reader identify a particular variety of pepper consumed on the ISS."
       },
       {
         "id": "B",
-        "text": "It reveals that space food scientists prefer mild bell peppers over spicy cultivars."
+        "text": "It indicates that the peppers eaten on the ISS resulted from a collaboration between scientists and astronauts."
       },
       {
         "id": "C",
-        "text": "It illustrates how horticulturalists deliberately selected traits like compact height, self-pollination, and high vitamin C to survive orbital confines."
+        "text": "It allows the reader to understand how the peppers consumed on the ISS differ from most peppers grown on Earth."
       },
       {
         "id": "D",
-        "text": "It argues that genetically modified crops are unsafe for long-term human consumption."
+        "text": "It suggests that the peppers consumed on the ISS are of a type that could be grown in natural conditions."
       }
     ],
     "correctAnswer": "C",
-    "topic": "Technical Synthesis",
-    "difficulty": "Medium",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Hard",
     "hints": [
-      "Re-read the specific paragraphs referenced in the passage excerpt.",
-      "Eliminate choices that make sweeping generalizations not grounded in the text lines.",
-      "Look for the choice that accurately captures the author's precise rhetorical intent."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Be careful not to pick choices that sound inspiring or scientifically plausible on their own unless they are directly verified by line evidence in the passage.",
-    "explanation": "Breeders tailored plant size, canopy spread, pollination needs, and nutritional density specifically to thrive inside the compact APH chamber."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e1_ela_43",
     "examId": "exam1",
     "section": "ela",
     "questionNumber": 43,
-    "passageId": "e1_p6",
+    "passageId": "e1_p7",
     "type": "multiple_choice",
-    "prompt": "With which statement regarding the future of extraterrestrial agriculture would the author most likely agree?",
+    "prompt": "With which statement would the author most likely agree?",
     "imageSrc": "/exams/exam1/items/ela_q43.png",
     "options": [
       {
         "id": "A",
-        "text": "Space farming will quickly render terrestrial organic farming obsolete."
+        "text": "Some plants are better adapted for growing in space than on Earth, and focus should be placed on them."
       },
       {
         "id": "B",
-        "text": "Successfully feeding crews in deep space requires innovative adaptations to overcome the unique biological constraints of zero gravity."
+        "text": "Attempting to grow plants in space the same way they are grown on Earth would not result in success."
       },
       {
         "id": "C",
-        "text": "Only root vegetables and grains are suitable for microgravity cultivation."
+        "text": "Plants grown in space provide better nutritional value than plants grown on Earth."
       },
       {
         "id": "D",
-        "text": "Astronauts should rely exclusively on synthetic chemical nutrient shakes rather than living crops."
+        "text": "Successfully growing plants in space is a challenge, so more research must first be completed on plants grown on Earth."
       }
     ],
     "correctAnswer": "B",
-    "topic": "Author's Broad Conclusion",
+    "topic": "Revising & Editing",
+    "subtopic": "Conventions of Language & Paragraph Organization",
     "difficulty": "Hard",
     "hints": [
-      "Re-read the specific paragraphs referenced in the passage excerpt.",
-      "Eliminate choices that make sweeping generalizations not grounded in the text lines.",
-      "Look for the choice that accurately captures the author's precise rhetorical intent."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Be careful not to pick choices that sound inspiring or scientifically plausible on their own unless they are directly verified by line evidence in the passage.",
-    "explanation": "Canales emphasizes that overcoming microgravity requires ongoing innovation across plant genetics, airflow, lighting, and human-plant interaction."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e1_ela_44",
@@ -2119,36 +2170,37 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 44,
     "passageId": "e1_p7",
     "type": "multiple_choice",
-    "prompt": "Which sentence should be added following sentence 6 to provide the most effective transition to the second paragraph?",
+    "prompt": "established in the passage?",
     "imageSrc": "/exams/exam1/items/ela_q44.png",
     "options": [
       {
         "id": "A",
-        "text": "Bricks were made from clay that was dug from the banks of rivers and then shaped into molds."
+        "text": "Builders turned to brick, which was an affordable material that met safety standards while satisfying the city's large demand for buildings."
       },
       {
         "id": "B",
-        "text": "Before that decline, however, the industry played a vital role in transforming New York City into an architectural marvel."
+        "text": "Figuring out that bricks were inexpensive, builders used tons of them to satisfy inspectors and the city's desperate construction needs."
       },
       {
         "id": "C",
-        "text": "Many people enjoy looking at historic buildings when visiting New York City today."
+        "text": "Builders favored brick as a pleasingly economical way to meet significant construction demand while following municipal regulations."
       },
       {
         "id": "D",
-        "text": "Albany is the capital of New York State and is located along the upper Hudson River."
+        "text": "Once builders realized that low-cost brick was a law- abiding way to meet the city's building needs, they hardly ever used any other materials."
       }
     ],
-    "correctAnswer": "B",
-    "topic": "Revising & Editing: Transitional Sentences",
-    "difficulty": "Medium",
+    "correctAnswer": "A",
+    "topic": "Revising & Editing",
+    "subtopic": "Conventions of Language & Paragraph Organization",
+    "difficulty": "Hard",
     "hints": [
-      "Identify what the sentences immediately before and after are discussing.",
-      "Watch out for choices that introduce irrelevant trivia or informal slang.",
-      "Select the option that maintains grammatical precision and thematic continuity."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Do not pick choices that repeat existing details or veer off on historical tangents.",
-    "explanation": "Notice that sentence 6 mentions the eventual decline of the industry, while paragraph 2 discusses the monumental boom. The transition sentence must bridge the decline back to the preceding era of immense productivity."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e1_ela_45",
@@ -2156,37 +2208,42 @@ export const QUESTIONS: Question[] = [
     "section": "ela",
     "questionNumber": 45,
     "passageId": "e1_p7",
-    "type": "multiple_choice",
-    "prompt": "Which edit should be made to sentence 10 to correct the informal tone?",
+    "type": "multi_select",
+    "prompt": "New York City and the Hudson Valley Brickmaking Industry (1) Residents of New York City cannot help but notice that the buildings they are surrounded by are predominantly made of brick. (2) Indeed, one author described the bricks that make up some of New York City's most recognizable landmarks, including the Empire State Building and the arches of the Brooklyn Bridge, as \"an inescapable presence.\" (3) Nearly 65 million people visit New York City every year to see these and other attractions. (4) Why was so much brick used in buildings constructed during the century before World War II? (5) The answer involves an explosion in New York City's population that caused an increase in demand for bricks starting in the mid-1800s and lasting into the 1940s that affected the area more than 100 miles up the Hudson River Valley toward Albany. (6) When demand later declined, the industry would entirely disappear. (7) New York Cit's annetite for brick was fueled bu Which two sentences present information irrelevant to the ideas in the passage and should be deleted? Move the two correct answers to the box. \"Nearly 65 million people visit New York City every year to see these and other attractions.\" (sentence 3) \"The city's population ballooned from about 313,000 people in 1840 to more than 7 million a century later.\" (sentence 8) \"Population growth in the Hudson River Valley after the mid-1800s was substantial, though percentage increases were smaller than those in New York City.\" (sentence 14) \"History has proven, however, that boom times eventually end.\" (sentence 18) \"Throughout the city, famous and ordinary buildings stand as evidence of the remarkable productivity achieved by the Valley's brickmakers.\" (sentence 23) Should Be Deleted",
     "imageSrc": "/exams/exam1/items/ela_q45.png",
     "options": [
       {
         "id": "A",
-        "text": "Change 'quickly throw together a lot of structures' to 'efficiently construct numerous buildings'."
+        "text": "Option A"
       },
       {
         "id": "B",
-        "text": "Change 'Bricks turned out to be' to 'Bricks was'."
+        "text": "Option B"
       },
       {
         "id": "C",
-        "text": "Delete the words 'while keeping'."
+        "text": "Option C"
       },
       {
         "id": "D",
-        "text": "Change 'safety inspectors happy' to 'safety inspectors totally stoked'."
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
       }
     ],
-    "correctAnswer": "A",
-    "topic": "Revising & Editing: Style & Formal Tone",
-    "difficulty": "Medium",
+    "correctAnswer": "Sentence 3 and sentence 14",
+    "topic": "Revising & Editing",
+    "subtopic": "Conventions of Language & Paragraph Organization",
+    "difficulty": "Hard",
     "hints": [
-      "Identify what the sentences immediately before and after are discussing.",
-      "Watch out for choices that introduce irrelevant trivia or informal slang.",
-      "Select the option that maintains grammatical precision and thematic continuity."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Do not pick choices that repeat existing details or veer off on historical tangents.",
-    "explanation": "Formal informational essays avoid casual slang like 'quickly throw together' or 'a lot of'. 'Efficiently construct numerous buildings' elevates the tone while preserving the exact intended meaning."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: Sentence 3 and sentence 14. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e1_ela_46",
@@ -2195,36 +2252,37 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 46,
     "passageId": "e1_p7",
     "type": "multiple_choice",
-    "prompt": "Sentence 14 contains an error in logical coherence. How should sentence 14 be revised?",
+    "prompt": "to provide the best transition from the ideas in sentence 10?",
     "imageSrc": "/exams/exam1/items/ela_q46.png",
     "options": [
       {
         "id": "A",
-        "text": "Delete sentence 14 entirely because it provides irrelevant demographic statistics."
+        "text": "While adapting to new uses for brick,"
       },
       {
         "id": "B",
-        "text": "Move sentence 14 to paragraph 1."
+        "text": "Because the building boom preferred brick,"
       },
       {
         "id": "C",
-        "text": "Revise sentence 14 to emphasize that the demand for Hudson Valley workers was driven directly by the city's construction needs."
+        "text": "As a result of New York City's building boom,"
       },
       {
         "id": "D",
-        "text": "Replace 'though percentage increases were smaller' with 'which is why brick was popular'."
+        "text": "Although reliance on brick became the norm,"
       }
     ],
     "correctAnswer": "C",
-    "topic": "Revising & Editing: Sentence Coherence",
-    "difficulty": "Medium",
+    "topic": "Revising & Editing",
+    "subtopic": "Conventions of Language & Paragraph Organization",
+    "difficulty": "Hard",
     "hints": [
-      "Identify what the sentences immediately before and after are discussing.",
-      "Watch out for choices that introduce irrelevant trivia or informal slang.",
-      "Select the option that maintains grammatical precision and thematic continuity."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Do not pick choices that repeat existing details or veer off on historical tangents.",
-    "explanation": "In paragraph 3, the discussion focuses strictly on brick manufacturing and output. Sentence 14's aside about general regional population percentages disrupts the focus unless connected to labor supply."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e1_ela_47",
@@ -2233,36 +2291,37 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 47,
     "passageId": "e1_p7",
     "type": "multiple_choice",
-    "prompt": "Which sentence represents the best concluding sentence for the entire passage following sentence 24?",
+    "prompt": "in the fourth paragraph (sentences 18-21)?",
     "imageSrc": "/exams/exam1/items/ela_q47.png",
     "options": [
       {
         "id": "A",
-        "text": "Steel and concrete are the primary materials used in skyscraper foundations today."
+        "text": "At first many people thought the new materials did not look as strong as brick, but eventually the public embraced the trend."
       },
       {
         "id": "B",
-        "text": "Many brick factories in the Hudson Valley now sit abandoned along railway lines."
+        "text": "Increasingly expensive shipping and labor costs also drove up the costs for brickmaking factories."
       },
       {
         "id": "C",
-        "text": "New York City has five boroughs: Manhattan, Brooklyn, Queens, the Bronx, and Staten Island."
+        "text": "The Flatiron building, completed in 1902, is a notable example of an early steel-framed building."
       },
       {
         "id": "D",
-        "text": "In this way, the raw natural landscape of the Hudson Valley remains permanently preserved within the majestic skyline of New York City."
+        "text": "The more that New York City builders chose to use these materials, the fewer bricks they bought."
       }
     ],
     "correctAnswer": "D",
-    "topic": "Revising & Editing: Conclusion & Synthesis",
-    "difficulty": "Medium",
+    "topic": "Revising & Editing",
+    "subtopic": "Conventions of Language & Paragraph Organization",
+    "difficulty": "Hard",
     "hints": [
-      "Identify what the sentences immediately before and after are discussing.",
-      "Watch out for choices that introduce irrelevant trivia or informal slang.",
-      "Select the option that maintains grammatical precision and thematic continuity."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Do not pick choices that repeat existing details or veer off on historical tangents.",
-    "explanation": "A strong conclusion synthesizes the central theme: the historic physical transformation of natural valley clay into the enduring urban fabric of New York."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e1_ela_48",
@@ -2270,36 +2329,37 @@ export const QUESTIONS: Question[] = [
     "section": "ela",
     "questionNumber": 48,
     "type": "multiple_choice",
-    "prompt": "Which sentence is punctuated correctly?",
+    "prompt": "Which sentence contains an error in its construction and should be revised? (1) In 1976, the National Basketball Association (NBA) absorbed several teams of the American Basketball Association (ABA), including the New York Nets, who played in the Long Island area at the time. (2) The owner of the Nets decided to take the team to New Jersey after the team had financial troubles, where the team played for thirty-five seasons. (3) The New Jersey Nets had sixteen playoff appearances, including two appearances in the NBA finals. (4) In 2012, the team changed ownership and returned to New York, where the team now plays under the name the Brooklyn Nets.",
     "imageSrc": "/exams/exam1/items/ela_q48.png",
     "options": [
       {
         "id": "A",
-        "text": "The orchestra rehearsed for four hours; however the conductor was still unsatisfied with the tempo."
+        "text": "sentence 1"
       },
       {
         "id": "B",
-        "text": "The orchestra rehearsed for four hours; however, the conductor was still unsatisfied with the tempo."
+        "text": "sentence 2"
       },
       {
         "id": "C",
-        "text": "The orchestra rehearsed for four hours, however, the conductor was still unsatisfied with the tempo."
+        "text": "sentence 3"
       },
       {
         "id": "D",
-        "text": "The orchestra rehearsed for four hours however; the conductor was still unsatisfied with the tempo."
+        "text": "sentence 4"
       }
     ],
     "correctAnswer": "B",
-    "topic": "Revising & Editing: Semicolons & Conjunctive Adverbs",
-    "difficulty": "Medium",
+    "topic": "Revising & Editing",
+    "subtopic": "Conventions of Language & Paragraph Organization",
+    "difficulty": "Hard",
     "hints": [
-      "Identify the subject and verb while ignoring parenthetical prepositional phrases.",
-      "Remember the golden rule of semicolons and conjunctive adverbs (; however,).",
-      "Check that introductory descriptive phrases point directly to the person performing the action."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Students often match the verb to the nearest plural noun ('medallions') rather than the true subject ('collection'). Always strike through intervening prepositional phrases!",
-    "explanation": "When connecting two independent clauses with a conjunctive adverb like 'however', 'therefore', or 'consequently', place a semicolon BEFORE the adverb and a comma AFTER it: [Clause 1]; however, [Clause 2]. Option C creates a comma splice."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e1_ela_49",
@@ -2307,36 +2367,37 @@ export const QUESTIONS: Question[] = [
     "section": "ela",
     "questionNumber": 49,
     "type": "multiple_choice",
-    "prompt": "Which sentence correctly corrects the misplaced modifier?",
+    "prompt": "What is the best way to combine the sentences to clarify the relationship between ideas?",
     "imageSrc": "/exams/exam1/items/ela_q49.png",
     "options": [
       {
         "id": "A",
-        "text": "Exhausted from the cross-country hike, the tent provided much-needed shelter for the campers."
+        "text": "Though Jordan had rehearsed his role for weeks, when he delivered his lines with ease, his performance was met with a burst of applause from the audience."
       },
       {
         "id": "B",
-        "text": "The tent, exhausted from the cross-country hike, provided much-needed shelter for the campers."
+        "text": "Jordan had rehearsed his role for weeks, yet he delivered his lines with ease, so his performance was met with a burst of applause from the audience."
       },
       {
         "id": "C",
-        "text": "Exhausted from the cross-country hike, the campers found much-needed shelter in their tent."
+        "text": "Because Jordan had rehearsed his role for weeks, he delivered his lines with ease, and his performance was met with a burst of applause from the audience."
       },
       {
         "id": "D",
-        "text": "While exhausted from the cross-country hike, shelter was provided by the campers' tent."
+        "text": "Jordan had rehearsed his role for weeks, so he delivered his lines with ease, but his performance was met with a burst of applause from the audience."
       }
     ],
     "correctAnswer": "C",
-    "topic": "Revising & Editing: Misplaced & Dangling Modifiers",
-    "difficulty": "Medium",
+    "topic": "Revising & Editing",
+    "subtopic": "Conventions of Language & Paragraph Organization",
+    "difficulty": "Hard",
     "hints": [
-      "Identify the subject and verb while ignoring parenthetical prepositional phrases.",
-      "Remember the golden rule of semicolons and conjunctive adverbs (; however,).",
-      "Check that introductory descriptive phrases point directly to the person performing the action."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Students often match the verb to the nearest plural noun ('medallions') rather than the true subject ('collection'). Always strike through intervening prepositional phrases!",
-    "explanation": "The introductory participial phrase 'Exhausted from the cross-country hike' must be immediately followed by the noun it logically modifies: 'the campers'. The tent cannot be exhausted! Option C properly aligns modifier and subject."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e1_ela_50",
@@ -2344,36 +2405,37 @@ export const QUESTIONS: Question[] = [
     "section": "ela",
     "questionNumber": 50,
     "type": "multiple_choice",
-    "prompt": "Which sentence demonstrates correct subject-verb agreement?",
+    "prompt": "which adds less air to the frozen treat, makes gelato denser than ice cream. (4) Finally, gelato is served 10 to 15 degrees warmer than ice cream, which enhances the texture and flavor of the gelato, and allow it to melt more quickly.",
     "imageSrc": "/exams/exam1/items/ela_q50.png",
     "options": [
       {
         "id": "A",
-        "text": "The collection of rare antique coins, along with several silver medallions, was donated to the museum."
+        "text": "Sentence 1: Delete the colon after wonder AND change is to are."
       },
       {
         "id": "B",
-        "text": "The collection of rare antique coins, along with several silver medallions, were donated to the museum."
+        "text": "Sentence 2: Delete the comma after with AND change it is to they are."
       },
       {
         "id": "C",
-        "text": "The collection of rare antique coins, along with several silver medallions, have been donated to the museum."
+        "text": "Sentence 3: Delete the comma after process AND change makes to make."
       },
       {
         "id": "D",
-        "text": "The collection of rare antique coins, along with several silver medallions, are being donated to the museum."
+        "text": "Sentence 4: Delete the comma after gelato AND change allow to allows."
       }
     ],
-    "correctAnswer": "A",
-    "topic": "Revising & Editing: Subject-Verb Agreement",
-    "difficulty": "Medium",
+    "correctAnswer": "D",
+    "topic": "Revising & Editing",
+    "subtopic": "Conventions of Language & Paragraph Organization",
+    "difficulty": "Hard",
     "hints": [
-      "Identify the subject and verb while ignoring parenthetical prepositional phrases.",
-      "Remember the golden rule of semicolons and conjunctive adverbs (; however,).",
-      "Check that introductory descriptive phrases point directly to the person performing the action."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Students often match the verb to the nearest plural noun ('medallions') rather than the true subject ('collection'). Always strike through intervening prepositional phrases!",
-    "explanation": "The true grammatical subject of the sentence is the singular noun 'collection'. Intervening prepositional phrases and parenthetical additions ('along with several silver medallions') do not change the number of the subject. Therefore, the singular verb 'was' is required."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e1_math_01",
@@ -2386,31 +2448,32 @@ export const QUESTIONS: Question[] = [
     "options": [
       {
         "id": "A",
-        "text": "2^2 \u2022 3^2 \u2022 21"
+        "text": "22.32.21"
       },
       {
         "id": "B",
-        "text": "2^2 \u2022 3 \u2022 7 \u2022 9"
+        "text": "22.3.7.9"
       },
       {
         "id": "C",
-        "text": "2^2 \u2022 7 \u2022 27"
+        "text": "22.7.27"
       },
       {
         "id": "D",
-        "text": "2^2 \u2022 3^3 \u2022 7"
+        "text": "22.33.7"
       }
     ],
     "correctAnswer": "D",
-    "topic": "Factors, Multiples & Number Theory",
+    "topic": "Number Theory & Operations",
+    "subtopic": "Prime Factorization & Multiples",
     "difficulty": "Easy",
     "hints": [
-      "Identify the fundamental formula or theorem required for this problem.",
-      "Write down what values are given and what specific variable or quantity you need to solve for.",
-      "Solve step-by-step and verify units (e.g. converting hours to minutes or squaring scale factors)."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Trap Alert: In options A, B, and C, numbers like 21, 9, and 27 are composite, not prime factors!",
-    "explanation": "756 = 4 \u00d7 189 = 2^2 \u00d7 27 \u00d7 7 = 2^2 \u00d7 3^3 \u00d7 7. All bases must be prime numbers, so Option D is correct."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e1_math_02",
@@ -2418,36 +2481,37 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 52,
     "type": "multiple_choice",
-    "prompt": "If (8 \u00f7 m) + 4 = 20, what is the value of m?",
+    "prompt": "If (8 \u00f7 m) + 4 = 20, what is the value of m? \u2022 A. 3 \u2022 C. 2 \u2022 D. 3",
     "imageSrc": "/exams/exam1/items/math_q02.png",
     "options": [
       {
         "id": "A",
-        "text": "1/3"
+        "text": "Option A"
       },
       {
         "id": "B",
-        "text": "1/2"
+        "text": "Option B"
       },
       {
         "id": "C",
-        "text": "2"
+        "text": "Option C"
       },
       {
         "id": "D",
-        "text": "3"
+        "text": "Option D"
       }
     ],
     "correctAnswer": "B",
-    "topic": "Linear Equations & Operations",
+    "topic": "Algebra & Equations",
+    "subtopic": "Linear Equations & Algebraic Modeling",
     "difficulty": "Easy",
     "hints": [
-      "Identify the fundamental formula or theorem required for this problem.",
-      "Write down what values are given and what specific variable or quantity you need to solve for.",
-      "Solve step-by-step and verify units (e.g. converting hours to minutes or squaring scale factors)."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Trap Alert: Many students accidentally do 16 \u00f7 8 = 2 (Option C). Pay close attention to whether the variable is in the numerator or denominator!",
-    "explanation": "(8 \u00f7 m) + 4 = 20 => 8 \u00f7 m = 16 => m = 8 / 16 = 1/2."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e1_math_03",
@@ -2455,7 +2519,7 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 53,
     "type": "multiple_choice",
-    "prompt": "6x = x - 1,680. What is the value of x in the equation shown above?",
+    "prompt": "What is the value of x in the equation shown above?",
     "imageSrc": "/exams/exam1/items/math_q03.png",
     "options": [
       {
@@ -2464,27 +2528,28 @@ export const QUESTIONS: Question[] = [
       },
       {
         "id": "B",
-        "text": "240"
+        "text": "240."
       },
       {
         "id": "C",
-        "text": "-240"
+        "text": "\u2014240"
       },
       {
         "id": "D",
-        "text": "-336"
+        "text": "\u2014336"
       }
     ],
     "correctAnswer": "D",
-    "topic": "Linear Equations & Operations",
-    "difficulty": "Medium",
+    "topic": "Algebra & Equations",
+    "subtopic": "Linear Equations & Algebraic Modeling",
+    "difficulty": "Easy",
     "hints": [
-      "Identify the fundamental formula or theorem required for this problem.",
-      "Write down what values are given and what specific variable or quantity you need to solve for.",
-      "Solve step-by-step and verify units (e.g. converting hours to minutes or squaring scale factors)."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Trap Alert: Forgetting the negative sign on -1,680 leads to +336 (Option A). Adding x instead of subtracting gives 7x = -1,680 -> -240 (Option C).",
-    "explanation": "Subtract x from both sides: 5x = -1,680 => x = -1,680 / 5 = -336."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e1_math_04",
@@ -2492,12 +2557,12 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 54,
     "type": "multiple_choice",
-    "prompt": "A person buys a used car with a down payment of $1,200 and makes monthly payments of $275 for 3 years. What is the total amount the person pays for the car?",
+    "prompt": "Solve the mathematical problem shown in question 4.",
     "imageSrc": "/exams/exam1/items/math_q04.png",
     "options": [
       {
         "id": "A",
-        "text": "$2,025"
+        "text": "person buys a used car with a down payment of $1,200 and makes monthly payments of $275 for 3 years. What is the total amount the person pays for the car? \u2022 A. $2,025"
       },
       {
         "id": "B",
@@ -2513,15 +2578,16 @@ export const QUESTIONS: Question[] = [
       }
     ],
     "correctAnswer": "C",
-    "topic": "Multi-Step Real World Arithmetic",
-    "difficulty": "Medium",
+    "topic": "Algebra & Equations",
+    "subtopic": "Linear Equations & Algebraic Modeling",
+    "difficulty": "Easy",
     "hints": [
-      "Identify the fundamental formula or theorem required for this problem.",
-      "Write down what values are given and what specific variable or quantity you need to solve for.",
-      "Solve step-by-step and verify units (e.g. converting hours to minutes or squaring scale factors)."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Trap Alert: Option B ($9,900) forgets the initial down payment! Option A multiplies $275 by 3 years instead of 36 months.",
-    "explanation": "3 years = 36 months. Total payments = 36 \u00d7 $275 = $9,900. Total cost = $1,200 + $9,900 = $11,100."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e1_math_05",
@@ -2531,17 +2597,18 @@ export const QUESTIONS: Question[] = [
     "type": "text_entry",
     "prompt": "Maya read n pages for her English homework. Trevor read three times as many pages as Maya. Together, Maya and Trevor read 12 more pages than Ali read. Write an expression that shows how many pages Ali read, in terms of n.",
     "imageSrc": "/exams/exam1/items/math_q05.png",
-    "options": [],
+    "options": null,
     "correctAnswer": "4n - 12",
-    "topic": "Translating Word Problems into Expressions",
-    "difficulty": "Medium",
+    "topic": "Algebra & Equations",
+    "subtopic": "Linear Equations & Algebraic Modeling",
+    "difficulty": "Easy",
     "hints": [
-      "Identify the fundamental formula or theorem required for this problem.",
-      "Write down what values are given and what specific variable or quantity you need to solve for.",
-      "Solve step-by-step and verify units (e.g. converting hours to minutes or squaring scale factors)."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Trap Alert: Students often write 4n + 12 instead of 4n - 12. If Together has 12 MORE than Ali, Ali must have 12 FEWER!",
-    "explanation": "Maya = n pages. Trevor = 3n pages. Total read by Maya and Trevor = n + 3n = 4n. Since they read 12 more than Ali, Ali read 4n - 12 pages."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: 4n - 12. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e1_math_06",
@@ -2549,12 +2616,12 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 56,
     "type": "multiple_choice",
-    "prompt": "In the parallelogram above, consecutive interior angles are labeled 3x and 2x. What is the value of x?",
+    "prompt": "In the parallelogram above, what is the value of x?",
     "imageSrc": "/exams/exam1/items/math_q06.png",
     "options": [
       {
         "id": "A",
-        "text": "36"
+        "text": "36."
       },
       {
         "id": "B",
@@ -2570,15 +2637,16 @@ export const QUESTIONS: Question[] = [
       }
     ],
     "correctAnswer": "A",
-    "topic": "Geometry: Angles & Polygons",
-    "difficulty": "Medium",
+    "topic": "Algebra & Equations",
+    "subtopic": "Linear Equations & Algebraic Modeling",
+    "difficulty": "Easy",
     "hints": [
-      "Identify the fundamental formula or theorem required for this problem.",
-      "Write down what values are given and what specific variable or quantity you need to solve for.",
-      "Solve step-by-step and verify units (e.g. converting hours to minutes or squaring scale factors)."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Trap Alert: Confusing supplementary (180\u00b0) with complementary (90\u00b0) gives 5x = 90 -> x = 18 (Option B).",
-    "explanation": "Consecutive angles of a parallelogram are supplementary: 3x + 2x = 180\u00b0 => 5x = 180\u00b0 => x = 36."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e1_math_07",
@@ -2586,73 +2654,79 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 57,
     "type": "multiple_choice",
-    "prompt": "-12 > 6x. For what values of x is the above inequality true?",
+    "prompt": "For what values of x is the above inequality true?",
     "imageSrc": "/exams/exam1/items/math_q07.png",
     "options": [
       {
         "id": "A",
-        "text": "x > -6"
+        "text": "x > \u20146"
       },
       {
         "id": "B",
-        "text": "x < -6"
+        "text": "x <-6"
       },
       {
         "id": "C",
-        "text": "x < -2"
+        "text": "x <\u20142"
       },
       {
         "id": "D",
-        "text": "x > -2"
+        "text": "x >-2"
       }
     ],
     "correctAnswer": "C",
-    "topic": "Inequalities & Number Lines",
-    "difficulty": "Medium",
+    "topic": "Algebra & Equations",
+    "subtopic": "Linear Equations & Algebraic Modeling",
+    "difficulty": "Easy",
     "hints": [
-      "Identify the fundamental formula or theorem required for this problem.",
-      "Write down what values are given and what specific variable or quantity you need to solve for.",
-      "Solve step-by-step and verify units (e.g. converting hours to minutes or squaring scale factors)."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Trap Alert: Seeing a negative number (-12) causes many students to mistakenly flip the inequality sign. You ONLY flip the sign when multiplying or dividing by a negative number!",
-    "explanation": "-12 > 6x => divide both sides by 6: -2 > x, which is equivalent to x < -2."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e1_math_08",
     "examId": "exam1",
     "section": "math",
     "questionNumber": 58,
-    "type": "multiple_choice",
-    "prompt": "Jordan is helping plan snacks for a school dance. He knows that 0.75 of the students voted for pizza, and he wants to record the same amount using a fraction. Which fraction is equivalent to the decimal 0.75?",
+    "type": "multi_select",
+    "prompt": "Jordan is helping plan snacks for a school dance. He knows that 0.75 of the students voted for pizza, and he wants to record the same amount using a fraction. Which fractions are equivalent to the decimal 0.75? Select the four correct answers. A. - \u043e \u0432. 18 \u2022 C. 100. \u2022 F. 8. 10",
     "imageSrc": "/exams/exam1/items/math_q08.png",
     "options": [
       {
         "id": "A",
-        "text": "3/4"
+        "text": "Option A"
       },
       {
         "id": "B",
-        "text": "2/5"
+        "text": "Option B"
       },
       {
         "id": "C",
-        "text": "8/10"
+        "text": "Option C"
       },
       {
         "id": "D",
-        "text": "5/7"
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
       }
     ],
-    "correctAnswer": "A",
-    "topic": "Fractions, Decimals & Proportions",
+    "correctAnswer": "A, B, C, E",
+    "topic": "Algebra & Equations",
+    "subtopic": "Linear Equations & Algebraic Modeling",
     "difficulty": "Easy",
     "hints": [
-      "Identify the fundamental formula or theorem required for this problem.",
-      "Write down what values are given and what specific variable or quantity you need to solve for.",
-      "Solve step-by-step and verify units (e.g. converting hours to minutes or squaring scale factors)."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Trap Alert: Multi-select questions require identifying ALL correct choices. Convert each fraction to a decimal to double-check!",
-    "explanation": "0.75 represents 75/100, which reduces to 3/4 by dividing numerator and denominator by 25."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: A, B, C, E. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e1_math_09",
@@ -2660,12 +2734,12 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 59,
     "type": "multiple_choice",
-    "prompt": "Maria rides her bicycle to school at a constant speed of 15 miles per hour. If the distance to school is 6 miles, how many minutes will it take Maria to get to school?",
+    "prompt": "will it take Maria to get to school?",
     "imageSrc": "/exams/exam1/items/math_q09.png",
     "options": [
       {
         "id": "A",
-        "text": "10"
+        "text": "10."
       },
       {
         "id": "B",
@@ -2673,7 +2747,7 @@ export const QUESTIONS: Question[] = [
       },
       {
         "id": "C",
-        "text": "24"
+        "text": "24."
       },
       {
         "id": "D",
@@ -2681,15 +2755,16 @@ export const QUESTIONS: Question[] = [
       }
     ],
     "correctAnswer": "C",
-    "topic": "Rates, Ratios & Speed",
-    "difficulty": "Medium",
+    "topic": "Algebra & Equations",
+    "subtopic": "Linear Equations & Algebraic Modeling",
+    "difficulty": "Easy",
     "hints": [
-      "Identify the fundamental formula or theorem required for this problem.",
-      "Write down what values are given and what specific variable or quantity you need to solve for.",
-      "Solve step-by-step and verify units (e.g. converting hours to minutes or squaring scale factors)."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Trap Alert: 2/5 hour = 0.4 hour. Do not confuse 0.4 hour with 40 minutes! Always multiply by 60.",
-    "explanation": "Time = distance / speed = 6 / 15 = 2/5 hours. Converting to minutes: (2/5) \u00d7 60 = 24 minutes."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e1_math_10",
@@ -2697,12 +2772,12 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 60,
     "type": "multiple_choice",
-    "prompt": "In the figure above, line n is parallel to line p, and transversal line m intersects both lines. If one angle is 73\u00b0 and a perpendicular transversal forms a right angle, what is the value of r?",
+    "prompt": "In the figure above, n || p. Straight line m intersects both line n and line p. What is the value of r?",
     "imageSrc": "/exams/exam1/items/math_q10.png",
     "options": [
       {
         "id": "A",
-        "text": "17"
+        "text": "17."
       },
       {
         "id": "B",
@@ -2718,15 +2793,16 @@ export const QUESTIONS: Question[] = [
       }
     ],
     "correctAnswer": "C",
-    "topic": "Geometry: Parallel Lines & Transversals",
-    "difficulty": "Hard",
+    "topic": "Geometry & Spatial Reasoning",
+    "subtopic": "Geometric Figures, Area & Coordinate Planes",
+    "difficulty": "Easy",
     "hints": [
-      "Identify the fundamental formula or theorem required for this problem.",
-      "Write down what values are given and what specific variable or quantity you need to solve for.",
-      "Solve step-by-step and verify units (e.g. converting hours to minutes or squaring scale factors)."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Trap Alert: Option A (17\u00b0) is the acute angle, but angle r is visibly obtuse. Option D (173\u00b0) comes from an arithmetic slip subtracting 7 instead of 17.",
-    "explanation": "The complementary acute angle is 90\u00b0 - 73\u00b0 = 17\u00b0. Angle r is supplementary to this angle: r = 180\u00b0 - 17\u00b0 = 163\u00b0."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e1_math_11",
@@ -2734,7 +2810,7 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 61,
     "type": "multiple_choice",
-    "prompt": "Allison has 5 stamp albums with 576 stamps in each album. If she transfers her stamp collection to 6 albums, each holding 378 stamps, how many stamps will be left over?",
+    "prompt": "stamps, how many stamps will be left over?",
     "imageSrc": "/exams/exam1/items/math_q11.png",
     "options": [
       {
@@ -2751,56 +2827,41 @@ export const QUESTIONS: Question[] = [
       },
       {
         "id": "D",
-        "text": "632"
+        "text": "632."
       }
     ],
     "correctAnswer": "B",
-    "topic": "Arithmetic & Multi-Step Word Problems",
-    "difficulty": "Medium",
+    "topic": "Algebra & Equations",
+    "subtopic": "Linear Equations & Algebraic Modeling",
+    "difficulty": "Easy",
     "hints": [
-      "Identify the fundamental formula or theorem required for this problem.",
-      "Write down what values are given and what specific variable or quantity you need to solve for.",
-      "Solve step-by-step and verify units (e.g. converting hours to minutes or squaring scale factors)."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Trap Alert: Subtracting album counts or single album capacities (576 - 378 = 198, Option A) is a common distractor.",
-    "explanation": "Total stamps = 5 \u00d7 576 = 2,880. Capacity of new albums = 6 \u00d7 378 = 2,268. Left over = 2,880 - 2,268 = 612 stamps."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e1_math_12",
     "examId": "exam1",
     "section": "math",
     "questionNumber": 62,
-    "type": "multiple_choice",
-    "prompt": "A spinner has 5 congruent sections labeled 1, 2, 3, 1, 4. One side of a fair coin is heads, and the other is tails. What is the probability that the spinner lands on 1 and the coin lands on tails?",
+    "type": "text_entry",
+    "prompt": "A spinner has 5 congruent sections labeled as shown. One side of a fair coin is heads, and the other side is tails. 2 Heads 4 The spinner is spun one time, and the coin is flipped. What is the probability that the spinner lands on 1 and the coin lands on tails? Select the place on the number line that represents the probability.",
     "imageSrc": "/exams/exam1/items/math_q12.png",
-    "options": [
-      {
-        "id": "A",
-        "text": "1/10"
-      },
-      {
-        "id": "B",
-        "text": "1/5"
-      },
-      {
-        "id": "C",
-        "text": "2/5"
-      },
-      {
-        "id": "D",
-        "text": "1/2"
-      }
-    ],
-    "correctAnswer": "B",
-    "topic": "Probability: Compound Independent Events",
-    "difficulty": "Medium",
+    "options": null,
+    "correctAnswer": "0.2 (2/10)",
+    "topic": "Geometry & Spatial Reasoning",
+    "subtopic": "Geometric Figures, Area & Coordinate Planes",
+    "difficulty": "Easy",
     "hints": [
-      "Identify the fundamental formula or theorem required for this problem.",
-      "Write down what values are given and what specific variable or quantity you need to solve for.",
-      "Solve step-by-step and verify units (e.g. converting hours to minutes or squaring scale factors)."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Trap Alert: Forgetting that there are TWO sections labeled '1' leads to (1/5) \u00d7 (1/2) = 1/10 (0.10). Count all congruent sections!",
-    "explanation": "P(spinner lands on 1) = 2/5 (since two out of five sections are labeled 1). P(tails) = 1/2. P(1 and tails) = (2/5) \u00d7 (1/2) = 2/10 = 1/5."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: 0.2 (2/10). This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e1_math_13",
@@ -2808,7 +2869,7 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 63,
     "type": "multiple_choice",
-    "prompt": "Start with the number 135.28 and perform the following steps in order: Step 1: Multiply by 10. Step 2: Add 0.5 to the result of Step 1. Step 3: Drop the digits after the decimal point. Step 4: Divide by 10. What is the result?",
+    "prompt": "What is the result?",
     "imageSrc": "/exams/exam1/items/math_q13.png",
     "options": [
       {
@@ -2829,15 +2890,16 @@ export const QUESTIONS: Question[] = [
       }
     ],
     "correctAnswer": "D",
-    "topic": "Decimals & Rounding Algorithms",
-    "difficulty": "Medium",
+    "topic": "Algebra & Equations",
+    "subtopic": "Linear Equations & Algebraic Modeling",
+    "difficulty": "Easy",
     "hints": [
-      "Identify the fundamental formula or theorem required for this problem.",
-      "Write down what values are given and what specific variable or quantity you need to solve for.",
-      "Solve step-by-step and verify units (e.g. converting hours to minutes or squaring scale factors)."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Double-check algebraic steps and unit consistency.",
-    "explanation": "Step 1: 135.28 \u00d7 10 = 1,352.8. Step 2: 1,352.8 + 0.5 = 1,353.3. Step 3: Truncate decimal = 1,353. Step 4: 1,353 \u00f7 10 = 135.3."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e1_math_14",
@@ -2845,20 +2907,20 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 64,
     "type": "multiple_choice",
-    "prompt": "If x = -2, what is the value of |x + x^2 + x^3| - |x + 2x + 3x|?",
+    "prompt": "If x = -2, what is the value of |x + 22 + x31-12 + 2x +3x1?",
     "imageSrc": "/exams/exam1/items/math_q14.png",
     "options": [
       {
         "id": "A",
-        "text": "-18"
+        "text": "\u201418"
       },
       {
         "id": "B",
-        "text": "-6"
+        "text": "\u20146"
       },
       {
         "id": "C",
-        "text": "-2"
+        "text": "\u20142"
       },
       {
         "id": "D",
@@ -2866,15 +2928,16 @@ export const QUESTIONS: Question[] = [
       }
     ],
     "correctAnswer": "B",
-    "topic": "Absolute Value & Evaluating Expressions",
-    "difficulty": "Hard",
+    "topic": "Algebra & Equations",
+    "subtopic": "Linear Equations & Algebraic Modeling",
+    "difficulty": "Easy",
     "hints": [
-      "Identify the fundamental formula or theorem required for this problem.",
-      "Write down what values are given and what specific variable or quantity you need to solve for.",
-      "Solve step-by-step and verify units (e.g. converting hours to minutes or squaring scale factors)."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Double-check algebraic steps and unit consistency.",
-    "explanation": "For x = -2: x + x^2 + x^3 = -2 + 4 - 8 = -6 => |-6| = 6. In the second term, x + 2x + 3x = 6x = 6(-2) = -12 => |-12| = 12. Thus, 6 - 12 = -6."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e1_math_15",
@@ -2884,17 +2947,18 @@ export const QUESTIONS: Question[] = [
     "type": "text_entry",
     "prompt": "A grocery store sells 1-gallon containers of milk for $3.99. The store also sells orange juice in a 6-pack of 5.5-fluid-ounce bottles for $1.79. Suppose the store wants to sell its orange juice in gallon containers instead. To the nearest dollar, how much more would a gallon of orange juice cost than a gallon of milk?",
     "imageSrc": "/exams/exam1/items/math_q15.png",
-    "options": [],
+    "options": null,
     "correctAnswer": "3",
-    "topic": "Unit Rates & Proportions",
-    "difficulty": "Medium",
+    "topic": "Probability & Statistics",
+    "subtopic": "Data Analysis, Frequency & Combinations",
+    "difficulty": "Easy",
     "hints": [
-      "Identify the fundamental formula or theorem required for this problem.",
-      "Write down what values are given and what specific variable or quantity you need to solve for.",
-      "Solve step-by-step and verify units (e.g. converting hours to minutes or squaring scale factors)."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Double-check algebraic steps and unit consistency.",
-    "explanation": "1 gallon = 128 fl oz. 6 \u00d7 5.5 fl oz = 33 fl oz for $1.79. Cost per gallon of OJ = 128 \u00d7 ($1.79 / 33) \u2248 $6.943. Milk = $3.99. Difference = $6.943 - $3.99 = $2.953, which rounds to $3."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: 3. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e1_math_16",
@@ -2902,7 +2966,7 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 66,
     "type": "multiple_choice",
-    "prompt": "Evaluate the expression: (3 + (-3)) / (3 - (-3)) =",
+    "prompt": "3+(-3) 3-(-3) =",
     "imageSrc": "/exams/exam1/items/math_q16.png",
     "options": [
       {
@@ -2911,7 +2975,7 @@ export const QUESTIONS: Question[] = [
       },
       {
         "id": "B",
-        "text": "0"
+        "text": "0."
       },
       {
         "id": "C",
@@ -2923,15 +2987,16 @@ export const QUESTIONS: Question[] = [
       }
     ],
     "correctAnswer": "B",
-    "topic": "Integer Arithmetic & Signs",
-    "difficulty": "Easy",
+    "topic": "Algebra & Equations",
+    "subtopic": "Linear Equations & Algebraic Modeling",
+    "difficulty": "Medium",
     "hints": [
-      "Identify the fundamental formula or theorem required for this problem.",
-      "Write down what values are given and what specific variable or quantity you need to solve for.",
-      "Solve step-by-step and verify units (e.g. converting hours to minutes or squaring scale factors)."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Double-check algebraic steps and unit consistency.",
-    "explanation": "Numerator: 3 + (-3) = 0. Denominator: 3 - (-3) = 6. 0 \u00f7 6 = 0."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e1_math_17",
@@ -2939,12 +3004,12 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 67,
     "type": "multiple_choice",
-    "prompt": "On the number line above, points M, N, R, S are marked. What is the distance between the midpoints of MN and RS?",
+    "prompt": "What is the distance between the midpoints of MN and RS?",
     "imageSrc": "/exams/exam1/items/math_q17.png",
     "options": [
       {
         "id": "A",
-        "text": "1/2 unit"
+        "text": "E unit"
       },
       {
         "id": "B",
@@ -2952,23 +3017,24 @@ export const QUESTIONS: Question[] = [
       },
       {
         "id": "C",
-        "text": "1.5 units"
+        "text": "15 units"
       },
       {
         "id": "D",
         "text": "2 units"
       }
     ],
-    "correctAnswer": "C",
-    "topic": "Coordinate Geometry & Midpoints",
+    "correctAnswer": "A",
+    "topic": "Algebra & Equations",
+    "subtopic": "Linear Equations & Algebraic Modeling",
     "difficulty": "Medium",
     "hints": [
-      "Identify the fundamental formula or theorem required for this problem.",
-      "Write down what values are given and what specific variable or quantity you need to solve for.",
-      "Solve step-by-step and verify units (e.g. converting hours to minutes or squaring scale factors)."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Double-check algebraic steps and unit consistency.",
-    "explanation": "Midpoint of MN is at x = 0.5. Midpoint of RS is at x = 2.0. Distance = |2.0 - 0.5| = 1.5 units."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e1_math_18",
@@ -2976,7 +3042,7 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 68,
     "type": "multiple_choice",
-    "prompt": "If s is a positive integer and t is a negative integer, which of the expressions must be a positive number? I. s - t, II. s^2 t^2, III. s + t",
+    "prompt": "If s is a positive integer and t is a negative integer, which of the above expressions must be a positive number?",
     "imageSrc": "/exams/exam1/items/math_q18.png",
     "options": [
       {
@@ -2996,16 +3062,17 @@ export const QUESTIONS: Question[] = [
         "text": "I, II, and III"
       }
     ],
-    "correctAnswer": "B",
-    "topic": "Properties of Real Numbers & Signs",
-    "difficulty": "Hard",
+    "correctAnswer": "D",
+    "topic": "Number Theory & Operations",
+    "subtopic": "Prime Factorization & Multiples",
+    "difficulty": "Medium",
     "hints": [
-      "Identify the fundamental formula or theorem required for this problem.",
-      "Write down what values are given and what specific variable or quantity you need to solve for.",
-      "Solve step-by-step and verify units (e.g. converting hours to minutes or squaring scale factors)."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Double-check algebraic steps and unit consistency.",
-    "explanation": "Since s > 0 and t < 0: I: s - t is positive minus negative, which is always positive. II: s^2 t^2 is the square of a non-zero product, which is always positive. III: s + t can be positive or negative depending on absolute magnitudes. Therefore, I and II only."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e1_math_19",
@@ -3013,73 +3080,79 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 69,
     "type": "multiple_choice",
-    "prompt": "What is the value of (-3/4) \u00d7 (2/5)?",
+    "prompt": "What is the value of (-\u2156) (-\u2156)?",
     "imageSrc": "/exams/exam1/items/math_q19.png",
     "options": [
       {
         "id": "A",
-        "text": "-13/20"
+        "text": "- 20"
       },
       {
         "id": "B",
-        "text": "-3/10"
+        "text": "\u2014 10"
       },
       {
         "id": "C",
-        "text": "3/10"
+        "text": "To"
       },
       {
         "id": "D",
-        "text": "13/20"
+        "text": "20"
       }
     ],
-    "correctAnswer": "B",
-    "topic": "Rational Number Operations",
+    "correctAnswer": "C",
+    "topic": "Algebra & Equations",
+    "subtopic": "Linear Equations & Algebraic Modeling",
     "difficulty": "Medium",
     "hints": [
-      "Identify the fundamental formula or theorem required for this problem.",
-      "Write down what values are given and what specific variable or quantity you need to solve for.",
-      "Solve step-by-step and verify units (e.g. converting hours to minutes or squaring scale factors)."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Double-check algebraic steps and unit consistency.",
-    "explanation": "(-3/4) \u00d7 (2/5) = -6/20, which simplifies to -3/10."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e1_math_20",
     "examId": "exam1",
     "section": "math",
     "questionNumber": 70,
-    "type": "multiple_choice",
-    "prompt": "Two circles, with centers at A and C, are shown. Line segment AB is congruent to line segment DE. Determine which circle has an Area of 25\u03c0.",
+    "type": "multi_select",
+    "prompt": "Two circles, with centers at A and C, are shown. Line segment AB is congruent to line segment DE. B D A E Determine the area, A, and the circumference, C, of each circle to complete the table. Select one answer in each row. Circle A Circle C Neither A = 25m C = 57",
     "imageSrc": "/exams/exam1/items/math_q20.png",
     "options": [
       {
         "id": "A",
-        "text": "Circle A"
+        "text": "Option A"
       },
       {
         "id": "B",
-        "text": "Circle C"
+        "text": "Option B"
       },
       {
         "id": "C",
-        "text": "Neither circle"
+        "text": "Option C"
       },
       {
         "id": "D",
-        "text": "Both circles"
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
       }
     ],
-    "correctAnswer": "A",
-    "topic": "Geometry: Circles & Area",
+    "correctAnswer": "Row 1: A (area 25\u03c0, Circle A); Row 2: C (circumference 5\u03c0, Circle C)",
+    "topic": "Geometry & Spatial Reasoning",
+    "subtopic": "Geometric Figures, Area & Coordinate Planes",
     "difficulty": "Medium",
     "hints": [
-      "Identify the fundamental formula or theorem required for this problem.",
-      "Write down what values are given and what specific variable or quantity you need to solve for.",
-      "Solve step-by-step and verify units (e.g. converting hours to minutes or squaring scale factors)."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Double-check algebraic steps and unit consistency.",
-    "explanation": "Area = \u03c0r^2. With radius r = 5, Area = \u03c0(5^2) = 25\u03c0, which corresponds to Circle A where radius AB = 5."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: Row 1: A (area 25\u03c0, Circle A); Row 2: C (circumference 5\u03c0, Circle C). This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e1_math_21",
@@ -3087,12 +3160,12 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 71,
     "type": "multiple_choice",
-    "prompt": "In a fruit basket, the ratio of apples to oranges is the same as the ratio of cherries to walnuts. If there are 6 oranges, 16 cherries, and 48 walnuts, how many apples are there?",
+    "prompt": "and 48 walnuts, how many apples are there?",
     "imageSrc": "/exams/exam1/items/math_q21.png",
     "options": [
       {
         "id": "A",
-        "text": "2"
+        "text": "2."
       },
       {
         "id": "B",
@@ -3108,15 +3181,16 @@ export const QUESTIONS: Question[] = [
       }
     ],
     "correctAnswer": "A",
-    "topic": "Ratios & Proportions",
-    "difficulty": "Easy",
+    "topic": "Algebra & Equations",
+    "subtopic": "Linear Equations & Algebraic Modeling",
+    "difficulty": "Medium",
     "hints": [
-      "Identify the fundamental formula or theorem required for this problem.",
-      "Write down what values are given and what specific variable or quantity you need to solve for.",
-      "Solve step-by-step and verify units (e.g. converting hours to minutes or squaring scale factors)."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Double-check algebraic steps and unit consistency.",
-    "explanation": "Apples / Oranges = Cherries / Walnuts => Apples / 6 = 16 / 48 = 1/3 => Apples = 6 \u00d7 (1/3) = 2."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e1_math_22",
@@ -3124,19 +3198,20 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 72,
     "type": "text_entry",
-    "prompt": "During a hiking trip, a group of students recorded the elevation (in feet) at several points along the trail: -120 ft, -80 ft, 0 ft, 45 ft, -30 ft, 90 ft. What is the difference between the highest and lowest elevations recorded on the trail?",
+    "prompt": "During a hiking trip, a group of students recorded the elevation (in feet) at several points along the trail: -120 ft, -80 ft, 0 ft, 45 ft, -30 ft, 90 ft What is the difference between the highest and lowest elevations recorded on the trail?",
     "imageSrc": "/exams/exam1/items/math_q22.png",
-    "options": [],
+    "options": null,
     "correctAnswer": "210",
-    "topic": "Signed Numbers & Elevation",
+    "topic": "Algebra & Equations",
+    "subtopic": "Linear Equations & Algebraic Modeling",
     "difficulty": "Medium",
     "hints": [
-      "Identify the fundamental formula or theorem required for this problem.",
-      "Write down what values are given and what specific variable or quantity you need to solve for.",
-      "Solve step-by-step and verify units (e.g. converting hours to minutes or squaring scale factors)."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Double-check algebraic steps and unit consistency.",
-    "explanation": "Highest elevation = 90 ft. Lowest elevation = -120 ft. Difference = 90 - (-120) = 90 + 120 = 210 ft."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: 210. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e1_math_23",
@@ -3144,7 +3219,7 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 73,
     "type": "multiple_choice",
-    "prompt": "On parallelogram PQRS above, the length of QT is 18 centimeters and base PQ is 34 centimeters. What is the area of the parallelogram?",
+    "prompt": "On parallelogram PQRS above, the length of QT is 18 centimeters. What is the area of the parallelogram?",
     "imageSrc": "/exams/exam1/items/math_q23.png",
     "options": [
       {
@@ -3165,15 +3240,16 @@ export const QUESTIONS: Question[] = [
       }
     ],
     "correctAnswer": "C",
-    "topic": "Geometry: Area of Parallelograms",
+    "topic": "Geometry & Spatial Reasoning",
+    "subtopic": "Geometric Figures, Area & Coordinate Planes",
     "difficulty": "Medium",
     "hints": [
-      "Identify the fundamental formula or theorem required for this problem.",
-      "Write down what values are given and what specific variable or quantity you need to solve for.",
-      "Solve step-by-step and verify units (e.g. converting hours to minutes or squaring scale factors)."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Double-check algebraic steps and unit consistency.",
-    "explanation": "Area = base \u00d7 perpendicular height = 34 \u00d7 18 = 612 sq cm."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e1_math_24",
@@ -3181,7 +3257,7 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 74,
     "type": "multiple_choice",
-    "prompt": "In a showing of an artist's works, the ratio of the number of paintings, drawings, and photographs shown is 3:5:4, respectively. If the number of drawings shown was 45, what is the total number of photographs and paintings that were shown?",
+    "prompt": "the number of drawings shown was 45, what is the total number of photographs and paintings that were shown?",
     "imageSrc": "/exams/exam1/items/math_q24.png",
     "options": [
       {
@@ -3190,7 +3266,7 @@ export const QUESTIONS: Question[] = [
       },
       {
         "id": "B",
-        "text": "63"
+        "text": "63."
       },
       {
         "id": "C",
@@ -3198,19 +3274,20 @@ export const QUESTIONS: Question[] = [
       },
       {
         "id": "D",
-        "text": "108"
+        "text": "108."
       }
     ],
     "correctAnswer": "B",
-    "topic": "Part-to-Whole Ratios",
+    "topic": "Algebra & Equations",
+    "subtopic": "Linear Equations & Algebraic Modeling",
     "difficulty": "Medium",
     "hints": [
-      "Identify the fundamental formula or theorem required for this problem.",
-      "Write down what values are given and what specific variable or quantity you need to solve for.",
-      "Solve step-by-step and verify units (e.g. converting hours to minutes or squaring scale factors)."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Double-check algebraic steps and unit consistency.",
-    "explanation": "Drawings represent 5 parts: 5 units = 45 => 1 unit = 9. Total photographs (4 units) + paintings (3 units) = 7 units = 7 \u00d7 9 = 63."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e1_math_25",
@@ -3218,36 +3295,37 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 75,
     "type": "multiple_choice",
-    "prompt": "For each 3/4 foot of curtain width, 2/3 yard of fabric is needed to make ruffles. How many yards of fabric are needed per foot of curtain width?",
+    "prompt": "For each & foot of curtain width, & yard of fabric is needed to make ruffles. How many yards of fabric are needed per foot of curtain width? O B. 24 yd \u2022 D. I yd",
     "imageSrc": "/exams/exam1/items/math_q25.png",
     "options": [
       {
         "id": "A",
-        "text": "3/8 yd"
+        "text": "Option A"
       },
       {
         "id": "B",
-        "text": "8/9 yd"
+        "text": "Option B"
       },
       {
         "id": "C",
-        "text": "1 1/2 yd"
+        "text": "Option C"
       },
       {
         "id": "D",
-        "text": "2 2/3 yd"
+        "text": "Option D"
       }
     ],
-    "correctAnswer": "B",
-    "topic": "Unit Rates with Complex Fractions",
+    "correctAnswer": "C",
+    "topic": "Algebra & Equations",
+    "subtopic": "Linear Equations & Algebraic Modeling",
     "difficulty": "Medium",
     "hints": [
-      "Identify the fundamental formula or theorem required for this problem.",
-      "Write down what values are given and what specific variable or quantity you need to solve for.",
-      "Solve step-by-step and verify units (e.g. converting hours to minutes or squaring scale factors)."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Double-check algebraic steps and unit consistency.",
-    "explanation": "(2/3 yard) \u00f7 (3/4 foot) = (2/3) \u00d7 (4/3) = 8/9 yard per foot of curtain width."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e1_math_26",
@@ -3255,36 +3333,37 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 76,
     "type": "multiple_choice",
-    "prompt": "Which straight line in the coordinate plane is the graph of a proportional relationship?",
+    "prompt": "Which straight line is the graph of a proportional relationship?",
     "imageSrc": "/exams/exam1/items/math_q26.png",
     "options": [
       {
         "id": "A",
-        "text": "Line MS"
+        "text": "MS"
       },
       {
         "id": "B",
-        "text": "Line VP"
+        "text": "VP"
       },
       {
         "id": "C",
-        "text": "Line VQ"
+        "text": "v\u00e1"
       },
       {
         "id": "D",
-        "text": "Line TR"
+        "text": "TR 6 10"
       }
     ],
-    "correctAnswer": "C",
-    "topic": "Coordinate Geometry & Proportional Graphs",
+    "correctAnswer": "D",
+    "topic": "Proportional Reasoning & Percentages",
+    "subtopic": "Ratios, Rates & Scale Drawings",
     "difficulty": "Medium",
     "hints": [
-      "Identify the fundamental formula or theorem required for this problem.",
-      "Write down what values are given and what specific variable or quantity you need to solve for.",
-      "Solve step-by-step and verify units (e.g. converting hours to minutes or squaring scale factors)."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Double-check algebraic steps and unit consistency.",
-    "explanation": "A proportional relationship has equation y = kx and must pass directly through the origin (0, 0). Line VQ is the only line passing through the origin."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e1_math_27",
@@ -3292,12 +3371,12 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 77,
     "type": "multiple_choice",
-    "prompt": "Some friends are buying bags of ice for a picnic. The graph shows the cost of the ice, in dollars, in relation to the weight, in pounds. Which statement about a point on the graph is true?",
+    "prompt": "pounds. Which statement about a point on the graph is true?",
     "imageSrc": "/exams/exam1/items/math_q27.png",
     "options": [
       {
         "id": "A",
-        "text": "The point (20, 3) means that 3 lbs of ice costs $20.00."
+        "text": "The point (20, 3) means that 3 Ibs of ice costs $20.00."
       },
       {
         "id": "B",
@@ -3309,19 +3388,20 @@ export const QUESTIONS: Question[] = [
       },
       {
         "id": "D",
-        "text": "The point (0, 0) means that 0 lbs of ice will be needed if 0 people go to the picnic."
+        "text": "The point (0, 0) means that 0 Ibs of ice will be needed if 0 people go to the picnic."
       }
     ],
     "correctAnswer": "C",
-    "topic": "Interpreting Coordinate Graphs",
+    "topic": "Algebra & Equations",
+    "subtopic": "Linear Equations & Algebraic Modeling",
     "difficulty": "Medium",
     "hints": [
-      "Identify the fundamental formula or theorem required for this problem.",
-      "Write down what values are given and what specific variable or quantity you need to solve for.",
-      "Solve step-by-step and verify units (e.g. converting hours to minutes or squaring scale factors)."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Double-check algebraic steps and unit consistency.",
-    "explanation": "The horizontal axis is weight (lb) and vertical is cost ($). The point (10, 1.5) represents 10 lbs of ice costing $1.50."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e1_math_28",
@@ -3329,19 +3409,20 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 78,
     "type": "text_entry",
-    "prompt": "If z / 4 = 5w, what is the value of z in terms of w?",
+    "prompt": "4 = 5w, what is the value of z in terms of w?",
     "imageSrc": "/exams/exam1/items/math_q28.png",
-    "options": [],
-    "correctAnswer": "20w",
-    "topic": "Solving Literal Equations",
+    "options": null,
+    "correctAnswer": "z = 17w",
+    "topic": "Algebra & Equations",
+    "subtopic": "Linear Equations & Algebraic Modeling",
     "difficulty": "Medium",
     "hints": [
-      "Identify the fundamental formula or theorem required for this problem.",
-      "Write down what values are given and what specific variable or quantity you need to solve for.",
-      "Solve step-by-step and verify units (e.g. converting hours to minutes or squaring scale factors)."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Double-check algebraic steps and unit consistency.",
-    "explanation": "Multiply both sides by 4: z = 4 \u00d7 5w = 20w."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: z = 17w. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e1_math_29",
@@ -3349,19 +3430,20 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 79,
     "type": "text_entry",
-    "prompt": "A smoothie shop recipe shows cups of fruit x and cups of yogurt y: (6, 1.5), (8, 2.0), (10, 2.5), (12, 3.0). What is the constant of proportionality of yogurt to fruit?",
+    "prompt": "A smoothie shop uses a consistent ratio of fruit to yogurt in its recipes. The table shows the proportional relationship between the number of cups of fruit (x) and the number of cups of yogurt (y) in different smoothie batches. SMOOTHIE RECIPE Cups of Fruit x Cups of Yogurt y 6 1.5 8 2.0 2.5 3.0 What is the constant of proportionality of the number of cups of yogurt to the number of cups of fruit?",
     "imageSrc": "/exams/exam1/items/math_q29.png",
-    "options": [],
-    "correctAnswer": "1/4",
-    "topic": "Constant of Proportionality",
+    "options": null,
+    "correctAnswer": "0.25",
+    "topic": "Proportional Reasoning & Percentages",
+    "subtopic": "Ratios, Rates & Scale Drawings",
     "difficulty": "Medium",
     "hints": [
-      "Identify the fundamental formula or theorem required for this problem.",
-      "Write down what values are given and what specific variable or quantity you need to solve for.",
-      "Solve step-by-step and verify units (e.g. converting hours to minutes or squaring scale factors)."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Double-check algebraic steps and unit consistency.",
-    "explanation": "Constant of proportionality k = y / x = 1.5 / 6 = 2.0 / 8 = 0.25 = 1/4."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: 0.25. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e1_math_30",
@@ -3369,7 +3451,7 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 80,
     "type": "multiple_choice",
-    "prompt": "Out of 2,000 high school seniors, 191 were enrolled in the Honor Society. What percentage of the entire group of 2,000 seniors were in the Honor Society?",
+    "prompt": "were in the Honor Society?",
     "imageSrc": "/exams/exam1/items/math_q30.png",
     "options": [
       {
@@ -3390,15 +3472,16 @@ export const QUESTIONS: Question[] = [
       }
     ],
     "correctAnswer": "C",
-    "topic": "Percents & Proportions",
+    "topic": "Algebra & Equations",
+    "subtopic": "Linear Equations & Algebraic Modeling",
     "difficulty": "Medium",
     "hints": [
-      "Identify the fundamental formula or theorem required for this problem.",
-      "Write down what values are given and what specific variable or quantity you need to solve for.",
-      "Solve step-by-step and verify units (e.g. converting hours to minutes or squaring scale factors)."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Double-check algebraic steps and unit consistency.",
-    "explanation": "191 / 2,000 = 0.0955 = 9.55%."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e1_math_31",
@@ -3406,12 +3489,12 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 81,
     "type": "multiple_choice",
-    "prompt": "The table shows zoo visitors: Male Children 360, Female Children 340, Male Adults 210, Female Adults 290. The largest group made up what percentage of all visitors on that day?",
+    "prompt": "percentage of all visitors on that day?",
     "imageSrc": "/exams/exam1/items/math_q31.png",
     "options": [
       {
         "id": "A",
-        "text": "30%"
+        "text": "30%."
       },
       {
         "id": "B",
@@ -3419,23 +3502,24 @@ export const QUESTIONS: Question[] = [
       },
       {
         "id": "C",
-        "text": "24%"
+        "text": "24%."
       },
       {
         "id": "D",
-        "text": "17%"
+        "text": "17%."
       }
     ],
     "correctAnswer": "A",
-    "topic": "Tables & Percentage Distribution",
+    "topic": "Proportional Reasoning & Percentages",
+    "subtopic": "Ratios, Rates & Scale Drawings",
     "difficulty": "Medium",
     "hints": [
-      "Identify the fundamental formula or theorem required for this problem.",
-      "Write down what values are given and what specific variable or quantity you need to solve for.",
-      "Solve step-by-step and verify units (e.g. converting hours to minutes or squaring scale factors)."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Double-check algebraic steps and unit consistency.",
-    "explanation": "Total visitors = 360 + 340 + 210 + 290 = 1,200. Largest group = Male Children (360). Percentage = 360 / 1,200 = 30%."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e1_math_32",
@@ -3443,19 +3527,20 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 82,
     "type": "text_entry",
-    "prompt": "The box plot shows average monthly high temperatures in NYC: Min 38\u00b0F, Q1 48\u00b0F, Median 62\u00b0F, Q3 76\u00b0F, Max 84\u00b0F. What is the difference between the range and the interquartile range (IQR) of the temperature data?",
+    "prompt": "MONTHLY HIGH TEMPERATURES IN NEW YORK 36 40 44 48 52 56 60 64 68 72 76 80 84 88 Temperature (\u00b0F) The box plot shows the average monthly high temperatures in New York City for 12 months. What is the difference between the range and the interquartile range of the temperature data?",
     "imageSrc": "/exams/exam1/items/math_q32.png",
-    "options": [],
-    "correctAnswer": "18",
-    "topic": "Statistics: Range & IQR",
+    "options": null,
+    "correctAnswer": "15",
+    "topic": "Probability & Statistics",
+    "subtopic": "Data Analysis, Frequency & Combinations",
     "difficulty": "Medium",
     "hints": [
-      "Identify the fundamental formula or theorem required for this problem.",
-      "Write down what values are given and what specific variable or quantity you need to solve for.",
-      "Solve step-by-step and verify units (e.g. converting hours to minutes or squaring scale factors)."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Double-check algebraic steps and unit consistency.",
-    "explanation": "Range = Max - Min = 84 - 38 = 46. IQR = Q3 - Q1 = 76 - 48 = 28. Difference = 46 - 28 = 18."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: 15. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e1_math_33",
@@ -3463,12 +3548,12 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 83,
     "type": "multiple_choice",
-    "prompt": "A bag contains 40 tiles that are either red, green, or blue. In 120 trials with replacement, red is selected 18 times. Based on this information, what is the most likely number of red tiles in the bag?",
+    "prompt": "Solve the mathematical problem shown in question 33.",
     "imageSrc": "/exams/exam1/items/math_q33.png",
     "options": [
       {
         "id": "A",
-        "text": "6"
+        "text": "bag contains 40 tiles that are either red, green, or blue. A tile is selected at random, the color is recorded, and the tile is put back in the bag. This process is carried out 120 times, and 18 of those times a red tile is selected. Based on the information, what is the most likely number of red tiles in the bag? 0 A. 6"
       },
       {
         "id": "B",
@@ -3484,15 +3569,16 @@ export const QUESTIONS: Question[] = [
       }
     ],
     "correctAnswer": "A",
-    "topic": "Theoretical vs Experimental Probability",
+    "topic": "Algebra & Equations",
+    "subtopic": "Linear Equations & Algebraic Modeling",
     "difficulty": "Medium",
     "hints": [
-      "Identify the fundamental formula or theorem required for this problem.",
-      "Write down what values are given and what specific variable or quantity you need to solve for.",
-      "Solve step-by-step and verify units (e.g. converting hours to minutes or squaring scale factors)."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Double-check algebraic steps and unit consistency.",
-    "explanation": "P(red) = 18 / 120 = 0.15. Expected red tiles in bag = 40 \u00d7 0.15 = 6 tiles."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e1_math_34",
@@ -3500,36 +3586,37 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 84,
     "type": "multiple_choice",
-    "prompt": "A teacher selects 3 students from Classroom A or Classroom B. What is the probability that the teacher will select 2 students from Classroom A and 1 student from Classroom B (in any order)?",
+    "prompt": "A teacher will randomly select 3 students to be on a school committee. He will choose either a student from Classroom A or a student from Classroom B with each selection. This tree diagram shows the selection possibilities. ALA B - B *B \"[B What is the probability that the teacher will select 2 students from Classroom A and 1 student from Classroom B (in any order) for the committee? \u2022 A. 8",
     "imageSrc": "/exams/exam1/items/math_q34.png",
     "options": [
       {
         "id": "A",
-        "text": "1/8"
+        "text": "Option A"
       },
       {
         "id": "B",
-        "text": "3/8"
+        "text": "Option B"
       },
       {
         "id": "C",
-        "text": "1/2"
+        "text": "Option C"
       },
       {
         "id": "D",
-        "text": "5/8"
+        "text": "Option D"
       }
     ],
     "correctAnswer": "B",
-    "topic": "Probability: Permutations & Combinations",
-    "difficulty": "Hard",
+    "topic": "Probability & Statistics",
+    "subtopic": "Data Analysis, Frequency & Combinations",
+    "difficulty": "Medium",
     "hints": [
-      "Identify the fundamental formula or theorem required for this problem.",
-      "Write down what values are given and what specific variable or quantity you need to solve for.",
-      "Solve step-by-step and verify units (e.g. converting hours to minutes or squaring scale factors)."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Double-check algebraic steps and unit consistency.",
-    "explanation": "Total 3-student combinations = 2^3 = 8. Favorable outcomes with 2 from A and 1 from B: {AAB, ABA, BAA} = 3 outcomes. Probability = 3/8."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e1_math_35",
@@ -3537,19 +3624,20 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 85,
     "type": "text_entry",
-    "prompt": "If 4(a + 2b) = 28b + 2a, what is the value of a in terms of b?",
+    "prompt": "If 4(a + 26) = 286 + 2a, what is the value of a in terms of b?",
     "imageSrc": "/exams/exam1/items/math_q35.png",
-    "options": [],
-    "correctAnswer": "10b",
-    "topic": "Algebra: Rearranging Equations",
+    "options": null,
+    "correctAnswer": "a = 10b",
+    "topic": "Algebra & Equations",
+    "subtopic": "Linear Equations & Algebraic Modeling",
     "difficulty": "Medium",
     "hints": [
-      "Identify the fundamental formula or theorem required for this problem.",
-      "Write down what values are given and what specific variable or quantity you need to solve for.",
-      "Solve step-by-step and verify units (e.g. converting hours to minutes or squaring scale factors)."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Double-check algebraic steps and unit consistency.",
-    "explanation": "Expand: 4a + 8b = 28b + 2a => 4a - 2a = 28b - 8b => 2a = 20b => a = 10b."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: a = 10b. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e1_math_36",
@@ -3557,36 +3645,37 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 86,
     "type": "multiple_choice",
-    "prompt": "A standard deck of 52 cards contains 13 hearts. Sara holds 12 cards, 3 of which are hearts. What is the probability that a card drawn at random from the remainder of the deck will be a heart?",
+    "prompt": "A deck of 52 playing cards contains 13 hearts. Sara has 12 cards from this deck in her hand, 3 of which are hearts. The other cards remain in the deck. What is the probability that a card drawn at random from the remainder of the deck will be a heart? \u2022 \u0410. I0 \u041e \u0432. \u00f7 \u2022 \u0421. 3. 13 \u2022 D. 3",
     "imageSrc": "/exams/exam1/items/math_q36.png",
     "options": [
       {
         "id": "A",
-        "text": "1/10"
+        "text": "Option A"
       },
       {
         "id": "B",
-        "text": "1/4"
+        "text": "Option B"
       },
       {
         "id": "C",
-        "text": "3/13"
+        "text": "Option C"
       },
       {
         "id": "D",
-        "text": "3/4"
+        "text": "Option D"
       }
     ],
     "correctAnswer": "B",
-    "topic": "Conditional Probability",
-    "difficulty": "Medium",
+    "topic": "Number Theory & Operations",
+    "subtopic": "Prime Factorization & Multiples",
+    "difficulty": "Hard",
     "hints": [
-      "Identify the fundamental formula or theorem required for this problem.",
-      "Write down what values are given and what specific variable or quantity you need to solve for.",
-      "Solve step-by-step and verify units (e.g. converting hours to minutes or squaring scale factors)."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Double-check algebraic steps and unit consistency.",
-    "explanation": "Remaining cards in deck = 52 - 12 = 40. Remaining hearts = 13 - 3 = 10. P(heart) = 10 / 40 = 1/4."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e1_math_37",
@@ -3594,12 +3683,12 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 87,
     "type": "multiple_choice",
-    "prompt": "The table shows probability of picking candy flavors: Butterscotch (0.57), Lemon (0.095), Maple (0.125), Strawberry (0.21). Which flavor is most likely to be randomly picked?",
+    "prompt": "The table shows the probability of randomly picking each flavor of candy from a bowl. PICKING CANDY FROM",
     "imageSrc": "/exams/exam1/items/math_q37.png",
     "options": [
       {
         "id": "A",
-        "text": "butterscotch"
+        "text": "BOWL Flavor Probability Butterscotch 0.57 Lemon 0.095 Maple 0.125 Strawberry 0.21 Which flavor is most likely to be randomly picked? \u2022 A. butterscotch"
       },
       {
         "id": "B",
@@ -3615,15 +3704,16 @@ export const QUESTIONS: Question[] = [
       }
     ],
     "correctAnswer": "A",
-    "topic": "Probability Distributions",
-    "difficulty": "Easy",
+    "topic": "Probability & Statistics",
+    "subtopic": "Data Analysis, Frequency & Combinations",
+    "difficulty": "Hard",
     "hints": [
-      "Identify the fundamental formula or theorem required for this problem.",
-      "Write down what values are given and what specific variable or quantity you need to solve for.",
-      "Solve step-by-step and verify units (e.g. converting hours to minutes or squaring scale factors)."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Double-check algebraic steps and unit consistency.",
-    "explanation": "0.57 is the highest probability, so Butterscotch is most likely."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e1_math_38",
@@ -3631,36 +3721,37 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 88,
     "type": "multiple_choice",
-    "prompt": "The formula p = w/r + f gives book pages p from w words, r words per page, and f front pages. What is the formula solved for w?",
+    "prompt": "solved for w?",
     "imageSrc": "/exams/exam1/items/math_q38.png",
     "options": [
       {
         "id": "A",
-        "text": "w = r(p - f)"
+        "text": "W= r(p- f)"
       },
       {
         "id": "B",
-        "text": "w = (1/r)p + f"
+        "text": "w=\u00f7p+ f"
       },
       {
         "id": "C",
-        "text": "w = f + rp"
+        "text": "w= f+ rp"
       },
       {
         "id": "D",
-        "text": "w = r + p + f"
+        "text": "w=r+p+f"
       }
     ],
     "correctAnswer": "A",
-    "topic": "Literal Equations",
-    "difficulty": "Medium",
+    "topic": "Algebra & Equations",
+    "subtopic": "Linear Equations & Algebraic Modeling",
+    "difficulty": "Hard",
     "hints": [
-      "Identify the fundamental formula or theorem required for this problem.",
-      "Write down what values are given and what specific variable or quantity you need to solve for.",
-      "Solve step-by-step and verify units (e.g. converting hours to minutes or squaring scale factors)."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Double-check algebraic steps and unit consistency.",
-    "explanation": "p = w/r + f => p - f = w/r => w = r(p - f)."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e1_math_39",
@@ -3668,12 +3759,12 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 89,
     "type": "multiple_choice",
-    "prompt": "In a sample of 20 boxes out of 170, 8 have damage and 12 are undamaged. What is the best prediction of the number of undamaged boxes in the remaining shipment (not including the sample)?",
+    "prompt": "Solve the mathematical problem shown in question 39.",
     "imageSrc": "/exams/exam1/items/math_q39.png",
     "options": [
       {
         "id": "A",
-        "text": "60"
+        "text": "shipment contains 170 small boxes of medical supplies. In a random sample of 20 of these boxes, 8 have damage and the others are undamaged. Based on this sample, what is the best prediction of the number of undamaged boxes in the shipment, not including the boxes in the random sample? \u2022 A. 60"
       },
       {
         "id": "B",
@@ -3689,15 +3780,16 @@ export const QUESTIONS: Question[] = [
       }
     ],
     "correctAnswer": "C",
-    "topic": "Sampling & Statistical Inference",
-    "difficulty": "Medium",
+    "topic": "Algebra & Equations",
+    "subtopic": "Linear Equations & Algebraic Modeling",
+    "difficulty": "Hard",
     "hints": [
-      "Identify the fundamental formula or theorem required for this problem.",
-      "Write down what values are given and what specific variable or quantity you need to solve for.",
-      "Solve step-by-step and verify units (e.g. converting hours to minutes or squaring scale factors)."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Double-check algebraic steps and unit consistency.",
-    "explanation": "Proportion undamaged = 12 / 20 = 0.60. Remaining boxes = 170 - 20 = 150. Predicted undamaged = 150 \u00d7 0.60 = 90 boxes."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e1_math_40",
@@ -3705,36 +3797,37 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 90,
     "type": "multiple_choice",
-    "prompt": "Marcus scores 1 point for a free throw (mean 8 per game) and 2 points per basket, scoring at least 25 points: 2b + 8 >= 25. What is the number of 2-point baskets Marcus needs to make?",
+    "prompt": "and make his mean number of free throws?",
     "imageSrc": "/exams/exam1/items/math_q40.png",
     "options": [
       {
         "id": "A",
-        "text": "b <= 8"
+        "text": "6\u22648"
       },
       {
         "id": "B",
-        "text": "b >= 9"
+        "text": "6 \u2265 9"
       },
       {
         "id": "C",
-        "text": "b > 16"
+        "text": "6 > 16"
       },
       {
         "id": "D",
-        "text": "b <= 25"
+        "text": "b \u2264 25"
       }
     ],
     "correctAnswer": "B",
-    "topic": "Linear Inequalities",
-    "difficulty": "Medium",
+    "topic": "Probability & Statistics",
+    "subtopic": "Data Analysis, Frequency & Combinations",
+    "difficulty": "Hard",
     "hints": [
-      "Identify the fundamental formula or theorem required for this problem.",
-      "Write down what values are given and what specific variable or quantity you need to solve for.",
-      "Solve step-by-step and verify units (e.g. converting hours to minutes or squaring scale factors)."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Double-check algebraic steps and unit consistency.",
-    "explanation": "2b + 8 >= 25 => 2b >= 17 => b >= 8.5. Since baskets must be integers, Marcus must make at least 9 baskets (b >= 9)."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e1_math_41",
@@ -3742,39 +3835,62 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 91,
     "type": "text_entry",
-    "prompt": "Elijah wants to buy a water bottle for $12.50 and notebooks for $4.75 each with at most $35.00. Write an inequality representing the number of notebooks, n, Elijah can purchase.",
+    "prompt": "Elijah is at the school bookstore. He wants to buy a water bottle for $12.50 and some notebooks that cost $4.75 each. He has at most $35.00 to spend. Write an inequality that represents the number of notebooks, n, Elijah can purchase.",
     "imageSrc": "/exams/exam1/items/math_q41.png",
-    "options": [],
-    "correctAnswer": "4.75n + 12.50 <= 35",
-    "topic": "Writing Inequalities from Word Problems",
-    "difficulty": "Medium",
+    "options": null,
+    "correctAnswer": "12.50 + 4.75n <= 35.00",
+    "topic": "Algebra & Equations",
+    "subtopic": "Linear Equations & Algebraic Modeling",
+    "difficulty": "Hard",
     "hints": [
-      "Identify the fundamental formula or theorem required for this problem.",
-      "Write down what values are given and what specific variable or quantity you need to solve for.",
-      "Solve step-by-step and verify units (e.g. converting hours to minutes or squaring scale factors)."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Double-check algebraic steps and unit consistency.",
-    "explanation": "Notebook cost = 4.75n, water bottle = 12.50. Total must be at most $35: 4.75n + 12.50 <= 35."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: 12.50 + 4.75n <= 35.00. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e1_math_42",
     "examId": "exam1",
     "section": "math",
     "questionNumber": 92,
-    "type": "text_entry",
-    "prompt": "Tariq makes a clay cube with side length 20 cm. He hollows out the center with a rectangular prism hole (base 5 cm \u00d7 5 cm, height 20 cm). What is the volume, in cubic centimeters, of the remaining block?",
+    "type": "multi_select",
+    "prompt": "Tariq is making a clay block in the shape of a cube with a side length of 20 cm. He hollows out the center by removing clay to form a rectangular prism-shaped hole with a base of 5 cm \u2022 5 cm and a height of 20 cm. * 5 cm+1 20 cm What is the volume, in cubic centimeters, of the block after the clay is removed from the center?",
     "imageSrc": "/exams/exam1/items/math_q42.png",
-    "options": [],
-    "correctAnswer": "7500",
-    "topic": "Geometry: 3D Solids & Volume",
+    "options": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctAnswer": "7,500 cm^3",
+    "topic": "Geometry & Spatial Reasoning",
+    "subtopic": "Geometric Figures, Area & Coordinate Planes",
     "difficulty": "Hard",
     "hints": [
-      "Identify the fundamental formula or theorem required for this problem.",
-      "Write down what values are given and what specific variable or quantity you need to solve for.",
-      "Solve step-by-step and verify units (e.g. converting hours to minutes or squaring scale factors)."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Double-check algebraic steps and unit consistency.",
-    "explanation": "Cube volume = 20^3 = 8,000 cm^3. Removed hole volume = 5 \u00d7 5 \u00d7 20 = 500 cm^3. Remaining volume = 8,000 - 500 = 7,500 cm^3."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: 7,500 cm^3. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e1_math_43",
@@ -3782,73 +3898,58 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 93,
     "type": "multiple_choice",
-    "prompt": "The total number of water bottles bought, b, is proportional to the number of players, n, with constant of proportionality p. Which equation represents this relationship?",
+    "prompt": "Solve the mathematical problem shown in question 43.",
     "imageSrc": "/exams/exam1/items/math_q43.png",
     "options": [
       {
         "id": "A",
-        "text": "b = pn"
+        "text": "softball player bought bottles of water for her team to have at practice. The total number of bottles she bought, b, is proportional to n, the number of players at practice. Which equation represents the relationship between b and n? The constant of proportionality is p. \u2022 A. 6 = pn"
       },
       {
         "id": "B",
-        "text": "b = p + n"
+        "text": "b =p+n"
       },
       {
         "id": "C",
-        "text": "b + n = p"
+        "text": "6 +n= p"
       },
       {
         "id": "D",
-        "text": "b + n + p = 1"
+        "text": "b +n +p= 1"
       }
     ],
     "correctAnswer": "A",
-    "topic": "Direct Proportions",
-    "difficulty": "Medium",
+    "topic": "Algebra & Equations",
+    "subtopic": "Linear Equations & Algebraic Modeling",
+    "difficulty": "Hard",
     "hints": [
-      "Identify the fundamental formula or theorem required for this problem.",
-      "Write down what values are given and what specific variable or quantity you need to solve for.",
-      "Solve step-by-step and verify units (e.g. converting hours to minutes or squaring scale factors)."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Double-check algebraic steps and unit consistency.",
-    "explanation": "A direct proportion is expressed as y = kx. Here b = pn."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e1_math_44",
     "examId": "exam1",
     "section": "math",
     "questionNumber": 94,
-    "type": "multiple_choice",
-    "prompt": "A smartphone screen is designed to be 72 mm wide with an allowable variation of 4%. What is the acceptable width range, in millimeters?",
+    "type": "text_entry",
+    "prompt": "A smartphone screen is designed to be 72 millimeters wide. The quality control team allows for a variation of 4% in the width. Select the minimum and maximum screen widths that fall within the acceptable range of screen widths, in millimeters. Select the correct answer from each drop-down to complete the sentence. The acceptable screen width is from Choose\u2026.. \u00bf to (Choose... millimeters. RESPONSE _A1 68.00 69.12 70.00 71.28 RESPONSE _A2 73.44 74.88 75.00 76.00",
     "imageSrc": "/exams/exam1/items/math_q44.png",
-    "options": [
-      {
-        "id": "A",
-        "text": "68.00 mm to 76.00 mm"
-      },
-      {
-        "id": "B",
-        "text": "69.12 mm to 74.88 mm"
-      },
-      {
-        "id": "C",
-        "text": "70.00 mm to 74.00 mm"
-      },
-      {
-        "id": "D",
-        "text": "71.28 mm to 72.72 mm"
-      }
-    ],
-    "correctAnswer": "B",
-    "topic": "Percent Error & Tolerance",
+    "options": null,
+    "correctAnswer": "69.12 mm; 74.88 mm",
+    "topic": "Proportional Reasoning & Percentages",
+    "subtopic": "Ratios, Rates & Scale Drawings",
     "difficulty": "Hard",
     "hints": [
-      "Identify the fundamental formula or theorem required for this problem.",
-      "Write down what values are given and what specific variable or quantity you need to solve for.",
-      "Solve step-by-step and verify units (e.g. converting hours to minutes or squaring scale factors)."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Double-check algebraic steps and unit consistency.",
-    "explanation": "4% of 72 = 0.04 \u00d7 72 = 2.88 mm. Range is 72 - 2.88 = 69.12 mm to 72 + 2.88 = 74.88 mm."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: 69.12 mm; 74.88 mm. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e1_math_45",
@@ -3856,7 +3957,7 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 95,
     "type": "multiple_choice",
-    "prompt": "Malik earns $10 per hour at his job. He wants to change to a job paying $12 per hour. What will be the percent increase in Malik's hourly pay?",
+    "prompt": "Malik's hourly pay if he makes this job change?",
     "imageSrc": "/exams/exam1/items/math_q45.png",
     "options": [
       {
@@ -3877,15 +3978,16 @@ export const QUESTIONS: Question[] = [
       }
     ],
     "correctAnswer": "B",
-    "topic": "Percent Change",
-    "difficulty": "Medium",
+    "topic": "Algebra & Equations",
+    "subtopic": "Linear Equations & Algebraic Modeling",
+    "difficulty": "Hard",
     "hints": [
-      "Identify the fundamental formula or theorem required for this problem.",
-      "Write down what values are given and what specific variable or quantity you need to solve for.",
-      "Solve step-by-step and verify units (e.g. converting hours to minutes or squaring scale factors)."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Double-check algebraic steps and unit consistency.",
-    "explanation": "Percent Increase = (12 - 10) / 10 = 2 / 10 = 0.20 = 20%."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e1_math_46",
@@ -3893,12 +3995,12 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 96,
     "type": "multiple_choice",
-    "prompt": "A rain gauge shows that 10 centimeters of rain fell yesterday. If 1 inch is equal to approximately 2.5 centimeters, about how many inches of rain fell yesterday?",
+    "prompt": "Solve the mathematical problem shown in question 46.",
     "imageSrc": "/exams/exam1/items/math_q46.png",
     "options": [
       {
         "id": "A",
-        "text": "1"
+        "text": "rain gauge shows that 10 centimeters of rain fell yesterday. If 1 inch is equal to approximately 2.5 centimeters, about how many inches of rain fell yesterday? \u2022 A. 1."
       },
       {
         "id": "B",
@@ -3914,15 +4016,16 @@ export const QUESTIONS: Question[] = [
       }
     ],
     "correctAnswer": "C",
-    "topic": "Unit Conversions",
-    "difficulty": "Medium",
+    "topic": "Algebra & Equations",
+    "subtopic": "Linear Equations & Algebraic Modeling",
+    "difficulty": "Hard",
     "hints": [
-      "Identify the fundamental formula or theorem required for this problem.",
-      "Write down what values are given and what specific variable or quantity you need to solve for.",
-      "Solve step-by-step and verify units (e.g. converting hours to minutes or squaring scale factors)."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Double-check algebraic steps and unit consistency.",
-    "explanation": "10 cm \u00f7 2.5 cm/inch = 4 inches."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e1_math_47",
@@ -3930,7 +4033,7 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 97,
     "type": "multiple_choice",
-    "prompt": "A plant has grown 20 millimeters in 8 days. What is the constant of proportionality, in millimeters per day?",
+    "prompt": "in 8 days. What is the constant of proportionality, in millimeters per day?",
     "imageSrc": "/exams/exam1/items/math_q47.png",
     "options": [
       {
@@ -3951,15 +4054,16 @@ export const QUESTIONS: Question[] = [
       }
     ],
     "correctAnswer": "B",
-    "topic": "Unit Rates",
-    "difficulty": "Medium",
+    "topic": "Proportional Reasoning & Percentages",
+    "subtopic": "Ratios, Rates & Scale Drawings",
+    "difficulty": "Hard",
     "hints": [
-      "Identify the fundamental formula or theorem required for this problem.",
-      "Write down what values are given and what specific variable or quantity you need to solve for.",
-      "Solve step-by-step and verify units (e.g. converting hours to minutes or squaring scale factors)."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Double-check algebraic steps and unit consistency.",
-    "explanation": "Rate = 20 mm / 8 days = 2.5 mm per day."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e1_math_48",
@@ -3967,36 +4071,37 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 98,
     "type": "multiple_choice",
-    "prompt": "Which table shows a proportional relationship between x and y?",
+    "prompt": "Which table shows a proportional relationship?",
     "imageSrc": "/exams/exam1/items/math_q48.png",
     "options": [
       {
         "id": "A",
-        "text": "Table A: (0, 0), (4, 3), (8, 6)"
+        "text": "x 0 4 8 0 3"
       },
       {
         "id": "B",
-        "text": "Table B: (0, 1), (4, 4), (8, 8)"
+        "text": "0 1 4 8 6"
       },
       {
         "id": "C",
-        "text": "Table C: (0, -1), (4, 0), (8, 4)"
+        "text": "0 4 8 -1 0"
       },
       {
         "id": "D",
-        "text": "Table D: (0, 0), (4, 12), (8, 16)"
+        "text": "\u0423 0 0 4 12 8 16"
       }
     ],
     "correctAnswer": "A",
-    "topic": "Proportional Tables",
-    "difficulty": "Medium",
+    "topic": "Proportional Reasoning & Percentages",
+    "subtopic": "Ratios, Rates & Scale Drawings",
+    "difficulty": "Hard",
     "hints": [
-      "Identify the fundamental formula or theorem required for this problem.",
-      "Write down what values are given and what specific variable or quantity you need to solve for.",
-      "Solve step-by-step and verify units (e.g. converting hours to minutes or squaring scale factors)."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Double-check algebraic steps and unit consistency.",
-    "explanation": "Table A includes (0, 0) and has constant ratio y/x = 3/4 = 6/8 = 0.75."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e1_math_49",
@@ -4004,19 +4109,20 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 99,
     "type": "text_entry",
-    "prompt": "The box plot illustrates screen hours for 8th graders (Min 5, Q1 9, Median 13, Q3 16, Max 20). What is the difference between the range and the interquartile range (IQR)?",
+    "prompt": "The box plot illustrates the number of hours eighth-grade students spend on screens during a typical week. What is the difference between the range and the interquartile range (IQR) of the screen time data? NUMBER OF SCREEN HOURS FOR 8th GRADE STUDENTS 11111111 5 6 7 8 9 10 11 1213 14 15 16 17 18 1920 Hours Move the correct answer to each box. Not all answers will be used. 15 The range of screen time hours is The IQR is hours. The difference between the range and the IQR is hours. hours.",
     "imageSrc": "/exams/exam1/items/math_q49.png",
-    "options": [],
-    "correctAnswer": "8",
-    "topic": "Statistics: Box Plots & Spread",
-    "difficulty": "Medium",
+    "options": null,
+    "correctAnswer": "Range: 15; interquartile range: 7; difference: 8",
+    "topic": "Proportional Reasoning & Percentages",
+    "subtopic": "Ratios, Rates & Scale Drawings",
+    "difficulty": "Hard",
     "hints": [
-      "Identify the fundamental formula or theorem required for this problem.",
-      "Write down what values are given and what specific variable or quantity you need to solve for.",
-      "Solve step-by-step and verify units (e.g. converting hours to minutes or squaring scale factors)."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Double-check algebraic steps and unit consistency.",
-    "explanation": "Range = 20 - 5 = 15. IQR = 16 - 9 = 7. Difference = 15 - 7 = 8 hours."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: Range: 15; interquartile range: 7; difference: 8. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e1_math_50",
@@ -4024,36 +4130,37 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 100,
     "type": "multiple_choice",
-    "prompt": "Terry wants to pour cement around the edge of a circular patio with a radius of 5 feet. What is the distance around the edge? (Use 3.14 for \u03c0)",
+    "prompt": "Terry wants to pour cement around the edge of the circular patio in her backyard. The patio has a radius of 5 feet. What is the distance, in feet, around the edge of the patio? Use 3.14 for .",
     "imageSrc": "/exams/exam1/items/math_q50.png",
     "options": [
       {
         "id": "A",
-        "text": "15.7 ft"
+        "text": "15.7"
       },
       {
         "id": "B",
-        "text": "31.4 ft"
+        "text": "31.4"
       },
       {
         "id": "C",
-        "text": "49.3 ft"
+        "text": "49.3"
       },
       {
         "id": "D",
-        "text": "78.5 ft"
+        "text": "78.5"
       }
     ],
     "correctAnswer": "B",
-    "topic": "Geometry: Circumference of Circles",
-    "difficulty": "Medium",
+    "topic": "Geometry & Spatial Reasoning",
+    "subtopic": "Geometric Figures, Area & Coordinate Planes",
+    "difficulty": "Hard",
     "hints": [
-      "Identify the fundamental formula or theorem required for this problem.",
-      "Write down what values are given and what specific variable or quantity you need to solve for.",
-      "Solve step-by-step and verify units (e.g. converting hours to minutes or squaring scale factors)."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Double-check algebraic steps and unit consistency.",
-    "explanation": "Circumference C = 2\u03c0r = 2 \u00d7 3.14 \u00d7 5 = 10 \u00d7 3.14 = 31.4 feet."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e2_ela_01",
@@ -4062,36 +4169,37 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 1,
     "passageId": "e2_p1",
     "type": "multiple_choice",
-    "prompt": "Practice Form B: Reading Comprehension analysis question 1.",
+    "prompt": "The description in the first stanza (lines 1-7) helps establish a central idea of the poem by",
     "imageSrc": "/exams/exam2/items/ela_q01.png",
     "options": [
       {
         "id": "A",
-        "text": "Choice A"
+        "text": "comparing the length of time the mountains have existed with the length of time the city has existed."
       },
       {
         "id": "B",
-        "text": "Choice B"
+        "text": "contrasting the grandeur of the mountains with the structures in the city below them."
       },
       {
         "id": "C",
-        "text": "Choice C"
+        "text": "implying that the mountains are a source of inspiration to the people in the city below."
       },
       {
         "id": "D",
-        "text": "Choice D"
+        "text": "suggesting that the mountains are larger than the people in the city realize."
       }
     ],
-    "correctAnswer": "A",
-    "topic": "Reading Comprehension: Evidence & Inference",
-    "difficulty": "Medium",
+    "correctAnswer": "B",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Easy",
     "hints": [
-      "Locate the specific lines in the passage.",
-      "Compare each answer choice strictly to the line citations.",
-      "Eliminate distractors that exaggerate or misrepresent the author's tone."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Avoid choices that use extreme absolute words like 'always', 'never', or 'entirely' unless backed by the passage.",
-    "explanation": "The selected choice is backed directly by textual evidence in the official practice test."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e2_ela_02",
@@ -4100,36 +4208,37 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 2,
     "passageId": "e2_p1",
     "type": "multiple_choice",
-    "prompt": "Practice Form B: Reading Comprehension analysis question 2.",
+    "prompt": "fail to appreciate what is familiar?",
     "imageSrc": "/exams/exam2/items/ela_q02.png",
     "options": [
       {
         "id": "A",
-        "text": "Choice A"
+        "text": "\"The mountains from the great plateau\" (line 6)"
       },
       {
         "id": "B",
-        "text": "Choice B"
+        "text": "\"They have been here now for too long a time.\" (line 9)"
       },
       {
         "id": "C",
-        "text": "Choice C"
+        "text": "\"Splits down their shining sides,\" (line 12)"
       },
       {
         "id": "D",
-        "text": "Choice D"
+        "text": "\"To which the future is as was the past,\" (line 18)"
       }
     ],
-    "correctAnswer": "C",
-    "topic": "Reading Comprehension: Evidence & Inference",
-    "difficulty": "Medium",
+    "correctAnswer": "B",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Easy",
     "hints": [
-      "Locate the specific lines in the passage.",
-      "Compare each answer choice strictly to the line citations.",
-      "Eliminate distractors that exaggerate or misrepresent the author's tone."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Avoid choices that use extreme absolute words like 'always', 'never', or 'entirely' unless backed by the passage.",
-    "explanation": "The selected choice is backed directly by textual evidence in the official practice test."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e2_ela_03",
@@ -4138,36 +4247,37 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 3,
     "passageId": "e2_p1",
     "type": "multiple_choice",
-    "prompt": "Practice Form B: Reading Comprehension analysis question 3.",
+    "prompt": "poem?",
     "imageSrc": "/exams/exam2/items/ela_q03.png",
     "options": [
       {
         "id": "A",
-        "text": "Choice A"
+        "text": "It creates a contrast between the great plateau and the city buildings."
       },
       {
         "id": "B",
-        "text": "Choice B"
+        "text": "It reveals the similarity between the tall buildings in the city and the tall mountains on the horizon."
       },
       {
         "id": "C",
-        "text": "Choice C"
+        "text": "It creates a vision of the region before people developed the land."
       },
       {
         "id": "D",
-        "text": "Choice D"
+        "text": "It emphasizes that the mountains dominate the landscape."
       }
     ],
     "correctAnswer": "D",
-    "topic": "Reading Comprehension: Evidence & Inference",
-    "difficulty": "Medium",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Easy",
     "hints": [
-      "Locate the specific lines in the passage.",
-      "Compare each answer choice strictly to the line citations.",
-      "Eliminate distractors that exaggerate or misrepresent the author's tone."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Avoid choices that use extreme absolute words like 'always', 'never', or 'entirely' unless backed by the passage.",
-    "explanation": "The selected choice is backed directly by textual evidence in the official practice test."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e2_ela_04",
@@ -4175,37 +4285,42 @@ export const QUESTIONS: Question[] = [
     "section": "ela",
     "questionNumber": 4,
     "passageId": "e2_p1",
-    "type": "multiple_choice",
-    "prompt": "Practice Form B: Reading Comprehension analysis question 4.",
+    "type": "multi_select",
+    "prompt": "the second stanza (lines 8-14)? Select the two correct answers.",
     "imageSrc": "/exams/exam2/items/ela_q04.png",
     "options": [
       {
         "id": "A",
-        "text": "Choice A"
+        "text": "by describing the mountains' awe-inspiring size and strength"
       },
       {
         "id": "B",
-        "text": "Choice B"
+        "text": "by comparing the various methods humans use to control nature"
       },
       {
         "id": "C",
-        "text": "Choice C"
+        "text": "by criticizing the careless actions of humans that harm the natural environment"
       },
       {
         "id": "D",
-        "text": "Choice D"
+        "text": "by demonstrating how the mountains and the people are able to benefit from each other"
+      },
+      {
+        "id": "E",
+        "text": "by depicting the unfortunate plight of the mountains with vivid details"
       }
     ],
-    "correctAnswer": "B",
-    "topic": "Reading Comprehension: Evidence & Inference",
-    "difficulty": "Medium",
+    "correctAnswer": "C and E",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Easy",
     "hints": [
-      "Locate the specific lines in the passage.",
-      "Compare each answer choice strictly to the line citations.",
-      "Eliminate distractors that exaggerate or misrepresent the author's tone."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Avoid choices that use extreme absolute words like 'always', 'never', or 'entirely' unless backed by the passage.",
-    "explanation": "The selected choice is backed directly by textual evidence in the official practice test."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: C and E. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e2_ela_05",
@@ -4214,36 +4329,37 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 5,
     "passageId": "e2_p1",
     "type": "multiple_choice",
-    "prompt": "Practice Form B: Reading Comprehension analysis question 5.",
+    "prompt": "How do the lines help convey the speaker's point of view?",
     "imageSrc": "/exams/exam2/items/ela_q05.png",
     "options": [
       {
         "id": "A",
-        "text": "Choice A"
+        "text": "They suggest that the speaker wants to remove the obstacles that prevent others from experiencing the wonders of nature."
       },
       {
         "id": "B",
-        "text": "Choice B"
+        "text": "They reveal the speaker's opinion that some people are too busy to appreciate natural beauty."
       },
       {
         "id": "C",
-        "text": "Choice C"
+        "text": "They reflect the speaker's dismay that people destroy the natural landscape without understanding the ramifications of their actions."
       },
       {
         "id": "D",
-        "text": "Choice D"
+        "text": "They explain that the speaker is confident that nature will never be fully destroyed by people."
       }
     ],
-    "correctAnswer": "A",
-    "topic": "Reading Comprehension: Evidence & Inference",
-    "difficulty": "Medium",
+    "correctAnswer": "C",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Easy",
     "hints": [
-      "Locate the specific lines in the passage.",
-      "Compare each answer choice strictly to the line citations.",
-      "Eliminate distractors that exaggerate or misrepresent the author's tone."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Avoid choices that use extreme absolute words like 'always', 'never', or 'entirely' unless backed by the passage.",
-    "explanation": "The selected choice is backed directly by textual evidence in the official practice test."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e2_ela_06",
@@ -4252,36 +4368,37 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 6,
     "passageId": "e2_p1",
     "type": "multiple_choice",
-    "prompt": "Practice Form B: Reading Comprehension analysis question 6.",
+    "prompt": "Snowy Mountains by John Gould Fletcher Higher and still more high, Palaces made for cloud, Above the dingy city-roofs Blue-white like angels with broad wings, 5 Pillars of the sky at rest The mountains from the great plateau Uprise. But the world heeds them not; They have been here now for too long a time. 10 The world makes war on them, Tunnels their granite cliffs, Splits down their shining sides, Plasters their cliffs with soap-advertisements, Destroys the lonely fragments of their peace. Read lines 23-26 from the poem. The mountains swing along The south horizon of the sky; Welcoming with wide floors of blue-green ice The mists that dance and drive before the sun. The personification in these concluding lines of the poem suggests that the mountains are",
     "imageSrc": "/exams/exam2/items/ela_q06.png",
     "options": [
       {
         "id": "A",
-        "text": "Choice A"
+        "text": "gracious hosts who are untroubled by the actions of people."
       },
       {
         "id": "B",
-        "text": "Choice B"
+        "text": "unaware of their coming destruction."
       },
       {
         "id": "C",
-        "text": "Choice C"
+        "text": "lively entertainers who are amused by the everyday concerns of people."
       },
       {
         "id": "D",
-        "text": "Choice D"
+        "text": "too proud to reveal their pain."
       }
     ],
-    "correctAnswer": "C",
-    "topic": "Reading Comprehension: Evidence & Inference",
-    "difficulty": "Medium",
+    "correctAnswer": "A",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Easy",
     "hints": [
-      "Locate the specific lines in the passage.",
-      "Compare each answer choice strictly to the line citations.",
-      "Eliminate distractors that exaggerate or misrepresent the author's tone."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Avoid choices that use extreme absolute words like 'always', 'never', or 'entirely' unless backed by the passage.",
-    "explanation": "The selected choice is backed directly by textual evidence in the official practice test."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e2_ela_07",
@@ -4289,37 +4406,21 @@ export const QUESTIONS: Question[] = [
     "section": "ela",
     "questionNumber": 7,
     "passageId": "e2_p2",
-    "type": "multiple_choice",
-    "prompt": "Practice Form B: Reading Comprehension analysis question 7.",
+    "type": "text_entry",
+    "prompt": "Snowy Mountains by John Gould Fletcher Higher and still more high, Palaces made for cloud, Above the dingy city-roofs Blue-white like angels with broad wings, 5 Pillars of the sky at rest The mountains from the great plateau Uprise. But the world heeds them not; They have been here now for too long a time. 10 The world makes war on them, Tunnels their granite cliffs, Splits down their shining sides, Plasters their cliffs with soap-advertisements, Destroys the lonely fragments of their peace. 15 Vaster and still more vast, Peak after peak, pile after pile, Wilderness still untamed, To which the future is as was the nast Which quotations from the poem support the theme that nature's unspoiled beauty is splendid, and which quotations support the theme that human creations detract from natural wonder? Move each answer to the correct box. \"Above the dingy city-roofs / Blue-white like angels with broad wings,\" (lines 3-4) \"Pillars of the sky at rest / The mountains from the great plateau / Uprise.\" (lines 5-7) \"Tunnels their granite cliffs, / Splits down their shining sides,\" (lines 11-12) \"Wilderness still untamed, / To which the future is as was the past,\" (lines 17-18) \"The south horizon of the sky; / Welcoming with wide floors of blue-green ice\" (lines 24-25) Nature's Unspoiled Beauty is Splendid Human Creations Detract from Natural Wonder",
     "imageSrc": "/exams/exam2/items/ela_q07.png",
-    "options": [
-      {
-        "id": "A",
-        "text": "Choice A"
-      },
-      {
-        "id": "B",
-        "text": "Choice B"
-      },
-      {
-        "id": "C",
-        "text": "Choice C"
-      },
-      {
-        "id": "D",
-        "text": "Choice D"
-      }
-    ],
-    "correctAnswer": "D",
-    "topic": "Reading Comprehension: Evidence & Inference",
-    "difficulty": "Medium",
+    "options": null,
+    "correctAnswer": "Quote 1 (lines 3-4): Human Creations Detract from Natural Wonder; Quote 2 (lines 5-7): Nature's Unspoiled Beauty Is Splendid; Quote 3",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Easy",
     "hints": [
-      "Locate the specific lines in the passage.",
-      "Compare each answer choice strictly to the line citations.",
-      "Eliminate distractors that exaggerate or misrepresent the author's tone."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Avoid choices that use extreme absolute words like 'always', 'never', or 'entirely' unless backed by the passage.",
-    "explanation": "The selected choice is backed directly by textual evidence in the official practice test."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: Quote 1 (lines 3-4): Human Creations Detract from Natural Wonder; Quote 2 (lines 5-7): Nature's Unspoiled Beauty Is Splendid; Quote 3. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e2_ela_08",
@@ -4328,36 +4429,37 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 8,
     "passageId": "e2_p2",
     "type": "multiple_choice",
-    "prompt": "Practice Form B: Reading Comprehension analysis question 8.",
+    "prompt": "Which sentence from paragraph 4 provides support for this argument?",
     "imageSrc": "/exams/exam2/items/ela_q08.png",
     "options": [
       {
         "id": "A",
-        "text": "Choice A"
+        "text": "\"Once the ravens learned the behavior, the researchers presented the birds with four stones.\""
       },
       {
         "id": "B",
-        "text": "Choice B"
+        "text": "\"A researcher would trade the ravens a large treat for a bottle cap.\""
       },
       {
         "id": "C",
-        "text": "Choice C"
+        "text": "\"Later, the researchers presented the ravens with a group of items, including small treats and the bottle cap.\""
       },
       {
         "id": "D",
-        "text": "Choice D"
+        "text": "\"The ravens chose the bottle cap over the treats and waited for the original researcher to trade with them again so that they could get more treats.\""
       }
     ],
-    "correctAnswer": "B",
-    "topic": "Reading Comprehension: Evidence & Inference",
-    "difficulty": "Medium",
+    "correctAnswer": "D",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Easy",
     "hints": [
-      "Locate the specific lines in the passage.",
-      "Compare each answer choice strictly to the line citations.",
-      "Eliminate distractors that exaggerate or misrepresent the author's tone."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Avoid choices that use extreme absolute words like 'always', 'never', or 'entirely' unless backed by the passage.",
-    "explanation": "The selected choice is backed directly by textual evidence in the official practice test."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e2_ela_09",
@@ -4366,36 +4468,37 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 9,
     "passageId": "e2_p2",
     "type": "multiple_choice",
-    "prompt": "Practice Form B: Reading Comprehension analysis question 9.",
+    "prompt": "passage?",
     "imageSrc": "/exams/exam2/items/ela_q09.png",
     "options": [
       {
         "id": "A",
-        "text": "Choice A"
+        "text": "It implies that animals are skilled at finding and saving food for later consumption."
       },
       {
         "id": "B",
-        "text": "Choice B"
+        "text": "It conveys that many animals will usually prioritize gathering food over other activities."
       },
       {
         "id": "C",
-        "text": "Choice C"
+        "text": "It suggests that animals often store more food than they will be able to consume."
       },
       {
         "id": "D",
-        "text": "Choice D"
+        "text": "It emphasizes that many animals collect food automatically rather than with true intention."
       }
     ],
-    "correctAnswer": "A",
-    "topic": "Reading Comprehension: Evidence & Inference",
-    "difficulty": "Medium",
+    "correctAnswer": "D",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Easy",
     "hints": [
-      "Locate the specific lines in the passage.",
-      "Compare each answer choice strictly to the line citations.",
-      "Eliminate distractors that exaggerate or misrepresent the author's tone."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Avoid choices that use extreme absolute words like 'always', 'never', or 'entirely' unless backed by the passage.",
-    "explanation": "The selected choice is backed directly by textual evidence in the official practice test."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e2_ela_10",
@@ -4404,36 +4507,1581 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 10,
     "passageId": "e2_p2",
     "type": "multiple_choice",
-    "prompt": "Practice Form B: Reading Comprehension analysis question 10.",
+    "prompt": "capable of planning?",
     "imageSrc": "/exams/exam2/items/ela_q10.png",
     "options": [
       {
         "id": "A",
-        "text": "Choice A"
+        "text": "They accepted treats from the box."
       },
       {
         "id": "B",
-        "text": "Choice B"
+        "text": "They set aside the stone that would open the box."
       },
       {
         "id": "C",
-        "text": "Choice C"
+        "text": "They learned which stone could open the box."
       },
       {
         "id": "D",
-        "text": "Choice D"
+        "text": "They waited for researchers to bring the box."
+      }
+    ],
+    "correctAnswer": "B",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Easy",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e2_ela_11",
+    "examId": "exam2",
+    "section": "ela",
+    "questionNumber": 11,
+    "passageId": "e2_p2",
+    "type": "multiple_choice",
+    "prompt": "contribute to the development of ideas?",
+    "imageSrc": "/exams/exam2/items/ela_q11.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "It introduces a problem with the results of the study at Lund University, suggesting that some scientists believe that further research will not lead to a clear answer."
+      },
+      {
+        "id": "B",
+        "text": "It summarizes the final steps of the study at Lund University, emphasizing the difficulties researchers had in differentiating between true planning and practiced actions. \u2022 I"
+      },
+      {
+        "id": "C",
+        "text": "It provides a conclusion to the information about the Lund University study, indicating that some scientists think further research is needed in order to prove the idea."
+      },
+      {
+        "id": "D",
+        "text": "It lists the effects of the study at Lund University, implying that researchers should have designed experiments that better differentiated between planning and instinct."
       }
     ],
     "correctAnswer": "C",
-    "topic": "Reading Comprehension: Evidence & Inference",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Easy",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e2_ela_12",
+    "examId": "exam2",
+    "section": "ela",
+    "questionNumber": 12,
+    "passageId": "e2_p2",
+    "type": "multiple_choice",
+    "prompt": "The author conveys a point of view on the study of animal intelligence mainly by",
+    "imageSrc": "/exams/exam2/items/ela_q12.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "sharing details about experiments that tested the ability of an animal to plan for the future."
+      },
+      {
+        "id": "B",
+        "text": "comparing the results of different experiments that were designed to test animal intelligence."
+      },
+      {
+        "id": "C",
+        "text": "critiquing experiments that aimed to demonstrate that certain animals are capable of planning for the future."
+      },
+      {
+        "id": "D",
+        "text": "explaining how modern experiments show that previously held beliefs about animal intelligence are inaccurate."
+      }
+    ],
+    "correctAnswer": "A",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Easy",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e2_ela_13",
+    "examId": "exam2",
+    "section": "ela",
+    "questionNumber": 13,
+    "passageId": "e2_p3",
+    "type": "multiple_choice",
+    "prompt": "With which statement would the author of the passage most likely agree?",
+    "imageSrc": "/exams/exam2/items/ela_q13.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "Scientists are unlikely to be able to conduct an experiment that can genuinely distinguish between instinctual and learned behaviors in animals."
+      },
+      {
+        "id": "B",
+        "text": "Scientists should continue researching to determine whether or not animals can demonstrate advanced intelligence."
+      },
+      {
+        "id": "C",
+        "text": "Scientists should be careful about making conclusions about animal intelligence based on experiments that rely on training animals."
+      },
+      {
+        "id": "D",
+        "text": "Scientists can confirm data on whether animals have the ability to plan by performing experiments on additional species known for their intelligence."
+      }
+    ],
+    "correctAnswer": "B",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Easy",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e2_ela_14",
+    "examId": "exam2",
+    "section": "ela",
+    "questionNumber": 14,
+    "passageId": "e2_p3",
+    "type": "multiple_choice",
+    "prompt": "tell her\" affect the tone in the first part of the excerpt?",
+    "imageSrc": "/exams/exam2/items/ela_q14.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "It creates an accusatory tone by suggesting that Margaret believes that others are responsible for her problem."
+      },
+      {
+        "id": "B",
+        "text": "It introduces a defiant tone by suggesting that Margaret left the train early to prove a point."
+      },
+      {
+        "id": "C",
+        "text": "It suggests a frustrated tone by showing that Margaret feels confused by the inconsistent help offered by the railroad employees."
+      },
+      {
+        "id": "D",
+        "text": "It establishes an appreciative tone by showing that Margaret feels cared for by the railroad employees."
+      }
+    ],
+    "correctAnswer": "C",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Easy",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e2_ela_15",
+    "examId": "exam2",
+    "section": "ela",
+    "questionNumber": 15,
+    "passageId": "e2_p3",
+    "type": "multiple_choice",
+    "prompt": "unaccustomed to traveling to new places by train?",
+    "imageSrc": "/exams/exam2/items/ela_q15.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "\"With a lurch the train came to a dead stop and Margaret Earle, hastily gathering up her belongings, hurried down the aisle and got out into the night.\" (paragraph 1)"
+      },
+      {
+        "id": "B",
+        "text": "\"Perhaps something was the matter with the engine that detained them and they had forgotten her for the moment.\" (paragraph 2)"
+      },
+      {
+        "id": "C",
+        "text": "\"Did they not have platforms in this wild Western land, or was the train so long that her car had stopped before reaching it?\" (paragraph 3)"
+      },
+      {
+        "id": "D",
+        "text": "\"She could dimly see moving figures away up near the engine, and each one evidently carried a lantern.\" (paragraph 4)"
+      }
+    ],
+    "correctAnswer": "C",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Easy",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e2_ela_16",
+    "examId": "exam2",
+    "section": "ela",
+    "questionNumber": 16,
+    "passageId": "e2_p3",
+    "type": "multiple_choice",
+    "prompt": "Excerpt from A Voice in the Wilderness by Grace Livingston Hill 1 With a lurch the train came to a dead stop and Margaret Earle, hastily gathering up her belongings, hurried down the aisle and got out into the night. 2 It occurred to her, as she swung her heavy suit-case down the rather long step to the ground, and then carefully swung herself after it, that it was strange that neither conductor, brakeman, nor porter had come to help her off the train, when all three had taken the trouble to tell her that hers was the next station; but she could hear voices up ahead. Perhaps something was the matter with the engine that detained them and they had forgotten her for the moment. 3 The ground was rough where she stood, and there seemed no sign of a platform. Did they not have platforms in this wild Western land, or was the train so long that her car had stopped before reaching it? 4 She strained her eyes into the darkness, and tried to make out c- 11 - 1... Read this sentence from paragraph 4. She strained her eyes into the darkness, and tried to make out things from the two or three specks of light that danced about like fireflies in the distance. The simile used in the sentence affects the tone of the paragraph by emphasizing a O A. feeling of comfort as Margaret connects her unfamiliar surroundings with familiar images. B. sense of lonesomeness as Margaret realizes that she is on her own in the wilderness. \u2022 C. sense of tranquility as Margaret is distracted from the urgency of her situation by the beauty of the night. \u2022 D. feeling of dread as Margaret regards the desolation of the land that surrounds her.",
+    "imageSrc": "/exams/exam2/items/ela_q16.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      }
+    ],
+    "correctAnswer": "B",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
     "difficulty": "Medium",
     "hints": [
-      "Locate the specific lines in the passage.",
-      "Compare each answer choice strictly to the line citations.",
-      "Eliminate distractors that exaggerate or misrepresent the author's tone."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Avoid choices that use extreme absolute words like 'always', 'never', or 'entirely' unless backed by the passage.",
-    "explanation": "The selected choice is backed directly by textual evidence in the official practice test."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e2_ela_17",
+    "examId": "exam2",
+    "section": "ela",
+    "questionNumber": 17,
+    "passageId": "e2_p3",
+    "type": "multiple_choice",
+    "prompt": "porter affect the plot?",
+    "imageSrc": "/exams/exam2/items/ela_q17.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "They prompt Margaret to get off the train without further assistance."
+      },
+      {
+        "id": "B",
+        "text": "They cause Margaret to think that she knows what to do once she gets off the train."
+      },
+      {
+        "id": "C",
+        "text": "They compel Margaret to wonder whether the train has not pulled all the way into the station."
+      },
+      {
+        "id": "D",
+        "text": "They lead Margaret to believe that train stations in rural areas lack platforms."
+      }
+    ],
+    "correctAnswer": "A",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Medium",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e2_ela_18",
+    "examId": "exam2",
+    "section": "ela",
+    "questionNumber": 18,
+    "passageId": "e2_p3",
+    "type": "multiple_choice",
+    "prompt": "Excerpt from A Voice in the Wilderness by Grace Livingston Hill 1 With a lurch the train came to a dead stop and Margaret Earle, hastily gathering up her belongings, hurried down the aisle and got out into the night. 2 It occurred to her, as she swung her heavy suit-case down the rather long step to the ground, and then carefully swung herself after it, that it was strange that neither conductor, brakeman, nor porter had come to help her off the train, when all three had taken the trouble to tell her that hers was the next station; but she could hear voices up ahead. Perhaps something was the matter with the engine that detained them and they had forgotten her for the moment. 3 The ground was rough where she stood, and there seemed no sign of a platform. Did they not have platforms in this wild Western land, or was the train so long that her car had stopped before reaching it? 4 She strained her eyes into the darkness, and tried to make out How does Margaret's experience in paragraph 9 emphasize a theme of the excerpt? \u2022 A. It confirms Margaret's understanding that she cannot rely on help from anyone else. \u2022 B. It leads Margaret to realize that her desire to change her situation is impractical. O C. It causes Margaret to believe that her own actions led to an unfavorable outcome. \u2022 D. It reinforces Margaret's frustration about her lack of control over her surroundings.",
+    "imageSrc": "/exams/exam2/items/ela_q18.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      }
+    ],
+    "correctAnswer": "A",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Medium",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e2_ela_19",
+    "examId": "exam2",
+    "section": "ela",
+    "questionNumber": 19,
+    "passageId": "e2_p3",
+    "type": "multiple_choice",
+    "prompt": "How does paragraph 11 contribute to the plot of the excerpt?",
+    "imageSrc": "/exams/exam2/items/ela_q19.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "It reveals that the reality of the situation is different from Margaret's assumptions."
+      },
+      {
+        "id": "B",
+        "text": "It illustrates that Margaret's main problem is her own imagination."
+      },
+      {
+        "id": "C",
+        "text": "It shows that Margaret is surprised by the unexpected adventure she is about to undertake."
+      },
+      {
+        "id": "D",
+        "text": "It provides insight into how Margaret reacts to stressful situations."
+      }
+    ],
+    "correctAnswer": "A",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Medium",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e2_ela_20",
+    "examId": "exam2",
+    "section": "ela",
+    "questionNumber": 20,
+    "passageId": "e2_p4",
+    "type": "multiple_choice",
+    "prompt": "challenges Ederle faced in attempting her feat?",
+    "imageSrc": "/exams/exam2/items/ela_q20.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "Regardless of her ability, being an American put Ederle at a serious disadvantage over a Londoner, who would be more familiar with the English Channel."
+      },
+      {
+        "id": "B",
+        "text": "At the time, Ederle still needed more training in order to succeed in the daunting task of swimming the English Channel."
+      },
+      {
+        "id": "C",
+        "text": "While Ederle could participate in athletic competition, some people were not comfortable with her attempt to swim the channel because no woman had ever attempted it before."
+      },
+      {
+        "id": "D",
+        "text": "In spite of her previous achievements, Ederle still experienced social as well as physical obstacles in attempting to swim the channel."
+      }
+    ],
+    "correctAnswer": "D",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Medium",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e2_ela_21",
+    "examId": "exam2",
+    "section": "ela",
+    "questionNumber": 21,
+    "passageId": "e2_p4",
+    "type": "multiple_choice",
+    "prompt": "Champion of the Channel 1 In 1926 an editor at the London Daily News predicted that Gertrude Ederle, an American swimmer with eighteen world records and three Olympic medals, would fail in her attempt to swim across the English Channel. He claimed that \"even the most uncompromising champion of the rights and capacities of women must admit that in contests of physical skill, speed and endurance they must remain forever the weaker sex.\" Yet, at only nineteen years old, Ederle not only became the first woman to accomplish this feat, she also broke the men's record by two hours. Gertrude Ederle's triumphant swim across the English Channel was a testimony to her determination, innovative spirit, and passion for swimming. 2 Crossing the English Channel is a daunting task for any swimmer. At its narrowest point, the channel measures twenty-one miles across. Its icy waters hover around sixty degrees Fahrenheit, and its unruly tides and currents toss swimmers about like bobbing corks. Stinging jellyfish, seaweed, and floating debris from shipwrecks and lost cargoes present added hazards. Read this sentence from paragraph 4. During her first channel-crossing attempt she had worn a standard one-piece swimsuit that, after the lengthy hours of swimming across the channel, had stretched out, filling with water and creating drag, making an already challenging task almost insurmountable. The word \"insurmountable\" is used to highlight",
+    "imageSrc": "/exams/exam2/items/ela_q21.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "how the bathing suit made it impossible for Ederle to make it across the channel."
+      },
+      {
+        "id": "B",
+        "text": "how Ederle and her sister decided to improve Ederle's swimming equipment in a creative way."
+      },
+      {
+        "id": "C",
+        "text": "that the flaws in Ederle's bathing suit made a difficult task even more complicated."
+      },
+      {
+        "id": "D",
+        "text": "that the swimming equipment Ederle used needed to be custom made for her attempt."
+      }
+    ],
+    "correctAnswer": "C",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Medium",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e2_ela_22",
+    "examId": "exam2",
+    "section": "ela",
+    "questionNumber": 22,
+    "passageId": "e2_p4",
+    "type": "multiple_choice",
+    "prompt": "passage?",
+    "imageSrc": "/exams/exam2/items/ela_q22.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "Detailing the challenges presented by the cold channel waters highlights the effectiveness of Ederle's training."
+      },
+      {
+        "id": "B",
+        "text": "Describing Ederle's physical difficulties during her swim provides evidence of the team effort required to ensure her safety."
+      },
+      {
+        "id": "C",
+        "text": "Explaining the difficulties that arose early in the effort helps predict the additional obstacles that occurred during Ederle's attempt."
+      },
+      {
+        "id": "D",
+        "text": "Illustrating Ederle's process of blocking out her discomfort shows that swimming the channel was both a mental and a physical challenge."
+      }
+    ],
+    "correctAnswer": "D",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Medium",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e2_ela_23",
+    "examId": "exam2",
+    "section": "ela",
+    "questionNumber": 23,
+    "passageId": "e2_p4",
+    "type": "multiple_choice",
+    "prompt": "across the channel because of her innovative approach to the challenge?",
+    "imageSrc": "/exams/exam2/items/ela_q23.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "\"Yet, at only nineteen years old, Ederle not only became the first woman to accomplish this feat, she also broke the men's record by two hours.\" (paragraph 1)"
+      },
+      {
+        "id": "B",
+        "text": "\"At first she shivered in the bone-chilling water even though she had covered her body in eight layers of grease for insulation.\" (paragraph 5)"
+      },
+      {
+        "id": "C",
+        "text": "\"Using a new overhand stroke called the American crawl. Ederle eventually settled into a steady pace, briskly breaking through waves.\" (paragraph 5)"
+      },
+      {
+        "id": "D",
+        "text": "\"The other [tugboat], displaying a sign that read 'This way, ole kid!' with an arrow pointing forward, transported her coach, family, and friends.\" (paragraph 6)"
+      }
+    ],
+    "correctAnswer": "C",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Medium",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e2_ela_24",
+    "examId": "exam2",
+    "section": "ela",
+    "questionNumber": 24,
+    "passageId": "e2_p4",
+    "type": "multiple_choice",
+    "prompt": "Champion of the Channel 1 In 1926 an editor at the London Daily News predicted that Gertrude Ederle, an American swimmer with eighteen world records and three Olympic medals, would fail in her attempt to swim across the English Channel. He claimed that \"even the most uncompromising champion of the rights and capacities of women must admit that in contests of physical skill, speed and endurance they must remain forever the weaker sex.\" Yet, at only nineteen years old, Ederle not only became the first woman to accomplish this feat, she also broke the men's record by two hours. Gertrude Ederle's triumphant swim across the English Channel was a testimony to her determination, innovative spirit, and passion for swimming. 2 Crossing the English Channel is a daunting task for any swimmer. At its narrowest point, the channel measures twenty-one miles across. Its icy waters hover around sixty degrees Fahrenheit, and its unruly tides and currents toss swimmers about like bobbing corks. Stinging jellyfish, seaweed, and floating debris from shipwrecks and lost cargoes present added hazards. Paragraph 7 contributes to the development of a central idea of the passage by",
+    "imageSrc": "/exams/exam2/items/ela_q24.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "illustrating that Ederle's physical strength and mental fortitude allowed her to stay focused on her goal."
+      },
+      {
+        "id": "B",
+        "text": "conveying that Ederle pushed herself to the edge of her physical capabilities in order to complete the swim."
+      },
+      {
+        "id": "C",
+        "text": "highlighting the impact the severe weather had on Ederle's emotions during her swim."
+      },
+      {
+        "id": "D",
+        "text": "emphasizing the surge of emotions Ederle felt as she came closer to achieving a personal goal."
+      }
+    ],
+    "correctAnswer": "D",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Medium",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e2_ela_25",
+    "examId": "exam2",
+    "section": "ela",
+    "questionNumber": 25,
+    "passageId": "e2_p4",
+    "type": "multiple_choice",
+    "prompt": "regarding the impact of Ederle's accomplishment?",
+    "imageSrc": "/exams/exam2/items/ela_q25.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "\"Undeterred, Ederle decided to try again.\" (paragraph 3)"
+      },
+      {
+        "id": "B",
+        "text": "\"For hours Ederle swam, dodging debris with an amused smile.\" (paragraph 7)"
+      },
+      {
+        "id": "C",
+        "text": "\"Yet Ederle felt indescribably happy as she churned through the sea.\" (paragraph 7)"
+      },
+      {
+        "id": "D",
+        "text": "\"Ederle had swum into history.\" (paragraph 8)"
+      }
+    ],
+    "correctAnswer": "D",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Medium",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e2_ela_26",
+    "examId": "exam2",
+    "section": "ela",
+    "questionNumber": 26,
+    "passageId": "e2_p4",
+    "type": "multiple_choice",
+    "prompt": "for her second attempt to swim across the English Channel?",
+    "imageSrc": "/exams/exam2/items/ela_q26.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "Working with her sister, Ederle waterproofed her goggles using melted candle wax to seal the edges and designed a two-piece silk swimsuit that was lightweight and would not stretch out during the long swim. \u2022"
+      },
+      {
+        "id": "B",
+        "text": "Ederle covered her body in numerous layers of grease for insulation and focused on finding her \"sphere\" during her swim"
+      },
+      {
+        "id": "C",
+        "text": "Ederle began training with her coach, who played music while she swam to help her time her strokes to the music."
+      },
+      {
+        "id": "D",
+        "text": "Ederle focused on developing better equipment than the standard bathing suit that proved cumbersome during her first attempt to cross the channel."
+      }
+    ],
+    "correctAnswer": "A",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Medium",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e2_ela_27",
+    "examId": "exam2",
+    "section": "ela",
+    "questionNumber": 27,
+    "passageId": "e2_p4",
+    "type": "multiple_choice",
+    "prompt": "Champion of the Channel 1 In 1926 an editor at the London Daily News predicted that Gertrude Ederle, an American swimmer with eighteen world records and three Olympic medals, would fail in her attempt to swim across the English Channel. He claimed that \"even the most uncompromising champion of the rights and capacities of women must admit that in contests of physical skill, speed and endurance they must remain forever the weaker sex.\" Yet, at only nineteen years old, Ederle not only became the first woman to accomplish this feat, she also broke the men's record by two hours. Gertrude Ederle's triumphant swim across the English Channel was a testimony to her determination, innovative spirit, and passion for swimming. 2 Crossing the English Channel is a daunting task for any swimmer. At its narrowest point, the channel measures twenty-one miles across. Its icy waters hover around sixty degrees Fahrenheit, and its unruly tides and currents toss swimmers about like bobbing corks. Stinging jellyfish, seaweed, and floating debris from shipwrecks and lost cargoes present added hazards. The idea that many people were interested in Ederle's attempt to swim the channel is illustrated in the passage mainly through the",
+    "imageSrc": "/exams/exam2/items/ela_q27.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "information about Ederle's competition with another female swimmer who was also attempting to cross the channel."
+      },
+      {
+        "id": "B",
+        "text": "details about the reports of Ederle's progress during the swim and the celebration of her successful completion of the swim."
+      },
+      {
+        "id": "C",
+        "text": "details about how Ederle's historic swim contributed to an increase in the number of people learning how to swim."
+      },
+      {
+        "id": "D",
+        "text": "information about the resources Ederle used throughout her swim to maintain her motivation and stamina."
+      }
+    ],
+    "correctAnswer": "B",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Medium",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e2_ela_28",
+    "examId": "exam2",
+    "section": "ela",
+    "questionNumber": 28,
+    "passageId": "e2_p5",
+    "type": "multiple_choice",
+    "prompt": "Champion of the Channel 1 In 1926 an editor at the London Daily News predicted that Gertrude Ederle, an American swimmer with eighteen world records and three Olympic medals, would fail in her attempt to swim across the English Channel. He claimed that \"even the most uncompromising champion of the rights and capacities of women must admit that in contests of physical skill, speed and endurance they must remain forever the weaker sex.\" Yet, at only nineteen years old, Ederle not only became the first woman to accomplish this feat, she also broke the men's record by two hours. Gertrude Ederle's triumphant swim across the English Channel was a testimony to her determination, innovative spirit, and passion for swimming. 2 Crossing the English Channel is a daunting task for any swimmer. At its narrowest point, the channel measures twenty-one miles across. Its icy waters hover around sixty degrees Fahrenheit, and its unruly tides and currents toss swimmers about like bobbing corks. Stinging jellyfish, seaweed, and floating debris from shipwrecks and lost cargoes present added hazards. The table builds on the information in the passage mainly by",
+    "imageSrc": "/exams/exam2/items/ela_q28.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "emphasizing that people have continued to swim across the channel and have significantly improved the speed record. \u2022 I"
+      },
+      {
+        "id": "B",
+        "text": "suggesting that Ederle inspired many women to swim across the channel to attempt to break the current speed record."
+      },
+      {
+        "id": "C",
+        "text": "revealing that other women competed with Ederle to set a record time for swimming across the English Channel."
+      },
+      {
+        "id": "D",
+        "text": "providing a comparison between the earliest channel-swimming records and the current record times."
+      }
+    ],
+    "correctAnswer": "A",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Medium",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e2_ela_29",
+    "examId": "exam2",
+    "section": "ela",
+    "questionNumber": 29,
+    "passageId": "e2_p5",
+    "type": "multiple_choice",
+    "prompt": "In this excerpt, published in 1914, author and professor Dallas Lore Sharp describes a summer cattle roundup in Oregon. The heat and dust had been relentless for three days. The cowboys were exhausted, and the cattle were restless. The ranch boss, Wade, had led the drive to a watering place, only to find it empty. Excerpt from \"The Spirit of the Herd\" by Dallas Lore Sharp 1 Along with the wagon had come the fresh horses\u2014one of them being Peroxide Jim, a supple, powerful, clean-limbed buckskin, a horse, I think, that had as fine and intelligent an animal-face as any creature I ever saw. Wade had been saving this horse for emergency work. And why should he not have been saved fresh for just such a need as this? Are there not superior horses as well as superior men\u2014a Peroxide Jim to complement",
+    "imageSrc": "/exams/exam2/items/ela_q29.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "Wade? 2 The horse knew the cattle business and knew his rider perfectly; and though there was nothing like sentiment about the boss of the P Ranch riders his faith in Pernxide lim was comnlete Which sentence from the excerpt best explains why Wade reserved Peroxide Jim for \"emergency work\" (paragraph 1)? A. \"Are there not superior horses as well as superior men\u2014a Peroxide Jim to complement a Wade?\" (paragraph 1)"
+      },
+      {
+        "id": "B",
+        "text": "\"Before him, behind him, beside him, pressing hard upon his horse, galloped the frenzied steers, and beyond them a multitude borne on, and bearing him on, by the heave of the galloping herd.\" (paragraph 10)"
+      },
+      {
+        "id": "C",
+        "text": "\"He knew that he was being borne toward the rim, how fast he could not tell, but he knew by the swish of the brush against his tapaderos and the plunging of the horse that the ground was growing stonier, that they were nearing the rocks.\" (paragraph 11)"
+      },
+      {
+        "id": "D",
+        "text": "\"From the flash of the lightning the horse had taken the bit, had covered an indescribably perilous path at top speed, had outrun the herd and turned it from the edge of the rim rock, without a false step or a tremor of fear.\" (paragraph 16)"
+      }
+    ],
+    "correctAnswer": "D",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Medium",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e2_ela_30",
+    "examId": "exam2",
+    "section": "ela",
+    "questionNumber": 30,
+    "passageId": "e2_p5",
+    "type": "multiple_choice",
+    "prompt": "In this excerpt, published in 1914, author and professor Dallas Lore Sharp describes a summer cattle roundup in Oregon. The heat and dust had been relentless for three days. The cowboys were exhausted, and the cattle were restless. The ranch boss, Wade, had led the drive to a watering place, only to find it empty. Excerpt from \"The Spirit of the Herd\" by Dallas Lore Sharp Along with the wagon had come the fresh horses-one of them being Peroxide Jim, a supple, powerful, clean-limbed buckskin, a horse, I think, that had as fine and intelligent an animal-face as any creature I ever saw. Wade had been saving this horse for emergency work. And why should he not have been saved fresh for just such a need as this? Are there not superior horses as well as superior men\u2014a Peroxide Jim to complement",
+    "imageSrc": "/exams/exam2/items/ela_q30.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "Wade? 2 The horse knew the cattle business and knew his rider perfectly; and though there was nothing like sentiment about the boss of the P Ranch riders his faith in Pernxide lim was camnlete Paragraphs 1-2 contribute to the development of the central idea of the excerpt by A. revealing the respect Wade had for his horse."
+      },
+      {
+        "id": "B",
+        "text": "emphasizing Wade's high expectations of his horse and himself."
+      },
+      {
+        "id": "C",
+        "text": "indicating that Wade and his horse understood the cattle business. \u2022 I"
+      },
+      {
+        "id": "D",
+        "text": "demonstrating Wade's ability to gauge a horse's competence."
+      }
+    ],
+    "correctAnswer": "A",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Medium",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e2_ela_31",
+    "examId": "exam2",
+    "section": "ela",
+    "questionNumber": 31,
+    "passageId": "e2_p5",
+    "type": "multiple_choice",
+    "prompt": "In this excerpt, published in 1914, author and professor Dallas Lore Sharp describes a summer cattle roundup in Oregon. The heat and dust had been relentless for three days. The cowboys were exhausted, and the cattle were restless. The ranch boss, Wade, had led the drive to a watering place, only to find it empty. Excerpt from \"The Spirit of the Herd\" by Dallas Lore Sharp 1 Along with the wagon had come the fresh horses-one of them being Peroxide Jim, a supple, powerful, clean-limbed buckskin, a horse, I think, that had as fine and intelligent an animal-face as any creature I ever saw. Wade had been saving this horse for emergency work. And why should he not have been saved fresh for just such a need as this? Are there not superior horses as well as superior men\u2014a Peroxide Jim to complement",
+    "imageSrc": "/exams/exam2/items/ela_q31.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "Wade? 2 The horse knew the cattle business and knew his rider perfectly; and though there was nothing like sentiment about the boss of the P Ranch riders his faith in Pernxide lim was camnlete How does paragraph 3 convey the effect of the setting on the cattle drive? \u2022 A. It shows how the growing darkness created challenges for the riders in getting the herd to move."
+      },
+      {
+        "id": "B",
+        "text": "It describes how the changing elevation contributed to the dangerousness of the environment."
+      },
+      {
+        "id": "C",
+        "text": "It describes how the desert created an uncomfortable feeling of isolation for the riders and the cattle."
+      },
+      {
+        "id": "D",
+        "text": "It shows how the steep terrain made it difficult for the cattle to keep moving forward."
+      }
+    ],
+    "correctAnswer": "B",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Medium",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e2_ela_32",
+    "examId": "exam2",
+    "section": "ela",
+    "questionNumber": 32,
+    "passageId": "e2_p5",
+    "type": "multiple_choice",
+    "prompt": "In this excerpt, published in 1914, author and professor Dallas Lore Sharp describes a summer cattle roundup in Oregon. The heat and dust had been relentless for three days. The cowboys were exhausted, and the cattle were restless. The ranch boss, Wade, had led the drive to a watering place, only to find it empty. Excerpt from \"The Spirit of the Herd\" by Dallas Lore Sharp 1 Along with the wagon had come the fresh horses\u2014one of them being Peroxide Jim, a supple, powerful, clean-limbed buckskin, a horse, I think, that had as fine and intelligent an animal-face as any creature I ever saw. Wade had been saving this horse for emergency work. And why should he not have been saved fresh for just such a need as this? Are there not superior horses as well as superior men\u2014a Peroxide Jim to complement",
+    "imageSrc": "/exams/exam2/items/ela_q32.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "Wade? 2 The horse knew the cattle business and knew his rider perfectly; and though there was nothing like sentiment about the boss of the P Ranch riders his faith in Pernxide lim was camnlete Read this sentence from paragraph 13. Close on their left bore down the flank of the herd, and on their right, under their very feet, was a precipice, so close that they felt its blackness\u2014its three hundred feet of fall! The phrase \"bore down the flank of the herd\" conveys that Wade \u2022 A. struggled to see the front of the herd."
+      },
+      {
+        "id": "B",
+        "text": "had to ride quickly to keep up with the herd."
+      },
+      {
+        "id": "C",
+        "text": "was forced to ride between the edge of the cliff and the herd."
+      },
+      {
+        "id": "D",
+        "text": "knew that the drop of the cliff would frighten the herd."
+      }
+    ],
+    "correctAnswer": "C",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Medium",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e2_ela_33",
+    "examId": "exam2",
+    "section": "ela",
+    "questionNumber": 33,
+    "passageId": "e2_p5",
+    "type": "multiple_choice",
+    "prompt": "In this excerpt, published in 1914, author and professor Dallas Lore Sharp describes a summer cattle roundup in Oregon. The heat and dust had been relentless for three days. The cowboys were exhausted, and the cattle were restless. The ranch boss, Wade, had led the drive to a watering place, only to find it empty. Excerpt from \"The Spirit of the Herd\" by Dallas Lore Sharp 1 Along with the wagon had come the fresh horses-one of them being Peroxide Jim, a supple, powerful, clean-limbed buckskin, a horse, I think, that had as fine and intelligent an animal-face as any creature I ever saw. Wade had been saving this horse for emergency work. And why should he not have been saved fresh for just such a need as this? Are there not superior horses as well as superior men\u2014a Peroxide Jim to complement",
+    "imageSrc": "/exams/exam2/items/ela_q33.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "Wade? 2 The horse knew the cattle business and knew his rider perfectly; and though there was nothing like sentiment about the boss of the P Ranch riders his faith in Pernxide lim was comnlete Read these sentences from the excerpt. He was riding to turn the herd, too, back from the rim, as the horse also knew. (paragraph 11) It was Peroxide Jim's, according to Wade, for not by word or by touch of hand or knee had the horse been directed in the run. (paragraph 16) How do these sentences develop a central idea in the excerpt? \u2022 A. They suggest that Wade would have been unable to save the herd without Peroxide Jim."
+      },
+      {
+        "id": "B",
+        "text": "They imply that Wade spent many hours training Peroxide Jim to herd cattle."
+      },
+      {
+        "id": "C",
+        "text": "They show that Peroxide Jim was able to understand a situation and take action."
+      },
+      {
+        "id": "D",
+        "text": "They indicate that Peroxide Jim was unafraid of the dangers presented by the stampede and the cliff."
+      }
+    ],
+    "correctAnswer": "C",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Medium",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e2_ela_34",
+    "examId": "exam2",
+    "section": "ela",
+    "questionNumber": 34,
+    "passageId": "e2_p5",
+    "type": "multiple_choice",
+    "prompt": "In this excerpt, published in 1914, author and professor Dallas Lore Sharp describes a summer cattle roundup in Oregon. The heat and dust had been relentless for three days. The cowboys were exhausted, and the cattle were restless. The ranch boss, Wade, had led the drive to a watering place, only to find it empty. Excerpt from \"The Spirit of the Herd\" by Dallas Lore Sharp Along with the wagon had come the fresh horses-one of them being Peroxide Jim, a supple, powerful, clean-limbed buckskin, a horse, I think, that had as fine and intelligent an animal-face as any creature I ever saw. Wade had been saving this horse for emergency work. And why should he not have been saved fresh for just such a need as this? Are there not superior horses as well as superior men\u2014a Peroxide Jim to complement",
+    "imageSrc": "/exams/exam2/items/ela_q34.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "Wade? 2 The horse knew the cattle business and knew his rider perfectly; and though there was nothing like sentiment about the boss of the P Ranch riders his faith in Pernxide lim was camnlete How do the details in paragraphs 14-16 help convey a central idea of the excerpt? A. They highlight Peroxide Jim's natural ability to control the herd."
+      },
+      {
+        "id": "B",
+        "text": "They emphasize the danger of the situation from which Peroxide Jim rescued the herd."
+      },
+      {
+        "id": "C",
+        "text": "They show that Peroxide Jim's physical strength allowed him to force the herd to turn."
+      },
+      {
+        "id": "D",
+        "text": "They indicate that Peroxide Jim anticipated the herd's stampede before the men did."
+      }
+    ],
+    "correctAnswer": "A",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Medium",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e2_ela_35",
+    "examId": "exam2",
+    "section": "ela",
+    "questionNumber": 35,
+    "passageId": "e2_p6",
+    "type": "multiple_choice",
+    "prompt": "In this excerpt, published in 1914, author and professor Dallas Lore Sharp describes a summer cattle roundup in Oregon. The heat and dust had been relentless for three days. The cowboys were exhausted, and the cattle were restless. The ranch boss, Wade, had led the drive to a watering place, only to find it empty. Excerpt from \"The Spirit of the Herd\" by Dallas Lore Sharp Along with the wagon had come the fresh horses-one of them being Peroxide Jim, a supple, powerful, clean-limbed buckskin, a horse, I think, that had as fine and intelligent an animal-face as any creature I ever saw. Wade had been saving this horse for emergency work. And why should he not have been saved fresh for just such a need as this? Are there not superior horses as well as superior men\u2014a Peroxide Jim to complement",
+    "imageSrc": "/exams/exam2/items/ela_q35.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "Wade? 2 The horse knew the cattle business and knew his rider perfectly; and though there was nothing like sentiment about the boss of the P Ranch riders his faith in Pernxide lim was comnlete Which sentence from the excerpt best reveals the mood on the drive before the lightning struck? \u2022 A. \"The herd when overtaken by the dusk had been headed for a pass descending to the next lower bench, but was now halted within a mile of the rim rock on the east, where there was a perpendicular fall of about three hundred feet.\" (paragraph 3)"
+      },
+      {
+        "id": "B",
+        "text": "\"It was not to soothe their savage breasts that the riders sang to the cattle, but rather to preempt the dreaded silence, to relieve the tension, and so to prevent the shock of any sudden startling noise.\" (paragraph 5)"
+      },
+      {
+        "id": "C",
+        "text": "\"He checked his horse instantly, listening as the wind swept past him over the cattle.\" (paragraph 7)"
+      },
+      {
+        "id": "D",
+        "text": "\"Then the breeze caught the dust and carried it back from the gray-coated, ghostly shapes, and Wade saw that the animals were still moving in a circle.\" (paragraph 9)"
+      }
+    ],
+    "correctAnswer": "B",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Medium",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e2_ela_36",
+    "examId": "exam2",
+    "section": "ela",
+    "questionNumber": 36,
+    "passageId": "e2_p6",
+    "type": "multiple_choice",
+    "prompt": "The author most likely includes the quotation from the Scottish traveler in order to",
+    "imageSrc": "/exams/exam2/items/ela_q36.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "suggest that people around the world saw the direct contribution of nature and industry to the United States."
+      },
+      {
+        "id": "B",
+        "text": "compare the natural and industrial attractions in the United States at that time."
+      },
+      {
+        "id": "C",
+        "text": "convey the idea that the United States offered both natural and industrial attractions."
+      },
+      {
+        "id": "D",
+        "text": "imply that the natural resources in the United States contributed to the development of industry."
+      }
+    ],
+    "correctAnswer": "C",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Hard",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e2_ela_37",
+    "examId": "exam2",
+    "section": "ela",
+    "questionNumber": 37,
+    "passageId": "e2_p6",
+    "type": "multiple_choice",
+    "prompt": "Massachusetts: Lowell National Historical Park 1 During the first half of the 19th century, Lowell, Massachusetts, quickly transformed itself from a farm town to a bustling industrial city. Ir time, Lowell became a model of industry, gaining global recognition for it| state-of-the-art technology, innovative canal and dam system, mill architecture, boardinghouses, churches, and ethnic neighborhoods. Young Yankee women, immigrant families, and European tourists all flocked to Lowell to find work at one of the many textile mills, or visit the industrious city that was becoming a popular tourist destination. As one Scottish traveler observed during his visit to America, \"Niagara and Lowell are the two objects I will longest remember in my American journey, the one the glory of American scenery, the other of American industry.\" Today, Lowell National Historical Park welcomes visitors to enjoy the sights of Lowell and learn about the history of one of America's most significant industrial cities. 2) The Boston merchants who founded Lowell in 1821 and named it after Francis Cabot Lowell chose to locate the town along Massachusetts's MAnnimade Divanta talea advantana aftha linatio annume affaund hurthe",
+    "imageSrc": "/exams/exam2/items/ela_q37.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "central idea that Lowell was \"one of America's most significant industrial cities\" (paragraph 1) is conveyed in the passage primarily through a description of the A. canals, mills, and boardinghouses that were built by immigrants."
+      },
+      {
+        "id": "B",
+        "text": "mill girls and immigrants who comprised Lowell's workforce."
+      },
+      {
+        "id": "C",
+        "text": "development of the mills and the workforce established to support them."
+      },
+      {
+        "id": "D",
+        "text": "cultural diversity of the people who lived in the area."
+      }
+    ],
+    "correctAnswer": "C",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Hard",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e2_ela_38",
+    "examId": "exam2",
+    "section": "ela",
+    "questionNumber": 38,
+    "passageId": "e2_p6",
+    "type": "multiple_choice",
+    "prompt": "became \"a bustling industrial city\" (paragraph 1) in a short period of time?",
+    "imageSrc": "/exams/exam2/items/ela_q38.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "\"The Boston merchants who founded Lowell in 1821 and named it after Francis Cabot Lowell chose to locate the town along Massachusetts's Merrimack River to take advantage of the kinetic energy offered by the Pawtucket waterfalls.\""
+      },
+      {
+        "id": "B",
+        "text": "\"Over six miles of canals powered the waterwheels of Lowell's mills, whose massive five- and six-story brick buildings dominated the city's landscape.\""
+      },
+      {
+        "id": "C",
+        "text": "\"The most recognized of these buildings are the Lowell Manufacturing Company chartered in 1821, the Suffolk or Wannalancit Mill completed around the 1880s, the Boott Mill Company established in 1835, and the Boott Mill Boardinghouse that opened in 1838.\""
+      },
+      {
+        "id": "D",
+        "text": "\"By the 1850s, 40 textile mills employing over 10,000 workers stretched for about a mile along the river.\""
+      }
+    ],
+    "correctAnswer": "D",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Hard",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e2_ela_39",
+    "examId": "exam2",
+    "section": "ela",
+    "questionNumber": 39,
+    "passageId": "e2_p6",
+    "type": "multiple_choice",
+    "prompt": "structure of the passage?",
+    "imageSrc": "/exams/exam2/items/ela_q39.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "It provides a transition from a description of the mills to a description of the workforce in those mills. \u2022 I"
+      },
+      {
+        "id": "B",
+        "text": "It indicates a shift in tone from positive and hopeful to negative and dissatisfied with working conditions at the mill."
+      },
+      {
+        "id": "C",
+        "text": "It summarizes a challenge that led many women to leave their hometown and seek work in urban areas."
+      },
+      {
+        "id": "D",
+        "text": "It begins a comparison of the mill workforce between the mid-1800s and the late 1800s."
+      }
+    ],
+    "correctAnswer": "A",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Hard",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e2_ela_40",
+    "examId": "exam2",
+    "section": "ela",
+    "questionNumber": 40,
+    "passageId": "e2_p6",
+    "type": "multiple_choice",
+    "prompt": "passage?",
+    "imageSrc": "/exams/exam2/items/ela_q40.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "It implies that Lowell was founded by early Irish immigrants. \u2022 I"
+      },
+      {
+        "id": "B",
+        "text": "It emphasizes the important role Irish immigrants played in Lowell's history."
+      },
+      {
+        "id": "C",
+        "text": "It suggests that the new Irish immigrants were readily accepted into the community. O D. It highlights the working relationship between the mill girls and the new Irish immigrants."
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      }
+    ],
+    "correctAnswer": "B",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Hard",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e2_ela_41",
+    "examId": "exam2",
+    "section": "ela",
+    "questionNumber": 41,
+    "passageId": "e2_p6",
+    "type": "multiple_choice",
+    "prompt": "dominant workforce in Lowell?",
+    "imageSrc": "/exams/exam2/items/ela_q41.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "The mill girls were eager to leave their domestic duties and small towns behind, so they went to work in the mills of Lowell."
+      },
+      {
+        "id": "B",
+        "text": "Originally, the mill girls were satisfied to work in Lowell, but as they left their jobs at the Lowell mills, immigrants arrived to fill the empty positions."
+      },
+      {
+        "id": "C",
+        "text": "Young women left home to work in the Lowell mills, but the mill girls soon became dissatisfied with the working conditions and rigid boardinghouse rules."
+      },
+      {
+        "id": "D",
+        "text": "The mill girls embraced city life when they came to work in Lowell's mills, but when their protests about unfavorable working conditions went unanswered, they left."
+      }
+    ],
+    "correctAnswer": "D",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Hard",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e2_ela_42",
+    "examId": "exam2",
+    "section": "ela",
+    "questionNumber": 42,
+    "passageId": "e2_p6",
+    "type": "multiple_choice",
+    "prompt": "Massachusetts: Lowell National Historical Park \u2022 During the first half of the 19th century, Lowell, Massachusetts, quickly transformed itself from a farm town to a bustling industrial city. Ir time, Lowell became a model of industry, gaining global recognition for it| state-of-the-art technology, innovative canal and dam system, mill architecture, boardinghouses, churches, and ethnic neighborhoods. Young Yankee women, immigrant families, and European tourists all flocked to Lowell to find work at one of the many textile mills, or visit the industrious city that was becoming a popular tourist destination. As one scottish traveler observed during his visit to America, \"Niagara and Lowell are the two objects I will longest remember in my American journey, the one the glory of American scenery, the other of American industry.\" Today, Lowell National Historical Park welcomes visitors to enjoy the sights of Lowell and learn about the history of one of America's most significant industrial cities. 2) The Boston merchants who founded Lowell in 1821 and named it after Francis Cabot Lowell chose to locate the town along Massachusetts's MAnnimade Divanta talea advantana aftha linatio annume affaund hurthe The reason Lowell lost its status as an industrial leader is best illustrated through the",
+    "imageSrc": "/exams/exam2/items/ela_q42.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "description of poor living and working conditions."
+      },
+      {
+        "id": "B",
+        "text": "explanation for why some immigrant groups struggled to live together."
+      },
+      {
+        "id": "C",
+        "text": "comparison with other mills that used modern methods."
+      },
+      {
+        "id": "D",
+        "text": "information about the mills opening temporarily during World War II."
+      }
+    ],
+    "correctAnswer": "C",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Hard",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e2_ela_43",
+    "examId": "exam2",
+    "section": "ela",
+    "questionNumber": 43,
+    "passageId": "e2_p7",
+    "type": "multiple_choice",
+    "prompt": "the passage?",
+    "imageSrc": "/exams/exam2/items/ela_q43.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "Placing plants in homes and offices can provide a healthy bridge between nature and the indoors."
+      },
+      {
+        "id": "B",
+        "text": "It is important for people to realize that they need to spend more time near plants, whether indoors or out in nature."
+      },
+      {
+        "id": "C",
+        "text": "For their personal health and well-being, people need to spend more time outdoors or bring the outdoors in."
+      },
+      {
+        "id": "D",
+        "text": "Individuals with little connection to nature can experience illness, depression, and higher levels of stress."
+      }
+    ],
+    "correctAnswer": "A",
+    "topic": "Revising & Editing",
+    "subtopic": "Conventions of Language & Paragraph Organization",
+    "difficulty": "Hard",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e2_ela_44",
+    "examId": "exam2",
+    "section": "ela",
+    "questionNumber": 44,
+    "passageId": "e2_p7",
+    "type": "multi_select",
+    "prompt": "The Benefits of Indoor Plants (1) In an age of endless media content, it is easy to see why people might prefer to stay inside. (2) According to a study sponsored by the Environmental Protection Agency, Americans spend an average of 87 percent of their time indoors. (3) Scientists say that this separation between people and nature puts people at risk for physical and psychological issues. (4) During the process of photosynthesis, plants convert carbon dioxide into oxygen and remove many harmful toxins from the air. (5) Spending prolonged periods of time indoors, away from plants, deprives people of these benefits. (6) Air that is not regularly detoxified can lead to a condition known as sick building syndrome. (7) This disorder first came to light in the 1970s when many office workers in the United States began to complain of unexplained flu-like symptoms. (8) Researchers determined the cause to be volatile organic compounds, or VOCs. (9) VOCs are harmful chemicals that are emitted by everyday objects such as carpet, furniture, cleaning products, and computers. (10) The NASA Clan linGhid farind a rimala canuta ramares a rinnificant nimhor of Which transition word or phrase should be added to the beginning of sentence 5 to emphasize the relationship between sentences 4 and 5? Move the correct answer to the box. As a result, Primarily, In contrast, Unfortunately, (5) spending prolonged periods of time indoors, away from plants, deprives people of these benefits.",
+    "imageSrc": "/exams/exam2/items/ela_q44.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctAnswer": "\"Unfortunately,\"",
+    "topic": "Revising & Editing",
+    "subtopic": "Conventions of Language & Paragraph Organization",
+    "difficulty": "Hard",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: \"Unfortunately,\". This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e2_ela_45",
+    "examId": "exam2",
+    "section": "ela",
+    "questionNumber": 45,
+    "passageId": "e2_p7",
+    "type": "multiple_choice",
+    "prompt": "third paragraph (sentences 11-14)?",
+    "imageSrc": "/exams/exam2/items/ela_q45.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "A global study of 7,600 workers from sixteen countries revealed that employees who worked in spaces with natural elements, such as indoor plants, were more creative and productive than employees who worked in spaces without natural elements."
+      },
+      {
+        "id": "B",
+        "text": "Specifically, a study suggests that one well-known hotel is popular among guests because its owners have made a significant investment in landscaping and indoor plants known to have a relaxing effect."
+      },
+      {
+        "id": "C",
+        "text": "In fact, one recent study suggested that people who are routinely exposed to natural elements seem to increase their compassion for others, perhaps because that exposure generates compassion for the environment in which they live."
+      },
+      {
+        "id": "D",
+        "text": "According to a study that was conducted in 2003, plants can reduce the amount of noise that people perceive in indoor spaces with hard surfaces, just as adding carpet can make a room seem quieter."
+      }
+    ],
+    "correctAnswer": "A",
+    "topic": "Revising & Editing",
+    "subtopic": "Conventions of Language & Paragraph Organization",
+    "difficulty": "Hard",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e2_ela_46",
+    "examId": "exam2",
+    "section": "ela",
+    "questionNumber": 46,
+    "passageId": "e2_p7",
+    "type": "multiple_choice",
+    "prompt": "should be deleted?",
+    "imageSrc": "/exams/exam2/items/ela_q46.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "sentence 11"
+      },
+      {
+        "id": "B",
+        "text": "sentence 14"
+      },
+      {
+        "id": "C",
+        "text": "sentence 15"
+      },
+      {
+        "id": "D",
+        "text": "sentence 16"
+      }
+    ],
+    "correctAnswer": "D",
+    "topic": "Revising & Editing",
+    "subtopic": "Conventions of Language & Paragraph Organization",
+    "difficulty": "Hard",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e2_ela_47",
+    "examId": "exam2",
+    "section": "ela",
+    "questionNumber": 47,
+    "passageId": "e2_p7",
+    "type": "multiple_choice",
+    "prompt": "the information presented in the passage?",
+    "imageSrc": "/exams/exam2/items/ela_q47.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "Because indoor plants absorb the carbon dioxide in our air and release the oxygen we need to breathe, they are vital to our wholeness and wellness."
+      },
+      {
+        "id": "B",
+        "text": "Experts say that adding a Boston fern, a spider plant, or an aloe vera plant is a good place to start if you want to begin to incorporate nature into your home or office."
+      },
+      {
+        "id": "C",
+        "text": "More people should consider bringing natural elements inside to improve general wellness and reverse some of the negative effects of an indoor-centered society."
+      },
+      {
+        "id": "D",
+        "text": "As one study has confirmed, houseplants are a wise investment because they can remove almost 90 percent of the toxins in the air within the span of 24 hours."
+      }
+    ],
+    "correctAnswer": "C",
+    "topic": "Revising & Editing",
+    "subtopic": "Conventions of Language & Paragraph Organization",
+    "difficulty": "Hard",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e2_ela_48",
+    "examId": "exam2",
+    "section": "ela",
+    "questionNumber": 48,
+    "type": "multiple_choice",
+    "prompt": "Which sentence of the paragraph should be revised to correct a vague pronoun? (1) Eliza and Brianna have been singing in their school chorus since they were in fourth grade. (2) The girls always sing a duet at the school talent show, and they take turns singing the national anthem before school sporting events. (3) Outside of school, she also sings in a choir made up of young and old members of her community. (4) Both girls hope that they will be able to continue singing for many more years.",
+    "imageSrc": "/exams/exam2/items/ela_q48.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "sentence 1"
+      },
+      {
+        "id": "B",
+        "text": "sentence 2"
+      },
+      {
+        "id": "C",
+        "text": "sentence 3"
+      },
+      {
+        "id": "D",
+        "text": "sentence 4"
+      }
+    ],
+    "correctAnswer": "C",
+    "topic": "Revising & Editing",
+    "subtopic": "Conventions of Language & Paragraph Organization",
+    "difficulty": "Hard",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e2_ela_49",
+    "examId": "exam2",
+    "section": "ela",
+    "questionNumber": 49,
+    "type": "multiple_choice",
+    "prompt": "Which pair of revisions is needed to correct the errors in the paragraph? (1) Yalina, Michael, and Malcolm love making pancakes with their granddad on Saturday mornings. (2) Yalina's job is to open the box and pour the pancake mix into a bowl, slowly adding water, eggs, melted butter, and blueberries. (3) Michael uses a wooden spoon to vigorously stir the mixture until it is smooth, and Malcolm helps Granddad carefully pour the batter onto a griddle one-fourth cup at a time. (4) Granddad turns each pancake when they start to bubble, while all three siblings get the table ready for a sweet delicious breakfast.",
+    "imageSrc": "/exams/exam2/items/ela_q49.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sentence 1: Delete the comma after Yalina, AND change their to her."
+      },
+      {
+        "id": "B",
+        "text": "Sentence 2: Change is to are, AND delete the comma after bowl."
+      },
+      {
+        "id": "C",
+        "text": "Sentence 3: Change it is to they are, AND delete the comma after smooth."
+      },
+      {
+        "id": "D",
+        "text": "Sentence 4: Change they start to it starts, AND insert a comma after sweet."
+      }
+    ],
+    "correctAnswer": "D",
+    "topic": "Revising & Editing",
+    "subtopic": "Conventions of Language & Paragraph Organization",
+    "difficulty": "Hard",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e2_ela_50",
+    "examId": "exam2",
+    "section": "ela",
+    "questionNumber": 50,
+    "type": "text_entry",
+    "prompt": "Which sentence in the paragraph contains an error in construction? (1) The blobfish, a creature that certainly resembles its name, is an unusual fish whose body is mostly composed of pink, gelatinous flesh. (2) Because it has very few muscles and its density is close to that of water, the blobfish spends its life floating slightly above the ocean floor. (3) It must wait patiently for whatever edible matter might float by its mouth. (4) The blobfish's downturned mouth, slimy skin, and pale coloring caused them to be voted the World's Ugliest Animal in 2013. Move the answer to the box. There is only one error in construction. Sentence 1 Sentence 2 Sentence 3 Sentence 4 Contains an error in construction",
+    "imageSrc": "/exams/exam2/items/ela_q50.png",
+    "options": null,
+    "correctAnswer": "Sentence 4",
+    "topic": "Revising & Editing",
+    "subtopic": "Conventions of Language & Paragraph Organization",
+    "difficulty": "Hard",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: Sentence 4. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e2_math_01",
@@ -4441,36 +6089,37 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 51,
     "type": "multiple_choice",
-    "prompt": "Practice Form B: Mathematics problem 1.",
+    "prompt": "In a scale diagram, 0.125 inch represents 125 feet. How many inches represent 1 foot?",
     "imageSrc": "/exams/exam2/items/math_q01.png",
     "options": [
       {
         "id": "A",
-        "text": "Choice A"
+        "text": "0.001."
       },
       {
         "id": "B",
-        "text": "Choice B"
+        "text": "0.01"
       },
       {
         "id": "C",
-        "text": "Choice C"
+        "text": "0.1|"
       },
       {
         "id": "D",
-        "text": "Choice D"
+        "text": "0.12"
       }
     ],
     "correctAnswer": "A",
-    "topic": "Geometry: Angles",
-    "difficulty": "Medium",
+    "topic": "Proportional Reasoning & Percentages",
+    "subtopic": "Ratios, Rates & Scale Drawings",
+    "difficulty": "Easy",
     "hints": [
-      "Check given values and sketch the geometric figure or set up the algebraic equation.",
-      "Work systematically to avoid arithmetic slips.",
-      "Plug your result back into the original problem to verify."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Always double check for sign flips when dividing inequalities and watch for units (minutes vs hours).",
-    "explanation": "Step-by-step mathematical proof verifies the correct solution."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e2_math_02",
@@ -4478,110 +6127,79 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 52,
     "type": "multiple_choice",
-    "prompt": "Practice Form B: Mathematics problem 2.",
+    "prompt": "Solve the mathematical problem shown in question 2.",
     "imageSrc": "/exams/exam2/items/math_q02.png",
     "options": [
       {
         "id": "A",
-        "text": "Choice A"
+        "text": "car is traveling 55 miles per hour, and 1 mile = 5,280 feet. Which of the following calculations would give the car's speed in feet per second? 55-5,280 \u2022 A."
       },
       {
         "id": "B",
-        "text": "Choice B"
+        "text": "55-5,280 3,600"
       },
       {
         "id": "C",
-        "text": "Choice C"
+        "text": "55-3.600 5,280"
       },
       {
         "id": "D",
-        "text": "Choice D"
+        "text": "55-5,280 60"
       }
     ],
-    "correctAnswer": "D",
-    "topic": "Percents & Proportions",
-    "difficulty": "Medium",
+    "correctAnswer": "B",
+    "topic": "Algebra & Equations",
+    "subtopic": "Linear Equations & Algebraic Modeling",
+    "difficulty": "Easy",
     "hints": [
-      "Check given values and sketch the geometric figure or set up the algebraic equation.",
-      "Work systematically to avoid arithmetic slips.",
-      "Plug your result back into the original problem to verify."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Always double check for sign flips when dividing inequalities and watch for units (minutes vs hours).",
-    "explanation": "Step-by-step mathematical proof verifies the correct solution."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e2_math_03",
     "examId": "exam2",
     "section": "math",
     "questionNumber": 53,
-    "type": "multiple_choice",
-    "prompt": "Practice Form B: Mathematics problem 3.",
+    "type": "text_entry",
+    "prompt": "For what value of w is 4w = 2w - 8?",
     "imageSrc": "/exams/exam2/items/math_q03.png",
-    "options": [
-      {
-        "id": "A",
-        "text": "Choice A"
-      },
-      {
-        "id": "B",
-        "text": "Choice B"
-      },
-      {
-        "id": "C",
-        "text": "Choice C"
-      },
-      {
-        "id": "D",
-        "text": "Choice D"
-      }
-    ],
-    "correctAnswer": "B",
-    "topic": "Probability",
-    "difficulty": "Medium",
+    "options": null,
+    "correctAnswer": "-4",
+    "topic": "Algebra & Equations",
+    "subtopic": "Linear Equations & Algebraic Modeling",
+    "difficulty": "Easy",
     "hints": [
-      "Check given values and sketch the geometric figure or set up the algebraic equation.",
-      "Work systematically to avoid arithmetic slips.",
-      "Plug your result back into the original problem to verify."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Always double check for sign flips when dividing inequalities and watch for units (minutes vs hours).",
-    "explanation": "Step-by-step mathematical proof verifies the correct solution."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: -4. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e2_math_04",
     "examId": "exam2",
     "section": "math",
     "questionNumber": 54,
-    "type": "multiple_choice",
-    "prompt": "Practice Form B: Mathematics problem 4.",
+    "type": "text_entry",
+    "prompt": "A survey asked students what pets they have. Based on the results, the following statements are all true: \u2022 20 students have cats. \u2022 23 students have dogs. \u2022 3 students have both dogs and cats. \u2022 5 students have no dogs or cats. How many students were surveyed?",
     "imageSrc": "/exams/exam2/items/math_q04.png",
-    "options": [
-      {
-        "id": "A",
-        "text": "Choice A"
-      },
-      {
-        "id": "B",
-        "text": "Choice B"
-      },
-      {
-        "id": "C",
-        "text": "Choice C"
-      },
-      {
-        "id": "D",
-        "text": "Choice D"
-      }
-    ],
-    "correctAnswer": "C",
-    "topic": "Algebra: Linear Equations",
-    "difficulty": "Medium",
+    "options": null,
+    "correctAnswer": "45",
+    "topic": "Probability & Statistics",
+    "subtopic": "Data Analysis, Frequency & Combinations",
+    "difficulty": "Easy",
     "hints": [
-      "Check given values and sketch the geometric figure or set up the algebraic equation.",
-      "Work systematically to avoid arithmetic slips.",
-      "Plug your result back into the original problem to verify."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Always double check for sign flips when dividing inequalities and watch for units (minutes vs hours).",
-    "explanation": "Step-by-step mathematical proof verifies the correct solution."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: 45. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e2_math_05",
@@ -4589,36 +6207,37 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 55,
     "type": "multiple_choice",
-    "prompt": "Practice Form B: Mathematics problem 5.",
+    "prompt": "What is the value of y?",
     "imageSrc": "/exams/exam2/items/math_q05.png",
     "options": [
       {
         "id": "A",
-        "text": "Choice A"
+        "text": "4."
       },
       {
         "id": "B",
-        "text": "Choice B"
+        "text": "8"
       },
       {
         "id": "C",
-        "text": "Choice C"
+        "text": "10"
       },
       {
         "id": "D",
-        "text": "Choice D"
+        "text": "20"
       }
     ],
-    "correctAnswer": "A",
-    "topic": "Geometry: Angles",
-    "difficulty": "Medium",
+    "correctAnswer": "D",
+    "topic": "Algebra & Equations",
+    "subtopic": "Linear Equations & Algebraic Modeling",
+    "difficulty": "Easy",
     "hints": [
-      "Check given values and sketch the geometric figure or set up the algebraic equation.",
-      "Work systematically to avoid arithmetic slips.",
-      "Plug your result back into the original problem to verify."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Always double check for sign flips when dividing inequalities and watch for units (minutes vs hours).",
-    "explanation": "Step-by-step mathematical proof verifies the correct solution."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e2_math_06",
@@ -4626,36 +6245,37 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 56,
     "type": "multiple_choice",
-    "prompt": "Practice Form B: Mathematics problem 6.",
+    "prompt": "7+ (3n +6) - (4n+8)=",
     "imageSrc": "/exams/exam2/items/math_q06.png",
     "options": [
       {
         "id": "A",
-        "text": "Choice A"
+        "text": "5 \u2014 n."
       },
       {
         "id": "B",
-        "text": "Choice B"
+        "text": "5 +n"
       },
       {
         "id": "C",
-        "text": "Choice C"
+        "text": "21 - n"
       },
       {
         "id": "D",
-        "text": "Choice D"
+        "text": "21 +n"
       }
     ],
-    "correctAnswer": "D",
-    "topic": "Percents & Proportions",
-    "difficulty": "Medium",
+    "correctAnswer": "A",
+    "topic": "Algebra & Equations",
+    "subtopic": "Linear Equations & Algebraic Modeling",
+    "difficulty": "Easy",
     "hints": [
-      "Check given values and sketch the geometric figure or set up the algebraic equation.",
-      "Work systematically to avoid arithmetic slips.",
-      "Plug your result back into the original problem to verify."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Always double check for sign flips when dividing inequalities and watch for units (minutes vs hours).",
-    "explanation": "Step-by-step mathematical proof verifies the correct solution."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e2_math_07",
@@ -4663,147 +6283,1505 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 57,
     "type": "multiple_choice",
-    "prompt": "Practice Form B: Mathematics problem 7.",
+    "prompt": "what was Roberto's mean?",
     "imageSrc": "/exams/exam2/items/math_q07.png",
     "options": [
       {
         "id": "A",
-        "text": "Choice A"
+        "text": "72."
       },
       {
         "id": "B",
-        "text": "Choice B"
+        "text": "80."
       },
       {
         "id": "C",
-        "text": "Choice C"
+        "text": "90."
       },
       {
         "id": "D",
-        "text": "Choice D"
+        "text": "92"
       }
     ],
-    "correctAnswer": "B",
-    "topic": "Probability",
-    "difficulty": "Medium",
+    "correctAnswer": "A",
+    "topic": "Probability & Statistics",
+    "subtopic": "Data Analysis, Frequency & Combinations",
+    "difficulty": "Easy",
     "hints": [
-      "Check given values and sketch the geometric figure or set up the algebraic equation.",
-      "Work systematically to avoid arithmetic slips.",
-      "Plug your result back into the original problem to verify."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Always double check for sign flips when dividing inequalities and watch for units (minutes vs hours).",
-    "explanation": "Step-by-step mathematical proof verifies the correct solution."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e2_math_08",
     "examId": "exam2",
     "section": "math",
     "questionNumber": 58,
-    "type": "multiple_choice",
-    "prompt": "Practice Form B: Mathematics problem 8.",
+    "type": "text_entry",
+    "prompt": "Liam and Kevin each collect stamps. Liam has twice as many stamps as Kevin. Liam gives 8 of his stamps to Kevin. Liam now has 12 more stamps than Kevin. How many stamps did Liam start with? Select the correct answer from each drop-down to complete the sentences. An equation that relates the number of stamps originally in Liam's and Kevin's collections is L =| Cho ~ K. After Liam gives 8 stamps to Kevin, the equation becomes I - 8 = Choose... ~ By solving the equation, it can be determined that Liam started with Cho ~ stamps.",
     "imageSrc": "/exams/exam2/items/math_q08.png",
-    "options": [
-      {
-        "id": "A",
-        "text": "Choice A"
-      },
-      {
-        "id": "B",
-        "text": "Choice B"
-      },
-      {
-        "id": "C",
-        "text": "Choice C"
-      },
-      {
-        "id": "D",
-        "text": "Choice D"
-      }
-    ],
-    "correctAnswer": "C",
-    "topic": "Algebra: Linear Equations",
-    "difficulty": "Medium",
+    "options": null,
+    "correctAnswer": "56",
+    "topic": "Algebra & Equations",
+    "subtopic": "Linear Equations & Algebraic Modeling",
+    "difficulty": "Easy",
     "hints": [
-      "Check given values and sketch the geometric figure or set up the algebraic equation.",
-      "Work systematically to avoid arithmetic slips.",
-      "Plug your result back into the original problem to verify."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Always double check for sign flips when dividing inequalities and watch for units (minutes vs hours).",
-    "explanation": "Step-by-step mathematical proof verifies the correct solution."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: 56. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e2_math_09",
     "examId": "exam2",
     "section": "math",
     "questionNumber": 59,
-    "type": "multiple_choice",
-    "prompt": "Practice Form B: Mathematics problem 9.",
+    "type": "text_entry",
+    "prompt": "R In the figure above, PQRS is a parallelogram. What is the value of x?",
     "imageSrc": "/exams/exam2/items/math_q09.png",
-    "options": [
-      {
-        "id": "A",
-        "text": "Choice A"
-      },
-      {
-        "id": "B",
-        "text": "Choice B"
-      },
-      {
-        "id": "C",
-        "text": "Choice C"
-      },
-      {
-        "id": "D",
-        "text": "Choice D"
-      }
-    ],
-    "correctAnswer": "A",
-    "topic": "Geometry: Angles",
-    "difficulty": "Medium",
+    "options": null,
+    "correctAnswer": "162",
+    "topic": "Algebra & Equations",
+    "subtopic": "Linear Equations & Algebraic Modeling",
+    "difficulty": "Easy",
     "hints": [
-      "Check given values and sketch the geometric figure or set up the algebraic equation.",
-      "Work systematically to avoid arithmetic slips.",
-      "Plug your result back into the original problem to verify."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Always double check for sign flips when dividing inequalities and watch for units (minutes vs hours).",
-    "explanation": "Step-by-step mathematical proof verifies the correct solution."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: 162. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e2_math_10",
     "examId": "exam2",
     "section": "math",
     "questionNumber": 60,
-    "type": "multiple_choice",
-    "prompt": "Practice Form B: Mathematics problem 10.",
+    "type": "text_entry",
+    "prompt": "Three expressions are given: - 2 (2.5n + 4) 5 - n 3(2n + 7) Which of these are equivalent to the sum of these three expressions? Select the two correct answers. \u2022 5 \u2014 n + 6n + 21 \u2014 5n \u2014 8 \u2022 5-n + 6n + 21 - 5n + 8 \u2022 5 \u2014 n + 5n + 21 \u2014 5n \u2014 8 \u2022 18 \u2014 n \u2022 18 \u2022 34.",
     "imageSrc": "/exams/exam2/items/math_q10.png",
+    "options": null,
+    "correctAnswer": "18",
+    "topic": "Algebra & Equations",
+    "subtopic": "Linear Equations & Algebraic Modeling",
+    "difficulty": "Easy",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: 18. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e2_math_11",
+    "examId": "exam2",
+    "section": "math",
+    "questionNumber": 61,
+    "type": "multiple_choice",
+    "prompt": "of the pyramid excluding the base?",
+    "imageSrc": "/exams/exam2/items/math_q11.png",
     "options": [
       {
         "id": "A",
-        "text": "Choice A"
+        "text": "48 sq cm"
       },
       {
         "id": "B",
-        "text": "Choice B"
+        "text": "96 sq cm"
       },
       {
         "id": "C",
-        "text": "Choice C"
+        "text": "128 sq cm"
       },
       {
         "id": "D",
-        "text": "Choice D"
+        "text": "160 sq cm"
+      }
+    ],
+    "correctAnswer": "B",
+    "topic": "Algebra & Equations",
+    "subtopic": "Linear Equations & Algebraic Modeling",
+    "difficulty": "Easy",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e2_math_12",
+    "examId": "exam2",
+    "section": "math",
+    "questionNumber": 62,
+    "type": "multiple_choice",
+    "prompt": "the dimensions of this rectangle?",
+    "imageSrc": "/exams/exam2/items/math_q12.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "150 cm by 105 cm"
+      },
+      {
+        "id": "B",
+        "text": "153 cm by 102 cm"
+      },
+      {
+        "id": "C",
+        "text": "158 cm by 97 cm"
+      },
+      {
+        "id": "D",
+        "text": "165 cm by 90 cm"
+      }
+    ],
+    "correctAnswer": "B",
+    "topic": "Geometry & Spatial Reasoning",
+    "subtopic": "Geometric Figures, Area & Coordinate Planes",
+    "difficulty": "Easy",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e2_math_13",
+    "examId": "exam2",
+    "section": "math",
+    "questionNumber": 63,
+    "type": "multiple_choice",
+    "prompt": "Which number line below shows the solution to the inequality \u20144 < \u00f7 < 2?",
+    "imageSrc": "/exams/exam2/items/math_q13.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
       }
     ],
     "correctAnswer": "D",
-    "topic": "Percents & Proportions",
+    "topic": "Geometry & Spatial Reasoning",
+    "subtopic": "Geometric Figures, Area & Coordinate Planes",
+    "difficulty": "Easy",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e2_math_14",
+    "examId": "exam2",
+    "section": "math",
+    "questionNumber": 64,
+    "type": "text_entry",
+    "prompt": "The sum of two consecutive integers is \u2014 15. If 1 is added to the smaller integer and 2 is subtracted from the larger integer, what is the product of the two resulting integers?",
+    "imageSrc": "/exams/exam2/items/math_q14.png",
+    "options": null,
+    "correctAnswer": "63",
+    "topic": "Number Theory & Operations",
+    "subtopic": "Prime Factorization & Multiples",
+    "difficulty": "Easy",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: 63. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e2_math_15",
+    "examId": "exam2",
+    "section": "math",
+    "questionNumber": 65,
+    "type": "multiple_choice",
+    "prompt": "Solve the mathematical problem shown in question 15.",
+    "imageSrc": "/exams/exam2/items/math_q15.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "box of colored pencils contains exactly 6 red pencils. The probability of choosing a red pencil from the box is =. How many of the pencils in the box are not red? \u2022 A. 5"
+      },
+      {
+        "id": "B",
+        "text": "15."
+      },
+      {
+        "id": "C",
+        "text": "21|"
+      },
+      {
+        "id": "D",
+        "text": "30"
+      }
+    ],
+    "correctAnswer": "B",
+    "topic": "Algebra & Equations",
+    "subtopic": "Linear Equations & Algebraic Modeling",
+    "difficulty": "Easy",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e2_math_16",
+    "examId": "exam2",
+    "section": "math",
+    "questionNumber": 66,
+    "type": "multiple_choice",
+    "prompt": "\u2192 x What is the area of the shaded region in the graph above? \u2022 A. 0.25 square unit \u2022 B. 0.5 square unit O C. 1 square unit \u2022 D. 1.5 square units",
+    "imageSrc": "/exams/exam2/items/math_q16.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      }
+    ],
+    "correctAnswer": "B",
+    "topic": "Proportional Reasoning & Percentages",
+    "subtopic": "Ratios, Rates & Scale Drawings",
     "difficulty": "Medium",
     "hints": [
-      "Check given values and sketch the geometric figure or set up the algebraic equation.",
-      "Work systematically to avoid arithmetic slips.",
-      "Plug your result back into the original problem to verify."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Always double check for sign flips when dividing inequalities and watch for units (minutes vs hours).",
-    "explanation": "Step-by-step mathematical proof verifies the correct solution."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e2_math_17",
+    "examId": "exam2",
+    "section": "math",
+    "questionNumber": 67,
+    "type": "text_entry",
+    "prompt": "Consider this expression: 1(-8) - (-3) + 6-6 - 11| Create an equivalent expression. Move the correct answer to each box. Not all answers will be used. -5 -8 D-0",
+    "imageSrc": "/exams/exam2/items/math_q17.png",
+    "options": null,
+    "correctAnswer": "|1| - |-5|",
+    "topic": "Algebra & Equations",
+    "subtopic": "Linear Equations & Algebraic Modeling",
+    "difficulty": "Medium",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: |1| - |-5|. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e2_math_18",
+    "examId": "exam2",
+    "section": "math",
+    "questionNumber": 68,
+    "type": "multiple_choice",
+    "prompt": "$26.90 for these items, not including tax. What was the price per pound of the meat? \u2022 .",
+    "imageSrc": "/exams/exam2/items/math_q18.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "$2.80"
+      },
+      {
+        "id": "B",
+        "text": "$3.25"
+      },
+      {
+        "id": "C",
+        "text": "$14.40"
+      },
+      {
+        "id": "D",
+        "text": "$22.40."
+      }
+    ],
+    "correctAnswer": "A",
+    "topic": "Algebra & Equations",
+    "subtopic": "Linear Equations & Algebraic Modeling",
+    "difficulty": "Medium",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e2_math_19",
+    "examId": "exam2",
+    "section": "math",
+    "questionNumber": 69,
+    "type": "multiple_choice",
+    "prompt": "In a sample of 10 cards, 4 are red and 6 are blue. If 2 cards are selected at random from the sample, one at a time without replacement, what is the probability that both cards are not blue? \u2022 A. 1 \u2022 B. 26",
+    "imageSrc": "/exams/exam2/items/math_q19.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      }
+    ],
+    "correctAnswer": "A",
+    "topic": "Probability & Statistics",
+    "subtopic": "Data Analysis, Frequency & Combinations",
+    "difficulty": "Medium",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e2_math_20",
+    "examId": "exam2",
+    "section": "math",
+    "questionNumber": 70,
+    "type": "multiple_choice",
+    "prompt": "1 sind = 4 lorgs 2 plunks = 5 dalts 5 sinds = 2 harps 1 plunk = 3 harps",
+    "imageSrc": "/exams/exam2/items/math_q20.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "nation has five types of coins: sinds, dalts, lorgs, harps, and plunks. The relationship between the coins is shown above. Which coin is most valuable? \u2022 A. sind"
+      },
+      {
+        "id": "B",
+        "text": "dalt|"
+      },
+      {
+        "id": "C",
+        "text": "harp"
+      },
+      {
+        "id": "D",
+        "text": "plunk"
+      }
+    ],
+    "correctAnswer": "D",
+    "topic": "Algebra & Equations",
+    "subtopic": "Linear Equations & Algebraic Modeling",
+    "difficulty": "Medium",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e2_math_21",
+    "examId": "exam2",
+    "section": "math",
+    "questionNumber": 71,
+    "type": "multiple_choice",
+    "prompt": "third-, and fourth-year students?",
+    "imageSrc": "/exams/exam2/items/math_q21.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "1,989"
+      },
+      {
+        "id": "B",
+        "text": "2,022"
+      },
+      {
+        "id": "C",
+        "text": "2,652"
+      },
+      {
+        "id": "D",
+        "text": "2,685"
+      }
+    ],
+    "correctAnswer": "B",
+    "topic": "Algebra & Equations",
+    "subtopic": "Linear Equations & Algebraic Modeling",
+    "difficulty": "Medium",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e2_math_22",
+    "examId": "exam2",
+    "section": "math",
+    "questionNumber": 72,
+    "type": "multiple_choice",
+    "prompt": "How many more people in Center City walk to work than ride their bicycle to work?",
+    "imageSrc": "/exams/exam2/items/math_q22.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "2,500"
+      },
+      {
+        "id": "B",
+        "text": "2,700."
+      },
+      {
+        "id": "C",
+        "text": "2,800"
+      },
+      {
+        "id": "D",
+        "text": "3,000"
+      }
+    ],
+    "correctAnswer": "B",
+    "topic": "Algebra & Equations",
+    "subtopic": "Linear Equations & Algebraic Modeling",
+    "difficulty": "Medium",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e2_math_23",
+    "examId": "exam2",
+    "section": "math",
+    "questionNumber": 73,
+    "type": "multiple_choice",
+    "prompt": "the length of the remaining side of the actual banner?",
+    "imageSrc": "/exams/exam2/items/math_q23.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "16 ft."
+      },
+      {
+        "id": "B",
+        "text": "32 ft"
+      },
+      {
+        "id": "C",
+        "text": "40 ft."
+      },
+      {
+        "id": "D",
+        "text": "48 ft"
+      }
+    ],
+    "correctAnswer": "D",
+    "topic": "Algebra & Equations",
+    "subtopic": "Linear Equations & Algebraic Modeling",
+    "difficulty": "Medium",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e2_math_24",
+    "examId": "exam2",
+    "section": "math",
+    "questionNumber": 74,
+    "type": "multiple_choice",
+    "prompt": "The least of 5 consecutive integers is l, and the greatest is g. What is the value of 2 in terms of l?",
+    "imageSrc": "/exams/exam2/items/math_q24.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "21"
+      },
+      {
+        "id": "B",
+        "text": "31."
+      },
+      {
+        "id": "C",
+        "text": "1+2"
+      },
+      {
+        "id": "D",
+        "text": "1+5"
+      }
+    ],
+    "correctAnswer": "C",
+    "topic": "Number Theory & Operations",
+    "subtopic": "Prime Factorization & Multiples",
+    "difficulty": "Medium",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e2_math_25",
+    "examId": "exam2",
+    "section": "math",
+    "questionNumber": 75,
+    "type": "text_entry",
+    "prompt": "The owner of a tree farm plants pine trees and oak trees in a ratio of 8:3. How many oak trees are planted if 264 pine trees are planted?",
+    "imageSrc": "/exams/exam2/items/math_q25.png",
+    "options": null,
+    "correctAnswer": "99",
+    "topic": "Proportional Reasoning & Percentages",
+    "subtopic": "Ratios, Rates & Scale Drawings",
+    "difficulty": "Medium",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: 99. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e2_math_26",
+    "examId": "exam2",
+    "section": "math",
+    "questionNumber": 76,
+    "type": "multiple_choice",
+    "prompt": "Jordan today?",
+    "imageSrc": "/exams/exam2/items/math_q26.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "4 years old"
+      },
+      {
+        "id": "B",
+        "text": "6 years old"
+      },
+      {
+        "id": "C",
+        "text": "12 years old"
+      },
+      {
+        "id": "D",
+        "text": "16 years old"
+      }
+    ],
+    "correctAnswer": "D",
+    "topic": "Algebra & Equations",
+    "subtopic": "Linear Equations & Algebraic Modeling",
+    "difficulty": "Medium",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e2_math_27",
+    "examId": "exam2",
+    "section": "math",
+    "questionNumber": 77,
+    "type": "text_entry",
+    "prompt": "Complete the steps to show one way to solve the equation 24 = \u20140.5 (x + 8) for x. Move the correct answer to each box. Each answer may be used more than once. Not all answers will be used. -56 | -40 || 20 28 56 24 = - 0.5 (x + 8) 24 = -0.5x + = -0.5x = x",
+    "imageSrc": "/exams/exam2/items/math_q27.png",
+    "options": null,
+    "correctAnswer": "Second equation: -4; third equation: 28; fourth equation: -56",
+    "topic": "Algebra & Equations",
+    "subtopic": "Linear Equations & Algebraic Modeling",
+    "difficulty": "Medium",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: Second equation: -4; third equation: 28; fourth equation: -56. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e2_math_28",
+    "examId": "exam2",
+    "section": "math",
+    "questionNumber": 78,
+    "type": "multiple_choice",
+    "prompt": "What is the value of the expression shown above?",
+    "imageSrc": "/exams/exam2/items/math_q28.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "1420"
+      },
+      {
+        "id": "B",
+        "text": "145"
+      },
+      {
+        "id": "C",
+        "text": "15 20"
+      },
+      {
+        "id": "D",
+        "text": "15%"
+      }
+    ],
+    "correctAnswer": "D",
+    "topic": "Algebra & Equations",
+    "subtopic": "Linear Equations & Algebraic Modeling",
+    "difficulty": "Medium",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e2_math_29",
+    "examId": "exam2",
+    "section": "math",
+    "questionNumber": 79,
+    "type": "multiple_choice",
+    "prompt": "How many different pairs of 2 cookies can he choose from the 6?",
+    "imageSrc": "/exams/exam2/items/math_q29.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "12."
+      },
+      {
+        "id": "B",
+        "text": "15."
+      },
+      {
+        "id": "C",
+        "text": "30"
+      },
+      {
+        "id": "D",
+        "text": "36"
+      }
+    ],
+    "correctAnswer": "B",
+    "topic": "Algebra & Equations",
+    "subtopic": "Linear Equations & Algebraic Modeling",
+    "difficulty": "Medium",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e2_math_30",
+    "examId": "exam2",
+    "section": "math",
+    "questionNumber": 80,
+    "type": "multiple_choice",
+    "prompt": "the two of them can create in one hour?",
+    "imageSrc": "/exams/exam2/items/math_q30.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "16"
+      },
+      {
+        "id": "B",
+        "text": "30"
+      },
+      {
+        "id": "C",
+        "text": "33"
+      },
+      {
+        "id": "D",
+        "text": "55"
+      }
+    ],
+    "correctAnswer": "C",
+    "topic": "Algebra & Equations",
+    "subtopic": "Linear Equations & Algebraic Modeling",
+    "difficulty": "Medium",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e2_math_31",
+    "examId": "exam2",
+    "section": "math",
+    "questionNumber": 81,
+    "type": "multiple_choice",
+    "prompt": "Which value below is a possible value for M?",
+    "imageSrc": "/exams/exam2/items/math_q31.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "4.26."
+      },
+      {
+        "id": "B",
+        "text": "4.31"
+      },
+      {
+        "id": "C",
+        "text": "4.35"
+      },
+      {
+        "id": "D",
+        "text": "4.58"
+      }
+    ],
+    "correctAnswer": "C",
+    "topic": "Algebra & Equations",
+    "subtopic": "Linear Equations & Algebraic Modeling",
+    "difficulty": "Medium",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e2_math_32",
+    "examId": "exam2",
+    "section": "math",
+    "questionNumber": 82,
+    "type": "text_entry",
+    "prompt": "What is the value of x in the equation 6x = 9x + 13?",
+    "imageSrc": "/exams/exam2/items/math_q32.png",
+    "options": null,
+    "correctAnswer": "-13/3 (or -4 1/3)",
+    "topic": "Algebra & Equations",
+    "subtopic": "Linear Equations & Algebraic Modeling",
+    "difficulty": "Medium",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: -13/3 (or -4 1/3). This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e2_math_33",
+    "examId": "exam2",
+    "section": "math",
+    "questionNumber": 83,
+    "type": "multiple_choice",
+    "prompt": "Ryan must read 150 pages for school this weekend. It took him 30 minutes to read the first 20 pages. At this rate, how much additional time will it take him to finish the reading? O A. 25 hr B. 3\u00f7 hr \u2022 C. 37 hr \u2022 D. 75hr",
+    "imageSrc": "/exams/exam2/items/math_q33.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      }
+    ],
+    "correctAnswer": "B",
+    "topic": "Proportional Reasoning & Percentages",
+    "subtopic": "Ratios, Rates & Scale Drawings",
+    "difficulty": "Medium",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e2_math_34",
+    "examId": "exam2",
+    "section": "math",
+    "questionNumber": 84,
+    "type": "multiple_choice",
+    "prompt": "Suppose M = #, N = =, and w, x, y, and z do not equal 0. What is in terms of w, x, y, and z? \u2022 A. yz \u2022 C. wz Ty ry",
+    "imageSrc": "/exams/exam2/items/math_q34.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      }
+    ],
+    "correctAnswer": "C",
+    "topic": "Algebra & Equations",
+    "subtopic": "Linear Equations & Algebraic Modeling",
+    "difficulty": "Medium",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e2_math_35",
+    "examId": "exam2",
+    "section": "math",
+    "questionNumber": 85,
+    "type": "multiple_choice",
+    "prompt": "of both 2 and 3. How many integers in this set are multiples of neither 2 nor 3?",
+    "imageSrc": "/exams/exam2/items/math_q35.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "5."
+      },
+      {
+        "id": "B",
+        "text": "6"
+      },
+      {
+        "id": "C",
+        "text": "13"
+      },
+      {
+        "id": "D",
+        "text": "15."
+      }
+    ],
+    "correctAnswer": "B",
+    "topic": "Number Theory & Operations",
+    "subtopic": "Prime Factorization & Multiples",
+    "difficulty": "Medium",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e2_math_36",
+    "examId": "exam2",
+    "section": "math",
+    "questionNumber": 86,
+    "type": "multiple_choice",
+    "prompt": "including 3n + 5?",
+    "imageSrc": "/exams/exam2/items/math_q36.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "2."
+      },
+      {
+        "id": "B",
+        "text": "3."
+      },
+      {
+        "id": "C",
+        "text": "4"
+      },
+      {
+        "id": "D",
+        "text": "5"
+      }
+    ],
+    "correctAnswer": "B",
+    "topic": "Algebra & Equations",
+    "subtopic": "Linear Equations & Algebraic Modeling",
+    "difficulty": "Hard",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e2_math_37",
+    "examId": "exam2",
+    "section": "math",
+    "questionNumber": 87,
+    "type": "multi_select",
+    "prompt": "When a student buys 4 notebooks, the total cost is $12. Each notebook costs the same amount. Select each point on the graph that best represents y, the total cost of x notebooks. Select all the correct answers. BUYING NOTEBOOKS 15 14 13 12 11 10 \u2022 7 \u2022 3 2 \u2022 1 2 3 4 56 Number of Notebooks",
+    "imageSrc": "/exams/exam2/items/math_q37.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctAnswer": "(1, 3), (3, 9), (4, 12)",
+    "topic": "Algebra & Equations",
+    "subtopic": "Linear Equations & Algebraic Modeling",
+    "difficulty": "Hard",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: (1, 3), (3, 9), (4, 12). This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e2_math_38",
+    "examId": "exam2",
+    "section": "math",
+    "questionNumber": 88,
+    "type": "multiple_choice",
+    "prompt": "In the equation above, w, x, y, and z are positive numbers. Which of these is equal to z?",
+    "imageSrc": "/exams/exam2/items/math_q38.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "x."
+      },
+      {
+        "id": "B",
+        "text": "xy"
+      },
+      {
+        "id": "C",
+        "text": "xy"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      }
+    ],
+    "correctAnswer": "D",
+    "topic": "Algebra & Equations",
+    "subtopic": "Linear Equations & Algebraic Modeling",
+    "difficulty": "Hard",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e2_math_39",
+    "examId": "exam2",
+    "section": "math",
+    "questionNumber": 89,
+    "type": "multiple_choice",
+    "prompt": "the value of WY?",
+    "imageSrc": "/exams/exam2/items/math_q39.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "8"
+      },
+      {
+        "id": "B",
+        "text": "11"
+      },
+      {
+        "id": "C",
+        "text": "12"
+      },
+      {
+        "id": "D",
+        "text": "18"
+      }
+    ],
+    "correctAnswer": "C",
+    "topic": "Algebra & Equations",
+    "subtopic": "Linear Equations & Algebraic Modeling",
+    "difficulty": "Hard",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e2_math_40",
+    "examId": "exam2",
+    "section": "math",
+    "questionNumber": 90,
+    "type": "multiple_choice",
+    "prompt": "is the overall range of all scores in all three sections?",
+    "imageSrc": "/exams/exam2/items/math_q40.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "25 \u2022"
+      },
+      {
+        "id": "B",
+        "text": "27"
+      },
+      {
+        "id": "C",
+        "text": "28"
+      },
+      {
+        "id": "D",
+        "text": "31"
+      }
+    ],
+    "correctAnswer": "D",
+    "topic": "Probability & Statistics",
+    "subtopic": "Data Analysis, Frequency & Combinations",
+    "difficulty": "Hard",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e2_math_41",
+    "examId": "exam2",
+    "section": "math",
+    "questionNumber": 91,
+    "type": "multiple_choice",
+    "prompt": "per school. Which of the five cities has the greatest number of students?",
+    "imageSrc": "/exams/exam2/items/math_q41.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "City M"
+      },
+      {
+        "id": "B",
+        "text": "City P"
+      },
+      {
+        "id": "C",
+        "text": "City Q"
+      },
+      {
+        "id": "D",
+        "text": "City R"
+      }
+    ],
+    "correctAnswer": "C",
+    "topic": "Algebra & Equations",
+    "subtopic": "Linear Equations & Algebraic Modeling",
+    "difficulty": "Hard",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e2_math_42",
+    "examId": "exam2",
+    "section": "math",
+    "questionNumber": 92,
+    "type": "multiple_choice",
+    "prompt": "digit?",
+    "imageSrc": "/exams/exam2/items/math_q42.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "0."
+      },
+      {
+        "id": "B",
+        "text": "3"
+      },
+      {
+        "id": "C",
+        "text": "6."
+      },
+      {
+        "id": "D",
+        "text": "7"
+      }
+    ],
+    "correctAnswer": "D",
+    "topic": "Algebra & Equations",
+    "subtopic": "Linear Equations & Algebraic Modeling",
+    "difficulty": "Hard",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e2_math_43",
+    "examId": "exam2",
+    "section": "math",
+    "questionNumber": 93,
+    "type": "text_entry",
+    "prompt": "Graph the solution set for the inequality -3 \u2264 2x \u2014 5. Select a ray. Then, move the endpoint of the ray to the correct position on the number line. -5 -4 -3 -2 -1",
+    "imageSrc": "/exams/exam2/items/math_q43.png",
+    "options": null,
+    "correctAnswer": "Graph of x >= 1: closed (solid) point at 1 with a ray extending to the right",
+    "topic": "Geometry & Spatial Reasoning",
+    "subtopic": "Geometric Figures, Area & Coordinate Planes",
+    "difficulty": "Hard",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: Graph of x >= 1: closed (solid) point at 1 with a ray extending to the right. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e2_math_44",
+    "examId": "exam2",
+    "section": "math",
+    "questionNumber": 94,
+    "type": "multiple_choice",
+    "prompt": "A sports store has a container of handballs: 4 blue, 5 red, 8 yellow, 9 white, and 11 green. If one ball is picked from the container at random, what is the probability that it will be yellow? O A. 37 \u041e \u0432. % C. 37 \u2022 D. 29.",
+    "imageSrc": "/exams/exam2/items/math_q44.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      }
+    ],
+    "correctAnswer": "C",
+    "topic": "Proportional Reasoning & Percentages",
+    "subtopic": "Ratios, Rates & Scale Drawings",
+    "difficulty": "Hard",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e2_math_45",
+    "examId": "exam2",
+    "section": "math",
+    "questionNumber": 95,
+    "type": "multiple_choice",
+    "prompt": "chairs in 1 week?",
+    "imageSrc": "/exams/exam2/items/math_q45.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "$1,875."
+      },
+      {
+        "id": "B",
+        "text": "$2,500"
+      },
+      {
+        "id": "C",
+        "text": "$3,125."
+      },
+      {
+        "id": "D",
+        "text": "$4,375."
+      }
+    ],
+    "correctAnswer": "A",
+    "topic": "Algebra & Equations",
+    "subtopic": "Linear Equations & Algebraic Modeling",
+    "difficulty": "Hard",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e2_math_46",
+    "examId": "exam2",
+    "section": "math",
+    "questionNumber": 96,
+    "type": "multiple_choice",
+    "prompt": "Using the approximation 2.54 centimeters = 1 inch, how many centimeters are in 4 feet 7 inches?",
+    "imageSrc": "/exams/exam2/items/math_q46.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "21.65"
+      },
+      {
+        "id": "B",
+        "text": "119.38"
+      },
+      {
+        "id": "C",
+        "text": "121.92"
+      },
+      {
+        "id": "D",
+        "text": "139.70"
+      }
+    ],
+    "correctAnswer": "D",
+    "topic": "Algebra & Equations",
+    "subtopic": "Linear Equations & Algebraic Modeling",
+    "difficulty": "Hard",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e2_math_47",
+    "examId": "exam2",
+    "section": "math",
+    "questionNumber": 97,
+    "type": "multiple_choice",
+    "prompt": "On the number line above, JK = 3z, JM = 9\u00be, and LM = 1 - . What is the position of point L?",
+    "imageSrc": "/exams/exam2/items/math_q47.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "55"
+      },
+      {
+        "id": "B",
+        "text": "54"
+      },
+      {
+        "id": "C",
+        "text": "54"
+      },
+      {
+        "id": "D",
+        "text": "64"
+      }
+    ],
+    "correctAnswer": "C",
+    "topic": "Geometry & Spatial Reasoning",
+    "subtopic": "Geometric Figures, Area & Coordinate Planes",
+    "difficulty": "Hard",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e2_math_48",
+    "examId": "exam2",
+    "section": "math",
+    "questionNumber": 98,
+    "type": "multiple_choice",
+    "prompt": "If 4x - 3y = 12, what is x in terms of y? 0 A. x =49 + 12 0 8. x=- +12 0 c. X =+3",
+    "imageSrc": "/exams/exam2/items/math_q48.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      }
+    ],
+    "correctAnswer": "C",
+    "topic": "Algebra & Equations",
+    "subtopic": "Linear Equations & Algebraic Modeling",
+    "difficulty": "Hard",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e2_math_49",
+    "examId": "exam2",
+    "section": "math",
+    "questionNumber": 99,
+    "type": "multiple_choice",
+    "prompt": "SERVINGS OF FRUITS AND VEGETABLES Number of Servings of Number of Students Fruits and Vegetables 1 2 3 4 5 5 7 3 4 0 1 There are 20 students in a class. The frequency table above shows the number of students in this class who ate 0, 1, 2, 3, 4, or 5 servings of fruits and vegetables yesterday. What is the mean number of servings of fruits and vegetables eaten yesterday per student in this class? O A. 14 \u2022 \u0432. 3 C. 3= \u2022 D. 4",
+    "imageSrc": "/exams/exam2/items/math_q49.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      }
+    ],
+    "correctAnswer": "A",
+    "topic": "Probability & Statistics",
+    "subtopic": "Data Analysis, Frequency & Combinations",
+    "difficulty": "Hard",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e2_math_50",
+    "examId": "exam2",
+    "section": "math",
+    "questionNumber": 100,
+    "type": "text_entry",
+    "prompt": "Let b = 3, c = 4, and d = 5. Determine the value of Enter your fractional answer in the space provided. Enter only your fraction. D 1 6 % 2 7 3 8 4 9 5 0 08",
+    "imageSrc": "/exams/exam2/items/math_q50.png",
+    "options": null,
+    "correctAnswer": "7/5",
+    "topic": "Proportional Reasoning & Percentages",
+    "subtopic": "Ratios, Rates & Scale Drawings",
+    "difficulty": "Hard",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: 7/5. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e3_ela_01",
@@ -4812,36 +7790,37 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 1,
     "passageId": "e3_p1",
     "type": "multiple_choice",
-    "prompt": "Practice Form C: Reading Comprehension analysis question 1.",
+    "prompt": "Read the passage excerpt and answer question 1 based on the text.",
     "imageSrc": "/exams/exam3/items/ela_q01.png",
     "options": [
       {
         "id": "A",
-        "text": "Choice A"
+        "text": "Memory Revolution (1) A high school senior logs on to a computer at the library to double-check the application due date listed on a college admissions website. Nearby, a librarian helps a group of biology students use a database to search for recent studies about mammals. In the past few decades, the Internet has become an integral component of daily life for many people. The seemingly limitless power of search engines made the Internet search extremely common, and today people increasingly rely on the Internet's vast accumulation of sources to access all types of information. Scientists are beginning to examine how this reliance is modifying the strategies people use to store and prioritize information in their mind. A Dependable and Valuable Asset 2 Psychologist Benjamin Storm from the University of California, Santa Cruz, and researchers Sean Stone and Aaron Benjamin devised an experiment to study The details in paragraph 3 about cognitive offloading convey a central idea of the passage by \u2022 A. suggesting that reliance on the Internet for information is inevitable."
       },
       {
         "id": "B",
-        "text": "Choice B"
+        "text": "demonstrating how the methods used to store and find information have changed over time."
       },
       {
         "id": "C",
-        "text": "Choice C"
+        "text": "explaining how encyclopedias and the Internet are similar sources of information."
       },
       {
         "id": "D",
-        "text": "Choice D"
+        "text": "implying that more information can be understood now than ever before."
       }
     ],
-    "correctAnswer": "A",
-    "topic": "Reading Comprehension: Evidence & Inference",
-    "difficulty": "Medium",
+    "correctAnswer": "B",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Easy",
     "hints": [
-      "Locate the specific lines in the passage.",
-      "Compare each answer choice strictly to the line citations.",
-      "Eliminate distractors that exaggerate or misrepresent the author's tone."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Avoid choices that use extreme absolute words like 'always', 'never', or 'entirely' unless backed by the passage.",
-    "explanation": "The selected choice is backed directly by textual evidence in the official practice test."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e3_ela_02",
@@ -4850,36 +7829,37 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 2,
     "passageId": "e3_p1",
     "type": "multiple_choice",
-    "prompt": "Practice Form C: Reading Comprehension analysis question 2.",
+    "prompt": "Read the passage excerpt and answer question 2 based on the text.",
     "imageSrc": "/exams/exam3/items/ela_q02.png",
     "options": [
       {
         "id": "A",
-        "text": "Choice A"
+        "text": "Memory Revolution (1) A high school senior logs on to a computer at the library to double-check the application due date listed on a college admissions website. Nearby, a librarian helps a group of biology students use a database to search for recent studies about mammals. In the past few decades, the Internet has become an integral component of daily life for many people. The seemingly limitless power of search engines made the Internet search extremely common, and today people increasingly rely on the Internet's vast accumulation of sources to access all types of information. Scientists are beginning to examine how this reliance is modifying the strategies people use to store and prioritize information in their mind. A Dependable and Valuable Asset 2 Psychologist Benjamin Storm from the University of California, Santa Cruz, and researchers Sean Stone and Aaron Benjamin devised an experiment to study How do the details about the experiment described in paragraph 5 convey a central idea of the passage? \u2022 A. They suggest that the act of repeating information by typing it on a keyboard may improve a person's memory."
       },
       {
         "id": "B",
-        "text": "Choice B"
+        "text": "They explain that a person will forget information faster if the information is considered unimportant."
       },
       {
         "id": "C",
-        "text": "Choice C"
+        "text": "They indicate that a person may start to forget details when the amount of information becomes overwhelming."
       },
       {
         "id": "D",
-        "text": "Choice D"
+        "text": "They suggest that memory is affected by whether a person expects to have access to the information in the future."
       }
     ],
-    "correctAnswer": "C",
-    "topic": "Reading Comprehension: Evidence & Inference",
-    "difficulty": "Medium",
+    "correctAnswer": "D",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Easy",
     "hints": [
-      "Locate the specific lines in the passage.",
-      "Compare each answer choice strictly to the line citations.",
-      "Eliminate distractors that exaggerate or misrepresent the author's tone."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Avoid choices that use extreme absolute words like 'always', 'never', or 'entirely' unless backed by the passage.",
-    "explanation": "The selected choice is backed directly by textual evidence in the official practice test."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e3_ela_03",
@@ -4888,36 +7868,37 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 3,
     "passageId": "e3_p1",
     "type": "multiple_choice",
-    "prompt": "Practice Form C: Reading Comprehension analysis question 3.",
+    "prompt": "Read the passage excerpt and answer question 3 based on the text.",
     "imageSrc": "/exams/exam3/items/ela_q03.png",
     "options": [
       {
         "id": "A",
-        "text": "Choice A"
+        "text": "Memory Revolution (1) A high school senior logs on to a computer at the library to double-check the application due date listed on a college admissions website. Nearby, a librarian helps a group of biology students use a database to search for recent studies about mammals. In the past few decades, the Internet has become an integral component of daily life for many people. The seemingly limitless power of search engines made the Internet search extremely common, and today people increasingly rely on the Internet's vast accumulation of sources to access all types of information. Scientists are beginning to examine how this reliance is modifying the strategies people use to store and prioritize information in their mind. A Dependable and Valuable Asset 2 Psychologist Benjamin Storm from the University of California, Santa Cruz, and researchers Sean Stone and Aaron Benjamin devised an experiment to study \u2022... Read this sentence from paragraph 7. As the Internet's resources continue to expand our \"external\" memory, some question whether the process may cause people to depend too heavily on technology. How does the sentence contribute to the structure and development of ideas in the passage? \u2022 A. It presents a claim about the risks of relying on the Internet that prompted the research described in paragraphs 2 and 6. \u2022 ."
       },
       {
         "id": "B",
-        "text": "Choice B"
+        "text": "It contrasts a disadvantage of relying on the Internet with the benefits of Internet use that are described in paragraphs 2 and 6."
       },
       {
         "id": "C",
-        "text": "Choice C"
+        "text": "It signals a shift from a neutral viewpoint in paragraphs 2 and 6 to a presentation of an argument and a counterargument."
       },
       {
         "id": "D",
-        "text": "Choice D"
+        "text": "It introduces a counterargument and marks a transition from an optimistic tone in paragraphs 2 and 6 to a cautious tone as the counterargument is developed."
       }
     ],
-    "correctAnswer": "D",
-    "topic": "Reading Comprehension: Evidence & Inference",
-    "difficulty": "Medium",
+    "correctAnswer": "C",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Easy",
     "hints": [
-      "Locate the specific lines in the passage.",
-      "Compare each answer choice strictly to the line citations.",
-      "Eliminate distractors that exaggerate or misrepresent the author's tone."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Avoid choices that use extreme absolute words like 'always', 'never', or 'entirely' unless backed by the passage.",
-    "explanation": "The selected choice is backed directly by textual evidence in the official practice test."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e3_ela_04",
@@ -4926,36 +7907,37 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 4,
     "passageId": "e3_p1",
     "type": "multiple_choice",
-    "prompt": "Practice Form C: Reading Comprehension analysis question 4.",
+    "prompt": "Read the passage excerpt and answer question 4 based on the text.",
     "imageSrc": "/exams/exam3/items/ela_q04.png",
     "options": [
       {
         "id": "A",
-        "text": "Choice A"
+        "text": "Memory Revolution (1) A high school senior logs on to a computer at the library to double-check the application due date listed on a college admissions website. Nearby, a librarian helps a group of biology students use a database to search for recent studies about mammals. In the past few decades, the Internet has become an integral component of daily life for many people. The seemingly limitless power of search engines made the Internet search extremely common, and today people increasingly rely on the Internet's vast accumulation of sources to access all types of information. Scientists are beginning to examine how this reliance is modifying the strategies people use to store and prioritize information in their mind. A Dependable and Valuable Asset 2 Psychologist Benjamin Storm from the University of California, Santa Cruz, and researchers Sean Stone and Aaron Benjamin devised an experiment to study The study described in paragraph 6 influenced researchers' ideas about memory in the digital age by \u2022 A. highlighting instances when organizing detailed information made it easier to remember."
       },
       {
         "id": "B",
-        "text": "Choice B"
+        "text": "confirming that keywords can be remembered more easily than large amounts of information."
       },
       {
         "id": "C",
-        "text": "Choice C"
+        "text": "identifying a shift in focus from remembering specific information to knowing where to find it. \u2022"
       },
       {
         "id": "D",
-        "text": "Choice D"
+        "text": "emphasizing that remembering a basic idea is more important than storing detailed information."
       }
     ],
-    "correctAnswer": "B",
-    "topic": "Reading Comprehension: Evidence & Inference",
-    "difficulty": "Medium",
+    "correctAnswer": "C",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Easy",
     "hints": [
-      "Locate the specific lines in the passage.",
-      "Compare each answer choice strictly to the line citations.",
-      "Eliminate distractors that exaggerate or misrepresent the author's tone."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Avoid choices that use extreme absolute words like 'always', 'never', or 'entirely' unless backed by the passage.",
-    "explanation": "The selected choice is backed directly by textual evidence in the official practice test."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e3_ela_05",
@@ -4964,36 +7946,37 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 5,
     "passageId": "e3_p1",
     "type": "multiple_choice",
-    "prompt": "Practice Form C: Reading Comprehension analysis question 5.",
+    "prompt": "A Memory Revolution (1) A high school senior logs on to a computer at the library to double-check the application due date listed on a college admissions website. Nearby, a librarian helps a group of biology students use a database to search for recent studies about mammals. In the past few decades, the Internet has become an integral component of daily life for many people. The seemingly limitless power of search engines made the Internet search extremely common, and today people increasingly rely on the Internet's vast accumulation of sources to access all types of information. Scientists are beginning to examine how this reliance is modifying the strategies people use to store and prioritize information in their mind. A Dependable and Valuable Asset 2 Psychologist Benjamin Storm from the University of California, Santa Cruz, and researchers Sean Stone and Aaron Benjamin devised an experiment to study How does the diagram provide additional support for the topic presented in the passage? \u2022 A. It reveals why human brains must adapt to obtaining information from the Internet as opposed to other sources. O B. It indicates how people can use the Internet to help improve their long-term recollection of information. \u2022 C. It shows how study participants' brains distinguished between important and unimportant details. \u2022 D. It depicts the idea that repetition and rehearsal are necessary to recall information when tools such as search engines are unavailable.",
     "imageSrc": "/exams/exam3/items/ela_q05.png",
     "options": [
       {
         "id": "A",
-        "text": "Choice A"
+        "text": "Option A"
       },
       {
         "id": "B",
-        "text": "Choice B"
+        "text": "Option B"
       },
       {
         "id": "C",
-        "text": "Choice C"
+        "text": "Option C"
       },
       {
         "id": "D",
-        "text": "Choice D"
+        "text": "Option D"
       }
     ],
-    "correctAnswer": "A",
-    "topic": "Reading Comprehension: Evidence & Inference",
-    "difficulty": "Medium",
+    "correctAnswer": "D",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Easy",
     "hints": [
-      "Locate the specific lines in the passage.",
-      "Compare each answer choice strictly to the line citations.",
-      "Eliminate distractors that exaggerate or misrepresent the author's tone."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Avoid choices that use extreme absolute words like 'always', 'never', or 'entirely' unless backed by the passage.",
-    "explanation": "The selected choice is backed directly by textual evidence in the official practice test."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e3_ela_06",
@@ -5002,36 +7985,37 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 6,
     "passageId": "e3_p1",
     "type": "multiple_choice",
-    "prompt": "Practice Form C: Reading Comprehension analysis question 6.",
+    "prompt": "Read the passage excerpt and answer question 6 based on the text.",
     "imageSrc": "/exams/exam3/items/ela_q06.png",
     "options": [
       {
         "id": "A",
-        "text": "Choice A"
+        "text": "Memory Revolution (1) A high school senior logs on to a computer at the library to double-check the application due date listed on a college admissions website. Nearby, a librarian helps a group of biology students use a database to search for recent studies about mammals. In the past few decades, the Internet has become an integral component of daily life for many people. The seemingly limitless power of search engines made the Internet search extremely common, and today people increasingly rely on the Internet's vast accumulation of sources to access all types of information. Scientists are beginning to examine how this reliance is modifying the strategies people use to store and prioritize information in their mind. A Dependable and Valuable Asset 2 Psychologist Benjamin Storm from the University of California, Santa Cruz, and researchers Sean Stone and Aaron Benjamin devised an experiment to study Which evidence from the passage is most relevant to the claim in paragraph 7 that \" 'far from making us stupid, these technologies are the only things that will keep us smart' \"? \u2022 A. the revelation that most people opted to use the Internet to answer relatively easy trivia questions rather than relying on their own brainpower (paragraph 2)"
       },
       {
         "id": "B",
-        "text": "Choice B"
+        "text": "the assertion that the storage of information on the Internet frees people to focus on higher-order tasks such as problem solving (paragraph 3)"
       },
       {
         "id": "C",
-        "text": "Choice C"
+        "text": "the connection between how people organize information in their mind and their ability to recall that information (paragraph 5)"
       },
       {
         "id": "D",
-        "text": "Choice D"
+        "text": "the description of transactive memory as an expansive external source that people can use to store information (paragraph 6)"
       }
     ],
-    "correctAnswer": "C",
-    "topic": "Reading Comprehension: Evidence & Inference",
-    "difficulty": "Medium",
+    "correctAnswer": "B",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Easy",
     "hints": [
-      "Locate the specific lines in the passage.",
-      "Compare each answer choice strictly to the line citations.",
-      "Eliminate distractors that exaggerate or misrepresent the author's tone."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Avoid choices that use extreme absolute words like 'always', 'never', or 'entirely' unless backed by the passage.",
-    "explanation": "The selected choice is backed directly by textual evidence in the official practice test."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e3_ela_07",
@@ -5040,36 +8024,37 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 7,
     "passageId": "e3_p2",
     "type": "multiple_choice",
-    "prompt": "Practice Form C: Reading Comprehension analysis question 7.",
+    "prompt": "Read the passage excerpt and answer question 7 based on the text.",
     "imageSrc": "/exams/exam3/items/ela_q07.png",
     "options": [
       {
         "id": "A",
-        "text": "Choice A"
+        "text": "Memory Revolution (1) A high school senior logs on to a computer at the library to double-check the application due date listed on a college admissions website. Nearby, a librarian helps a group of biology students use a database to search for recent studies about mammals. In the past few decades, the Internet has become an integral component of daily life for many people. The seemingly limitless power of search engines made the Internet search extremely common, and today people increasingly rely on the Internet's vast accumulation of sources to access all types of information. Scientists are beginning to examine how this reliance is modifying the strategies people use to store and prioritize information in their mind. A Dependable and Valuable Asset 2 Psychologist Benjamin Storm from the University of California, Santa Cruz, and researchers Sean Stone and Aaron Benjamin devised an experiment to study The effect of the Internet on a person's memory is illustrated in the passage through the presentation of studies that \u2022 A. examine how the use of search engines changes the way people evaluate and store information for future access."
       },
       {
         "id": "B",
-        "text": "Choice B"
+        "text": "highlight the difference between the capacity of the Internet and the ability of the human brain to locate information."
       },
       {
         "id": "C",
-        "text": "Choice C"
+        "text": "compare the type of information that can be obtained from the Internet with the type of information that is stored in the human brain."
       },
       {
         "id": "D",
-        "text": "Choice D"
+        "text": "emphasize the ease of obtaining information through search engines rather than remembering it without assistance."
       }
     ],
-    "correctAnswer": "D",
-    "topic": "Reading Comprehension: Evidence & Inference",
-    "difficulty": "Medium",
+    "correctAnswer": "A",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Easy",
     "hints": [
-      "Locate the specific lines in the passage.",
-      "Compare each answer choice strictly to the line citations.",
-      "Eliminate distractors that exaggerate or misrepresent the author's tone."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Avoid choices that use extreme absolute words like 'always', 'never', or 'entirely' unless backed by the passage.",
-    "explanation": "The selected choice is backed directly by textual evidence in the official practice test."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e3_ela_08",
@@ -5078,36 +8063,37 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 8,
     "passageId": "e3_p2",
     "type": "multiple_choice",
-    "prompt": "Practice Form C: Reading Comprehension analysis question 8.",
+    "prompt": "brothers knew that their flight attempt was risky?",
     "imageSrc": "/exams/exam3/items/ela_q08.png",
     "options": [
       {
         "id": "A",
-        "text": "Choice A"
+        "text": "through the mention of a signal to notify lifesaving experts that the flight attempt was about to begin"
       },
       {
         "id": "B",
-        "text": "Choice B"
+        "text": "by providing specific details about the speed of the wind and the Wright brothers' response to the windy conditions"
       },
       {
         "id": "C",
-        "text": "Choice C"
+        "text": "by suggesting that a slower landing would be necessary at the end of the flight in order to maintain safety"
       },
       {
         "id": "D",
-        "text": "Choice D"
+        "text": "through the indication that the Wright brothers waited indoors for most of the morning because of the poor weather"
       }
     ],
-    "correctAnswer": "B",
-    "topic": "Reading Comprehension: Evidence & Inference",
-    "difficulty": "Medium",
+    "correctAnswer": "A",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Easy",
     "hints": [
-      "Locate the specific lines in the passage.",
-      "Compare each answer choice strictly to the line citations.",
-      "Eliminate distractors that exaggerate or misrepresent the author's tone."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Avoid choices that use extreme absolute words like 'always', 'never', or 'entirely' unless backed by the passage.",
-    "explanation": "The selected choice is backed directly by textual evidence in the official practice test."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e3_ela_09",
@@ -5116,36 +8102,37 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 9,
     "passageId": "e3_p2",
     "type": "multiple_choice",
-    "prompt": "Practice Form C: Reading Comprehension analysis question 9.",
+    "prompt": "In 1903 brothers Wilbur and Orville Wright conducted experiments related to flying machines. These experiments would eventually lead to air travel becoming a reliable form of transportation. Excerpt from \"How We Made the First Flight\" by Orville Wright During the night of December 16, 1903, a strong cold wind blew from the north. When we arose on the morning of the 17th, the puddles of water, which had been standing about camp since the recent rains, were covered with ice. The wind had a velocity of 10 to 12 meters per second (22 to 27 miles an hour). We thought it would die down before long, and so remained indoors the early part of the morning. But when ten o'clock arrived, and the wind was as brisk as ever, we decided that we had better get the machine out and attempt a flight. We hung out the signal for the men of the Life Saving Station. We thought that by facing the Read this sentence from paragraph 4. Wilbur having used his turn in the unsuccessful attempt on the 14th, the right to the first trial now belonged to me. The sentence contributes to the development of ideas in the excerpt by",
     "imageSrc": "/exams/exam3/items/ela_q09.png",
     "options": [
       {
         "id": "A",
-        "text": "Choice A"
+        "text": "demonstrating the challenge of the extreme winter conditions during the flight."
       },
       {
         "id": "B",
-        "text": "Choice B"
+        "text": "revealing how many tries it took for Wilbur Wright to finally get the machine to take flight."
       },
       {
         "id": "C",
-        "text": "Choice C"
+        "text": "demonstrating that both Orville and Wilbur Wright were eager to pilot what could potentially be the first flight."
       },
       {
         "id": "D",
-        "text": "Choice D"
+        "text": "suggesting a sense that both brothers felt confident they would soon succeed in completing the first flight."
       }
     ],
-    "correctAnswer": "A",
-    "topic": "Reading Comprehension: Evidence & Inference",
-    "difficulty": "Medium",
+    "correctAnswer": "C",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Easy",
     "hints": [
-      "Locate the specific lines in the passage.",
-      "Compare each answer choice strictly to the line citations.",
-      "Eliminate distractors that exaggerate or misrepresent the author's tone."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Avoid choices that use extreme absolute words like 'always', 'never', or 'entirely' unless backed by the passage.",
-    "explanation": "The selected choice is backed directly by textual evidence in the official practice test."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e3_ela_10",
@@ -5154,36 +8141,1598 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 10,
     "passageId": "e3_p2",
     "type": "multiple_choice",
-    "prompt": "Practice Form C: Reading Comprehension analysis question 10.",
+    "prompt": "In 1903 brothers Wilbur and Orville Wright conducted experiments related to flying machines. These experiments would eventually lead to air travel becoming a reliable form of transportation. Excerpt from \"How We Made the First Flight\" by Orville Wright During the night of December 16, 1903, a strong cold wind blew from the north. When we arose on the morning of the 17th, the puddles of water, which had been standing about camp since the recent rains, were covered with ice. The wind had a velocity of 10 to 12 meters per second (22 to 27 miles an hour). We thought it would die down before long, and so remained indoors the early part of the morning. But when ten o'clock arrived, and the wind was as brisk as ever, we decided that we had better get the machine out and attempt a flight. We hung out the signal for the men of the Life Saving Station. We thought that by facing the The photograph mentioned in paragraph 4 is significant because it \u2022 A. documents that the machine rose into the air as soon as the tethering wire was released. O B. provides proof of the critical moment the machine took flight. O C. documents that the wind reduced the speed of the plane at the start of the flight. D. provides proof that the pilot had to gradually increase the height of the plane in the air.",
     "imageSrc": "/exams/exam3/items/ela_q10.png",
     "options": [
       {
         "id": "A",
-        "text": "Choice A"
+        "text": "Option A"
       },
       {
         "id": "B",
-        "text": "Choice B"
+        "text": "Option B"
       },
       {
         "id": "C",
-        "text": "Choice C"
+        "text": "Option C"
       },
       {
         "id": "D",
-        "text": "Choice D"
+        "text": "Option D"
+      }
+    ],
+    "correctAnswer": "B",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Easy",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e3_ela_11",
+    "examId": "exam3",
+    "section": "ela",
+    "questionNumber": 11,
+    "passageId": "e3_p2",
+    "type": "multiple_choice",
+    "prompt": "the flight convey a central idea of the excerpt?",
+    "imageSrc": "/exams/exam3/items/ela_q11.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "by explaining how the flawed design of the machine caused it to turn unpredictably in the air and brought the first flight by a person to an abrupt end"
+      },
+      {
+        "id": "B",
+        "text": "by indicating that the difficulty in controlling the flight was caused by the rudimentary instruments of the machine and the inexperience of the pilot"
+      },
+      {
+        "id": "C",
+        "text": "by explaining how the pilot and the plane overcame adverse conditions in order to complete the first piloted flight"
+      },
+      {
+        "id": "D",
+        "text": "by indicating that the gradual change in wind velocity created an extreme environment in which to maneuver the plane and maintain its flight"
       }
     ],
     "correctAnswer": "C",
-    "topic": "Reading Comprehension: Evidence & Inference",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Easy",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e3_ela_12",
+    "examId": "exam3",
+    "section": "ela",
+    "questionNumber": 12,
+    "passageId": "e3_p2",
+    "type": "multiple_choice",
+    "prompt": "In 1903 brothers Wilbur and Orville Wright conducted experiments related to flying machines. These experiments would eventually lead to air travel becoming a reliable form of transportation. Excerpt from \"How We Made the First Flight\" by Orville Wright During the night of December 16, 1903, a strong cold wind blew from the north. When we arose on the morning of the 17th, the puddles of water, which had been standing about camp since the recent rains, were covered with ice. The wind had a velocity of 10 to 12 meters per second (22 to 27 miles an hour). We thought it would die down before long, and so remained indoors the early part of the morning. But when ten o'clock arrived, and the wind was as brisk as ever, we decided that we had better get the machine out and attempt a flight. We hung out the signal for the men of the Life Saving Station. We thought that by facing the Read this sentence from paragraph 5. As the velocity of the wind was over 35 feet per second and the speed of the machine over the ground against this wind ten feet per second, the speed of the machine relative to the air was over 45 feet per second, and the length of the flight was equivalent to",
+    "imageSrc": "/exams/exam3/items/ela_q12.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "flight of 540 feet made in calm air. How does the sentence help convey Orville Wright's perspective about this first flight? \u2022 A. It suggests that he was frustrated by the poor flying conditions on the day of the flight."
+      },
+      {
+        "id": "B",
+        "text": "It emphasizes that he believed the flight was successful despite its short distance."
+      },
+      {
+        "id": "C",
+        "text": "It provides a comparison between flight distances under calm and high wind conditions."
+      },
+      {
+        "id": "D",
+        "text": "It highlights the importance of such calculations in the success of future flights."
+      }
+    ],
+    "correctAnswer": "B",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Easy",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e3_ela_13",
+    "examId": "exam3",
+    "section": "ela",
+    "questionNumber": 13,
+    "passageId": "e3_p3",
+    "type": "multiple_choice",
+    "prompt": "order to accommodate the weather conditions?",
+    "imageSrc": "/exams/exam3/items/ela_q13.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "\"When we arose on the morning of the 17th, the puddles of water, which had been standing about camp since the recent rains, were covered with ice.\" (paragraph 1)"
+      },
+      {
+        "id": "B",
+        "text": "\"We realized the difficulties of flying in so high a wind, but estimated that the added dangers in flight would be partly compensated for by the slower speed in landing.\" (paragraph 1)"
+      },
+      {
+        "id": "C",
+        "text": "\"After running the motor a few minutes to heat it up, I released the wire that held the machine to the track, and the machine started forward in the wind.\" (paragraph 4)"
+      },
+      {
+        "id": "D",
+        "text": "\"The course of the flight up and down was exceedingly erratic, partly due to the irregularity of the air, and partly to lack of experience in handling this machine.\" (paragraph 5)"
+      }
+    ],
+    "correctAnswer": "B",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Easy",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e3_ela_14",
+    "examId": "exam3",
+    "section": "ela",
+    "questionNumber": 14,
+    "passageId": "e3_p3",
+    "type": "multiple_choice",
+    "prompt": "In 1903 brothers Wilbur and Orville Wright conducted experiments related to flying machines. These experiments would eventually lead to air travel becoming a reliable form of transportation. Excerpt from \"How We Made the First Flight\" by Orville Wright During the night of December 16, 1903, a strong cold wind blew from the north. When we arose on the morning of the 17th, the puddles of water, which had been standing about camp since the recent rains, were covered with ice. The wind had a velocity of 10 to 12 meters per second (22 to 27 miles an hour). We thought it would die down before long, and so remained indoors the early part of the morning. But when ten o'clock arrived, and the wind was as brisk as ever, we decided that we had better get the machine out and attempt a flight. We hung out the signal for the men of the Life Saving Station. We thought that by facing the The use of chronological structure contributes to the development of ideas in the excerpt by",
+    "imageSrc": "/exams/exam3/items/ela_q14.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "outlining the actions that the Wright brothers took to prepare for and successfully complete the first flight."
+      },
+      {
+        "id": "B",
+        "text": "identifying the primary factors that allowed the Wright brothers to overcome obstacles and achieve the first flight."
+      },
+      {
+        "id": "C",
+        "text": "showing how the Wright brothers applied lessons learned from their previous flight attempts to accomplish the first flight."
+      },
+      {
+        "id": "D",
+        "text": "demonstrating how the Wright brothers analyzed the impact of wind velocity to identify the ideal conditions for the first flight."
+      }
+    ],
+    "correctAnswer": "A",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Easy",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e3_ela_15",
+    "examId": "exam3",
+    "section": "ela",
+    "questionNumber": 15,
+    "passageId": "e3_p3",
+    "type": "multiple_choice",
+    "prompt": "Wolves of the Sea 1) The cool and misty landscape of the Great Bear Rainforest can be found along the coast of British Columbia, Canada, and its nearby islands, from Vancouver Island to the Alaskan border. Within this protected area, wolves roam the forests, islands, and beaches. When biologist Chris Darimont began to study these wolves, he wanted to confer with local First Nations groups, as aboriginal Canadians are known, in order to learn what they knew about these wolves. He spoke with Chester Starr, an elder of the Heiltsuk Nation that has occupied the Great Bear Rainforest for thousands of years. What Starr had to say about the wolves changed Darimont's perception of the animals. 2) Starr asked Darimont which wolves he and his team were going to study-the timber wolves (mainland wolves) or the coastal wolves on the islands. The question took Darimont by surprise. Biologists had alwavs believed that the wolves that are sometimes The details in paragraph 1 contribute to a central idea of the passage by showing that Darimont",
+    "imageSrc": "/exams/exam3/items/ela_q15.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "believed the Great Bear Rainforest was an ideal location to study wolves in their natural habitat because it is a protected area."
+      },
+      {
+        "id": "B",
+        "text": "values different perspectives, because the information that Starr provided influenced the focus of Darimont's research."
+      },
+      {
+        "id": "C",
+        "text": "thought the Great Bear Rainforest would provide opportunities to study different groups of wolves because the area includes forests and islands."
+      },
+      {
+        "id": "D",
+        "text": "understands the importance of respecting local community members, because Darimont sought permission from an elder of the Heiltsuk Nation before starting his research."
+      }
+    ],
+    "correctAnswer": "B",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Easy",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e3_ela_16",
+    "examId": "exam3",
+    "section": "ela",
+    "questionNumber": 16,
+    "passageId": "e3_p3",
+    "type": "multiple_choice",
+    "prompt": "between Starr and Darimont in paragraph 2?",
+    "imageSrc": "/exams/exam3/items/ela_q16.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "to explain why Starr had closely observed the relationship between the two groups of wolves Darimont wanted to study"
+      },
+      {
+        "id": "B",
+        "text": "to show that Darimont was hoping to work with Starr and to study both groups of wolves in the area"
+      },
+      {
+        "id": "C",
+        "text": "to highlight that Darimont was unfamiliar with the area and expected Starr to help him find wolves to study"
+      },
+      {
+        "id": "D",
+        "text": "to emphasize that the question asked by Starr caused Darimont to review his initial assumption about the wolves"
+      }
+    ],
+    "correctAnswer": "D",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
     "difficulty": "Medium",
     "hints": [
-      "Locate the specific lines in the passage.",
-      "Compare each answer choice strictly to the line citations.",
-      "Eliminate distractors that exaggerate or misrepresent the author's tone."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Avoid choices that use extreme absolute words like 'always', 'never', or 'entirely' unless backed by the passage.",
-    "explanation": "The selected choice is backed directly by textual evidence in the official practice test."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e3_ela_17",
+    "examId": "exam3",
+    "section": "ela",
+    "questionNumber": 17,
+    "passageId": "e3_p3",
+    "type": "multiple_choice",
+    "prompt": "Wolves of the Sea 1) The cool and misty landscape of the Great Bear Rainforest can be found along the coast of British Columbia, Canada, and its nearby islands, from Vancouver Island to the Alaskan border. Within this protected area, wolves roam the forests, islands, and beaches. When biologist Chris Darimont began to study these wolves, he wanted to confer with local First Nations groups, as aboriginal Canadians are known, in order to learn what they knew about these wolves. He spoke with Chester Starr, an elder of the Heiltsuk Nation that has occupied the Great Bear Rainforest for thousands of years. What Starr had to say about the wolves changed Darimont's perception of the animals. 2 Starr asked Darimont which wolves he and his team were going to study-the timber wolves (mainland wolves) or the coastal wolves on the islands. The question took Darimont by surprise. Biologists had alwavs helieved that the wolves that are sometimes Read this sentence from paragraph 4. After collecting and analyzing the DNA in 800 samples of gray fur and wolf waste, researchers could produce hard biological evidence that sea wolves had genetic markers that made them distinct from the mainland wolves. The phrase \"hard biological evidence\" conveys that the goal of the research team was to",
+    "imageSrc": "/exams/exam3/items/ela_q17.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "develop a procedure in order to ensure their study yielded plentiful data about the wolves."
+      },
+      {
+        "id": "B",
+        "text": "seek definitive scientific proof of the number of wolf species present in the area of the study."
+      },
+      {
+        "id": "C",
+        "text": "conduct a study to evaluate multiple theories about the diets of different wolf species."
+      },
+      {
+        "id": "D",
+        "text": "discover if the new data would provide information different from that of previous studies."
+      }
+    ],
+    "correctAnswer": "B",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Medium",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e3_ela_18",
+    "examId": "exam3",
+    "section": "ela",
+    "questionNumber": 18,
+    "passageId": "e3_p3",
+    "type": "multiple_choice",
+    "prompt": "The author uses the word \"admits\" in paragraph 5 most likely to",
+    "imageSrc": "/exams/exam3/items/ela_q18.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "note that Darimont's genetic research verified a theory based solely on field observations."
+      },
+      {
+        "id": "B",
+        "text": "imply that Darimont's study was disappointing because the conclusion that he reached was not original."
+      },
+      {
+        "id": "C",
+        "text": "emphasize that Darimont's study ultimately confirmed an idea that he had initially doubted. \u2022"
+      },
+      {
+        "id": "D",
+        "text": "highlight that Darimont's results led him to draw a conclusion from his research that his team did not agree with."
+      }
+    ],
+    "correctAnswer": "C",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Medium",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e3_ela_19",
+    "examId": "exam3",
+    "section": "ela",
+    "questionNumber": 19,
+    "passageId": "e3_p3",
+    "type": "multiple_choice",
+    "prompt": "sea wolves had successfully adapted to living on the islands?",
+    "imageSrc": "/exams/exam3/items/ela_q19.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "\"While mainland wolves almost exclusively eat meat, such as deer and elk, and teach their young to hunt for land animals, sea wolves get as much as 90 percent of their nutrition from the sea and teach their young to dig for clams and to catch fish.\" (paragraph 3)"
+      },
+      {
+        "id": "B",
+        "text": "\"Sea wolves regularly swim between islands and have been known to sneak up on a seal sunning itself on a rock and make a leaping attack from the water.\" (paragraph 3)"
+      },
+      {
+        "id": "C",
+        "text": "\"Darimont suspects that some sea wolves live their entire life on the islands.\" (paragraph 3)"
+      },
+      {
+        "id": "D",
+        "text": "\"Darimont hypothesizes that a change in habitat led to the eventual genetic differences between sea wolves and mainland wolves.\" (paragraph 4)"
+      }
+    ],
+    "correctAnswer": "A",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Medium",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e3_ela_20",
+    "examId": "exam3",
+    "section": "ela",
+    "questionNumber": 20,
+    "passageId": "e3_p4",
+    "type": "multiple_choice",
+    "prompt": "the Great Bear Rainforest over time?",
+    "imageSrc": "/exams/exam3/items/ela_q20.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "It caused some of the wolves to learn new hunting techniques in order to catch increasingly scarce prey."
+      },
+      {
+        "id": "B",
+        "text": "It caused the wolves to form smaller packs and eventually separate, establishing distinct territories."
+      },
+      {
+        "id": "C",
+        "text": "It caused some of the wolves to gradually become a new, genetically distinct species as they adapted behaviorally."
+      },
+      {
+        "id": "D",
+        "text": "It caused the wolves to adapt their diet as different food sources became available in the area."
+      }
+    ],
+    "correctAnswer": "C",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Medium",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e3_ela_21",
+    "examId": "exam3",
+    "section": "ela",
+    "questionNumber": 21,
+    "passageId": "e3_p4",
+    "type": "multiple_choice",
+    "prompt": "10 15 Ode to Fireworks In autumn my mother drove us to the edge of the field where the fair was set up year after year: the carousel, the bumper cars, the long, low sheds filled with prizewinning animals. We-my sister, my cousin, and I-were ready for bed, already in our pajamas. This was a treat we waited all year for. We waited in the darkness for the first low, dull thwumps, like someone beating an old, filthy rug hung on a wash line. Then we counted the seconds between the lightning and thunder, as we also used to do, until the sky lit up: red, blue, green, gold. In my mind's eye I can still see the straggly, ancient oak whose branche reached up past the exhibition halls, silhouetted against the spectrum of stars that cascaded behind it. It was one thing to look up into the sky and imagine yourself in it or to make out pictures The comparison in lines 8-9 of the poem is used to convey",
+    "imageSrc": "/exams/exam3/items/ela_q21.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "the muffled pounding of explosions in the distance."
+      },
+      {
+        "id": "B",
+        "text": "the way lightning streaks through the clouds."
+      },
+      {
+        "id": "C",
+        "text": "the echoes of thunder on an autumn night."
+      },
+      {
+        "id": "D",
+        "text": "the glow of sparks falling from the sky."
+      }
+    ],
+    "correctAnswer": "A",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Medium",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e3_ela_22",
+    "examId": "exam3",
+    "section": "ela",
+    "questionNumber": 22,
+    "passageId": "e3_p4",
+    "type": "multiple_choice",
+    "prompt": "speaker?",
+    "imageSrc": "/exams/exam3/items/ela_q22.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "The speaker values material possessions."
+      },
+      {
+        "id": "B",
+        "text": "The speaker imagines that the fireworks are magical."
+      },
+      {
+        "id": "C",
+        "text": "The speaker believes that the country setting is distinctive."
+      },
+      {
+        "id": "D",
+        "text": "The speaker cherishes the memory of seeing fireworks as a child."
+      }
+    ],
+    "correctAnswer": "D",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Medium",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e3_ela_23",
+    "examId": "exam3",
+    "section": "ela",
+    "questionNumber": 23,
+    "passageId": "e3_p4",
+    "type": "multiple_choice",
+    "prompt": "10 15 Ode to Fireworks In autumn my mother drove us to the edge of the field where the fair was set up year after year: the carousel, the bumper cars, the long, low sheds filled with prizewinning animals. We-my sister, my cousin, and I-were ready for bed, already in our pajamas. This was a treat we waited all year for. We waited in the darkness for the first low, dull thwumps, like someone beating an old, filthy rug hung on a wash line. Then we counted the seconds between the lightning and thunder, as we also used to do, until the sky lit up: red, blue, green, gold. In my mind's eye I can still see the straggly, ancient oak whose branche reached up past the exhibition halls, silhouetted against the spectrum of stars that cascaded behind it. It was one thing to look up into the sky and imagine yourself in it or to make out pictures The use of italics on the word \"night\" in line 24 is most likely intended to emphasize the",
+    "imageSrc": "/exams/exam3/items/ela_q23.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "sense of mystery in the darkness."
+      },
+      {
+        "id": "B",
+        "text": "sense of absolute darkness. \u2022"
+      },
+      {
+        "id": "C",
+        "text": "speaker's fear of night."
+      },
+      {
+        "id": "D",
+        "text": "speaker's certainty about that night."
+      }
+    ],
+    "correctAnswer": "B",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Medium",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e3_ela_24",
+    "examId": "exam3",
+    "section": "ela",
+    "questionNumber": 24,
+    "passageId": "e3_p4",
+    "type": "multiple_choice",
+    "prompt": "lines 26 and 37? In autumn my mother drove us to the edge of the field",
+    "imageSrc": "/exams/exam3/items/ela_q24.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "to create a distinction between solitude and meaningful where the fair was set up year after year: interaction the carousel, the bumper cars, the long, low sheds filled with prizewinning animals. We-my sister, my cousin, and I\u2014were ready for bed, already in our pajamas. This was a treat we waited"
+      },
+      {
+        "id": "B",
+        "text": "to demonstrate a connection between the speaker's past and present all year for. We waited in the darkness for the first low, dull thwumps, like someone"
+      },
+      {
+        "id": "C",
+        "text": "to emphasize the speaker's attention to the surrounding beating an old, filthy rug hung on a wash line. sounds Then we counted the seconds between the lightning and thunder, as we also used to do, until the sky"
+      },
+      {
+        "id": "D",
+        "text": "to compare the fireworks to common sights and sounds lit up: red, blue, green, gold. In my mind's eye I can still see the straggly, ancient oak whose branche reached up past the exhibition halls, silhouetted against the spectrum of stars that cascaded behind it. It was one thing to look up into the sky and imagine yourself in it or to make out pictures"
+      }
+    ],
+    "correctAnswer": "D",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Medium",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e3_ela_25",
+    "examId": "exam3",
+    "section": "ela",
+    "questionNumber": 25,
+    "passageId": "e3_p4",
+    "type": "multiple_choice",
+    "prompt": "How does this memory affect the speaker?",
+    "imageSrc": "/exams/exam3/items/ela_q25.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "The speaker believes it is impossible to ever return to a place in the past."
+      },
+      {
+        "id": "B",
+        "text": "The speaker is still amused by the impatience felt during fireworks displays."
+      },
+      {
+        "id": "C",
+        "text": "The speaker now regrets abandoning the rural way of life."
+      },
+      {
+        "id": "D",
+        "text": "The speaker feels a sense of comfort when reflecting on the past."
+      }
+    ],
+    "correctAnswer": "B",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Medium",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e3_ela_26",
+    "examId": "exam3",
+    "section": "ela",
+    "questionNumber": 26,
+    "passageId": "e3_p4",
+    "type": "multiple_choice",
+    "prompt": "10 15 Ode to Fireworks In autumn my mother drove us to the edge of the field where the fair was set up year after year: the carousel, the bumper cars, the long, low sheds filled with prizewinning animals. We-my sister, my cousin, and I-were ready for bed, already in our pajamas. This was a treat we waited all year for. We waited in the darkness for the first low, dull thwumps, like someone beating an old, filthy rug hung on a wash line. Then we counted the seconds between the lightning and thunder, as we also used to do, until the sky lit up: red, blue, green, gold. In my mind's eye I can still see the straggly, ancient oak whose branche reached up past the exhibition halls, silhouetted against the spectrum of stars that cascaded behind it. It was one thing to look up into the sky and imagine yourself in it or to make out pictures The fireworks in the poem represent the speaker's",
+    "imageSrc": "/exams/exam3/items/ela_q26.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "wish to return to a simpler way of living."
+      },
+      {
+        "id": "B",
+        "text": "bittersweet feelings about leaving the past behind."
+      },
+      {
+        "id": "C",
+        "text": "high expectations for everyday life."
+      },
+      {
+        "id": "D",
+        "text": "reflections on past interactions with relatives."
+      }
+    ],
+    "correctAnswer": "B",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Medium",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e3_ela_27",
+    "examId": "exam3",
+    "section": "ela",
+    "questionNumber": 27,
+    "passageId": "e3_p5",
+    "type": "multiple_choice",
+    "prompt": "The narrator's summer job is collecting marine specimens in Puget Sound, Washington. In this excerpt, he is looking for specimens in the mudflats before daybreak. Mudflats, or flats, are coastal landforms created when sediment and silt from tides are deposited as the tides recede. Excerpt from The Highest Tide by Jim Lynch 1) I rounded the oyster beds, to the far side. ... It was low tide by then, and I saw the water hesitating at its apex, neither leaving nor returning, patiently waiting for the gravitational gears to shift. Dozens of anxious clams started squirting in unison like they did whenever vibrating grains of sand warned them predators were approaching. I stopped and waited with them, to actually see the moment when the tide started returning with its invisible buffet of plankton for the clams, oysters, mussels and other filter feeders. It was right then, ankle In paragraph 3, the phrase \"the butterflies of the sea\" conveys the idea that \u2022 A. nudibranchs do not have to work as hard as other animals to survive in the ocean. O B. nudibranchs have colorful features that make them stand out. C. nudibranchs are delicate and have trouble adapting to their environment. D. nudibranchs are rare and difficult to find in the ocean.",
+    "imageSrc": "/exams/exam3/items/ela_q27.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      }
+    ],
+    "correctAnswer": "B",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Medium",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e3_ela_28",
+    "examId": "exam3",
+    "section": "ela",
+    "questionNumber": 28,
+    "passageId": "e3_p5",
+    "type": "multiple_choice",
+    "prompt": "The narrator's summer job is collecting marine specimens in Puget Sound, Washington. In this excerpt, he is looking for specimens in the mudflats before daybreak. Mudflats, or flats, are coastal landforms created when sediment and silt from tides are deposited as the tides recede. Excerpt from The Highest Tide by Jim Lynch (1) I rounded the oyster beds, to the far side. ... It was low tide by then, and I saw the water hesitating at its apex, neither leaving nor returning, patiently waiting for the gravitational gears to shift. Dozens of anxious clams started squirting in unison like they did whenever vibrating grains of sand warned them predators were approaching. I stopped and waited with them, to actually see the moment when the tide started returning with its invisible buffet of plankton for the clams, oysters, mussels and other filter feeders. It was right then, ankle Read these sentences from paragraph 4. I'm not sure why I decided to take a look. It was still an hour before sunrise, and I knew exactly what the bars looked like in the moonlight, but for some reason, I couldn't resist. The sentences contribute to the overall structure of the excerpt by",
+    "imageSrc": "/exams/exam3/items/ela_q28.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "introducing the mysterious creature that the narrator discovers."
+      },
+      {
+        "id": "B",
+        "text": "indicating a shift from the narrator recalling the past to the narrator reflecting on the present."
+      },
+      {
+        "id": "C",
+        "text": "establishing a struggle with fear that the narrator must overcome."
+      },
+      {
+        "id": "D",
+        "text": "building tension through indicating that the narrator is going to see something unexpected."
+      }
+    ],
+    "correctAnswer": "D",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Medium",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e3_ela_29",
+    "examId": "exam3",
+    "section": "ela",
+    "questionNumber": 29,
+    "passageId": "e3_p5",
+    "type": "multiple_choice",
+    "prompt": "The narrator's summer job is collecting marine specimens in Puget Sound, Washington. In this excerpt, he is looking for specimens in the mudflats before daybreak. Mudflats, or flats, are coastal landforms created when sediment and silt from tides are deposited as the tides recede. Excerpt from The Highest Tide by Jim Lynch 1) I rounded the oyster beds, to the far side. ... It was low tide by then, and I saw the water hesitating at its apex, neither leaving nor returning, patiently waiting for the gravitational gears to shift. Dozens of anxious clams started squirting in unison like they did whenever vibrating grains of sand warned them predators were approaching. I stopped and waited with them, to actually see the moment when the tide started returning with its invisible buffet of plankton for the clams, oysters, mussels and other filter feeders. It was right then, ankle The narrator's actions in paragraph 5 reveal that he is",
+    "imageSrc": "/exams/exam3/items/ela_q29.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "expecting to see the familiar sight of a stranded minke."
+      },
+      {
+        "id": "B",
+        "text": "confident about exploring farther into the mudflats. \u2022"
+      },
+      {
+        "id": "C",
+        "text": "unconcerned about becoming stuck in the mudflats."
+      },
+      {
+        "id": "D",
+        "text": "determined to discover the source of the sound."
+      }
+    ],
+    "correctAnswer": "D",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Medium",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e3_ela_30",
+    "examId": "exam3",
+    "section": "ela",
+    "questionNumber": 30,
+    "passageId": "e3_p5",
+    "type": "multiple_choice",
+    "prompt": "How does the setting affect the plot of the excerpt?",
+    "imageSrc": "/exams/exam3/items/ela_q30.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "The darkness of the mudflats before sunrise causes the narrator to pay close attention to his surroundings."
+      },
+      {
+        "id": "B",
+        "text": "The rugged terrain of the mudflats makes it more difficult for the narrator to do his job."
+      },
+      {
+        "id": "C",
+        "text": "The slow return of the tide along the mudflats forces the narrator to be patient during his journey."
+      },
+      {
+        "id": "D",
+        "text": "The barren appearance of the mudflats creates a sense of mystery that unsettles the narrator."
+      }
+    ],
+    "correctAnswer": "A",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Medium",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e3_ela_31",
+    "examId": "exam3",
+    "section": "ela",
+    "questionNumber": 31,
+    "passageId": "e3_p5",
+    "type": "multiple_choice",
+    "prompt": "narrator is taking a risk?",
+    "imageSrc": "/exams/exam3/items/ela_q31.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "\"It was an exhale, a release of sorts, and I instantly wondered if a whale was stranded again.\""
+      },
+      {
+        "id": "B",
+        "text": "\"I looked for a hulking silhouette but couldn't find one.\""
+      },
+      {
+        "id": "C",
+        "text": "\"I waited, but there were no more sounds.\""
+      },
+      {
+        "id": "D",
+        "text": "\"I knew the flats well enough to know I could get stuck just about anywhere.\""
+      }
+    ],
+    "correctAnswer": "D",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Medium",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e3_ela_32",
+    "examId": "exam3",
+    "section": "ela",
+    "questionNumber": 32,
+    "passageId": "e3_p5",
+    "type": "multiple_choice",
+    "prompt": "The narrator's summer job is collecting marine specimens in Puget Sound, Washington. In this excerpt, he is looking for specimens in the mudflats before daybreak. Mudflats, or flats, are coastal landforms created when sediment and silt from tides are deposited as the tides recede. Excerpt from The Highest Tide by Jim Lynch (1) I rounded the oyster beds, to the far side. ... It was low tide by then, and I saw the water hesitating at its apex, neither leaving nor returning, patiently waiting for the gravitational gears to shift. Dozens of anxious clams started squirting in unison like they did whenever vibrating grains of sand warned them predators were approaching. I stopped and waited with them, to actually see the moment when the tide started returning with its invisible buffet of plankton for the clams, oysters, mussels and other filter feeders. It was right then, ankle Read this sentence from paragraph 6. I kept stepping toward the one sound I'd heard, a growing part of me hoping l'd find nothing at all. How do the narrator's actions develop a central idea of the excerpt? \u2022 A. The narrator's concern about the origin of the noise shows dedication to helping preserve sea life in the mudflats. O B. The narrator's curiosity about the sea life in the mudflats outweighs any fear about the situation. \u2022 C. The narrator's knowledge about a variety of sea life encourages a search for more specimens to study. \u2022 D. The narrator's eagerness about new specimens of sea life outweighs the reality that the area is an unlikely place to find them.",
+    "imageSrc": "/exams/exam3/items/ela_q32.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      }
+    ],
+    "correctAnswer": "B",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Medium",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e3_ela_33",
+    "examId": "exam3",
+    "section": "ela",
+    "questionNumber": 33,
+    "passageId": "e3_p5",
+    "type": "multiple_choice",
+    "prompt": "The narrator's summer job is collecting marine specimens in Puget Sound, Washington. In this excerpt, he is looking for specimens in the mudflats before daybreak. Mudflats, or flats, are coastal landforms created when sediment and silt from tides are deposited as the tides recede. Excerpt from The Highest Tide by Jim Lynch 1) I rounded the oyster beds, to the far side. ... It was low tide by then, and I saw the water hesitating at its apex, neither leaving nor returning, patiently waiting for the gravitational gears to shift. Dozens of anxious clams started squirting in unison like they did whenever vibrating grains of sand warned them predators were approaching. I stopped and waited with them, to actually see the moment when the tide started returning with its invisible buffet of plankton for the clams, oysters, mussels and other filter feeders. It was right then, ankle Read these sentences from paragraph 8. So, I was looking at it and not looking at it while my heart spangled my vision. I saw fragments, pieces, and tried to fuse them in my mind but couldn't be certain of the whole. The sensory language \"spangled my vision,\" \"I saw fragments, pieces,\" and \"tried to fuse them in my mind\" conveys the narrator's",
+    "imageSrc": "/exams/exam3/items/ela_q33.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "extreme excitement about making a great discovery."
+      },
+      {
+        "id": "B",
+        "text": "reluctant acceptance that he needs to leave the mudflats."
+      },
+      {
+        "id": "C",
+        "text": "terrified confusion about the creature in the mudflats."
+      },
+      {
+        "id": "D",
+        "text": "sudden concern about his personal safety."
+      }
+    ],
+    "correctAnswer": "C",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Medium",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e3_ela_34",
+    "examId": "exam3",
+    "section": "ela",
+    "questionNumber": 34,
+    "passageId": "e3_p5",
+    "type": "multiple_choice",
+    "prompt": "The narrator's summer job is collecting marine specimens in Puget Sound, Washington. In this excerpt, he is looking for specimens in the mudflats before daybreak. Mudflats, or flats, are coastal landforms created when sediment and silt from tides are deposited as the tides recede. Excerpt from The Highest Tide by Jim Lynch 1) I rounded the oyster beds, to the far side. ... It was low tide by then, and I saw the water hesitating at its apex, neither leaving nor returning, patiently waiting for the gravitational gears to shift. Dozens of anxious clams started squirting in unison like they did whenever vibrating grains of sand warned them predators were approaching. I stopped and waited with them, to actually see the moment when the tide started returning with its invisible buffet of plankton for the clams, oysters, mussels and other filter feeders. It was right then, ankle The author develops the narrator's point of view when the narrator sees the creature by \u2022 A. describing the narrator's movements as he approaches the creature. O B. emphasizing the odds of finding the creature in an area inhabited by a rival species. C. showing the narrator's growing realization of the creature's identity. \u2022 D. comparing the size of the creature to the size of a vehicle.",
+    "imageSrc": "/exams/exam3/items/ela_q34.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      }
+    ],
+    "correctAnswer": "C",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Medium",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e3_ela_35",
+    "examId": "exam3",
+    "section": "ela",
+    "questionNumber": 35,
+    "passageId": "e3_p6",
+    "type": "multiple_choice",
+    "prompt": "What is the best way to combine sentences 2 and 3?",
+    "imageSrc": "/exams/exam3/items/ela_q35.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "Historians, who are unsure of exactly when and where martial arts were first used, know that martial arts have been practiced by several different societies for many centuries."
+      },
+      {
+        "id": "B",
+        "text": "While historians are unsure of exactly when and where martial arts were first used, they do know that martial arts have been practiced by several different societies for many centuries."
+      },
+      {
+        "id": "C",
+        "text": "Because historians know that martial arts have been practiced by several different societies for many centuries, they are unsure of exactly when and where martial arts were first used."
+      },
+      {
+        "id": "D",
+        "text": "Martial arts have been practiced by several different societies for many centuries, and historians are unsure of exactly when and where martial arts were first used."
+      }
+    ],
+    "correctAnswer": "B",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Medium",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e3_ela_36",
+    "examId": "exam3",
+    "section": "ela",
+    "questionNumber": 36,
+    "passageId": "e3_p6",
+    "type": "multiple_choice",
+    "prompt": "organization of the second paragraph (sentences 6-10)?",
+    "imageSrc": "/exams/exam3/items/ela_q36.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "to the beginning of the paragraph (before sentence 6)"
+      },
+      {
+        "id": "B",
+        "text": "between sentences 6 and 7"
+      },
+      {
+        "id": "C",
+        "text": "between sentences 7 and 8"
+      },
+      {
+        "id": "D",
+        "text": "between sentences 8 and 9"
+      }
+    ],
+    "correctAnswer": "D",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Hard",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e3_ela_37",
+    "examId": "exam3",
+    "section": "ela",
+    "questionNumber": 37,
+    "passageId": "e3_p6",
+    "type": "multiple_choice",
+    "prompt": "Martial Arts for the Mind and Body (1) The martial arts blend a series of physical movements with strategic mental discipline so that practitioners can defend themselves, physically defeat an opponent, or both. (2) Historians are unsure of exactly when and where martial arts were first used. (3) Martial arts have been practiced by several different societies for many centuries. (4) Martial arts such as karate, kung fu, tae kwon do, and judo are still taught and practiced as methods of self-defense, but they offer students more than that. (5) The study of martial arts can provide students with a way to enhance their mental discipline as well as their physical fitness. (6) Discipline, focus, and respect are important qualities for everyone to have. (7) However, for most people these qualities are not innate; they must be learned and practiced. (8) The study of martial arts can provide an opportunity to develop these skills. (9) Students are rewarded for their dedication hy nassina tests and Which revision of sentence 12 best maintains the formal style established in the passage? \u2022 A. A lot of teens have to put up with difficult things while trying to do well in school and in life. O B. Many teenagers deal with tough situations as they try to stay on top of their studies and do well in life. \u2022 C. Many teenagers encounter challenges as they work to succeed both academically and personally. D. A lot of teens face problems as they work to keep up with their schoolwork and find personal success.",
+    "imageSrc": "/exams/exam3/items/ela_q37.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      }
+    ],
+    "correctAnswer": "C",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Hard",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e3_ela_38",
+    "examId": "exam3",
+    "section": "ela",
+    "questionNumber": 38,
+    "passageId": "e3_p6",
+    "type": "multiple_choice",
+    "prompt": "sentence 17?",
+    "imageSrc": "/exams/exam3/items/ela_q38.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "Over time,"
+      },
+      {
+        "id": "B",
+        "text": "In fact,"
+      },
+      {
+        "id": "C",
+        "text": "Even so,"
+      },
+      {
+        "id": "D",
+        "text": "For instance,"
+      }
+    ],
+    "correctAnswer": "A",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Hard",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e3_ela_39",
+    "examId": "exam3",
+    "section": "ela",
+    "questionNumber": 39,
+    "passageId": "e3_p6",
+    "type": "multiple_choice",
+    "prompt": "Which sentence would best follow and support sentence 18?",
+    "imageSrc": "/exams/exam3/items/ela_q39.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "Adult students gain discipline, focus, self-control, and respect, which are qualities that help them advance in their careers."
+      },
+      {
+        "id": "B",
+        "text": "Many adults initially train in a martial art simply to get exercise without realizing that the training also helps develop other skills."
+      },
+      {
+        "id": "C",
+        "text": "The exercise involved in training helps people strengthen their heart, boost endurance, improve balance, and develop muscle tone."
+      },
+      {
+        "id": "D",
+        "text": "People who commit to training in the martial arts are usually concerned about improving their overall physical health."
+      }
+    ],
+    "correctAnswer": "B",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Hard",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e3_ela_40",
+    "examId": "exam3",
+    "section": "ela",
+    "questionNumber": 40,
+    "passageId": "e3_p6",
+    "type": "multiple_choice",
+    "prompt": "support the topic presented in the passage?",
+    "imageSrc": "/exams/exam3/items/ela_q40.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "With so many ways to begin studying martial arts, people can easily discover how the skills needed to progress in rank may help them in life."
+      },
+      {
+        "id": "B",
+        "text": "By taking advantage of opportunities to practice martial arts, people can experience the satisfaction of achieving goals while also improving themselves."
+      },
+      {
+        "id": "C",
+        "text": "Because people are eager to reap the mental and physical benefits of studying martial arts, enrollment in martial arts courses has increased."
+      },
+      {
+        "id": "D",
+        "text": "While taking martial arts classes can improve health for both young people and adults, the effects are clearly more immediate for adults."
+      }
+    ],
+    "correctAnswer": "C",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Hard",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e3_ela_41",
+    "examId": "exam3",
+    "section": "ela",
+    "questionNumber": 41,
+    "passageId": "e3_p6",
+    "type": "multiple_choice",
+    "prompt": "the main topic of the passage?",
+    "imageSrc": "/exams/exam3/items/ela_q41.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "The construction of the Gotthard Base Tunnel was approved by Swiss voters in 1992 and was funded by tolls, fuel taxes, and government loans."
+      },
+      {
+        "id": "B",
+        "text": "Leaders from several European countries attended the opening ceremonies for the Gotthard Base Tunnel, a Swiss tunnel."
+      },
+      {
+        "id": "C",
+        "text": "The Gotthard Base Tunnel is the world's longest and deepest railway tunnel, stretching 35.5 miles straight through the base of the Swiss Alps. O D. The Gotthard Base Tunnel continues to help reduce the number of freight trucks on the roadways in the Swiss Alps."
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      }
+    ],
+    "correctAnswer": "C",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Hard",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e3_ela_42",
+    "examId": "exam3",
+    "section": "ela",
+    "questionNumber": 42,
+    "passageId": "e3_p7",
+    "type": "multiple_choice",
+    "prompt": "sentence 7?",
+    "imageSrc": "/exams/exam3/items/ela_q42.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "The tunnel-boring machine is helpful to tunnel builders in the modern era and has been an improvement over dynamite."
+      },
+      {
+        "id": "B",
+        "text": "These enormous tunnel-boring machines function somewhat like a cheese grater, with the cutter head grinding slowly through rock and stone."
+      },
+      {
+        "id": "C",
+        "text": "Engineers had considered making a tunnel under the mountains for many years, but it was impossible to do without modern tunnel-boring machines."
+      },
+      {
+        "id": "D",
+        "text": "Different types of cutter heads are used with tunnel- boring machines depending on the geology of the area where the tunnel is being created."
+      }
+    ],
+    "correctAnswer": "B",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Hard",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e3_ela_43",
+    "examId": "exam3",
+    "section": "ela",
+    "questionNumber": 43,
+    "passageId": "e3_p7",
+    "type": "multiple_choice",
+    "prompt": "organization of the second paragraph (sentences 6-11)?",
+    "imageSrc": "/exams/exam3/items/ela_q43.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "to the beginning of the paragraph (before sentence 6) \u2022 ."
+      },
+      {
+        "id": "B",
+        "text": "between sentences 6 and 7 \u2022"
+      },
+      {
+        "id": "C",
+        "text": "between sentences 8 and 9"
+      },
+      {
+        "id": "D",
+        "text": "between sentences 9 and 10"
+      }
+    ],
+    "correctAnswer": "D",
+    "topic": "Revising & Editing",
+    "subtopic": "Conventions of Language & Paragraph Organization",
+    "difficulty": "Hard",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e3_ela_44",
+    "examId": "exam3",
+    "section": "ela",
+    "questionNumber": 44,
+    "passageId": "e3_p7",
+    "type": "multiple_choice",
+    "prompt": "be removed?",
+    "imageSrc": "/exams/exam3/items/ela_q44.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "sentence 13"
+      },
+      {
+        "id": "B",
+        "text": "sentence 14"
+      },
+      {
+        "id": "C",
+        "text": "sentence 15"
+      },
+      {
+        "id": "D",
+        "text": "sentence 16"
+      }
+    ],
+    "correctAnswer": "D",
+    "topic": "Revising & Editing",
+    "subtopic": "Conventions of Language & Paragraph Organization",
+    "difficulty": "Hard",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e3_ela_45",
+    "examId": "exam3",
+    "section": "ela",
+    "questionNumber": 45,
+    "passageId": "e3_p7",
+    "type": "multiple_choice",
+    "prompt": "sentence 18?",
+    "imageSrc": "/exams/exam3/items/ela_q45.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "Although the Gotthard Base Tunnel is mainly for freight trains,"
+      },
+      {
+        "id": "B",
+        "text": "With the Gotthard Base Tunnel taking ten years to complete,"
+      },
+      {
+        "id": "C",
+        "text": "Because of the successful completion of the Gotthard Base Tunnel, O D. As the number of trains using the Gotthard Base Tunnel increases,"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      }
+    ],
+    "correctAnswer": "C",
+    "topic": "Revising & Editing",
+    "subtopic": "Conventions of Language & Paragraph Organization",
+    "difficulty": "Hard",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e3_ela_46",
+    "examId": "exam3",
+    "section": "ela",
+    "questionNumber": 46,
+    "passageId": "e3_p7",
+    "type": "multiple_choice",
+    "prompt": "to support the topic presented in the passage?",
+    "imageSrc": "/exams/exam3/items/ela_q46.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "There is proof that underground tunnels such as the Gotthard Base Tunnel are beneficial to the economy of the surrounding area."
+      },
+      {
+        "id": "B",
+        "text": "The Gotthard Base Tunnel is an extraordinary example of how human ingenuity and persistence can overcome great obstacles."
+      },
+      {
+        "id": "C",
+        "text": "The completion of the Gotthard Base Tunnel shows that people can work together to achieve important goals. O D. The Swiss government is confident that the economic impact of the Gotthard Base Tunnel will be worth its construction cost."
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      }
+    ],
+    "correctAnswer": "B",
+    "topic": "Revising & Editing",
+    "subtopic": "Conventions of Language & Paragraph Organization",
+    "difficulty": "Hard",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e3_ela_47",
+    "examId": "exam3",
+    "section": "ela",
+    "questionNumber": 47,
+    "passageId": "e3_p7",
+    "type": "multiple_choice",
+    "prompt": "Which sentence contains an error in its construction and should be revised? (1) Walking dogs, cleaning kennels, hand-feeding newborn kittens, and supporting the pet-adoption process, the animal shelter is looking for volunteers to help with a variety of tasks. (2) Working at the animal shelter is a great way for young people, especially those who aspire to care for and protect animals, to gain valuable work experience. (3) In addition to hands-on training with animal care, volunteers will learn important job skills, such as punctuality, responsibility, and personal initiative. (4) Caring for animals can also help volunteers develop empathy, which is the awareness and understanding of the feelings of others.",
+    "imageSrc": "/exams/exam3/items/ela_q47.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "sentence 1"
+      },
+      {
+        "id": "B",
+        "text": "sentence 2"
+      },
+      {
+        "id": "C",
+        "text": "sentence 3"
+      },
+      {
+        "id": "D",
+        "text": "sentence 4"
+      }
+    ],
+    "correctAnswer": "A",
+    "topic": "Revising & Editing",
+    "subtopic": "Conventions of Language & Paragraph Organization",
+    "difficulty": "Hard",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e3_ela_48",
+    "examId": "exam3",
+    "section": "ela",
+    "questionNumber": 48,
+    "type": "multiple_choice",
+    "prompt": "Read this sentence. In the Whispering Gallery of Grand Central Terminal, people whispering a message in one corner can be clearly heard in the opposite corner, regardless of surrounding noise, because the tiled archways send the sound through the environment. Which revision to the words send the sound through the environment uses the most precise language? Drag the correct phrase into the box. guide the sound waves in a specific direction focus the sound waves to travel through the space direct the sound waves to move along the curves of the arches transfer the sound waves to a variety of different locations In the Whispering Gallery of Grand Central Terminal, people whispering a message in one corner can be clearly heard in the opposite corner, regardless of surrounding noise, because the tiled archways",
+    "imageSrc": "/exams/exam3/items/ela_q48.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      }
+    ],
+    "correctAnswer": "C",
+    "topic": "Revising & Editing",
+    "subtopic": "Conventions of Language & Paragraph Organization",
+    "difficulty": "Hard",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e3_ela_49",
+    "examId": "exam3",
+    "section": "ela",
+    "questionNumber": 49,
+    "type": "multi_select",
+    "prompt": "Which two edits should be made to correct the sentence? Select the two correct answers.",
+    "imageSrc": "/exams/exam3/items/ela_q49.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "Delete the comma after first."
+      },
+      {
+        "id": "B",
+        "text": "Delete the comma after daguerreotype."
+      },
+      {
+        "id": "C",
+        "text": "Delete the comma after silver."
+      },
+      {
+        "id": "D",
+        "text": "Add a comma after today."
+      },
+      {
+        "id": "E",
+        "text": "Add a comma after film."
+      }
+    ],
+    "correctAnswer": "A and D",
+    "topic": "Revising & Editing",
+    "subtopic": "Conventions of Language & Paragraph Organization",
+    "difficulty": "Hard",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: A and D. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e3_ela_50",
+    "examId": "exam3",
+    "section": "ela",
+    "questionNumber": 50,
+    "type": "multiple_choice",
+    "prompt": "What is the best way to combine the sentences? (1) Scientists now believe that Jupiter may have as many as seventy-nine moons. (2) One of Jupiter's moons is named lo. (3) lo has the greatest number of active volcanoes in the solar system.",
+    "imageSrc": "/exams/exam3/items/ela_q50.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "lo, which is one of Jupiter's moons, has the greatest number of active volcanoes in the solar system, and scientists now believe that Jupiter may have as many as seventy-nine moons."
+      },
+      {
+        "id": "B",
+        "text": "Scientists now believe that Jupiter may have as many as seventy-nine moons, and one of them is named lo, which has the greatest number of active volcanoes in the solar system."
+      },
+      {
+        "id": "C",
+        "text": "Scientists now believe that Jupiter may have as many as seventy-nine moons, including one named lo, which has the eatest number of active volcanoes in the solar system."
+      },
+      {
+        "id": "D",
+        "text": "lo, a moon with the greatest number of active volcanoes in the solar system, is one of Jupiter's moons, and scientists now believe that Jupiter may have as many as seventy-nine moons."
+      }
+    ],
+    "correctAnswer": "C",
+    "topic": "Revising & Editing",
+    "subtopic": "Conventions of Language & Paragraph Organization",
+    "difficulty": "Hard",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e3_math_01",
@@ -5191,36 +9740,37 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 51,
     "type": "multiple_choice",
-    "prompt": "Practice Form C: Mathematics problem 1.",
+    "prompt": "What is the prime factorization of 3,575?",
     "imageSrc": "/exams/exam3/items/math_q01.png",
     "options": [
       {
         "id": "A",
-        "text": "Choice A"
+        "text": "5 \u2022 11 \u2022 13."
       },
       {
         "id": "B",
-        "text": "Choice B"
+        "text": "52.11 - 13"
       },
       {
         "id": "C",
-        "text": "Choice C"
+        "text": "5 \u2022 715"
       },
       {
         "id": "D",
-        "text": "Choice D"
+        "text": "52.143"
       }
     ],
-    "correctAnswer": "A",
-    "topic": "Geometry: Angles",
-    "difficulty": "Medium",
+    "correctAnswer": "B",
+    "topic": "Number Theory & Operations",
+    "subtopic": "Prime Factorization & Multiples",
+    "difficulty": "Easy",
     "hints": [
-      "Check given values and sketch the geometric figure or set up the algebraic equation.",
-      "Work systematically to avoid arithmetic slips.",
-      "Plug your result back into the original problem to verify."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Always double check for sign flips when dividing inequalities and watch for units (minutes vs hours).",
-    "explanation": "Step-by-step mathematical proof verifies the correct solution."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e3_math_02",
@@ -5228,36 +9778,37 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 52,
     "type": "multiple_choice",
-    "prompt": "Practice Form C: Mathematics problem 2.",
+    "prompt": "What is the value of z in f + 2 = 1?",
     "imageSrc": "/exams/exam3/items/math_q02.png",
     "options": [
       {
         "id": "A",
-        "text": "Choice A"
+        "text": "1."
       },
       {
         "id": "B",
-        "text": "Choice B"
+        "text": "5"
       },
       {
         "id": "C",
-        "text": "Choice C"
+        "text": "\u0423"
       },
       {
         "id": "D",
-        "text": "Choice D"
+        "text": "2y \u2014 x"
       }
     ],
     "correctAnswer": "D",
-    "topic": "Percents & Proportions",
-    "difficulty": "Medium",
+    "topic": "Algebra & Equations",
+    "subtopic": "Linear Equations & Algebraic Modeling",
+    "difficulty": "Easy",
     "hints": [
-      "Check given values and sketch the geometric figure or set up the algebraic equation.",
-      "Work systematically to avoid arithmetic slips.",
-      "Plug your result back into the original problem to verify."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Always double check for sign flips when dividing inequalities and watch for units (minutes vs hours).",
-    "explanation": "Step-by-step mathematical proof verifies the correct solution."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e3_math_03",
@@ -5265,36 +9816,37 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 53,
     "type": "multiple_choice",
-    "prompt": "Practice Form C: Mathematics problem 3.",
+    "prompt": "What is the value of x \u2014 y?",
     "imageSrc": "/exams/exam3/items/math_q03.png",
     "options": [
       {
         "id": "A",
-        "text": "Choice A"
+        "text": "-7"
       },
       {
         "id": "B",
-        "text": "Choice B"
+        "text": "\u20145"
       },
       {
         "id": "C",
-        "text": "Choice C"
+        "text": "5"
       },
       {
         "id": "D",
-        "text": "Choice D"
+        "text": "7"
       }
     ],
     "correctAnswer": "B",
-    "topic": "Probability",
-    "difficulty": "Medium",
+    "topic": "Algebra & Equations",
+    "subtopic": "Linear Equations & Algebraic Modeling",
+    "difficulty": "Easy",
     "hints": [
-      "Check given values and sketch the geometric figure or set up the algebraic equation.",
-      "Work systematically to avoid arithmetic slips.",
-      "Plug your result back into the original problem to verify."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Always double check for sign flips when dividing inequalities and watch for units (minutes vs hours).",
-    "explanation": "Step-by-step mathematical proof verifies the correct solution."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e3_math_04",
@@ -5302,73 +9854,58 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 54,
     "type": "multiple_choice",
-    "prompt": "Practice Form C: Mathematics problem 4.",
+    "prompt": "If x =7, what is the value of 14? \u2022 \u0432. 9 \u2022 \u0441. 1} \u2022 D. 34",
     "imageSrc": "/exams/exam3/items/math_q04.png",
     "options": [
       {
         "id": "A",
-        "text": "Choice A"
+        "text": "Option A"
       },
       {
         "id": "B",
-        "text": "Choice B"
+        "text": "Option B"
       },
       {
         "id": "C",
-        "text": "Choice C"
+        "text": "Option C"
       },
       {
         "id": "D",
-        "text": "Choice D"
+        "text": "Option D"
       }
     ],
     "correctAnswer": "C",
-    "topic": "Algebra: Linear Equations",
-    "difficulty": "Medium",
+    "topic": "Algebra & Equations",
+    "subtopic": "Linear Equations & Algebraic Modeling",
+    "difficulty": "Easy",
     "hints": [
-      "Check given values and sketch the geometric figure or set up the algebraic equation.",
-      "Work systematically to avoid arithmetic slips.",
-      "Plug your result back into the original problem to verify."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Always double check for sign flips when dividing inequalities and watch for units (minutes vs hours).",
-    "explanation": "Step-by-step mathematical proof verifies the correct solution."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e3_math_05",
     "examId": "exam3",
     "section": "math",
     "questionNumber": 55,
-    "type": "multiple_choice",
-    "prompt": "Practice Form C: Mathematics problem 5.",
+    "type": "text_entry",
+    "prompt": "In a school raffle, 1 out of every 25 students wins a prize. Each prize includes a randomly selected trading card from a set of 100 different cards, labeled Cl through C100, with each card equally likely to be chosen. If one student is selected at random, what is the probability that the student both wins a prize and receives Card C17? Write an expression that represents the probability that a student wins the prize and receives Card C17.",
     "imageSrc": "/exams/exam3/items/math_q05.png",
-    "options": [
-      {
-        "id": "A",
-        "text": "Choice A"
-      },
-      {
-        "id": "B",
-        "text": "Choice B"
-      },
-      {
-        "id": "C",
-        "text": "Choice C"
-      },
-      {
-        "id": "D",
-        "text": "Choice D"
-      }
-    ],
-    "correctAnswer": "A",
-    "topic": "Geometry: Angles",
-    "difficulty": "Medium",
+    "options": null,
+    "correctAnswer": "(1/25) x (1/100) = 1/2500",
+    "topic": "Probability & Statistics",
+    "subtopic": "Data Analysis, Frequency & Combinations",
+    "difficulty": "Easy",
     "hints": [
-      "Check given values and sketch the geometric figure or set up the algebraic equation.",
-      "Work systematically to avoid arithmetic slips.",
-      "Plug your result back into the original problem to verify."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Always double check for sign flips when dividing inequalities and watch for units (minutes vs hours).",
-    "explanation": "Step-by-step mathematical proof verifies the correct solution."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: (1/25) x (1/100) = 1/2500. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e3_math_06",
@@ -5376,147 +9913,117 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 56,
     "type": "multiple_choice",
-    "prompt": "Practice Form C: Mathematics problem 6.",
+    "prompt": "The cost of shipping a package is $12, plus $2 for each additional pound over 3 pounds. Which expression represents the total cost, in dollars, of shipping a package that weighs p pounds? Assume that p \u2265 3.",
     "imageSrc": "/exams/exam3/items/math_q06.png",
     "options": [
       {
         "id": "A",
-        "text": "Choice A"
+        "text": "12 + 2 (p + 3)"
       },
       {
         "id": "B",
-        "text": "Choice B"
+        "text": "12 + 2 (p - 3)"
       },
       {
         "id": "C",
-        "text": "Choice C"
+        "text": "14p + 3"
       },
       {
         "id": "D",
-        "text": "Choice D"
+        "text": "14p - 3"
       }
     ],
-    "correctAnswer": "D",
-    "topic": "Percents & Proportions",
-    "difficulty": "Medium",
+    "correctAnswer": "B",
+    "topic": "Algebra & Equations",
+    "subtopic": "Linear Equations & Algebraic Modeling",
+    "difficulty": "Easy",
     "hints": [
-      "Check given values and sketch the geometric figure or set up the algebraic equation.",
-      "Work systematically to avoid arithmetic slips.",
-      "Plug your result back into the original problem to verify."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Always double check for sign flips when dividing inequalities and watch for units (minutes vs hours).",
-    "explanation": "Step-by-step mathematical proof verifies the correct solution."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e3_math_07",
     "examId": "exam3",
     "section": "math",
     "questionNumber": 57,
-    "type": "multiple_choice",
-    "prompt": "Practice Form C: Mathematics problem 7.",
+    "type": "text_entry",
+    "prompt": "A middle school library has a shelf with 40 books, each labeled with a different number from 201 to 240. One book is selected at random. What is the probability, as a percentage, of selecting book number 223?",
     "imageSrc": "/exams/exam3/items/math_q07.png",
-    "options": [
-      {
-        "id": "A",
-        "text": "Choice A"
-      },
-      {
-        "id": "B",
-        "text": "Choice B"
-      },
-      {
-        "id": "C",
-        "text": "Choice C"
-      },
-      {
-        "id": "D",
-        "text": "Choice D"
-      }
-    ],
-    "correctAnswer": "B",
-    "topic": "Probability",
-    "difficulty": "Medium",
+    "options": null,
+    "correctAnswer": "2.5%",
+    "topic": "Proportional Reasoning & Percentages",
+    "subtopic": "Ratios, Rates & Scale Drawings",
+    "difficulty": "Easy",
     "hints": [
-      "Check given values and sketch the geometric figure or set up the algebraic equation.",
-      "Work systematically to avoid arithmetic slips.",
-      "Plug your result back into the original problem to verify."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Always double check for sign flips when dividing inequalities and watch for units (minutes vs hours).",
-    "explanation": "Step-by-step mathematical proof verifies the correct solution."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: 2.5%. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e3_math_08",
     "examId": "exam3",
     "section": "math",
     "questionNumber": 58,
-    "type": "multiple_choice",
-    "prompt": "Practice Form C: Mathematics problem 8.",
+    "type": "text_entry",
+    "prompt": "A square metal plate has a side length of 3 inches. A circular hole with a diameter of 2 inches is cut out from the center of the plate. - 2 in. - 3 in. - What is the area of the shaded region, to the nearest hundredth of a square inch?",
     "imageSrc": "/exams/exam3/items/math_q08.png",
-    "options": [
-      {
-        "id": "A",
-        "text": "Choice A"
-      },
-      {
-        "id": "B",
-        "text": "Choice B"
-      },
-      {
-        "id": "C",
-        "text": "Choice C"
-      },
-      {
-        "id": "D",
-        "text": "Choice D"
-      }
-    ],
-    "correctAnswer": "C",
-    "topic": "Algebra: Linear Equations",
-    "difficulty": "Medium",
+    "options": null,
+    "correctAnswer": "5.86",
+    "topic": "Geometry & Spatial Reasoning",
+    "subtopic": "Geometric Figures, Area & Coordinate Planes",
+    "difficulty": "Easy",
     "hints": [
-      "Check given values and sketch the geometric figure or set up the algebraic equation.",
-      "Work systematically to avoid arithmetic slips.",
-      "Plug your result back into the original problem to verify."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Always double check for sign flips when dividing inequalities and watch for units (minutes vs hours).",
-    "explanation": "Step-by-step mathematical proof verifies the correct solution."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: 5.86. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e3_math_09",
     "examId": "exam3",
     "section": "math",
     "questionNumber": 59,
-    "type": "multiple_choice",
-    "prompt": "Practice Form C: Mathematics problem 9.",
+    "type": "multi_select",
+    "prompt": "Which of the expressions below must result in a positive value? Select the three correct answers.",
     "imageSrc": "/exams/exam3/items/math_q09.png",
     "options": [
       {
         "id": "A",
-        "text": "Choice A"
+        "text": "\u2014m + k"
       },
       {
         "id": "B",
-        "text": "Choice B"
+        "text": "\u2014m \u2022 k"
       },
       {
         "id": "C",
-        "text": "Choice C"
+        "text": "m - k"
       },
       {
         "id": "D",
-        "text": "Choice D"
+        "text": "\u2014k \u2022 m"
       }
     ],
-    "correctAnswer": "A",
-    "topic": "Geometry: Angles",
-    "difficulty": "Medium",
+    "correctAnswer": "A, B, D",
+    "topic": "Algebra & Equations",
+    "subtopic": "Linear Equations & Algebraic Modeling",
+    "difficulty": "Easy",
     "hints": [
-      "Check given values and sketch the geometric figure or set up the algebraic equation.",
-      "Work systematically to avoid arithmetic slips.",
-      "Plug your result back into the original problem to verify."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Always double check for sign flips when dividing inequalities and watch for units (minutes vs hours).",
-    "explanation": "Step-by-step mathematical proof verifies the correct solution."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: A, B, D. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e3_math_10",
@@ -5524,36 +10031,1438 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 60,
     "type": "multiple_choice",
-    "prompt": "Practice Form C: Mathematics problem 10.",
+    "prompt": "For what values of x is the above inequality true?",
     "imageSrc": "/exams/exam3/items/math_q10.png",
     "options": [
       {
         "id": "A",
-        "text": "Choice A"
+        "text": "x < 2"
       },
       {
         "id": "B",
-        "text": "Choice B"
+        "text": "x > 2"
       },
       {
         "id": "C",
-        "text": "Choice C"
+        "text": "x < 20"
       },
       {
         "id": "D",
-        "text": "Choice D"
+        "text": "x > 20"
+      }
+    ],
+    "correctAnswer": "A",
+    "topic": "Algebra & Equations",
+    "subtopic": "Linear Equations & Algebraic Modeling",
+    "difficulty": "Easy",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e3_math_11",
+    "examId": "exam3",
+    "section": "math",
+    "questionNumber": 61,
+    "type": "multiple_choice",
+    "prompt": "25 miles. What is the actual length of the shortest side of the park?",
+    "imageSrc": "/exams/exam3/items/math_q11.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "6.25 mil"
+      },
+      {
+        "id": "B",
+        "text": "8.75 mi"
+      },
+      {
+        "id": "C",
+        "text": "10 mi"
+      },
+      {
+        "id": "D",
+        "text": "15.625 mi"
+      }
+    ],
+    "correctAnswer": "A",
+    "topic": "Algebra & Equations",
+    "subtopic": "Linear Equations & Algebraic Modeling",
+    "difficulty": "Easy",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e3_math_12",
+    "examId": "exam3",
+    "section": "math",
+    "questionNumber": 62,
+    "type": "multiple_choice",
+    "prompt": "P is the center of the circle above, and R, S, and T are points on the circle. What is the value of x?",
+    "imageSrc": "/exams/exam3/items/math_q12.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "12"
+      },
+      {
+        "id": "B",
+        "text": "15"
+      },
+      {
+        "id": "C",
+        "text": "17"
+      },
+      {
+        "id": "D",
+        "text": "19"
       }
     ],
     "correctAnswer": "D",
-    "topic": "Percents & Proportions",
+    "topic": "Geometry & Spatial Reasoning",
+    "subtopic": "Geometric Figures, Area & Coordinate Planes",
+    "difficulty": "Easy",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e3_math_13",
+    "examId": "exam3",
+    "section": "math",
+    "questionNumber": 63,
+    "type": "multiple_choice",
+    "prompt": "In the right triangle shown above, what is the measure of the smallest angle?",
+    "imageSrc": "/exams/exam3/items/math_q13.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "43\u00b0."
+      },
+      {
+        "id": "B",
+        "text": "44\u00b0"
+      },
+      {
+        "id": "C",
+        "text": "46\u00b0."
+      },
+      {
+        "id": "D",
+        "text": "47\u00b0"
+      }
+    ],
+    "correctAnswer": "A",
+    "topic": "Geometry & Spatial Reasoning",
+    "subtopic": "Geometric Figures, Area & Coordinate Planes",
+    "difficulty": "Easy",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e3_math_14",
+    "examId": "exam3",
+    "section": "math",
+    "questionNumber": 64,
+    "type": "multiple_choice",
+    "prompt": "pages in the afternoon, how many pages will he still need to read?",
+    "imageSrc": "/exams/exam3/items/math_q14.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "35."
+      },
+      {
+        "id": "B",
+        "text": "42"
+      },
+      {
+        "id": "C",
+        "text": "45."
+      },
+      {
+        "id": "D",
+        "text": "56"
+      }
+    ],
+    "correctAnswer": "B",
+    "topic": "Algebra & Equations",
+    "subtopic": "Linear Equations & Algebraic Modeling",
+    "difficulty": "Easy",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e3_math_15",
+    "examId": "exam3",
+    "section": "math",
+    "questionNumber": 65,
+    "type": "multiple_choice",
+    "prompt": "1 1 T 22 + 33 What is the value of the expression shown above? \u2022 A. I 22 O C. \u2022 .22",
+    "imageSrc": "/exams/exam3/items/math_q15.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      }
+    ],
+    "correctAnswer": "C",
+    "topic": "Algebra & Equations",
+    "subtopic": "Linear Equations & Algebraic Modeling",
+    "difficulty": "Easy",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e3_math_16",
+    "examId": "exam3",
+    "section": "math",
+    "questionNumber": 66,
+    "type": "text_entry",
+    "prompt": "The table shows the proportional relationship between x cups of oatmeal and y ounces of raisins in a bread recipe. BREAD RECIPE Cups of Oatmeal (x) Ounces of Raisins (y) 2 1.0 3 1.5 6 3.0 What is the constant of proportionality of the number of ounces of raisins to the number of cups of oatmeal?",
+    "imageSrc": "/exams/exam3/items/math_q16.png",
+    "options": null,
+    "correctAnswer": "0.5",
+    "topic": "Proportional Reasoning & Percentages",
+    "subtopic": "Ratios, Rates & Scale Drawings",
     "difficulty": "Medium",
     "hints": [
-      "Check given values and sketch the geometric figure or set up the algebraic equation.",
-      "Work systematically to avoid arithmetic slips.",
-      "Plug your result back into the original problem to verify."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Always double check for sign flips when dividing inequalities and watch for units (minutes vs hours).",
-    "explanation": "Step-by-step mathematical proof verifies the correct solution."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: 0.5. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e3_math_17",
+    "examId": "exam3",
+    "section": "math",
+    "questionNumber": 67,
+    "type": "multiple_choice",
+    "prompt": "the orchestra and the choir?",
+    "imageSrc": "/exams/exam3/items/math_q17.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "16 21"
+      },
+      {
+        "id": "B",
+        "text": "10 19"
+      },
+      {
+        "id": "C",
+        "text": "10"
+      },
+      {
+        "id": "D",
+        "text": "5 16"
+      }
+    ],
+    "correctAnswer": "D",
+    "topic": "Algebra & Equations",
+    "subtopic": "Linear Equations & Algebraic Modeling",
+    "difficulty": "Medium",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e3_math_18",
+    "examId": "exam3",
+    "section": "math",
+    "questionNumber": 68,
+    "type": "multiple_choice",
+    "prompt": "Which of the following decimals is equivalent to 15 + 25?",
+    "imageSrc": "/exams/exam3/items/math_q18.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "3.1"
+      },
+      {
+        "id": "B",
+        "text": "3.6"
+      },
+      {
+        "id": "C",
+        "text": "4.1"
+      },
+      {
+        "id": "D",
+        "text": "4.9"
+      }
+    ],
+    "correctAnswer": "C",
+    "topic": "Algebra & Equations",
+    "subtopic": "Linear Equations & Algebraic Modeling",
+    "difficulty": "Medium",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e3_math_19",
+    "examId": "exam3",
+    "section": "math",
+    "questionNumber": 69,
+    "type": "multiple_choice",
+    "prompt": "Solve the mathematical problem shown in question 19.",
+    "imageSrc": "/exams/exam3/items/math_q19.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "store manager purchases a piece of furniture for $456.00. To determine the selling price, the manager increases the purchase cost by 125%. A customer buys the furniture and pays an additional 8% sales tax. How much does the customer pay for the furniture? \u2022 A. $615.60"
+      },
+      {
+        "id": "B",
+        "text": "$627.48"
+      },
+      {
+        "id": "C",
+        "text": "$1,108.08"
+      },
+      {
+        "id": "D",
+        "text": "$1,846.80"
+      }
+    ],
+    "correctAnswer": "C",
+    "topic": "Algebra & Equations",
+    "subtopic": "Linear Equations & Algebraic Modeling",
+    "difficulty": "Medium",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e3_math_20",
+    "examId": "exam3",
+    "section": "math",
+    "questionNumber": 70,
+    "type": "multiple_choice",
+    "prompt": "What is the value of 4\"?",
+    "imageSrc": "/exams/exam3/items/math_q20.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "\u201476"
+      },
+      {
+        "id": "B",
+        "text": "-4"
+      },
+      {
+        "id": "C",
+        "text": "4."
+      },
+      {
+        "id": "D",
+        "text": "148"
+      }
+    ],
+    "correctAnswer": "B",
+    "topic": "Algebra & Equations",
+    "subtopic": "Linear Equations & Algebraic Modeling",
+    "difficulty": "Medium",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e3_math_21",
+    "examId": "exam3",
+    "section": "math",
+    "questionNumber": 71,
+    "type": "multiple_choice",
+    "prompt": "gave her to pay back the money she borrowed?",
+    "imageSrc": "/exams/exam3/items/math_q21.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "Maxie will still owe $2.25."
+      },
+      {
+        "id": "B",
+        "text": "Maxie will still owe $1.75."
+      },
+      {
+        "id": "C",
+        "text": "Maxie will have $1.75 left."
+      },
+      {
+        "id": "D",
+        "text": "Maxie will have $2.25 left."
+      }
+    ],
+    "correctAnswer": "C",
+    "topic": "Algebra & Equations",
+    "subtopic": "Linear Equations & Algebraic Modeling",
+    "difficulty": "Medium",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e3_math_22",
+    "examId": "exam3",
+    "section": "math",
+    "questionNumber": 72,
+    "type": "multiple_choice",
+    "prompt": "Seth grows strawberries in his garden. \u2022 He picked 2- cups of strawberries on Monday. \u2022 He picked 4 cups of strawberries on Tuesday. \u2022 He ate & cup of strawberries for breakfast each day on Wednesday, Thursday, and Friday. How many cups of strawberries did Seth have left? \u2022 A. 3, \u2022 B. 44 \u2022 D. 9",
+    "imageSrc": "/exams/exam3/items/math_q22.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      }
+    ],
+    "correctAnswer": "B",
+    "topic": "Algebra & Equations",
+    "subtopic": "Linear Equations & Algebraic Modeling",
+    "difficulty": "Medium",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e3_math_23",
+    "examId": "exam3",
+    "section": "math",
+    "questionNumber": 73,
+    "type": "multiple_choice",
+    "prompt": "Which situation involves quantities that combine to equal zero?",
+    "imageSrc": "/exams/exam3/items/math_q23.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "receiving $5 as a gift and then giving $5 to a friend"
+      },
+      {
+        "id": "B",
+        "text": "buying a book for $10 and then buying lunch for $10"
+      },
+      {
+        "id": "C",
+        "text": "getting on an elevator at the ground floor, rising 3 floors, and then rising 3 more floors"
+      },
+      {
+        "id": "D",
+        "text": "starting in a cave 20 feet below the ground, climbing up 20 feet, and then climbing up 20 feet more"
+      }
+    ],
+    "correctAnswer": "A",
+    "topic": "Algebra & Equations",
+    "subtopic": "Linear Equations & Algebraic Modeling",
+    "difficulty": "Medium",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e3_math_24",
+    "examId": "exam3",
+    "section": "math",
+    "questionNumber": 74,
+    "type": "multiple_choice",
+    "prompt": "An athlete runs & Kilometer in i minute. At this rate, how many kilometers would the athlete run in 1 minute? \u2022 A. 3 32 \u2022 c. 15 \u2022 D. 6",
+    "imageSrc": "/exams/exam3/items/math_q24.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      }
+    ],
+    "correctAnswer": "B",
+    "topic": "Proportional Reasoning & Percentages",
+    "subtopic": "Ratios, Rates & Scale Drawings",
+    "difficulty": "Medium",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e3_math_25",
+    "examId": "exam3",
+    "section": "math",
+    "questionNumber": 75,
+    "type": "multiple_choice",
+    "prompt": "Solve the mathematical problem shown in question 25.",
+    "imageSrc": "/exams/exam3/items/math_q25.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "bus trip takes 9 hours if the mean speed is 50 miles per hour. How many hours would this trip take if the mean speed was 45 miles per hour? 0 A. 8"
+      },
+      {
+        "id": "B",
+        "text": "10"
+      },
+      {
+        "id": "C",
+        "text": "12"
+      },
+      {
+        "id": "D",
+        "text": "14"
+      }
+    ],
+    "correctAnswer": "B",
+    "topic": "Algebra & Equations",
+    "subtopic": "Linear Equations & Algebraic Modeling",
+    "difficulty": "Medium",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e3_math_26",
+    "examId": "exam3",
+    "section": "math",
+    "questionNumber": 76,
+    "type": "text_entry",
+    "prompt": "Jordan has a budget of $120 to rent a food truck. The rental company charges $18 per hour to rent the truck, plus a one-time cleaning fee of $30. Write an inequality that represents this situation, in which x is the number of hours Jordan can rent the truck.",
+    "imageSrc": "/exams/exam3/items/math_q26.png",
+    "options": null,
+    "correctAnswer": "30 + 18x <= 120",
+    "topic": "Algebra & Equations",
+    "subtopic": "Linear Equations & Algebraic Modeling",
+    "difficulty": "Medium",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: 30 + 18x <= 120. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e3_math_27",
+    "examId": "exam3",
+    "section": "math",
+    "questionNumber": 77,
+    "type": "multiple_choice",
+    "prompt": "Solve the mathematical problem shown in question 27.",
+    "imageSrc": "/exams/exam3/items/math_q27.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "birdseed mixture is - sunflower seeds. The cost of the sunflower seeds is $0.10 per ounce. At this rate, what is the cost of the sunflower seeds in 25 pounds of this birdseed? (Note: 1 lb = 16 oz.) \u2022 A. $10.00"
+      },
+      {
+        "id": "B",
+        "text": "$16.00"
+      },
+      {
+        "id": "C",
+        "text": "$40.00"
+      },
+      {
+        "id": "D",
+        "text": "$160.00"
+      }
+    ],
+    "correctAnswer": "B",
+    "topic": "Algebra & Equations",
+    "subtopic": "Linear Equations & Algebraic Modeling",
+    "difficulty": "Medium",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e3_math_28",
+    "examId": "exam3",
+    "section": "math",
+    "questionNumber": 78,
+    "type": "multiple_choice",
+    "prompt": "Solve the mathematical problem shown in question 28.",
+    "imageSrc": "/exams/exam3/items/math_q28.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "graph shows the relationship between the number of gallons of water, y, that has been added to a tank and the number of hours, x, that water has been added to the tank at a constant rate. What does the ordered pair (3, 24) represent? \u2022 A. Three gallons of water was added in 24 hours."
+      },
+      {
+        "id": "B",
+        "text": "Three gallons of water was added per hour."
+      },
+      {
+        "id": "C",
+        "text": "Twenty-four gallons of water was added in 3 hours."
+      },
+      {
+        "id": "D",
+        "text": "Twenty-four gallons of water was added per hour."
+      }
+    ],
+    "correctAnswer": "C",
+    "topic": "Algebra & Equations",
+    "subtopic": "Linear Equations & Algebraic Modeling",
+    "difficulty": "Medium",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e3_math_29",
+    "examId": "exam3",
+    "section": "math",
+    "questionNumber": 79,
+    "type": "multiple_choice",
+    "prompt": "Karl has one red spinner and one blue spinner. Each spinner is divided into 4 equal sections, numbered 1 through 4. He spins each spinner once and writes down the number that each lands on. What is the probability that the two numbers, when multiplied together, will have 4 as a product? \u2022 A. 16 \u2022 B. 16 0 \u2022 D. 16",
+    "imageSrc": "/exams/exam3/items/math_q29.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      }
+    ],
+    "correctAnswer": "B",
+    "topic": "Probability & Statistics",
+    "subtopic": "Data Analysis, Frequency & Combinations",
+    "difficulty": "Medium",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e3_math_30",
+    "examId": "exam3",
+    "section": "math",
+    "questionNumber": 80,
+    "type": "multiple_choice",
+    "prompt": "A recipe uses & cup of sugar for every 1 - cups of flour. A cook wants to increase the recipe. How many cups of sugar are needed for each cup of flour? \u2022 D. 3%",
+    "imageSrc": "/exams/exam3/items/math_q30.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      }
+    ],
+    "correctAnswer": "A",
+    "topic": "Proportional Reasoning & Percentages",
+    "subtopic": "Ratios, Rates & Scale Drawings",
+    "difficulty": "Medium",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e3_math_31",
+    "examId": "exam3",
+    "section": "math",
+    "questionNumber": 81,
+    "type": "multiple_choice",
+    "prompt": "Solve the mathematical problem shown in question 31.",
+    "imageSrc": "/exams/exam3/items/math_q31.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "box contains an unknown number of green marbles. An experimenter adds 100 red marbles to the box, mixes the marbles thoroughly, and then draws out 10 marbles at random. Assume that this sample is representative of the proportion in the box. If there are 2 red marbles and 8 green marbles in this sample, approximately how many green marbles are in the box? \u2022 A. 80."
+      },
+      {
+        "id": "B",
+        "text": "300."
+      },
+      {
+        "id": "C",
+        "text": "400"
+      },
+      {
+        "id": "D",
+        "text": "500."
+      }
+    ],
+    "correctAnswer": "C",
+    "topic": "Algebra & Equations",
+    "subtopic": "Linear Equations & Algebraic Modeling",
+    "difficulty": "Medium",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e3_math_32",
+    "examId": "exam3",
+    "section": "math",
+    "questionNumber": 82,
+    "type": "multiple_choice",
+    "prompt": "altogether? Note: 1 gallon = 4 quarts; 1 quart = 4 cups.",
+    "imageSrc": "/exams/exam3/items/math_q32.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "24"
+      },
+      {
+        "id": "B",
+        "text": "4\u00f7"
+      },
+      {
+        "id": "C",
+        "text": "9"
+      },
+      {
+        "id": "D",
+        "text": "72."
+      }
+    ],
+    "correctAnswer": "B",
+    "topic": "Algebra & Equations",
+    "subtopic": "Linear Equations & Algebraic Modeling",
+    "difficulty": "Medium",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e3_math_33",
+    "examId": "exam3",
+    "section": "math",
+    "questionNumber": 83,
+    "type": "multiple_choice",
+    "prompt": "Solve the mathematical problem shown in question 33.",
+    "imageSrc": "/exams/exam3/items/math_q33.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "car costing $24,000 is subject to a sales tax of 8%. If Bindu made a $10,000 down payment on this car, what is the total amount she has left to pay? \u2022 A. $14,000"
+      },
+      {
+        "id": "B",
+        "text": "$15,620"
+      },
+      {
+        "id": "C",
+        "text": "$15,920"
+      },
+      {
+        "id": "D",
+        "text": "$25,920"
+      }
+    ],
+    "correctAnswer": "C",
+    "topic": "Algebra & Equations",
+    "subtopic": "Linear Equations & Algebraic Modeling",
+    "difficulty": "Medium",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e3_math_34",
+    "examId": "exam3",
+    "section": "math",
+    "questionNumber": 84,
+    "type": "multiple_choice",
+    "prompt": "Last week, Emily rode the bus to school on 3 of the 5 mornings and rode the bus home on 4 of the 5 afternoons. Based on last week's events, what is the probability that Emily will ride the bus in the morning and the afternoon next Monday? \u2022 \u0432. I 25 \u2022 D. 1.",
+    "imageSrc": "/exams/exam3/items/math_q34.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      }
+    ],
+    "correctAnswer": "C",
+    "topic": "Probability & Statistics",
+    "subtopic": "Data Analysis, Frequency & Combinations",
+    "difficulty": "Medium",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e3_math_35",
+    "examId": "exam3",
+    "section": "math",
+    "questionNumber": 85,
+    "type": "multiple_choice",
+    "prompt": "the 6 people are male, how many of the possible groups of 3 people hired in the fall will include only 1 male?",
+    "imageSrc": "/exams/exam3/items/math_q35.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "4"
+      },
+      {
+        "id": "B",
+        "text": "6"
+      },
+      {
+        "id": "C",
+        "text": "12"
+      },
+      {
+        "id": "D",
+        "text": "24"
+      }
+    ],
+    "correctAnswer": "C",
+    "topic": "Algebra & Equations",
+    "subtopic": "Linear Equations & Algebraic Modeling",
+    "difficulty": "Medium",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e3_math_36",
+    "examId": "exam3",
+    "section": "math",
+    "questionNumber": 86,
+    "type": "text_entry",
+    "prompt": "Leah has set a goal to read a total of 500 pages of a textbook. The table shows the book page numbers for the reading she did during three days. DAILY READING LOG Day Pages Read 1 pages 45-90, inclusive 2 pages 100-135,| inclusive 3 pages 145-190, inclusive What percentage of her 500-page goal did Leah read on these three days? Round your answer to the nearest tenth.",
+    "imageSrc": "/exams/exam3/items/math_q36.png",
+    "options": null,
+    "correctAnswer": "25.6%",
+    "topic": "Proportional Reasoning & Percentages",
+    "subtopic": "Ratios, Rates & Scale Drawings",
+    "difficulty": "Hard",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: 25.6%. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e3_math_37",
+    "examId": "exam3",
+    "section": "math",
+    "questionNumber": 87,
+    "type": "text_entry",
+    "prompt": "What 3-digit number between 630 and 650 is divisible by both 5 and 8?",
+    "imageSrc": "/exams/exam3/items/math_q37.png",
+    "options": null,
+    "correctAnswer": "640",
+    "topic": "Number Theory & Operations",
+    "subtopic": "Prime Factorization & Multiples",
+    "difficulty": "Hard",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: 640. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e3_math_38",
+    "examId": "exam3",
+    "section": "math",
+    "questionNumber": 88,
+    "type": "multiple_choice",
+    "prompt": "for Melissa's experiment?",
+    "imageSrc": "/exams/exam3/items/math_q38.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "R, G, W"
+      },
+      {
+        "id": "B",
+        "text": "RG, RW, GW"
+      },
+      {
+        "id": "C",
+        "text": "R, R, R, G, G, G, W, W"
+      },
+      {
+        "id": "D",
+        "text": "RR, RG, RW, GG, GW, WW"
+      }
+    ],
+    "correctAnswer": "D",
+    "topic": "Algebra & Equations",
+    "subtopic": "Linear Equations & Algebraic Modeling",
+    "difficulty": "Hard",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e3_math_39",
+    "examId": "exam3",
+    "section": "math",
+    "questionNumber": 89,
+    "type": "multiple_choice",
+    "prompt": "What is the probability that the team will score three or more goals in the next game?",
+    "imageSrc": "/exams/exam3/items/math_q39.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "0.13"
+      },
+      {
+        "id": "B",
+        "text": "0.21"
+      },
+      {
+        "id": "C",
+        "text": "0.34"
+      },
+      {
+        "id": "D",
+        "text": "0.50"
+      }
+    ],
+    "correctAnswer": "C",
+    "topic": "Probability & Statistics",
+    "subtopic": "Data Analysis, Frequency & Combinations",
+    "difficulty": "Hard",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e3_math_40",
+    "examId": "exam3",
+    "section": "math",
+    "questionNumber": 90,
+    "type": "multiple_choice",
+    "prompt": "Solve the mathematical problem shown in question 40.",
+    "imageSrc": "/exams/exam3/items/math_q40.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "team is participating in a contest to collect canned goods for a food drive. The team has 53 points and must have a total of at least 100 points to win a prize. The team earns 5 points for each can of food a member collects. Which inequality can be used to find x, the number of cans of food the team needs to collect to win a prize? \u2022 A. 5 + 53x < 100"
+      },
+      {
+        "id": "B",
+        "text": "5 + 53x \u2265 100"
+      },
+      {
+        "id": "C",
+        "text": "53 + 5x \u2264 100"
+      },
+      {
+        "id": "D",
+        "text": "53 + 5x \u2265 100"
+      }
+    ],
+    "correctAnswer": "D",
+    "topic": "Algebra & Equations",
+    "subtopic": "Linear Equations & Algebraic Modeling",
+    "difficulty": "Hard",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e3_math_41",
+    "examId": "exam3",
+    "section": "math",
+    "questionNumber": 91,
+    "type": "multiple_choice",
+    "prompt": "constant of proportionality for this relationship?",
+    "imageSrc": "/exams/exam3/items/math_q41.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "3"
+      },
+      {
+        "id": "B",
+        "text": "30."
+      },
+      {
+        "id": "C",
+        "text": "60"
+      },
+      {
+        "id": "D",
+        "text": "90"
+      }
+    ],
+    "correctAnswer": "B",
+    "topic": "Proportional Reasoning & Percentages",
+    "subtopic": "Ratios, Rates & Scale Drawings",
+    "difficulty": "Hard",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e3_math_42",
+    "examId": "exam3",
+    "section": "math",
+    "questionNumber": 92,
+    "type": "multiple_choice",
+    "prompt": "A student reads I of a book in A hour. What fraction of the book can the student read in 1 hour? \u2022 A. 36. \u2022 C. i2",
+    "imageSrc": "/exams/exam3/items/math_q42.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      }
+    ],
+    "correctAnswer": "B",
+    "topic": "Algebra & Equations",
+    "subtopic": "Linear Equations & Algebraic Modeling",
+    "difficulty": "Hard",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e3_math_43",
+    "examId": "exam3",
+    "section": "math",
+    "questionNumber": 93,
+    "type": "text_entry",
+    "prompt": "Two student clubs are selling snacks as part of a fundraiser. The Art Club sells a 24-pack of granola bars for $12.00. The Science Club sells a 10-pack of granola bars for $6.50. To the nearest cent, what is the difference in cost per bar between the two clubs? Select the correct answer from each drop-down to complete the sentences. The cost for the Art Club's bar is Choose... y per bar. The cost for the Science Club's bar is || Choose. y per bar. The difference between the cost of the bars is Choose... RESPONSE_A1 $0.40 $0.50 $0.60 $0.75 RESPONSE_AZ $0.55 $0.65 $0.75 $0.85 RESPONSE_A3 $0.05 $0.10 $0.15 $0.25",
+    "imageSrc": "/exams/exam3/items/math_q43.png",
+    "options": null,
+    "correctAnswer": "$0.65; $0.50; $0.15",
+    "topic": "Algebra & Equations",
+    "subtopic": "Linear Equations & Algebraic Modeling",
+    "difficulty": "Hard",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: $0.65; $0.50; $0.15. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e3_math_44",
+    "examId": "exam3",
+    "section": "math",
+    "questionNumber": 94,
+    "type": "multiple_choice",
+    "prompt": "Solve the mathematical problem shown in question 44.",
+    "imageSrc": "/exams/exam3/items/math_q44.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "bakery charges $1.25 for each cupcake and $2.50 for a serving tray. The equation describes p, the price of c cupcakes and a serving tray, not including tax. p = 2. 50 + 1.25c If Samantha bought some cupcakes and a serving tray for a total of $22.50, not including tax, how many cupcakes did she buy? 0 A. 4"
+      },
+      {
+        "id": "B",
+        "text": "9"
+      },
+      {
+        "id": "C",
+        "text": "16"
+      },
+      {
+        "id": "D",
+        "text": "18"
+      }
+    ],
+    "correctAnswer": "C",
+    "topic": "Algebra & Equations",
+    "subtopic": "Linear Equations & Algebraic Modeling",
+    "difficulty": "Hard",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e3_math_45",
+    "examId": "exam3",
+    "section": "math",
+    "questionNumber": 95,
+    "type": "text_entry",
+    "prompt": "Marcus and Isla are saving money to buy concert tickets. \u2022 They decide to save the same amount each week. \u2022 They already have $8 saved. \u2022 After 3 weeks, the two have $26 saved in total. How much money, in dollars, is being saved by Marcus and Isla each week?",
+    "imageSrc": "/exams/exam3/items/math_q45.png",
+    "options": null,
+    "correctAnswer": "6",
+    "topic": "Algebra & Equations",
+    "subtopic": "Linear Equations & Algebraic Modeling",
+    "difficulty": "Hard",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: 6. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e3_math_46",
+    "examId": "exam3",
+    "section": "math",
+    "questionNumber": 96,
+    "type": "text_entry",
+    "prompt": "A company charges $3.00 to ship a 4-pound package. The cost includes a base fee of $1.50 plus $0.50 for each pound over the first pound. The table below illustrates how the cost depends on the total weight of the package. Complete the table by matching each total weight to its correct total shipping cost. Move the correct answer to each box. Not all answers will be used. 2 2.5 3 3.5 6 7 SHIPPING COSTS Total Weight (pounds) Total Cost to Ship (dollars) 2 2.50 6 5.50",
+    "imageSrc": "/exams/exam3/items/math_q46.png",
+    "options": null,
+    "correctAnswer": "2 lb: $2.00; 3 lb: $2.50; 6 lb: $4.00; 9 lb: $5.50 (cost equation: Cost = 1.50 + 0.50(x - 1))",
+    "topic": "Proportional Reasoning & Percentages",
+    "subtopic": "Ratios, Rates & Scale Drawings",
+    "difficulty": "Hard",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: 2 lb: $2.00; 3 lb: $2.50; 6 lb: $4.00; 9 lb: $5.50 (cost equation: Cost = 1.50 + 0.50(x - 1)). This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e3_math_47",
+    "examId": "exam3",
+    "section": "math",
+    "questionNumber": 97,
+    "type": "multiple_choice",
+    "prompt": "What shape will result from a horizontal slice of the figure above?",
+    "imageSrc": "/exams/exam3/items/math_q47.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "a square that has 2-inch sides"
+      },
+      {
+        "id": "B",
+        "text": "a triangle that has 2-inch sides"
+      },
+      {
+        "id": "C",
+        "text": "a rectangle that has a 2-inch side and a 6-inch side"
+      },
+      {
+        "id": "D",
+        "text": "a triangle that has one 2-inch side and two 6-inch sides"
+      }
+    ],
+    "correctAnswer": "A",
+    "topic": "Algebra & Equations",
+    "subtopic": "Linear Equations & Algebraic Modeling",
+    "difficulty": "Hard",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e3_math_48",
+    "examId": "exam3",
+    "section": "math",
+    "questionNumber": 98,
+    "type": "multiple_choice",
+    "prompt": "to the length of one side of equilateral triangle X?",
+    "imageSrc": "/exams/exam3/items/math_q48.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "3:8"
+      },
+      {
+        "id": "B",
+        "text": "2:3"
+      },
+      {
+        "id": "C",
+        "text": "3:2"
+      },
+      {
+        "id": "D",
+        "text": "2:1"
+      }
+    ],
+    "correctAnswer": "C",
+    "topic": "Geometry & Spatial Reasoning",
+    "subtopic": "Geometric Figures, Area & Coordinate Planes",
+    "difficulty": "Hard",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e3_math_49",
+    "examId": "exam3",
+    "section": "math",
+    "questionNumber": 99,
+    "type": "multiple_choice",
+    "prompt": "over. What is the greatest possible side length, in inches, of one of those squares?",
+    "imageSrc": "/exams/exam3/items/math_q49.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "3."
+      },
+      {
+        "id": "B",
+        "text": "5"
+      },
+      {
+        "id": "C",
+        "text": "15"
+      },
+      {
+        "id": "D",
+        "text": "45."
+      }
+    ],
+    "correctAnswer": "C",
+    "topic": "Algebra & Equations",
+    "subtopic": "Linear Equations & Algebraic Modeling",
+    "difficulty": "Hard",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e3_math_50",
+    "examId": "exam3",
+    "section": "math",
+    "questionNumber": 100,
+    "type": "multiple_choice",
+    "prompt": "What was the percent decrease in the number of birds from Monday to Tuesday?",
+    "imageSrc": "/exams/exam3/items/math_q50.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "6%"
+      },
+      {
+        "id": "B",
+        "text": "20%"
+      },
+      {
+        "id": "C",
+        "text": "24%"
+      },
+      {
+        "id": "D",
+        "text": "25%"
+      }
+    ],
+    "correctAnswer": "B",
+    "topic": "Proportional Reasoning & Percentages",
+    "subtopic": "Ratios, Rates & Scale Drawings",
+    "difficulty": "Hard",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e4_ela_01",
@@ -5562,36 +11471,37 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 1,
     "passageId": "e4_p1",
     "type": "multiple_choice",
-    "prompt": "Practice Form D: Reading Comprehension analysis question 1.",
+    "prompt": "Excerpt from \"The Past and the Future of the Earth's Oldest Trees\" by Alex Ross \u2022 About forty-five hundred years ago, not long after the completion of the Great Pyramid at Giza, a seed of Pinus longaeva, the Great Basin bristlecone pine, landed on a steep slope in what are now known as the White Mountains, in eastern California. The seed may have travelled there on a gust of wind, its flight aided by a winglike attachment to the nut. Or it could have been planted by a bird known as the Clark's nutcracker, which likes to hide pine seeds in caches; nutcrackers have phenomenal spatial memory and can recall thousands of such caches. This seed, however, lay undisturbed. On",
     "imageSrc": "/exams/exam4/items/ela_q01.png",
     "options": [
       {
         "id": "A",
-        "text": "Choice A"
+        "text": "moist day in fall, or in the wake of melting snows in spring, a seedling appeared above ground\u2014a stubby one-inch stem with a tuft of bright-green shoots. 2 Most seedlings die within a year; the mortality rate is more than ninety-nine percent. The survivors are sometimes seen growing in the shadow of a fallen tree. The landscape of the Ancient Bristlecone Pine Forest, as this area of the White Mountains is called, is littered What is the effect of comparing groups of bristlecone pines to \"a city within a cemetery\" (paragraph 2)? \u2022 A. It illustrates that the new tree's appearance is markedly different from that of mature bristlecone pines."
       },
       {
         "id": "B",
-        "text": "Choice B"
+        "text": "It emphasizes the new tree's ability to use resources left by prior generations of bristlecone pines."
       },
       {
         "id": "C",
-        "text": "Choice C"
+        "text": "It highlights the tree's capacity for a long life if it is able to survive to maturity."
       },
       {
         "id": "D",
-        "text": "Choice D"
+        "text": "It reveals that the tree's dense growth patterns are unusual in arid conditions."
       }
     ],
-    "correctAnswer": "A",
-    "topic": "Reading Comprehension: Evidence & Inference",
-    "difficulty": "Medium",
+    "correctAnswer": "B",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Easy",
     "hints": [
-      "Locate the specific lines in the passage.",
-      "Compare each answer choice strictly to the line citations.",
-      "Eliminate distractors that exaggerate or misrepresent the author's tone."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Avoid choices that use extreme absolute words like 'always', 'never', or 'entirely' unless backed by the passage.",
-    "explanation": "The selected choice is backed directly by textual evidence in the official practice test."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e4_ela_02",
@@ -5600,36 +11510,37 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 2,
     "passageId": "e4_p1",
     "type": "multiple_choice",
-    "prompt": "Practice Form D: Reading Comprehension analysis question 2.",
+    "prompt": "Excerpt from \"The Past and the Future of the Earth's Oldest Trees\" by Alex Ross \u2022 About forty-five hundred years ago, not long after the completion of the Great Pyramid at Giza, a seed of Pinus longaeva, the Great Basin bristlecone pine, landed on a steep slope in what are now known as the White Mountains, in eastern California. The seed may have travelled there on a gust of wind, its flight aided by a winglike attachment to the nut. Or it could have been planted by a bird known as the Clark's nutcracker, which likes to hide pine seeds in caches; nutcrackers have phenomenal spatial memory and can recall thousands of such caches. This seed, however, lay undisturbed. On",
     "imageSrc": "/exams/exam4/items/ela_q02.png",
     "options": [
       {
         "id": "A",
-        "text": "Choice A"
+        "text": "moist day in fall, or in the wake of melting snows in spring, a seedling appeared above ground\u2014a stubby one-inch stem with a tuft of bright-green shoots. 2 Most seedlings die within a year; the mortality rate is more than ninety-nine percent. The survivors are sometimes seen growing in the shadow of a fallen tree. The landscape of the Ancient Bristlecone Pine Forest, as this area of the White Mountains is called, is littered In paragraph 4, the idea that the bristlecone pine can withstand difficult conditions is illustrated mainly through \u2022 A. a comparison of the bristlecone pine with similar trees that are known for their long lives."
       },
       {
         "id": "B",
-        "text": "Choice B"
+        "text": "a description of specific qualities of the bristlecone pine that make it suited to its environment."
       },
       {
         "id": "C",
-        "text": "Choice C"
+        "text": "an explanation of why the White Mountains are the best place for the bristlecone pine to grow."
       },
       {
         "id": "D",
-        "text": "Choice D"
+        "text": "an examination of why the bristlecone pine has few competitors in the White Mountains."
       }
     ],
-    "correctAnswer": "C",
-    "topic": "Reading Comprehension: Evidence & Inference",
-    "difficulty": "Medium",
+    "correctAnswer": "B",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Easy",
     "hints": [
-      "Locate the specific lines in the passage.",
-      "Compare each answer choice strictly to the line citations.",
-      "Eliminate distractors that exaggerate or misrepresent the author's tone."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Avoid choices that use extreme absolute words like 'always', 'never', or 'entirely' unless backed by the passage.",
-    "explanation": "The selected choice is backed directly by textual evidence in the official practice test."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e4_ela_03",
@@ -5638,36 +11549,37 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 3,
     "passageId": "e4_p1",
     "type": "multiple_choice",
-    "prompt": "Practice Form D: Reading Comprehension analysis question 3.",
+    "prompt": "Excerpt from \"The Past and the Future of the Earth's Oldest Trees\" by Alex Ross 1 About forty-five hundred years ago, not long after the completion of the Great Pyramid at Giza, a seed of Pinus longaeva, the Great Basin bristlecone pine, landed on a steep slope in what are now known as the White Mountains, in eastern California. The seed may have travelled there on a gust of wind, its flight aided by a winglike attachment to the nut. Or it could have been planted by a bird known as the Clark's nutcracker, which likes to hide pine seeds in caches; nutcrackers have phenomenal spatial memory and can recall thousands of such caches. This seed, however, lay undisturbed. On",
     "imageSrc": "/exams/exam4/items/ela_q03.png",
     "options": [
       {
         "id": "A",
-        "text": "Choice A"
+        "text": "moist day in fall, or in the wake of melting snows in spring, a seedling appeared above ground\u2014a stubby one-inch stem with a tuft of bright-green shoots. 2 Most seedlings die within a year; the mortality rate is more than ninety-nine percent. The survivors are sometimes seen growing in the shadow of a fallen tree. The landscape of the Ancient Bristlecone Pine Forest, as this area of the White Mountains is called, is littered Read this sentence from paragraph 5. Empires rose and fell; wars raged; and and the tree from \u0432.c continued its implacable slow-motion existence, adding about two- hundredths of an inch to the diameter of its trunk each year. The sentence contributes to the development of ideas in the excerpt by \u2022 A. emphasizing the bristlecone pine's precise growth pattern."
       },
       {
         "id": "B",
-        "text": "Choice B"
+        "text": "suggesting that things that seem well established face threats. \u2022 I"
       },
       {
         "id": "C",
-        "text": "Choice C"
+        "text": "describing the pace of the life cycle of the bristlecone pine."
       },
       {
         "id": "D",
-        "text": "Choice D"
+        "text": "explaining the reason for the bristlecone pine's longevity."
       }
     ],
-    "correctAnswer": "D",
-    "topic": "Reading Comprehension: Evidence & Inference",
-    "difficulty": "Medium",
+    "correctAnswer": "C",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Easy",
     "hints": [
-      "Locate the specific lines in the passage.",
-      "Compare each answer choice strictly to the line citations.",
-      "Eliminate distractors that exaggerate or misrepresent the author's tone."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Avoid choices that use extreme absolute words like 'always', 'never', or 'entirely' unless backed by the passage.",
-    "explanation": "The selected choice is backed directly by textual evidence in the official practice test."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e4_ela_04",
@@ -5676,36 +11588,37 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 4,
     "passageId": "e4_p1",
     "type": "multiple_choice",
-    "prompt": "Practice Form D: Reading Comprehension analysis question 4.",
+    "prompt": "Excerpt from \"The Past and the Future of the Earth's Oldest Trees\" by Alex Ross 1 About forty-five hundred years ago, not long after the completion of the Great Pyramid at Giza, a seed of Pinus longaeva, the Great Basin bristlecone pine, landed on a steep slope in what are now known as the White Mountains, in eastern California. The seed may have travelled there on a gust of wind, its flight aided by a winglike attachment to the nut. Or it could have been planted by a bird known as the Clark's nutcracker, which likes to hide pine seeds in caches; nutcrackers have phenomenal spatial memory and can recall thousands of such caches. This seed, however, lay undisturbed. On",
     "imageSrc": "/exams/exam4/items/ela_q04.png",
     "options": [
       {
         "id": "A",
-        "text": "Choice A"
+        "text": "moist day in fall, or in the wake of melting snows in spring, a seedling appeared above ground\u2014a stubby one-inch stem with a tuft of bright-green shoots. 2 Most seedlings die within a year; the mortality rate is more thar ninety-nine percent. The survivors are sometimes seen growing in the shadow of a fallen tree. The landscape of the Ancient Bristlecone Pine Forest, as this area of the White Mountains is called, is littered Which claim is best supported by the details in paragraph 5 about the bristlecone pine's tree-ring record? \u2022 A. The bristlecone pine must be protected from extinction so that there is a record of changing Earth conditions."
       },
       {
         "id": "B",
-        "text": "Choice B"
+        "text": "The structure of the bristlecone pine allows scientists to predict changing Earth conditions over time."
       },
       {
         "id": "C",
-        "text": "Choice C"
+        "text": "The slow growth process of the bristlecone pine allows it to survive in spite of changing Earth conditions."
       },
       {
         "id": "D",
-        "text": "Choice D"
+        "text": "The bristlecone pine can be used to gather information on changing Earth conditions because of its long life."
       }
     ],
-    "correctAnswer": "B",
-    "topic": "Reading Comprehension: Evidence & Inference",
-    "difficulty": "Medium",
+    "correctAnswer": "D",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Easy",
     "hints": [
-      "Locate the specific lines in the passage.",
-      "Compare each answer choice strictly to the line citations.",
-      "Eliminate distractors that exaggerate or misrepresent the author's tone."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Avoid choices that use extreme absolute words like 'always', 'never', or 'entirely' unless backed by the passage.",
-    "explanation": "The selected choice is backed directly by textual evidence in the official practice test."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e4_ela_05",
@@ -5714,36 +11627,37 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 5,
     "passageId": "e4_p1",
     "type": "multiple_choice",
-    "prompt": "Practice Form D: Reading Comprehension analysis question 5.",
+    "prompt": "Excerpt from \"The Past and the Future of the Earth's Oldest Trees\" by Alex Ross 1 About forty-five hundred years ago, not long after the completion of the Great Pyramid at Giza, a seed of Pinus longaeva, the Great Basin bristlecone pine, landed on a steep slope in what are now known as the White Mountains, in eastern California. The seed may have travelled there on a gust of wind, its flight aided by a winglike attachment to the nut. Or it could have been planted by a bird known as the Clark's nutcracker, which likes to hide pine seeds in caches; nutcrackers have phenomenal spatial memory and can recall thousands of such caches. This seed, however, lay undisturbed. On",
     "imageSrc": "/exams/exam4/items/ela_q05.png",
     "options": [
       {
         "id": "A",
-        "text": "Choice A"
+        "text": "moist day in fall, or in the wake of melting snows in spring, a seedling appeared above ground\u2014a stubby one-inch stem with a tuft of bright-green shoots. 2 Most seedlings die within a year; the mortality rate is more than ninety-nine percent. The survivors are sometimes seen growing in the shadow of a fallen tree. The landscape of the Ancient Bristlecone Pine Forest, as this area of the White Mountains is called, is littered The phrases \"clings to life\" and \"stripped of bark\" in paragraph 6 are used to highlight \u2022 A. that the tree is fragile and needs help to avoid becoming extinct."
       },
       {
         "id": "B",
-        "text": "Choice B"
+        "text": "how the tree can be misunderstood because of its appearance."
       },
       {
         "id": "C",
-        "text": "Choice C"
+        "text": "how the tree interests observers with its unusual appearance."
       },
       {
         "id": "D",
-        "text": "Choice D"
+        "text": "that the tree manages to survive even when partially fossilized."
       }
     ],
-    "correctAnswer": "A",
-    "topic": "Reading Comprehension: Evidence & Inference",
-    "difficulty": "Medium",
+    "correctAnswer": "D",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Easy",
     "hints": [
-      "Locate the specific lines in the passage.",
-      "Compare each answer choice strictly to the line citations.",
-      "Eliminate distractors that exaggerate or misrepresent the author's tone."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Avoid choices that use extreme absolute words like 'always', 'never', or 'entirely' unless backed by the passage.",
-    "explanation": "The selected choice is backed directly by textual evidence in the official practice test."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e4_ela_06",
@@ -5752,74 +11666,76 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 6,
     "passageId": "e4_p1",
     "type": "multiple_choice",
-    "prompt": "Practice Form D: Reading Comprehension analysis question 6.",
+    "prompt": "Excerpt from \"The Past and the Future of the Earth's Oldest Trees\" by Alex Ross 1 About forty-five hundred years ago, not long after the completion of the Great Pyramid at Giza, a seed of Pinus longaeva, the Great Basin bristlecone pine, landed on a steep slope in what are now known as the White Mountains, in eastern California. The seed may have travelled there on a gust of wind, its flight aided by a winglike attachment to the nut. Or it could have been planted by a bird known as the Clark's nutcracker, which likes to hide pine seeds in caches; nutcrackers have phenomenal spatial memory and can recall thousands of such caches. This seed, however, lay undisturbed. On",
     "imageSrc": "/exams/exam4/items/ela_q06.png",
     "options": [
       {
         "id": "A",
-        "text": "Choice A"
+        "text": "moist day in fall, or in the wake of melting snows in spring, a seedling appeared above ground\u2014a stubby one-inch stem with a tuft of bright-green shoots. 2 Most seedlings die within a year; the mortality rate is more than ninety-nine percent. The survivors are sometimes seen growing in the shadow of a fallen tree. The landscape of the Ancient Bristlecone Pine Forest, as this area of the White Mountains is called, is littered What is the best summary of the bristlecone pine's life cycle? \u2022 A. The bristlecone pine takes root as a stubby seedling in the mountains. Over time, it grows slowly in a hostile environment with alkaline soil that ensures little competition from other trees."
       },
       {
         "id": "B",
-        "text": "Choice B"
+        "text": "The bristlecone pine grows up slowly from the fragments of its dead ancestors. Over time, it begins to become contorted in appearance but continues to funnel water and nutrients to its stem."
       },
       {
         "id": "C",
-        "text": "Choice C"
+        "text": "The bristlecone pine grows slowly in an environment hostile to other trees. Over time, its trunk and some branches fossilize, but it funnels water and nutrients to other parts that are still alive."
       },
       {
         "id": "D",
-        "text": "Choice D"
+        "text": "The bristlecone pine grows only in one location in the mountains. Over time, it develops sparse foliage that fossilizes slowly, but the trunk and branches stay alive, as revealed by ribbons of live bark."
       }
     ],
     "correctAnswer": "C",
-    "topic": "Reading Comprehension: Evidence & Inference",
-    "difficulty": "Medium",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Easy",
     "hints": [
-      "Locate the specific lines in the passage.",
-      "Compare each answer choice strictly to the line citations.",
-      "Eliminate distractors that exaggerate or misrepresent the author's tone."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Avoid choices that use extreme absolute words like 'always', 'never', or 'entirely' unless backed by the passage.",
-    "explanation": "The selected choice is backed directly by textual evidence in the official practice test."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e4_ela_07",
     "examId": "exam4",
     "section": "ela",
     "questionNumber": 7,
-    "passageId": "e4_p2",
+    "passageId": "e4_p1",
     "type": "multiple_choice",
-    "prompt": "Practice Form D: Reading Comprehension analysis question 7.",
+    "prompt": "Excerpt from \"The Past and the Future of the Earth's Oldest Trees\" by Alex Ross 1 About forty-five hundred years ago, not long after the completion of the Great Pyramid at Giza, a seed of Pinus longaeva, the Great Basin bristlecone pine, landed on a steep slope in what are now known as the White Mountains, in eastern California. The seed may have travelled there on a gust of wind, its flight aided by a winglike attachment to the nut. Or it could have been planted by a bird known as the Clark's nutcracker, which likes to hide pine seeds in caches; nutcrackers have phenomenal spatial memory and can recall thousands of such caches. This seed, however, lay undisturbed. On",
     "imageSrc": "/exams/exam4/items/ela_q07.png",
     "options": [
       {
         "id": "A",
-        "text": "Choice A"
+        "text": "moist day in fall, or in the wake of melting snows in spring, a seedling appeared above ground\u2014a stubby one-inch stem with a tuft of bright-green shoots. 2 Most seedlings die within a year; the mortality rate is more than ninety-nine percent. The survivors are sometimes seen growing in the shadow of a fallen tree. The landscape of the Ancient Bristlecone Pine Forest, as this area of the White Mountains is called, is littered Throughout the excerpt, the author conveys his point of view mainly by \u2022 A. sharing details about the qualities of the bristlecone pine that make it an unusual tree."
       },
       {
         "id": "B",
-        "text": "Choice B"
+        "text": "comparing the bristlecone pine to global empires that lasted thousands of years before falling."
       },
       {
         "id": "C",
-        "text": "Choice C"
+        "text": "explaining the way the seemingly sickly appearance of the bristlecone pine contrasts with its ability to survive."
       },
       {
         "id": "D",
-        "text": "Choice D"
+        "text": "arguing that the bristlecone pine has survived past threats to its survival and will continue to thrive."
       }
     ],
-    "correctAnswer": "D",
-    "topic": "Reading Comprehension: Evidence & Inference",
-    "difficulty": "Medium",
+    "correctAnswer": "A",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Easy",
     "hints": [
-      "Locate the specific lines in the passage.",
-      "Compare each answer choice strictly to the line citations.",
-      "Eliminate distractors that exaggerate or misrepresent the author's tone."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Avoid choices that use extreme absolute words like 'always', 'never', or 'entirely' unless backed by the passage.",
-    "explanation": "The selected choice is backed directly by textual evidence in the official practice test."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e4_ela_08",
@@ -5828,12 +11744,12 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 8,
     "passageId": "e4_p2",
     "type": "multiple_choice",
-    "prompt": "The words \"feat,\" \"humanly impossible,\" and \"impenetrable barrier\" in paragraph 1 affect the tone of the paragraph because they",
+    "prompt": "Read the passage excerpt and answer question 8 based on the text.",
     "imageSrc": "/exams/exam4/items/ela_q08.png",
     "options": [
       {
         "id": "A",
-        "text": "highlight the idea that only the most skilled runners would be able to run a four-minute mile."
+        "text": "Miracle Mile 1) In the 1950s people compared running one mile in four minutes to scaling Mount Everest and nicknamed the feat a \"dream mile.\" Although such an accomplishment was considered humanly impossible, several elite runners aimed to break that supposedly impenetrable barrier. One of them was a twenty-five-year-old medical student named Roger Bannister. 2 Roger Bannister had tasted failure during the 1952 Olympics. There, he was favored to win the 1,500-meter competition, a distance slightly shorter than a mile, but he finished in a dismal fourth place instead. Bannister's performance was a disappointment for him and his country, Great Britain. Determined to redeem himself, Bannister postponed his plans to retire from racing and focused on the ultimate prize-breaking the four-minute-mile barrier. 3) Bannister attacked the elusive milestone with a positive attitude and logical planning. The amateur athlete decided to use intensive interval training to develop endurance and speed. For these workouts, Bannister The words \"feat,\" \"humanly impossible,\" and \"impenetrable barrier\" in paragraph 1 affect the tone of the paragraph because they \u2022 A. highlight the idea that only the most skilled runners would be able to run a four-minute mile."
       },
       {
         "id": "B",
@@ -5841,7 +11757,7 @@ export const QUESTIONS: Question[] = [
       },
       {
         "id": "C",
-        "text": "convey the competitiveness among elite runners to consistently set and break speed records."
+        "text": "convey the competitiveness among elite runners to consistently set and break speed records. \u2022 I"
       },
       {
         "id": "D",
@@ -5849,15 +11765,16 @@ export const QUESTIONS: Question[] = [
       }
     ],
     "correctAnswer": "B",
-    "topic": "Reading Comprehension: Tone & Word Choice",
-    "difficulty": "Medium",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Easy",
     "hints": [
-      "Look back at paragraph 1 of 'A Miracle Mile'. What attitude or perception do phrases like 'humanly impossible' and 'impenetrable barrier' evoke about the 4-minute mile?",
-      "Notice how the paragraph establishes that before Roger Bannister, people believed running a sub-4-minute mile was fundamentally beyond human capability.",
-      "The phrase 'impenetrable barrier' underscores how impossible and unreachable the target seemed to the world."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Traps A and C mention skilled runners and competition, but the heightened language specifically emphasizes how unattainable the milestone seemed before it was broken.",
-    "explanation": "Option B is correct. In paragraph 1, the words 'feat,' 'humanly impossible,' and 'impenetrable barrier' emphasize that running a mile in less than four minutes was viewed as a seemingly unattainable goal."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e4_ela_09",
@@ -5866,36 +11783,37 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 9,
     "passageId": "e4_p2",
     "type": "multiple_choice",
-    "prompt": "Practice Form D: Reading Comprehension analysis question 9.",
+    "prompt": "Read the passage excerpt and answer question 9 based on the text.",
     "imageSrc": "/exams/exam4/items/ela_q09.png",
     "options": [
       {
         "id": "A",
-        "text": "Choice A"
+        "text": "Miracle Mile 1) In the 1950s people compared running one mile in four minutes to scaling Mount Everest and nicknamed the feat a \"dream mile.\" Although such an accomplishment was considered humanly impossible, several elite runners aimed to break that supposedly impenetrable barrier. One of them was a twenty-five-year-old medical student named Roger Bannister. 2 Roger Bannister had tasted failure during the 1952 Olympics. There, he was favored to win the 1,500-meter competition, a distance slightly shorter than a mile, but he finished in a dismal fourth place instead. Bannister's performance was a disappointment for him and his country, Great Britain. Determined to redeem himself, Bannister postponed his plans to retire from racing and focused on the ultimate prize-breaking the four-minute-mile barrier. 3) Bannister attacked the elusive milestone with a positive attitude and logical planning. The amateur athlete decided to use intensive interval training to develop endurance and speed. For these workouts, Bannister Read these sentences from paragraph 7. Bannister said, \"I felt that the moment of a lifetime had come. There was no pain, only a great unity of movement and aim.\" The sentences contribute to the development of ideas in the passage by showing that Bannister \u2022 A. knew that he was about to achieve the goal he had worked toward."
       },
       {
         "id": "B",
-        "text": "Choice B"
+        "text": "was no longer experiencing personal disappointment from his past failure in the Olympics."
       },
       {
         "id": "C",
-        "text": "Choice C"
+        "text": "felt grateful to his teammates for helping him take the lead."
       },
       {
         "id": "D",
-        "text": "Choice D"
+        "text": "was satisfied that his training had helped him perfect his running technique."
       }
     ],
     "correctAnswer": "A",
-    "topic": "Reading Comprehension: Evidence & Inference",
-    "difficulty": "Medium",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Easy",
     "hints": [
-      "Locate the specific lines in the passage.",
-      "Compare each answer choice strictly to the line citations.",
-      "Eliminate distractors that exaggerate or misrepresent the author's tone."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Avoid choices that use extreme absolute words like 'always', 'never', or 'entirely' unless backed by the passage.",
-    "explanation": "The selected choice is backed directly by textual evidence in the official practice test."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e4_ela_10",
@@ -5904,36 +11822,1584 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 10,
     "passageId": "e4_p2",
     "type": "multiple_choice",
-    "prompt": "Practice Form D: Reading Comprehension analysis question 10.",
+    "prompt": "Read the passage excerpt and answer question 10 based on the text.",
     "imageSrc": "/exams/exam4/items/ela_q10.png",
     "options": [
       {
         "id": "A",
-        "text": "Choice A"
+        "text": "Miracle Mile 1) In the 1950s people compared running one mile in four minutes to scaling Mount Everest and nicknamed the feat a \"dream mile.\" Although such an accomplishment was considered humanly impossible, several elite runners aimed to break that supposedly impenetrable barrier. One of them was a twenty-five-year-old medical student named Roger Bannister. 2 Roger Bannister had tasted failure during the 1952 Olympics. There, he was favored to win the 1,500-meter competition, a distance slightly shorter than a mile, but he finished in a dismal fourth place instead. Bannister's performance was a disappointment for him and his country, Great Britain. Determined to redeem himself, Bannister postponed his plans to retire from racing and focused on the ultimate prize-breaking the four-minute-mile barrier. 3) Bannister attacked the elusive milestone with a positive attitude and logical planning. The amateur athlete decided to use intensive interval training to develop endurance and speed. For these workouts, Bannister Which sentence best supports the idea that Bannister needed an alternative to \"logical planning\" (paragraph 3) in order to accomplish his goal? \u2022 A. \"Bannister's performance was a disappointment for him and his country, Great Britain.\" (paragraph 2)"
       },
       {
         "id": "B",
-        "text": "Choice B"
+        "text": "\"The amateur athlete decided to use intensive interval training to develop endurance and speed.\" (paragraph 3)"
       },
       {
         "id": "C",
-        "text": "Choice C"
+        "text": "\"For these workouts, Bannister ran an interval of ten consecutive laps on a quarter-mile track, aiming for sixty seconds each lap.\" (paragraph 3)"
       },
       {
         "id": "D",
-        "text": "Choice D"
+        "text": "\"Frustrated by the plateau he had reached, Bannister took a break from training and went mountain climbing for three days.\" (paragraph 4)"
+      }
+    ],
+    "correctAnswer": "D",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Easy",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e4_ela_11",
+    "examId": "exam4",
+    "section": "ela",
+    "questionNumber": 11,
+    "passageId": "e4_p2",
+    "type": "multiple_choice",
+    "prompt": "Read the passage excerpt and answer question 11 based on the text.",
+    "imageSrc": "/exams/exam4/items/ela_q11.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "Miracle Mile 1) In the 1950s people compared running one mile in four minutes to scaling Mount Everest and nicknamed the feat a \"dream mile.\" Although such an accomplishment was considered humanly impossible, several elite runners aimed to break that supposedly impenetrable barrier. One of them was a twenty-five-year-old medical student named Roger Bannister. 2 Roger Bannister had tasted failure during the 1952 Olympics. There, he was favored to win the 1,500-meter competition, a distance slightly shorter than a mile, but he finished in a dismal fourth place instead. Bannister's performance was a disappointment for him and his country, Great Britain. Determined to redeem himself, Bannister postponed his plans to retire from racing and focused on the ultimate prize-breaking the four-minute-mile barrier. 3) Bannister attacked the elusive milestone with a positive attitude and logical planning. The amateur athlete decided to use intensive interval training to develop endurance and speed. For these workouts, Bannister Which sentence from the passage indicates that Bannister nearly made a mistake that would have cost him the world record? \u2022 A. \"By early 1954, Bannister had succeeded in lowering his quarter- mile pace to sixty-one seconds, but he had to shave off at least one more second in order to reach his target.\" ( paragraph 4)"
+      },
+      {
+        "id": "B",
+        "text": "\"When the starting pistol fired, Brasher pounced into the lead, and Bannister followed behind his first rabbit.\" ( paragraph 6)"
+      },
+      {
+        "id": "C",
+        "text": "\"Propelled by the excitement, Bannister lost his instinctive feel for his pace and shouted 'Faster!' at Brasher.\" ( paragraph 7)"
+      },
+      {
+        "id": "D",
+        "text": "\"At the beginning of the back straightaway of the track, Bannister bolted past Chataway.\" ( paragraph 7)"
       }
     ],
     "correctAnswer": "C",
-    "topic": "Reading Comprehension: Evidence & Inference",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Easy",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e4_ela_12",
+    "examId": "exam4",
+    "section": "ela",
+    "questionNumber": 12,
+    "passageId": "e4_p2",
+    "type": "multiple_choice",
+    "prompt": "Read the passage excerpt and answer question 12 based on the text.",
+    "imageSrc": "/exams/exam4/items/ela_q12.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "Miracle Mile 1 In the 1950s people compared running one mile in four minutes to scaling Mount Everest and nicknamed the feat a \"dream mile.\" Although such an accomplishment was considered humanly impossible, several elite runners aimed to break that supposedly impenetrable barrier. One of them was a twenty-five-year-old medical student named Roger Bannister. 2 Roger Bannister had tasted failure during the 1952 Olympics. There, he was favored to win the 1,500-meter competition, a distance slightly shorter than a mile, but he finished in a dismal fourth place instead. Bannister's performance was a disappointment for him and his country, Great Britain. Determined to redeem himself, Bannister postponed his plans to retire from racing and focused on the ultimate prize-breaking the four-minute-mile barrier. 3) Bannister attacked the elusive milestone with a positive attitude and logical planning. The amateur athlete decided to use intensive interval training to develop endurance and speed. For these workouts, Bannister Bannister's loss in the 1952 Olympics influenced his decision to pursue breaking the four-minute-mile barrier by \u2022 A. allowing him to recognize his weaknesses and improve his running ability."
+      },
+      {
+        "id": "B",
+        "text": "prompting him to take a different approach to his regular training."
+      },
+      {
+        "id": "C",
+        "text": "motivating him to prove to himself that he could set and achieve a goal."
+      },
+      {
+        "id": "D",
+        "text": "giving him the opportunity to reach a goal no runner had ever accomplished."
+      }
+    ],
+    "correctAnswer": "C",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Easy",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e4_ela_13",
+    "examId": "exam4",
+    "section": "ela",
+    "questionNumber": 13,
+    "passageId": "e4_p3",
+    "type": "multiple_choice",
+    "prompt": "Excerpt from In Search of the Unknown by Robert W. Chambers 1) It was at that time the policy of the trustees and officers of the Zoological Gardens neither to employ collectors nor to send out expeditions in search of specimens. The society decided to depend upon voluntary contributions, and I was always busy, part of the day, in dictating answers to correspondents who wrote offering their services as hunters of big game, collectors of all sorts of fauna, trappers, snarers, and also to those who offered specimens for sale, usually at exorbitant rates. 2 To the proprietors of ... mangy lynxes, moth-eaten coyotes, and dancing bears I returned courteous but uncompromising refusals\u2014of course, first submitting all such letters, together with my replies, to Professor Farrago. 3) One day towards the end of May, however, just as I was leaving Bronx Park to return to town, Professor Lesard, of the reptilian department, called nut to me that Professor Farraon wanted to see me a moment sn Read paragraph 2 from the excerpt. To the proprietors of ... mangy lynxes, moth-eaten coyotes, and dancing bears I returned courteous but uncompromising refusals-of course, first submitting all such letters, together with my replies, to Professor Farrago. This paragraph helps develop the plot by establishing that the narrator",
+    "imageSrc": "/exams/exam4/items/ela_q13.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "dislikes writing refusal letters for the animals offered to the zoological society."
+      },
+      {
+        "id": "B",
+        "text": "attempts to predict what the professor would say in the refusal letters."
+      },
+      {
+        "id": "C",
+        "text": "believes that many of the animals offered are not acceptable for the zoological society."
+      },
+      {
+        "id": "D",
+        "text": "resents the professor's insistence on reviewing the refusal letters."
+      }
+    ],
+    "correctAnswer": "C",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Easy",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e4_ela_14",
+    "examId": "exam4",
+    "section": "ela",
+    "questionNumber": 14,
+    "passageId": "e4_p3",
+    "type": "multiple_choice",
+    "prompt": "professor?",
+    "imageSrc": "/exams/exam4/items/ela_q14.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "It indicates that the professor feels bad that he has to call the narrator to his office after work."
+      },
+      {
+        "id": "B",
+        "text": "It shows that the professor is hesitant to share his opinions with the narrator."
+      },
+      {
+        "id": "C",
+        "text": "It implies that the professor is uncomfortable criticizing the narrator's work."
+      },
+      {
+        "id": "D",
+        "text": "It suggests that the professor knows that the conversation will be frustrating for the narrator."
+      }
+    ],
+    "correctAnswer": "D",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Easy",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e4_ela_15",
+    "examId": "exam4",
+    "section": "ela",
+    "questionNumber": 15,
+    "passageId": "e4_p3",
+    "type": "multiple_choice",
+    "prompt": "paragraphs 8-11 contribute to the development of the characters?",
+    "imageSrc": "/exams/exam4/items/ela_q15.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "It establishes the conflict between the professor and the narrator concerning the validity of the letter."
+      },
+      {
+        "id": "B",
+        "text": "It suggests a theme of collaboration because the narrator and the professor regularly work together."
+      },
+      {
+        "id": "C",
+        "text": "It reveals the characters' traits by contrasting the narrator's distrust with how easily the professor is deceived by what he reads."
+      },
+      {
+        "id": "D",
+        "text": "It hints that the resolution will involve the narrator accepting the professor's opinion about the content of the letter."
+      }
+    ],
+    "correctAnswer": "A",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Easy",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e4_ela_16",
+    "examId": "exam4",
+    "section": "ela",
+    "questionNumber": 16,
+    "passageId": "e4_p3",
+    "type": "multiple_choice",
+    "prompt": "Excerpt from In Search of the Unknown by Robert W. Chambers 1 It was at that time the policy of the trustees and officers of the Zoological Gardens neither to employ collectors nor to send out expeditions in search of specimens. The society decided to depend upon voluntary contributions, and I was always busy, part of the day, in dictating answers to correspondents who wrote offering their services as hunters of big game, collectors of all sorts of fauna, trappers, snarers, and also to those who offered specimens for sale, usually at exorbitant rates. 2 To the proprietors of ... mangy lynxes, moth-eaten coyotes, and dancing bears I returned courteous but uncompromising refusals\u2014of course, first submitting all such letters, together with my replies, to Professor Farrago. 3) One day towards the end of May, however, just as I was leaving Bronx Park to return to town, Professor Lesard, of the reptilian department, called nut to me that Professor Farraon wanted to see me a moment sn The professor's observations in paragraphs 15-17 create tension in the excerpt by causing the narrator to feel",
+    "imageSrc": "/exams/exam4/items/ela_q16.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "flustered by the professor's criticism of his logic."
+      },
+      {
+        "id": "B",
+        "text": "annoyed by the professor's sarcasm about his inexperience."
+      },
+      {
+        "id": "C",
+        "text": "confused by the professor's lack of respect for his opinion."
+      },
+      {
+        "id": "D",
+        "text": "frustrated by the professor's lack of interest in his theory."
+      }
+    ],
+    "correctAnswer": "A",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
     "difficulty": "Medium",
     "hints": [
-      "Locate the specific lines in the passage.",
-      "Compare each answer choice strictly to the line citations.",
-      "Eliminate distractors that exaggerate or misrepresent the author's tone."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Avoid choices that use extreme absolute words like 'always', 'never', or 'entirely' unless backed by the passage.",
-    "explanation": "The selected choice is backed directly by textual evidence in the official practice test."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e4_ela_17",
+    "examId": "exam4",
+    "section": "ela",
+    "questionNumber": 17,
+    "passageId": "e4_p3",
+    "type": "multiple_choice",
+    "prompt": "paragraphs 26-28 contribute to the development of the theme?",
+    "imageSrc": "/exams/exam4/items/ela_q17.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "It illustrates the professor's patience as the narrator argues against making the expedition."
+      },
+      {
+        "id": "B",
+        "text": "It reveals the narrator's frustration with his limited role in making decisions for the zoological society."
+      },
+      {
+        "id": "C",
+        "text": "It emphasizes the professor's desire to acquire new specimens for the zoological society at any cost."
+      },
+      {
+        "id": "D",
+        "text": "It shows the narrator's acceptance of his assignment despite his personal objections."
+      }
+    ],
+    "correctAnswer": "D",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Medium",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e4_ela_18",
+    "examId": "exam4",
+    "section": "ela",
+    "questionNumber": 18,
+    "passageId": "e4_p3",
+    "type": "multiple_choice",
+    "prompt": "eager to send the narrator on an expedition?",
+    "imageSrc": "/exams/exam4/items/ela_q18.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "\"I believe now that Professor Farrago perfectly interpreted my thoughts, but he betrayed neither resentment nor impatience.\" (paragraph 25)"
+      },
+      {
+        "id": "B",
+        "text": "\"Together we made out a list of articles necessary for me and itemized the expenses I might incur, and I set a date for my return, allowing no margin for a successful termination to the expedition.\" (paragraph 26)"
+      },
+      {
+        "id": "C",
+        "text": "\"What I want you to do is to get those birds here safely.'\" (paragraph 27) \"'I can't get away from the idea that we are on the eve of acquiring the rarest of living creatures.'\" (paragraph 33)"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      }
+    ],
+    "correctAnswer": "D",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Medium",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e4_ela_19",
+    "examId": "exam4",
+    "section": "ela",
+    "questionNumber": 19,
+    "passageId": "e4_p3",
+    "type": "multiple_choice",
+    "prompt": "How does paragraph 34 help develop the plot of the excerpt?",
+    "imageSrc": "/exams/exam4/items/ela_q19.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "It shows that the narrator is beginning to consider the possibility of finding the great auks."
+      },
+      {
+        "id": "B",
+        "text": "It demonstrates that the narrator is struggling to understand why the professor thinks the great auks exist."
+      },
+      {
+        "id": "C",
+        "text": "It establishes that the narrator is willing to let the professor overrule him about the great auks."
+      },
+      {
+        "id": "D",
+        "text": "It emphasizes that the narrator feels a sense of urgency to complete the expedition to locate the great auks."
+      }
+    ],
+    "correctAnswer": "A",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Medium",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e4_ela_20",
+    "examId": "exam4",
+    "section": "ela",
+    "questionNumber": 20,
+    "passageId": "e4_p3",
+    "type": "multiple_choice",
+    "prompt": "between the narrator and the professor?",
+    "imageSrc": "/exams/exam4/items/ela_q20.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "\"He disengaged the sheet of paper and handed it to me.\" (paragraph 4)"
+      },
+      {
+        "id": "B",
+        "text": "\"Clearly, Professor Farrago was on the verge of dotage\u2014ah, what a loss to the world!\" (paragraph 24)"
+      },
+      {
+        "id": "C",
+        "text": "\"I drew a chair up beside his desk\u2014there was nothing to do but to obey, and this fool's errand was none of my conceiving.\" (paragraph 25)"
+      },
+      {
+        "id": "D",
+        "text": "\" 'Very well, said Professor Farrago, good-humoredly, 'you shall have all the assistance you may require.'\" (paragraph 29)"
+      }
+    ],
+    "correctAnswer": "C",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Medium",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e4_ela_21",
+    "examId": "exam4",
+    "section": "ela",
+    "questionNumber": 21,
+    "passageId": "e4_p3",
+    "type": "multiple_choice",
+    "prompt": "of view and the professor's point of view?",
+    "imageSrc": "/exams/exam4/items/ela_q21.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "by providing both the narrator's and professor's thoughts on how age and experience influence each other's reasoning"
+      },
+      {
+        "id": "B",
+        "text": "by using the conversation between the narrator and the professor to emphasize their reactions to the letter"
+      },
+      {
+        "id": "C",
+        "text": "by describing the professor's persistent efforts to change the narrator's mind about the letter"
+      },
+      {
+        "id": "D",
+        "text": "by including dialogue that explains why the professor is the supervisor and the narrator is his subordinate"
+      }
+    ],
+    "correctAnswer": "B",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Medium",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e4_ela_22",
+    "examId": "exam4",
+    "section": "ela",
+    "questionNumber": 22,
+    "passageId": "e4_p4",
+    "type": "multiple_choice",
+    "prompt": "what, exactly? The lines help develop a central idea of the poem by revealing the speaker's",
+    "imageSrc": "/exams/exam4/items/ela_q22.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "interest in determining how the parts of matter work together."
+      },
+      {
+        "id": "B",
+        "text": "curiosity about what makes up matter."
+      },
+      {
+        "id": "C",
+        "text": "desire to prove that particles make up matter."
+      },
+      {
+        "id": "D",
+        "text": "questions about what tools are needed to study matter."
+      }
+    ],
+    "correctAnswer": "B",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Medium",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e4_ela_23",
+    "examId": "exam4",
+    "section": "ela",
+    "questionNumber": 23,
+    "passageId": "e4_p4",
+    "type": "multiple_choice",
+    "prompt": "what, exactly? Because we are talking about everything here: your fingernail, 10 the candy at the back of your mouth, the coffee your teacher drank this morning, your little sister, and the stuffed dog she used to carry around with her everwhere The main purpose of the comparison in lines 23-24 of the poem is to show",
+    "imageSrc": "/exams/exam4/items/ela_q23.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "that the particles' size makes them difficult to see."
+      },
+      {
+        "id": "B",
+        "text": "how the particles move within the tunnel."
+      },
+      {
+        "id": "C",
+        "text": "that the particles have a familiar shape."
+      },
+      {
+        "id": "D",
+        "text": "how the particles can be seen only in darkness."
+      }
+    ],
+    "correctAnswer": "B",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Medium",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e4_ela_24",
+    "examId": "exam4",
+    "section": "ela",
+    "questionNumber": 24,
+    "passageId": "e4_p4",
+    "type": "multiple_choice",
+    "prompt": "what, exactly? Because we are talking about everything here: your fingernail, 10 the candy at the back of your mouth, the coffee your teacher drank this morning, your little sister, and the stuffed dog she used to carry around with her everwhere Read lines 27-28 from the poem. And there, in the explosion, in the darkness, briefly incandescent, they appear: The imagery in the lines reveals that the speaker",
+    "imageSrc": "/exams/exam4/items/ela_q24.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "envies the physicists who research colliding particles."
+      },
+      {
+        "id": "B",
+        "text": "has personally observed colliding particles."
+      },
+      {
+        "id": "C",
+        "text": "admires the powerful reactions that occur when particles collide."
+      },
+      {
+        "id": "D",
+        "text": "has a simplistic understanding of how particles collide."
+      }
+    ],
+    "correctAnswer": "C",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Medium",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e4_ela_25",
+    "examId": "exam4",
+    "section": "ela",
+    "questionNumber": 25,
+    "passageId": "e4_p4",
+    "type": "multiple_choice",
+    "prompt": "what, exactly? Because we are talking about everything here: your fingernail, the candy at the back of your mouth, the coffee your teacher drank this morning, your little sister, and the stuffed dog she used to carry around with her everwhere Read lines 30-32 from the poem. Their names sound like dinosaurs or maybe bands playing terrible music in someone's garage. The speaker refers to familiar objects and events in the lines most likely to",
+    "imageSrc": "/exams/exam4/items/ela_q25.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "explain confusing information in simple terms to help the reader understand more about the topic."
+      },
+      {
+        "id": "B",
+        "text": "demonstrate how scientific ideas can be explained by describing situations that many people are familiar with."
+      },
+      {
+        "id": "C",
+        "text": "emphasize that the process being used to research particles is still in the early stages of development."
+      },
+      {
+        "id": "D",
+        "text": "suggest that the scientific language used to describe particles seems silly by making a humorous comparison."
+      }
+    ],
+    "correctAnswer": "D",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Medium",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e4_ela_26",
+    "examId": "exam4",
+    "section": "ela",
+    "questionNumber": 26,
+    "passageId": "e4_p4",
+    "type": "multiple_choice",
+    "prompt": "what, exactly? Because we are talking about everything here: your fingernail, 10| the candy at the back of your mouth, the coffee your teacher drank this morning, your little sister, and the stuffed dog she used to carry around with her everywhere Read lines 36-39 from the poem. both together and apart, what keeps together the pencil in your hand right now as well as separate from, say, Jupiter. The poet includes these lines most likely to emphasize that",
+    "imageSrc": "/exams/exam4/items/ela_q26.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "it is important for physicists to continue their research about particles."
+      },
+      {
+        "id": "B",
+        "text": "these particles have a powerful effect on everything."
+      },
+      {
+        "id": "C",
+        "text": "the discoveries about particles provide little information."
+      },
+      {
+        "id": "D",
+        "text": "the study of particles and the study of objects in space are similar."
+      }
+    ],
+    "correctAnswer": "B",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Medium",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e4_ela_27",
+    "examId": "exam4",
+    "section": "ela",
+    "questionNumber": 27,
+    "passageId": "e4_p4",
+    "type": "multiple_choice",
+    "prompt": "what they can, whatever seems most real\u2014 that they let us perceive their wild dancing, combusting to the music they make. The lines reveal the speaker's",
+    "imageSrc": "/exams/exam4/items/ela_q27.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "frustration with the research facilities physicists use."
+      },
+      {
+        "id": "B",
+        "text": "belief that physicists are frantically working toward a new discovery. \u2022 I"
+      },
+      {
+        "id": "C",
+        "text": "interest in physicists and their study of particles."
+      },
+      {
+        "id": "D",
+        "text": "certainty that physicists are working in secrecy."
+      }
+    ],
+    "correctAnswer": "C",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Medium",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e4_ela_28",
+    "examId": "exam4",
+    "section": "ela",
+    "questionNumber": 28,
+    "passageId": "e4_p5",
+    "type": "multiple_choice",
+    "prompt": "American Indians to begin practicing controlled burns?",
+    "imageSrc": "/exams/exam4/items/ela_q28.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "by drawing animals in to the area to feed on the new growth sprouting from the burned land"
+      },
+      {
+        "id": "B",
+        "text": "by destroying tall trees and reducing the shade that had hindered the growth of planted crops"
+      },
+      {
+        "id": "C",
+        "text": "by burning off excess vegetation and increasing the availability of nutrients for the remaining plants"
+      },
+      {
+        "id": "D",
+        "text": "by causing changes to the bison's migration habits as bison herds fled from the wildfires on the prairie"
+      }
+    ],
+    "correctAnswer": "A",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Medium",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e4_ela_29",
+    "examId": "exam4",
+    "section": "ela",
+    "questionNumber": 29,
+    "passageId": "e4_p5",
+    "type": "multiple_choice",
+    "prompt": "Using Fire to Keep a Prairie Healthy \u2022 Inside the 40,000-acre Joseph H. Williams Tallgrass Prairie Preserve in northern Oklahoma, herds of bison roam on the scenic land that is home to hundreds of different species of plants and animals. While one of the greatest threats to the prairie is wildfire, the use of controlled fires is actually an effective way to protect this idyllic landscape. 2 Fires that are started by lightning or other natural circumstances are inevitable, and the results can be disastrous. However, hundreds of years ago the American Indian people who inhabited the Great Plains area between Minnesota and Texas realized that these fires could also be helpful. The bison in the area seemed to prefer grazing on tender new grass on the recently burned land rather than on grass in the unburned areas. The American Indian people began to deliberately burn areas of land for bison to graze on, which enticed the herds away from the people's crops. 3 Today conservationists at the Tallgrass Prairie Preserve and farmers in the Great Plains continue to use controlled burns for land Targeting red cedar trees in controlled burns affects the animals that live on the prairie mostly by",
+    "imageSrc": "/exams/exam4/items/ela_q29.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "ensuring that the animals' main food source has the conditions needed for it to thrive."
+      },
+      {
+        "id": "B",
+        "text": "endangering the animals that live near the trees scheduled for removal."
+      },
+      {
+        "id": "C",
+        "text": "making sure that the water supply for the animals is sufficient."
+      },
+      {
+        "id": "D",
+        "text": "reducing the animals' natural source of shade and protection from the elements."
+      }
+    ],
+    "correctAnswer": "A",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Medium",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e4_ela_30",
+    "examId": "exam4",
+    "section": "ela",
+    "questionNumber": 30,
+    "passageId": "e4_p5",
+    "type": "multiple_choice",
+    "prompt": "The author includes this sentence to show that",
+    "imageSrc": "/exams/exam4/items/ela_q30.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "the conservationists are better qualified to lead preservation efforts than farmers are."
+      },
+      {
+        "id": "B",
+        "text": "the conservationists are eager to involve others in the preservation of the prairie."
+      },
+      {
+        "id": "C",
+        "text": "the conservationists' efforts will restore the original beauty and biodiversity of the region."
+      },
+      {
+        "id": "D",
+        "text": "the conservationists' training program should serve as a model for other conservation organizations."
+      }
+    ],
+    "correctAnswer": "B",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Medium",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e4_ela_31",
+    "examId": "exam4",
+    "section": "ela",
+    "questionNumber": 31,
+    "passageId": "e4_p5",
+    "type": "multiple_choice",
+    "prompt": "land may be concerned about using fire as a way to benefit the land?",
+    "imageSrc": "/exams/exam4/items/ela_q31.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "\"While one of the greatest threats to the prairie is wildfire, the use of controlled fires is actually an effective way to protect this idyllic landscape.\" (paragraph 1)"
+      },
+      {
+        "id": "B",
+        "text": "\"The American Indian people began to deliberately burn areas of land for bison to graze on, which enticed the herds away from the people's crops.\" (paragraph 2)"
+      },
+      {
+        "id": "C",
+        "text": "\"This patch burning contains the fire within a specific area and allows animals in the burn area to safely relocate.\" (paragraph 5)"
+      },
+      {
+        "id": "D",
+        "text": "\"The following year, conservationists will burn a different section of the preserve, while the land burned the previous year regrows healthier than before.\" (paragraph 5)"
+      }
+    ],
+    "correctAnswer": "A",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Medium",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e4_ela_32",
+    "examId": "exam4",
+    "section": "ela",
+    "questionNumber": 32,
+    "passageId": "e4_p5",
+    "type": "multiple_choice",
+    "prompt": "Using Fire to Keep a Prairie Healthy 1) Inside the 40,000-acre Joseph H. Williams Tallgrass Prairie Preserve in northern Oklahoma, herds of bison roam on the scenic land that is home to hundreds of different species of plants and animals. While one of the l greatest threats to the prairie is wildfire, the use of controlled fires is actually an effective way to protect this idyllic landscape. 2 Fires that are started by lightning or other natural circumstances are inevitable, and the results can be disastrous. However, hundreds of years ago the American Indian people who inhabited the Great Plains area between Minnesota and Texas realized that these fires could also be helpful. The bison in the area seemed to prefer grazing on tender new grass on the recently burned land rather than on grass in the unburned areas. The American Indian people began to deliberately burn areas of land for bison to graze on, which enticed the herds away from the people's crops. 3) Today conservationists at the Tallgrass Prairie Preserve and farmers in the Great Plains continue to use controlled burns for land Read this sentence from paragraph 6. Burning land to make it healthy may seem counterintuitive, but strategic controlled fires have helped the prairie sustain life for hundreds of years and, with careful management, will continue to do so. The words \"counterintuitive\" and \"strategic\" in the sentence convey the idea that",
+    "imageSrc": "/exams/exam4/items/ela_q32.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "the safest methods are sometimes the least effective at solving complex challenges."
+      },
+      {
+        "id": "B",
+        "text": "thorough investigation of uncommon methodologies can lead to beneficial results."
+      },
+      {
+        "id": "C",
+        "text": "detailed planning can ensure that a potentially destructive action has a positive impact."
+      },
+      {
+        "id": "D",
+        "text": "plans that entail a certain amount of risk almost always result in success."
+      }
+    ],
+    "correctAnswer": "C",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Medium",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e4_ela_33",
+    "examId": "exam4",
+    "section": "ela",
+    "questionNumber": 33,
+    "passageId": "e4_p5",
+    "type": "multiple_choice",
+    "prompt": "With which statement would the author most likely agree?",
+    "imageSrc": "/exams/exam4/items/ela_q33.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "It is important to explain the purposes and the risks of controlled burns to the people living near a proposed burn area."
+      },
+      {
+        "id": "B",
+        "text": "It is necessary to thoroughly examine a particular region in order to plan and execute a successful controlled burn."
+      },
+      {
+        "id": "C",
+        "text": "Monitoring animals' reactions after a controlled burn on the prairie is a minor part of scientists' research."
+      },
+      {
+        "id": "D",
+        "text": "Conservationists should consider the helpful aspects of invasive species before executing a controlled burn."
+      }
+    ],
+    "correctAnswer": "B",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Medium",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e4_ela_34",
+    "examId": "exam4",
+    "section": "ela",
+    "questionNumber": 34,
+    "passageId": "e4_p5",
+    "type": "multiple_choice",
+    "prompt": "presented in the passage?",
+    "imageSrc": "/exams/exam4/items/ela_q34.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "by depicting how the landscape in a given area changes as the patch-burn method is applied"
+      },
+      {
+        "id": "B",
+        "text": "by indicating that patch-burn fires are best suited for use in areas with certain features"
+      },
+      {
+        "id": "C",
+        "text": "by revealing that the patch-burn method is used primarily on uninhabited areas of land"
+      },
+      {
+        "id": "D",
+        "text": "by comparing the size of the area burned by the patch-burn method with that of unburned areas"
+      }
+    ],
+    "correctAnswer": "A",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Medium",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e4_ela_35",
+    "examId": "exam4",
+    "section": "ela",
+    "questionNumber": 35,
+    "passageId": "e4_p6",
+    "type": "multiple_choice",
+    "prompt": "How does the structure of the poem affect the poem's meaning?",
+    "imageSrc": "/exams/exam4/items/ela_q35.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "The lack of a rhyming pattern suggests that the beauty of each passing day is unique."
+      },
+      {
+        "id": "B",
+        "text": "The lengths of the sentences represent the complexity of the thoughts being represented."
+      },
+      {
+        "id": "C",
+        "text": "The use of complete sentences implies the speaker's appreciation for the clear beginning and ending of each season."
+      },
+      {
+        "id": "D",
+        "text": "The single long stanza reflects the continuous flow of the speaker's thoughts."
+      }
+    ],
+    "correctAnswer": "D",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Medium",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e4_ela_36",
+    "examId": "exam4",
+    "section": "ela",
+    "questionNumber": 36,
+    "passageId": "e4_p6",
+    "type": "multiple_choice",
+    "prompt": "speaker's appreciation for the city?",
+    "imageSrc": "/exams/exam4/items/ela_q36.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "\"as though the air has been forced into intimacy / by the brevity of daylight.\" (lines 11-12)"
+      },
+      {
+        "id": "B",
+        "text": "\"But when it starts darkening at 4, / this closeness, I know, will be a felt distance,\" (lines 13-14)"
+      },
+      {
+        "id": "C",
+        "text": "\"like someone drawing your attention / to their lack of intimacy.\" (lines 15-16)"
+      },
+      {
+        "id": "D",
+        "text": "\"These days I am still walking ... / beneath the branches bending across avenues,\" (lines 17-18)"
+      }
+    ],
+    "correctAnswer": "B",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Hard",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e4_ela_37",
+    "examId": "exam4",
+    "section": "ela",
+    "questionNumber": 37,
+    "passageId": "e4_p6",
+    "type": "multiple_choice",
+    "prompt": "How do the lines develop a central theme of the poem?",
+    "imageSrc": "/exams/exam4/items/ela_q37.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "They highlight a contrast between the different seasons."
+      },
+      {
+        "id": "B",
+        "text": "They show the sequence of the changes that are expected to occur."
+      },
+      {
+        "id": "C",
+        "text": "They warn about a problem that requires thoughtful preparation."
+      },
+      {
+        "id": "D",
+        "text": "They emphasize the importance of valuing the present."
+      }
+    ],
+    "correctAnswer": "D",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Hard",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e4_ela_38",
+    "examId": "exam4",
+    "section": "ela",
+    "questionNumber": 38,
+    "passageId": "e4_p6",
+    "type": "multiple_choice",
+    "prompt": "How I will grow tired of the bridge's steep incline, and the absent-minded tourists wandering into the bicycle path. 5 The weather will turn cold. But that all happens later. For now it is the early edge of fall, leaves green still while the air narrows, is slightly crisp, almost grazing 10 the hair of my arm like a passing stranger, as though the air has been forced into intimacy by the brevity of daylight. But when it starts darkening at 4, this closeness, I know, will be a felt distance, 15 like someone drawing your attention en thainladle afintimar, Read lines 7-9 from the poem. For now it is the early edge of fall, leaves green still while the air narrows is slightly crisp, The word choice in the lines helps convey the speaker's belief that",
+    "imageSrc": "/exams/exam4/items/ela_q38.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "the beauty of the current season should still be appreciated."
+      },
+      {
+        "id": "B",
+        "text": "the changes in the weather signify the end of the most pleasant season."
+      },
+      {
+        "id": "C",
+        "text": "the transition from one season to another happens swiftly and without warning."
+      },
+      {
+        "id": "D",
+        "text": "the change in the weather is so subtle that people rarely observe or feel it."
+      }
+    ],
+    "correctAnswer": "A",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Hard",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e4_ela_39",
+    "examId": "exam4",
+    "section": "ela",
+    "questionNumber": 39,
+    "passageId": "e4_p6",
+    "type": "multiple_choice",
+    "prompt": "Letter from Brooklyn by Jacob Scheier I can already see how this will end. How I will grow tired of the bridge's steep incline, and the absent-minded tourists wandering into the bicycle path. 5 The weather will turn cold. But that all happens later. For now it is the early edge of fall, leaves green still while the air narrows, is slightly crisp, almost grazing 10 the hair of my arm like a passing stranger, as though the air has been forced into intimacy by the brevity of daylight. But when it starts darkening at 4, this closeness, I know, will be a felt distance, 15 like someone drawing your attention to thainladle afintimar. Which idea does the comparison of the brownstone houses to \"a pop-up picture book I could have had as a child, / but didn't\" in lines 20-21 convey? \u2022 A. It reveals that some people are still influenced by powerful images from childhood. \u2022 B. It indicates that the neighborhood the speaker is walking through is charming and appealing. O C. It suggests that the speaker has wanted to live in the neighborhood since childhood. 0 D. It suggests that people often experience lingering regret from their past.",
+    "imageSrc": "/exams/exam4/items/ela_q39.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      }
+    ],
+    "correctAnswer": "B",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Hard",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e4_ela_40",
+    "examId": "exam4",
+    "section": "ela",
+    "questionNumber": 40,
+    "passageId": "e4_p6",
+    "type": "multiple_choice",
+    "prompt": "How Brooklyn makes me nostalgic for the moment I am walking inside of. (lines 21-22) The lines develop a central idea of the poem by",
+    "imageSrc": "/exams/exam4/items/ela_q40.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "suggesting the speaker's desire to find a way to break free from the repetitive pattern of daily life."
+      },
+      {
+        "id": "B",
+        "text": "revealing the speaker's feelings of disappointment over the predictable change in season."
+      },
+      {
+        "id": "C",
+        "text": "emphasizing the speaker's awareness of the future significance of the present moment in the setting."
+      },
+      {
+        "id": "D",
+        "text": "showing the speaker's anticipation of specific emotions caused by an intimate knowledge of the setting."
+      }
+    ],
+    "correctAnswer": "C",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Hard",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e4_ela_41",
+    "examId": "exam4",
+    "section": "ela",
+    "questionNumber": 41,
+    "passageId": "e4_p6",
+    "type": "multiple_choice",
+    "prompt": "How I will grow tired of the bridge's steep incline, and the absent-minded tourists wandering into the bicycle path. 5 The weather will turn cold. But that all happens later. For now it is the early edge of fall, leaves green still while the air narrows, is slightly crisp, almost grazing 10 the hair of my arm like a passing stranger, as though the air has been forced into intimacy by the brevity of daylight. But when it starts darkening at 4, this closeness, I know, will be a felt distance, 15 like someone drawing your attention to thainladle afintiman, The speaker's thoughts throughout the poem develop a theme by showing that",
+    "imageSrc": "/exams/exam4/items/ela_q41.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "although people may hold expectations for the future, some people long for present experiences while they are still happening."
+      },
+      {
+        "id": "B",
+        "text": "though people come from different places, most people feel drawn to the special charm a city holds."
+      },
+      {
+        "id": "C",
+        "text": "although people can make decisions about their life, there will always be some things beyond their control."
+      },
+      {
+        "id": "D",
+        "text": "though general expectations exist, people have no way of knowing what a given day will actually bring."
+      }
+    ],
+    "correctAnswer": "A",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Hard",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e4_ela_42",
+    "examId": "exam4",
+    "section": "ela",
+    "questionNumber": 42,
+    "passageId": "e4_p7",
+    "type": "multiple_choice",
+    "prompt": "the passage?",
+    "imageSrc": "/exams/exam4/items/ela_q42.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "Despite the challenges of operating on the surface of another planet, the Opportunity rover made many valuable contributions to the field of space research."
+      },
+      {
+        "id": "B",
+        "text": "The Opportunity rover mission was a success because it informed NASA scientists about how water might have existed on Mars."
+      },
+      {
+        "id": "C",
+        "text": "Throughout the historic mission of the Opportunity rover, NASA scientists had to overcome challenges created by the flaws in the rover's design."
+      },
+      {
+        "id": "D",
+        "text": "The Opportunity rover mission surpassed the original timeline of the assignment and allowed scientists to collect additional data about the planet Mars."
+      }
+    ],
+    "correctAnswer": "A",
+    "topic": "Reading Comprehension",
+    "subtopic": "Inference, Central Idea & Textual Analysis",
+    "difficulty": "Hard",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e4_ela_43",
+    "examId": "exam4",
+    "section": "ela",
+    "questionNumber": 43,
+    "passageId": "e4_p7",
+    "type": "multi_select",
+    "prompt": "The End of an Era (1) In 2004, the National Aeronautics and Space Administration (NASA) landed a rover, or robotic vehicle, named Opportunity on the surface of Mars. (2) The rover's mission was to search for evidence of water and life on the planet. (3) The rover was designed to gather data on Mars for about 90 days, but Opportunity's assignment did not come to an end until nearly 15 years later in 2019. (4) During the rover's mission, a high-resolution camera on the rover's robotic arm took magnified photographs of the surface of Mars. (5) The photographs revealed small round rocks scattered across the surface of the planet. (6) The scientists nicknamed these rocks \"blueberries\" based on the rocks' resemblance to the fruit. (7) These rocks were important because their spherical shape suggested that liquid water may have flowed over them for a substantial amount of time. (8) Opportunity continued to provide valuable data about craters and other surface features. (9) Throughout the mission, the rover traveled a total of 28.06 miles across Mars' surface. (10) When Opportunity had Which word should be added to the beginning of sentence 8 to provide a better transition to the third paragraph (sentences 8-11)? Move the correct answer to the box. Overall, Furthermore, Meanwhile, Consequently, (8) Opportunity continued to provide valuable data about craters and other surface features.",
+    "imageSrc": "/exams/exam4/items/ela_q43.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctAnswer": "\"Meanwhile,\"",
+    "topic": "Revising & Editing",
+    "subtopic": "Conventions of Language & Paragraph Organization",
+    "difficulty": "Hard",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: \"Meanwhile,\". This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e4_ela_44",
+    "examId": "exam4",
+    "section": "ela",
+    "questionNumber": 44,
+    "passageId": "e4_p7",
+    "type": "multiple_choice",
+    "prompt": "in the passage?",
+    "imageSrc": "/exams/exam4/items/ela_q44.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "However, in 2018, a dust storm covered the planet, bringing the rover's progress to a standstill."
+      },
+      {
+        "id": "B",
+        "text": "However, in 2018, a dust storm shrouded the planet, impermanently halting the rover's progress."
+      },
+      {
+        "id": "C",
+        "text": "However, in 2018, a dust storm enveloped the whole of the planet, arresting the rover's progress for a time."
+      },
+      {
+        "id": "D",
+        "text": "However, in 2018, a dust storm covered up the whole planet, which quickly brought a stop to the progress of the rover."
+      }
+    ],
+    "correctAnswer": "A",
+    "topic": "Revising & Editing",
+    "subtopic": "Conventions of Language & Paragraph Organization",
+    "difficulty": "Hard",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e4_ela_45",
+    "examId": "exam4",
+    "section": "ela",
+    "questionNumber": 45,
+    "passageId": "e4_p7",
+    "type": "multiple_choice",
+    "prompt": "Where should the sentence be added to the passage?",
+    "imageSrc": "/exams/exam4/items/ela_q45.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "between sentences 2 and 3"
+      },
+      {
+        "id": "B",
+        "text": "at the beginning of the second paragraph (before sentence 4)"
+      },
+      {
+        "id": "C",
+        "text": "at the end of the second paragraph (after sentence 7)"
+      },
+      {
+        "id": "D",
+        "text": "between sentences 8 and 9"
+      }
+    ],
+    "correctAnswer": "B",
+    "topic": "Revising & Editing",
+    "subtopic": "Conventions of Language & Paragraph Organization",
+    "difficulty": "Hard",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e4_ela_46",
+    "examId": "exam4",
+    "section": "ela",
+    "questionNumber": 46,
+    "passageId": "e4_p7",
+    "type": "multiple_choice",
+    "prompt": "What is the best way to combine sentences 12 and 13?",
+    "imageSrc": "/exams/exam4/items/ela_q46.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "Preventing the rover from charging its batteries, minor dust storms had periodically deposited a layer of dust onto the solar panels of the rover prior to this planet-wide dust storm."
+      },
+      {
+        "id": "B",
+        "text": "Periodically depositing a layer of dust onto the solar panels of the rover prior to this planet-wide dust storm, minor dust storms had prevented it from charging its batteries."
+      },
+      {
+        "id": "C",
+        "text": "Minor dust storms, prior to this planet-wide dust storm, prevented the rover from charging its batteries because they had periodically deposited a layer of dust onto the solar panels of the rover."
+      },
+      {
+        "id": "D",
+        "text": "Prior to this planet-wide dust storm, minor dust storms had periodically deposited a layer of dust onto the solar panels of the rover, preventing it from charging its batteries."
+      }
+    ],
+    "correctAnswer": "D",
+    "topic": "Revising & Editing",
+    "subtopic": "Conventions of Language & Paragraph Organization",
+    "difficulty": "Hard",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e4_ela_47",
+    "examId": "exam4",
+    "section": "ela",
+    "questionNumber": 47,
+    "type": "multi_select",
+    "prompt": "In September 2016 the National Museum of African American History and Culture opened as part of the Smithsonian Institution, the museum is already the Smithsonian's third most popular site. Experts say that they expect this newest Smithsonian facility to welcome nearly 4 million visitors a year. The museum features more than 30,000 objects, including Muhammad Ali's boxing gloves and a dress sewn by Rosa Parks. A commemorative copy of the Emancipation Proclamation, written in 1863 during the presidency of Abraham Lincoln, is also on display at the museum. Which part of the paragraph contains an error in sentence structure? Select the one error.",
+    "imageSrc": "/exams/exam4/items/ela_q47.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctAnswer": "Choice 1: \"Institution, the\"",
+    "topic": "Revising & Editing",
+    "subtopic": "Conventions of Language & Paragraph Organization",
+    "difficulty": "Hard",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: Choice 1: \"Institution, the\". This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e4_ela_48",
+    "examId": "exam4",
+    "section": "ela",
+    "questionNumber": 48,
+    "type": "multiple_choice",
+    "prompt": "What is the best way to combine the sentences to clarify the relationship between the ideas?",
+    "imageSrc": "/exams/exam4/items/ela_q48.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "While flyby missions near Jupiter have been happening since 1973, scientists collect data about the planet and its moons."
+      },
+      {
+        "id": "B",
+        "text": "Although there have been flyby missions near Jupiter since 1973, they have allowed scientists to collect data about the planet and its moons."
+      },
+      {
+        "id": "C",
+        "text": "Flyby missions near Jupiter, which allow scientists to collect data about the planet and its moons, have been happening since 1973."
+      },
+      {
+        "id": "D",
+        "text": "Flyby missions have been happening near Jupiter, but scientists have been collecting data about the planet and its moons since 1973."
+      }
+    ],
+    "correctAnswer": "C",
+    "topic": "Revising & Editing",
+    "subtopic": "Conventions of Language & Paragraph Organization",
+    "difficulty": "Hard",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e4_ela_49",
+    "examId": "exam4",
+    "section": "ela",
+    "questionNumber": 49,
+    "type": "text_entry",
+    "prompt": "Which sentence in the paragraph contains an error in construction and should be revised? (1) On the evening of July 13, 2019, a major power outage affected the Upper West Side of Manhattan in New York City. (2) Leaving approximately 73,000 residents without electricity for three long hours, lights did not function, refrigerators did not stay cold, and air conditioners did not work. (3) Longtime city residents were particularly confused because an eerily similar event had occurred years earlier\u2014on the exact same day! (4) The famous New York City Blackout of 1977, which lasted for 25 hours, also happened on July 13, an odd coincidence to say the least. Move the answer to the box. There is only one error in construction. Sentence 1 Sentence 2 Sentence 3 Sentence 4 Contains an error in construction",
+    "imageSrc": "/exams/exam4/items/ela_q49.png",
+    "options": null,
+    "correctAnswer": "Sentence 2",
+    "topic": "Revising & Editing",
+    "subtopic": "Conventions of Language & Paragraph Organization",
+    "difficulty": "Hard",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: Sentence 2. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e4_ela_50",
+    "examId": "exam4",
+    "section": "ela",
+    "questionNumber": 50,
+    "type": "multiple_choice",
+    "prompt": "How should the paragraph be revised? (1) Danielle spent several hours preparing for an upcoming audition for a play at the community theater. (2) First she did vocal exercises to practice her diction and projection so that her words would carry clearly throughout the large auditorium. (3) Then she studies the text of the monologue to better understand the emotions, and motivations of the character she plans to portray. (4) Finally she recited her monologue in front of a mirror many times, making slight adjustments and improvements to her performance each time.",
+    "imageSrc": "/exams/exam4/items/ela_q50.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sentence 1: Change spent to had spent, AND insert a comma after play."
+      },
+      {
+        "id": "B",
+        "text": "Sentence 2: Change did to does, AND insert a comma after projection."
+      },
+      {
+        "id": "C",
+        "text": "Sentence 3: Change studies to studied, AND delete the comma after emotions."
+      },
+      {
+        "id": "D",
+        "text": "Sentence 4: Change recited to recites, AND delete the comma after times."
+      }
+    ],
+    "correctAnswer": "C",
+    "topic": "Revising & Editing",
+    "subtopic": "Conventions of Language & Paragraph Organization",
+    "difficulty": "Hard",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e4_math_01",
@@ -5941,184 +13407,121 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 51,
     "type": "multiple_choice",
-    "prompt": "Practice Form D: Mathematics problem 1.",
+    "prompt": "The decimal 0.06 can be written as the fraction 50. What is the value of x?",
     "imageSrc": "/exams/exam4/items/math_q01.png",
     "options": [
       {
         "id": "A",
-        "text": "Choice A"
+        "text": "3"
       },
       {
         "id": "B",
-        "text": "Choice B"
+        "text": "6"
       },
       {
         "id": "C",
-        "text": "Choice C"
+        "text": "12"
       },
       {
         "id": "D",
-        "text": "Choice D"
+        "text": "30"
       }
     ],
     "correctAnswer": "A",
-    "topic": "Geometry: Angles",
-    "difficulty": "Medium",
+    "topic": "Algebra & Equations",
+    "subtopic": "Linear Equations & Algebraic Modeling",
+    "difficulty": "Easy",
     "hints": [
-      "Check given values and sketch the geometric figure or set up the algebraic equation.",
-      "Work systematically to avoid arithmetic slips.",
-      "Plug your result back into the original problem to verify."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Always double check for sign flips when dividing inequalities and watch for units (minutes vs hours).",
-    "explanation": "Step-by-step mathematical proof verifies the correct solution."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e4_math_02",
     "examId": "exam4",
     "section": "math",
     "questionNumber": 52,
-    "type": "multiple_choice",
-    "prompt": "Practice Form D: Mathematics problem 2.",
+    "type": "text_entry",
+    "prompt": "The list shows the results of a survey. A survey was taken to see whether students like basketball, soccer, both, or neither. These were the results: \u2022 25 students like basketball. \u2022 19 students like soccer. \u2022 7 students like both basketball and soccer. \u2022 10 students don't like either basketball or soccer. Use the information provided to determine how many students were surveyed and how many like only soccer. Move the correct answer to each box. 12 19 26 3 47|54 There were students surveyed, and _ students like only soccer.",
     "imageSrc": "/exams/exam4/items/math_q02.png",
-    "options": [
-      {
-        "id": "A",
-        "text": "Choice A"
-      },
-      {
-        "id": "B",
-        "text": "Choice B"
-      },
-      {
-        "id": "C",
-        "text": "Choice C"
-      },
-      {
-        "id": "D",
-        "text": "Choice D"
-      }
-    ],
-    "correctAnswer": "D",
-    "topic": "Percents & Proportions",
-    "difficulty": "Medium",
+    "options": null,
+    "correctAnswer": "Students surveyed: 47; students who like only soccer: 12",
+    "topic": "Probability & Statistics",
+    "subtopic": "Data Analysis, Frequency & Combinations",
+    "difficulty": "Easy",
     "hints": [
-      "Check given values and sketch the geometric figure or set up the algebraic equation.",
-      "Work systematically to avoid arithmetic slips.",
-      "Plug your result back into the original problem to verify."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Always double check for sign flips when dividing inequalities and watch for units (minutes vs hours).",
-    "explanation": "Step-by-step mathematical proof verifies the correct solution."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: Students surveyed: 47; students who like only soccer: 12. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e4_math_03",
     "examId": "exam4",
     "section": "math",
     "questionNumber": 53,
-    "type": "multiple_choice",
-    "prompt": "Practice Form D: Mathematics problem 3.",
+    "type": "text_entry",
+    "prompt": "At a diner, 18 dozen buns were used yesterday for 150 lunch customers. Today, there were 250 lunch customers. Assuming that the bun usage rate is the same for both days, which proportions can be used to determine how many dozen buns are needed for 250 lunch customers? Select the three correct answers. 18 150 = 250 18 250 =150 150 = 250 18 1 = 250 150 150 18 250",
     "imageSrc": "/exams/exam4/items/math_q03.png",
-    "options": [
-      {
-        "id": "A",
-        "text": "Choice A"
-      },
-      {
-        "id": "B",
-        "text": "Choice B"
-      },
-      {
-        "id": "C",
-        "text": "Choice C"
-      },
-      {
-        "id": "D",
-        "text": "Choice D"
-      }
-    ],
-    "correctAnswer": "B",
-    "topic": "Probability",
-    "difficulty": "Medium",
+    "options": null,
+    "correctAnswer": "18/150 = x/250; 150/18 = 250/x; x/18 = 250/150",
+    "topic": "Proportional Reasoning & Percentages",
+    "subtopic": "Ratios, Rates & Scale Drawings",
+    "difficulty": "Easy",
     "hints": [
-      "Check given values and sketch the geometric figure or set up the algebraic equation.",
-      "Work systematically to avoid arithmetic slips.",
-      "Plug your result back into the original problem to verify."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Always double check for sign flips when dividing inequalities and watch for units (minutes vs hours).",
-    "explanation": "Step-by-step mathematical proof verifies the correct solution."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: 18/150 = x/250; 150/18 = 250/x; x/18 = 250/150. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e4_math_04",
     "examId": "exam4",
     "section": "math",
     "questionNumber": 54,
-    "type": "multiple_choice",
-    "prompt": "Practice Form D: Mathematics problem 4.",
+    "type": "text_entry",
+    "prompt": "Maria is playing a game in which players earn points called minks, zogs, and barts. 1 mink = 3 zogs 1 mink = \u00be bart Maria has 60 zogs and 24 barts. She wants to exchange her zogs and barts for minks. How many minks will Maria receive from the exchange?",
     "imageSrc": "/exams/exam4/items/math_q04.png",
-    "options": [
-      {
-        "id": "A",
-        "text": "Choice A"
-      },
-      {
-        "id": "B",
-        "text": "Choice B"
-      },
-      {
-        "id": "C",
-        "text": "Choice C"
-      },
-      {
-        "id": "D",
-        "text": "Choice D"
-      }
-    ],
-    "correctAnswer": "C",
-    "topic": "Algebra: Linear Equations",
-    "difficulty": "Medium",
+    "options": null,
+    "correctAnswer": "116",
+    "topic": "Algebra & Equations",
+    "subtopic": "Linear Equations & Algebraic Modeling",
+    "difficulty": "Easy",
     "hints": [
-      "Check given values and sketch the geometric figure or set up the algebraic equation.",
-      "Work systematically to avoid arithmetic slips.",
-      "Plug your result back into the original problem to verify."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Always double check for sign flips when dividing inequalities and watch for units (minutes vs hours).",
-    "explanation": "Step-by-step mathematical proof verifies the correct solution."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: 116. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e4_math_05",
     "examId": "exam4",
     "section": "math",
     "questionNumber": 55,
-    "type": "multiple_choice",
-    "prompt": "Practice Form D: Mathematics problem 5.",
+    "type": "text_entry",
+    "prompt": "How many 5-digit numbers can be created using the digits 2, 3, 5, 7, and 8 without repeating any digits within that 5-digit number?",
     "imageSrc": "/exams/exam4/items/math_q05.png",
-    "options": [
-      {
-        "id": "A",
-        "text": "Choice A"
-      },
-      {
-        "id": "B",
-        "text": "Choice B"
-      },
-      {
-        "id": "C",
-        "text": "Choice C"
-      },
-      {
-        "id": "D",
-        "text": "Choice D"
-      }
-    ],
-    "correctAnswer": "A",
-    "topic": "Geometry: Angles",
-    "difficulty": "Medium",
+    "options": null,
+    "correctAnswer": "120",
+    "topic": "Algebra & Equations",
+    "subtopic": "Linear Equations & Algebraic Modeling",
+    "difficulty": "Easy",
     "hints": [
-      "Check given values and sketch the geometric figure or set up the algebraic equation.",
-      "Work systematically to avoid arithmetic slips.",
-      "Plug your result back into the original problem to verify."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Always double check for sign flips when dividing inequalities and watch for units (minutes vs hours).",
-    "explanation": "Step-by-step mathematical proof verifies the correct solution."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: 120. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e4_math_06",
@@ -6126,36 +13529,37 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 56,
     "type": "multiple_choice",
-    "prompt": "Practice Form D: Mathematics problem 6.",
+    "prompt": "What is the measure of <QRS?",
     "imageSrc": "/exams/exam4/items/math_q06.png",
     "options": [
       {
         "id": "A",
-        "text": "Choice A"
+        "text": "60\u00b0."
       },
       {
         "id": "B",
-        "text": "Choice B"
+        "text": "70\u00b0"
       },
       {
         "id": "C",
-        "text": "Choice C"
+        "text": "80\u00b0"
       },
       {
         "id": "D",
-        "text": "Choice D"
+        "text": "120\u00b0"
       }
     ],
-    "correctAnswer": "D",
-    "topic": "Percents & Proportions",
-    "difficulty": "Medium",
+    "correctAnswer": "A",
+    "topic": "Algebra & Equations",
+    "subtopic": "Linear Equations & Algebraic Modeling",
+    "difficulty": "Easy",
     "hints": [
-      "Check given values and sketch the geometric figure or set up the algebraic equation.",
-      "Work systematically to avoid arithmetic slips.",
-      "Plug your result back into the original problem to verify."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Always double check for sign flips when dividing inequalities and watch for units (minutes vs hours).",
-    "explanation": "Step-by-step mathematical proof verifies the correct solution."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e4_math_07",
@@ -6163,36 +13567,37 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 57,
     "type": "multiple_choice",
-    "prompt": "Practice Form D: Mathematics problem 7.",
+    "prompt": "M = 3N = 7 = Q = 7 > 0 Based on the statement above, which variable has the greatest value? \u2022 A. M O B. N \u2022 C. P \u2022 D. R",
     "imageSrc": "/exams/exam4/items/math_q07.png",
     "options": [
       {
         "id": "A",
-        "text": "Choice A"
+        "text": "Option A"
       },
       {
         "id": "B",
-        "text": "Choice B"
+        "text": "Option B"
       },
       {
         "id": "C",
-        "text": "Choice C"
+        "text": "Option C"
       },
       {
         "id": "D",
-        "text": "Choice D"
+        "text": "Option D"
       }
     ],
-    "correctAnswer": "B",
-    "topic": "Probability",
-    "difficulty": "Medium",
+    "correctAnswer": "D",
+    "topic": "Algebra & Equations",
+    "subtopic": "Linear Equations & Algebraic Modeling",
+    "difficulty": "Easy",
     "hints": [
-      "Check given values and sketch the geometric figure or set up the algebraic equation.",
-      "Work systematically to avoid arithmetic slips.",
-      "Plug your result back into the original problem to verify."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Always double check for sign flips when dividing inequalities and watch for units (minutes vs hours).",
-    "explanation": "Step-by-step mathematical proof verifies the correct solution."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e4_math_08",
@@ -6200,36 +13605,37 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 58,
     "type": "multiple_choice",
-    "prompt": "Practice Form D: Mathematics problem 8.",
+    "prompt": "Solve the mathematical problem shown in question 8.",
     "imageSrc": "/exams/exam4/items/math_q08.png",
     "options": [
       {
         "id": "A",
-        "text": "Choice A"
+        "text": "roofing contractor uses shingles at a rate of 3 bundles for every 96 square feet of roof covered. At this rate, how many bundles of shingles will he need in order to cover a roof that is 416 square feet? \u2022 A. 5"
       },
       {
         "id": "B",
-        "text": "Choice B"
+        "text": "12"
       },
       {
         "id": "C",
-        "text": "Choice C"
+        "text": "13"
       },
       {
         "id": "D",
-        "text": "Choice D"
+        "text": "14"
       }
     ],
     "correctAnswer": "C",
-    "topic": "Algebra: Linear Equations",
-    "difficulty": "Medium",
+    "topic": "Algebra & Equations",
+    "subtopic": "Linear Equations & Algebraic Modeling",
+    "difficulty": "Easy",
     "hints": [
-      "Check given values and sketch the geometric figure or set up the algebraic equation.",
-      "Work systematically to avoid arithmetic slips.",
-      "Plug your result back into the original problem to verify."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Always double check for sign flips when dividing inequalities and watch for units (minutes vs hours).",
-    "explanation": "Step-by-step mathematical proof verifies the correct solution."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e4_math_09",
@@ -6237,36 +13643,37 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 59,
     "type": "multiple_choice",
-    "prompt": "Practice Form D: Mathematics problem 9.",
+    "prompt": "buying the individual sheets less expensive than buying the package?",
     "imageSrc": "/exams/exam4/items/math_q09.png",
     "options": [
       {
         "id": "A",
-        "text": "Choice A"
+        "text": "60."
       },
       {
         "id": "B",
-        "text": "Choice B"
+        "text": "65"
       },
       {
         "id": "C",
-        "text": "Choice C"
+        "text": "69."
       },
       {
         "id": "D",
-        "text": "Choice D"
+        "text": "70"
       }
     ],
-    "correctAnswer": "A",
-    "topic": "Geometry: Angles",
-    "difficulty": "Medium",
+    "correctAnswer": "C",
+    "topic": "Algebra & Equations",
+    "subtopic": "Linear Equations & Algebraic Modeling",
+    "difficulty": "Easy",
     "hints": [
-      "Check given values and sketch the geometric figure or set up the algebraic equation.",
-      "Work systematically to avoid arithmetic slips.",
-      "Plug your result back into the original problem to verify."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Always double check for sign flips when dividing inequalities and watch for units (minutes vs hours).",
-    "explanation": "Step-by-step mathematical proof verifies the correct solution."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   },
   {
     "id": "e4_math_10",
@@ -6274,36 +13681,1459 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 60,
     "type": "multiple_choice",
-    "prompt": "Practice Form D: Mathematics problem 10.",
+    "prompt": "temperature fell 3 degrees per hour. What was the temperature at 7:00 p.m. that day?",
     "imageSrc": "/exams/exam4/items/math_q10.png",
     "options": [
       {
         "id": "A",
-        "text": "Choice A"
+        "text": "-13\u00b0"
       },
       {
         "id": "B",
-        "text": "Choice B"
+        "text": "-10\u00b0|"
       },
       {
         "id": "C",
-        "text": "Choice C"
+        "text": "-7\u00b0."
       },
       {
         "id": "D",
-        "text": "Choice D"
+        "text": "5\u00b0"
+      }
+    ],
+    "correctAnswer": "B",
+    "topic": "Algebra & Equations",
+    "subtopic": "Linear Equations & Algebraic Modeling",
+    "difficulty": "Easy",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e4_math_11",
+    "examId": "exam4",
+    "section": "math",
+    "questionNumber": 61,
+    "type": "multiple_choice",
+    "prompt": "Solve the mathematical problem shown in question 11.",
+    "imageSrc": "/exams/exam4/items/math_q11.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "bag contains 75 marbles that are red, blue, or green. The ratio of red to blue marbles is 15:7, and the ratio of blue to green marbles is 7:3. If 2 blue marbles are removed and replaced with 2 green marbles, what will be the new ratio of red to green marbles? \u2022 A. 3:1."
+      },
+      {
+        "id": "B",
+        "text": "5:1"
+      },
+      {
+        "id": "C",
+        "text": "15:3"
+      },
+      {
+        "id": "D",
+        "text": "45:11."
       }
     ],
     "correctAnswer": "D",
-    "topic": "Percents & Proportions",
+    "topic": "Algebra & Equations",
+    "subtopic": "Linear Equations & Algebraic Modeling",
+    "difficulty": "Easy",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e4_math_12",
+    "examId": "exam4",
+    "section": "math",
+    "questionNumber": 62,
+    "type": "multiple_choice",
+    "prompt": "Based on this information, what is the probability of a customer ordering ice cream as a dessert?",
+    "imageSrc": "/exams/exam4/items/math_q12.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "25%."
+      },
+      {
+        "id": "B",
+        "text": "30%"
+      },
+      {
+        "id": "C",
+        "text": "40%"
+      },
+      {
+        "id": "D",
+        "text": "48%"
+      }
+    ],
+    "correctAnswer": "B",
+    "topic": "Probability & Statistics",
+    "subtopic": "Data Analysis, Frequency & Combinations",
+    "difficulty": "Easy",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e4_math_13",
+    "examId": "exam4",
+    "section": "math",
+    "questionNumber": 63,
+    "type": "text_entry",
+    "prompt": "A basket contains 3 apples, 4 oranges, 5 bananas, and 8 pears. If one piece of fruit is randomly pulled from the basket, what is the probability that it will be a pear? Select the place on the number line to plot the point. 0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9",
+    "imageSrc": "/exams/exam4/items/math_q13.png",
+    "options": null,
+    "correctAnswer": "8/20 (or 0.4)",
+    "topic": "Geometry & Spatial Reasoning",
+    "subtopic": "Geometric Figures, Area & Coordinate Planes",
+    "difficulty": "Easy",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: 8/20 (or 0.4). This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e4_math_14",
+    "examId": "exam4",
+    "section": "math",
+    "questionNumber": 64,
+    "type": "multiple_choice",
+    "prompt": "A cooler contains three types of beverages: 5 bottles of apple juice, 3 bottles of grape juice, and 6 bottles of orange juice. What is the probability that a bottle chosen at random from this cooler is not apple juice?",
+    "imageSrc": "/exams/exam4/items/math_q14.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      }
+    ],
+    "correctAnswer": "C",
+    "topic": "Probability & Statistics",
+    "subtopic": "Data Analysis, Frequency & Combinations",
+    "difficulty": "Easy",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e4_math_15",
+    "examId": "exam4",
+    "section": "math",
+    "questionNumber": 65,
+    "type": "multiple_choice",
+    "prompt": "Solve the mathematical problem shown in question 15.",
+    "imageSrc": "/exams/exam4/items/math_q15.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "large circular dinner plate has a radius of 20 centimeters. A smaller circular plate with a circumference of 20m centimeters is placed in the center of the larger dinner plate. What is the area of the part of the larger dinner plate that is not covered by the smaller plate? \u2022 A. 20 sq cm"
+      },
+      {
+        "id": "B",
+        "text": "100 sq cm"
+      },
+      {
+        "id": "C",
+        "text": "200\u043b sq cm"
+      },
+      {
+        "id": "D",
+        "text": "300 sq cm"
+      }
+    ],
+    "correctAnswer": "D",
+    "topic": "Algebra & Equations",
+    "subtopic": "Linear Equations & Algebraic Modeling",
+    "difficulty": "Easy",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e4_math_16",
+    "examId": "exam4",
+    "section": "math",
+    "questionNumber": 66,
+    "type": "multi_select",
+    "prompt": "Which tables represent a proportional relationship between the number of books purchased and the total cost? Select the two correct answers. Number of Books Purchased Total Cost ($) Number of Books Purchased Total Cost ($) Number of Books Purchased Total Cost ($) Number of Books Purchased Total Cost ($) Number of Books Purchased Total Cost ($) 10 40 10 70 10 80 10 90 15 20 25 60 80 100 15 20 25 110 150 250 15 20 25 120 160 200 15 20 25 130 170 210 20 10 15 25 100 100 100 100",
+    "imageSrc": "/exams/exam4/items/math_q16.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      },
+      {
+        "id": "E",
+        "text": "Option E"
+      }
+    ],
+    "correctAnswer": "Tables A and C",
+    "topic": "Proportional Reasoning & Percentages",
+    "subtopic": "Ratios, Rates & Scale Drawings",
     "difficulty": "Medium",
     "hints": [
-      "Check given values and sketch the geometric figure or set up the algebraic equation.",
-      "Work systematically to avoid arithmetic slips.",
-      "Plug your result back into the original problem to verify."
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
     ],
-    "trapAlert": "Always double check for sign flips when dividing inequalities and watch for units (minutes vs hours).",
-    "explanation": "Step-by-step mathematical proof verifies the correct solution."
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: Tables A and C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e4_math_17",
+    "examId": "exam4",
+    "section": "math",
+    "questionNumber": 67,
+    "type": "text_entry",
+    "prompt": "How many positive integers satisfy the inequality x + 7 < 23?",
+    "imageSrc": "/exams/exam4/items/math_q17.png",
+    "options": null,
+    "correctAnswer": "15",
+    "topic": "Number Theory & Operations",
+    "subtopic": "Prime Factorization & Multiples",
+    "difficulty": "Medium",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: 15. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e4_math_18",
+    "examId": "exam4",
+    "section": "math",
+    "questionNumber": 68,
+    "type": "multiple_choice",
+    "prompt": "If 36 = 4x, what is the value of x when y = 3?",
+    "imageSrc": "/exams/exam4/items/math_q18.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "3."
+      },
+      {
+        "id": "B",
+        "text": "4"
+      },
+      {
+        "id": "C",
+        "text": "9"
+      },
+      {
+        "id": "D",
+        "text": "12"
+      }
+    ],
+    "correctAnswer": "A",
+    "topic": "Algebra & Equations",
+    "subtopic": "Linear Equations & Algebraic Modeling",
+    "difficulty": "Medium",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e4_math_19",
+    "examId": "exam4",
+    "section": "math",
+    "questionNumber": 69,
+    "type": "multiple_choice",
+    "prompt": "length XY = 20 centimeters. What is the length of XZ?",
+    "imageSrc": "/exams/exam4/items/math_q19.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "12 cm"
+      },
+      {
+        "id": "B",
+        "text": "24 cm"
+      },
+      {
+        "id": "C",
+        "text": "30 cm"
+      },
+      {
+        "id": "D",
+        "text": "32 cm"
+      }
+    ],
+    "correctAnswer": "D",
+    "topic": "Algebra & Equations",
+    "subtopic": "Linear Equations & Algebraic Modeling",
+    "difficulty": "Medium",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e4_math_20",
+    "examId": "exam4",
+    "section": "math",
+    "questionNumber": 70,
+    "type": "multiple_choice",
+    "prompt": "cost of the cloth?",
+    "imageSrc": "/exams/exam4/items/math_q20.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "$12.96."
+      },
+      {
+        "id": "B",
+        "text": "$14.08"
+      },
+      {
+        "id": "C",
+        "text": "$15.12"
+      },
+      {
+        "id": "D",
+        "text": "$16.08"
+      }
+    ],
+    "correctAnswer": "C",
+    "topic": "Algebra & Equations",
+    "subtopic": "Linear Equations & Algebraic Modeling",
+    "difficulty": "Medium",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e4_math_21",
+    "examId": "exam4",
+    "section": "math",
+    "questionNumber": 71,
+    "type": "multiple_choice",
+    "prompt": "N On the number line above, MN = 5-. What is the position of point M? \u2022 A. -7% \u2022 B. -4\u00f7 O C. 42 \u2022 D. 76",
+    "imageSrc": "/exams/exam4/items/math_q21.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      }
+    ],
+    "correctAnswer": "B",
+    "topic": "Proportional Reasoning & Percentages",
+    "subtopic": "Ratios, Rates & Scale Drawings",
+    "difficulty": "Medium",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e4_math_22",
+    "examId": "exam4",
+    "section": "math",
+    "questionNumber": 72,
+    "type": "multiple_choice",
+    "prompt": "Solve the mathematical problem shown in question 22.",
+    "imageSrc": "/exams/exam4/items/math_q22.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "United States presidential coin is made from an alloy of four metals-copper, zinc, manganese, and nickel-with weights in the ratio of 177:12:7:4, respectively. The coin weighs a total of 8 grams. What is the weight of the zinc in this coin? \u2022 A. 0.28 gram"
+      },
+      {
+        "id": "B",
+        "text": "0.48 gram"
+      },
+      {
+        "id": "C",
+        "text": "0.96 gram"
+      },
+      {
+        "id": "D",
+        "text": "48 grams"
+      }
+    ],
+    "correctAnswer": "B",
+    "topic": "Algebra & Equations",
+    "subtopic": "Linear Equations & Algebraic Modeling",
+    "difficulty": "Medium",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e4_math_23",
+    "examId": "exam4",
+    "section": "math",
+    "questionNumber": 73,
+    "type": "multiple_choice",
+    "prompt": "5 years ago?",
+    "imageSrc": "/exams/exam4/items/math_q23.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "38 yr"
+      },
+      {
+        "id": "B",
+        "text": "40 yr"
+      },
+      {
+        "id": "C",
+        "text": "45 yr"
+      },
+      {
+        "id": "D",
+        "text": "50 yr"
+      }
+    ],
+    "correctAnswer": "B",
+    "topic": "Algebra & Equations",
+    "subtopic": "Linear Equations & Algebraic Modeling",
+    "difficulty": "Medium",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e4_math_24",
+    "examId": "exam4",
+    "section": "math",
+    "questionNumber": 74,
+    "type": "multiple_choice",
+    "prompt": "Solve the mathematical problem shown in question 24.",
+    "imageSrc": "/exams/exam4/items/math_q24.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "chemical decays in such a way that the amount left at the end of each week is 20% less than the amount at the beginning of that same week. What percentage of the original amount is left after two weeks? \u2022 A. 40%"
+      },
+      {
+        "id": "B",
+        "text": "60%"
+      },
+      {
+        "id": "C",
+        "text": "64%."
+      },
+      {
+        "id": "D",
+        "text": "80%"
+      }
+    ],
+    "correctAnswer": "C",
+    "topic": "Algebra & Equations",
+    "subtopic": "Linear Equations & Algebraic Modeling",
+    "difficulty": "Medium",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e4_math_25",
+    "examId": "exam4",
+    "section": "math",
+    "questionNumber": 75,
+    "type": "multiple_choice",
+    "prompt": "If w - 1 is an odd integer, which one of the following must be an even integer?",
+    "imageSrc": "/exams/exam4/items/math_q25.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "w + 1"
+      },
+      {
+        "id": "B",
+        "text": "2w - 1"
+      },
+      {
+        "id": "C",
+        "text": "2\u0448 - 2"
+      },
+      {
+        "id": "D",
+        "text": "2w + 1"
+      }
+    ],
+    "correctAnswer": "C",
+    "topic": "Number Theory & Operations",
+    "subtopic": "Prime Factorization & Multiples",
+    "difficulty": "Medium",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e4_math_26",
+    "examId": "exam4",
+    "section": "math",
+    "questionNumber": 76,
+    "type": "multiple_choice",
+    "prompt": "Simplify this expression: 4(7 - 3x) - (5 - x)",
+    "imageSrc": "/exams/exam4/items/math_q26.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "23 - 4x"
+      },
+      {
+        "id": "B",
+        "text": "23 - 11x"
+      },
+      {
+        "id": "C",
+        "text": "28 - 4x"
+      },
+      {
+        "id": "D",
+        "text": "28 - 12x"
+      }
+    ],
+    "correctAnswer": "B",
+    "topic": "Algebra & Equations",
+    "subtopic": "Linear Equations & Algebraic Modeling",
+    "difficulty": "Medium",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e4_math_27",
+    "examId": "exam4",
+    "section": "math",
+    "questionNumber": 77,
+    "type": "multiple_choice",
+    "prompt": "that a student who participated in the survey has at least 2 pets?",
+    "imageSrc": "/exams/exam4/items/math_q27.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "40"
+      },
+      {
+        "id": "B",
+        "text": "I2"
+      },
+      {
+        "id": "C",
+        "text": "8"
+      },
+      {
+        "id": "D",
+        "text": "1"
+      }
+    ],
+    "correctAnswer": "D",
+    "topic": "Probability & Statistics",
+    "subtopic": "Data Analysis, Frequency & Combinations",
+    "difficulty": "Medium",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e4_math_28",
+    "examId": "exam4",
+    "section": "math",
+    "questionNumber": 78,
+    "type": "text_entry",
+    "prompt": "A circle has a radius of 5 inches. What is the area of the circle in terms of it? Use i to express your answer.",
+    "imageSrc": "/exams/exam4/items/math_q28.png",
+    "options": null,
+    "correctAnswer": "25\u03c0",
+    "topic": "Geometry & Spatial Reasoning",
+    "subtopic": "Geometric Figures, Area & Coordinate Planes",
+    "difficulty": "Medium",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: 25\u03c0. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e4_math_29",
+    "examId": "exam4",
+    "section": "math",
+    "questionNumber": 79,
+    "type": "multiple_choice",
+    "prompt": "areas of the shaded triangles?",
+    "imageSrc": "/exams/exam4/items/math_q29.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "9 sq cm"
+      },
+      {
+        "id": "B",
+        "text": "12 sq cm"
+      },
+      {
+        "id": "C",
+        "text": "18 sq cm \u2022"
+      },
+      {
+        "id": "D",
+        "text": "36 sq cm"
+      }
+    ],
+    "correctAnswer": "A",
+    "topic": "Geometry & Spatial Reasoning",
+    "subtopic": "Geometric Figures, Area & Coordinate Planes",
+    "difficulty": "Medium",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e4_math_30",
+    "examId": "exam4",
+    "section": "math",
+    "questionNumber": 80,
+    "type": "multiple_choice",
+    "prompt": "year, how much will they spend on planned expenses that year?",
+    "imageSrc": "/exams/exam4/items/math_q30.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "$1,850."
+      },
+      {
+        "id": "B",
+        "text": "$3,700"
+      },
+      {
+        "id": "C",
+        "text": "$5,920."
+      },
+      {
+        "id": "D",
+        "text": "$18,500"
+      }
+    ],
+    "correctAnswer": "D",
+    "topic": "Algebra & Equations",
+    "subtopic": "Linear Equations & Algebraic Modeling",
+    "difficulty": "Medium",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e4_math_31",
+    "examId": "exam4",
+    "section": "math",
+    "questionNumber": 81,
+    "type": "multiple_choice",
+    "prompt": "Solve the mathematical problem shown in question 31.",
+    "imageSrc": "/exams/exam4/items/math_q31.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "pizza shop offers a choice of 3 sizes (small, medium, and large) and 7 different toppings. Different pizzas can be created by changing the size and the choice of toppings. If Cody wants to order a pizza with exactly 2 different toppings, how many different pizzas can he create? \u2022 A. 6."
+      },
+      {
+        "id": "B",
+        "text": "21"
+      },
+      {
+        "id": "C",
+        "text": "63."
+      },
+      {
+        "id": "D",
+        "text": "126"
+      }
+    ],
+    "correctAnswer": "C",
+    "topic": "Algebra & Equations",
+    "subtopic": "Linear Equations & Algebraic Modeling",
+    "difficulty": "Medium",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e4_math_32",
+    "examId": "exam4",
+    "section": "math",
+    "questionNumber": 82,
+    "type": "multiple_choice",
+    "prompt": "number of these students who could have answered \"yes\" to both questions?",
+    "imageSrc": "/exams/exam4/items/math_q32.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "80."
+      },
+      {
+        "id": "B",
+        "text": "160."
+      },
+      {
+        "id": "C",
+        "text": "560"
+      },
+      {
+        "id": "D",
+        "text": "640."
+      }
+    ],
+    "correctAnswer": "C",
+    "topic": "Algebra & Equations",
+    "subtopic": "Linear Equations & Algebraic Modeling",
+    "difficulty": "Medium",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e4_math_33",
+    "examId": "exam4",
+    "section": "math",
+    "questionNumber": 83,
+    "type": "multiple_choice",
+    "prompt": "Solve the mathematical problem shown in question 33.",
+    "imageSrc": "/exams/exam4/items/math_q33.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "wooden box has a square base. The height of this box is 3 times the length of one side of the base. If one side of the base is 3 feet long, what is the volume of this box? \u2022 A. 9 cuft."
+      },
+      {
+        "id": "B",
+        "text": "27 cu ft"
+      },
+      {
+        "id": "C",
+        "text": "36 cu ft"
+      },
+      {
+        "id": "D",
+        "text": "81 cu ft"
+      }
+    ],
+    "correctAnswer": "D",
+    "topic": "Algebra & Equations",
+    "subtopic": "Linear Equations & Algebraic Modeling",
+    "difficulty": "Medium",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e4_math_34",
+    "examId": "exam4",
+    "section": "math",
+    "questionNumber": 84,
+    "type": "multiple_choice",
+    "prompt": "How much less was Rajiv's mean speed, in kilometers per hour (kph), than Shaina's?",
+    "imageSrc": "/exams/exam4/items/math_q34.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "1."
+      },
+      {
+        "id": "B",
+        "text": "5"
+      },
+      {
+        "id": "C",
+        "text": "7"
+      },
+      {
+        "id": "D",
+        "text": "9"
+      }
+    ],
+    "correctAnswer": "B",
+    "topic": "Probability & Statistics",
+    "subtopic": "Data Analysis, Frequency & Combinations",
+    "difficulty": "Medium",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e4_math_35",
+    "examId": "exam4",
+    "section": "math",
+    "questionNumber": 85,
+    "type": "multiple_choice",
+    "prompt": "the midpoint of PQ from the midpoint of RS?",
+    "imageSrc": "/exams/exam4/items/math_q35.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "1."
+      },
+      {
+        "id": "B",
+        "text": "2"
+      },
+      {
+        "id": "C",
+        "text": "3"
+      },
+      {
+        "id": "D",
+        "text": "4"
+      }
+    ],
+    "correctAnswer": "C",
+    "topic": "Algebra & Equations",
+    "subtopic": "Linear Equations & Algebraic Modeling",
+    "difficulty": "Medium",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e4_math_36",
+    "examId": "exam4",
+    "section": "math",
+    "questionNumber": 86,
+    "type": "multiple_choice",
+    "prompt": "- \u0423- In the quarter circle above, what is y in terms of x? \u2022 \u0410. x \u2014 1 \u2022 \u0432. x + 1 D.",
+    "imageSrc": "/exams/exam4/items/math_q36.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      }
+    ],
+    "correctAnswer": "A",
+    "topic": "Geometry & Spatial Reasoning",
+    "subtopic": "Geometric Figures, Area & Coordinate Planes",
+    "difficulty": "Hard",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e4_math_37",
+    "examId": "exam4",
+    "section": "math",
+    "questionNumber": 87,
+    "type": "multiple_choice",
+    "prompt": "The hash marks on the number line above are evenly spaced. What is the coordinate of point R?",
+    "imageSrc": "/exams/exam4/items/math_q37.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "10"
+      },
+      {
+        "id": "B",
+        "text": "10"
+      },
+      {
+        "id": "C",
+        "text": "10"
+      },
+      {
+        "id": "D",
+        "text": "10"
+      }
+    ],
+    "correctAnswer": "C",
+    "topic": "Geometry & Spatial Reasoning",
+    "subtopic": "Geometric Figures, Area & Coordinate Planes",
+    "difficulty": "Hard",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e4_math_38",
+    "examId": "exam4",
+    "section": "math",
+    "questionNumber": 88,
+    "type": "multiple_choice",
+    "prompt": "that month?",
+    "imageSrc": "/exams/exam4/items/math_q38.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "50."
+      },
+      {
+        "id": "B",
+        "text": "60"
+      },
+      {
+        "id": "C",
+        "text": "100"
+      },
+      {
+        "id": "D",
+        "text": "500."
+      }
+    ],
+    "correctAnswer": "D",
+    "topic": "Algebra & Equations",
+    "subtopic": "Linear Equations & Algebraic Modeling",
+    "difficulty": "Hard",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e4_math_39",
+    "examId": "exam4",
+    "section": "math",
+    "questionNumber": 89,
+    "type": "multiple_choice",
+    "prompt": "backup camera?",
+    "imageSrc": "/exams/exam4/items/math_q39.png",
+    "options": [
+      {
+        "id": "A",
+        "text": ""
+      },
+      {
+        "id": "B",
+        "text": "16 25 19"
+      },
+      {
+        "id": "C",
+        "text": "25"
+      },
+      {
+        "id": "D",
+        "text": "1"
+      }
+    ],
+    "correctAnswer": "B",
+    "topic": "Algebra & Equations",
+    "subtopic": "Linear Equations & Algebraic Modeling",
+    "difficulty": "Hard",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e4_math_40",
+    "examId": "exam4",
+    "section": "math",
+    "questionNumber": 90,
+    "type": "text_entry",
+    "prompt": "147-3 = 12 12 What is the value of x in the equation shown above?",
+    "imageSrc": "/exams/exam4/items/math_q40.png",
+    "options": null,
+    "correctAnswer": "3",
+    "topic": "Algebra & Equations",
+    "subtopic": "Linear Equations & Algebraic Modeling",
+    "difficulty": "Hard",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: 3. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e4_math_41",
+    "examId": "exam4",
+    "section": "math",
+    "questionNumber": 91,
+    "type": "multiple_choice",
+    "prompt": "What is the area of the shaded triangle shown above?",
+    "imageSrc": "/exams/exam4/items/math_q41.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "m +n"
+      },
+      {
+        "id": "B",
+        "text": "n -\u0442"
+      },
+      {
+        "id": "C",
+        "text": "2(n - m)"
+      },
+      {
+        "id": "D",
+        "text": "4 (n - m)"
+      }
+    ],
+    "correctAnswer": "C",
+    "topic": "Geometry & Spatial Reasoning",
+    "subtopic": "Geometric Figures, Area & Coordinate Planes",
+    "difficulty": "Hard",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e4_math_42",
+    "examId": "exam4",
+    "section": "math",
+    "questionNumber": 92,
+    "type": "multiple_choice",
+    "prompt": "chance of being picked at random from the box?",
+    "imageSrc": "/exams/exam4/items/math_q42.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "cat"
+      },
+      {
+        "id": "B",
+        "text": "dog"
+      },
+      {
+        "id": "C",
+        "text": "fish"
+      },
+      {
+        "id": "D",
+        "text": "horse"
+      }
+    ],
+    "correctAnswer": "B",
+    "topic": "Algebra & Equations",
+    "subtopic": "Linear Equations & Algebraic Modeling",
+    "difficulty": "Hard",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e4_math_43",
+    "examId": "exam4",
+    "section": "math",
+    "questionNumber": 93,
+    "type": "multiple_choice",
+    "prompt": "Which number line below shows the solution set for 2x \u2014 2 \u2264 y \u2264 4x + 10 when y = 1? 1\"2\"3\" \u2022 D. ==2=04*23\u00bb",
+    "imageSrc": "/exams/exam4/items/math_q43.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      }
+    ],
+    "correctAnswer": "C",
+    "topic": "Geometry & Spatial Reasoning",
+    "subtopic": "Geometric Figures, Area & Coordinate Planes",
+    "difficulty": "Hard",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e4_math_44",
+    "examId": "exam4",
+    "section": "math",
+    "questionNumber": 94,
+    "type": "multiple_choice",
+    "prompt": "In the equation above, what is the value of p? \u2022 A. 3 \u2022 B. 3 \u2022 D. 14",
+    "imageSrc": "/exams/exam4/items/math_q44.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      }
+    ],
+    "correctAnswer": "C",
+    "topic": "Algebra & Equations",
+    "subtopic": "Linear Equations & Algebraic Modeling",
+    "difficulty": "Hard",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e4_math_45",
+    "examId": "exam4",
+    "section": "math",
+    "questionNumber": 95,
+    "type": "multiple_choice",
+    "prompt": "A ball is selected at random from a box that contains 7 black balls, 14 green balls, and 21 red balls. What is the probability that the ball selected is black? \u2022 \u0432. 5 \u2022 D. 6",
+    "imageSrc": "/exams/exam4/items/math_q45.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "Option A"
+      },
+      {
+        "id": "B",
+        "text": "Option B"
+      },
+      {
+        "id": "C",
+        "text": "Option C"
+      },
+      {
+        "id": "D",
+        "text": "Option D"
+      }
+    ],
+    "correctAnswer": "A",
+    "topic": "Probability & Statistics",
+    "subtopic": "Data Analysis, Frequency & Combinations",
+    "difficulty": "Hard",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e4_math_46",
+    "examId": "exam4",
+    "section": "math",
+    "questionNumber": 96,
+    "type": "text_entry",
+    "prompt": "Amiya subscribes to an online streaming service. She pays a onetime setup fee of $50, plus $20 per month for service. Write an equation that can be used to determine the total amount Amiya will pay, y, for x months of service. Enter your equation in the space provided. Enter only the equation. 1 6 % 2 7 3 8 4 9 5 0 X + \u00f7 () < =",
+    "imageSrc": "/exams/exam4/items/math_q46.png",
+    "options": null,
+    "correctAnswer": "y = 20x + 50",
+    "topic": "Proportional Reasoning & Percentages",
+    "subtopic": "Ratios, Rates & Scale Drawings",
+    "difficulty": "Hard",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: y = 20x + 50. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e4_math_47",
+    "examId": "exam4",
+    "section": "math",
+    "questionNumber": 97,
+    "type": "multiple_choice",
+    "prompt": "between Raoul's age (r) and Vahn's age (v)?",
+    "imageSrc": "/exams/exam4/items/math_q47.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "p-u\u2265 3"
+      },
+      {
+        "id": "B",
+        "text": "r-v\u22643"
+      },
+      {
+        "id": "C",
+        "text": "3-v\u2264r"
+      },
+      {
+        "id": "D",
+        "text": "3 -p\u2264U"
+      }
+    ],
+    "correctAnswer": "A",
+    "topic": "Algebra & Equations",
+    "subtopic": "Linear Equations & Algebraic Modeling",
+    "difficulty": "Hard",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e4_math_48",
+    "examId": "exam4",
+    "section": "math",
+    "questionNumber": 98,
+    "type": "multiple_choice",
+    "prompt": "removed, the shelf would be half full. What is the value of x?",
+    "imageSrc": "/exams/exam4/items/math_q48.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "14."
+      },
+      {
+        "id": "B",
+        "text": "16"
+      },
+      {
+        "id": "C",
+        "text": "18"
+      },
+      {
+        "id": "D",
+        "text": "22"
+      }
+    ],
+    "correctAnswer": "D",
+    "topic": "Algebra & Equations",
+    "subtopic": "Linear Equations & Algebraic Modeling",
+    "difficulty": "Hard",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e4_math_49",
+    "examId": "exam4",
+    "section": "math",
+    "questionNumber": 99,
+    "type": "multiple_choice",
+    "prompt": "expect the cup to land on its side?",
+    "imageSrc": "/exams/exam4/items/math_q49.png",
+    "options": [
+      {
+        "id": "A",
+        "text": "72"
+      },
+      {
+        "id": "B",
+        "text": "108"
+      },
+      {
+        "id": "C",
+        "text": "144"
+      },
+      {
+        "id": "D",
+        "text": "158"
+      }
+    ],
+    "correctAnswer": "C",
+    "topic": "Algebra & Equations",
+    "subtopic": "Linear Equations & Algebraic Modeling",
+    "difficulty": "Hard",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+  },
+  {
+    "id": "e4_math_50",
+    "examId": "exam4",
+    "section": "math",
+    "questionNumber": 100,
+    "type": "text_entry",
+    "prompt": "Let b = 3, c = 4, and d = 5. Determine the value of = + & Enter your fractional answer in the space provided. Enter only your fraction. ... 1 6 % 2 7 3 8 4 9 5 0",
+    "imageSrc": "/exams/exam4/items/math_q50.png",
+    "options": null,
+    "correctAnswer": "7/5",
+    "topic": "Proportional Reasoning & Percentages",
+    "subtopic": "Ratios, Rates & Scale Drawings",
+    "difficulty": "Hard",
+    "hints": [
+      "Identify the given information in the problem carefully and note the exact question being asked.",
+      "Eliminate clearly incorrect or extreme answers by checking edge cases and units.",
+      "Verify your final calculation against the problem context to ensure reasonableness."
+    ],
+    "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
+    "explanation": "Official NYC DOE Answer: 7/5. This answer directly satisfies the stated conditions and algebraic/textual relationships."
   }
 ];
 

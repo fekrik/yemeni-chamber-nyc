@@ -51,14 +51,38 @@ interface ExamSimulatorProps {
   targetSchoolId?: string;
 }
 
+function parseNumOrFraction(str: string): number | null {
+  const s = str.trim().replace(/[$%,\s]/g, "");
+  if (s.includes("/")) {
+    const [num, den] = s.split("/");
+    const n = parseFloat(num);
+    const d = parseFloat(den);
+    if (!isNaN(n) && !isNaN(d) && d !== 0) return n / d;
+  }
+  const val = parseFloat(s);
+  return isNaN(val) ? null : val;
+}
+
 function checkAnswerMatch(userAns?: string, correctAns?: string): boolean {
   if (!userAns || !correctAns) return false;
   const cleanUser = userAns.trim().toUpperCase().replace(/\s+/g, "");
   const cleanCorrect = correctAns.trim().toUpperCase().replace(/\s+/g, "");
   if (cleanUser === cleanCorrect) return true;
-  const numUser = parseFloat(cleanUser);
-  const numCorrect = parseFloat(cleanCorrect);
-  if (!isNaN(numUser) && !isNaN(numCorrect) && Math.abs(numUser - numCorrect) < 0.001) {
+
+  // Check alternatives split by ;, or, (, )
+  const parts = correctAns.split(/[;()]|\bor\b/i).map((p) => p.trim()).filter(Boolean);
+  for (const part of parts) {
+    const cleanPart = part.toUpperCase().replace(/\s+/g, "");
+    if (cleanUser === cleanPart) return true;
+    const nU = parseNumOrFraction(userAns);
+    const nP = parseNumOrFraction(part);
+    if (nU !== null && nP !== null && Math.abs(nU - nP) < 0.001) return true;
+  }
+
+  // Direct numerical / fractional comparison
+  const nUser = parseNumOrFraction(userAns);
+  const nCorr = parseNumOrFraction(correctAns);
+  if (nUser !== null && nCorr !== null && Math.abs(nUser - nCorr) < 0.001) {
     return true;
   }
   return false;
@@ -784,11 +808,9 @@ export default function ExamSimulator({
                     const isStruck = currentStruck.includes(opt.id);
                     const isSelected = currentAnswer === opt.id;
                     const isCorrectChoice = opt.id === currentQ.correctAnswer;
-                    const isEven = (currentQ.questionNumber % 2 === 0);
-                    const displayLetter = isEven
-                      ? (opt.id === "A" ? "E" : opt.id === "B" ? "F" : opt.id === "C" ? "G" : opt.id === "D" ? "H" : opt.id)
-                      : opt.id;
+                    const displayLetter = opt.id;
                     const isGeneric = !opt.text || 
+                      opt.text.startsWith("Option ") ||
                       opt.text.startsWith("Choice ") || 
                       opt.text.includes("cultural traditions") || 
                       opt.text.includes("Calculation result") || 
@@ -965,10 +987,7 @@ export default function ExamSimulator({
 
           {/* Solution & Trap Alert Drawer (Appears after Check Answer in Tutor Mode) */}
           {mode === "tutor" && isChecked && (() => {
-            const isEven = (currentQ.questionNumber % 2 === 0);
-            const correctDisplayLetter = isEven && currentQ.options && currentQ.options.length > 0
-              ? (currentQ.correctAnswer === "A" ? "E" : currentQ.correctAnswer === "B" ? "F" : currentQ.correctAnswer === "C" ? "G" : currentQ.correctAnswer === "D" ? "H" : currentQ.correctAnswer)
-              : currentQ.correctAnswer;
+            const correctDisplayLetter = currentQ.correctAnswer;
 
             return (
               <div
