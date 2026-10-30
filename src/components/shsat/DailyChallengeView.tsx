@@ -358,7 +358,8 @@ export default function DailyChallengeView() {
                   opt.text.includes("cultural traditions") ||
                   opt.text.includes("Calculation result") ||
                   opt.text.includes("foundational background") ||
-                  opt.text.includes("Solution option");
+                  opt.text.includes("Solution option") ||
+                  opt.text.length > 250;
                 const displayText = isGeneric ? `Choice ${displayLetter}` : opt.text;
 
                 let btnStyle =

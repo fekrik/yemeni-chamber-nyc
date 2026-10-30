@@ -483,7 +483,6 @@ export const QUESTIONS: Question[] = [
     "examId": "exam1",
     "section": "ela",
     "questionNumber": 1,
-    "passageId": "e1_p1",
     "type": "multiple_choice",
     "prompt": "Samuel Morse, an American inventor, is credited with creating the electronic telegraph, a communication device that allows users to send messages using a system of short and long pulses that represent letters, numbers, and punctuation. In 1844, the United States Congress passed the Telegraph Bill, which provided Morse with the funds to build an electric telegraph system. Invention of the Telegraph Earlier Signal Systems 1) Long before Samuel F. B. Morse electrically transmitted his famous message \"What hath God wrought?\" from Washington to Baltimore on May 24, 1844, there were signaling systems that enabled people to communicate over distances. Most were visual or \"semaphore\" systems using flags or lights. In the eighteenth century, such systems used an observer who would decipher a signal from a high tower on a distant The details of the section \"The Growth of an Idea\" convey a central idea of the passage by suggesting that",
     "imageSrc": "/exams/exam1/items/ela_q01.png",
@@ -515,14 +514,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e1_p1"
   },
   {
     "id": "e1_ela_02",
     "examId": "exam1",
     "section": "ela",
     "questionNumber": 2,
-    "passageId": "e1_p1",
     "type": "multiple_choice",
     "prompt": "the funding necessary to build his telegraph system?",
     "imageSrc": "/exams/exam1/items/ela_q02.png",
@@ -537,7 +536,7 @@ export const QUESTIONS: Question[] = [
       },
       {
         "id": "C",
-        "text": "Morse applied for a government appropriation and conducted telegraph demonstrations to show that his system could work, and after a delay caused by a financial depression, Congress approved the $30,000 appropriation in 1843."
+        "text": "Option C"
       },
       {
         "id": "D",
@@ -554,14 +553,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e1_p1"
   },
   {
     "id": "e1_ela_03",
     "examId": "exam1",
     "section": "ela",
     "questionNumber": 3,
-    "passageId": "e1_p1",
     "type": "multiple_choice",
     "prompt": "Samuel Morse, an American inventor, is credited with creating the electronic telegraph, a communication device that allows users to send messages using a system of short and long pulses that represent letters, numbers, and punctuation. In 1844, the United States Congress passed the Telegraph Bill, which provided Morse with the funds to build an electric telegraph system. Invention of the Telegraph Earlier Signal Systems 1) Long before Samuel F. B. Morse electrically transmitted his famous message \"What hath God wrought?\" from Washington to Baltimore on May 24, 1844, there were signaling systems that enabled people to communicate over distances. Most were visual or \"semaphore\" systems using flags or lights. In the eighteenth century, such systems used an observer who would decipher a signal from a high tower on a distant Read this sentence from paragraph 7. The desperate Morse gave the go-ahead, and the line was completed in time for the dramatic and spectacularly successful link between the Supreme Court chamber of the Capitol building and the railroad station in Baltimore. The words \"dramatic\" and \"spectacularly\" in the sentence convey a \u2022 A. sense of relief and fulfillment that the line was finished. O B. sense of wonder and celebration that the telegraph line was accomplished. \u2022 C. feeling of excitement about the future possibilities of the telegraph. \u2022 D. feeling of confidence about being able to continue the work.",
     "imageSrc": "/exams/exam1/items/ela_q03.png",
@@ -593,14 +592,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e1_p1"
   },
   {
     "id": "e1_ela_04",
     "examId": "exam1",
     "section": "ela",
     "questionNumber": 4,
-    "passageId": "e1_p1",
     "type": "multiple_choice",
     "prompt": "How does the graph support the ideas in paragraph 8?",
     "imageSrc": "/exams/exam1/items/ela_q04.png",
@@ -632,14 +631,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e1_p1"
   },
   {
     "id": "e1_ela_05",
     "examId": "exam1",
     "section": "ela",
     "questionNumber": 5,
-    "passageId": "e1_p1",
     "type": "multiple_choice",
     "prompt": "Samuel Morse, an American inventor, is credited with creating the electronic telegraph, a communication device that allows users to send messages using a system of short and long pulses that represent letters, numbers, and punctuation. In 1844, the United States Congress passed the Telegraph Bill, which provided Morse with the funds to build an electric telegraph system. Invention of the Telegraph Earlier Signal Systems 1) Long before Samuel F. B. Morse electrically transmitted his famous message \"What hath God wrought?\" from Washington to Baltimore on May 24, 1844, there were signaling systems that enabled people to communicate over distances. Most were visual or \"semaphore\" systems using flags or lights. In the eighteenth century, such systems used an observer who would decipher a signal from a high tower on a distant The idea that, in the mid-nineteenth century, the United States was mostly unaware of the possibilities of electricity is illustrated in the passage mainly through the",
     "imageSrc": "/exams/exam1/items/ela_q05.png",
@@ -671,14 +670,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e1_p1"
   },
   {
     "id": "e1_ela_06",
     "examId": "exam1",
     "section": "ela",
     "questionNumber": 6,
-    "passageId": "e1_p1",
     "type": "multiple_choice",
     "prompt": "With which statement would the author most likely agree?",
     "imageSrc": "/exams/exam1/items/ela_q06.png",
@@ -710,14 +709,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e1_p1"
   },
   {
     "id": "e1_ela_07",
     "examId": "exam1",
     "section": "ela",
     "questionNumber": 7,
-    "passageId": "e1_p2",
     "type": "multiple_choice",
     "prompt": "curtain of lacework and woven foam\"?",
     "imageSrc": "/exams/exam1/items/ela_q07.png",
@@ -749,14 +748,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e1_p2"
   },
   {
     "id": "e1_ela_08",
     "examId": "exam1",
     "section": "ela",
     "questionNumber": 8,
-    "passageId": "e1_p2",
     "type": "multiple_choice",
     "prompt": "Excerpt from \"Niagara Falls\" by Rupert Brooke The real secret of the beauty and terror of the Falls is not their height or width, but the feeling of colossal power and of unintelligible disaster caused by the plunge of that vast body of water. If that were taken away, there would be little visible change, but the heart would be gone. 2 The American Falls do not inspire this feeling in the same way as the Canadian. It is because they are less in volume, and because the water does not fall so much into one place. By comparison their beauty is almost delicate and fragile. They are extraordinarily level, one long curtain of lacework and woven foam. Seen from opposite, when the sun is on them, they are blindingly white, and the clouds of spray show dark against them. With both Falls the colour of the water is the ever- altering wonder. Greens and blues, purples and whites, Read this sentence from paragraph 3. These are the lower rapids, a sight more terrifying than the Falls, because less intelligible. Which statement best describes how the sentence fits into the overall structure of the excerpt? \u2022 A. It signals a change from the positive aspects of the Falls to the negative aspects. O B. It indicates a progression from the literal description of the water to a discussion of timeless truths. \u2022 C. It reinforces a shift from the qualities of the Falls to the qualities of the river. D. It introduces a contrast between the obvious and the hidden features of the rapids.",
     "imageSrc": "/exams/exam1/items/ela_q08.png",
@@ -788,14 +787,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e1_p2"
   },
   {
     "id": "e1_ela_09",
     "examId": "exam1",
     "section": "ela",
     "questionNumber": 9,
-    "passageId": "e1_p2",
     "type": "multiple_choice",
     "prompt": "the essence of the Falls lies in their emotional impact?",
     "imageSrc": "/exams/exam1/items/ela_q09.png",
@@ -810,7 +809,7 @@ export const QUESTIONS: Question[] = [
       },
       {
         "id": "C",
-        "text": "\"One is drawn back, strangely, to a contemplation of the Falls, at every hour, and especially by night, when the cloud of spray becomes an immense visible ghost, straining and wavering high above the river, white and pathetic and translucent.\" (paragraph 4)"
+        "text": "Option C"
       },
       {
         "id": "D",
@@ -827,14 +826,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e1_p2"
   },
   {
     "id": "e1_ela_10",
     "examId": "exam1",
     "section": "ela",
     "questionNumber": 10,
-    "passageId": "e1_p2",
     "type": "multiple_choice",
     "prompt": "Excerpt from \"Niagara Falls\" by Rupert Brooke The real secret of the beauty and terror of the Falls is not their height or width, but the feeling of colossal power and of unintelligible disaster caused by the plunge of that vast body of water. If that were taken away, there would be little visible change, but the heart would be gone. 2 The American Falls do not inspire this feeling in the same way as the Canadian. It is because they are less in volume, and because the water does not fall so much into one place. By comparison their beauty is almost delicate and fragile. They are extraordinarily level, one long curtain of lacework and woven foam. Seen from opposite, when the sun is on them, they are blindingly white, and the clouds of spray show dark against them. With both Falls the colour of the water is the ever- altering wonder. Greens and blues, purples and whites, Read this sentence from paragraph 4. There one can sit and let great cloudy thoughts of destiny and the passage of empires drift through the mind; for such dreams are at home by Niagara. The sentence most contributes to the development of ideas in the excerpt by",
     "imageSrc": "/exams/exam1/items/ela_q10.png",
@@ -866,14 +865,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e1_p2"
   },
   {
     "id": "e1_ela_11",
     "examId": "exam1",
     "section": "ela",
     "questionNumber": 11,
-    "passageId": "e1_p2",
     "type": "multiple_choice",
     "prompt": "In paragraph 4, the idea that human life and history ultimately end in the same way is illustrated mainly through",
     "imageSrc": "/exams/exam1/items/ela_q11.png",
@@ -905,14 +904,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e1_p2"
   },
   {
     "id": "e1_ela_12",
     "examId": "exam1",
     "section": "ela",
     "questionNumber": 12,
-    "passageId": "e1_p2",
     "type": "multiple_choice",
     "prompt": "Excerpt from \"Niagara Falls\" by Rupert Brooke The real secret of the beauty and terror of the Falls is not their height or width, but the feeling of colossal power and of unintelligible disaster caused by the plunge of that vast body of water. If that were taken away, there would be little visible change, but the heart would be gone. 2 The American Falls do not inspire this feeling in the same way as the Canadian. It is because they are less in volume, and because the water does not fall so much into one place. By comparison their beauty is almost delicate and fragile. They are extraordinarily level, one long curtain of lacework and woven foam. Seen from opposite, when the sun is on them, they are blindingly white, and the clouds of spray show dark against them. With both Falls the colour of the water is the ever- altering wonder. Greens and blues, purples and whites, With which statement would the author of this excerpt most likely agree? \u2022 A. A sense of ease and assurance comes with accepting one's fate. O B. No matter where one's path goes in life, one will always have regrets. \u2022 C. The best way to overcome fear is to recognize it and then defy it. \u2022 D. Reason will die out with humanity, but art will remain immortal.",
     "imageSrc": "/exams/exam1/items/ela_q12.png",
@@ -944,14 +943,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e1_p2"
   },
   {
     "id": "e1_ela_13",
     "examId": "exam1",
     "section": "ela",
     "questionNumber": 13,
-    "passageId": "e1_p3",
     "type": "multiple_choice",
     "prompt": "Zitkala-Sa (Gertrude Simmons Bonnin) was a Native American writer, musician, teacher, and political activist who was raised on the Yankton Sioux Reservation in South Dakota. In 1900 she published \"Impressions of an Indian Childhood\" (the term Indian was commonly used at the time to refer to Native American people) to expose readers to what life is like on a reservation. Excerpt from \"Impressions of an Indian Childhood\" by Zitkala-Sa 1) Soon after breakfast Mother sometimes began her beadwork. On a bright, clear day, she pulled out the wooden pegs that pinned the skirt of our wigwam to the ground, and rolled the canvas part way up on its frame of slender poles. Then the cool morning breezes swept freely through our dwelling, now and then wafting the perfume of sweet grasses from newly burnt prairie. 2 Untying the long tasseled strings that bound a small brown buckskin bag, my mother spread upon a mat In paragraph 1, the phrases \"cool morning breezes swept freely\" and \"wafting the perfume of sweet grasses\" affect the tone of the excerpt by suggesting \u2022 A. the sadness that the author feels reflecting upon her former way of life. O B. the enthusiasm with which the author approached her work indoors. \u2022 C. the fond feelings that the author has toward her childhood experiences. \u2022 D. the mix of emotions that the author feels toward her work and her mother.",
     "imageSrc": "/exams/exam1/items/ela_q13.png",
@@ -983,14 +982,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e1_p3"
   },
   {
     "id": "e1_ela_14",
     "examId": "exam1",
     "section": "ela",
     "questionNumber": 14,
-    "passageId": "e1_p3",
     "type": "multiple_choice",
     "prompt": "Zitkala-Sa (Gertrude Simmons Bonnin) was a Native American writer, musician, teacher, and political activist who was raised on the Yankton Sioux Reservation in South Dakota. In 1900 she published \"Impressions of an Indian Childhood\" (the term Indian was commonly used at the time to refer to Native American people) to expose readers to what life is like on a reservation. Excerpt from \"Impressions of an Indian Childhood\" by Zitkala-Sa 1) Soon after breakfast Mother sometimes began her beadwork. On a bright, clear day, she pulled out the wooden pegs that pinned the skirt of our wigwam to the ground, and rolled the canvas part way up on its frame of slender poles. Then the cool morning breezes swept freely through our dwelling, now and then wafting the perfume of sweet grasses from newly burnt prairie. 2 Untying the long tasseled strings that bound a small brown buckskin bag, my mother spread upon a mat The phrase \"just as an artist arranges the paints upon his palette\" in paragraph 2 suggests that",
     "imageSrc": "/exams/exam1/items/ela_q14.png",
@@ -1001,7 +1000,7 @@ export const QUESTIONS: Question[] = [
       },
       {
         "id": "B",
-        "text": "color is a source of artistic inspiration. \u2022"
+        "text": "color is a source of artistic inspiration."
       },
       {
         "id": "C",
@@ -1022,14 +1021,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e1_p3"
   },
   {
     "id": "e1_ela_15",
     "examId": "exam1",
     "section": "ela",
     "questionNumber": 15,
-    "passageId": "e1_p3",
     "type": "multiple_choice",
     "prompt": "Zitkala-Sa (Gertrude Simmons Bonnin) was a Native American writer, musician, teacher, and political activist who was raised on the Yankton Sioux Reservation in South Dakota. In 1900 she published \"Impressions of an Indian Childhood\" (the term Indian was commonly used at the time to refer to Native American people) to expose readers to what life is like on a reservation. Excerpt from \"Impressions of an Indian Childhood\" by Zitkala-Sa 1) Soon after breakfast Mother sometimes began her beadwork. On a bright, clear day, she pulled out the wooden pegs that pinned the skirt of our wigwam to the ground, and rolled the canvas part way up on its frame of slender poles. Then the cool morning breezes swept freely through our dwelling, now and then wafting the perfume of sweet grasses from newly burnt prairie. 2 Untying the long tasseled strings that bound a small brown buckskin bag, my mother spread upon a mat The author's use of sequence in paragraphs 1 and 2 contributes to the development of ideas in the excerpt by \u2022 A. listing the many steps that are involved in the process of beading in order to explain its difficulty and complexity. O B. conveying the importance of following the steps of the beading process in a precise order to work most efficiently. C. emphasizing the time required to fully prepare for and execute the many large and small tasks in the activity of beading. \u2022 D. detailing each step in preparation for beading in order to highlight the author's enthusiasm for the work.",
     "imageSrc": "/exams/exam1/items/ela_q15.png",
@@ -1061,33 +1060,33 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e1_p3"
   },
   {
     "id": "e1_ela_16",
     "examId": "exam1",
     "section": "ela",
     "questionNumber": 16,
-    "passageId": "e1_p3",
     "type": "multiple_choice",
     "prompt": "described in the excerpt?",
     "imageSrc": "/exams/exam1/items/ela_q16.png",
     "options": [
       {
         "id": "A",
-        "text": "Take a buckskin bag full of beads and spread them out on a mat in different colors like a paint palette; take a double sheet of buckskin and smooth it out on a table; take a sinew and awl and thread the beads onto the buckskin in a desired pattern."
+        "text": "Option A"
       },
       {
         "id": "B",
-        "text": "Cut the double sheet of buckskin into a shape; take a skein of sinew and pierce the buckskin with an awl; thread the sinew with beads of many different colors in a simple or complex pattern; twist the sinew to keep it tight after every stitch into the buckskin."
+        "text": "Option B"
       },
       {
         "id": "C",
-        "text": "Arrange the beads into groups of colors on a mat; smooth out a double sheet of buckskin and cut it to shape; take a single thread of sinew; pierce the buckskin with an awl; thread the buckskin with the sinew and string it with beads, carefully twisting after every stitch."
+        "text": "Option C"
       },
       {
         "id": "D",
-        "text": "Gather beads, buckskin, sinew, and awl and place them on a mat; cut the buckskin into the desired shape; decide on a pattern for the beads and create it using the sinews and the awl; thread the beads onto the sinew in the desired pattern and twist it tight."
+        "text": "Option D"
       }
     ],
     "correctAnswer": "C",
@@ -1100,14 +1099,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e1_p3"
   },
   {
     "id": "e1_ela_17",
     "examId": "exam1",
     "section": "ela",
     "questionNumber": 17,
-    "passageId": "e1_p3",
     "type": "multiple_choice",
     "prompt": "Zitkala-Sa (Gertrude Simmons Bonnin) was a Native American writer, musician, teacher, and political activist who was raised on the Yankton Sioux Reservation in South Dakota. In 1900 she published \"Impressions of an Indian Childhood\" (the term Indian was commonly used at the time to refer to Native American people) to expose readers to what life is like on a reservation. Excerpt from \"Impressions of an Indian Childhood\" by Zitkala-Sa 1) Soon after breakfast Mother sometimes began her beadwork. On a bright, clear day, she pulled out the wooden pegs that pinned the skirt of our wigwam to the ground, and rolled the canvas part way up on its frame of slender poles. Then the cool morning breezes swept freely through our dwelling, now and then wafting the perfume of sweet grasses from newly burnt prairie. 2 Untying the long tasseled strings that bound a small brown buckskin bag, my mother spread upon a mat The idea that mastering moccasin design and creation requires experience is best illustrated in the excerpt through",
     "imageSrc": "/exams/exam1/items/ela_q17.png",
@@ -1139,14 +1138,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e1_p3"
   },
   {
     "id": "e1_ela_18",
     "examId": "exam1",
     "section": "ela",
     "questionNumber": 18,
-    "passageId": "e1_p3",
     "type": "multiple_choice",
     "prompt": "her mother?",
     "imageSrc": "/exams/exam1/items/ela_q18.png",
@@ -1178,14 +1177,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e1_p3"
   },
   {
     "id": "e1_ela_19",
     "examId": "exam1",
     "section": "ela",
     "questionNumber": 19,
-    "passageId": "e1_p3",
     "type": "multiple_choice",
     "prompt": "overall structure of the excerpt?",
     "imageSrc": "/exams/exam1/items/ela_q19.png",
@@ -1217,14 +1216,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e1_p3"
   },
   {
     "id": "e1_ela_20",
     "examId": "exam1",
     "section": "ela",
     "questionNumber": 20,
-    "passageId": "e1_p4",
     "type": "multiple_choice",
     "prompt": "What idea from the second stanza do the lines help develop?",
     "imageSrc": "/exams/exam1/items/ela_q20.png",
@@ -1256,14 +1255,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e1_p4"
   },
   {
     "id": "e1_ela_21",
     "examId": "exam1",
     "section": "ela",
     "questionNumber": 21,
-    "passageId": "e1_p4",
     "type": "multiple_choice",
     "prompt": "What does the phrase \"talked most of all\" in line 13 convey?",
     "imageSrc": "/exams/exam1/items/ela_q21.png",
@@ -1295,14 +1294,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e1_p4"
   },
   {
     "id": "e1_ela_22",
     "examId": "exam1",
     "section": "ela",
     "questionNumber": 22,
-    "passageId": "e1_p4",
     "type": "multiple_choice",
     "prompt": "Bird Talk by Carl Sandburg And now when the branches were beginning to be hea It was the time when they once had said, \"This is the beginning of summer.\" The shrilling of the frogs was not so shrill as in the 5 first weeks after the broken winter; The birds took their hops and zigzags a little more anxious; a home is a home; worms are worms. The yellow spreads of the dandelions and buttercups reached across the green pastures. 10 Tee whee and tee whee came on the breezes, and the chuzzled their syllables. And it was the leaves with a strong soft wind over ther that talked most of all and said more than any othe though speaking the fewest words. 15 It was the green leaves trickling out the gaunt nowher of winter, out on the gray hungry branches\u2014 It was the leaves on the branches beginnina to he hea How does the repetition of \" 'This is the beginning of summer'\" in lines 2-3 and lines 18-19 contribute to the meaning of the poem? A. It suggests that the shift to summer occurs in the same way each year. O B. It emphasizes the idea that living things are prepared for the change of season. \u2022 C. It highlights the idea that the first signs of summer are surprising each year. \u2022 D. It builds expectations about what the natural world looks like during a change of season.",
     "imageSrc": "/exams/exam1/items/ela_q22.png",
@@ -1334,14 +1333,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e1_p4"
   },
   {
     "id": "e1_ela_23",
     "examId": "exam1",
     "section": "ela",
     "questionNumber": 23,
-    "passageId": "e1_p4",
     "type": "multiple_choice",
     "prompt": "winter's scarcity and bleakness?",
     "imageSrc": "/exams/exam1/items/ela_q23.png",
@@ -1373,14 +1372,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e1_p4"
   },
   {
     "id": "e1_ela_24",
     "examId": "exam1",
     "section": "ela",
     "questionNumber": 24,
-    "passageId": "e1_p4",
     "type": "multiple_choice",
     "prompt": "Bird Talk by Carl Sandburg And now when the branches were beginning to be hea It was the time when they once had said, \"This is the beginning of summer.\" The shrilling of the frogs was not so shrill as in the 5 first weeks after the broken winter; The birds took their hops and zigzags a little more anxious; a home is a home; worms are worms. The yellow spreads of the dandelions and buttercups reached across the green pastures. 10 Tee whee and tee whee came on the breezes, and the chuzzled their syllables. And it was the leaves with a strong soft wind over ther that talked most of all and said more than any othe though speaking the fewest words. 15 It was the green leaves trickling out the gaunt nowher of winter, out on the gray hungry branches\u2014 It was the leaves on the branches beginnina to he hea Throughout the poem, the poet conveys the speaker's point of view by",
     "imageSrc": "/exams/exam1/items/ela_q24.png",
@@ -1391,7 +1390,7 @@ export const QUESTIONS: Question[] = [
       },
       {
         "id": "B",
-        "text": "providing the speaker's motivation for describing the landscape in great detail. \u2022"
+        "text": "providing the speaker's motivation for describing the landscape in great detail."
       },
       {
         "id": "C",
@@ -1412,14 +1411,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e1_p4"
   },
   {
     "id": "e1_ela_25",
     "examId": "exam1",
     "section": "ela",
     "questionNumber": 25,
-    "passageId": "e1_p4",
     "type": "multiple_choice",
     "prompt": "Bird Talk by Carl Sandburg And now when the branches were beginning to be hea It was the time when they once had said, \"This is the beginning of summer.\" The shrilling of the frogs was not so shrill as in the 5 first weeks after the broken winter; The birds took their hops and zigzags a little more anxious; a home is a home; worms are worms. The yellow spreads of the dandelions and buttercups reached across the green pastures. 10 Tee whee and tee whee came on the breezes, and the chuzzled their syllables. And it was the leaves with a strong soft wind over ther that talked most of all and said more than any othe though speaking the fewest words. 15 It was the green leaves trickling out the gaunt nowher of winter, out on the gray hungry branches\u2014 It was the leaves on the branches beginnina to he hea Over the course of the poem, a central idea is developed mainly through the speaker's",
     "imageSrc": "/exams/exam1/items/ela_q25.png",
@@ -1451,14 +1450,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e1_p4"
   },
   {
     "id": "e1_ela_26",
     "examId": "exam1",
     "section": "ela",
     "questionNumber": 26,
-    "passageId": "e1_p5",
     "type": "multiple_choice",
     "prompt": "How does the poem's form contribute to the poem's meaning?",
     "imageSrc": "/exams/exam1/items/ela_q26.png",
@@ -1490,14 +1489,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e1_p5"
   },
   {
     "id": "e1_ela_27",
     "examId": "exam1",
     "section": "ela",
     "questionNumber": 27,
-    "passageId": "e1_p5",
     "type": "multiple_choice",
     "prompt": "men from the museum?",
     "imageSrc": "/exams/exam1/items/ela_q27.png",
@@ -1529,14 +1528,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e1_p5"
   },
   {
     "id": "e1_ela_28",
     "examId": "exam1",
     "section": "ela",
     "questionNumber": 28,
-    "passageId": "e1_p5",
     "type": "multiple_choice",
     "prompt": "The Great Serpent Mound, located in Adams County, Ohio, is a human-made mound of earth that researchers believe was created between 300 .c. and a.D. 1100 by an indigenous culture. Serpent Mound Ohio, 1846 Brush Creek stood low when the museum men came with their measuring tapes and sketchbooks. It was winter. Fringed with ice, the creek doubled back on itself 5 as if it had forgotten something. Pa was in Cincinnati, or else on his way home, so Ma told me to lead the men into the marshy low grounds. It being winter, there was little underbrush to speak of\u2014 10 in the summer there would have been briars, poison ivy, biting flies. I listened for the swish of a beaver's heavy tail, Lines 1-2 contribute to the development of ideas in the poem by \u2022 A. suggesting that the men are too busy with their work to talk to the speaker. O B. helping establish the reason for the men's visit and purposeful behavior. \u2022 C. hinting that the men have hidden motives for studying the mound. \u2022 D. indicating why the speaker is fascinated by the men and wants to help them.",
     "imageSrc": "/exams/exam1/items/ela_q28.png",
@@ -1568,14 +1567,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e1_p5"
   },
   {
     "id": "e1_ela_29",
     "examId": "exam1",
     "section": "ela",
     "questionNumber": 29,
-    "passageId": "e1_p5",
     "type": "multiple_choice",
     "prompt": "poem?",
     "imageSrc": "/exams/exam1/items/ela_q29.png",
@@ -1607,14 +1606,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e1_p5"
   },
   {
     "id": "e1_ela_30",
     "examId": "exam1",
     "section": "ela",
     "questionNumber": 30,
-    "passageId": "e1_p5",
     "type": "multiple_choice",
     "prompt": "obvious\" in lines 16-18 have on the meaning of the poem?",
     "imageSrc": "/exams/exam1/items/ela_q30.png",
@@ -1646,14 +1645,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e1_p5"
   },
   {
     "id": "e1_ela_31",
     "examId": "exam1",
     "section": "ela",
     "questionNumber": 31,
-    "passageId": "e1_p5",
     "type": "multiple_choice",
     "prompt": "lines 12-13 have in the poem?",
     "imageSrc": "/exams/exam1/items/ela_q31.png",
@@ -1685,14 +1684,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e1_p5"
   },
   {
     "id": "e1_ela_32",
     "examId": "exam1",
     "section": "ela",
     "questionNumber": 32,
-    "passageId": "e1_p5",
     "type": "multiple_choice",
     "prompt": "convey a central idea of the poem?",
     "imageSrc": "/exams/exam1/items/ela_q32.png",
@@ -1724,14 +1723,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e1_p5"
   },
   {
     "id": "e1_ela_33",
     "examId": "exam1",
     "section": "ela",
     "questionNumber": 33,
-    "passageId": "e1_p5",
     "type": "multiple_choice",
     "prompt": "The Great Serpent Mound, located in Adams County, Ohio, is a human-made mound of earth that researchers believe was created between 300 .c. and a.D. 1100 by an indigenous culture. Serpent Mound Ohio, 1846 Brush Creek stood low when the museum men came with their measuring tapes and sketchbooks. It was winter. Fringed with ice, the creek doubled back on itself 5 as if it had forgotten something. Pa was in Cincinnati, or else on his way home, so Ma told me to lead the men into the marshy low grounds. It being winter, there was little underbrush to speak of\u2014 10 in the summer there would have been briars, poison ivy, biting flies. I listened for the swish of a beaver's heavy tail, The poet contrasts the speaker's and Ruth's points of view regarding the mound by using dialogue to",
     "imageSrc": "/exams/exam1/items/ela_q33.png",
@@ -1763,29 +1762,29 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e1_p5"
   },
   {
     "id": "e1_ela_34",
     "examId": "exam1",
     "section": "ela",
     "questionNumber": 34,
-    "passageId": "e1_p6",
     "type": "multiple_choice",
     "prompt": "Plant Habitat-04?",
     "imageSrc": "/exams/exam1/items/ela_q34.png",
     "options": [
       {
         "id": "A",
-        "text": "After a 137-day growth cycle, the astronauts harvest the peppers while being observed and advised by plant scientists. The astronauts remove the peppers from the APH and photograph them before eating the most nutritious ones."
+        "text": "Option A"
       },
       {
         "id": "B",
-        "text": "The astronauts confer with plant scientists and engineers before selecting the 14 finest peppers to keep aboard the ISS for consumption. The remaining peppers are wrapped in foil and sent back to Kennedy Space Center to be studied."
+        "text": "Option B"
       },
       {
         "id": "C",
-        "text": "With the help of plant scientists, the astronauts carefully control and monitor the growing conditions in the APH, ultimately harvesting the peppers after a 137-day growth cycle. The astronauts choose 14 of the peppers for consumption and send the rest back to be studied."
+        "text": "Option C"
       },
       {
         "id": "D",
@@ -1802,14 +1801,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e1_p6"
   },
   {
     "id": "e1_ela_35",
     "examId": "exam1",
     "section": "ela",
     "questionNumber": 35,
-    "passageId": "e1_p6",
     "type": "multiple_choice",
     "prompt": "The author, Melanie Canales, is a first-generation Peruvian American farmer and beekeeper based in Virginia's Shenandoah Valley, on lands of the indigenous Monacan and Manahoac tribes. Her work focuses on creating healthy relationships between people and their surrounding ecosystems. Excerpt from \"Growing Peppers on the ISS Is Just the Start of Space Farming\" by Melanie Canales 1) Unburdened by the constraints of gravity, red and green peppers jut out at 45-degree angles inside the Advanced Plant Habitat (APH), a sort of space terrarium not much larger than a microwave. Four chile pepper plants stand effortlessly upright, despite the dozens of glossy fruits weighing them down. These plants have lived entirely in space; their leaves have never been chewed on by insects or rustled by a summer breeze, [and] their stems are unfamiliar with bending toward the Read this sentence from paragraph 5. Though astronauts can spend upwards of 100 days in space, their on-mission meals come dehydrated and pre-packaged; their vitamins and minerals are isolated in supplements, which lose nutritional value the longer they're stored. The sentence contributes to the overall meaning of the excerpt by",
     "imageSrc": "/exams/exam1/items/ela_q35.png",
@@ -1841,14 +1840,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e1_p6"
   },
   {
     "id": "e1_ela_36",
     "examId": "exam1",
     "section": "ela",
     "questionNumber": 36,
-    "passageId": "e1_p6",
     "type": "multiple_choice",
     "prompt": "relevant source of information for the excerpt?",
     "imageSrc": "/exams/exam1/items/ela_q36.png",
@@ -1880,14 +1879,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e1_p6"
   },
   {
     "id": "e1_ela_37",
     "examId": "exam1",
     "section": "ela",
     "questionNumber": 37,
-    "passageId": "e1_p6",
     "type": "multiple_choice",
     "prompt": "APH is a complex plant growth system?",
     "imageSrc": "/exams/exam1/items/ela_q37.png",
@@ -1919,14 +1918,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e1_p6"
   },
   {
     "id": "e1_ela_38",
     "examId": "exam1",
     "section": "ela",
     "questionNumber": 38,
-    "passageId": "e1_p6",
     "type": "multi_select",
     "prompt": "Which two sentences in paragraphs 5-9 best support the idea that the astronauts working in space enjoyed participating in the food-growing experiment? Select the two correct answers. 5) It's the day after Thanksgiving, and Spencer has been at Kennedy since 5 a.m. to facilitate the peppers' final harvest. As part of the project team, she played a crucial role in preparing the seeds that were sent hurtling into space in June and guiding the astronauts through maintaining the plants in orbit. ... Though astronauts can spend upwards of 100 days in space, their on-mission meals come dehydrated and pre-packaged; their vitamins and minerals are isolated in supplements, which lose nutritional value the longer they're stored. Spencer's goal is to create the conditions necessary for cultivating healthy plants in space, so those plants can sustain healthy astronauts on long-term missions. Astronaut food is great, she says-\"especially the shrimp cocktail. But you're missing that crunch. You're missing that fresh pop of flavor, the green flavor that's not there in that packaged food.\" 6) The sensory experience of growing productive crops can also help mitigate the psychological effects of long-term space travel. ... Spencer says the team cracked open the door of the APH every day to observe their vegetable companions with all the tenderness of home gardeners. When harvest day came, they batted their bounty around the ISS, taking selfies and delighting in watching the fruits pirouetting around the spacecraft.. .. 7 \"We were thinking no heat, so that [the peppers] wouldn't be dangerous, but maybe the astronauts need a little spice in their life,\" says Paul Bosland, who along with his colleagues at the Chile Pepper Institute genetically engineered the NuMex Espa\u00f1ola Improved chile pepper seeds grown in Plant Habitat-04. . .. 8 Working with NASA, Bosland cultivated a variety that could accommodate both the nutritional needs of astronauts as well as the logistics of growing a plant in space. ... 9 ... The experiment is helpina ather the data necessarv to determine the nutritional content of crops arown in",
     "imageSrc": "/exams/exam1/items/ela_q38.png",
@@ -1962,14 +1961,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: Choice 2 and Choice 3. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: Choice 2 and Choice 3. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e1_p6"
   },
   {
     "id": "e1_ela_39",
     "examId": "exam1",
     "section": "ela",
     "questionNumber": 39,
-    "passageId": "e1_p6",
     "type": "multiple_choice",
     "prompt": "The description in paragraph 5 of Lashelle Spencer's goal develops a central idea of the excerpt by",
     "imageSrc": "/exams/exam1/items/ela_q39.png",
@@ -2001,14 +2000,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e1_p6"
   },
   {
     "id": "e1_ela_40",
     "examId": "exam1",
     "section": "ela",
     "questionNumber": 40,
-    "passageId": "e1_p6",
     "type": "multi_select",
     "prompt": "The author, Melanie Canales, is a first-generation Peruvian American farmer and beekeeper based in Virginia's Shenandoah Valley, on lands of the indigenous Monacan and Manahoac tribes. Her work focuses on creating healthy relationships between people and their surrounding ecosystems. Excerpt from \"Growing Peppers on the ISS Is Just the Start of Space Farming\" by Melanie Canales 1) Unburdened by the constraints of gravity, red and green peppers jut out at 45-degree angles inside the Advanced Plant Habitat (APH), a sort of space terrarium not much larger than a microwave. Four chile pepper plants stand effortlessly upright, despite the dozens of glossy fruits weighing them down. These plants have lived entirely in space; their leaves have never been chewed on by insects or rustled by a summer breeze, landl their stems are unfamiliar with bending toward the What is the relationship between the scientists and the astronauts in carrying out the plant-growing experiments? Move the correct answer to each box. growing the plants to harvest documenting the nutritional goals analyzing the environment developing the materials and systems determining the most nutritional plants Scientists on earth are primarily responsible for for conducting plant experiments in space, while the astronauts aboard the International Space Station are responsible for for the experiment.",
     "imageSrc": "/exams/exam1/items/ela_q40.png",
@@ -2044,21 +2043,21 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: First box: \"developing the materials and systems\"; second box: \"growing the plants to harvest\". This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: First box: \"developing the materials and systems\"; second box: \"growing the plants to harvest\". This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e1_p6"
   },
   {
     "id": "e1_ela_41",
     "examId": "exam1",
     "section": "ela",
     "questionNumber": 41,
-    "passageId": "e1_p6",
     "type": "multiple_choice",
     "prompt": "to in paragraph 2?",
     "imageSrc": "/exams/exam1/items/ela_q41.png",
     "options": [
       {
         "id": "A",
-        "text": "The quotation indicates that larger batches of peppers need to be grown during future missions and suggests a slight criticism of the astronauts discussed in paragraph 2 for not dedicating more of their time to growing peppers during their mission."
+        "text": "Option A"
       },
       {
         "id": "B",
@@ -2083,14 +2082,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e1_p6"
   },
   {
     "id": "e1_ela_42",
     "examId": "exam1",
     "section": "ela",
     "questionNumber": 42,
-    "passageId": "e1_p6",
     "type": "multiple_choice",
     "prompt": "as a whole?",
     "imageSrc": "/exams/exam1/items/ela_q42.png",
@@ -2122,14 +2121,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e1_p6"
   },
   {
     "id": "e1_ela_43",
     "examId": "exam1",
     "section": "ela",
     "questionNumber": 43,
-    "passageId": "e1_p7",
     "type": "multiple_choice",
     "prompt": "With which statement would the author most likely agree?",
     "imageSrc": "/exams/exam1/items/ela_q43.png",
@@ -2161,14 +2160,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e1_p7"
   },
   {
     "id": "e1_ela_44",
     "examId": "exam1",
     "section": "ela",
     "questionNumber": 44,
-    "passageId": "e1_p7",
     "type": "multiple_choice",
     "prompt": "established in the passage?",
     "imageSrc": "/exams/exam1/items/ela_q44.png",
@@ -2200,14 +2199,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e1_p7"
   },
   {
     "id": "e1_ela_45",
     "examId": "exam1",
     "section": "ela",
     "questionNumber": 45,
-    "passageId": "e1_p7",
     "type": "multi_select",
     "prompt": "New York City and the Hudson Valley Brickmaking Industry (1) Residents of New York City cannot help but notice that the buildings they are surrounded by are predominantly made of brick. (2) Indeed, one author described the bricks that make up some of New York City's most recognizable landmarks, including the Empire State Building and the arches of the Brooklyn Bridge, as \"an inescapable presence.\" (3) Nearly 65 million people visit New York City every year to see these and other attractions. (4) Why was so much brick used in buildings constructed during the century before World War II? (5) The answer involves an explosion in New York City's population that caused an increase in demand for bricks starting in the mid-1800s and lasting into the 1940s that affected the area more than 100 miles up the Hudson River Valley toward Albany. (6) When demand later declined, the industry would entirely disappear. (7) New York Cit's annetite for brick was fueled bu Which two sentences present information irrelevant to the ideas in the passage and should be deleted? Move the two correct answers to the box. \"Nearly 65 million people visit New York City every year to see these and other attractions.\" (sentence 3) \"The city's population ballooned from about 313,000 people in 1840 to more than 7 million a century later.\" (sentence 8) \"Population growth in the Hudson River Valley after the mid-1800s was substantial, though percentage increases were smaller than those in New York City.\" (sentence 14) \"History has proven, however, that boom times eventually end.\" (sentence 18) \"Throughout the city, famous and ordinary buildings stand as evidence of the remarkable productivity achieved by the Valley's brickmakers.\" (sentence 23) Should Be Deleted",
     "imageSrc": "/exams/exam1/items/ela_q45.png",
@@ -2243,14 +2242,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: Sentence 3 and sentence 14. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: Sentence 3 and sentence 14. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e1_p7"
   },
   {
     "id": "e1_ela_46",
     "examId": "exam1",
     "section": "ela",
     "questionNumber": 46,
-    "passageId": "e1_p7",
     "type": "multiple_choice",
     "prompt": "to provide the best transition from the ideas in sentence 10?",
     "imageSrc": "/exams/exam1/items/ela_q46.png",
@@ -2282,14 +2281,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e1_p7"
   },
   {
     "id": "e1_ela_47",
     "examId": "exam1",
     "section": "ela",
     "questionNumber": 47,
-    "passageId": "e1_p7",
     "type": "multiple_choice",
     "prompt": "in the fourth paragraph (sentences 18-21)?",
     "imageSrc": "/exams/exam1/items/ela_q47.png",
@@ -2321,7 +2320,8 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e1_p7"
   },
   {
     "id": "e1_ela_48",
@@ -2557,12 +2557,12 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 54,
     "type": "multiple_choice",
-    "prompt": "Solve the mathematical problem shown in question 4.",
+    "prompt": "amount the person pays for the car?",
     "imageSrc": "/exams/exam1/items/math_q04.png",
     "options": [
       {
         "id": "A",
-        "text": "person buys a used car with a down payment of $1,200 and makes monthly payments of $275 for 3 years. What is the total amount the person pays for the car? \u2022 A. $2,025"
+        "text": "$2,025"
       },
       {
         "id": "B",
@@ -3548,12 +3548,12 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 83,
     "type": "multiple_choice",
-    "prompt": "Solve the mathematical problem shown in question 33.",
+    "prompt": "is the most likely number of red tiles in the bag?",
     "imageSrc": "/exams/exam1/items/math_q33.png",
     "options": [
       {
         "id": "A",
-        "text": "bag contains 40 tiles that are either red, green, or blue. A tile is selected at random, the color is recorded, and the tile is put back in the bag. This process is carried out 120 times, and 18 of those times a red tile is selected. Based on the information, what is the most likely number of red tiles in the bag? 0 A. 6"
+        "text": "6"
       },
       {
         "id": "B",
@@ -3683,12 +3683,12 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 87,
     "type": "multiple_choice",
-    "prompt": "The table shows the probability of randomly picking each flavor of candy from a bowl. PICKING CANDY FROM",
+    "prompt": "Which flavor is most likely to be randomly picked?",
     "imageSrc": "/exams/exam1/items/math_q37.png",
     "options": [
       {
         "id": "A",
-        "text": "BOWL Flavor Probability Butterscotch 0.57 Lemon 0.095 Maple 0.125 Strawberry 0.21 Which flavor is most likely to be randomly picked? \u2022 A. butterscotch"
+        "text": "butterscotch"
       },
       {
         "id": "B",
@@ -3704,8 +3704,8 @@ export const QUESTIONS: Question[] = [
       }
     ],
     "correctAnswer": "A",
-    "topic": "Probability & Statistics",
-    "subtopic": "Data Analysis, Frequency & Combinations",
+    "topic": "Algebra & Equations",
+    "subtopic": "Linear Equations & Algebraic Modeling",
     "difficulty": "Hard",
     "hints": [
       "Identify the given information in the problem carefully and note the exact question being asked.",
@@ -3759,12 +3759,12 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 89,
     "type": "multiple_choice",
-    "prompt": "Solve the mathematical problem shown in question 39.",
+    "prompt": "including the boxes in the random sample?",
     "imageSrc": "/exams/exam1/items/math_q39.png",
     "options": [
       {
         "id": "A",
-        "text": "shipment contains 170 small boxes of medical supplies. In a random sample of 20 of these boxes, 8 have damage and the others are undamaged. Based on this sample, what is the best prediction of the number of undamaged boxes in the shipment, not including the boxes in the random sample? \u2022 A. 60"
+        "text": "60"
       },
       {
         "id": "B",
@@ -3898,12 +3898,12 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 93,
     "type": "multiple_choice",
-    "prompt": "Solve the mathematical problem shown in question 43.",
+    "prompt": "A softball player bought bottles of water for her team to have at practice. The total number of bottles she bought, b, is proportional to n, the number of players at practice. Which equation represents the relationship between b and n? The constant of proportionality is p.",
     "imageSrc": "/exams/exam1/items/math_q43.png",
     "options": [
       {
         "id": "A",
-        "text": "softball player bought bottles of water for her team to have at practice. The total number of bottles she bought, b, is proportional to n, the number of players at practice. Which equation represents the relationship between b and n? The constant of proportionality is p. \u2022 A. 6 = pn"
+        "text": "6 = pn"
       },
       {
         "id": "B",
@@ -3919,8 +3919,8 @@ export const QUESTIONS: Question[] = [
       }
     ],
     "correctAnswer": "A",
-    "topic": "Algebra & Equations",
-    "subtopic": "Linear Equations & Algebraic Modeling",
+    "topic": "Proportional Reasoning & Percentages",
+    "subtopic": "Ratios, Rates & Scale Drawings",
     "difficulty": "Hard",
     "hints": [
       "Identify the given information in the problem carefully and note the exact question being asked.",
@@ -3995,12 +3995,12 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 96,
     "type": "multiple_choice",
-    "prompt": "Solve the mathematical problem shown in question 46.",
+    "prompt": "inches of rain fell yesterday?",
     "imageSrc": "/exams/exam1/items/math_q46.png",
     "options": [
       {
         "id": "A",
-        "text": "rain gauge shows that 10 centimeters of rain fell yesterday. If 1 inch is equal to approximately 2.5 centimeters, about how many inches of rain fell yesterday? \u2022 A. 1."
+        "text": "1."
       },
       {
         "id": "B",
@@ -4071,24 +4071,24 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 98,
     "type": "multiple_choice",
-    "prompt": "Which table shows a proportional relationship?",
+    "prompt": "Which table shows a proportional relationship? \u2022 \u0410.. x 0 4 8 0 3 B. 0 1 4 8 6 C. 0 4 8 -1 0 D. \u0423 0 0 4 12 8 16",
     "imageSrc": "/exams/exam1/items/math_q48.png",
     "options": [
       {
         "id": "A",
-        "text": "x 0 4 8 0 3"
+        "text": "Option A"
       },
       {
         "id": "B",
-        "text": "0 1 4 8 6"
+        "text": "Option B"
       },
       {
         "id": "C",
-        "text": "0 4 8 -1 0"
+        "text": "Option C"
       },
       {
         "id": "D",
-        "text": "\u0423 0 0 4 12 8 16"
+        "text": "Option D"
       }
     ],
     "correctAnswer": "A",
@@ -4167,7 +4167,6 @@ export const QUESTIONS: Question[] = [
     "examId": "exam2",
     "section": "ela",
     "questionNumber": 1,
-    "passageId": "e2_p1",
     "type": "multiple_choice",
     "prompt": "The description in the first stanza (lines 1-7) helps establish a central idea of the poem by",
     "imageSrc": "/exams/exam2/items/ela_q01.png",
@@ -4199,14 +4198,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e2_p1"
   },
   {
     "id": "e2_ela_02",
     "examId": "exam2",
     "section": "ela",
     "questionNumber": 2,
-    "passageId": "e2_p1",
     "type": "multiple_choice",
     "prompt": "fail to appreciate what is familiar?",
     "imageSrc": "/exams/exam2/items/ela_q02.png",
@@ -4238,14 +4237,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e2_p1"
   },
   {
     "id": "e2_ela_03",
     "examId": "exam2",
     "section": "ela",
     "questionNumber": 3,
-    "passageId": "e2_p1",
     "type": "multiple_choice",
     "prompt": "poem?",
     "imageSrc": "/exams/exam2/items/ela_q03.png",
@@ -4277,14 +4276,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e2_p1"
   },
   {
     "id": "e2_ela_04",
     "examId": "exam2",
     "section": "ela",
     "questionNumber": 4,
-    "passageId": "e2_p1",
     "type": "multi_select",
     "prompt": "the second stanza (lines 8-14)? Select the two correct answers.",
     "imageSrc": "/exams/exam2/items/ela_q04.png",
@@ -4320,14 +4319,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: C and E. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: C and E. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e2_p1"
   },
   {
     "id": "e2_ela_05",
     "examId": "exam2",
     "section": "ela",
     "questionNumber": 5,
-    "passageId": "e2_p1",
     "type": "multiple_choice",
     "prompt": "How do the lines help convey the speaker's point of view?",
     "imageSrc": "/exams/exam2/items/ela_q05.png",
@@ -4359,14 +4358,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e2_p1"
   },
   {
     "id": "e2_ela_06",
     "examId": "exam2",
     "section": "ela",
     "questionNumber": 6,
-    "passageId": "e2_p1",
     "type": "multiple_choice",
     "prompt": "Snowy Mountains by John Gould Fletcher Higher and still more high, Palaces made for cloud, Above the dingy city-roofs Blue-white like angels with broad wings, 5 Pillars of the sky at rest The mountains from the great plateau Uprise. But the world heeds them not; They have been here now for too long a time. 10 The world makes war on them, Tunnels their granite cliffs, Splits down their shining sides, Plasters their cliffs with soap-advertisements, Destroys the lonely fragments of their peace. Read lines 23-26 from the poem. The mountains swing along The south horizon of the sky; Welcoming with wide floors of blue-green ice The mists that dance and drive before the sun. The personification in these concluding lines of the poem suggests that the mountains are",
     "imageSrc": "/exams/exam2/items/ela_q06.png",
@@ -4398,14 +4397,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e2_p1"
   },
   {
     "id": "e2_ela_07",
     "examId": "exam2",
     "section": "ela",
     "questionNumber": 7,
-    "passageId": "e2_p2",
     "type": "text_entry",
     "prompt": "Snowy Mountains by John Gould Fletcher Higher and still more high, Palaces made for cloud, Above the dingy city-roofs Blue-white like angels with broad wings, 5 Pillars of the sky at rest The mountains from the great plateau Uprise. But the world heeds them not; They have been here now for too long a time. 10 The world makes war on them, Tunnels their granite cliffs, Splits down their shining sides, Plasters their cliffs with soap-advertisements, Destroys the lonely fragments of their peace. 15 Vaster and still more vast, Peak after peak, pile after pile, Wilderness still untamed, To which the future is as was the nast Which quotations from the poem support the theme that nature's unspoiled beauty is splendid, and which quotations support the theme that human creations detract from natural wonder? Move each answer to the correct box. \"Above the dingy city-roofs / Blue-white like angels with broad wings,\" (lines 3-4) \"Pillars of the sky at rest / The mountains from the great plateau / Uprise.\" (lines 5-7) \"Tunnels their granite cliffs, / Splits down their shining sides,\" (lines 11-12) \"Wilderness still untamed, / To which the future is as was the past,\" (lines 17-18) \"The south horizon of the sky; / Welcoming with wide floors of blue-green ice\" (lines 24-25) Nature's Unspoiled Beauty is Splendid Human Creations Detract from Natural Wonder",
     "imageSrc": "/exams/exam2/items/ela_q07.png",
@@ -4420,14 +4419,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: Quote 1 (lines 3-4): Human Creations Detract from Natural Wonder; Quote 2 (lines 5-7): Nature's Unspoiled Beauty Is Splendid; Quote 3. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: Quote 1 (lines 3-4): Human Creations Detract from Natural Wonder; Quote 2 (lines 5-7): Nature's Unspoiled Beauty Is Splendid; Quote 3. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e2_p2"
   },
   {
     "id": "e2_ela_08",
     "examId": "exam2",
     "section": "ela",
     "questionNumber": 8,
-    "passageId": "e2_p2",
     "type": "multiple_choice",
     "prompt": "Which sentence from paragraph 4 provides support for this argument?",
     "imageSrc": "/exams/exam2/items/ela_q08.png",
@@ -4459,14 +4458,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e2_p2"
   },
   {
     "id": "e2_ela_09",
     "examId": "exam2",
     "section": "ela",
     "questionNumber": 9,
-    "passageId": "e2_p2",
     "type": "multiple_choice",
     "prompt": "passage?",
     "imageSrc": "/exams/exam2/items/ela_q09.png",
@@ -4498,14 +4497,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e2_p2"
   },
   {
     "id": "e2_ela_10",
     "examId": "exam2",
     "section": "ela",
     "questionNumber": 10,
-    "passageId": "e2_p2",
     "type": "multiple_choice",
     "prompt": "capable of planning?",
     "imageSrc": "/exams/exam2/items/ela_q10.png",
@@ -4537,14 +4536,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e2_p2"
   },
   {
     "id": "e2_ela_11",
     "examId": "exam2",
     "section": "ela",
     "questionNumber": 11,
-    "passageId": "e2_p2",
     "type": "multiple_choice",
     "prompt": "contribute to the development of ideas?",
     "imageSrc": "/exams/exam2/items/ela_q11.png",
@@ -4576,14 +4575,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e2_p2"
   },
   {
     "id": "e2_ela_12",
     "examId": "exam2",
     "section": "ela",
     "questionNumber": 12,
-    "passageId": "e2_p2",
     "type": "multiple_choice",
     "prompt": "The author conveys a point of view on the study of animal intelligence mainly by",
     "imageSrc": "/exams/exam2/items/ela_q12.png",
@@ -4615,14 +4614,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e2_p2"
   },
   {
     "id": "e2_ela_13",
     "examId": "exam2",
     "section": "ela",
     "questionNumber": 13,
-    "passageId": "e2_p3",
     "type": "multiple_choice",
     "prompt": "With which statement would the author of the passage most likely agree?",
     "imageSrc": "/exams/exam2/items/ela_q13.png",
@@ -4654,14 +4653,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e2_p3"
   },
   {
     "id": "e2_ela_14",
     "examId": "exam2",
     "section": "ela",
     "questionNumber": 14,
-    "passageId": "e2_p3",
     "type": "multiple_choice",
     "prompt": "tell her\" affect the tone in the first part of the excerpt?",
     "imageSrc": "/exams/exam2/items/ela_q14.png",
@@ -4693,14 +4692,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e2_p3"
   },
   {
     "id": "e2_ela_15",
     "examId": "exam2",
     "section": "ela",
     "questionNumber": 15,
-    "passageId": "e2_p3",
     "type": "multiple_choice",
     "prompt": "unaccustomed to traveling to new places by train?",
     "imageSrc": "/exams/exam2/items/ela_q15.png",
@@ -4732,14 +4731,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e2_p3"
   },
   {
     "id": "e2_ela_16",
     "examId": "exam2",
     "section": "ela",
     "questionNumber": 16,
-    "passageId": "e2_p3",
     "type": "multiple_choice",
     "prompt": "Excerpt from A Voice in the Wilderness by Grace Livingston Hill 1 With a lurch the train came to a dead stop and Margaret Earle, hastily gathering up her belongings, hurried down the aisle and got out into the night. 2 It occurred to her, as she swung her heavy suit-case down the rather long step to the ground, and then carefully swung herself after it, that it was strange that neither conductor, brakeman, nor porter had come to help her off the train, when all three had taken the trouble to tell her that hers was the next station; but she could hear voices up ahead. Perhaps something was the matter with the engine that detained them and they had forgotten her for the moment. 3 The ground was rough where she stood, and there seemed no sign of a platform. Did they not have platforms in this wild Western land, or was the train so long that her car had stopped before reaching it? 4 She strained her eyes into the darkness, and tried to make out c- 11 - 1... Read this sentence from paragraph 4. She strained her eyes into the darkness, and tried to make out things from the two or three specks of light that danced about like fireflies in the distance. The simile used in the sentence affects the tone of the paragraph by emphasizing a O A. feeling of comfort as Margaret connects her unfamiliar surroundings with familiar images. B. sense of lonesomeness as Margaret realizes that she is on her own in the wilderness. \u2022 C. sense of tranquility as Margaret is distracted from the urgency of her situation by the beauty of the night. \u2022 D. feeling of dread as Margaret regards the desolation of the land that surrounds her.",
     "imageSrc": "/exams/exam2/items/ela_q16.png",
@@ -4771,14 +4770,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e2_p3"
   },
   {
     "id": "e2_ela_17",
     "examId": "exam2",
     "section": "ela",
     "questionNumber": 17,
-    "passageId": "e2_p3",
     "type": "multiple_choice",
     "prompt": "porter affect the plot?",
     "imageSrc": "/exams/exam2/items/ela_q17.png",
@@ -4810,14 +4809,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e2_p3"
   },
   {
     "id": "e2_ela_18",
     "examId": "exam2",
     "section": "ela",
     "questionNumber": 18,
-    "passageId": "e2_p3",
     "type": "multiple_choice",
     "prompt": "Excerpt from A Voice in the Wilderness by Grace Livingston Hill 1 With a lurch the train came to a dead stop and Margaret Earle, hastily gathering up her belongings, hurried down the aisle and got out into the night. 2 It occurred to her, as she swung her heavy suit-case down the rather long step to the ground, and then carefully swung herself after it, that it was strange that neither conductor, brakeman, nor porter had come to help her off the train, when all three had taken the trouble to tell her that hers was the next station; but she could hear voices up ahead. Perhaps something was the matter with the engine that detained them and they had forgotten her for the moment. 3 The ground was rough where she stood, and there seemed no sign of a platform. Did they not have platforms in this wild Western land, or was the train so long that her car had stopped before reaching it? 4 She strained her eyes into the darkness, and tried to make out How does Margaret's experience in paragraph 9 emphasize a theme of the excerpt? \u2022 A. It confirms Margaret's understanding that she cannot rely on help from anyone else. \u2022 B. It leads Margaret to realize that her desire to change her situation is impractical. O C. It causes Margaret to believe that her own actions led to an unfavorable outcome. \u2022 D. It reinforces Margaret's frustration about her lack of control over her surroundings.",
     "imageSrc": "/exams/exam2/items/ela_q18.png",
@@ -4849,14 +4848,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e2_p3"
   },
   {
     "id": "e2_ela_19",
     "examId": "exam2",
     "section": "ela",
     "questionNumber": 19,
-    "passageId": "e2_p3",
     "type": "multiple_choice",
     "prompt": "How does paragraph 11 contribute to the plot of the excerpt?",
     "imageSrc": "/exams/exam2/items/ela_q19.png",
@@ -4888,14 +4887,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e2_p3"
   },
   {
     "id": "e2_ela_20",
     "examId": "exam2",
     "section": "ela",
     "questionNumber": 20,
-    "passageId": "e2_p4",
     "type": "multiple_choice",
     "prompt": "challenges Ederle faced in attempting her feat?",
     "imageSrc": "/exams/exam2/items/ela_q20.png",
@@ -4927,14 +4926,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e2_p4"
   },
   {
     "id": "e2_ela_21",
     "examId": "exam2",
     "section": "ela",
     "questionNumber": 21,
-    "passageId": "e2_p4",
     "type": "multiple_choice",
     "prompt": "Champion of the Channel 1 In 1926 an editor at the London Daily News predicted that Gertrude Ederle, an American swimmer with eighteen world records and three Olympic medals, would fail in her attempt to swim across the English Channel. He claimed that \"even the most uncompromising champion of the rights and capacities of women must admit that in contests of physical skill, speed and endurance they must remain forever the weaker sex.\" Yet, at only nineteen years old, Ederle not only became the first woman to accomplish this feat, she also broke the men's record by two hours. Gertrude Ederle's triumphant swim across the English Channel was a testimony to her determination, innovative spirit, and passion for swimming. 2 Crossing the English Channel is a daunting task for any swimmer. At its narrowest point, the channel measures twenty-one miles across. Its icy waters hover around sixty degrees Fahrenheit, and its unruly tides and currents toss swimmers about like bobbing corks. Stinging jellyfish, seaweed, and floating debris from shipwrecks and lost cargoes present added hazards. Read this sentence from paragraph 4. During her first channel-crossing attempt she had worn a standard one-piece swimsuit that, after the lengthy hours of swimming across the channel, had stretched out, filling with water and creating drag, making an already challenging task almost insurmountable. The word \"insurmountable\" is used to highlight",
     "imageSrc": "/exams/exam2/items/ela_q21.png",
@@ -4966,14 +4965,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e2_p4"
   },
   {
     "id": "e2_ela_22",
     "examId": "exam2",
     "section": "ela",
     "questionNumber": 22,
-    "passageId": "e2_p4",
     "type": "multiple_choice",
     "prompt": "passage?",
     "imageSrc": "/exams/exam2/items/ela_q22.png",
@@ -5005,14 +5004,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e2_p4"
   },
   {
     "id": "e2_ela_23",
     "examId": "exam2",
     "section": "ela",
     "questionNumber": 23,
-    "passageId": "e2_p4",
     "type": "multiple_choice",
     "prompt": "across the channel because of her innovative approach to the challenge?",
     "imageSrc": "/exams/exam2/items/ela_q23.png",
@@ -5044,14 +5043,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e2_p4"
   },
   {
     "id": "e2_ela_24",
     "examId": "exam2",
     "section": "ela",
     "questionNumber": 24,
-    "passageId": "e2_p4",
     "type": "multiple_choice",
     "prompt": "Champion of the Channel 1 In 1926 an editor at the London Daily News predicted that Gertrude Ederle, an American swimmer with eighteen world records and three Olympic medals, would fail in her attempt to swim across the English Channel. He claimed that \"even the most uncompromising champion of the rights and capacities of women must admit that in contests of physical skill, speed and endurance they must remain forever the weaker sex.\" Yet, at only nineteen years old, Ederle not only became the first woman to accomplish this feat, she also broke the men's record by two hours. Gertrude Ederle's triumphant swim across the English Channel was a testimony to her determination, innovative spirit, and passion for swimming. 2 Crossing the English Channel is a daunting task for any swimmer. At its narrowest point, the channel measures twenty-one miles across. Its icy waters hover around sixty degrees Fahrenheit, and its unruly tides and currents toss swimmers about like bobbing corks. Stinging jellyfish, seaweed, and floating debris from shipwrecks and lost cargoes present added hazards. Paragraph 7 contributes to the development of a central idea of the passage by",
     "imageSrc": "/exams/exam2/items/ela_q24.png",
@@ -5083,14 +5082,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e2_p4"
   },
   {
     "id": "e2_ela_25",
     "examId": "exam2",
     "section": "ela",
     "questionNumber": 25,
-    "passageId": "e2_p4",
     "type": "multiple_choice",
     "prompt": "regarding the impact of Ederle's accomplishment?",
     "imageSrc": "/exams/exam2/items/ela_q25.png",
@@ -5122,21 +5121,21 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e2_p4"
   },
   {
     "id": "e2_ela_26",
     "examId": "exam2",
     "section": "ela",
     "questionNumber": 26,
-    "passageId": "e2_p4",
     "type": "multiple_choice",
     "prompt": "for her second attempt to swim across the English Channel?",
     "imageSrc": "/exams/exam2/items/ela_q26.png",
     "options": [
       {
         "id": "A",
-        "text": "Working with her sister, Ederle waterproofed her goggles using melted candle wax to seal the edges and designed a two-piece silk swimsuit that was lightweight and would not stretch out during the long swim. \u2022"
+        "text": "Working with her sister, Ederle waterproofed her goggles using melted candle wax to seal the edges and designed a two-piece silk swimsuit that was lightweight and would not stretch out during the long swim."
       },
       {
         "id": "B",
@@ -5161,14 +5160,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e2_p4"
   },
   {
     "id": "e2_ela_27",
     "examId": "exam2",
     "section": "ela",
     "questionNumber": 27,
-    "passageId": "e2_p4",
     "type": "multiple_choice",
     "prompt": "Champion of the Channel 1 In 1926 an editor at the London Daily News predicted that Gertrude Ederle, an American swimmer with eighteen world records and three Olympic medals, would fail in her attempt to swim across the English Channel. He claimed that \"even the most uncompromising champion of the rights and capacities of women must admit that in contests of physical skill, speed and endurance they must remain forever the weaker sex.\" Yet, at only nineteen years old, Ederle not only became the first woman to accomplish this feat, she also broke the men's record by two hours. Gertrude Ederle's triumphant swim across the English Channel was a testimony to her determination, innovative spirit, and passion for swimming. 2 Crossing the English Channel is a daunting task for any swimmer. At its narrowest point, the channel measures twenty-one miles across. Its icy waters hover around sixty degrees Fahrenheit, and its unruly tides and currents toss swimmers about like bobbing corks. Stinging jellyfish, seaweed, and floating debris from shipwrecks and lost cargoes present added hazards. The idea that many people were interested in Ederle's attempt to swim the channel is illustrated in the passage mainly through the",
     "imageSrc": "/exams/exam2/items/ela_q27.png",
@@ -5200,14 +5199,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e2_p4"
   },
   {
     "id": "e2_ela_28",
     "examId": "exam2",
     "section": "ela",
     "questionNumber": 28,
-    "passageId": "e2_p5",
     "type": "multiple_choice",
     "prompt": "Champion of the Channel 1 In 1926 an editor at the London Daily News predicted that Gertrude Ederle, an American swimmer with eighteen world records and three Olympic medals, would fail in her attempt to swim across the English Channel. He claimed that \"even the most uncompromising champion of the rights and capacities of women must admit that in contests of physical skill, speed and endurance they must remain forever the weaker sex.\" Yet, at only nineteen years old, Ederle not only became the first woman to accomplish this feat, she also broke the men's record by two hours. Gertrude Ederle's triumphant swim across the English Channel was a testimony to her determination, innovative spirit, and passion for swimming. 2 Crossing the English Channel is a daunting task for any swimmer. At its narrowest point, the channel measures twenty-one miles across. Its icy waters hover around sixty degrees Fahrenheit, and its unruly tides and currents toss swimmers about like bobbing corks. Stinging jellyfish, seaweed, and floating debris from shipwrecks and lost cargoes present added hazards. The table builds on the information in the passage mainly by",
     "imageSrc": "/exams/exam2/items/ela_q28.png",
@@ -5239,21 +5238,21 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e2_p5"
   },
   {
     "id": "e2_ela_29",
     "examId": "exam2",
     "section": "ela",
     "questionNumber": 29,
-    "passageId": "e2_p5",
     "type": "multiple_choice",
-    "prompt": "In this excerpt, published in 1914, author and professor Dallas Lore Sharp describes a summer cattle roundup in Oregon. The heat and dust had been relentless for three days. The cowboys were exhausted, and the cattle were restless. The ranch boss, Wade, had led the drive to a watering place, only to find it empty. Excerpt from \"The Spirit of the Herd\" by Dallas Lore Sharp 1 Along with the wagon had come the fresh horses\u2014one of them being Peroxide Jim, a supple, powerful, clean-limbed buckskin, a horse, I think, that had as fine and intelligent an animal-face as any creature I ever saw. Wade had been saving this horse for emergency work. And why should he not have been saved fresh for just such a need as this? Are there not superior horses as well as superior men\u2014a Peroxide Jim to complement",
+    "prompt": "Peroxide Jim for \"emergency work\" (paragraph 1)?",
     "imageSrc": "/exams/exam2/items/ela_q29.png",
     "options": [
       {
         "id": "A",
-        "text": "Wade? 2 The horse knew the cattle business and knew his rider perfectly; and though there was nothing like sentiment about the boss of the P Ranch riders his faith in Pernxide lim was comnlete Which sentence from the excerpt best explains why Wade reserved Peroxide Jim for \"emergency work\" (paragraph 1)? A. \"Are there not superior horses as well as superior men\u2014a Peroxide Jim to complement a Wade?\" (paragraph 1)"
+        "text": "\"Are there not superior horses as well as superior men\u2014a Peroxide Jim to complement a Wade?\" (paragraph 1)"
       },
       {
         "id": "B",
@@ -5261,11 +5260,11 @@ export const QUESTIONS: Question[] = [
       },
       {
         "id": "C",
-        "text": "\"He knew that he was being borne toward the rim, how fast he could not tell, but he knew by the swish of the brush against his tapaderos and the plunging of the horse that the ground was growing stonier, that they were nearing the rocks.\" (paragraph 11)"
+        "text": "Option C"
       },
       {
         "id": "D",
-        "text": "\"From the flash of the lightning the horse had taken the bit, had covered an indescribably perilous path at top speed, had outrun the herd and turned it from the edge of the rim rock, without a false step or a tremor of fear.\" (paragraph 16)"
+        "text": "Option D"
       }
     ],
     "correctAnswer": "D",
@@ -5278,21 +5277,21 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e2_p5"
   },
   {
     "id": "e2_ela_30",
     "examId": "exam2",
     "section": "ela",
     "questionNumber": 30,
-    "passageId": "e2_p5",
     "type": "multiple_choice",
-    "prompt": "In this excerpt, published in 1914, author and professor Dallas Lore Sharp describes a summer cattle roundup in Oregon. The heat and dust had been relentless for three days. The cowboys were exhausted, and the cattle were restless. The ranch boss, Wade, had led the drive to a watering place, only to find it empty. Excerpt from \"The Spirit of the Herd\" by Dallas Lore Sharp Along with the wagon had come the fresh horses-one of them being Peroxide Jim, a supple, powerful, clean-limbed buckskin, a horse, I think, that had as fine and intelligent an animal-face as any creature I ever saw. Wade had been saving this horse for emergency work. And why should he not have been saved fresh for just such a need as this? Are there not superior horses as well as superior men\u2014a Peroxide Jim to complement",
+    "prompt": "a Wade? 2 The horse knew the cattle business and knew his rider perfectly; and though there was nothing like sentiment about the boss of the P Ranch riders his faith in Pernxide lim was camnlete Paragraphs 1-2 contribute to the development of the central idea of the excerpt by",
     "imageSrc": "/exams/exam2/items/ela_q30.png",
     "options": [
       {
         "id": "A",
-        "text": "Wade? 2 The horse knew the cattle business and knew his rider perfectly; and though there was nothing like sentiment about the boss of the P Ranch riders his faith in Pernxide lim was camnlete Paragraphs 1-2 contribute to the development of the central idea of the excerpt by A. revealing the respect Wade had for his horse."
+        "text": "revealing the respect Wade had for his horse."
       },
       {
         "id": "B",
@@ -5317,21 +5316,21 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e2_p5"
   },
   {
     "id": "e2_ela_31",
     "examId": "exam2",
     "section": "ela",
     "questionNumber": 31,
-    "passageId": "e2_p5",
     "type": "multiple_choice",
-    "prompt": "In this excerpt, published in 1914, author and professor Dallas Lore Sharp describes a summer cattle roundup in Oregon. The heat and dust had been relentless for three days. The cowboys were exhausted, and the cattle were restless. The ranch boss, Wade, had led the drive to a watering place, only to find it empty. Excerpt from \"The Spirit of the Herd\" by Dallas Lore Sharp 1 Along with the wagon had come the fresh horses-one of them being Peroxide Jim, a supple, powerful, clean-limbed buckskin, a horse, I think, that had as fine and intelligent an animal-face as any creature I ever saw. Wade had been saving this horse for emergency work. And why should he not have been saved fresh for just such a need as this? Are there not superior horses as well as superior men\u2014a Peroxide Jim to complement",
+    "prompt": "How does paragraph 3 convey the effect of the setting on the cattle drive?",
     "imageSrc": "/exams/exam2/items/ela_q31.png",
     "options": [
       {
         "id": "A",
-        "text": "Wade? 2 The horse knew the cattle business and knew his rider perfectly; and though there was nothing like sentiment about the boss of the P Ranch riders his faith in Pernxide lim was camnlete How does paragraph 3 convey the effect of the setting on the cattle drive? \u2022 A. It shows how the growing darkness created challenges for the riders in getting the herd to move."
+        "text": "It shows how the growing darkness created challenges for the riders in getting the herd to move."
       },
       {
         "id": "B",
@@ -5356,21 +5355,21 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e2_p5"
   },
   {
     "id": "e2_ela_32",
     "examId": "exam2",
     "section": "ela",
     "questionNumber": 32,
-    "passageId": "e2_p5",
     "type": "multiple_choice",
-    "prompt": "In this excerpt, published in 1914, author and professor Dallas Lore Sharp describes a summer cattle roundup in Oregon. The heat and dust had been relentless for three days. The cowboys were exhausted, and the cattle were restless. The ranch boss, Wade, had led the drive to a watering place, only to find it empty. Excerpt from \"The Spirit of the Herd\" by Dallas Lore Sharp 1 Along with the wagon had come the fresh horses\u2014one of them being Peroxide Jim, a supple, powerful, clean-limbed buckskin, a horse, I think, that had as fine and intelligent an animal-face as any creature I ever saw. Wade had been saving this horse for emergency work. And why should he not have been saved fresh for just such a need as this? Are there not superior horses as well as superior men\u2014a Peroxide Jim to complement",
+    "prompt": "a Wade? 2 The horse knew the cattle business and knew his rider perfectly; and though there was nothing like sentiment about the boss of the P Ranch riders his faith in Pernxide lim was camnlete Read this sentence from paragraph 13. Close on their left bore down the flank of the herd, and on their right, under their very feet, was a precipice, so close that they felt its blackness\u2014its three hundred feet of fall! The phrase \"bore down the flank of the herd\" conveys that Wade \u2022",
     "imageSrc": "/exams/exam2/items/ela_q32.png",
     "options": [
       {
         "id": "A",
-        "text": "Wade? 2 The horse knew the cattle business and knew his rider perfectly; and though there was nothing like sentiment about the boss of the P Ranch riders his faith in Pernxide lim was camnlete Read this sentence from paragraph 13. Close on their left bore down the flank of the herd, and on their right, under their very feet, was a precipice, so close that they felt its blackness\u2014its three hundred feet of fall! The phrase \"bore down the flank of the herd\" conveys that Wade \u2022 A. struggled to see the front of the herd."
+        "text": "struggled to see the front of the herd."
       },
       {
         "id": "B",
@@ -5395,21 +5394,21 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e2_p5"
   },
   {
     "id": "e2_ela_33",
     "examId": "exam2",
     "section": "ela",
     "questionNumber": 33,
-    "passageId": "e2_p5",
     "type": "multiple_choice",
-    "prompt": "In this excerpt, published in 1914, author and professor Dallas Lore Sharp describes a summer cattle roundup in Oregon. The heat and dust had been relentless for three days. The cowboys were exhausted, and the cattle were restless. The ranch boss, Wade, had led the drive to a watering place, only to find it empty. Excerpt from \"The Spirit of the Herd\" by Dallas Lore Sharp 1 Along with the wagon had come the fresh horses-one of them being Peroxide Jim, a supple, powerful, clean-limbed buckskin, a horse, I think, that had as fine and intelligent an animal-face as any creature I ever saw. Wade had been saving this horse for emergency work. And why should he not have been saved fresh for just such a need as this? Are there not superior horses as well as superior men\u2014a Peroxide Jim to complement",
+    "prompt": "How do these sentences develop a central idea in the excerpt?",
     "imageSrc": "/exams/exam2/items/ela_q33.png",
     "options": [
       {
         "id": "A",
-        "text": "Wade? 2 The horse knew the cattle business and knew his rider perfectly; and though there was nothing like sentiment about the boss of the P Ranch riders his faith in Pernxide lim was comnlete Read these sentences from the excerpt. He was riding to turn the herd, too, back from the rim, as the horse also knew. (paragraph 11) It was Peroxide Jim's, according to Wade, for not by word or by touch of hand or knee had the horse been directed in the run. (paragraph 16) How do these sentences develop a central idea in the excerpt? \u2022 A. They suggest that Wade would have been unable to save the herd without Peroxide Jim."
+        "text": "They suggest that Wade would have been unable to save the herd without Peroxide Jim."
       },
       {
         "id": "B",
@@ -5434,21 +5433,21 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e2_p5"
   },
   {
     "id": "e2_ela_34",
     "examId": "exam2",
     "section": "ela",
     "questionNumber": 34,
-    "passageId": "e2_p5",
     "type": "multiple_choice",
-    "prompt": "In this excerpt, published in 1914, author and professor Dallas Lore Sharp describes a summer cattle roundup in Oregon. The heat and dust had been relentless for three days. The cowboys were exhausted, and the cattle were restless. The ranch boss, Wade, had led the drive to a watering place, only to find it empty. Excerpt from \"The Spirit of the Herd\" by Dallas Lore Sharp Along with the wagon had come the fresh horses-one of them being Peroxide Jim, a supple, powerful, clean-limbed buckskin, a horse, I think, that had as fine and intelligent an animal-face as any creature I ever saw. Wade had been saving this horse for emergency work. And why should he not have been saved fresh for just such a need as this? Are there not superior horses as well as superior men\u2014a Peroxide Jim to complement",
+    "prompt": "excerpt?",
     "imageSrc": "/exams/exam2/items/ela_q34.png",
     "options": [
       {
         "id": "A",
-        "text": "Wade? 2 The horse knew the cattle business and knew his rider perfectly; and though there was nothing like sentiment about the boss of the P Ranch riders his faith in Pernxide lim was camnlete How do the details in paragraphs 14-16 help convey a central idea of the excerpt? A. They highlight Peroxide Jim's natural ability to control the herd."
+        "text": "They highlight Peroxide Jim's natural ability to control the herd."
       },
       {
         "id": "B",
@@ -5473,21 +5472,21 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e2_p5"
   },
   {
     "id": "e2_ela_35",
     "examId": "exam2",
     "section": "ela",
     "questionNumber": 35,
-    "passageId": "e2_p6",
     "type": "multiple_choice",
-    "prompt": "In this excerpt, published in 1914, author and professor Dallas Lore Sharp describes a summer cattle roundup in Oregon. The heat and dust had been relentless for three days. The cowboys were exhausted, and the cattle were restless. The ranch boss, Wade, had led the drive to a watering place, only to find it empty. Excerpt from \"The Spirit of the Herd\" by Dallas Lore Sharp Along with the wagon had come the fresh horses-one of them being Peroxide Jim, a supple, powerful, clean-limbed buckskin, a horse, I think, that had as fine and intelligent an animal-face as any creature I ever saw. Wade had been saving this horse for emergency work. And why should he not have been saved fresh for just such a need as this? Are there not superior horses as well as superior men\u2014a Peroxide Jim to complement",
+    "prompt": "before the lightning struck?",
     "imageSrc": "/exams/exam2/items/ela_q35.png",
     "options": [
       {
         "id": "A",
-        "text": "Wade? 2 The horse knew the cattle business and knew his rider perfectly; and though there was nothing like sentiment about the boss of the P Ranch riders his faith in Pernxide lim was comnlete Which sentence from the excerpt best reveals the mood on the drive before the lightning struck? \u2022 A. \"The herd when overtaken by the dusk had been headed for a pass descending to the next lower bench, but was now halted within a mile of the rim rock on the east, where there was a perpendicular fall of about three hundred feet.\" (paragraph 3)"
+        "text": "Option A"
       },
       {
         "id": "B",
@@ -5512,14 +5511,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e2_p6"
   },
   {
     "id": "e2_ela_36",
     "examId": "exam2",
     "section": "ela",
     "questionNumber": 36,
-    "passageId": "e2_p6",
     "type": "multiple_choice",
     "prompt": "The author most likely includes the quotation from the Scottish traveler in order to",
     "imageSrc": "/exams/exam2/items/ela_q36.png",
@@ -5551,21 +5550,21 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e2_p6"
   },
   {
     "id": "e2_ela_37",
     "examId": "exam2",
     "section": "ela",
     "questionNumber": 37,
-    "passageId": "e2_p6",
     "type": "multiple_choice",
-    "prompt": "Massachusetts: Lowell National Historical Park 1 During the first half of the 19th century, Lowell, Massachusetts, quickly transformed itself from a farm town to a bustling industrial city. Ir time, Lowell became a model of industry, gaining global recognition for it| state-of-the-art technology, innovative canal and dam system, mill architecture, boardinghouses, churches, and ethnic neighborhoods. Young Yankee women, immigrant families, and European tourists all flocked to Lowell to find work at one of the many textile mills, or visit the industrious city that was becoming a popular tourist destination. As one Scottish traveler observed during his visit to America, \"Niagara and Lowell are the two objects I will longest remember in my American journey, the one the glory of American scenery, the other of American industry.\" Today, Lowell National Historical Park welcomes visitors to enjoy the sights of Lowell and learn about the history of one of America's most significant industrial cities. 2) The Boston merchants who founded Lowell in 1821 and named it after Francis Cabot Lowell chose to locate the town along Massachusetts's MAnnimade Divanta talea advantana aftha linatio annume affaund hurthe",
+    "prompt": "Massachusetts: Lowell National Historical Park 1 During the first half of the 19th century, Lowell, Massachusetts, quickly transformed itself from a farm town to a bustling industrial city. Ir time, Lowell became a model of industry, gaining global recognition for it| state-of-the-art technology, innovative canal and dam system, mill architecture, boardinghouses, churches, and ethnic neighborhoods. Young Yankee women, immigrant families, and European tourists all flocked to Lowell to find work at one of the many textile mills, or visit the industrious city that was becoming a popular tourist destination. As one Scottish traveler observed during his visit to America, \"Niagara and Lowell are the two objects I will longest remember in my American journey, the one the glory of American scenery, the other of American industry.\" Today, Lowell National Historical Park welcomes visitors to enjoy the sights of Lowell and learn about the history of one of America's most significant industrial cities. 2) The Boston merchants who founded Lowell in 1821 and named it after Francis Cabot Lowell chose to locate the town along Massachusetts's MAnnimade Divanta talea advantana aftha linatio annume affaund hurthe A central idea that Lowell was \"one of America's most significant industrial cities\" (paragraph 1) is conveyed in the passage primarily through a description of the",
     "imageSrc": "/exams/exam2/items/ela_q37.png",
     "options": [
       {
         "id": "A",
-        "text": "central idea that Lowell was \"one of America's most significant industrial cities\" (paragraph 1) is conveyed in the passage primarily through a description of the A. canals, mills, and boardinghouses that were built by immigrants."
+        "text": "canals, mills, and boardinghouses that were built by immigrants."
       },
       {
         "id": "B",
@@ -5590,21 +5589,21 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e2_p6"
   },
   {
     "id": "e2_ela_38",
     "examId": "exam2",
     "section": "ela",
     "questionNumber": 38,
-    "passageId": "e2_p6",
     "type": "multiple_choice",
     "prompt": "became \"a bustling industrial city\" (paragraph 1) in a short period of time?",
     "imageSrc": "/exams/exam2/items/ela_q38.png",
     "options": [
       {
         "id": "A",
-        "text": "\"The Boston merchants who founded Lowell in 1821 and named it after Francis Cabot Lowell chose to locate the town along Massachusetts's Merrimack River to take advantage of the kinetic energy offered by the Pawtucket waterfalls.\""
+        "text": "Option A"
       },
       {
         "id": "B",
@@ -5612,7 +5611,7 @@ export const QUESTIONS: Question[] = [
       },
       {
         "id": "C",
-        "text": "\"The most recognized of these buildings are the Lowell Manufacturing Company chartered in 1821, the Suffolk or Wannalancit Mill completed around the 1880s, the Boott Mill Company established in 1835, and the Boott Mill Boardinghouse that opened in 1838.\""
+        "text": "Option C"
       },
       {
         "id": "D",
@@ -5629,14 +5628,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e2_p6"
   },
   {
     "id": "e2_ela_39",
     "examId": "exam2",
     "section": "ela",
     "questionNumber": 39,
-    "passageId": "e2_p6",
     "type": "multiple_choice",
     "prompt": "structure of the passage?",
     "imageSrc": "/exams/exam2/items/ela_q39.png",
@@ -5668,14 +5667,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e2_p6"
   },
   {
     "id": "e2_ela_40",
     "examId": "exam2",
     "section": "ela",
     "questionNumber": 40,
-    "passageId": "e2_p6",
     "type": "multiple_choice",
     "prompt": "passage?",
     "imageSrc": "/exams/exam2/items/ela_q40.png",
@@ -5707,14 +5706,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e2_p6"
   },
   {
     "id": "e2_ela_41",
     "examId": "exam2",
     "section": "ela",
     "questionNumber": 41,
-    "passageId": "e2_p6",
     "type": "multiple_choice",
     "prompt": "dominant workforce in Lowell?",
     "imageSrc": "/exams/exam2/items/ela_q41.png",
@@ -5746,14 +5745,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e2_p6"
   },
   {
     "id": "e2_ela_42",
     "examId": "exam2",
     "section": "ela",
     "questionNumber": 42,
-    "passageId": "e2_p6",
     "type": "multiple_choice",
     "prompt": "Massachusetts: Lowell National Historical Park \u2022 During the first half of the 19th century, Lowell, Massachusetts, quickly transformed itself from a farm town to a bustling industrial city. Ir time, Lowell became a model of industry, gaining global recognition for it| state-of-the-art technology, innovative canal and dam system, mill architecture, boardinghouses, churches, and ethnic neighborhoods. Young Yankee women, immigrant families, and European tourists all flocked to Lowell to find work at one of the many textile mills, or visit the industrious city that was becoming a popular tourist destination. As one scottish traveler observed during his visit to America, \"Niagara and Lowell are the two objects I will longest remember in my American journey, the one the glory of American scenery, the other of American industry.\" Today, Lowell National Historical Park welcomes visitors to enjoy the sights of Lowell and learn about the history of one of America's most significant industrial cities. 2) The Boston merchants who founded Lowell in 1821 and named it after Francis Cabot Lowell chose to locate the town along Massachusetts's MAnnimade Divanta talea advantana aftha linatio annume affaund hurthe The reason Lowell lost its status as an industrial leader is best illustrated through the",
     "imageSrc": "/exams/exam2/items/ela_q42.png",
@@ -5785,14 +5784,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e2_p6"
   },
   {
     "id": "e2_ela_43",
     "examId": "exam2",
     "section": "ela",
     "questionNumber": 43,
-    "passageId": "e2_p7",
     "type": "multiple_choice",
     "prompt": "the passage?",
     "imageSrc": "/exams/exam2/items/ela_q43.png",
@@ -5824,14 +5823,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e2_p7"
   },
   {
     "id": "e2_ela_44",
     "examId": "exam2",
     "section": "ela",
     "questionNumber": 44,
-    "passageId": "e2_p7",
     "type": "multi_select",
     "prompt": "The Benefits of Indoor Plants (1) In an age of endless media content, it is easy to see why people might prefer to stay inside. (2) According to a study sponsored by the Environmental Protection Agency, Americans spend an average of 87 percent of their time indoors. (3) Scientists say that this separation between people and nature puts people at risk for physical and psychological issues. (4) During the process of photosynthesis, plants convert carbon dioxide into oxygen and remove many harmful toxins from the air. (5) Spending prolonged periods of time indoors, away from plants, deprives people of these benefits. (6) Air that is not regularly detoxified can lead to a condition known as sick building syndrome. (7) This disorder first came to light in the 1970s when many office workers in the United States began to complain of unexplained flu-like symptoms. (8) Researchers determined the cause to be volatile organic compounds, or VOCs. (9) VOCs are harmful chemicals that are emitted by everyday objects such as carpet, furniture, cleaning products, and computers. (10) The NASA Clan linGhid farind a rimala canuta ramares a rinnificant nimhor of Which transition word or phrase should be added to the beginning of sentence 5 to emphasize the relationship between sentences 4 and 5? Move the correct answer to the box. As a result, Primarily, In contrast, Unfortunately, (5) spending prolonged periods of time indoors, away from plants, deprives people of these benefits.",
     "imageSrc": "/exams/exam2/items/ela_q44.png",
@@ -5867,21 +5866,21 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: \"Unfortunately,\". This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: \"Unfortunately,\". This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e2_p7"
   },
   {
     "id": "e2_ela_45",
     "examId": "exam2",
     "section": "ela",
     "questionNumber": 45,
-    "passageId": "e2_p7",
     "type": "multiple_choice",
     "prompt": "third paragraph (sentences 11-14)?",
     "imageSrc": "/exams/exam2/items/ela_q45.png",
     "options": [
       {
         "id": "A",
-        "text": "A global study of 7,600 workers from sixteen countries revealed that employees who worked in spaces with natural elements, such as indoor plants, were more creative and productive than employees who worked in spaces without natural elements."
+        "text": "Option A"
       },
       {
         "id": "B",
@@ -5889,7 +5888,7 @@ export const QUESTIONS: Question[] = [
       },
       {
         "id": "C",
-        "text": "In fact, one recent study suggested that people who are routinely exposed to natural elements seem to increase their compassion for others, perhaps because that exposure generates compassion for the environment in which they live."
+        "text": "Option C"
       },
       {
         "id": "D",
@@ -5906,14 +5905,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e2_p7"
   },
   {
     "id": "e2_ela_46",
     "examId": "exam2",
     "section": "ela",
     "questionNumber": 46,
-    "passageId": "e2_p7",
     "type": "multiple_choice",
     "prompt": "should be deleted?",
     "imageSrc": "/exams/exam2/items/ela_q46.png",
@@ -5945,14 +5944,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e2_p7"
   },
   {
     "id": "e2_ela_47",
     "examId": "exam2",
     "section": "ela",
     "questionNumber": 47,
-    "passageId": "e2_p7",
     "type": "multiple_choice",
     "prompt": "the information presented in the passage?",
     "imageSrc": "/exams/exam2/items/ela_q47.png",
@@ -5984,7 +5983,8 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e2_p7"
   },
   {
     "id": "e2_ela_48",
@@ -6127,12 +6127,12 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 52,
     "type": "multiple_choice",
-    "prompt": "Solve the mathematical problem shown in question 2.",
+    "prompt": "would give the car's speed in feet per second? 55-5,280",
     "imageSrc": "/exams/exam2/items/math_q02.png",
     "options": [
       {
         "id": "A",
-        "text": "car is traveling 55 miles per hour, and 1 mile = 5,280 feet. Which of the following calculations would give the car's speed in feet per second? 55-5,280 \u2022 A."
+        "text": ""
       },
       {
         "id": "B",
@@ -6140,11 +6140,11 @@ export const QUESTIONS: Question[] = [
       },
       {
         "id": "C",
-        "text": "55-3.600 5,280"
+        "text": "55-3.600 5,280 D. 55-5,280 60"
       },
       {
         "id": "D",
-        "text": "55-5,280 60"
+        "text": "Option D"
       }
     ],
     "correctAnswer": "B",
@@ -6519,12 +6519,12 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 65,
     "type": "multiple_choice",
-    "prompt": "Solve the mathematical problem shown in question 15.",
+    "prompt": "the box is =. How many of the pencils in the box are not red?",
     "imageSrc": "/exams/exam2/items/math_q15.png",
     "options": [
       {
         "id": "A",
-        "text": "box of colored pencils contains exactly 6 red pencils. The probability of choosing a red pencil from the box is =. How many of the pencils in the box are not red? \u2022 A. 5"
+        "text": "5"
       },
       {
         "id": "B",
@@ -6692,12 +6692,12 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 70,
     "type": "multiple_choice",
-    "prompt": "1 sind = 4 lorgs 2 plunks = 5 dalts 5 sinds = 2 harps 1 plunk = 3 harps",
+    "prompt": "coins is shown above. Which coin is most valuable?",
     "imageSrc": "/exams/exam2/items/math_q20.png",
     "options": [
       {
         "id": "A",
-        "text": "nation has five types of coins: sinds, dalts, lorgs, harps, and plunks. The relationship between the coins is shown above. Which coin is most valuable? \u2022 A. sind"
+        "text": "sind"
       },
       {
         "id": "B",
@@ -7410,7 +7410,7 @@ export const QUESTIONS: Question[] = [
     "options": [
       {
         "id": "A",
-        "text": "25 \u2022"
+        "text": "25"
       },
       {
         "id": "B",
@@ -7788,14 +7788,13 @@ export const QUESTIONS: Question[] = [
     "examId": "exam3",
     "section": "ela",
     "questionNumber": 1,
-    "passageId": "e3_p1",
     "type": "multiple_choice",
-    "prompt": "Read the passage excerpt and answer question 1 based on the text.",
+    "prompt": "how this reliance is modifying the strategies people use to store and prioritize information in their mind. A Dependable and Valuable Asset 2 Psychologist Benjamin Storm from the University of California, Santa Cruz, and researchers Sean Stone and Aaron Benjamin devised an experiment to study The details in paragraph 3 about cognitive offloading convey a central idea of the passage by",
     "imageSrc": "/exams/exam3/items/ela_q01.png",
     "options": [
       {
         "id": "A",
-        "text": "Memory Revolution (1) A high school senior logs on to a computer at the library to double-check the application due date listed on a college admissions website. Nearby, a librarian helps a group of biology students use a database to search for recent studies about mammals. In the past few decades, the Internet has become an integral component of daily life for many people. The seemingly limitless power of search engines made the Internet search extremely common, and today people increasingly rely on the Internet's vast accumulation of sources to access all types of information. Scientists are beginning to examine how this reliance is modifying the strategies people use to store and prioritize information in their mind. A Dependable and Valuable Asset 2 Psychologist Benjamin Storm from the University of California, Santa Cruz, and researchers Sean Stone and Aaron Benjamin devised an experiment to study The details in paragraph 3 about cognitive offloading convey a central idea of the passage by \u2022 A. suggesting that reliance on the Internet for information is inevitable."
+        "text": "suggesting that reliance on the Internet for information is inevitable."
       },
       {
         "id": "B",
@@ -7820,21 +7819,21 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e3_p1"
   },
   {
     "id": "e3_ela_02",
     "examId": "exam3",
     "section": "ela",
     "questionNumber": 2,
-    "passageId": "e3_p1",
     "type": "multiple_choice",
-    "prompt": "Read the passage excerpt and answer question 2 based on the text.",
+    "prompt": "paragraph 5 convey a central idea of the passage?",
     "imageSrc": "/exams/exam3/items/ela_q02.png",
     "options": [
       {
         "id": "A",
-        "text": "Memory Revolution (1) A high school senior logs on to a computer at the library to double-check the application due date listed on a college admissions website. Nearby, a librarian helps a group of biology students use a database to search for recent studies about mammals. In the past few decades, the Internet has become an integral component of daily life for many people. The seemingly limitless power of search engines made the Internet search extremely common, and today people increasingly rely on the Internet's vast accumulation of sources to access all types of information. Scientists are beginning to examine how this reliance is modifying the strategies people use to store and prioritize information in their mind. A Dependable and Valuable Asset 2 Psychologist Benjamin Storm from the University of California, Santa Cruz, and researchers Sean Stone and Aaron Benjamin devised an experiment to study How do the details about the experiment described in paragraph 5 convey a central idea of the passage? \u2022 A. They suggest that the act of repeating information by typing it on a keyboard may improve a person's memory."
+        "text": "They suggest that the act of repeating information by typing it on a keyboard may improve a person's memory."
       },
       {
         "id": "B",
@@ -7859,21 +7858,21 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e3_p1"
   },
   {
     "id": "e3_ela_03",
     "examId": "exam3",
     "section": "ela",
     "questionNumber": 3,
-    "passageId": "e3_p1",
     "type": "multiple_choice",
-    "prompt": "Read the passage excerpt and answer question 3 based on the text.",
+    "prompt": "development of ideas in the passage?",
     "imageSrc": "/exams/exam3/items/ela_q03.png",
     "options": [
       {
         "id": "A",
-        "text": "Memory Revolution (1) A high school senior logs on to a computer at the library to double-check the application due date listed on a college admissions website. Nearby, a librarian helps a group of biology students use a database to search for recent studies about mammals. In the past few decades, the Internet has become an integral component of daily life for many people. The seemingly limitless power of search engines made the Internet search extremely common, and today people increasingly rely on the Internet's vast accumulation of sources to access all types of information. Scientists are beginning to examine how this reliance is modifying the strategies people use to store and prioritize information in their mind. A Dependable and Valuable Asset 2 Psychologist Benjamin Storm from the University of California, Santa Cruz, and researchers Sean Stone and Aaron Benjamin devised an experiment to study \u2022... Read this sentence from paragraph 7. As the Internet's resources continue to expand our \"external\" memory, some question whether the process may cause people to depend too heavily on technology. How does the sentence contribute to the structure and development of ideas in the passage? \u2022 A. It presents a claim about the risks of relying on the Internet that prompted the research described in paragraphs 2 and 6. \u2022 ."
+        "text": "It presents a claim about the risks of relying on the Internet that prompted the research described in paragraphs 2 and 6. \u2022 ."
       },
       {
         "id": "B",
@@ -7898,21 +7897,21 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e3_p1"
   },
   {
     "id": "e3_ela_04",
     "examId": "exam3",
     "section": "ela",
     "questionNumber": 4,
-    "passageId": "e3_p1",
     "type": "multiple_choice",
-    "prompt": "Read the passage excerpt and answer question 4 based on the text.",
+    "prompt": "how this reliance is modifying the strategies people use to store and prioritize information in their mind. A Dependable and Valuable Asset 2 Psychologist Benjamin Storm from the University of California, Santa Cruz, and researchers Sean Stone and Aaron Benjamin devised an experiment to study The study described in paragraph 6 influenced researchers' ideas about memory in the digital age by",
     "imageSrc": "/exams/exam3/items/ela_q04.png",
     "options": [
       {
         "id": "A",
-        "text": "Memory Revolution (1) A high school senior logs on to a computer at the library to double-check the application due date listed on a college admissions website. Nearby, a librarian helps a group of biology students use a database to search for recent studies about mammals. In the past few decades, the Internet has become an integral component of daily life for many people. The seemingly limitless power of search engines made the Internet search extremely common, and today people increasingly rely on the Internet's vast accumulation of sources to access all types of information. Scientists are beginning to examine how this reliance is modifying the strategies people use to store and prioritize information in their mind. A Dependable and Valuable Asset 2 Psychologist Benjamin Storm from the University of California, Santa Cruz, and researchers Sean Stone and Aaron Benjamin devised an experiment to study The study described in paragraph 6 influenced researchers' ideas about memory in the digital age by \u2022 A. highlighting instances when organizing detailed information made it easier to remember."
+        "text": "highlighting instances when organizing detailed information made it easier to remember."
       },
       {
         "id": "B",
@@ -7920,7 +7919,7 @@ export const QUESTIONS: Question[] = [
       },
       {
         "id": "C",
-        "text": "identifying a shift in focus from remembering specific information to knowing where to find it. \u2022"
+        "text": "identifying a shift in focus from remembering specific information to knowing where to find it."
       },
       {
         "id": "D",
@@ -7937,14 +7936,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e3_p1"
   },
   {
     "id": "e3_ela_05",
     "examId": "exam3",
     "section": "ela",
     "questionNumber": 5,
-    "passageId": "e3_p1",
     "type": "multiple_choice",
     "prompt": "A Memory Revolution (1) A high school senior logs on to a computer at the library to double-check the application due date listed on a college admissions website. Nearby, a librarian helps a group of biology students use a database to search for recent studies about mammals. In the past few decades, the Internet has become an integral component of daily life for many people. The seemingly limitless power of search engines made the Internet search extremely common, and today people increasingly rely on the Internet's vast accumulation of sources to access all types of information. Scientists are beginning to examine how this reliance is modifying the strategies people use to store and prioritize information in their mind. A Dependable and Valuable Asset 2 Psychologist Benjamin Storm from the University of California, Santa Cruz, and researchers Sean Stone and Aaron Benjamin devised an experiment to study How does the diagram provide additional support for the topic presented in the passage? \u2022 A. It reveals why human brains must adapt to obtaining information from the Internet as opposed to other sources. O B. It indicates how people can use the Internet to help improve their long-term recollection of information. \u2022 C. It shows how study participants' brains distinguished between important and unimportant details. \u2022 D. It depicts the idea that repetition and rehearsal are necessary to recall information when tools such as search engines are unavailable.",
     "imageSrc": "/exams/exam3/items/ela_q05.png",
@@ -7976,21 +7975,21 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e3_p1"
   },
   {
     "id": "e3_ela_06",
     "examId": "exam3",
     "section": "ela",
     "questionNumber": 6,
-    "passageId": "e3_p1",
     "type": "multiple_choice",
-    "prompt": "Read the passage excerpt and answer question 6 based on the text.",
+    "prompt": "technologies are the only things that will keep us smart' \"?",
     "imageSrc": "/exams/exam3/items/ela_q06.png",
     "options": [
       {
         "id": "A",
-        "text": "Memory Revolution (1) A high school senior logs on to a computer at the library to double-check the application due date listed on a college admissions website. Nearby, a librarian helps a group of biology students use a database to search for recent studies about mammals. In the past few decades, the Internet has become an integral component of daily life for many people. The seemingly limitless power of search engines made the Internet search extremely common, and today people increasingly rely on the Internet's vast accumulation of sources to access all types of information. Scientists are beginning to examine how this reliance is modifying the strategies people use to store and prioritize information in their mind. A Dependable and Valuable Asset 2 Psychologist Benjamin Storm from the University of California, Santa Cruz, and researchers Sean Stone and Aaron Benjamin devised an experiment to study Which evidence from the passage is most relevant to the claim in paragraph 7 that \" 'far from making us stupid, these technologies are the only things that will keep us smart' \"? \u2022 A. the revelation that most people opted to use the Internet to answer relatively easy trivia questions rather than relying on their own brainpower (paragraph 2)"
+        "text": "the revelation that most people opted to use the Internet to answer relatively easy trivia questions rather than relying on their own brainpower (paragraph 2)"
       },
       {
         "id": "B",
@@ -8015,21 +8014,21 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e3_p1"
   },
   {
     "id": "e3_ela_07",
     "examId": "exam3",
     "section": "ela",
     "questionNumber": 7,
-    "passageId": "e3_p2",
     "type": "multiple_choice",
-    "prompt": "Read the passage excerpt and answer question 7 based on the text.",
+    "prompt": "how this reliance is modifying the strategies people use to store and prioritize information in their mind. A Dependable and Valuable Asset 2 Psychologist Benjamin Storm from the University of California, Santa Cruz, and researchers Sean Stone and Aaron Benjamin devised an experiment to study The effect of the Internet on a person's memory is illustrated in the passage through the presentation of studies that",
     "imageSrc": "/exams/exam3/items/ela_q07.png",
     "options": [
       {
         "id": "A",
-        "text": "Memory Revolution (1) A high school senior logs on to a computer at the library to double-check the application due date listed on a college admissions website. Nearby, a librarian helps a group of biology students use a database to search for recent studies about mammals. In the past few decades, the Internet has become an integral component of daily life for many people. The seemingly limitless power of search engines made the Internet search extremely common, and today people increasingly rely on the Internet's vast accumulation of sources to access all types of information. Scientists are beginning to examine how this reliance is modifying the strategies people use to store and prioritize information in their mind. A Dependable and Valuable Asset 2 Psychologist Benjamin Storm from the University of California, Santa Cruz, and researchers Sean Stone and Aaron Benjamin devised an experiment to study The effect of the Internet on a person's memory is illustrated in the passage through the presentation of studies that \u2022 A. examine how the use of search engines changes the way people evaluate and store information for future access."
+        "text": "examine how the use of search engines changes the way people evaluate and store information for future access."
       },
       {
         "id": "B",
@@ -8054,14 +8053,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e3_p2"
   },
   {
     "id": "e3_ela_08",
     "examId": "exam3",
     "section": "ela",
     "questionNumber": 8,
-    "passageId": "e3_p2",
     "type": "multiple_choice",
     "prompt": "brothers knew that their flight attempt was risky?",
     "imageSrc": "/exams/exam3/items/ela_q08.png",
@@ -8093,14 +8092,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e3_p2"
   },
   {
     "id": "e3_ela_09",
     "examId": "exam3",
     "section": "ela",
     "questionNumber": 9,
-    "passageId": "e3_p2",
     "type": "multiple_choice",
     "prompt": "In 1903 brothers Wilbur and Orville Wright conducted experiments related to flying machines. These experiments would eventually lead to air travel becoming a reliable form of transportation. Excerpt from \"How We Made the First Flight\" by Orville Wright During the night of December 16, 1903, a strong cold wind blew from the north. When we arose on the morning of the 17th, the puddles of water, which had been standing about camp since the recent rains, were covered with ice. The wind had a velocity of 10 to 12 meters per second (22 to 27 miles an hour). We thought it would die down before long, and so remained indoors the early part of the morning. But when ten o'clock arrived, and the wind was as brisk as ever, we decided that we had better get the machine out and attempt a flight. We hung out the signal for the men of the Life Saving Station. We thought that by facing the Read this sentence from paragraph 4. Wilbur having used his turn in the unsuccessful attempt on the 14th, the right to the first trial now belonged to me. The sentence contributes to the development of ideas in the excerpt by",
     "imageSrc": "/exams/exam3/items/ela_q09.png",
@@ -8132,14 +8131,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e3_p2"
   },
   {
     "id": "e3_ela_10",
     "examId": "exam3",
     "section": "ela",
     "questionNumber": 10,
-    "passageId": "e3_p2",
     "type": "multiple_choice",
     "prompt": "In 1903 brothers Wilbur and Orville Wright conducted experiments related to flying machines. These experiments would eventually lead to air travel becoming a reliable form of transportation. Excerpt from \"How We Made the First Flight\" by Orville Wright During the night of December 16, 1903, a strong cold wind blew from the north. When we arose on the morning of the 17th, the puddles of water, which had been standing about camp since the recent rains, were covered with ice. The wind had a velocity of 10 to 12 meters per second (22 to 27 miles an hour). We thought it would die down before long, and so remained indoors the early part of the morning. But when ten o'clock arrived, and the wind was as brisk as ever, we decided that we had better get the machine out and attempt a flight. We hung out the signal for the men of the Life Saving Station. We thought that by facing the The photograph mentioned in paragraph 4 is significant because it \u2022 A. documents that the machine rose into the air as soon as the tethering wire was released. O B. provides proof of the critical moment the machine took flight. O C. documents that the wind reduced the speed of the plane at the start of the flight. D. provides proof that the pilot had to gradually increase the height of the plane in the air.",
     "imageSrc": "/exams/exam3/items/ela_q10.png",
@@ -8171,14 +8170,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e3_p2"
   },
   {
     "id": "e3_ela_11",
     "examId": "exam3",
     "section": "ela",
     "questionNumber": 11,
-    "passageId": "e3_p2",
     "type": "multiple_choice",
     "prompt": "the flight convey a central idea of the excerpt?",
     "imageSrc": "/exams/exam3/items/ela_q11.png",
@@ -8210,21 +8209,21 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e3_p2"
   },
   {
     "id": "e3_ela_12",
     "examId": "exam3",
     "section": "ela",
     "questionNumber": 12,
-    "passageId": "e3_p2",
     "type": "multiple_choice",
-    "prompt": "In 1903 brothers Wilbur and Orville Wright conducted experiments related to flying machines. These experiments would eventually lead to air travel becoming a reliable form of transportation. Excerpt from \"How We Made the First Flight\" by Orville Wright During the night of December 16, 1903, a strong cold wind blew from the north. When we arose on the morning of the 17th, the puddles of water, which had been standing about camp since the recent rains, were covered with ice. The wind had a velocity of 10 to 12 meters per second (22 to 27 miles an hour). We thought it would die down before long, and so remained indoors the early part of the morning. But when ten o'clock arrived, and the wind was as brisk as ever, we decided that we had better get the machine out and attempt a flight. We hung out the signal for the men of the Life Saving Station. We thought that by facing the Read this sentence from paragraph 5. As the velocity of the wind was over 35 feet per second and the speed of the machine over the ground against this wind ten feet per second, the speed of the machine relative to the air was over 45 feet per second, and the length of the flight was equivalent to",
+    "prompt": "about this first flight?",
     "imageSrc": "/exams/exam3/items/ela_q12.png",
     "options": [
       {
         "id": "A",
-        "text": "flight of 540 feet made in calm air. How does the sentence help convey Orville Wright's perspective about this first flight? \u2022 A. It suggests that he was frustrated by the poor flying conditions on the day of the flight."
+        "text": "It suggests that he was frustrated by the poor flying conditions on the day of the flight."
       },
       {
         "id": "B",
@@ -8249,14 +8248,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e3_p2"
   },
   {
     "id": "e3_ela_13",
     "examId": "exam3",
     "section": "ela",
     "questionNumber": 13,
-    "passageId": "e3_p3",
     "type": "multiple_choice",
     "prompt": "order to accommodate the weather conditions?",
     "imageSrc": "/exams/exam3/items/ela_q13.png",
@@ -8288,14 +8287,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e3_p3"
   },
   {
     "id": "e3_ela_14",
     "examId": "exam3",
     "section": "ela",
     "questionNumber": 14,
-    "passageId": "e3_p3",
     "type": "multiple_choice",
     "prompt": "In 1903 brothers Wilbur and Orville Wright conducted experiments related to flying machines. These experiments would eventually lead to air travel becoming a reliable form of transportation. Excerpt from \"How We Made the First Flight\" by Orville Wright During the night of December 16, 1903, a strong cold wind blew from the north. When we arose on the morning of the 17th, the puddles of water, which had been standing about camp since the recent rains, were covered with ice. The wind had a velocity of 10 to 12 meters per second (22 to 27 miles an hour). We thought it would die down before long, and so remained indoors the early part of the morning. But when ten o'clock arrived, and the wind was as brisk as ever, we decided that we had better get the machine out and attempt a flight. We hung out the signal for the men of the Life Saving Station. We thought that by facing the The use of chronological structure contributes to the development of ideas in the excerpt by",
     "imageSrc": "/exams/exam3/items/ela_q14.png",
@@ -8327,14 +8326,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e3_p3"
   },
   {
     "id": "e3_ela_15",
     "examId": "exam3",
     "section": "ela",
     "questionNumber": 15,
-    "passageId": "e3_p3",
     "type": "multiple_choice",
     "prompt": "Wolves of the Sea 1) The cool and misty landscape of the Great Bear Rainforest can be found along the coast of British Columbia, Canada, and its nearby islands, from Vancouver Island to the Alaskan border. Within this protected area, wolves roam the forests, islands, and beaches. When biologist Chris Darimont began to study these wolves, he wanted to confer with local First Nations groups, as aboriginal Canadians are known, in order to learn what they knew about these wolves. He spoke with Chester Starr, an elder of the Heiltsuk Nation that has occupied the Great Bear Rainforest for thousands of years. What Starr had to say about the wolves changed Darimont's perception of the animals. 2) Starr asked Darimont which wolves he and his team were going to study-the timber wolves (mainland wolves) or the coastal wolves on the islands. The question took Darimont by surprise. Biologists had alwavs believed that the wolves that are sometimes The details in paragraph 1 contribute to a central idea of the passage by showing that Darimont",
     "imageSrc": "/exams/exam3/items/ela_q15.png",
@@ -8366,14 +8365,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e3_p3"
   },
   {
     "id": "e3_ela_16",
     "examId": "exam3",
     "section": "ela",
     "questionNumber": 16,
-    "passageId": "e3_p3",
     "type": "multiple_choice",
     "prompt": "between Starr and Darimont in paragraph 2?",
     "imageSrc": "/exams/exam3/items/ela_q16.png",
@@ -8405,14 +8404,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e3_p3"
   },
   {
     "id": "e3_ela_17",
     "examId": "exam3",
     "section": "ela",
     "questionNumber": 17,
-    "passageId": "e3_p3",
     "type": "multiple_choice",
     "prompt": "Wolves of the Sea 1) The cool and misty landscape of the Great Bear Rainforest can be found along the coast of British Columbia, Canada, and its nearby islands, from Vancouver Island to the Alaskan border. Within this protected area, wolves roam the forests, islands, and beaches. When biologist Chris Darimont began to study these wolves, he wanted to confer with local First Nations groups, as aboriginal Canadians are known, in order to learn what they knew about these wolves. He spoke with Chester Starr, an elder of the Heiltsuk Nation that has occupied the Great Bear Rainforest for thousands of years. What Starr had to say about the wolves changed Darimont's perception of the animals. 2 Starr asked Darimont which wolves he and his team were going to study-the timber wolves (mainland wolves) or the coastal wolves on the islands. The question took Darimont by surprise. Biologists had alwavs helieved that the wolves that are sometimes Read this sentence from paragraph 4. After collecting and analyzing the DNA in 800 samples of gray fur and wolf waste, researchers could produce hard biological evidence that sea wolves had genetic markers that made them distinct from the mainland wolves. The phrase \"hard biological evidence\" conveys that the goal of the research team was to",
     "imageSrc": "/exams/exam3/items/ela_q17.png",
@@ -8444,14 +8443,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e3_p3"
   },
   {
     "id": "e3_ela_18",
     "examId": "exam3",
     "section": "ela",
     "questionNumber": 18,
-    "passageId": "e3_p3",
     "type": "multiple_choice",
     "prompt": "The author uses the word \"admits\" in paragraph 5 most likely to",
     "imageSrc": "/exams/exam3/items/ela_q18.png",
@@ -8466,7 +8465,7 @@ export const QUESTIONS: Question[] = [
       },
       {
         "id": "C",
-        "text": "emphasize that Darimont's study ultimately confirmed an idea that he had initially doubted. \u2022"
+        "text": "emphasize that Darimont's study ultimately confirmed an idea that he had initially doubted."
       },
       {
         "id": "D",
@@ -8483,21 +8482,21 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e3_p3"
   },
   {
     "id": "e3_ela_19",
     "examId": "exam3",
     "section": "ela",
     "questionNumber": 19,
-    "passageId": "e3_p3",
     "type": "multiple_choice",
     "prompt": "sea wolves had successfully adapted to living on the islands?",
     "imageSrc": "/exams/exam3/items/ela_q19.png",
     "options": [
       {
         "id": "A",
-        "text": "\"While mainland wolves almost exclusively eat meat, such as deer and elk, and teach their young to hunt for land animals, sea wolves get as much as 90 percent of their nutrition from the sea and teach their young to dig for clams and to catch fish.\" (paragraph 3)"
+        "text": "Option A"
       },
       {
         "id": "B",
@@ -8522,14 +8521,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e3_p3"
   },
   {
     "id": "e3_ela_20",
     "examId": "exam3",
     "section": "ela",
     "questionNumber": 20,
-    "passageId": "e3_p4",
     "type": "multiple_choice",
     "prompt": "the Great Bear Rainforest over time?",
     "imageSrc": "/exams/exam3/items/ela_q20.png",
@@ -8561,14 +8560,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e3_p4"
   },
   {
     "id": "e3_ela_21",
     "examId": "exam3",
     "section": "ela",
     "questionNumber": 21,
-    "passageId": "e3_p4",
     "type": "multiple_choice",
     "prompt": "10 15 Ode to Fireworks In autumn my mother drove us to the edge of the field where the fair was set up year after year: the carousel, the bumper cars, the long, low sheds filled with prizewinning animals. We-my sister, my cousin, and I-were ready for bed, already in our pajamas. This was a treat we waited all year for. We waited in the darkness for the first low, dull thwumps, like someone beating an old, filthy rug hung on a wash line. Then we counted the seconds between the lightning and thunder, as we also used to do, until the sky lit up: red, blue, green, gold. In my mind's eye I can still see the straggly, ancient oak whose branche reached up past the exhibition halls, silhouetted against the spectrum of stars that cascaded behind it. It was one thing to look up into the sky and imagine yourself in it or to make out pictures The comparison in lines 8-9 of the poem is used to convey",
     "imageSrc": "/exams/exam3/items/ela_q21.png",
@@ -8600,14 +8599,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e3_p4"
   },
   {
     "id": "e3_ela_22",
     "examId": "exam3",
     "section": "ela",
     "questionNumber": 22,
-    "passageId": "e3_p4",
     "type": "multiple_choice",
     "prompt": "speaker?",
     "imageSrc": "/exams/exam3/items/ela_q22.png",
@@ -8639,14 +8638,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e3_p4"
   },
   {
     "id": "e3_ela_23",
     "examId": "exam3",
     "section": "ela",
     "questionNumber": 23,
-    "passageId": "e3_p4",
     "type": "multiple_choice",
     "prompt": "10 15 Ode to Fireworks In autumn my mother drove us to the edge of the field where the fair was set up year after year: the carousel, the bumper cars, the long, low sheds filled with prizewinning animals. We-my sister, my cousin, and I-were ready for bed, already in our pajamas. This was a treat we waited all year for. We waited in the darkness for the first low, dull thwumps, like someone beating an old, filthy rug hung on a wash line. Then we counted the seconds between the lightning and thunder, as we also used to do, until the sky lit up: red, blue, green, gold. In my mind's eye I can still see the straggly, ancient oak whose branche reached up past the exhibition halls, silhouetted against the spectrum of stars that cascaded behind it. It was one thing to look up into the sky and imagine yourself in it or to make out pictures The use of italics on the word \"night\" in line 24 is most likely intended to emphasize the",
     "imageSrc": "/exams/exam3/items/ela_q23.png",
@@ -8657,7 +8656,7 @@ export const QUESTIONS: Question[] = [
       },
       {
         "id": "B",
-        "text": "sense of absolute darkness. \u2022"
+        "text": "sense of absolute darkness."
       },
       {
         "id": "C",
@@ -8678,21 +8677,21 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e3_p4"
   },
   {
     "id": "e3_ela_24",
     "examId": "exam3",
     "section": "ela",
     "questionNumber": 24,
-    "passageId": "e3_p4",
     "type": "multiple_choice",
     "prompt": "lines 26 and 37? In autumn my mother drove us to the edge of the field",
     "imageSrc": "/exams/exam3/items/ela_q24.png",
     "options": [
       {
         "id": "A",
-        "text": "to create a distinction between solitude and meaningful where the fair was set up year after year: interaction the carousel, the bumper cars, the long, low sheds filled with prizewinning animals. We-my sister, my cousin, and I\u2014were ready for bed, already in our pajamas. This was a treat we waited"
+        "text": "Option A"
       },
       {
         "id": "B",
@@ -8704,7 +8703,7 @@ export const QUESTIONS: Question[] = [
       },
       {
         "id": "D",
-        "text": "to compare the fireworks to common sights and sounds lit up: red, blue, green, gold. In my mind's eye I can still see the straggly, ancient oak whose branche reached up past the exhibition halls, silhouetted against the spectrum of stars that cascaded behind it. It was one thing to look up into the sky and imagine yourself in it or to make out pictures"
+        "text": "Option D"
       }
     ],
     "correctAnswer": "D",
@@ -8717,14 +8716,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e3_p4"
   },
   {
     "id": "e3_ela_25",
     "examId": "exam3",
     "section": "ela",
     "questionNumber": 25,
-    "passageId": "e3_p4",
     "type": "multiple_choice",
     "prompt": "How does this memory affect the speaker?",
     "imageSrc": "/exams/exam3/items/ela_q25.png",
@@ -8756,14 +8755,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e3_p4"
   },
   {
     "id": "e3_ela_26",
     "examId": "exam3",
     "section": "ela",
     "questionNumber": 26,
-    "passageId": "e3_p4",
     "type": "multiple_choice",
     "prompt": "10 15 Ode to Fireworks In autumn my mother drove us to the edge of the field where the fair was set up year after year: the carousel, the bumper cars, the long, low sheds filled with prizewinning animals. We-my sister, my cousin, and I-were ready for bed, already in our pajamas. This was a treat we waited all year for. We waited in the darkness for the first low, dull thwumps, like someone beating an old, filthy rug hung on a wash line. Then we counted the seconds between the lightning and thunder, as we also used to do, until the sky lit up: red, blue, green, gold. In my mind's eye I can still see the straggly, ancient oak whose branche reached up past the exhibition halls, silhouetted against the spectrum of stars that cascaded behind it. It was one thing to look up into the sky and imagine yourself in it or to make out pictures The fireworks in the poem represent the speaker's",
     "imageSrc": "/exams/exam3/items/ela_q26.png",
@@ -8795,14 +8794,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e3_p4"
   },
   {
     "id": "e3_ela_27",
     "examId": "exam3",
     "section": "ela",
     "questionNumber": 27,
-    "passageId": "e3_p5",
     "type": "multiple_choice",
     "prompt": "The narrator's summer job is collecting marine specimens in Puget Sound, Washington. In this excerpt, he is looking for specimens in the mudflats before daybreak. Mudflats, or flats, are coastal landforms created when sediment and silt from tides are deposited as the tides recede. Excerpt from The Highest Tide by Jim Lynch 1) I rounded the oyster beds, to the far side. ... It was low tide by then, and I saw the water hesitating at its apex, neither leaving nor returning, patiently waiting for the gravitational gears to shift. Dozens of anxious clams started squirting in unison like they did whenever vibrating grains of sand warned them predators were approaching. I stopped and waited with them, to actually see the moment when the tide started returning with its invisible buffet of plankton for the clams, oysters, mussels and other filter feeders. It was right then, ankle In paragraph 3, the phrase \"the butterflies of the sea\" conveys the idea that \u2022 A. nudibranchs do not have to work as hard as other animals to survive in the ocean. O B. nudibranchs have colorful features that make them stand out. C. nudibranchs are delicate and have trouble adapting to their environment. D. nudibranchs are rare and difficult to find in the ocean.",
     "imageSrc": "/exams/exam3/items/ela_q27.png",
@@ -8834,14 +8833,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e3_p5"
   },
   {
     "id": "e3_ela_28",
     "examId": "exam3",
     "section": "ela",
     "questionNumber": 28,
-    "passageId": "e3_p5",
     "type": "multiple_choice",
     "prompt": "The narrator's summer job is collecting marine specimens in Puget Sound, Washington. In this excerpt, he is looking for specimens in the mudflats before daybreak. Mudflats, or flats, are coastal landforms created when sediment and silt from tides are deposited as the tides recede. Excerpt from The Highest Tide by Jim Lynch (1) I rounded the oyster beds, to the far side. ... It was low tide by then, and I saw the water hesitating at its apex, neither leaving nor returning, patiently waiting for the gravitational gears to shift. Dozens of anxious clams started squirting in unison like they did whenever vibrating grains of sand warned them predators were approaching. I stopped and waited with them, to actually see the moment when the tide started returning with its invisible buffet of plankton for the clams, oysters, mussels and other filter feeders. It was right then, ankle Read these sentences from paragraph 4. I'm not sure why I decided to take a look. It was still an hour before sunrise, and I knew exactly what the bars looked like in the moonlight, but for some reason, I couldn't resist. The sentences contribute to the overall structure of the excerpt by",
     "imageSrc": "/exams/exam3/items/ela_q28.png",
@@ -8873,14 +8872,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e3_p5"
   },
   {
     "id": "e3_ela_29",
     "examId": "exam3",
     "section": "ela",
     "questionNumber": 29,
-    "passageId": "e3_p5",
     "type": "multiple_choice",
     "prompt": "The narrator's summer job is collecting marine specimens in Puget Sound, Washington. In this excerpt, he is looking for specimens in the mudflats before daybreak. Mudflats, or flats, are coastal landforms created when sediment and silt from tides are deposited as the tides recede. Excerpt from The Highest Tide by Jim Lynch 1) I rounded the oyster beds, to the far side. ... It was low tide by then, and I saw the water hesitating at its apex, neither leaving nor returning, patiently waiting for the gravitational gears to shift. Dozens of anxious clams started squirting in unison like they did whenever vibrating grains of sand warned them predators were approaching. I stopped and waited with them, to actually see the moment when the tide started returning with its invisible buffet of plankton for the clams, oysters, mussels and other filter feeders. It was right then, ankle The narrator's actions in paragraph 5 reveal that he is",
     "imageSrc": "/exams/exam3/items/ela_q29.png",
@@ -8891,7 +8890,7 @@ export const QUESTIONS: Question[] = [
       },
       {
         "id": "B",
-        "text": "confident about exploring farther into the mudflats. \u2022"
+        "text": "confident about exploring farther into the mudflats."
       },
       {
         "id": "C",
@@ -8912,14 +8911,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e3_p5"
   },
   {
     "id": "e3_ela_30",
     "examId": "exam3",
     "section": "ela",
     "questionNumber": 30,
-    "passageId": "e3_p5",
     "type": "multiple_choice",
     "prompt": "How does the setting affect the plot of the excerpt?",
     "imageSrc": "/exams/exam3/items/ela_q30.png",
@@ -8951,14 +8950,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e3_p5"
   },
   {
     "id": "e3_ela_31",
     "examId": "exam3",
     "section": "ela",
     "questionNumber": 31,
-    "passageId": "e3_p5",
     "type": "multiple_choice",
     "prompt": "narrator is taking a risk?",
     "imageSrc": "/exams/exam3/items/ela_q31.png",
@@ -8990,14 +8989,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e3_p5"
   },
   {
     "id": "e3_ela_32",
     "examId": "exam3",
     "section": "ela",
     "questionNumber": 32,
-    "passageId": "e3_p5",
     "type": "multiple_choice",
     "prompt": "The narrator's summer job is collecting marine specimens in Puget Sound, Washington. In this excerpt, he is looking for specimens in the mudflats before daybreak. Mudflats, or flats, are coastal landforms created when sediment and silt from tides are deposited as the tides recede. Excerpt from The Highest Tide by Jim Lynch (1) I rounded the oyster beds, to the far side. ... It was low tide by then, and I saw the water hesitating at its apex, neither leaving nor returning, patiently waiting for the gravitational gears to shift. Dozens of anxious clams started squirting in unison like they did whenever vibrating grains of sand warned them predators were approaching. I stopped and waited with them, to actually see the moment when the tide started returning with its invisible buffet of plankton for the clams, oysters, mussels and other filter feeders. It was right then, ankle Read this sentence from paragraph 6. I kept stepping toward the one sound I'd heard, a growing part of me hoping l'd find nothing at all. How do the narrator's actions develop a central idea of the excerpt? \u2022 A. The narrator's concern about the origin of the noise shows dedication to helping preserve sea life in the mudflats. O B. The narrator's curiosity about the sea life in the mudflats outweighs any fear about the situation. \u2022 C. The narrator's knowledge about a variety of sea life encourages a search for more specimens to study. \u2022 D. The narrator's eagerness about new specimens of sea life outweighs the reality that the area is an unlikely place to find them.",
     "imageSrc": "/exams/exam3/items/ela_q32.png",
@@ -9029,14 +9028,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e3_p5"
   },
   {
     "id": "e3_ela_33",
     "examId": "exam3",
     "section": "ela",
     "questionNumber": 33,
-    "passageId": "e3_p5",
     "type": "multiple_choice",
     "prompt": "The narrator's summer job is collecting marine specimens in Puget Sound, Washington. In this excerpt, he is looking for specimens in the mudflats before daybreak. Mudflats, or flats, are coastal landforms created when sediment and silt from tides are deposited as the tides recede. Excerpt from The Highest Tide by Jim Lynch 1) I rounded the oyster beds, to the far side. ... It was low tide by then, and I saw the water hesitating at its apex, neither leaving nor returning, patiently waiting for the gravitational gears to shift. Dozens of anxious clams started squirting in unison like they did whenever vibrating grains of sand warned them predators were approaching. I stopped and waited with them, to actually see the moment when the tide started returning with its invisible buffet of plankton for the clams, oysters, mussels and other filter feeders. It was right then, ankle Read these sentences from paragraph 8. So, I was looking at it and not looking at it while my heart spangled my vision. I saw fragments, pieces, and tried to fuse them in my mind but couldn't be certain of the whole. The sensory language \"spangled my vision,\" \"I saw fragments, pieces,\" and \"tried to fuse them in my mind\" conveys the narrator's",
     "imageSrc": "/exams/exam3/items/ela_q33.png",
@@ -9068,14 +9067,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e3_p5"
   },
   {
     "id": "e3_ela_34",
     "examId": "exam3",
     "section": "ela",
     "questionNumber": 34,
-    "passageId": "e3_p5",
     "type": "multiple_choice",
     "prompt": "The narrator's summer job is collecting marine specimens in Puget Sound, Washington. In this excerpt, he is looking for specimens in the mudflats before daybreak. Mudflats, or flats, are coastal landforms created when sediment and silt from tides are deposited as the tides recede. Excerpt from The Highest Tide by Jim Lynch 1) I rounded the oyster beds, to the far side. ... It was low tide by then, and I saw the water hesitating at its apex, neither leaving nor returning, patiently waiting for the gravitational gears to shift. Dozens of anxious clams started squirting in unison like they did whenever vibrating grains of sand warned them predators were approaching. I stopped and waited with them, to actually see the moment when the tide started returning with its invisible buffet of plankton for the clams, oysters, mussels and other filter feeders. It was right then, ankle The author develops the narrator's point of view when the narrator sees the creature by \u2022 A. describing the narrator's movements as he approaches the creature. O B. emphasizing the odds of finding the creature in an area inhabited by a rival species. C. showing the narrator's growing realization of the creature's identity. \u2022 D. comparing the size of the creature to the size of a vehicle.",
     "imageSrc": "/exams/exam3/items/ela_q34.png",
@@ -9107,14 +9106,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e3_p5"
   },
   {
     "id": "e3_ela_35",
     "examId": "exam3",
     "section": "ela",
     "questionNumber": 35,
-    "passageId": "e3_p6",
     "type": "multiple_choice",
     "prompt": "What is the best way to combine sentences 2 and 3?",
     "imageSrc": "/exams/exam3/items/ela_q35.png",
@@ -9146,14 +9145,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e3_p6"
   },
   {
     "id": "e3_ela_36",
     "examId": "exam3",
     "section": "ela",
     "questionNumber": 36,
-    "passageId": "e3_p6",
     "type": "multiple_choice",
     "prompt": "organization of the second paragraph (sentences 6-10)?",
     "imageSrc": "/exams/exam3/items/ela_q36.png",
@@ -9185,14 +9184,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e3_p6"
   },
   {
     "id": "e3_ela_37",
     "examId": "exam3",
     "section": "ela",
     "questionNumber": 37,
-    "passageId": "e3_p6",
     "type": "multiple_choice",
     "prompt": "Martial Arts for the Mind and Body (1) The martial arts blend a series of physical movements with strategic mental discipline so that practitioners can defend themselves, physically defeat an opponent, or both. (2) Historians are unsure of exactly when and where martial arts were first used. (3) Martial arts have been practiced by several different societies for many centuries. (4) Martial arts such as karate, kung fu, tae kwon do, and judo are still taught and practiced as methods of self-defense, but they offer students more than that. (5) The study of martial arts can provide students with a way to enhance their mental discipline as well as their physical fitness. (6) Discipline, focus, and respect are important qualities for everyone to have. (7) However, for most people these qualities are not innate; they must be learned and practiced. (8) The study of martial arts can provide an opportunity to develop these skills. (9) Students are rewarded for their dedication hy nassina tests and Which revision of sentence 12 best maintains the formal style established in the passage? \u2022 A. A lot of teens have to put up with difficult things while trying to do well in school and in life. O B. Many teenagers deal with tough situations as they try to stay on top of their studies and do well in life. \u2022 C. Many teenagers encounter challenges as they work to succeed both academically and personally. D. A lot of teens face problems as they work to keep up with their schoolwork and find personal success.",
     "imageSrc": "/exams/exam3/items/ela_q37.png",
@@ -9224,14 +9223,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e3_p6"
   },
   {
     "id": "e3_ela_38",
     "examId": "exam3",
     "section": "ela",
     "questionNumber": 38,
-    "passageId": "e3_p6",
     "type": "multiple_choice",
     "prompt": "sentence 17?",
     "imageSrc": "/exams/exam3/items/ela_q38.png",
@@ -9263,14 +9262,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e3_p6"
   },
   {
     "id": "e3_ela_39",
     "examId": "exam3",
     "section": "ela",
     "questionNumber": 39,
-    "passageId": "e3_p6",
     "type": "multiple_choice",
     "prompt": "Which sentence would best follow and support sentence 18?",
     "imageSrc": "/exams/exam3/items/ela_q39.png",
@@ -9302,14 +9301,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e3_p6"
   },
   {
     "id": "e3_ela_40",
     "examId": "exam3",
     "section": "ela",
     "questionNumber": 40,
-    "passageId": "e3_p6",
     "type": "multiple_choice",
     "prompt": "support the topic presented in the passage?",
     "imageSrc": "/exams/exam3/items/ela_q40.png",
@@ -9341,14 +9340,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e3_p6"
   },
   {
     "id": "e3_ela_41",
     "examId": "exam3",
     "section": "ela",
     "questionNumber": 41,
-    "passageId": "e3_p6",
     "type": "multiple_choice",
     "prompt": "the main topic of the passage?",
     "imageSrc": "/exams/exam3/items/ela_q41.png",
@@ -9363,7 +9362,7 @@ export const QUESTIONS: Question[] = [
       },
       {
         "id": "C",
-        "text": "The Gotthard Base Tunnel is the world's longest and deepest railway tunnel, stretching 35.5 miles straight through the base of the Swiss Alps. O D. The Gotthard Base Tunnel continues to help reduce the number of freight trucks on the roadways in the Swiss Alps."
+        "text": "Option C"
       },
       {
         "id": "D",
@@ -9380,14 +9379,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e3_p6"
   },
   {
     "id": "e3_ela_42",
     "examId": "exam3",
     "section": "ela",
     "questionNumber": 42,
-    "passageId": "e3_p7",
     "type": "multiple_choice",
     "prompt": "sentence 7?",
     "imageSrc": "/exams/exam3/items/ela_q42.png",
@@ -9419,14 +9418,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e3_p7"
   },
   {
     "id": "e3_ela_43",
     "examId": "exam3",
     "section": "ela",
     "questionNumber": 43,
-    "passageId": "e3_p7",
     "type": "multiple_choice",
     "prompt": "organization of the second paragraph (sentences 6-11)?",
     "imageSrc": "/exams/exam3/items/ela_q43.png",
@@ -9437,7 +9436,7 @@ export const QUESTIONS: Question[] = [
       },
       {
         "id": "B",
-        "text": "between sentences 6 and 7 \u2022"
+        "text": "between sentences 6 and 7"
       },
       {
         "id": "C",
@@ -9458,14 +9457,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e3_p7"
   },
   {
     "id": "e3_ela_44",
     "examId": "exam3",
     "section": "ela",
     "questionNumber": 44,
-    "passageId": "e3_p7",
     "type": "multiple_choice",
     "prompt": "be removed?",
     "imageSrc": "/exams/exam3/items/ela_q44.png",
@@ -9497,14 +9496,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e3_p7"
   },
   {
     "id": "e3_ela_45",
     "examId": "exam3",
     "section": "ela",
     "questionNumber": 45,
-    "passageId": "e3_p7",
     "type": "multiple_choice",
     "prompt": "sentence 18?",
     "imageSrc": "/exams/exam3/items/ela_q45.png",
@@ -9536,14 +9535,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e3_p7"
   },
   {
     "id": "e3_ela_46",
     "examId": "exam3",
     "section": "ela",
     "questionNumber": 46,
-    "passageId": "e3_p7",
     "type": "multiple_choice",
     "prompt": "to support the topic presented in the passage?",
     "imageSrc": "/exams/exam3/items/ela_q46.png",
@@ -9558,7 +9557,7 @@ export const QUESTIONS: Question[] = [
       },
       {
         "id": "C",
-        "text": "The completion of the Gotthard Base Tunnel shows that people can work together to achieve important goals. O D. The Swiss government is confident that the economic impact of the Gotthard Base Tunnel will be worth its construction cost."
+        "text": "Option C"
       },
       {
         "id": "D",
@@ -9575,14 +9574,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e3_p7"
   },
   {
     "id": "e3_ela_47",
     "examId": "exam3",
     "section": "ela",
     "questionNumber": 47,
-    "passageId": "e3_p7",
     "type": "multiple_choice",
     "prompt": "Which sentence contains an error in its construction and should be revised? (1) Walking dogs, cleaning kennels, hand-feeding newborn kittens, and supporting the pet-adoption process, the animal shelter is looking for volunteers to help with a variety of tasks. (2) Working at the animal shelter is a great way for young people, especially those who aspire to care for and protect animals, to gain valuable work experience. (3) In addition to hands-on training with animal care, volunteers will learn important job skills, such as punctuality, responsibility, and personal initiative. (4) Caring for animals can also help volunteers develop empathy, which is the awareness and understanding of the feelings of others.",
     "imageSrc": "/exams/exam3/items/ela_q47.png",
@@ -9614,7 +9613,8 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e3_p7"
   },
   {
     "id": "e3_ela_48",
@@ -10356,12 +10356,12 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 69,
     "type": "multiple_choice",
-    "prompt": "Solve the mathematical problem shown in question 19.",
+    "prompt": "furniture?",
     "imageSrc": "/exams/exam3/items/math_q19.png",
     "options": [
       {
         "id": "A",
-        "text": "store manager purchases a piece of furniture for $456.00. To determine the selling price, the manager increases the purchase cost by 125%. A customer buys the furniture and pays an additional 8% sales tax. How much does the customer pay for the furniture? \u2022 A. $615.60"
+        "text": "$615.60"
       },
       {
         "id": "B",
@@ -10584,12 +10584,12 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 75,
     "type": "multiple_choice",
-    "prompt": "Solve the mathematical problem shown in question 25.",
+    "prompt": "45 miles per hour?",
     "imageSrc": "/exams/exam3/items/math_q25.png",
     "options": [
       {
         "id": "A",
-        "text": "bus trip takes 9 hours if the mean speed is 50 miles per hour. How many hours would this trip take if the mean speed was 45 miles per hour? 0 A. 8"
+        "text": "8"
       },
       {
         "id": "B",
@@ -10643,12 +10643,12 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 77,
     "type": "multiple_choice",
-    "prompt": "Solve the mathematical problem shown in question 27.",
+    "prompt": "A birdseed mixture is - sunflower seeds. The cost of the sunflower seeds is $0.10 per ounce. At this rate, what is the cost of the sunflower seeds in 25 pounds of this birdseed? (Note: 1 lb = 16 oz.)",
     "imageSrc": "/exams/exam3/items/math_q27.png",
     "options": [
       {
         "id": "A",
-        "text": "birdseed mixture is - sunflower seeds. The cost of the sunflower seeds is $0.10 per ounce. At this rate, what is the cost of the sunflower seeds in 25 pounds of this birdseed? (Note: 1 lb = 16 oz.) \u2022 A. $10.00"
+        "text": "$10.00"
       },
       {
         "id": "B",
@@ -10664,8 +10664,8 @@ export const QUESTIONS: Question[] = [
       }
     ],
     "correctAnswer": "B",
-    "topic": "Algebra & Equations",
-    "subtopic": "Linear Equations & Algebraic Modeling",
+    "topic": "Proportional Reasoning & Percentages",
+    "subtopic": "Ratios, Rates & Scale Drawings",
     "difficulty": "Medium",
     "hints": [
       "Identify the given information in the problem carefully and note the exact question being asked.",
@@ -10681,12 +10681,12 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 78,
     "type": "multiple_choice",
-    "prompt": "Solve the mathematical problem shown in question 28.",
+    "prompt": "hours, x, that water has been added to the tank at a constant rate. What does the ordered pair (3, 24) represent?",
     "imageSrc": "/exams/exam3/items/math_q28.png",
     "options": [
       {
         "id": "A",
-        "text": "graph shows the relationship between the number of gallons of water, y, that has been added to a tank and the number of hours, x, that water has been added to the tank at a constant rate. What does the ordered pair (3, 24) represent? \u2022 A. Three gallons of water was added in 24 hours."
+        "text": "Three gallons of water was added in 24 hours."
       },
       {
         "id": "B",
@@ -10702,8 +10702,8 @@ export const QUESTIONS: Question[] = [
       }
     ],
     "correctAnswer": "C",
-    "topic": "Algebra & Equations",
-    "subtopic": "Linear Equations & Algebraic Modeling",
+    "topic": "Proportional Reasoning & Percentages",
+    "subtopic": "Ratios, Rates & Scale Drawings",
     "difficulty": "Medium",
     "hints": [
       "Identify the given information in the problem carefully and note the exact question being asked.",
@@ -10795,12 +10795,12 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 81,
     "type": "multiple_choice",
-    "prompt": "Solve the mathematical problem shown in question 31.",
+    "prompt": "there are 2 red marbles and 8 green marbles in this sample, approximately how many green marbles are in the box?",
     "imageSrc": "/exams/exam3/items/math_q31.png",
     "options": [
       {
         "id": "A",
-        "text": "box contains an unknown number of green marbles. An experimenter adds 100 red marbles to the box, mixes the marbles thoroughly, and then draws out 10 marbles at random. Assume that this sample is representative of the proportion in the box. If there are 2 red marbles and 8 green marbles in this sample, approximately how many green marbles are in the box? \u2022 A. 80."
+        "text": "80."
       },
       {
         "id": "B",
@@ -10816,8 +10816,8 @@ export const QUESTIONS: Question[] = [
       }
     ],
     "correctAnswer": "C",
-    "topic": "Algebra & Equations",
-    "subtopic": "Linear Equations & Algebraic Modeling",
+    "topic": "Probability & Statistics",
+    "subtopic": "Data Analysis, Frequency & Combinations",
     "difficulty": "Medium",
     "hints": [
       "Identify the given information in the problem carefully and note the exact question being asked.",
@@ -10871,12 +10871,12 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 83,
     "type": "multiple_choice",
-    "prompt": "Solve the mathematical problem shown in question 33.",
+    "prompt": "she has left to pay?",
     "imageSrc": "/exams/exam3/items/math_q33.png",
     "options": [
       {
         "id": "A",
-        "text": "car costing $24,000 is subject to a sales tax of 8%. If Bindu made a $10,000 down payment on this car, what is the total amount she has left to pay? \u2022 A. $14,000"
+        "text": "$14,000"
       },
       {
         "id": "B",
@@ -11103,12 +11103,12 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 90,
     "type": "multiple_choice",
-    "prompt": "Solve the mathematical problem shown in question 40.",
+    "prompt": "find x, the number of cans of food the team needs to collect to win a prize?",
     "imageSrc": "/exams/exam3/items/math_q40.png",
     "options": [
       {
         "id": "A",
-        "text": "team is participating in a contest to collect canned goods for a food drive. The team has 53 points and must have a total of at least 100 points to win a prize. The team earns 5 points for each can of food a member collects. Which inequality can be used to find x, the number of cans of food the team needs to collect to win a prize? \u2022 A. 5 + 53x < 100"
+        "text": "5 + 53x < 100"
       },
       {
         "id": "B",
@@ -11238,12 +11238,12 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 94,
     "type": "multiple_choice",
-    "prompt": "Solve the mathematical problem shown in question 44.",
+    "prompt": "If Samantha bought some cupcakes and a serving tray for a total of $22.50, not including tax, how many cupcakes did she buy?",
     "imageSrc": "/exams/exam3/items/math_q44.png",
     "options": [
       {
         "id": "A",
-        "text": "bakery charges $1.25 for each cupcake and $2.50 for a serving tray. The equation describes p, the price of c cupcakes and a serving tray, not including tax. p = 2. 50 + 1.25c If Samantha bought some cupcakes and a serving tray for a total of $22.50, not including tax, how many cupcakes did she buy? 0 A. 4"
+        "text": "4"
       },
       {
         "id": "B",
@@ -11469,14 +11469,13 @@ export const QUESTIONS: Question[] = [
     "examId": "exam4",
     "section": "ela",
     "questionNumber": 1,
-    "passageId": "e4_p1",
     "type": "multiple_choice",
-    "prompt": "Excerpt from \"The Past and the Future of the Earth's Oldest Trees\" by Alex Ross \u2022 About forty-five hundred years ago, not long after the completion of the Great Pyramid at Giza, a seed of Pinus longaeva, the Great Basin bristlecone pine, landed on a steep slope in what are now known as the White Mountains, in eastern California. The seed may have travelled there on a gust of wind, its flight aided by a winglike attachment to the nut. Or it could have been planted by a bird known as the Clark's nutcracker, which likes to hide pine seeds in caches; nutcrackers have phenomenal spatial memory and can recall thousands of such caches. This seed, however, lay undisturbed. On",
+    "prompt": "cemetery\" (paragraph 2)?",
     "imageSrc": "/exams/exam4/items/ela_q01.png",
     "options": [
       {
         "id": "A",
-        "text": "moist day in fall, or in the wake of melting snows in spring, a seedling appeared above ground\u2014a stubby one-inch stem with a tuft of bright-green shoots. 2 Most seedlings die within a year; the mortality rate is more than ninety-nine percent. The survivors are sometimes seen growing in the shadow of a fallen tree. The landscape of the Ancient Bristlecone Pine Forest, as this area of the White Mountains is called, is littered What is the effect of comparing groups of bristlecone pines to \"a city within a cemetery\" (paragraph 2)? \u2022 A. It illustrates that the new tree's appearance is markedly different from that of mature bristlecone pines."
+        "text": "It illustrates that the new tree's appearance is markedly different from that of mature bristlecone pines."
       },
       {
         "id": "B",
@@ -11501,21 +11500,21 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e4_p1"
   },
   {
     "id": "e4_ela_02",
     "examId": "exam4",
     "section": "ela",
     "questionNumber": 2,
-    "passageId": "e4_p1",
     "type": "multiple_choice",
-    "prompt": "Excerpt from \"The Past and the Future of the Earth's Oldest Trees\" by Alex Ross \u2022 About forty-five hundred years ago, not long after the completion of the Great Pyramid at Giza, a seed of Pinus longaeva, the Great Basin bristlecone pine, landed on a steep slope in what are now known as the White Mountains, in eastern California. The seed may have travelled there on a gust of wind, its flight aided by a winglike attachment to the nut. Or it could have been planted by a bird known as the Clark's nutcracker, which likes to hide pine seeds in caches; nutcrackers have phenomenal spatial memory and can recall thousands of such caches. This seed, however, lay undisturbed. On",
+    "prompt": "In paragraph 4, the idea that the bristlecone pine can withstand difficult conditions is illustrated mainly through",
     "imageSrc": "/exams/exam4/items/ela_q02.png",
     "options": [
       {
         "id": "A",
-        "text": "moist day in fall, or in the wake of melting snows in spring, a seedling appeared above ground\u2014a stubby one-inch stem with a tuft of bright-green shoots. 2 Most seedlings die within a year; the mortality rate is more than ninety-nine percent. The survivors are sometimes seen growing in the shadow of a fallen tree. The landscape of the Ancient Bristlecone Pine Forest, as this area of the White Mountains is called, is littered In paragraph 4, the idea that the bristlecone pine can withstand difficult conditions is illustrated mainly through \u2022 A. a comparison of the bristlecone pine with similar trees that are known for their long lives."
+        "text": "a comparison of the bristlecone pine with similar trees that are known for their long lives."
       },
       {
         "id": "B",
@@ -11540,21 +11539,21 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e4_p1"
   },
   {
     "id": "e4_ela_03",
     "examId": "exam4",
     "section": "ela",
     "questionNumber": 3,
-    "passageId": "e4_p1",
     "type": "multiple_choice",
-    "prompt": "Excerpt from \"The Past and the Future of the Earth's Oldest Trees\" by Alex Ross 1 About forty-five hundred years ago, not long after the completion of the Great Pyramid at Giza, a seed of Pinus longaeva, the Great Basin bristlecone pine, landed on a steep slope in what are now known as the White Mountains, in eastern California. The seed may have travelled there on a gust of wind, its flight aided by a winglike attachment to the nut. Or it could have been planted by a bird known as the Clark's nutcracker, which likes to hide pine seeds in caches; nutcrackers have phenomenal spatial memory and can recall thousands of such caches. This seed, however, lay undisturbed. On",
+    "prompt": "Excerpt from \"The Past and the Future of the Earth's Oldest Trees\" by Alex Ross 1 About forty-five hundred years ago, not long after the completion of the Great Pyramid at Giza, a seed of Pinus longaeva, the Great Basin bristlecone pine, landed on a steep slope in what are now known as the White Mountains, in eastern California. The seed may have travelled there on a gust of wind, its flight aided by a winglike attachment to the nut. Or it could have been planted by a bird known as the Clark's nutcracker, which likes to hide pine seeds in caches; nutcrackers have phenomenal spatial memory and can recall thousands of such caches. This seed, however, lay undisturbed. On a moist day in fall, or in the wake of melting snows in spring, a seedling appeared above ground\u2014a stubby one-inch stem with a tuft of bright-green shoots. 2 Most seedlings die within a year; the mortality rate is more than ninety-nine percent. The survivors are sometimes seen growing in the shadow of a fallen tree. The landscape of the Ancient Bristlecone Pine Forest, as this area of the White Mountains is called, is littered Read this sentence from paragraph 5. Empires rose and fell; wars raged; and and the tree from \u0432.c continued its implacable slow-motion existence, adding about two- hundredths of an inch to the diameter of its trunk each year. The sentence contributes to the development of ideas in the excerpt by",
     "imageSrc": "/exams/exam4/items/ela_q03.png",
     "options": [
       {
         "id": "A",
-        "text": "moist day in fall, or in the wake of melting snows in spring, a seedling appeared above ground\u2014a stubby one-inch stem with a tuft of bright-green shoots. 2 Most seedlings die within a year; the mortality rate is more than ninety-nine percent. The survivors are sometimes seen growing in the shadow of a fallen tree. The landscape of the Ancient Bristlecone Pine Forest, as this area of the White Mountains is called, is littered Read this sentence from paragraph 5. Empires rose and fell; wars raged; and and the tree from \u0432.c continued its implacable slow-motion existence, adding about two- hundredths of an inch to the diameter of its trunk each year. The sentence contributes to the development of ideas in the excerpt by \u2022 A. emphasizing the bristlecone pine's precise growth pattern."
+        "text": "emphasizing the bristlecone pine's precise growth pattern."
       },
       {
         "id": "B",
@@ -11579,21 +11578,21 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e4_p1"
   },
   {
     "id": "e4_ela_04",
     "examId": "exam4",
     "section": "ela",
     "questionNumber": 4,
-    "passageId": "e4_p1",
     "type": "multiple_choice",
-    "prompt": "Excerpt from \"The Past and the Future of the Earth's Oldest Trees\" by Alex Ross 1 About forty-five hundred years ago, not long after the completion of the Great Pyramid at Giza, a seed of Pinus longaeva, the Great Basin bristlecone pine, landed on a steep slope in what are now known as the White Mountains, in eastern California. The seed may have travelled there on a gust of wind, its flight aided by a winglike attachment to the nut. Or it could have been planted by a bird known as the Clark's nutcracker, which likes to hide pine seeds in caches; nutcrackers have phenomenal spatial memory and can recall thousands of such caches. This seed, however, lay undisturbed. On",
+    "prompt": "bristlecone pine's tree-ring record?",
     "imageSrc": "/exams/exam4/items/ela_q04.png",
     "options": [
       {
         "id": "A",
-        "text": "moist day in fall, or in the wake of melting snows in spring, a seedling appeared above ground\u2014a stubby one-inch stem with a tuft of bright-green shoots. 2 Most seedlings die within a year; the mortality rate is more thar ninety-nine percent. The survivors are sometimes seen growing in the shadow of a fallen tree. The landscape of the Ancient Bristlecone Pine Forest, as this area of the White Mountains is called, is littered Which claim is best supported by the details in paragraph 5 about the bristlecone pine's tree-ring record? \u2022 A. The bristlecone pine must be protected from extinction so that there is a record of changing Earth conditions."
+        "text": "The bristlecone pine must be protected from extinction so that there is a record of changing Earth conditions."
       },
       {
         "id": "B",
@@ -11618,21 +11617,21 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e4_p1"
   },
   {
     "id": "e4_ela_05",
     "examId": "exam4",
     "section": "ela",
     "questionNumber": 5,
-    "passageId": "e4_p1",
     "type": "multiple_choice",
-    "prompt": "Excerpt from \"The Past and the Future of the Earth's Oldest Trees\" by Alex Ross 1 About forty-five hundred years ago, not long after the completion of the Great Pyramid at Giza, a seed of Pinus longaeva, the Great Basin bristlecone pine, landed on a steep slope in what are now known as the White Mountains, in eastern California. The seed may have travelled there on a gust of wind, its flight aided by a winglike attachment to the nut. Or it could have been planted by a bird known as the Clark's nutcracker, which likes to hide pine seeds in caches; nutcrackers have phenomenal spatial memory and can recall thousands of such caches. This seed, however, lay undisturbed. On",
+    "prompt": "Excerpt from \"The Past and the Future of the Earth's Oldest Trees\" by Alex Ross 1 About forty-five hundred years ago, not long after the completion of the Great Pyramid at Giza, a seed of Pinus longaeva, the Great Basin bristlecone pine, landed on a steep slope in what are now known as the White Mountains, in eastern California. The seed may have travelled there on a gust of wind, its flight aided by a winglike attachment to the nut. Or it could have been planted by a bird known as the Clark's nutcracker, which likes to hide pine seeds in caches; nutcrackers have phenomenal spatial memory and can recall thousands of such caches. This seed, however, lay undisturbed. On a moist day in fall, or in the wake of melting snows in spring, a seedling appeared above ground\u2014a stubby one-inch stem with a tuft of bright-green shoots. 2 Most seedlings die within a year; the mortality rate is more than ninety-nine percent. The survivors are sometimes seen growing in the shadow of a fallen tree. The landscape of the Ancient Bristlecone Pine Forest, as this area of the White Mountains is called, is littered The phrases \"clings to life\" and \"stripped of bark\" in paragraph 6 are used to highlight",
     "imageSrc": "/exams/exam4/items/ela_q05.png",
     "options": [
       {
         "id": "A",
-        "text": "moist day in fall, or in the wake of melting snows in spring, a seedling appeared above ground\u2014a stubby one-inch stem with a tuft of bright-green shoots. 2 Most seedlings die within a year; the mortality rate is more than ninety-nine percent. The survivors are sometimes seen growing in the shadow of a fallen tree. The landscape of the Ancient Bristlecone Pine Forest, as this area of the White Mountains is called, is littered The phrases \"clings to life\" and \"stripped of bark\" in paragraph 6 are used to highlight \u2022 A. that the tree is fragile and needs help to avoid becoming extinct."
+        "text": "that the tree is fragile and needs help to avoid becoming extinct."
       },
       {
         "id": "B",
@@ -11657,21 +11656,21 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e4_p1"
   },
   {
     "id": "e4_ela_06",
     "examId": "exam4",
     "section": "ela",
     "questionNumber": 6,
-    "passageId": "e4_p1",
     "type": "multiple_choice",
-    "prompt": "Excerpt from \"The Past and the Future of the Earth's Oldest Trees\" by Alex Ross 1 About forty-five hundred years ago, not long after the completion of the Great Pyramid at Giza, a seed of Pinus longaeva, the Great Basin bristlecone pine, landed on a steep slope in what are now known as the White Mountains, in eastern California. The seed may have travelled there on a gust of wind, its flight aided by a winglike attachment to the nut. Or it could have been planted by a bird known as the Clark's nutcracker, which likes to hide pine seeds in caches; nutcrackers have phenomenal spatial memory and can recall thousands of such caches. This seed, however, lay undisturbed. On",
+    "prompt": "What is the best summary of the bristlecone pine's life cycle?",
     "imageSrc": "/exams/exam4/items/ela_q06.png",
     "options": [
       {
         "id": "A",
-        "text": "moist day in fall, or in the wake of melting snows in spring, a seedling appeared above ground\u2014a stubby one-inch stem with a tuft of bright-green shoots. 2 Most seedlings die within a year; the mortality rate is more than ninety-nine percent. The survivors are sometimes seen growing in the shadow of a fallen tree. The landscape of the Ancient Bristlecone Pine Forest, as this area of the White Mountains is called, is littered What is the best summary of the bristlecone pine's life cycle? \u2022 A. The bristlecone pine takes root as a stubby seedling in the mountains. Over time, it grows slowly in a hostile environment with alkaline soil that ensures little competition from other trees."
+        "text": "The bristlecone pine takes root as a stubby seedling in the mountains. Over time, it grows slowly in a hostile environment with alkaline soil that ensures little competition from other trees."
       },
       {
         "id": "B",
@@ -11696,21 +11695,21 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e4_p1"
   },
   {
     "id": "e4_ela_07",
     "examId": "exam4",
     "section": "ela",
     "questionNumber": 7,
-    "passageId": "e4_p1",
     "type": "multiple_choice",
-    "prompt": "Excerpt from \"The Past and the Future of the Earth's Oldest Trees\" by Alex Ross 1 About forty-five hundred years ago, not long after the completion of the Great Pyramid at Giza, a seed of Pinus longaeva, the Great Basin bristlecone pine, landed on a steep slope in what are now known as the White Mountains, in eastern California. The seed may have travelled there on a gust of wind, its flight aided by a winglike attachment to the nut. Or it could have been planted by a bird known as the Clark's nutcracker, which likes to hide pine seeds in caches; nutcrackers have phenomenal spatial memory and can recall thousands of such caches. This seed, however, lay undisturbed. On",
+    "prompt": "Excerpt from \"The Past and the Future of the Earth's Oldest Trees\" by Alex Ross 1 About forty-five hundred years ago, not long after the completion of the Great Pyramid at Giza, a seed of Pinus longaeva, the Great Basin bristlecone pine, landed on a steep slope in what are now known as the White Mountains, in eastern California. The seed may have travelled there on a gust of wind, its flight aided by a winglike attachment to the nut. Or it could have been planted by a bird known as the Clark's nutcracker, which likes to hide pine seeds in caches; nutcrackers have phenomenal spatial memory and can recall thousands of such caches. This seed, however, lay undisturbed. On a moist day in fall, or in the wake of melting snows in spring, a seedling appeared above ground\u2014a stubby one-inch stem with a tuft of bright-green shoots. 2 Most seedlings die within a year; the mortality rate is more than ninety-nine percent. The survivors are sometimes seen growing in the shadow of a fallen tree. The landscape of the Ancient Bristlecone Pine Forest, as this area of the White Mountains is called, is littered Throughout the excerpt, the author conveys his point of view mainly by",
     "imageSrc": "/exams/exam4/items/ela_q07.png",
     "options": [
       {
         "id": "A",
-        "text": "moist day in fall, or in the wake of melting snows in spring, a seedling appeared above ground\u2014a stubby one-inch stem with a tuft of bright-green shoots. 2 Most seedlings die within a year; the mortality rate is more than ninety-nine percent. The survivors are sometimes seen growing in the shadow of a fallen tree. The landscape of the Ancient Bristlecone Pine Forest, as this area of the White Mountains is called, is littered Throughout the excerpt, the author conveys his point of view mainly by \u2022 A. sharing details about the qualities of the bristlecone pine that make it an unusual tree."
+        "text": "sharing details about the qualities of the bristlecone pine that make it an unusual tree."
       },
       {
         "id": "B",
@@ -11735,21 +11734,21 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e4_p1"
   },
   {
     "id": "e4_ela_08",
     "examId": "exam4",
     "section": "ela",
     "questionNumber": 8,
-    "passageId": "e4_p2",
     "type": "multiple_choice",
-    "prompt": "Read the passage excerpt and answer question 8 based on the text.",
+    "prompt": "A Miracle Mile 1) In the 1950s people compared running one mile in four minutes to scaling Mount Everest and nicknamed the feat a \"dream mile.\" Although such an accomplishment was considered humanly impossible, several elite runners aimed to break that supposedly impenetrable barrier. One of them was a twenty-five-year-old medical student named Roger Bannister. 2 Roger Bannister had tasted failure during the 1952 Olympics. There, he was favored to win the 1,500-meter competition, a distance slightly shorter than a mile, but he finished in a dismal fourth place instead. Bannister's performance was a disappointment for him and his country, Great Britain. Determined to redeem himself, Bannister postponed his plans to retire from racing and focused on the ultimate prize-breaking the four-minute-mile barrier. 3) Bannister attacked the elusive milestone with a positive attitude and logical planning. The amateur athlete decided to use intensive interval training to develop endurance and speed. For these workouts, Bannister The words \"feat,\" \"humanly impossible,\" and \"impenetrable barrier\" in paragraph 1 affect the tone of the paragraph because they",
     "imageSrc": "/exams/exam4/items/ela_q08.png",
     "options": [
       {
         "id": "A",
-        "text": "Miracle Mile 1) In the 1950s people compared running one mile in four minutes to scaling Mount Everest and nicknamed the feat a \"dream mile.\" Although such an accomplishment was considered humanly impossible, several elite runners aimed to break that supposedly impenetrable barrier. One of them was a twenty-five-year-old medical student named Roger Bannister. 2 Roger Bannister had tasted failure during the 1952 Olympics. There, he was favored to win the 1,500-meter competition, a distance slightly shorter than a mile, but he finished in a dismal fourth place instead. Bannister's performance was a disappointment for him and his country, Great Britain. Determined to redeem himself, Bannister postponed his plans to retire from racing and focused on the ultimate prize-breaking the four-minute-mile barrier. 3) Bannister attacked the elusive milestone with a positive attitude and logical planning. The amateur athlete decided to use intensive interval training to develop endurance and speed. For these workouts, Bannister The words \"feat,\" \"humanly impossible,\" and \"impenetrable barrier\" in paragraph 1 affect the tone of the paragraph because they \u2022 A. highlight the idea that only the most skilled runners would be able to run a four-minute mile."
+        "text": "highlight the idea that only the most skilled runners would be able to run a four-minute mile."
       },
       {
         "id": "B",
@@ -11774,21 +11773,21 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e4_p2"
   },
   {
     "id": "e4_ela_09",
     "examId": "exam4",
     "section": "ela",
     "questionNumber": 9,
-    "passageId": "e4_p2",
     "type": "multiple_choice",
-    "prompt": "Read the passage excerpt and answer question 9 based on the text.",
+    "prompt": "A Miracle Mile 1) In the 1950s people compared running one mile in four minutes to scaling Mount Everest and nicknamed the feat a \"dream mile.\" Although such an accomplishment was considered humanly impossible, several elite runners aimed to break that supposedly impenetrable barrier. One of them was a twenty-five-year-old medical student named Roger Bannister. 2 Roger Bannister had tasted failure during the 1952 Olympics. There, he was favored to win the 1,500-meter competition, a distance slightly shorter than a mile, but he finished in a dismal fourth place instead. Bannister's performance was a disappointment for him and his country, Great Britain. Determined to redeem himself, Bannister postponed his plans to retire from racing and focused on the ultimate prize-breaking the four-minute-mile barrier. 3) Bannister attacked the elusive milestone with a positive attitude and logical planning. The amateur athlete decided to use intensive interval training to develop endurance and speed. For these workouts, Bannister Read these sentences from paragraph 7. Bannister said, \"I felt that the moment of a lifetime had come. There was no pain, only a great unity of movement and aim.\" The sentences contribute to the development of ideas in the passage by showing that Bannister",
     "imageSrc": "/exams/exam4/items/ela_q09.png",
     "options": [
       {
         "id": "A",
-        "text": "Miracle Mile 1) In the 1950s people compared running one mile in four minutes to scaling Mount Everest and nicknamed the feat a \"dream mile.\" Although such an accomplishment was considered humanly impossible, several elite runners aimed to break that supposedly impenetrable barrier. One of them was a twenty-five-year-old medical student named Roger Bannister. 2 Roger Bannister had tasted failure during the 1952 Olympics. There, he was favored to win the 1,500-meter competition, a distance slightly shorter than a mile, but he finished in a dismal fourth place instead. Bannister's performance was a disappointment for him and his country, Great Britain. Determined to redeem himself, Bannister postponed his plans to retire from racing and focused on the ultimate prize-breaking the four-minute-mile barrier. 3) Bannister attacked the elusive milestone with a positive attitude and logical planning. The amateur athlete decided to use intensive interval training to develop endurance and speed. For these workouts, Bannister Read these sentences from paragraph 7. Bannister said, \"I felt that the moment of a lifetime had come. There was no pain, only a great unity of movement and aim.\" The sentences contribute to the development of ideas in the passage by showing that Bannister \u2022 A. knew that he was about to achieve the goal he had worked toward."
+        "text": "knew that he was about to achieve the goal he had worked toward."
       },
       {
         "id": "B",
@@ -11813,21 +11812,21 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e4_p2"
   },
   {
     "id": "e4_ela_10",
     "examId": "exam4",
     "section": "ela",
     "questionNumber": 10,
-    "passageId": "e4_p2",
     "type": "multiple_choice",
-    "prompt": "Read the passage excerpt and answer question 10 based on the text.",
+    "prompt": "goal?",
     "imageSrc": "/exams/exam4/items/ela_q10.png",
     "options": [
       {
         "id": "A",
-        "text": "Miracle Mile 1) In the 1950s people compared running one mile in four minutes to scaling Mount Everest and nicknamed the feat a \"dream mile.\" Although such an accomplishment was considered humanly impossible, several elite runners aimed to break that supposedly impenetrable barrier. One of them was a twenty-five-year-old medical student named Roger Bannister. 2 Roger Bannister had tasted failure during the 1952 Olympics. There, he was favored to win the 1,500-meter competition, a distance slightly shorter than a mile, but he finished in a dismal fourth place instead. Bannister's performance was a disappointment for him and his country, Great Britain. Determined to redeem himself, Bannister postponed his plans to retire from racing and focused on the ultimate prize-breaking the four-minute-mile barrier. 3) Bannister attacked the elusive milestone with a positive attitude and logical planning. The amateur athlete decided to use intensive interval training to develop endurance and speed. For these workouts, Bannister Which sentence best supports the idea that Bannister needed an alternative to \"logical planning\" (paragraph 3) in order to accomplish his goal? \u2022 A. \"Bannister's performance was a disappointment for him and his country, Great Britain.\" (paragraph 2)"
+        "text": "\"Bannister's performance was a disappointment for him and his country, Great Britain.\" (paragraph 2)"
       },
       {
         "id": "B",
@@ -11852,21 +11851,21 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e4_p2"
   },
   {
     "id": "e4_ela_11",
     "examId": "exam4",
     "section": "ela",
     "questionNumber": 11,
-    "passageId": "e4_p2",
     "type": "multiple_choice",
-    "prompt": "Read the passage excerpt and answer question 11 based on the text.",
+    "prompt": "mistake that would have cost him the world record?",
     "imageSrc": "/exams/exam4/items/ela_q11.png",
     "options": [
       {
         "id": "A",
-        "text": "Miracle Mile 1) In the 1950s people compared running one mile in four minutes to scaling Mount Everest and nicknamed the feat a \"dream mile.\" Although such an accomplishment was considered humanly impossible, several elite runners aimed to break that supposedly impenetrable barrier. One of them was a twenty-five-year-old medical student named Roger Bannister. 2 Roger Bannister had tasted failure during the 1952 Olympics. There, he was favored to win the 1,500-meter competition, a distance slightly shorter than a mile, but he finished in a dismal fourth place instead. Bannister's performance was a disappointment for him and his country, Great Britain. Determined to redeem himself, Bannister postponed his plans to retire from racing and focused on the ultimate prize-breaking the four-minute-mile barrier. 3) Bannister attacked the elusive milestone with a positive attitude and logical planning. The amateur athlete decided to use intensive interval training to develop endurance and speed. For these workouts, Bannister Which sentence from the passage indicates that Bannister nearly made a mistake that would have cost him the world record? \u2022 A. \"By early 1954, Bannister had succeeded in lowering his quarter- mile pace to sixty-one seconds, but he had to shave off at least one more second in order to reach his target.\" ( paragraph 4)"
+        "text": "\"By early 1954, Bannister had succeeded in lowering his quarter- mile pace to sixty-one seconds, but he had to shave off at least one more second in order to reach his target.\" ( paragraph 4)"
       },
       {
         "id": "B",
@@ -11891,21 +11890,21 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e4_p2"
   },
   {
     "id": "e4_ela_12",
     "examId": "exam4",
     "section": "ela",
     "questionNumber": 12,
-    "passageId": "e4_p2",
     "type": "multiple_choice",
-    "prompt": "Read the passage excerpt and answer question 12 based on the text.",
+    "prompt": "A Miracle Mile 1 In the 1950s people compared running one mile in four minutes to scaling Mount Everest and nicknamed the feat a \"dream mile.\" Although such an accomplishment was considered humanly impossible, several elite runners aimed to break that supposedly impenetrable barrier. One of them was a twenty-five-year-old medical student named Roger Bannister. 2 Roger Bannister had tasted failure during the 1952 Olympics. There, he was favored to win the 1,500-meter competition, a distance slightly shorter than a mile, but he finished in a dismal fourth place instead. Bannister's performance was a disappointment for him and his country, Great Britain. Determined to redeem himself, Bannister postponed his plans to retire from racing and focused on the ultimate prize-breaking the four-minute-mile barrier. 3) Bannister attacked the elusive milestone with a positive attitude and logical planning. The amateur athlete decided to use intensive interval training to develop endurance and speed. For these workouts, Bannister Bannister's loss in the 1952 Olympics influenced his decision to pursue breaking the four-minute-mile barrier by",
     "imageSrc": "/exams/exam4/items/ela_q12.png",
     "options": [
       {
         "id": "A",
-        "text": "Miracle Mile 1 In the 1950s people compared running one mile in four minutes to scaling Mount Everest and nicknamed the feat a \"dream mile.\" Although such an accomplishment was considered humanly impossible, several elite runners aimed to break that supposedly impenetrable barrier. One of them was a twenty-five-year-old medical student named Roger Bannister. 2 Roger Bannister had tasted failure during the 1952 Olympics. There, he was favored to win the 1,500-meter competition, a distance slightly shorter than a mile, but he finished in a dismal fourth place instead. Bannister's performance was a disappointment for him and his country, Great Britain. Determined to redeem himself, Bannister postponed his plans to retire from racing and focused on the ultimate prize-breaking the four-minute-mile barrier. 3) Bannister attacked the elusive milestone with a positive attitude and logical planning. The amateur athlete decided to use intensive interval training to develop endurance and speed. For these workouts, Bannister Bannister's loss in the 1952 Olympics influenced his decision to pursue breaking the four-minute-mile barrier by \u2022 A. allowing him to recognize his weaknesses and improve his running ability."
+        "text": "allowing him to recognize his weaknesses and improve his running ability."
       },
       {
         "id": "B",
@@ -11930,14 +11929,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e4_p2"
   },
   {
     "id": "e4_ela_13",
     "examId": "exam4",
     "section": "ela",
     "questionNumber": 13,
-    "passageId": "e4_p3",
     "type": "multiple_choice",
     "prompt": "Excerpt from In Search of the Unknown by Robert W. Chambers 1) It was at that time the policy of the trustees and officers of the Zoological Gardens neither to employ collectors nor to send out expeditions in search of specimens. The society decided to depend upon voluntary contributions, and I was always busy, part of the day, in dictating answers to correspondents who wrote offering their services as hunters of big game, collectors of all sorts of fauna, trappers, snarers, and also to those who offered specimens for sale, usually at exorbitant rates. 2 To the proprietors of ... mangy lynxes, moth-eaten coyotes, and dancing bears I returned courteous but uncompromising refusals\u2014of course, first submitting all such letters, together with my replies, to Professor Farrago. 3) One day towards the end of May, however, just as I was leaving Bronx Park to return to town, Professor Lesard, of the reptilian department, called nut to me that Professor Farraon wanted to see me a moment sn Read paragraph 2 from the excerpt. To the proprietors of ... mangy lynxes, moth-eaten coyotes, and dancing bears I returned courteous but uncompromising refusals-of course, first submitting all such letters, together with my replies, to Professor Farrago. This paragraph helps develop the plot by establishing that the narrator",
     "imageSrc": "/exams/exam4/items/ela_q13.png",
@@ -11969,14 +11968,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e4_p3"
   },
   {
     "id": "e4_ela_14",
     "examId": "exam4",
     "section": "ela",
     "questionNumber": 14,
-    "passageId": "e4_p3",
     "type": "multiple_choice",
     "prompt": "professor?",
     "imageSrc": "/exams/exam4/items/ela_q14.png",
@@ -12008,14 +12007,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e4_p3"
   },
   {
     "id": "e4_ela_15",
     "examId": "exam4",
     "section": "ela",
     "questionNumber": 15,
-    "passageId": "e4_p3",
     "type": "multiple_choice",
     "prompt": "paragraphs 8-11 contribute to the development of the characters?",
     "imageSrc": "/exams/exam4/items/ela_q15.png",
@@ -12047,14 +12046,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e4_p3"
   },
   {
     "id": "e4_ela_16",
     "examId": "exam4",
     "section": "ela",
     "questionNumber": 16,
-    "passageId": "e4_p3",
     "type": "multiple_choice",
     "prompt": "Excerpt from In Search of the Unknown by Robert W. Chambers 1 It was at that time the policy of the trustees and officers of the Zoological Gardens neither to employ collectors nor to send out expeditions in search of specimens. The society decided to depend upon voluntary contributions, and I was always busy, part of the day, in dictating answers to correspondents who wrote offering their services as hunters of big game, collectors of all sorts of fauna, trappers, snarers, and also to those who offered specimens for sale, usually at exorbitant rates. 2 To the proprietors of ... mangy lynxes, moth-eaten coyotes, and dancing bears I returned courteous but uncompromising refusals\u2014of course, first submitting all such letters, together with my replies, to Professor Farrago. 3) One day towards the end of May, however, just as I was leaving Bronx Park to return to town, Professor Lesard, of the reptilian department, called nut to me that Professor Farraon wanted to see me a moment sn The professor's observations in paragraphs 15-17 create tension in the excerpt by causing the narrator to feel",
     "imageSrc": "/exams/exam4/items/ela_q16.png",
@@ -12086,14 +12085,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e4_p3"
   },
   {
     "id": "e4_ela_17",
     "examId": "exam4",
     "section": "ela",
     "questionNumber": 17,
-    "passageId": "e4_p3",
     "type": "multiple_choice",
     "prompt": "paragraphs 26-28 contribute to the development of the theme?",
     "imageSrc": "/exams/exam4/items/ela_q17.png",
@@ -12125,14 +12124,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e4_p3"
   },
   {
     "id": "e4_ela_18",
     "examId": "exam4",
     "section": "ela",
     "questionNumber": 18,
-    "passageId": "e4_p3",
     "type": "multiple_choice",
     "prompt": "eager to send the narrator on an expedition?",
     "imageSrc": "/exams/exam4/items/ela_q18.png",
@@ -12164,14 +12163,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e4_p3"
   },
   {
     "id": "e4_ela_19",
     "examId": "exam4",
     "section": "ela",
     "questionNumber": 19,
-    "passageId": "e4_p3",
     "type": "multiple_choice",
     "prompt": "How does paragraph 34 help develop the plot of the excerpt?",
     "imageSrc": "/exams/exam4/items/ela_q19.png",
@@ -12203,14 +12202,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e4_p3"
   },
   {
     "id": "e4_ela_20",
     "examId": "exam4",
     "section": "ela",
     "questionNumber": 20,
-    "passageId": "e4_p3",
     "type": "multiple_choice",
     "prompt": "between the narrator and the professor?",
     "imageSrc": "/exams/exam4/items/ela_q20.png",
@@ -12242,14 +12241,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e4_p3"
   },
   {
     "id": "e4_ela_21",
     "examId": "exam4",
     "section": "ela",
     "questionNumber": 21,
-    "passageId": "e4_p3",
     "type": "multiple_choice",
     "prompt": "of view and the professor's point of view?",
     "imageSrc": "/exams/exam4/items/ela_q21.png",
@@ -12281,14 +12280,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e4_p3"
   },
   {
     "id": "e4_ela_22",
     "examId": "exam4",
     "section": "ela",
     "questionNumber": 22,
-    "passageId": "e4_p4",
     "type": "multiple_choice",
     "prompt": "what, exactly? The lines help develop a central idea of the poem by revealing the speaker's",
     "imageSrc": "/exams/exam4/items/ela_q22.png",
@@ -12320,14 +12319,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e4_p4"
   },
   {
     "id": "e4_ela_23",
     "examId": "exam4",
     "section": "ela",
     "questionNumber": 23,
-    "passageId": "e4_p4",
     "type": "multiple_choice",
     "prompt": "what, exactly? Because we are talking about everything here: your fingernail, 10 the candy at the back of your mouth, the coffee your teacher drank this morning, your little sister, and the stuffed dog she used to carry around with her everwhere The main purpose of the comparison in lines 23-24 of the poem is to show",
     "imageSrc": "/exams/exam4/items/ela_q23.png",
@@ -12359,14 +12358,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e4_p4"
   },
   {
     "id": "e4_ela_24",
     "examId": "exam4",
     "section": "ela",
     "questionNumber": 24,
-    "passageId": "e4_p4",
     "type": "multiple_choice",
     "prompt": "what, exactly? Because we are talking about everything here: your fingernail, 10 the candy at the back of your mouth, the coffee your teacher drank this morning, your little sister, and the stuffed dog she used to carry around with her everwhere Read lines 27-28 from the poem. And there, in the explosion, in the darkness, briefly incandescent, they appear: The imagery in the lines reveals that the speaker",
     "imageSrc": "/exams/exam4/items/ela_q24.png",
@@ -12398,14 +12397,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e4_p4"
   },
   {
     "id": "e4_ela_25",
     "examId": "exam4",
     "section": "ela",
     "questionNumber": 25,
-    "passageId": "e4_p4",
     "type": "multiple_choice",
     "prompt": "what, exactly? Because we are talking about everything here: your fingernail, the candy at the back of your mouth, the coffee your teacher drank this morning, your little sister, and the stuffed dog she used to carry around with her everwhere Read lines 30-32 from the poem. Their names sound like dinosaurs or maybe bands playing terrible music in someone's garage. The speaker refers to familiar objects and events in the lines most likely to",
     "imageSrc": "/exams/exam4/items/ela_q25.png",
@@ -12437,14 +12436,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e4_p4"
   },
   {
     "id": "e4_ela_26",
     "examId": "exam4",
     "section": "ela",
     "questionNumber": 26,
-    "passageId": "e4_p4",
     "type": "multiple_choice",
     "prompt": "what, exactly? Because we are talking about everything here: your fingernail, 10| the candy at the back of your mouth, the coffee your teacher drank this morning, your little sister, and the stuffed dog she used to carry around with her everywhere Read lines 36-39 from the poem. both together and apart, what keeps together the pencil in your hand right now as well as separate from, say, Jupiter. The poet includes these lines most likely to emphasize that",
     "imageSrc": "/exams/exam4/items/ela_q26.png",
@@ -12476,14 +12475,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e4_p4"
   },
   {
     "id": "e4_ela_27",
     "examId": "exam4",
     "section": "ela",
     "questionNumber": 27,
-    "passageId": "e4_p4",
     "type": "multiple_choice",
     "prompt": "what they can, whatever seems most real\u2014 that they let us perceive their wild dancing, combusting to the music they make. The lines reveal the speaker's",
     "imageSrc": "/exams/exam4/items/ela_q27.png",
@@ -12515,14 +12514,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e4_p4"
   },
   {
     "id": "e4_ela_28",
     "examId": "exam4",
     "section": "ela",
     "questionNumber": 28,
-    "passageId": "e4_p5",
     "type": "multiple_choice",
     "prompt": "American Indians to begin practicing controlled burns?",
     "imageSrc": "/exams/exam4/items/ela_q28.png",
@@ -12554,14 +12553,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e4_p5"
   },
   {
     "id": "e4_ela_29",
     "examId": "exam4",
     "section": "ela",
     "questionNumber": 29,
-    "passageId": "e4_p5",
     "type": "multiple_choice",
     "prompt": "Using Fire to Keep a Prairie Healthy \u2022 Inside the 40,000-acre Joseph H. Williams Tallgrass Prairie Preserve in northern Oklahoma, herds of bison roam on the scenic land that is home to hundreds of different species of plants and animals. While one of the greatest threats to the prairie is wildfire, the use of controlled fires is actually an effective way to protect this idyllic landscape. 2 Fires that are started by lightning or other natural circumstances are inevitable, and the results can be disastrous. However, hundreds of years ago the American Indian people who inhabited the Great Plains area between Minnesota and Texas realized that these fires could also be helpful. The bison in the area seemed to prefer grazing on tender new grass on the recently burned land rather than on grass in the unburned areas. The American Indian people began to deliberately burn areas of land for bison to graze on, which enticed the herds away from the people's crops. 3 Today conservationists at the Tallgrass Prairie Preserve and farmers in the Great Plains continue to use controlled burns for land Targeting red cedar trees in controlled burns affects the animals that live on the prairie mostly by",
     "imageSrc": "/exams/exam4/items/ela_q29.png",
@@ -12593,14 +12592,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e4_p5"
   },
   {
     "id": "e4_ela_30",
     "examId": "exam4",
     "section": "ela",
     "questionNumber": 30,
-    "passageId": "e4_p5",
     "type": "multiple_choice",
     "prompt": "The author includes this sentence to show that",
     "imageSrc": "/exams/exam4/items/ela_q30.png",
@@ -12632,14 +12631,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e4_p5"
   },
   {
     "id": "e4_ela_31",
     "examId": "exam4",
     "section": "ela",
     "questionNumber": 31,
-    "passageId": "e4_p5",
     "type": "multiple_choice",
     "prompt": "land may be concerned about using fire as a way to benefit the land?",
     "imageSrc": "/exams/exam4/items/ela_q31.png",
@@ -12671,14 +12670,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e4_p5"
   },
   {
     "id": "e4_ela_32",
     "examId": "exam4",
     "section": "ela",
     "questionNumber": 32,
-    "passageId": "e4_p5",
     "type": "multiple_choice",
     "prompt": "Using Fire to Keep a Prairie Healthy 1) Inside the 40,000-acre Joseph H. Williams Tallgrass Prairie Preserve in northern Oklahoma, herds of bison roam on the scenic land that is home to hundreds of different species of plants and animals. While one of the l greatest threats to the prairie is wildfire, the use of controlled fires is actually an effective way to protect this idyllic landscape. 2 Fires that are started by lightning or other natural circumstances are inevitable, and the results can be disastrous. However, hundreds of years ago the American Indian people who inhabited the Great Plains area between Minnesota and Texas realized that these fires could also be helpful. The bison in the area seemed to prefer grazing on tender new grass on the recently burned land rather than on grass in the unburned areas. The American Indian people began to deliberately burn areas of land for bison to graze on, which enticed the herds away from the people's crops. 3) Today conservationists at the Tallgrass Prairie Preserve and farmers in the Great Plains continue to use controlled burns for land Read this sentence from paragraph 6. Burning land to make it healthy may seem counterintuitive, but strategic controlled fires have helped the prairie sustain life for hundreds of years and, with careful management, will continue to do so. The words \"counterintuitive\" and \"strategic\" in the sentence convey the idea that",
     "imageSrc": "/exams/exam4/items/ela_q32.png",
@@ -12710,14 +12709,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e4_p5"
   },
   {
     "id": "e4_ela_33",
     "examId": "exam4",
     "section": "ela",
     "questionNumber": 33,
-    "passageId": "e4_p5",
     "type": "multiple_choice",
     "prompt": "With which statement would the author most likely agree?",
     "imageSrc": "/exams/exam4/items/ela_q33.png",
@@ -12749,14 +12748,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e4_p5"
   },
   {
     "id": "e4_ela_34",
     "examId": "exam4",
     "section": "ela",
     "questionNumber": 34,
-    "passageId": "e4_p5",
     "type": "multiple_choice",
     "prompt": "presented in the passage?",
     "imageSrc": "/exams/exam4/items/ela_q34.png",
@@ -12788,14 +12787,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e4_p5"
   },
   {
     "id": "e4_ela_35",
     "examId": "exam4",
     "section": "ela",
     "questionNumber": 35,
-    "passageId": "e4_p6",
     "type": "multiple_choice",
     "prompt": "How does the structure of the poem affect the poem's meaning?",
     "imageSrc": "/exams/exam4/items/ela_q35.png",
@@ -12827,14 +12826,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e4_p6"
   },
   {
     "id": "e4_ela_36",
     "examId": "exam4",
     "section": "ela",
     "questionNumber": 36,
-    "passageId": "e4_p6",
     "type": "multiple_choice",
     "prompt": "speaker's appreciation for the city?",
     "imageSrc": "/exams/exam4/items/ela_q36.png",
@@ -12866,14 +12865,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e4_p6"
   },
   {
     "id": "e4_ela_37",
     "examId": "exam4",
     "section": "ela",
     "questionNumber": 37,
-    "passageId": "e4_p6",
     "type": "multiple_choice",
     "prompt": "How do the lines develop a central theme of the poem?",
     "imageSrc": "/exams/exam4/items/ela_q37.png",
@@ -12905,14 +12904,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e4_p6"
   },
   {
     "id": "e4_ela_38",
     "examId": "exam4",
     "section": "ela",
     "questionNumber": 38,
-    "passageId": "e4_p6",
     "type": "multiple_choice",
     "prompt": "How I will grow tired of the bridge's steep incline, and the absent-minded tourists wandering into the bicycle path. 5 The weather will turn cold. But that all happens later. For now it is the early edge of fall, leaves green still while the air narrows, is slightly crisp, almost grazing 10 the hair of my arm like a passing stranger, as though the air has been forced into intimacy by the brevity of daylight. But when it starts darkening at 4, this closeness, I know, will be a felt distance, 15 like someone drawing your attention en thainladle afintimar, Read lines 7-9 from the poem. For now it is the early edge of fall, leaves green still while the air narrows is slightly crisp, The word choice in the lines helps convey the speaker's belief that",
     "imageSrc": "/exams/exam4/items/ela_q38.png",
@@ -12944,14 +12943,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e4_p6"
   },
   {
     "id": "e4_ela_39",
     "examId": "exam4",
     "section": "ela",
     "questionNumber": 39,
-    "passageId": "e4_p6",
     "type": "multiple_choice",
     "prompt": "Letter from Brooklyn by Jacob Scheier I can already see how this will end. How I will grow tired of the bridge's steep incline, and the absent-minded tourists wandering into the bicycle path. 5 The weather will turn cold. But that all happens later. For now it is the early edge of fall, leaves green still while the air narrows, is slightly crisp, almost grazing 10 the hair of my arm like a passing stranger, as though the air has been forced into intimacy by the brevity of daylight. But when it starts darkening at 4, this closeness, I know, will be a felt distance, 15 like someone drawing your attention to thainladle afintimar. Which idea does the comparison of the brownstone houses to \"a pop-up picture book I could have had as a child, / but didn't\" in lines 20-21 convey? \u2022 A. It reveals that some people are still influenced by powerful images from childhood. \u2022 B. It indicates that the neighborhood the speaker is walking through is charming and appealing. O C. It suggests that the speaker has wanted to live in the neighborhood since childhood. 0 D. It suggests that people often experience lingering regret from their past.",
     "imageSrc": "/exams/exam4/items/ela_q39.png",
@@ -12983,14 +12982,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e4_p6"
   },
   {
     "id": "e4_ela_40",
     "examId": "exam4",
     "section": "ela",
     "questionNumber": 40,
-    "passageId": "e4_p6",
     "type": "multiple_choice",
     "prompt": "How Brooklyn makes me nostalgic for the moment I am walking inside of. (lines 21-22) The lines develop a central idea of the poem by",
     "imageSrc": "/exams/exam4/items/ela_q40.png",
@@ -13022,14 +13021,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: C. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e4_p6"
   },
   {
     "id": "e4_ela_41",
     "examId": "exam4",
     "section": "ela",
     "questionNumber": 41,
-    "passageId": "e4_p6",
     "type": "multiple_choice",
     "prompt": "How I will grow tired of the bridge's steep incline, and the absent-minded tourists wandering into the bicycle path. 5 The weather will turn cold. But that all happens later. For now it is the early edge of fall, leaves green still while the air narrows, is slightly crisp, almost grazing 10 the hair of my arm like a passing stranger, as though the air has been forced into intimacy by the brevity of daylight. But when it starts darkening at 4, this closeness, I know, will be a felt distance, 15 like someone drawing your attention to thainladle afintiman, The speaker's thoughts throughout the poem develop a theme by showing that",
     "imageSrc": "/exams/exam4/items/ela_q41.png",
@@ -13061,14 +13060,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e4_p6"
   },
   {
     "id": "e4_ela_42",
     "examId": "exam4",
     "section": "ela",
     "questionNumber": 42,
-    "passageId": "e4_p7",
     "type": "multiple_choice",
     "prompt": "the passage?",
     "imageSrc": "/exams/exam4/items/ela_q42.png",
@@ -13100,14 +13099,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e4_p7"
   },
   {
     "id": "e4_ela_43",
     "examId": "exam4",
     "section": "ela",
     "questionNumber": 43,
-    "passageId": "e4_p7",
     "type": "multi_select",
     "prompt": "The End of an Era (1) In 2004, the National Aeronautics and Space Administration (NASA) landed a rover, or robotic vehicle, named Opportunity on the surface of Mars. (2) The rover's mission was to search for evidence of water and life on the planet. (3) The rover was designed to gather data on Mars for about 90 days, but Opportunity's assignment did not come to an end until nearly 15 years later in 2019. (4) During the rover's mission, a high-resolution camera on the rover's robotic arm took magnified photographs of the surface of Mars. (5) The photographs revealed small round rocks scattered across the surface of the planet. (6) The scientists nicknamed these rocks \"blueberries\" based on the rocks' resemblance to the fruit. (7) These rocks were important because their spherical shape suggested that liquid water may have flowed over them for a substantial amount of time. (8) Opportunity continued to provide valuable data about craters and other surface features. (9) Throughout the mission, the rover traveled a total of 28.06 miles across Mars' surface. (10) When Opportunity had Which word should be added to the beginning of sentence 8 to provide a better transition to the third paragraph (sentences 8-11)? Move the correct answer to the box. Overall, Furthermore, Meanwhile, Consequently, (8) Opportunity continued to provide valuable data about craters and other surface features.",
     "imageSrc": "/exams/exam4/items/ela_q43.png",
@@ -13143,14 +13142,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: \"Meanwhile,\". This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: \"Meanwhile,\". This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e4_p7"
   },
   {
     "id": "e4_ela_44",
     "examId": "exam4",
     "section": "ela",
     "questionNumber": 44,
-    "passageId": "e4_p7",
     "type": "multiple_choice",
     "prompt": "in the passage?",
     "imageSrc": "/exams/exam4/items/ela_q44.png",
@@ -13182,14 +13181,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: A. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e4_p7"
   },
   {
     "id": "e4_ela_45",
     "examId": "exam4",
     "section": "ela",
     "questionNumber": 45,
-    "passageId": "e4_p7",
     "type": "multiple_choice",
     "prompt": "Where should the sentence be added to the passage?",
     "imageSrc": "/exams/exam4/items/ela_q45.png",
@@ -13221,14 +13220,14 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: B. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e4_p7"
   },
   {
     "id": "e4_ela_46",
     "examId": "exam4",
     "section": "ela",
     "questionNumber": 46,
-    "passageId": "e4_p7",
     "type": "multiple_choice",
     "prompt": "What is the best way to combine sentences 12 and 13?",
     "imageSrc": "/exams/exam4/items/ela_q46.png",
@@ -13260,7 +13259,8 @@ export const QUESTIONS: Question[] = [
       "Verify your final calculation against the problem context to ensure reasonableness."
     ],
     "trapAlert": "Watch out for common distractor choices that solve for an intermediate value or invert operations.",
-    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships."
+    "explanation": "Official NYC DOE Answer: D. This answer directly satisfies the stated conditions and algebraic/textual relationships.",
+    "passageId": "e4_p7"
   },
   {
     "id": "e4_ela_47",
@@ -13605,12 +13605,12 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 58,
     "type": "multiple_choice",
-    "prompt": "Solve the mathematical problem shown in question 8.",
+    "prompt": "this rate, how many bundles of shingles will he need in order to cover a roof that is 416 square feet?",
     "imageSrc": "/exams/exam4/items/math_q08.png",
     "options": [
       {
         "id": "A",
-        "text": "roofing contractor uses shingles at a rate of 3 bundles for every 96 square feet of roof covered. At this rate, how many bundles of shingles will he need in order to cover a roof that is 416 square feet? \u2022 A. 5"
+        "text": "5"
       },
       {
         "id": "B",
@@ -13626,8 +13626,8 @@ export const QUESTIONS: Question[] = [
       }
     ],
     "correctAnswer": "C",
-    "topic": "Algebra & Equations",
-    "subtopic": "Linear Equations & Algebraic Modeling",
+    "topic": "Proportional Reasoning & Percentages",
+    "subtopic": "Ratios, Rates & Scale Drawings",
     "difficulty": "Easy",
     "hints": [
       "Identify the given information in the problem carefully and note the exact question being asked.",
@@ -13719,12 +13719,12 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 61,
     "type": "multiple_choice",
-    "prompt": "Solve the mathematical problem shown in question 11.",
+    "prompt": "marbles, what will be the new ratio of red to green marbles?",
     "imageSrc": "/exams/exam4/items/math_q11.png",
     "options": [
       {
         "id": "A",
-        "text": "bag contains 75 marbles that are red, blue, or green. The ratio of red to blue marbles is 15:7, and the ratio of blue to green marbles is 7:3. If 2 blue marbles are removed and replaced with 2 green marbles, what will be the new ratio of red to green marbles? \u2022 A. 3:1."
+        "text": "3:1."
       },
       {
         "id": "B",
@@ -13740,8 +13740,8 @@ export const QUESTIONS: Question[] = [
       }
     ],
     "correctAnswer": "D",
-    "topic": "Algebra & Equations",
-    "subtopic": "Linear Equations & Algebraic Modeling",
+    "topic": "Proportional Reasoning & Percentages",
+    "subtopic": "Ratios, Rates & Scale Drawings",
     "difficulty": "Easy",
     "hints": [
       "Identify the given information in the problem carefully and note the exact question being asked.",
@@ -13854,12 +13854,12 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 65,
     "type": "multiple_choice",
-    "prompt": "Solve the mathematical problem shown in question 15.",
+    "prompt": "of the part of the larger dinner plate that is not covered by the smaller plate?",
     "imageSrc": "/exams/exam4/items/math_q15.png",
     "options": [
       {
         "id": "A",
-        "text": "large circular dinner plate has a radius of 20 centimeters. A smaller circular plate with a circumference of 20m centimeters is placed in the center of the larger dinner plate. What is the area of the part of the larger dinner plate that is not covered by the smaller plate? \u2022 A. 20 sq cm"
+        "text": "20 sq cm"
       },
       {
         "id": "B",
@@ -14107,12 +14107,12 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 72,
     "type": "multiple_choice",
-    "prompt": "Solve the mathematical problem shown in question 22.",
+    "prompt": "What is the weight of the zinc in this coin?",
     "imageSrc": "/exams/exam4/items/math_q22.png",
     "options": [
       {
         "id": "A",
-        "text": "United States presidential coin is made from an alloy of four metals-copper, zinc, manganese, and nickel-with weights in the ratio of 177:12:7:4, respectively. The coin weighs a total of 8 grams. What is the weight of the zinc in this coin? \u2022 A. 0.28 gram"
+        "text": "0.28 gram"
       },
       {
         "id": "B",
@@ -14183,12 +14183,12 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 74,
     "type": "multiple_choice",
-    "prompt": "Solve the mathematical problem shown in question 24.",
+    "prompt": "weeks?",
     "imageSrc": "/exams/exam4/items/math_q24.png",
     "options": [
       {
         "id": "A",
-        "text": "chemical decays in such a way that the amount left at the end of each week is 20% less than the amount at the beginning of that same week. What percentage of the original amount is left after two weeks? \u2022 A. 40%"
+        "text": "40%"
       },
       {
         "id": "B",
@@ -14302,7 +14302,7 @@ export const QUESTIONS: Question[] = [
     "options": [
       {
         "id": "A",
-        "text": "40"
+        "text": ". 40"
       },
       {
         "id": "B",
@@ -14310,11 +14310,11 @@ export const QUESTIONS: Question[] = [
       },
       {
         "id": "C",
-        "text": "8"
+        "text": "8 D.1"
       },
       {
         "id": "D",
-        "text": "1"
+        "text": "Option D"
       }
     ],
     "correctAnswer": "D",
@@ -14369,7 +14369,7 @@ export const QUESTIONS: Question[] = [
       },
       {
         "id": "C",
-        "text": "18 sq cm \u2022"
+        "text": "18 sq cm"
       },
       {
         "id": "D",
@@ -14432,12 +14432,12 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 81,
     "type": "multiple_choice",
-    "prompt": "Solve the mathematical problem shown in question 31.",
+    "prompt": "with exactly 2 different toppings, how many different pizzas can he create?",
     "imageSrc": "/exams/exam4/items/math_q31.png",
     "options": [
       {
         "id": "A",
-        "text": "pizza shop offers a choice of 3 sizes (small, medium, and large) and 7 different toppings. Different pizzas can be created by changing the size and the choice of toppings. If Cody wants to order a pizza with exactly 2 different toppings, how many different pizzas can he create? \u2022 A. 6."
+        "text": "6."
       },
       {
         "id": "B",
@@ -14508,12 +14508,12 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 83,
     "type": "multiple_choice",
-    "prompt": "Solve the mathematical problem shown in question 33.",
+    "prompt": "If one side of the base is 3 feet long, what is the volume of this box?",
     "imageSrc": "/exams/exam4/items/math_q33.png",
     "options": [
       {
         "id": "A",
-        "text": "wooden box has a square base. The height of this box is 3 times the length of one side of the base. If one side of the base is 3 feet long, what is the volume of this box? \u2022 A. 9 cuft."
+        "text": "9 cuft."
       },
       {
         "id": "B",
@@ -14529,8 +14529,8 @@ export const QUESTIONS: Question[] = [
       }
     ],
     "correctAnswer": "D",
-    "topic": "Algebra & Equations",
-    "subtopic": "Linear Equations & Algebraic Modeling",
+    "topic": "Geometry & Spatial Reasoning",
+    "subtopic": "Geometric Figures, Area & Coordinate Planes",
     "difficulty": "Medium",
     "hints": [
       "Identify the given information in the problem carefully and note the exact question being asked.",

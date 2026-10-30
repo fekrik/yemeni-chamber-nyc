@@ -815,7 +815,8 @@ export default function ExamSimulator({
                       opt.text.includes("cultural traditions") || 
                       opt.text.includes("Calculation result") || 
                       opt.text.includes("foundational background") ||
-                      opt.text.includes("Solution option");
+                      opt.text.includes("Solution option") ||
+                      opt.text.length > 250;
                     const displayText = isGeneric ? `Choice ${displayLetter}` : opt.text;
 
                     let borderClass = "border-slate-800 bg-slate-800/50 hover:bg-slate-800";
