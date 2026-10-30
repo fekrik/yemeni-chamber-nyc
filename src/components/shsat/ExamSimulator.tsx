@@ -51,6 +51,19 @@ interface ExamSimulatorProps {
   targetSchoolId?: string;
 }
 
+function checkAnswerMatch(userAns?: string, correctAns?: string): boolean {
+  if (!userAns || !correctAns) return false;
+  const cleanUser = userAns.trim().toUpperCase().replace(/\s+/g, "");
+  const cleanCorrect = correctAns.trim().toUpperCase().replace(/\s+/g, "");
+  if (cleanUser === cleanCorrect) return true;
+  const numUser = parseFloat(cleanUser);
+  const numCorrect = parseFloat(cleanCorrect);
+  if (!isNaN(numUser) && !isNaN(numCorrect) && Math.abs(numUser - numCorrect) < 0.001) {
+    return true;
+  }
+  return false;
+}
+
 export default function ExamSimulator({
   exam,
   questions,
@@ -280,7 +293,7 @@ export default function ExamSimulator({
 
     // If incorrect, record in Mistake Notebook
     const userAns = answers[currentQ.id] || "";
-    const isCorrect = userAns.trim().toUpperCase() === currentQ.correctAnswer.trim().toUpperCase();
+    const isCorrect = checkAnswerMatch(userAns, currentQ.correctAnswer);
 
     if (!isCorrect && userAns) {
       try {
@@ -349,8 +362,7 @@ export default function ExamSimulator({
   const currentStruck = struckOptions[currentQ?.id] || [];
   const currentAnswer = answers[currentQ?.id] || "";
   const isChecked = checkedAnswers[currentQ?.id] || false;
-  const isCorrect =
-    currentAnswer.trim().toUpperCase() === currentQ?.correctAnswer.trim().toUpperCase();
+  const isCorrect = checkAnswerMatch(currentAnswer, currentQ?.correctAnswer);
   const currentHintLevel = revealedHints[currentQ?.id] || 0;
 
   return (
@@ -768,7 +780,7 @@ export default function ExamSimulator({
                   Select your response:
                 </p>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
-                  {currentQ.options.map((opt) => {
+                  {currentQ.options.slice(0, 4).map((opt) => {
                     const isStruck = currentStruck.includes(opt.id);
                     const isSelected = currentAnswer === opt.id;
                     const isCorrectChoice = opt.id === currentQ.correctAnswer;
@@ -952,50 +964,57 @@ export default function ExamSimulator({
           )}
 
           {/* Solution & Trap Alert Drawer (Appears after Check Answer in Tutor Mode) */}
-          {mode === "tutor" && isChecked && (
-            <div
-              className={`rounded-2xl p-5 border shadow-xl space-y-4 animate-in fade-in duration-200 ${
-                isCorrect
-                  ? "bg-emerald-950/30 border-emerald-500/40"
-                  : "bg-rose-950/30 border-rose-500/40"
-              }`}
-            >
-              <div className="flex items-center space-x-2">
-                {isCorrect ? (
-                  <>
-                    <CheckCircle2 className="w-5 h-5 text-emerald-400" />
-                    <span className="font-bold text-emerald-300 text-sm">
-                      Spot On! Correct Answer: {currentQ.correctAnswer}
-                    </span>
-                  </>
-                ) : (
-                  <>
-                    <XCircle className="w-5 h-5 text-rose-400" />
-                    <span className="font-bold text-rose-300 text-sm">
-                      Incorrect. Correct Answer: {currentQ.correctAnswer}
-                    </span>
-                  </>
-                )}
-              </div>
+          {mode === "tutor" && isChecked && (() => {
+            const isEven = (currentQ.questionNumber % 2 === 0);
+            const correctDisplayLetter = isEven && currentQ.options && currentQ.options.length > 0
+              ? (currentQ.correctAnswer === "A" ? "E" : currentQ.correctAnswer === "B" ? "F" : currentQ.correctAnswer === "C" ? "G" : currentQ.correctAnswer === "D" ? "H" : currentQ.correctAnswer)
+              : currentQ.correctAnswer;
 
-              {/* Trap Alert */}
-              <div className="p-3.5 rounded-xl bg-slate-900/90 border border-amber-500/30 text-xs space-y-1">
-                <div className="flex items-center space-x-1.5 text-amber-400 font-bold">
-                  <AlertTriangle className="w-4 h-4" />
-                  <span>Official Test Maker Trap Alert</span>
+            return (
+              <div
+                className={`rounded-2xl p-5 border shadow-xl space-y-4 animate-in fade-in duration-200 ${
+                  isCorrect
+                    ? "bg-emerald-950/30 border-emerald-500/40"
+                    : "bg-rose-950/30 border-rose-500/40"
+                }`}
+              >
+                <div className="flex items-center space-x-2">
+                  {isCorrect ? (
+                    <>
+                      <CheckCircle2 className="w-5 h-5 text-emerald-400" />
+                      <span className="font-bold text-emerald-300 text-sm">
+                        Spot On! Correct Answer: {correctDisplayLetter}
+                      </span>
+                    </>
+                  ) : (
+                    <>
+                      <XCircle className="w-5 h-5 text-rose-400" />
+                      <span className="font-bold text-rose-300 text-sm">
+                        Incorrect. Correct Answer: {correctDisplayLetter}
+                      </span>
+                    </>
+                  )}
                 </div>
-                <p className="text-slate-300 leading-relaxed">{currentQ.trapAlert}</p>
-              </div>
 
-              {/* Full Explanation */}
-              <div className="p-3.5 rounded-xl bg-slate-900/90 border border-slate-700 text-xs space-y-1.5">
-                <span className="font-bold text-slate-200 uppercase tracking-wider text-[11px]">
-                  Step-by-Step Breakdown:
-                </span>
-                <p className="text-slate-300 leading-relaxed font-sans">{currentQ.explanation}</p>
+                {/* Trap Alert */}
+                <div className="p-3.5 rounded-xl bg-slate-900/90 border border-amber-500/30 text-xs space-y-1">
+                  <div className="flex items-center space-x-1.5 text-amber-400 font-bold">
+                    <AlertTriangle className="w-4 h-4" />
+                    <span>Official Test Maker Trap Alert</span>
+                  </div>
+                  <p className="text-slate-300 leading-relaxed">{currentQ.trapAlert}</p>
+                </div>
+
+                {/* Full Explanation */}
+                <div className="p-3.5 rounded-xl bg-slate-900/90 border border-slate-700 text-xs space-y-1.5">
+                  <span className="font-bold text-slate-200 uppercase tracking-wider text-[11px]">
+                    Step-by-Step Breakdown:
+                  </span>
+                  <p className="text-slate-300 leading-relaxed font-sans">{currentQ.explanation}</p>
+                </div>
               </div>
-            </div>
-          )}
+            );
+          })()}
         </div>
       </main>
 

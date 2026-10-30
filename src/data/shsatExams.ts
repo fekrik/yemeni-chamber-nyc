@@ -713,28 +713,28 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 7,
     "passageId": "e1_p2",
     "type": "multiple_choice",
-    "prompt": "",
+    "prompt": "Read this sentence from paragraph 2: 'They are extraordinarily level, one long curtain of lacework and woven foam.' What is the effect of comparing the American Falls to a 'long curtain of lacework and woven foam'?",
     "imageSrc": "/exams/exam1/items/ela_q07.png",
     "options": [
       {
         "id": "A",
-        "text": "Choice A"
+        "text": "It demonstrates the timelessness of the American Falls."
       },
       {
         "id": "B",
-        "text": "Choice B"
+        "text": "It conveys the secretive nature of the American Falls."
       },
       {
         "id": "C",
-        "text": "Choice C"
+        "text": "It illustrates the elegant uniformity of the American Falls."
       },
       {
         "id": "D",
-        "text": "Choice D"
+        "text": "It communicates the intense strength of the American Falls."
       }
     ],
     "correctAnswer": "C",
-    "topic": "Reading Comprehension: Tone & Mood",
+    "topic": "Figurative Language & Imagery",
     "difficulty": "Hard",
     "hints": [
       "Re-read the specific paragraphs referenced in the passage excerpt.",
@@ -742,7 +742,7 @@ export const QUESTIONS: Question[] = [
       "Look for the choice that accurately captures the author's precise rhetorical intent."
     ],
     "trapAlert": "Be careful not to pick choices that sound inspiring or scientifically plausible on their own unless they are directly verified by line evidence in the passage.",
-    "explanation": "The correct option is supported directly by textual citations, illustrating the nuanced balance between evidence and analytical inference."
+    "explanation": "Comparing the falls to an 'extraordinarily level' curtain of lacework highlights delicate, elegant uniformity."
   },
   {
     "id": "e1_ela_08",
@@ -751,28 +751,28 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 8,
     "passageId": "e1_p2",
     "type": "multiple_choice",
-    "prompt": "",
+    "prompt": "Read this sentence from paragraph 3: 'These are the lower rapids, a sight more terrifying than the Falls, because less intelligible.' Which statement best describes how the sentence fits into the overall structure of the excerpt?",
     "imageSrc": "/exams/exam1/items/ela_q08.png",
     "options": [
       {
         "id": "A",
-        "text": "Choice A"
+        "text": "It signals a change from the positive aspects of the Falls to the negative aspects."
       },
       {
         "id": "B",
-        "text": "Choice B"
+        "text": "It indicates a progression from the literal description of the water to a discussion of timeless truths."
       },
       {
         "id": "C",
-        "text": "Choice C"
+        "text": "It reinforces a shift from the qualities of the Falls to the qualities of the river."
       },
       {
         "id": "D",
-        "text": "Choice D"
+        "text": "It introduces a contrast between the obvious and the hidden features of the rapids."
       }
     ],
-    "correctAnswer": "B",
-    "topic": "Reading Comprehension: Author's Craft",
+    "correctAnswer": "C",
+    "topic": "Text Structure & Transitions",
     "difficulty": "Medium",
     "hints": [
       "Re-read the specific paragraphs referenced in the passage excerpt.",
@@ -780,7 +780,7 @@ export const QUESTIONS: Question[] = [
       "Look for the choice that accurately captures the author's precise rhetorical intent."
     ],
     "trapAlert": "Be careful not to pick choices that sound inspiring or scientifically plausible on their own unless they are directly verified by line evidence in the passage.",
-    "explanation": "The correct option is supported directly by textual citations, illustrating the nuanced balance between evidence and analytical inference."
+    "explanation": "The sentence transitions Brooke's description from the immediate plunge of the Falls to the chaotic lower rapids of the river below."
   },
   {
     "id": "e1_ela_09",
@@ -789,28 +789,28 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 9,
     "passageId": "e1_p2",
     "type": "multiple_choice",
-    "prompt": "",
+    "prompt": "Which sentence from the excerpt best supports the idea that the essence of the Falls lies in their emotional impact?",
     "imageSrc": "/exams/exam1/items/ela_q09.png",
     "options": [
       {
         "id": "A",
-        "text": "Choice A"
+        "text": "'If that were taken away, there would be little visible change, but the heart would be gone.' (paragraph 1)"
       },
       {
         "id": "B",
-        "text": "Choice B"
+        "text": "'By comparison their beauty is almost delicate and fragile.' (paragraph 2)"
       },
       {
         "id": "C",
-        "text": "Choice C"
+        "text": "'One is drawn back, strangely, to a contemplation of the Falls, at every hour...' (paragraph 4)"
       },
       {
         "id": "D",
-        "text": "Choice D"
+        "text": "'A man's life is of many flashing moments, and yet one stream...' (paragraph 4)"
       }
     ],
-    "correctAnswer": "D",
-    "topic": "Reading Comprehension: Evidence & Inference",
+    "correctAnswer": "A",
+    "topic": "Citing Textual Evidence",
     "difficulty": "Hard",
     "hints": [
       "Re-read the specific paragraphs referenced in the passage excerpt.",
@@ -818,7 +818,7 @@ export const QUESTIONS: Question[] = [
       "Look for the choice that accurately captures the author's precise rhetorical intent."
     ],
     "trapAlert": "Be careful not to pick choices that sound inspiring or scientifically plausible on their own unless they are directly verified by line evidence in the passage.",
-    "explanation": "The correct option is supported directly by textual citations, illustrating the nuanced balance between evidence and analytical inference."
+    "explanation": "Paragraph 1 explicitly asserts that the real secret is the emotional feeling of colossal power; without it, 'the heart would be gone.'"
   },
   {
     "id": "e1_ela_10",
@@ -827,28 +827,28 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 10,
     "passageId": "e1_p2",
     "type": "multiple_choice",
-    "prompt": "",
+    "prompt": "Read this sentence from paragraph 4: 'There one can sit and let great cloudy thoughts of destiny and the passage of empires drift through the mind; for such dreams are at home by Niagara.' The sentence most contributes to the development of ideas in the excerpt by",
     "imageSrc": "/exams/exam1/items/ela_q10.png",
     "options": [
       {
         "id": "A",
-        "text": "Choice A"
+        "text": "suggesting that viewing the Falls can be a life-changing experience."
       },
       {
         "id": "B",
-        "text": "Choice B"
+        "text": "showing that the cliffs of the Falls are a good place for self-examination."
       },
       {
         "id": "C",
-        "text": "Choice C"
+        "text": "emphasizing that the grandeur of the Falls seems impossible to grasp."
       },
       {
         "id": "D",
-        "text": "Choice D"
+        "text": "highlighting the type of reflection that is inspired by a visit to the Falls."
       }
     ],
-    "correctAnswer": "A",
-    "topic": "Reading Comprehension: Theme",
+    "correctAnswer": "D",
+    "topic": "Author's Purpose & Philosophical Reflection",
     "difficulty": "Medium",
     "hints": [
       "Re-read the specific paragraphs referenced in the passage excerpt.",
@@ -856,7 +856,7 @@ export const QUESTIONS: Question[] = [
       "Look for the choice that accurately captures the author's precise rhetorical intent."
     ],
     "trapAlert": "Be careful not to pick choices that sound inspiring or scientifically plausible on their own unless they are directly verified by line evidence in the passage.",
-    "explanation": "The correct option is supported directly by textual citations, illustrating the nuanced balance between evidence and analytical inference."
+    "explanation": "Brooke illustrates the contemplative, historical reverie and deep reflection that visiting Niagara naturally inspires."
   },
   {
     "id": "e1_ela_11",
@@ -865,28 +865,28 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 11,
     "passageId": "e1_p2",
     "type": "multiple_choice",
-    "prompt": "",
+    "prompt": "In paragraph 4, the idea that human life and history ultimately end in the same way is illustrated mainly through",
     "imageSrc": "/exams/exam1/items/ela_q11.png",
     "options": [
       {
         "id": "A",
-        "text": "Choice A"
+        "text": "the discussion of how the rainbows visible in the Falls are like the art and beauty created by humankind."
       },
       {
         "id": "B",
-        "text": "Choice B"
+        "text": "the comparison between the movement of water in the Falls and the human experience."
       },
       {
         "id": "C",
-        "text": "Choice C"
+        "text": "the inclusion of details that show that every observer's experience with the Falls is different."
       },
       {
         "id": "D",
-        "text": "Choice D"
+        "text": "the acknowledgment that contemplating the Falls at night sparks an awareness of humankind's destiny."
       }
     ],
-    "correctAnswer": "C",
-    "topic": "Reading Comprehension: Vocabulary in Context",
+    "correctAnswer": "B",
+    "topic": "Theme & Analogy",
     "difficulty": "Hard",
     "hints": [
       "Re-read the specific paragraphs referenced in the passage excerpt.",
@@ -894,7 +894,7 @@ export const QUESTIONS: Question[] = [
       "Look for the choice that accurately captures the author's precise rhetorical intent."
     ],
     "trapAlert": "Be careful not to pick choices that sound inspiring or scientifically plausible on their own unless they are directly verified by line evidence in the passage.",
-    "explanation": "The correct option is supported directly by textual citations, illustrating the nuanced balance between evidence and analytical inference."
+    "explanation": "Brooke explicitly compares individual human moments to droplets flowing together into a single ceaseless stream."
   },
   {
     "id": "e1_ela_12",
@@ -903,28 +903,28 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 12,
     "passageId": "e1_p2",
     "type": "multiple_choice",
-    "prompt": "",
+    "prompt": "With which statement would the author of this excerpt most likely agree?",
     "imageSrc": "/exams/exam1/items/ela_q12.png",
     "options": [
       {
         "id": "A",
-        "text": "Choice A"
+        "text": "A sense of ease and assurance comes with accepting one's fate."
       },
       {
         "id": "B",
-        "text": "Choice B"
+        "text": "No matter where one's path goes in life, one will always have regrets."
       },
       {
         "id": "C",
-        "text": "Choice C"
+        "text": "The best way to overcome fear is to recognize it and then defy it."
       },
       {
         "id": "D",
-        "text": "Choice D"
+        "text": "Reason will die out with humanity, but art will remain immortal."
       }
     ],
-    "correctAnswer": "B",
-    "topic": "Reading Comprehension: Structure",
+    "correctAnswer": "A",
+    "topic": "Author's Philosophical Stance",
     "difficulty": "Medium",
     "hints": [
       "Re-read the specific paragraphs referenced in the passage excerpt.",
@@ -932,7 +932,7 @@ export const QUESTIONS: Question[] = [
       "Look for the choice that accurately captures the author's precise rhetorical intent."
     ],
     "trapAlert": "Be careful not to pick choices that sound inspiring or scientifically plausible on their own unless they are directly verified by line evidence in the passage.",
-    "explanation": "The correct option is supported directly by textual citations, illustrating the nuanced balance between evidence and analytical inference."
+    "explanation": "Brooke finds profound calm and meditative peace in recognizing the inevitable current of destiny."
   },
   {
     "id": "e1_ela_13",
@@ -941,28 +941,28 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 13,
     "passageId": "e1_p3",
     "type": "multiple_choice",
-    "prompt": "",
+    "prompt": "In paragraph 1 of Impressions of an Indian Childhood, the phrases 'cool morning breezes swept freely' and 'wafting the perfume of sweet grasses' affect the tone of the excerpt by suggesting",
     "imageSrc": "/exams/exam1/items/ela_q13.png",
     "options": [
       {
         "id": "A",
-        "text": "Choice A"
+        "text": "the sadness that the author feels reflecting upon her former way of life."
       },
       {
         "id": "B",
-        "text": "Choice B"
+        "text": "the enthusiasm with which the author approached her work indoors."
       },
       {
         "id": "C",
-        "text": "Choice C"
+        "text": "the fond feelings that the author has toward her childhood experiences."
       },
       {
         "id": "D",
-        "text": "Choice D"
+        "text": "the mix of emotions that the author feels toward her work and her mother."
       }
     ],
-    "correctAnswer": "D",
-    "topic": "Reading Comprehension: Cultural Context",
+    "correctAnswer": "C",
+    "topic": "Tone & Sensory Details",
     "difficulty": "Hard",
     "hints": [
       "Re-read the specific paragraphs referenced in the passage excerpt.",
@@ -970,7 +970,7 @@ export const QUESTIONS: Question[] = [
       "Look for the choice that accurately captures the author's precise rhetorical intent."
     ],
     "trapAlert": "Be careful not to pick choices that sound inspiring or scientifically plausible on their own unless they are directly verified by line evidence in the passage.",
-    "explanation": "The correct option is supported directly by textual citations, illustrating the nuanced balance between evidence and analytical inference."
+    "explanation": "The refreshing sensory language evokes nostalgic warmth and fondness for the peaceful freedom of her youth."
   },
   {
     "id": "e1_ela_14",
@@ -979,28 +979,28 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 14,
     "passageId": "e1_p3",
     "type": "multiple_choice",
-    "prompt": "",
+    "prompt": "The phrase 'just as an artist arranges the paints upon his palette' in paragraph 2 suggests that",
     "imageSrc": "/exams/exam1/items/ela_q14.png",
     "options": [
       {
         "id": "A",
-        "text": "Choice A"
+        "text": "beadwork is a true form of art."
       },
       {
         "id": "B",
-        "text": "Choice B"
+        "text": "color is a source of artistic inspiration."
       },
       {
         "id": "C",
-        "text": "Choice C"
+        "text": "all artistic activities begin with a series of steps."
       },
       {
         "id": "D",
-        "text": "Choice D"
+        "text": "the beadworker tries to imitate art."
       }
     ],
     "correctAnswer": "A",
-    "topic": "Reading Comprehension: Character Development",
+    "topic": "Figurative Language & Metaphor",
     "difficulty": "Medium",
     "hints": [
       "Re-read the specific paragraphs referenced in the passage excerpt.",
@@ -1008,7 +1008,7 @@ export const QUESTIONS: Question[] = [
       "Look for the choice that accurately captures the author's precise rhetorical intent."
     ],
     "trapAlert": "Be careful not to pick choices that sound inspiring or scientifically plausible on their own unless they are directly verified by line evidence in the passage.",
-    "explanation": "The correct option is supported directly by textual citations, illustrating the nuanced balance between evidence and analytical inference."
+    "explanation": "Comparing bead selection to an artist's palette validates traditional Native American beadwork as an authentic, sophisticated fine art."
   },
   {
     "id": "e1_ela_15",
@@ -1017,28 +1017,28 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 15,
     "passageId": "e1_p3",
     "type": "multiple_choice",
-    "prompt": "",
+    "prompt": "The author's use of sequence in paragraphs 1 and 2 contributes to the development of ideas in the excerpt by",
     "imageSrc": "/exams/exam1/items/ela_q15.png",
     "options": [
       {
         "id": "A",
-        "text": "Choice A"
+        "text": "listing the many steps that are involved in the process of beading in order to explain its difficulty."
       },
       {
         "id": "B",
-        "text": "Choice B"
+        "text": "conveying the importance of following the steps of the beading process in a precise order."
       },
       {
         "id": "C",
-        "text": "Choice C"
+        "text": "emphasizing the time required to fully prepare for and execute the tasks in the activity."
       },
       {
         "id": "D",
-        "text": "Choice D"
+        "text": "detailing each step in preparation for beading in order to highlight the author's enthusiasm for the work."
       }
     ],
-    "correctAnswer": "C",
-    "topic": "Reading Comprehension: Symbolism",
+    "correctAnswer": "D",
+    "topic": "Text Structure & Sequencing",
     "difficulty": "Hard",
     "hints": [
       "Re-read the specific paragraphs referenced in the passage excerpt.",
@@ -1046,7 +1046,7 @@ export const QUESTIONS: Question[] = [
       "Look for the choice that accurately captures the author's precise rhetorical intent."
     ],
     "trapAlert": "Be careful not to pick choices that sound inspiring or scientifically plausible on their own unless they are directly verified by line evidence in the passage.",
-    "explanation": "The correct option is supported directly by textual citations, illustrating the nuanced balance between evidence and analytical inference."
+    "explanation": "Walking through each preparatory action step-by-step conveys how closely and eagerly the young narrator watched and participated."
   },
   {
     "id": "e1_ela_16",
@@ -1055,28 +1055,28 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 16,
     "passageId": "e1_p4",
     "type": "multiple_choice",
-    "prompt": "Throughout the poem, the poet conveys the speaker's point of view by",
+    "prompt": "Which statement best summarizes the process of creating decorated moccasins described in the excerpt?",
     "imageSrc": "/exams/exam1/items/ela_q16.png",
     "options": [
       {
         "id": "A",
-        "text": "gradually moving the speaker's attention from one element of nature to another."
+        "text": "First soften buckskin in water; pierce with bone needles; stitch patterns with plant fibers."
       },
       {
         "id": "B",
-        "text": "providing the speaker's motivation for describing the landscape in great detail."
+        "text": "Prepare dye baths from berries; dip beads; hammer onto leather sole."
       },
       {
         "id": "C",
-        "text": "highlighting the speaker's emotional response as each season passes."
+        "text": "Sort colorful beads on a mat; prepare sinew thread; pierce buckskin with an awl; string beads and stitch tightly into intricate patterns."
       },
       {
         "id": "D",
-        "text": "shifting the speaker's focus from external observations to personal reflection."
+        "text": "Weave dyed porcupine quills onto cloth before gluing them directly onto hide."
       }
     ],
-    "correctAnswer": "A",
-    "topic": "Reading Comprehension: Speaker's Point of View",
+    "correctAnswer": "C",
+    "topic": "Summarizing Procedural Details",
     "difficulty": "Medium",
     "hints": [
       "Notice how the speaker observes different elements of nature in sequence: frogs and mud, summer garden, birds talking, yellowhammer, blackbird, snow, and sunlight.",
@@ -1084,7 +1084,7 @@ export const QUESTIONS: Question[] = [
       "Choice E (represented as A in the system) accurately describes how the speaker's attention moves across nature."
     ],
     "trapAlert": "Trap H suggests a shift to personal reflection, but the poem remains grounded in direct observation of external natural phenomena rather than introspection.",
-    "explanation": "Option E (Option A in system) is correct. Throughout 'Bird Talk', Carl Sandburg develops the speaker's point of view by gradually moving attention from one natural element to another across shifting seasons."
+    "explanation": "The text details spreading beads on mats, using sinew rolled on the knee, piercing leather with an awl, and stitching beads tightly."
   },
   {
     "id": "e1_ela_17",
@@ -1093,28 +1093,28 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 17,
     "passageId": "e1_p3",
     "type": "multiple_choice",
-    "prompt": "",
+    "prompt": "The idea that mastering moccasin design and creation requires experience is best illustrated in the excerpt through",
     "imageSrc": "/exams/exam1/items/ela_q17.png",
     "options": [
       {
         "id": "A",
-        "text": "Choice A"
+        "text": "the information about the advanced technique of incorporating porcupine quills into a design."
       },
       {
         "id": "B",
-        "text": "Choice B"
+        "text": "the descriptions of the special materials that must be used to make decorated moccasins."
       },
       {
         "id": "C",
-        "text": "Choice C"
+        "text": "the descriptions of the various color combinations that make an attractive moccasin design."
       },
       {
         "id": "D",
-        "text": "Choice D"
+        "text": "the example of the author successfully and independently using a sharpened rod."
       }
     ],
-    "correctAnswer": "D",
-    "topic": "Reading Comprehension: Poetic Structure",
+    "correctAnswer": "A",
+    "topic": "Drawing Inferences & Text Evidence",
     "difficulty": "Hard",
     "hints": [
       "Re-read the specific paragraphs referenced in the passage excerpt.",
@@ -1122,7 +1122,7 @@ export const QUESTIONS: Question[] = [
       "Look for the choice that accurately captures the author's precise rhetorical intent."
     ],
     "trapAlert": "Be careful not to pick choices that sound inspiring or scientifically plausible on their own unless they are directly verified by line evidence in the passage.",
-    "explanation": "The correct option is supported directly by textual citations, illustrating the nuanced balance between evidence and analytical inference."
+    "explanation": "Working with porcupine quills is noted as a difficult specialty reserved only for experienced women of demonstrated skill."
   },
   {
     "id": "e1_ela_18",
@@ -1131,28 +1131,28 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 18,
     "passageId": "e1_p3",
     "type": "multiple_choice",
-    "prompt": "",
+    "prompt": "How does the author distinguish her point of view from that of her mother?",
     "imageSrc": "/exams/exam1/items/ela_q18.png",
     "options": [
       {
         "id": "A",
-        "text": "Choice A"
+        "text": "by describing their techniques for knotting sinew thread (paragraph 4)"
       },
       {
         "id": "B",
-        "text": "Choice B"
+        "text": "by describing their approaches to beadwork design (paragraph 5)"
       },
       {
         "id": "C",
-        "text": "Choice C"
+        "text": "by stating her mother's instructions on working with quills (paragraph 6)"
       },
       {
         "id": "D",
-        "text": "Choice D"
+        "text": "by stating her mother's ideas about activities after lessons (paragraph 7)"
       }
     ],
-    "correctAnswer": "A",
-    "topic": "Reading Comprehension: Archaeological Evidence",
+    "correctAnswer": "B",
+    "topic": "Contrasting Points of View",
     "difficulty": "Medium",
     "hints": [
       "Re-read the specific paragraphs referenced in the passage excerpt.",
@@ -1160,7 +1160,7 @@ export const QUESTIONS: Question[] = [
       "Look for the choice that accurately captures the author's precise rhetorical intent."
     ],
     "trapAlert": "Be careful not to pick choices that sound inspiring or scientifically plausible on their own unless they are directly verified by line evidence in the passage.",
-    "explanation": "The correct option is supported directly by textual citations, illustrating the nuanced balance between evidence and analytical inference."
+    "explanation": "The mother adheres strictly to traditional geometric rules, whereas the young author seeks creative freedom and original color pairings."
   },
   {
     "id": "e1_ela_19",
@@ -1169,28 +1169,28 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 19,
     "passageId": "e1_p3",
     "type": "multiple_choice",
-    "prompt": "",
+    "prompt": "Read this sentence from paragraph 7: 'Always after these confining lessons I was wild with surplus spirits, and found joyous relief in running loose in the open again.' Which sentence best describes how this sentence fits into the overall structure of the excerpt?",
     "imageSrc": "/exams/exam1/items/ela_q19.png",
     "options": [
       {
         "id": "A",
-        "text": "Choice A"
+        "text": "It introduces a shift from the author's demanding relationship with her mother to her relationships with friends."
       },
       {
         "id": "B",
-        "text": "Choice B"
+        "text": "It signals a change from the challenging aspects of reservation life to the advantages of prairie living."
       },
       {
         "id": "C",
-        "text": "Choice C"
+        "text": "It highlights a contrast between the focus and control required while working and the freedom of having fun outside."
       },
       {
         "id": "D",
-        "text": "Choice D"
+        "text": "It concludes the progression of events in the narrative by describing the sequence at the end of the day."
       }
     ],
     "correctAnswer": "C",
-    "topic": "Reading Comprehension: Central Idea",
+    "topic": "Structural Contrast & Pacing",
     "difficulty": "Hard",
     "hints": [
       "Re-read the specific paragraphs referenced in the passage excerpt.",
@@ -1198,7 +1198,7 @@ export const QUESTIONS: Question[] = [
       "Look for the choice that accurately captures the author's precise rhetorical intent."
     ],
     "trapAlert": "Be careful not to pick choices that sound inspiring or scientifically plausible on their own unless they are directly verified by line evidence in the passage.",
-    "explanation": "The correct option is supported directly by textual citations, illustrating the nuanced balance between evidence and analytical inference."
+    "explanation": "The sentence provides a sharp dynamic contrast between the quiet discipline of beadwork lessons and the untamed joy of playing outdoors."
   },
   {
     "id": "e1_ela_20",
@@ -1207,28 +1207,28 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 20,
     "passageId": "e1_p4",
     "type": "multiple_choice",
-    "prompt": "",
+    "prompt": "In lines 6-7 of Bird Talk ('worms are worms'), the speaker implies that",
     "imageSrc": "/exams/exam1/items/ela_q20.png",
     "options": [
       {
         "id": "A",
-        "text": "Choice A"
+        "text": "birds prefer certain types of food over others during springtime."
       },
       {
         "id": "B",
-        "text": "Choice B"
+        "text": "the search for sustenance requires patience and stealth."
       },
       {
         "id": "C",
-        "text": "Choice C"
+        "text": "human language fails to capture the true musical nature of bird calls."
       },
       {
         "id": "D",
-        "text": "Choice D"
+        "text": "birds view their food pragmatically and realistically rather than poetically."
       }
     ],
-    "correctAnswer": "B",
-    "topic": "Reading Comprehension: Scientific Methodology",
+    "correctAnswer": "D",
+    "topic": "Poetic Interpretation & Tone",
     "difficulty": "Medium",
     "hints": [
       "Re-read the specific paragraphs referenced in the passage excerpt.",
@@ -1236,7 +1236,7 @@ export const QUESTIONS: Question[] = [
       "Look for the choice that accurately captures the author's precise rhetorical intent."
     ],
     "trapAlert": "Be careful not to pick choices that sound inspiring or scientifically plausible on their own unless they are directly verified by line evidence in the passage.",
-    "explanation": "The correct option is supported directly by textual citations, illustrating the nuanced balance between evidence and analytical inference."
+    "explanation": "The phrase emphasizes the down-to-earth, literal perspective of the birds focused on daily survival."
   },
   {
     "id": "e1_ela_21",
@@ -1245,28 +1245,28 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 21,
     "passageId": "e1_p4",
     "type": "multiple_choice",
-    "prompt": "",
+    "prompt": "In the poem Bird Talk, the phrase 'talked most of all' conveys that the birds are",
     "imageSrc": "/exams/exam1/items/ela_q21.png",
     "options": [
       {
         "id": "A",
-        "text": "Choice A"
+        "text": "loudly and enthusiastically celebrating the bounty of the new season."
       },
       {
         "id": "B",
-        "text": "Choice B"
+        "text": "warning one another about nearby predators in the garden."
       },
       {
         "id": "C",
-        "text": "Choice C"
+        "text": "debating which nesting spots are most secure."
       },
       {
         "id": "D",
-        "text": "Choice D"
+        "text": "imitating the conversations of humans passing nearby."
       }
     ],
-    "correctAnswer": "D",
-    "topic": "Reading Comprehension: Textual Synthesis",
+    "correctAnswer": "A",
+    "topic": "Word Choice & Meaning",
     "difficulty": "Hard",
     "hints": [
       "Re-read the specific paragraphs referenced in the passage excerpt.",
@@ -1274,7 +1274,7 @@ export const QUESTIONS: Question[] = [
       "Look for the choice that accurately captures the author's precise rhetorical intent."
     ],
     "trapAlert": "Be careful not to pick choices that sound inspiring or scientifically plausible on their own unless they are directly verified by line evidence in the passage.",
-    "explanation": "The correct option is supported directly by textual citations, illustrating the nuanced balance between evidence and analytical inference."
+    "explanation": "The birds' relentless chatter reflects the overflowing energy and vitality that arrives with summer."
   },
   {
     "id": "e1_ela_22",
@@ -1283,28 +1283,28 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 22,
     "passageId": "e1_p4",
     "type": "multiple_choice",
-    "prompt": "",
+    "prompt": "The repetition of 'This is the beginning of summer' in Bird Talk serves to",
     "imageSrc": "/exams/exam1/items/ela_q22.png",
     "options": [
       {
         "id": "A",
-        "text": "Choice A"
+        "text": "reinforce the theme of renewal and joyful seasonal transformation."
       },
       {
         "id": "B",
-        "text": "Choice B"
+        "text": "mark the precise passage of calendar weeks."
       },
       {
         "id": "C",
-        "text": "Choice C"
+        "text": "contrast the heat of midday with the coolness of dawn."
       },
       {
         "id": "D",
-        "text": "Choice D"
+        "text": "foreshadow the inevitable arrival of autumn."
       }
     ],
     "correctAnswer": "A",
-    "topic": "Reading Comprehension: Tone & Mood",
+    "topic": "Repetition & Thematic Development",
     "difficulty": "Medium",
     "hints": [
       "Re-read the specific paragraphs referenced in the passage excerpt.",
@@ -1312,7 +1312,7 @@ export const QUESTIONS: Question[] = [
       "Look for the choice that accurately captures the author's precise rhetorical intent."
     ],
     "trapAlert": "Be careful not to pick choices that sound inspiring or scientifically plausible on their own unless they are directly verified by line evidence in the passage.",
-    "explanation": "The correct option is supported directly by textual citations, illustrating the nuanced balance between evidence and analytical inference."
+    "explanation": "Repeating the phrase anchors the poem's celebratory focus on nature awakening into summer abundance."
   },
   {
     "id": "e1_ela_23",
@@ -1321,28 +1321,28 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 23,
     "passageId": "e1_p4",
     "type": "multiple_choice",
-    "prompt": "",
+    "prompt": "The poem contrasts the bleak scarcity of winter primarily through imagery of",
     "imageSrc": "/exams/exam1/items/ela_q23.png",
     "options": [
       {
         "id": "A",
-        "text": "Choice A"
+        "text": "bare branches and frozen soil."
       },
       {
         "id": "B",
-        "text": "Choice B"
+        "text": "bright yellow dandelions, fat worms, and green lawns."
       },
       {
         "id": "C",
-        "text": "Choice C"
+        "text": "migrating flocks traveling southward."
       },
       {
         "id": "D",
-        "text": "Choice D"
+        "text": "dormant seeds buried beneath heavy snow."
       }
     ],
-    "correctAnswer": "C",
-    "topic": "Reading Comprehension: Author's Craft",
+    "correctAnswer": "B",
+    "topic": "Imagery & Contrast",
     "difficulty": "Hard",
     "hints": [
       "Re-read the specific paragraphs referenced in the passage excerpt.",
@@ -1350,7 +1350,7 @@ export const QUESTIONS: Question[] = [
       "Look for the choice that accurately captures the author's precise rhetorical intent."
     ],
     "trapAlert": "Be careful not to pick choices that sound inspiring or scientifically plausible on their own unless they are directly verified by line evidence in the passage.",
-    "explanation": "The correct option is supported directly by textual citations, illustrating the nuanced balance between evidence and analytical inference."
+    "explanation": "Vibrant visual details of yellow blossoms and plentiful food highlight how dramatic the return of life is after winter."
   },
   {
     "id": "e1_ela_24",
@@ -1359,28 +1359,28 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 24,
     "passageId": "e1_p4",
     "type": "multiple_choice",
-    "prompt": "",
+    "prompt": "Which statement best describes the speaker's perspective throughout Bird Talk?",
     "imageSrc": "/exams/exam1/items/ela_q24.png",
     "options": [
       {
         "id": "A",
-        "text": "Choice A"
+        "text": "The speaker attentively observes nature, moving awareness from one natural element to another with quiet appreciation."
       },
       {
         "id": "B",
-        "text": "Choice B"
+        "text": "The speaker feels alienated from the natural world and wishes to communicate directly with wildlife."
       },
       {
         "id": "C",
-        "text": "Choice C"
+        "text": "The speaker is an expert scientist cataloging avian behaviors."
       },
       {
         "id": "D",
-        "text": "Choice D"
+        "text": "The speaker prefers solitary contemplation indoors away from summer heat."
       }
     ],
-    "correctAnswer": "B",
-    "topic": "Reading Comprehension: Evidence & Inference",
+    "correctAnswer": "A",
+    "topic": "Speaker's Point of View",
     "difficulty": "Medium",
     "hints": [
       "Re-read the specific paragraphs referenced in the passage excerpt.",
@@ -1388,7 +1388,7 @@ export const QUESTIONS: Question[] = [
       "Look for the choice that accurately captures the author's precise rhetorical intent."
     ],
     "trapAlert": "Be careful not to pick choices that sound inspiring or scientifically plausible on their own unless they are directly verified by line evidence in the passage.",
-    "explanation": "The correct option is supported directly by textual citations, illustrating the nuanced balance between evidence and analytical inference."
+    "explanation": "The speaker watches the birds, bugs, and grass with whimsical, affectionate curiosity."
   },
   {
     "id": "e1_ela_25",
@@ -1397,28 +1397,28 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 25,
     "passageId": "e1_p4",
     "type": "multiple_choice",
-    "prompt": "",
+    "prompt": "Which statement best states the central theme of Bird Talk?",
     "imageSrc": "/exams/exam1/items/ela_q25.png",
     "options": [
       {
         "id": "A",
-        "text": "Choice A"
+        "text": "Human civilization inevitably disrupts animal habitats."
       },
       {
         "id": "B",
-        "text": "Choice B"
+        "text": "The cyclical arrival of summer brings an infectious surge of vitality and harmony across the living world."
       },
       {
         "id": "C",
-        "text": "Choice C"
+        "text": "Animals possess complex spoken languages that mirror human discourse."
       },
       {
         "id": "D",
-        "text": "Choice D"
+        "text": "Only through poetry can the true beauty of wildlife be preserved."
       }
     ],
-    "correctAnswer": "D",
-    "topic": "Reading Comprehension: Theme",
+    "correctAnswer": "B",
+    "topic": "Central Theme",
     "difficulty": "Hard",
     "hints": [
       "Re-read the specific paragraphs referenced in the passage excerpt.",
@@ -1426,7 +1426,7 @@ export const QUESTIONS: Question[] = [
       "Look for the choice that accurately captures the author's precise rhetorical intent."
     ],
     "trapAlert": "Be careful not to pick choices that sound inspiring or scientifically plausible on their own unless they are directly verified by line evidence in the passage.",
-    "explanation": "The correct option is supported directly by textual citations, illustrating the nuanced balance between evidence and analytical inference."
+    "explanation": "The poem is an ode to the vibrant resurgence of life that accompanies early summer."
   },
   {
     "id": "e1_ela_26",
@@ -1435,28 +1435,28 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 26,
     "passageId": "e1_p5",
     "type": "multiple_choice",
-    "prompt": "",
+    "prompt": "How does the poem Serpent Mound's form contribute to its meaning?",
     "imageSrc": "/exams/exam1/items/ela_q26.png",
     "options": [
       {
         "id": "A",
-        "text": "Choice A"
+        "text": "The use of one continuous stanza and winding line structure mimics the serpentine shape of the earthwork."
       },
       {
         "id": "B",
-        "text": "Choice B"
+        "text": "Strict rhyming couplets represent the rigid precision of the surveyors' measuring tapes."
       },
       {
         "id": "C",
-        "text": "Choice C"
+        "text": "Alternating stanzas represent contrasting seasons of winter and summer."
       },
       {
         "id": "D",
-        "text": "Choice D"
+        "text": "Short fragmented lines convey the speaker's breathless fear of snakes."
       }
     ],
     "correctAnswer": "A",
-    "topic": "Reading Comprehension: Vocabulary in Context",
+    "topic": "Poetic Form & Spatial Architecture",
     "difficulty": "Medium",
     "hints": [
       "Re-read the specific paragraphs referenced in the passage excerpt.",
@@ -1464,7 +1464,7 @@ export const QUESTIONS: Question[] = [
       "Look for the choice that accurately captures the author's precise rhetorical intent."
     ],
     "trapAlert": "Be careful not to pick choices that sound inspiring or scientifically plausible on their own unless they are directly verified by line evidence in the passage.",
-    "explanation": "The correct option is supported directly by textual citations, illustrating the nuanced balance between evidence and analytical inference."
+    "explanation": "The unbroken, undulating progression of lines reflects the serpentine winding of the ancient earthwork itself."
   },
   {
     "id": "e1_ela_27",
@@ -1473,28 +1473,28 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 27,
     "passageId": "e1_p5",
     "type": "multiple_choice",
-    "prompt": "",
+    "prompt": "Which lines reveal how the physical setting affects the speaker and the museum men?",
     "imageSrc": "/exams/exam1/items/ela_q27.png",
     "options": [
       {
         "id": "A",
-        "text": "Choice A"
+        "text": "'It being winter, / there was little underbrush to speak of\u2014' (lines 8-9)"
       },
       {
         "id": "B",
-        "text": "Choice B"
+        "text": "'but the winter silence of the creek pressed / down on all of us like a weight.' (lines 14-15)"
       },
       {
         "id": "C",
-        "text": "Choice C"
+        "text": "'The humps in the ground were all but / invisible until you were right up on them.' (lines 16-17)"
       },
       {
         "id": "D",
-        "text": "Choice D"
+        "text": "'In the summer the creek bottom was crowded / with so much life that you could trip' (lines 21-22)"
       }
     ],
-    "correctAnswer": "C",
-    "topic": "Reading Comprehension: Structure",
+    "correctAnswer": "B",
+    "topic": "Setting & Mood",
     "difficulty": "Hard",
     "hints": [
       "Re-read the specific paragraphs referenced in the passage excerpt.",
@@ -1502,7 +1502,7 @@ export const QUESTIONS: Question[] = [
       "Look for the choice that accurately captures the author's precise rhetorical intent."
     ],
     "trapAlert": "Be careful not to pick choices that sound inspiring or scientifically plausible on their own unless they are directly verified by line evidence in the passage.",
-    "explanation": "The correct option is supported directly by textual citations, illustrating the nuanced balance between evidence and analytical inference."
+    "explanation": "Describing the silence pressing 'like a weight' conveys how the cold winter stillness solemnizes their expedition."
   },
   {
     "id": "e1_ela_28",
@@ -1511,28 +1511,28 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 28,
     "passageId": "e1_p5",
     "type": "multiple_choice",
-    "prompt": "",
+    "prompt": "Lines 1-2 contribute to the development of ideas in Serpent Mound by",
     "imageSrc": "/exams/exam1/items/ela_q28.png",
     "options": [
       {
         "id": "A",
-        "text": "Choice A"
+        "text": "suggesting that the men are too busy to talk to the speaker."
       },
       {
         "id": "B",
-        "text": "Choice B"
+        "text": "helping establish the purpose of the men's visit and their methodical, objective approach."
       },
       {
         "id": "C",
-        "text": "Choice C"
+        "text": "hinting that the men have secret motives for digging up the marsh."
       },
       {
         "id": "D",
-        "text": "Choice D"
+        "text": "showing why the speaker is hostile toward outsiders."
       }
     ],
     "correctAnswer": "B",
-    "topic": "Reading Comprehension: Cultural Context",
+    "topic": "Narrative Exposition",
     "difficulty": "Medium",
     "hints": [
       "Re-read the specific paragraphs referenced in the passage excerpt.",
@@ -1540,7 +1540,7 @@ export const QUESTIONS: Question[] = [
       "Look for the choice that accurately captures the author's precise rhetorical intent."
     ],
     "trapAlert": "Be careful not to pick choices that sound inspiring or scientifically plausible on their own unless they are directly verified by line evidence in the passage.",
-    "explanation": "The correct option is supported directly by textual citations, illustrating the nuanced balance between evidence and analytical inference."
+    "explanation": "Mentioning measuring tapes and sketchbooks introduces the visitors as scientific observers documenting an artifact."
   },
   {
     "id": "e1_ela_29",
@@ -1549,28 +1549,28 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 29,
     "passageId": "e1_p5",
     "type": "multiple_choice",
-    "prompt": "",
+    "prompt": "Read line 28: 'At the mouth end, there was an oval mound'. How does this line contribute to the poem's central inquiry?",
     "imageSrc": "/exams/exam1/items/ela_q29.png",
     "options": [
       {
         "id": "A",
-        "text": "Choice A"
+        "text": "It provides the exact architectural coordinates required by the museum researchers."
       },
       {
         "id": "B",
-        "text": "Choice B"
+        "text": "It contrasts the head of the serpent with the tail coils."
       },
       {
         "id": "C",
-        "text": "Choice C"
+        "text": "It introduces a central feature of the mound that inspires differing symbolic interpretations among observers."
       },
       {
         "id": "D",
-        "text": "Choice D"
+        "text": "It proves conclusively what ancient ritual was enacted on the site."
       }
     ],
-    "correctAnswer": "D",
-    "topic": "Reading Comprehension: Character Development",
+    "correctAnswer": "C",
+    "topic": "Symbolism & Ambiguity",
     "difficulty": "Hard",
     "hints": [
       "Re-read the specific paragraphs referenced in the passage excerpt.",
@@ -1578,7 +1578,7 @@ export const QUESTIONS: Question[] = [
       "Look for the choice that accurately captures the author's precise rhetorical intent."
     ],
     "trapAlert": "Be careful not to pick choices that sound inspiring or scientifically plausible on their own unless they are directly verified by line evidence in the passage.",
-    "explanation": "The correct option is supported directly by textual citations, illustrating the nuanced balance between evidence and analytical inference."
+    "explanation": "The oval shape sparks ongoing debate\u2014whether it represents an egg being swallowed, the sun, or a frog."
   },
   {
     "id": "e1_ela_30",
@@ -1587,28 +1587,28 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 30,
     "passageId": "e1_p5",
     "type": "multiple_choice",
-    "prompt": "",
+    "prompt": "What impact do the phrases 'all but / invisible' and 'even less obvious' in lines 16-18 have on the meaning of the poem?",
     "imageSrc": "/exams/exam1/items/ela_q30.png",
     "options": [
       {
         "id": "A",
-        "text": "Choice A"
+        "text": "They emphasize how difficult it is to grasp the mound's true form and monumental scale from ground level."
       },
       {
         "id": "B",
-        "text": "Choice B"
+        "text": "They show that the mound had been completely forgotten by local townspeople."
       },
       {
         "id": "C",
-        "text": "Choice C"
+        "text": "They suggest that the speaker wished to conceal the mound from vandals."
       },
       {
         "id": "D",
-        "text": "Choice D"
+        "text": "They imply that the earthwork was accidental rather than human-made."
       }
     ],
     "correctAnswer": "A",
-    "topic": "Reading Comprehension: Symbolism",
+    "topic": "Perspective & Perception",
     "difficulty": "Medium",
     "hints": [
       "Re-read the specific paragraphs referenced in the passage excerpt.",
@@ -1616,7 +1616,7 @@ export const QUESTIONS: Question[] = [
       "Look for the choice that accurately captures the author's precise rhetorical intent."
     ],
     "trapAlert": "Be careful not to pick choices that sound inspiring or scientifically plausible on their own unless they are directly verified by line evidence in the passage.",
-    "explanation": "The correct option is supported directly by textual citations, illustrating the nuanced balance between evidence and analytical inference."
+    "explanation": "From the ground, the earthwork appears merely as gentle mounds; its massive serpentine design is only discernible from above."
   },
   {
     "id": "e1_ela_31",
@@ -1625,28 +1625,28 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 31,
     "passageId": "e1_p5",
     "type": "multiple_choice",
-    "prompt": "",
+    "prompt": "What effect do the auditory words 'swish,' 'chitter,' and 'cry' in lines 12-13 create?",
     "imageSrc": "/exams/exam1/items/ela_q31.png",
     "options": [
       {
         "id": "A",
-        "text": "Choice A"
+        "text": "They contrast the eerie silence of winter with the bustling, noisy wildlife of summer."
       },
       {
         "id": "B",
-        "text": "Choice B"
+        "text": "They illustrate how human exploration panics nearby wildlife."
       },
       {
         "id": "C",
-        "text": "Choice C"
+        "text": "They emphasize the dangerous animals lurking in Adams County."
       },
       {
         "id": "D",
-        "text": "Choice D"
+        "text": "They suggest the speaker is distracted from guiding the researchers."
       }
     ],
-    "correctAnswer": "C",
-    "topic": "Reading Comprehension: Figurative Language",
+    "correctAnswer": "A",
+    "topic": "Sensory Diction & Auditory Imagery",
     "difficulty": "Hard",
     "hints": [
       "Re-read the specific paragraphs referenced in the passage excerpt.",
@@ -1654,7 +1654,7 @@ export const QUESTIONS: Question[] = [
       "Look for the choice that accurately captures the author's precise rhetorical intent."
     ],
     "trapAlert": "Be careful not to pick choices that sound inspiring or scientifically plausible on their own unless they are directly verified by line evidence in the passage.",
-    "explanation": "The correct option is supported directly by textual citations, illustrating the nuanced balance between evidence and analytical inference."
+    "explanation": "Remembering the animal calls underscores how quiet and still the marsh is during their winter expedition."
   },
   {
     "id": "e1_ela_32",
@@ -1663,28 +1663,28 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 32,
     "passageId": "e1_p5",
     "type": "multiple_choice",
-    "prompt": "",
+    "prompt": "How does the speaker's dialogue with Ruth in lines 37-41 develop a central theme of the poem?",
     "imageSrc": "/exams/exam1/items/ela_q32.png",
     "options": [
       {
         "id": "A",
-        "text": "Choice A"
+        "text": "It proves that modern science alone can unlock ancient mysteries."
       },
       {
         "id": "B",
-        "text": "Choice B"
+        "text": "It highlights that ancient sacred monuments evoke personal, emotional interpretations that coexist with scientific data."
       },
       {
         "id": "C",
-        "text": "Choice C"
+        "text": "It shows that local residents resented scholars visiting the site."
       },
       {
         "id": "D",
-        "text": "Choice D"
+        "text": "It demonstrates how folklore often distorts archaeological facts."
       }
     ],
     "correctAnswer": "B",
-    "topic": "Reading Comprehension: Poetic Structure",
+    "topic": "Synthesis & Thematic Development",
     "difficulty": "Medium",
     "hints": [
       "Re-read the specific paragraphs referenced in the passage excerpt.",
@@ -1692,7 +1692,7 @@ export const QUESTIONS: Question[] = [
       "Look for the choice that accurately captures the author's precise rhetorical intent."
     ],
     "trapAlert": "Be careful not to pick choices that sound inspiring or scientifically plausible on their own unless they are directly verified by line evidence in the passage.",
-    "explanation": "The correct option is supported directly by textual citations, illustrating the nuanced balance between evidence and analytical inference."
+    "explanation": "Ruth's imaginative reading of the serpent's mouth highlights that monuments hold enduring human meaning beyond physical measurements."
   },
   {
     "id": "e1_ela_33",
@@ -1701,28 +1701,28 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 33,
     "passageId": "e1_p5",
     "type": "multiple_choice",
-    "prompt": "",
+    "prompt": "The poet contrasts the speaker's and Ruth's points of view regarding the mound by using dialogue to",
     "imageSrc": "/exams/exam1/items/ela_q33.png",
     "options": [
       {
         "id": "A",
-        "text": "Choice A"
+        "text": "imply that Ruth fears the museum researchers will dismiss her beliefs."
       },
       {
         "id": "B",
-        "text": "Choice B"
+        "text": "indicate that Ruth wishes to publish her own historical thesis."
       },
       {
         "id": "C",
-        "text": "Choice C"
+        "text": "suggest that Ruth wants the speaker to agree with her interpretation."
       },
       {
         "id": "D",
-        "text": "Choice D"
+        "text": "show that Ruth holds a firm, imaginative conviction about what the mound represents."
       }
     ],
     "correctAnswer": "D",
-    "topic": "Reading Comprehension: Archaeological Evidence",
+    "topic": "Character Perspective",
     "difficulty": "Hard",
     "hints": [
       "Re-read the specific paragraphs referenced in the passage excerpt.",
@@ -1730,7 +1730,7 @@ export const QUESTIONS: Question[] = [
       "Look for the choice that accurately captures the author's precise rhetorical intent."
     ],
     "trapAlert": "Be careful not to pick choices that sound inspiring or scientifically plausible on their own unless they are directly verified by line evidence in the passage.",
-    "explanation": "The correct option is supported directly by textual citations, illustrating the nuanced balance between evidence and analytical inference."
+    "explanation": "Ruth speaks with confident certainty about the serpent swallowing the egg, contrasting with the speaker's quiet questioning."
   },
   {
     "id": "e1_ela_34",
@@ -1739,28 +1739,28 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 34,
     "passageId": "e1_p6",
     "type": "multiple_choice",
-    "prompt": "",
+    "prompt": "What is the best summary of the astronauts' process for Project Plant Habitat-04 in Growing Peppers on the ISS?",
     "imageSrc": "/exams/exam1/items/ela_q34.png",
     "options": [
       {
         "id": "A",
-        "text": "Choice A"
+        "text": "Astronauts harvest crops randomly whenever fresh vegetables are desired to supplement packaged meals."
       },
       {
         "id": "B",
-        "text": "Choice B"
+        "text": "Astronauts rely exclusively on robotic arms to pick peppers and immediately freeze them for return flight."
       },
       {
         "id": "C",
-        "text": "Choice C"
+        "text": "Working with Earth scientists, astronauts monitor conditions in the APH, grow chile peppers over a 137-day cycle, eat a portion fresh in orbit, and preserve the rest for NASA analysis."
       },
       {
         "id": "D",
-        "text": "Choice D"
+        "text": "Engineers alter chile plant genetics in space before planting seeds directly in hydroponic trays."
       }
     ],
-    "correctAnswer": "A",
-    "topic": "Reading Comprehension: Central Idea",
+    "correctAnswer": "C",
+    "topic": "Summarizing Informational Text",
     "difficulty": "Medium",
     "hints": [
       "Re-read the specific paragraphs referenced in the passage excerpt.",
@@ -1768,7 +1768,7 @@ export const QUESTIONS: Question[] = [
       "Look for the choice that accurately captures the author's precise rhetorical intent."
     ],
     "trapAlert": "Be careful not to pick choices that sound inspiring or scientifically plausible on their own unless they are directly verified by line evidence in the passage.",
-    "explanation": "The correct option is supported directly by textual citations, illustrating the nuanced balance between evidence and analytical inference."
+    "explanation": "The passage details collaborative monitoring, the 137-day growth duration, in-orbit tasting, and scientific preservation."
   },
   {
     "id": "e1_ela_35",
@@ -1777,28 +1777,28 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 35,
     "passageId": "e1_p6",
     "type": "multiple_choice",
-    "prompt": "",
+    "prompt": "Read this sentence from paragraph 5: 'Though astronauts can spend upwards of 100 days in space, their on-mission meals come dehydrated and pre-packaged; their vitamins and minerals are isolated in supplements, which lose nutritional value the longer they're stored.' How does this sentence contribute to the excerpt's central idea?",
     "imageSrc": "/exams/exam1/items/ela_q35.png",
     "options": [
       {
         "id": "A",
-        "text": "Choice A"
+        "text": "It emphasizes why growing fresh living crops aboard spacecraft is essential for long-duration human space exploration."
       },
       {
         "id": "B",
-        "text": "Choice B"
+        "text": "It describes the direct medical symptoms of prolonged weightlessness on digestion."
       },
       {
         "id": "C",
-        "text": "Choice C"
+        "text": "It explains why astronauts prefer freeze-dried fruit over vegetables."
       },
       {
         "id": "D",
-        "text": "Choice D"
+        "text": "It highlights the cost of manufacturing sealed packaged foods."
       }
     ],
-    "correctAnswer": "C",
-    "topic": "Reading Comprehension: Scientific Methodology",
+    "correctAnswer": "A",
+    "topic": "Central Idea Development",
     "difficulty": "Hard",
     "hints": [
       "Re-read the specific paragraphs referenced in the passage excerpt.",
@@ -1806,7 +1806,7 @@ export const QUESTIONS: Question[] = [
       "Look for the choice that accurately captures the author's precise rhetorical intent."
     ],
     "trapAlert": "Be careful not to pick choices that sound inspiring or scientifically plausible on their own unless they are directly verified by line evidence in the passage.",
-    "explanation": "The correct option is supported directly by textual citations, illustrating the nuanced balance between evidence and analytical inference."
+    "explanation": "Nutrient degradation in preserved rations proves that cultivating fresh food in flight is vital for multi-year deep space missions."
   },
   {
     "id": "e1_ela_36",
@@ -1815,28 +1815,28 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 36,
     "passageId": "e1_p6",
     "type": "multiple_choice",
-    "prompt": "",
+    "prompt": "Which statement best explains why Lashelle Spencer is a particularly credible source for this article?",
     "imageSrc": "/exams/exam1/items/ela_q36.png",
     "options": [
       {
         "id": "A",
-        "text": "Choice A"
+        "text": "She is an active astronaut currently residing aboard the ISS."
       },
       {
         "id": "B",
-        "text": "Choice B"
+        "text": "She is a lead plant scientist and project team member at NASA's Kennedy Space Center guiding the experiment."
       },
       {
         "id": "C",
-        "text": "Choice C"
+        "text": "She invented the Advanced Plant Habitat hardware for commercial sale."
       },
       {
         "id": "D",
-        "text": "Choice D"
+        "text": "She is a nutrition journalist who sampled the space peppers in orbit."
       }
     ],
     "correctAnswer": "B",
-    "topic": "Reading Comprehension: Textual Synthesis",
+    "topic": "Evaluating Source Credibility",
     "difficulty": "Medium",
     "hints": [
       "Re-read the specific paragraphs referenced in the passage excerpt.",
@@ -1844,7 +1844,7 @@ export const QUESTIONS: Question[] = [
       "Look for the choice that accurately captures the author's precise rhetorical intent."
     ],
     "trapAlert": "Be careful not to pick choices that sound inspiring or scientifically plausible on their own unless they are directly verified by line evidence in the passage.",
-    "explanation": "The correct option is supported directly by textual citations, illustrating the nuanced balance between evidence and analytical inference."
+    "explanation": "Spencer is the lead researcher at Kennedy Space Center who prepared the seeds and supervised the orbital harvest."
   },
   {
     "id": "e1_ela_37",
@@ -1853,28 +1853,28 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 37,
     "passageId": "e1_p6",
     "type": "multiple_choice",
-    "prompt": "",
+    "prompt": "How does the author support the claim in paragraph 4 that the Advanced Plant Habitat (APH) is a complex growth system?",
     "imageSrc": "/exams/exam1/items/ela_q37.png",
     "options": [
       {
         "id": "A",
-        "text": "Choice A"
+        "text": "by detailing the more than 180 sensors that continuously regulate moisture, temperature, oxygen, and light levels."
       },
       {
         "id": "B",
-        "text": "Choice B"
+        "text": "by explaining how astronauts manually water each plant seedling daily."
       },
       {
         "id": "C",
-        "text": "Choice C"
+        "text": "by contrasting the APH with standard high school garden plots."
       },
       {
         "id": "D",
-        "text": "Choice D"
+        "text": "by calculating the total financial cost of the flight chamber."
       }
     ],
-    "correctAnswer": "D",
-    "topic": "Reading Comprehension: Tone & Mood",
+    "correctAnswer": "A",
+    "topic": "Supporting Claims with Technical Evidence",
     "difficulty": "Hard",
     "hints": [
       "Re-read the specific paragraphs referenced in the passage excerpt.",
@@ -1882,7 +1882,7 @@ export const QUESTIONS: Question[] = [
       "Look for the choice that accurately captures the author's precise rhetorical intent."
     ],
     "trapAlert": "Be careful not to pick choices that sound inspiring or scientifically plausible on their own unless they are directly verified by line evidence in the passage.",
-    "explanation": "The correct option is supported directly by textual citations, illustrating the nuanced balance between evidence and analytical inference."
+    "explanation": "The text cites the intricate network of 180+ automated environmental sensors that make precise zero-gravity agriculture possible."
   },
   {
     "id": "e1_ela_38",
@@ -1891,28 +1891,28 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 38,
     "passageId": "e1_p6",
     "type": "multiple_choice",
-    "prompt": "",
+    "prompt": "Which detail best supports the idea that tending crops provides psychological benefits for astronauts?",
     "imageSrc": "/exams/exam1/items/ela_q38.png",
     "options": [
       {
         "id": "A",
-        "text": "Choice A"
+        "text": "The crew checked on the plants daily with the tenderness of home gardeners, taking selfies and delighting in the harvest."
       },
       {
         "id": "B",
-        "text": "Choice B"
+        "text": "Packaged rations lose significant nutritional value after 100 days of storage."
       },
       {
         "id": "C",
-        "text": "Choice C"
+        "text": "Chile seeds require 137 days to produce mature, glossy fruit in orbit."
       },
       {
         "id": "D",
-        "text": "Choice D"
+        "text": "Ground control monitors telemetry data directly from Kennedy Space Center."
       }
     ],
     "correctAnswer": "A",
-    "topic": "Reading Comprehension: Author's Craft",
+    "topic": "Citing Evidence for Psychological Well-being",
     "difficulty": "Medium",
     "hints": [
       "Re-read the specific paragraphs referenced in the passage excerpt.",
@@ -1920,7 +1920,7 @@ export const QUESTIONS: Question[] = [
       "Look for the choice that accurately captures the author's precise rhetorical intent."
     ],
     "trapAlert": "Be careful not to pick choices that sound inspiring or scientifically plausible on their own unless they are directly verified by line evidence in the passage.",
-    "explanation": "The correct option is supported directly by textual citations, illustrating the nuanced balance between evidence and analytical inference."
+    "explanation": "Observing plants with 'the tenderness of home gardeners' and playing with floating peppers shows how the living greenery lifted morale."
   },
   {
     "id": "e1_ela_39",
@@ -1929,28 +1929,28 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 39,
     "passageId": "e1_p6",
     "type": "multiple_choice",
-    "prompt": "",
+    "prompt": "The description of Lashelle Spencer's primary research goal in paragraph 5 develops the passage's main purpose by",
     "imageSrc": "/exams/exam1/items/ela_q39.png",
     "options": [
       {
         "id": "A",
-        "text": "Choice A"
+        "text": "arguing that space farming will replace Earth agriculture within the next decade."
       },
       {
         "id": "B",
-        "text": "Choice B"
+        "text": "illustrating how automated robotics can eliminate human astronauts on future probes."
       },
       {
         "id": "C",
-        "text": "Choice C"
+        "text": "demonstrating that astronauts require higher calorie intake than workers on Earth."
       },
       {
         "id": "D",
-        "text": "Choice D"
+        "text": "clarifying that cultivating fresh produce is necessary to sustain astronauts on multi-year journeys to the Moon and Mars."
       }
     ],
-    "correctAnswer": "C",
-    "topic": "Reading Comprehension: Evidence & Inference",
+    "correctAnswer": "D",
+    "topic": "Author's Purpose & Vision",
     "difficulty": "Hard",
     "hints": [
       "Re-read the specific paragraphs referenced in the passage excerpt.",
@@ -1958,7 +1958,7 @@ export const QUESTIONS: Question[] = [
       "Look for the choice that accurately captures the author's precise rhetorical intent."
     ],
     "trapAlert": "Be careful not to pick choices that sound inspiring or scientifically plausible on their own unless they are directly verified by line evidence in the passage.",
-    "explanation": "The correct option is supported directly by textual citations, illustrating the nuanced balance between evidence and analytical inference."
+    "explanation": "Her work aims to develop self-sustaining bio-regenerative life support essential for crew survival during interplanetary travel."
   },
   {
     "id": "e1_ela_40",
@@ -1967,28 +1967,28 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 40,
     "passageId": "e1_p6",
     "type": "multiple_choice",
-    "prompt": "",
+    "prompt": "What is the primary division of responsibility between ground scientists and astronauts in the plant experiment?",
     "imageSrc": "/exams/exam1/items/ela_q40.png",
     "options": [
       {
         "id": "A",
-        "text": "Choice A"
+        "text": "Ground scientists engineer the genetics, environmental systems, and mission protocols, while astronauts manage in-orbit care and harvest."
       },
       {
         "id": "B",
-        "text": "Choice B"
+        "text": "Astronauts formulate seed varieties on the space station, while ground teams consume the harvested crop."
       },
       {
         "id": "C",
-        "text": "Choice C"
+        "text": "Ground scientists independently fly the capsule, while astronauts solely perform photography."
       },
       {
         "id": "D",
-        "text": "Choice D"
+        "text": "Both teams maintain separate identical terrariums without communication."
       }
     ],
-    "correctAnswer": "B",
-    "topic": "Reading Comprehension: Theme",
+    "correctAnswer": "A",
+    "topic": "Comparative Analysis of Roles",
     "difficulty": "Medium",
     "hints": [
       "Re-read the specific paragraphs referenced in the passage excerpt.",
@@ -1996,7 +1996,7 @@ export const QUESTIONS: Question[] = [
       "Look for the choice that accurately captures the author's precise rhetorical intent."
     ],
     "trapAlert": "Be careful not to pick choices that sound inspiring or scientifically plausible on their own unless they are directly verified by line evidence in the passage.",
-    "explanation": "The correct option is supported directly by textual citations, illustrating the nuanced balance between evidence and analytical inference."
+    "explanation": "Terrestrial agronomists design hardware and monitor data, while orbiters provide hands-on maintenance, pollination, and harvesting."
   },
   {
     "id": "e1_ela_41",
@@ -2005,28 +2005,28 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 41,
     "passageId": "e1_p6",
     "type": "multiple_choice",
-    "prompt": "",
+    "prompt": "How is the quotation from Lashelle Spencer at the end of paragraph 9 relevant to the harvest discussed in paragraph 2?",
     "imageSrc": "/exams/exam1/items/ela_q41.png",
     "options": [
       {
         "id": "A",
-        "text": "Choice A"
+        "text": "It criticizes the crew for eating too many peppers rather than saving them for analysis."
       },
       {
         "id": "B",
-        "text": "Choice B"
+        "text": "It explains why zero-gravity peppers take longer to ripen than terrestrial varieties."
       },
       {
         "id": "C",
-        "text": "Choice C"
+        "text": "It highlights that while the first test proved feasibility, future missions will require scaling up crop yields to meaningfully feed crews."
       },
       {
         "id": "D",
-        "text": "Choice D"
+        "text": "It demonstrates that the NuMex pepper variety failed its initial flavor benchmarks."
       }
     ],
-    "correctAnswer": "D",
-    "topic": "Reading Comprehension: Vocabulary in Context",
+    "correctAnswer": "C",
+    "topic": "Synthesizing Text Excerpts",
     "difficulty": "Hard",
     "hints": [
       "Re-read the specific paragraphs referenced in the passage excerpt.",
@@ -2034,7 +2034,7 @@ export const QUESTIONS: Question[] = [
       "Look for the choice that accurately captures the author's precise rhetorical intent."
     ],
     "trapAlert": "Be careful not to pick choices that sound inspiring or scientifically plausible on their own unless they are directly verified by line evidence in the passage.",
-    "explanation": "The correct option is supported directly by textual citations, illustrating the nuanced balance between evidence and analytical inference."
+    "explanation": "Spencer notes that future missions will need to scale production beyond initial proof-of-concept batches to supply daily meals."
   },
   {
     "id": "e1_ela_42",
@@ -2043,28 +2043,28 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 42,
     "passageId": "e1_p6",
     "type": "multiple_choice",
-    "prompt": "",
+    "prompt": "How does the explanation of the NuMex Espa\u00f1ola Improved chile pepper's breeding (paragraphs 7-8) contribute to the article?",
     "imageSrc": "/exams/exam1/items/ela_q42.png",
     "options": [
       {
         "id": "A",
-        "text": "Choice A"
+        "text": "It shows that standard wild peppers grow better in space than lab-tested hybrids."
       },
       {
         "id": "B",
-        "text": "Choice B"
+        "text": "It reveals that space food scientists prefer mild bell peppers over spicy cultivars."
       },
       {
         "id": "C",
-        "text": "Choice C"
+        "text": "It illustrates how horticulturalists deliberately selected traits like compact height, self-pollination, and high vitamin C to survive orbital confines."
       },
       {
         "id": "D",
-        "text": "Choice D"
+        "text": "It argues that genetically modified crops are unsafe for long-term human consumption."
       }
     ],
-    "correctAnswer": "A",
-    "topic": "Reading Comprehension: Structure",
+    "correctAnswer": "C",
+    "topic": "Technical Synthesis",
     "difficulty": "Medium",
     "hints": [
       "Re-read the specific paragraphs referenced in the passage excerpt.",
@@ -2072,7 +2072,7 @@ export const QUESTIONS: Question[] = [
       "Look for the choice that accurately captures the author's precise rhetorical intent."
     ],
     "trapAlert": "Be careful not to pick choices that sound inspiring or scientifically plausible on their own unless they are directly verified by line evidence in the passage.",
-    "explanation": "The correct option is supported directly by textual citations, illustrating the nuanced balance between evidence and analytical inference."
+    "explanation": "Breeders tailored plant size, canopy spread, pollination needs, and nutritional density specifically to thrive inside the compact APH chamber."
   },
   {
     "id": "e1_ela_43",
@@ -2081,28 +2081,28 @@ export const QUESTIONS: Question[] = [
     "questionNumber": 43,
     "passageId": "e1_p6",
     "type": "multiple_choice",
-    "prompt": "",
+    "prompt": "With which statement regarding the future of extraterrestrial agriculture would the author most likely agree?",
     "imageSrc": "/exams/exam1/items/ela_q43.png",
     "options": [
       {
         "id": "A",
-        "text": "Choice A"
+        "text": "Space farming will quickly render terrestrial organic farming obsolete."
       },
       {
         "id": "B",
-        "text": "Choice B"
+        "text": "Successfully feeding crews in deep space requires innovative adaptations to overcome the unique biological constraints of zero gravity."
       },
       {
         "id": "C",
-        "text": "Choice C"
+        "text": "Only root vegetables and grains are suitable for microgravity cultivation."
       },
       {
         "id": "D",
-        "text": "Choice D"
+        "text": "Astronauts should rely exclusively on synthetic chemical nutrient shakes rather than living crops."
       }
     ],
-    "correctAnswer": "C",
-    "topic": "Reading Comprehension: Cultural Context",
+    "correctAnswer": "B",
+    "topic": "Author's Broad Conclusion",
     "difficulty": "Hard",
     "hints": [
       "Re-read the specific paragraphs referenced in the passage excerpt.",
@@ -2110,7 +2110,7 @@ export const QUESTIONS: Question[] = [
       "Look for the choice that accurately captures the author's precise rhetorical intent."
     ],
     "trapAlert": "Be careful not to pick choices that sound inspiring or scientifically plausible on their own unless they are directly verified by line evidence in the passage.",
-    "explanation": "The correct option is supported directly by textual citations, illustrating the nuanced balance between evidence and analytical inference."
+    "explanation": "Canales emphasizes that overcoming microgravity requires ongoing innovation across plant genetics, airflow, lighting, and human-plant interaction."
   },
   {
     "id": "e1_ela_44",
@@ -2386,23 +2386,23 @@ export const QUESTIONS: Question[] = [
     "options": [
       {
         "id": "A",
-        "text": "2^2 \u00b7 3^2 \u00b7 21"
+        "text": "2^2 \u2022 3^2 \u2022 21"
       },
       {
         "id": "B",
-        "text": "2^2 \u00b7 3 \u00b7 7 \u00b7 9"
+        "text": "2^2 \u2022 3 \u2022 7 \u2022 9"
       },
       {
         "id": "C",
-        "text": "2^2 \u00b7 7 \u00b7 27"
+        "text": "2^2 \u2022 7 \u2022 27"
       },
       {
         "id": "D",
-        "text": "2^2 \u00b7 3^3 \u00b7 7"
+        "text": "2^2 \u2022 3^3 \u2022 7"
       }
     ],
     "correctAnswer": "D",
-    "topic": "Number Theory: Prime Factorization",
+    "topic": "Factors, Multiples & Number Theory",
     "difficulty": "Easy",
     "hints": [
       "Identify the fundamental formula or theorem required for this problem.",
@@ -2410,7 +2410,7 @@ export const QUESTIONS: Question[] = [
       "Solve step-by-step and verify units (e.g. converting hours to minutes or squaring scale factors)."
     ],
     "trapAlert": "Trap Alert: In options A, B, and C, numbers like 21, 9, and 27 are composite, not prime factors!",
-    "explanation": "Divide 756 by 2: 756 = 2 \u00d7 378 = 2 \u00d7 2 \u00d7 189 = 2^2 \u00d7 189. Divide 189 by 3: 189 = 3 \u00d7 63 = 3 \u00d7 3 \u00d7 21 = 3^3 \u00d7 7. All prime factors are 2, 3, and 7. Thus, 756 = 2^2 \u00b7 3^3 \u00b7 7."
+    "explanation": "756 = 4 \u00d7 189 = 2^2 \u00d7 27 \u00d7 7 = 2^2 \u00d7 3^3 \u00d7 7. All bases must be prime numbers, so Option D is correct."
   },
   {
     "id": "e1_math_02",
@@ -2439,7 +2439,7 @@ export const QUESTIONS: Question[] = [
       }
     ],
     "correctAnswer": "B",
-    "topic": "Algebra: Linear Equations",
+    "topic": "Linear Equations & Operations",
     "difficulty": "Easy",
     "hints": [
       "Identify the fundamental formula or theorem required for this problem.",
@@ -2447,7 +2447,7 @@ export const QUESTIONS: Question[] = [
       "Solve step-by-step and verify units (e.g. converting hours to minutes or squaring scale factors)."
     ],
     "trapAlert": "Trap Alert: Many students accidentally do 16 \u00f7 8 = 2 (Option C). Pay close attention to whether the variable is in the numerator or denominator!",
-    "explanation": "Subtract 4 from both sides: 8 \u00f7 m = 16. Multiply by m: 8 = 16m. Divide by 16: m = 8/16 = 1/2."
+    "explanation": "(8 \u00f7 m) + 4 = 20 => 8 \u00f7 m = 16 => m = 8 / 16 = 1/2."
   },
   {
     "id": "e1_math_03",
@@ -2476,15 +2476,15 @@ export const QUESTIONS: Question[] = [
       }
     ],
     "correctAnswer": "D",
-    "topic": "Algebra: Linear Equations",
-    "difficulty": "Easy",
+    "topic": "Linear Equations & Operations",
+    "difficulty": "Medium",
     "hints": [
       "Identify the fundamental formula or theorem required for this problem.",
       "Write down what values are given and what specific variable or quantity you need to solve for.",
       "Solve step-by-step and verify units (e.g. converting hours to minutes or squaring scale factors)."
     ],
     "trapAlert": "Trap Alert: Forgetting the negative sign on -1,680 leads to +336 (Option A). Adding x instead of subtracting gives 7x = -1,680 -> -240 (Option C).",
-    "explanation": "Subtract x from both sides: 5x = -1,680. Divide by 5: x = -1,680 / 5 = -336."
+    "explanation": "Subtract x from both sides: 5x = -1,680 => x = -1,680 / 5 = -336."
   },
   {
     "id": "e1_math_04",
@@ -2513,15 +2513,15 @@ export const QUESTIONS: Question[] = [
       }
     ],
     "correctAnswer": "C",
-    "topic": "Financial Math & Multi-Step Word Problems",
-    "difficulty": "Easy",
+    "topic": "Multi-Step Real World Arithmetic",
+    "difficulty": "Medium",
     "hints": [
       "Identify the fundamental formula or theorem required for this problem.",
       "Write down what values are given and what specific variable or quantity you need to solve for.",
       "Solve step-by-step and verify units (e.g. converting hours to minutes or squaring scale factors)."
     ],
     "trapAlert": "Trap Alert: Option B ($9,900) forgets the initial down payment! Option A multiplies $275 by 3 years instead of 36 months.",
-    "explanation": "3 years = 3 \u00d7 12 = 36 monthly payments. Total monthly payments = 36 \u00d7 $275 = $9,900. Add the down payment: $9,900 + $1,200 = $11,100."
+    "explanation": "3 years = 36 months. Total payments = 36 \u00d7 $275 = $9,900. Total cost = $1,200 + $9,900 = $11,100."
   },
   {
     "id": "e1_math_05",
@@ -2531,17 +2531,17 @@ export const QUESTIONS: Question[] = [
     "type": "text_entry",
     "prompt": "Maya read n pages for her English homework. Trevor read three times as many pages as Maya. Together, Maya and Trevor read 12 more pages than Ali read. Write an expression that shows how many pages Ali read, in terms of n.",
     "imageSrc": "/exams/exam1/items/math_q05.png",
-    "options": null,
+    "options": [],
     "correctAnswer": "4n - 12",
-    "topic": "Algebra: Word Problem Expressions",
-    "difficulty": "Easy",
+    "topic": "Translating Word Problems into Expressions",
+    "difficulty": "Medium",
     "hints": [
       "Identify the fundamental formula or theorem required for this problem.",
       "Write down what values are given and what specific variable or quantity you need to solve for.",
       "Solve step-by-step and verify units (e.g. converting hours to minutes or squaring scale factors)."
     ],
     "trapAlert": "Trap Alert: Students often write 4n + 12 instead of 4n - 12. If Together has 12 MORE than Ali, Ali must have 12 FEWER!",
-    "explanation": "Maya = n. Trevor = 3n. Together = n + 3n = 4n. Since their total is 12 more than Ali, Ali = (Together) - 12 = 4n - 12."
+    "explanation": "Maya = n pages. Trevor = 3n pages. Total read by Maya and Trevor = n + 3n = 4n. Since they read 12 more than Ali, Ali read 4n - 12 pages."
   },
   {
     "id": "e1_math_06",
@@ -2549,7 +2549,7 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 56,
     "type": "multiple_choice",
-    "prompt": "In the parallelogram above, what is the value of x? Two consecutive interior angles are labeled 3x\u00b0 and 2x\u00b0.",
+    "prompt": "In the parallelogram above, consecutive interior angles are labeled 3x and 2x. What is the value of x?",
     "imageSrc": "/exams/exam1/items/math_q06.png",
     "options": [
       {
@@ -2570,15 +2570,15 @@ export const QUESTIONS: Question[] = [
       }
     ],
     "correctAnswer": "A",
-    "topic": "Geometry: Polygons & Angles",
-    "difficulty": "Easy",
+    "topic": "Geometry: Angles & Polygons",
+    "difficulty": "Medium",
     "hints": [
       "Identify the fundamental formula or theorem required for this problem.",
       "Write down what values are given and what specific variable or quantity you need to solve for.",
       "Solve step-by-step and verify units (e.g. converting hours to minutes or squaring scale factors)."
     ],
     "trapAlert": "Trap Alert: Confusing supplementary (180\u00b0) with complementary (90\u00b0) gives 5x = 90 -> x = 18 (Option B).",
-    "explanation": "In any parallelogram, consecutive angles between parallel lines are supplementary (sum to 180\u00b0): 3x + 2x = 180 -> 5x = 180 -> x = 36."
+    "explanation": "Consecutive angles of a parallelogram are supplementary: 3x + 2x = 180\u00b0 => 5x = 180\u00b0 => x = 36."
   },
   {
     "id": "e1_math_07",
@@ -2607,23 +2607,23 @@ export const QUESTIONS: Question[] = [
       }
     ],
     "correctAnswer": "C",
-    "topic": "Algebra: Inequalities",
-    "difficulty": "Easy",
+    "topic": "Inequalities & Number Lines",
+    "difficulty": "Medium",
     "hints": [
       "Identify the fundamental formula or theorem required for this problem.",
       "Write down what values are given and what specific variable or quantity you need to solve for.",
       "Solve step-by-step and verify units (e.g. converting hours to minutes or squaring scale factors)."
     ],
     "trapAlert": "Trap Alert: Seeing a negative number (-12) causes many students to mistakenly flip the inequality sign. You ONLY flip the sign when multiplying or dividing by a negative number!",
-    "explanation": "Divide both sides by positive 6. Because 6 is positive, the inequality sign does NOT flip: -12 / 6 > x -> -2 > x, which is equivalent to x < -2."
+    "explanation": "-12 > 6x => divide both sides by 6: -2 > x, which is equivalent to x < -2."
   },
   {
     "id": "e1_math_08",
     "examId": "exam1",
     "section": "math",
     "questionNumber": 58,
-    "type": "multi_select",
-    "prompt": "Which fractions are equivalent to the decimal 0.75? Select the four correct answers.",
+    "type": "multiple_choice",
+    "prompt": "Jordan is helping plan snacks for a school dance. He knows that 0.75 of the students voted for pizza, and he wants to record the same amount using a fraction. Which fraction is equivalent to the decimal 0.75?",
     "imageSrc": "/exams/exam1/items/math_q08.png",
     "options": [
       {
@@ -2632,26 +2632,18 @@ export const QUESTIONS: Question[] = [
       },
       {
         "id": "B",
-        "text": "15/20"
-      },
-      {
-        "id": "C",
-        "text": "75/100"
-      },
-      {
-        "id": "D",
         "text": "2/5"
       },
       {
-        "id": "E",
-        "text": "6/8"
+        "id": "C",
+        "text": "8/10"
       },
       {
-        "id": "F",
-        "text": "8/10"
+        "id": "D",
+        "text": "5/7"
       }
     ],
-    "correctAnswer": "A, B, C, E",
+    "correctAnswer": "A",
     "topic": "Fractions, Decimals & Proportions",
     "difficulty": "Easy",
     "hints": [
@@ -2660,7 +2652,7 @@ export const QUESTIONS: Question[] = [
       "Solve step-by-step and verify units (e.g. converting hours to minutes or squaring scale factors)."
     ],
     "trapAlert": "Trap Alert: Multi-select questions require identifying ALL correct choices. Convert each fraction to a decimal to double-check!",
-    "explanation": "0.75 = 75/100 = 3/4. Multiplying numerator and denominator of 3/4 by 5 gives 15/20. Multiplying by 2 gives 6/8. Options D (2/5 = 0.40) and F (8/10 = 0.80) are incorrect."
+    "explanation": "0.75 represents 75/100, which reduces to 3/4 by dividing numerator and denominator by 25."
   },
   {
     "id": "e1_math_09",
@@ -2689,15 +2681,15 @@ export const QUESTIONS: Question[] = [
       }
     ],
     "correctAnswer": "C",
-    "topic": "Rates & Unit Conversions",
-    "difficulty": "Easy",
+    "topic": "Rates, Ratios & Speed",
+    "difficulty": "Medium",
     "hints": [
       "Identify the fundamental formula or theorem required for this problem.",
       "Write down what values are given and what specific variable or quantity you need to solve for.",
       "Solve step-by-step and verify units (e.g. converting hours to minutes or squaring scale factors)."
     ],
     "trapAlert": "Trap Alert: 2/5 hour = 0.4 hour. Do not confuse 0.4 hour with 40 minutes! Always multiply by 60.",
-    "explanation": "Time in hours = Distance / Speed = 6 miles / 15 mph = 2/5 hour. Convert hours to minutes: (2/5) \u00d7 60 minutes = 24 minutes."
+    "explanation": "Time = distance / speed = 6 / 15 = 2/5 hours. Converting to minutes: (2/5) \u00d7 60 = 24 minutes."
   },
   {
     "id": "e1_math_10",
@@ -2705,7 +2697,7 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 60,
     "type": "multiple_choice",
-    "prompt": "In the figure above, n || p. Straight line m intersects both line n and line p. What is the value of r?",
+    "prompt": "In the figure above, line n is parallel to line p, and transversal line m intersects both lines. If one angle is 73\u00b0 and a perpendicular transversal forms a right angle, what is the value of r?",
     "imageSrc": "/exams/exam1/items/math_q10.png",
     "options": [
       {
@@ -2727,14 +2719,14 @@ export const QUESTIONS: Question[] = [
     ],
     "correctAnswer": "C",
     "topic": "Geometry: Parallel Lines & Transversals",
-    "difficulty": "Easy",
+    "difficulty": "Hard",
     "hints": [
       "Identify the fundamental formula or theorem required for this problem.",
       "Write down what values are given and what specific variable or quantity you need to solve for.",
       "Solve step-by-step and verify units (e.g. converting hours to minutes or squaring scale factors)."
     ],
     "trapAlert": "Trap Alert: Option A (17\u00b0) is the acute angle, but angle r is visibly obtuse. Option D (173\u00b0) comes from an arithmetic slip subtracting 7 instead of 17.",
-    "explanation": "The right triangle formed on the right has an acute angle of 90\u00b0 - 73\u00b0 = 17\u00b0. Since n || p, line n forms the same 17\u00b0 acute angle with line m. Angle r forms a linear pair with this acute angle: r = 180\u00b0 - 17\u00b0 = 163\u00b0."
+    "explanation": "The complementary acute angle is 90\u00b0 - 73\u00b0 = 17\u00b0. Angle r is supplementary to this angle: r = 180\u00b0 - 17\u00b0 = 163\u00b0."
   },
   {
     "id": "e1_math_11",
@@ -2764,34 +2756,51 @@ export const QUESTIONS: Question[] = [
     ],
     "correctAnswer": "B",
     "topic": "Arithmetic & Multi-Step Word Problems",
-    "difficulty": "Easy",
+    "difficulty": "Medium",
     "hints": [
       "Identify the fundamental formula or theorem required for this problem.",
       "Write down what values are given and what specific variable or quantity you need to solve for.",
       "Solve step-by-step and verify units (e.g. converting hours to minutes or squaring scale factors)."
     ],
     "trapAlert": "Trap Alert: Subtracting album counts or single album capacities (576 - 378 = 198, Option A) is a common distractor.",
-    "explanation": "Total stamps = 5 \u00d7 576 = 2,880. Stamps transferred = 6 \u00d7 378 = 2,268. Left over = 2,880 - 2,268 = 612 stamps."
+    "explanation": "Total stamps = 5 \u00d7 576 = 2,880. Capacity of new albums = 6 \u00d7 378 = 2,268. Left over = 2,880 - 2,268 = 612 stamps."
   },
   {
     "id": "e1_math_12",
     "examId": "exam1",
     "section": "math",
     "questionNumber": 62,
-    "type": "text_entry",
-    "prompt": "A spinner has 5 congruent sections labeled 1, 2, 3, 1, 4. One side of a fair coin is heads, and the other is tails. What is the probability that the spinner lands on 1 and the coin lands on tails? Select the place on the number line that represents the probability.",
+    "type": "multiple_choice",
+    "prompt": "A spinner has 5 congruent sections labeled 1, 2, 3, 1, 4. One side of a fair coin is heads, and the other is tails. What is the probability that the spinner lands on 1 and the coin lands on tails?",
     "imageSrc": "/exams/exam1/items/math_q12.png",
-    "options": null,
-    "correctAnswer": "1/5",
-    "topic": "Probability: Compound Events",
-    "difficulty": "Easy",
+    "options": [
+      {
+        "id": "A",
+        "text": "1/10"
+      },
+      {
+        "id": "B",
+        "text": "1/5"
+      },
+      {
+        "id": "C",
+        "text": "2/5"
+      },
+      {
+        "id": "D",
+        "text": "1/2"
+      }
+    ],
+    "correctAnswer": "B",
+    "topic": "Probability: Compound Independent Events",
+    "difficulty": "Medium",
     "hints": [
       "Identify the fundamental formula or theorem required for this problem.",
       "Write down what values are given and what specific variable or quantity you need to solve for.",
       "Solve step-by-step and verify units (e.g. converting hours to minutes or squaring scale factors)."
     ],
     "trapAlert": "Trap Alert: Forgetting that there are TWO sections labeled '1' leads to (1/5) \u00d7 (1/2) = 1/10 (0.10). Count all congruent sections!",
-    "explanation": "P(spinning a 1) = 2/5 (since two out of five sections are labeled 1). P(tails) = 1/2. P(1 and tails) = (2/5) \u00d7 (1/2) = 2/10 = 1/5 = 0.20. On the number line divided into tenths, this is the 2nd mark from 0."
+    "explanation": "P(spinner lands on 1) = 2/5 (since two out of five sections are labeled 1). P(tails) = 1/2. P(1 and tails) = (2/5) \u00d7 (1/2) = 2/10 = 1/5."
   },
   {
     "id": "e1_math_13",
@@ -2799,36 +2808,36 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 63,
     "type": "multiple_choice",
-    "prompt": "",
+    "prompt": "Start with the number 135.28 and perform the following steps in order: Step 1: Multiply by 10. Step 2: Add 0.5 to the result of Step 1. Step 3: Drop the digits after the decimal point. Step 4: Divide by 10. What is the result?",
     "imageSrc": "/exams/exam1/items/math_q13.png",
     "options": [
       {
         "id": "A",
-        "text": "Choice A"
+        "text": "13.5"
       },
       {
         "id": "B",
-        "text": "Choice B"
+        "text": "135"
       },
       {
         "id": "C",
-        "text": "Choice C"
+        "text": "135.2"
       },
       {
         "id": "D",
-        "text": "Choice D"
+        "text": "135.3"
       }
     ],
     "correctAnswer": "D",
-    "topic": "Algebra: Systems of Linear Equations",
-    "difficulty": "Easy",
+    "topic": "Decimals & Rounding Algorithms",
+    "difficulty": "Medium",
     "hints": [
       "Identify the fundamental formula or theorem required for this problem.",
       "Write down what values are given and what specific variable or quantity you need to solve for.",
       "Solve step-by-step and verify units (e.g. converting hours to minutes or squaring scale factors)."
     ],
     "trapAlert": "Double-check algebraic steps and unit consistency.",
-    "explanation": "Isolate one variable first and substitute into the second equation."
+    "explanation": "Step 1: 135.28 \u00d7 10 = 1,352.8. Step 2: 1,352.8 + 0.5 = 1,353.3. Step 3: Truncate decimal = 1,353. Step 4: 1,353 \u00f7 10 = 135.3."
   },
   {
     "id": "e1_math_14",
@@ -2836,73 +2845,56 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 64,
     "type": "multiple_choice",
-    "prompt": "",
+    "prompt": "If x = -2, what is the value of |x + x^2 + x^3| - |x + 2x + 3x|?",
     "imageSrc": "/exams/exam1/items/math_q14.png",
     "options": [
       {
         "id": "A",
-        "text": "Choice A"
+        "text": "-18"
       },
       {
         "id": "B",
-        "text": "Choice B"
+        "text": "-6"
       },
       {
         "id": "C",
-        "text": "Choice C"
+        "text": "-2"
       },
       {
         "id": "D",
-        "text": "Choice D"
+        "text": "2"
       }
     ],
-    "correctAnswer": "C",
-    "topic": "Geometry: Pythagorean Theorem & Triangles",
-    "difficulty": "Easy",
+    "correctAnswer": "B",
+    "topic": "Absolute Value & Evaluating Expressions",
+    "difficulty": "Hard",
     "hints": [
       "Identify the fundamental formula or theorem required for this problem.",
       "Write down what values are given and what specific variable or quantity you need to solve for.",
       "Solve step-by-step and verify units (e.g. converting hours to minutes or squaring scale factors)."
     ],
     "trapAlert": "Double-check algebraic steps and unit consistency.",
-    "explanation": "Use a^2 + b^2 = c^2 and check for common Pythagorean triples (3-4-5, 5-12-13, 8-15-17)."
+    "explanation": "For x = -2: x + x^2 + x^3 = -2 + 4 - 8 = -6 => |-6| = 6. In the second term, x + 2x + 3x = 6x = 6(-2) = -12 => |-12| = 12. Thus, 6 - 12 = -6."
   },
   {
     "id": "e1_math_15",
     "examId": "exam1",
     "section": "math",
     "questionNumber": 65,
-    "type": "multiple_choice",
-    "prompt": "",
+    "type": "text_entry",
+    "prompt": "A grocery store sells 1-gallon containers of milk for $3.99. The store also sells orange juice in a 6-pack of 5.5-fluid-ounce bottles for $1.79. Suppose the store wants to sell its orange juice in gallon containers instead. To the nearest dollar, how much more would a gallon of orange juice cost than a gallon of milk?",
     "imageSrc": "/exams/exam1/items/math_q15.png",
-    "options": [
-      {
-        "id": "A",
-        "text": "Choice A"
-      },
-      {
-        "id": "B",
-        "text": "Choice B"
-      },
-      {
-        "id": "C",
-        "text": "Choice C"
-      },
-      {
-        "id": "D",
-        "text": "Choice D"
-      }
-    ],
-    "correctAnswer": "B",
-    "topic": "Geometry: Volume of Cylinders & Prisms",
-    "difficulty": "Easy",
+    "options": [],
+    "correctAnswer": "3",
+    "topic": "Unit Rates & Proportions",
+    "difficulty": "Medium",
     "hints": [
       "Identify the fundamental formula or theorem required for this problem.",
       "Write down what values are given and what specific variable or quantity you need to solve for.",
       "Solve step-by-step and verify units (e.g. converting hours to minutes or squaring scale factors)."
     ],
     "trapAlert": "Double-check algebraic steps and unit consistency.",
-    "explanation": "Volume = \u03c0r^2h. Remember to square the radius before multiplying by height!"
+    "explanation": "1 gallon = 128 fl oz. 6 \u00d7 5.5 fl oz = 33 fl oz for $1.79. Cost per gallon of OJ = 128 \u00d7 ($1.79 / 33) \u2248 $6.943. Milk = $3.99. Difference = $6.943 - $3.99 = $2.953, which rounds to $3."
   },
   {
     "id": "e1_math_16",
@@ -2910,48 +2902,65 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 66,
     "type": "multiple_choice",
-    "prompt": "",
+    "prompt": "Evaluate the expression: (3 + (-3)) / (3 - (-3)) =",
     "imageSrc": "/exams/exam1/items/math_q16.png",
     "options": [
       {
         "id": "A",
-        "text": "Choice A"
+        "text": "-1"
       },
       {
         "id": "B",
-        "text": "Choice B"
+        "text": "0"
       },
       {
         "id": "C",
-        "text": "Choice C"
+        "text": "6"
       },
       {
         "id": "D",
-        "text": "Choice D"
+        "text": "1"
       }
     ],
-    "correctAnswer": "A",
-    "topic": "Statistics: Mean, Median, Mode & Range",
-    "difficulty": "Medium",
+    "correctAnswer": "B",
+    "topic": "Integer Arithmetic & Signs",
+    "difficulty": "Easy",
     "hints": [
       "Identify the fundamental formula or theorem required for this problem.",
       "Write down what values are given and what specific variable or quantity you need to solve for.",
       "Solve step-by-step and verify units (e.g. converting hours to minutes or squaring scale factors)."
     ],
     "trapAlert": "Double-check algebraic steps and unit consistency.",
-    "explanation": "Arrange numbers in ascending order and find the middle value."
+    "explanation": "Numerator: 3 + (-3) = 0. Denominator: 3 - (-3) = 6. 0 \u00f7 6 = 0."
   },
   {
     "id": "e1_math_17",
     "examId": "exam1",
     "section": "math",
     "questionNumber": 67,
-    "type": "text_entry",
-    "prompt": "",
+    "type": "multiple_choice",
+    "prompt": "On the number line above, points M, N, R, S are marked. What is the distance between the midpoints of MN and RS?",
     "imageSrc": "/exams/exam1/items/math_q17.png",
-    "options": null,
-    "correctAnswer": "42",
-    "topic": "Ratios & Proportions: Scale Factor",
+    "options": [
+      {
+        "id": "A",
+        "text": "1/2 unit"
+      },
+      {
+        "id": "B",
+        "text": "1 unit"
+      },
+      {
+        "id": "C",
+        "text": "1.5 units"
+      },
+      {
+        "id": "D",
+        "text": "2 units"
+      }
+    ],
+    "correctAnswer": "C",
+    "topic": "Coordinate Geometry & Midpoints",
     "difficulty": "Medium",
     "hints": [
       "Identify the fundamental formula or theorem required for this problem.",
@@ -2959,7 +2968,7 @@ export const QUESTIONS: Question[] = [
       "Solve step-by-step and verify units (e.g. converting hours to minutes or squaring scale factors)."
     ],
     "trapAlert": "Double-check algebraic steps and unit consistency.",
-    "explanation": "Remember that area scales by the SQUARE of the linear scale factor: (scale)^2!"
+    "explanation": "Midpoint of MN is at x = 0.5. Midpoint of RS is at x = 2.0. Distance = |2.0 - 0.5| = 1.5 units."
   },
   {
     "id": "e1_math_18",
@@ -2967,36 +2976,36 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 68,
     "type": "multiple_choice",
-    "prompt": "",
+    "prompt": "If s is a positive integer and t is a negative integer, which of the expressions must be a positive number? I. s - t, II. s^2 t^2, III. s + t",
     "imageSrc": "/exams/exam1/items/math_q18.png",
     "options": [
       {
         "id": "A",
-        "text": "Choice A"
+        "text": "II only"
       },
       {
         "id": "B",
-        "text": "Choice B"
+        "text": "I and II only"
       },
       {
         "id": "C",
-        "text": "Choice C"
+        "text": "II and III only"
       },
       {
         "id": "D",
-        "text": "Choice D"
+        "text": "I, II, and III"
       }
     ],
-    "correctAnswer": "C",
-    "topic": "Percents: Tax, Discount & Successive Percents",
-    "difficulty": "Medium",
+    "correctAnswer": "B",
+    "topic": "Properties of Real Numbers & Signs",
+    "difficulty": "Hard",
     "hints": [
       "Identify the fundamental formula or theorem required for this problem.",
       "Write down what values are given and what specific variable or quantity you need to solve for.",
       "Solve step-by-step and verify units (e.g. converting hours to minutes or squaring scale factors)."
     ],
     "trapAlert": "Double-check algebraic steps and unit consistency.",
-    "explanation": "Multiply by 0.80 then by 1.08; do not simply subtract 8 from 20!"
+    "explanation": "Since s > 0 and t < 0: I: s - t is positive minus negative, which is always positive. II: s^2 t^2 is the square of a non-zero product, which is always positive. III: s + t can be positive or negative depending on absolute magnitudes. Therefore, I and II only."
   },
   {
     "id": "e1_math_19",
@@ -3004,28 +3013,28 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 69,
     "type": "multiple_choice",
-    "prompt": "",
+    "prompt": "What is the value of (-3/4) \u00d7 (2/5)?",
     "imageSrc": "/exams/exam1/items/math_q19.png",
     "options": [
       {
         "id": "A",
-        "text": "Choice A"
+        "text": "-13/20"
       },
       {
         "id": "B",
-        "text": "Choice B"
+        "text": "-3/10"
       },
       {
         "id": "C",
-        "text": "Choice C"
+        "text": "3/10"
       },
       {
         "id": "D",
-        "text": "Choice D"
+        "text": "13/20"
       }
     ],
     "correctAnswer": "B",
-    "topic": "Coordinate Geometry: Slope & Line Equations",
+    "topic": "Rational Number Operations",
     "difficulty": "Medium",
     "hints": [
       "Identify the fundamental formula or theorem required for this problem.",
@@ -3033,7 +3042,7 @@ export const QUESTIONS: Question[] = [
       "Solve step-by-step and verify units (e.g. converting hours to minutes or squaring scale factors)."
     ],
     "trapAlert": "Double-check algebraic steps and unit consistency.",
-    "explanation": "Slope m = (y2 - y1) / (x2 - x1). Be careful with double negatives!"
+    "explanation": "(-3/4) \u00d7 (2/5) = -6/20, which simplifies to -3/10."
   },
   {
     "id": "e1_math_20",
@@ -3041,28 +3050,28 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 70,
     "type": "multiple_choice",
-    "prompt": "",
+    "prompt": "Two circles, with centers at A and C, are shown. Line segment AB is congruent to line segment DE. Determine which circle has an Area of 25\u03c0.",
     "imageSrc": "/exams/exam1/items/math_q20.png",
     "options": [
       {
         "id": "A",
-        "text": "Choice A"
+        "text": "Circle A"
       },
       {
         "id": "B",
-        "text": "Choice B"
+        "text": "Circle C"
       },
       {
         "id": "C",
-        "text": "Choice C"
+        "text": "Neither circle"
       },
       {
         "id": "D",
-        "text": "Choice D"
+        "text": "Both circles"
       }
     ],
     "correctAnswer": "A",
-    "topic": "Algebra: Systems of Linear Equations",
+    "topic": "Geometry: Circles & Area",
     "difficulty": "Medium",
     "hints": [
       "Identify the fundamental formula or theorem required for this problem.",
@@ -3070,7 +3079,7 @@ export const QUESTIONS: Question[] = [
       "Solve step-by-step and verify units (e.g. converting hours to minutes or squaring scale factors)."
     ],
     "trapAlert": "Double-check algebraic steps and unit consistency.",
-    "explanation": "Isolate one variable first and substitute into the second equation."
+    "explanation": "Area = \u03c0r^2. With radius r = 5, Area = \u03c0(5^2) = 25\u03c0, which corresponds to Circle A where radius AB = 5."
   },
   {
     "id": "e1_math_21",
@@ -3078,65 +3087,48 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 71,
     "type": "multiple_choice",
-    "prompt": "",
+    "prompt": "In a fruit basket, the ratio of apples to oranges is the same as the ratio of cherries to walnuts. If there are 6 oranges, 16 cherries, and 48 walnuts, how many apples are there?",
     "imageSrc": "/exams/exam1/items/math_q21.png",
     "options": [
       {
         "id": "A",
-        "text": "Choice A"
+        "text": "2"
       },
       {
         "id": "B",
-        "text": "Choice B"
+        "text": "3"
       },
       {
         "id": "C",
-        "text": "Choice C"
+        "text": "18"
       },
       {
         "id": "D",
-        "text": "Choice D"
+        "text": "38"
       }
     ],
-    "correctAnswer": "D",
-    "topic": "Geometry: Pythagorean Theorem & Triangles",
-    "difficulty": "Medium",
+    "correctAnswer": "A",
+    "topic": "Ratios & Proportions",
+    "difficulty": "Easy",
     "hints": [
       "Identify the fundamental formula or theorem required for this problem.",
       "Write down what values are given and what specific variable or quantity you need to solve for.",
       "Solve step-by-step and verify units (e.g. converting hours to minutes or squaring scale factors)."
     ],
     "trapAlert": "Double-check algebraic steps and unit consistency.",
-    "explanation": "Use a^2 + b^2 = c^2 and check for common Pythagorean triples (3-4-5, 5-12-13, 8-15-17)."
+    "explanation": "Apples / Oranges = Cherries / Walnuts => Apples / 6 = 16 / 48 = 1/3 => Apples = 6 \u00d7 (1/3) = 2."
   },
   {
     "id": "e1_math_22",
     "examId": "exam1",
     "section": "math",
     "questionNumber": 72,
-    "type": "multiple_choice",
-    "prompt": "",
+    "type": "text_entry",
+    "prompt": "During a hiking trip, a group of students recorded the elevation (in feet) at several points along the trail: -120 ft, -80 ft, 0 ft, 45 ft, -30 ft, 90 ft. What is the difference between the highest and lowest elevations recorded on the trail?",
     "imageSrc": "/exams/exam1/items/math_q22.png",
-    "options": [
-      {
-        "id": "A",
-        "text": "Choice A"
-      },
-      {
-        "id": "B",
-        "text": "Choice B"
-      },
-      {
-        "id": "C",
-        "text": "Choice C"
-      },
-      {
-        "id": "D",
-        "text": "Choice D"
-      }
-    ],
-    "correctAnswer": "C",
-    "topic": "Geometry: Volume of Cylinders & Prisms",
+    "options": [],
+    "correctAnswer": "210",
+    "topic": "Signed Numbers & Elevation",
     "difficulty": "Medium",
     "hints": [
       "Identify the fundamental formula or theorem required for this problem.",
@@ -3144,7 +3136,7 @@ export const QUESTIONS: Question[] = [
       "Solve step-by-step and verify units (e.g. converting hours to minutes or squaring scale factors)."
     ],
     "trapAlert": "Double-check algebraic steps and unit consistency.",
-    "explanation": "Volume = \u03c0r^2h. Remember to square the radius before multiplying by height!"
+    "explanation": "Highest elevation = 90 ft. Lowest elevation = -120 ft. Difference = 90 - (-120) = 90 + 120 = 210 ft."
   },
   {
     "id": "e1_math_23",
@@ -3152,28 +3144,28 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 73,
     "type": "multiple_choice",
-    "prompt": "",
+    "prompt": "On parallelogram PQRS above, the length of QT is 18 centimeters and base PQ is 34 centimeters. What is the area of the parallelogram?",
     "imageSrc": "/exams/exam1/items/math_q23.png",
     "options": [
       {
         "id": "A",
-        "text": "Choice A"
+        "text": "112 sq cm"
       },
       {
         "id": "B",
-        "text": "Choice B"
+        "text": "396 sq cm"
       },
       {
         "id": "C",
-        "text": "Choice C"
+        "text": "612 sq cm"
       },
       {
         "id": "D",
-        "text": "Choice D"
+        "text": "748 sq cm"
       }
     ],
-    "correctAnswer": "B",
-    "topic": "Statistics: Mean, Median, Mode & Range",
+    "correctAnswer": "C",
+    "topic": "Geometry: Area of Parallelograms",
     "difficulty": "Medium",
     "hints": [
       "Identify the fundamental formula or theorem required for this problem.",
@@ -3181,19 +3173,36 @@ export const QUESTIONS: Question[] = [
       "Solve step-by-step and verify units (e.g. converting hours to minutes or squaring scale factors)."
     ],
     "trapAlert": "Double-check algebraic steps and unit consistency.",
-    "explanation": "Arrange numbers in ascending order and find the middle value."
+    "explanation": "Area = base \u00d7 perpendicular height = 34 \u00d7 18 = 612 sq cm."
   },
   {
     "id": "e1_math_24",
     "examId": "exam1",
     "section": "math",
     "questionNumber": 74,
-    "type": "text_entry",
-    "prompt": "",
+    "type": "multiple_choice",
+    "prompt": "In a showing of an artist's works, the ratio of the number of paintings, drawings, and photographs shown is 3:5:4, respectively. If the number of drawings shown was 45, what is the total number of photographs and paintings that were shown?",
     "imageSrc": "/exams/exam1/items/math_q24.png",
-    "options": null,
-    "correctAnswer": "42",
-    "topic": "Ratios & Proportions: Scale Factor",
+    "options": [
+      {
+        "id": "A",
+        "text": "36"
+      },
+      {
+        "id": "B",
+        "text": "63"
+      },
+      {
+        "id": "C",
+        "text": "84"
+      },
+      {
+        "id": "D",
+        "text": "108"
+      }
+    ],
+    "correctAnswer": "B",
+    "topic": "Part-to-Whole Ratios",
     "difficulty": "Medium",
     "hints": [
       "Identify the fundamental formula or theorem required for this problem.",
@@ -3201,7 +3210,7 @@ export const QUESTIONS: Question[] = [
       "Solve step-by-step and verify units (e.g. converting hours to minutes or squaring scale factors)."
     ],
     "trapAlert": "Double-check algebraic steps and unit consistency.",
-    "explanation": "Remember that area scales by the SQUARE of the linear scale factor: (scale)^2!"
+    "explanation": "Drawings represent 5 parts: 5 units = 45 => 1 unit = 9. Total photographs (4 units) + paintings (3 units) = 7 units = 7 \u00d7 9 = 63."
   },
   {
     "id": "e1_math_25",
@@ -3209,28 +3218,28 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 75,
     "type": "multiple_choice",
-    "prompt": "",
+    "prompt": "For each 3/4 foot of curtain width, 2/3 yard of fabric is needed to make ruffles. How many yards of fabric are needed per foot of curtain width?",
     "imageSrc": "/exams/exam1/items/math_q25.png",
     "options": [
       {
         "id": "A",
-        "text": "Choice A"
+        "text": "3/8 yd"
       },
       {
         "id": "B",
-        "text": "Choice B"
+        "text": "8/9 yd"
       },
       {
         "id": "C",
-        "text": "Choice C"
+        "text": "1 1/2 yd"
       },
       {
         "id": "D",
-        "text": "Choice D"
+        "text": "2 2/3 yd"
       }
     ],
-    "correctAnswer": "D",
-    "topic": "Percents: Tax, Discount & Successive Percents",
+    "correctAnswer": "B",
+    "topic": "Unit Rates with Complex Fractions",
     "difficulty": "Medium",
     "hints": [
       "Identify the fundamental formula or theorem required for this problem.",
@@ -3238,7 +3247,7 @@ export const QUESTIONS: Question[] = [
       "Solve step-by-step and verify units (e.g. converting hours to minutes or squaring scale factors)."
     ],
     "trapAlert": "Double-check algebraic steps and unit consistency.",
-    "explanation": "Multiply by 0.80 then by 1.08; do not simply subtract 8 from 20!"
+    "explanation": "(2/3 yard) \u00f7 (3/4 foot) = (2/3) \u00d7 (4/3) = 8/9 yard per foot of curtain width."
   },
   {
     "id": "e1_math_26",
@@ -3246,28 +3255,28 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 76,
     "type": "multiple_choice",
-    "prompt": "",
+    "prompt": "Which straight line in the coordinate plane is the graph of a proportional relationship?",
     "imageSrc": "/exams/exam1/items/math_q26.png",
     "options": [
       {
         "id": "A",
-        "text": "Choice A"
+        "text": "Line MS"
       },
       {
         "id": "B",
-        "text": "Choice B"
+        "text": "Line VP"
       },
       {
         "id": "C",
-        "text": "Choice C"
+        "text": "Line VQ"
       },
       {
         "id": "D",
-        "text": "Choice D"
+        "text": "Line TR"
       }
     ],
     "correctAnswer": "C",
-    "topic": "Coordinate Geometry: Slope & Line Equations",
+    "topic": "Coordinate Geometry & Proportional Graphs",
     "difficulty": "Medium",
     "hints": [
       "Identify the fundamental formula or theorem required for this problem.",
@@ -3275,7 +3284,7 @@ export const QUESTIONS: Question[] = [
       "Solve step-by-step and verify units (e.g. converting hours to minutes or squaring scale factors)."
     ],
     "trapAlert": "Double-check algebraic steps and unit consistency.",
-    "explanation": "Slope m = (y2 - y1) / (x2 - x1). Be careful with double negatives!"
+    "explanation": "A proportional relationship has equation y = kx and must pass directly through the origin (0, 0). Line VQ is the only line passing through the origin."
   },
   {
     "id": "e1_math_27",
@@ -3283,28 +3292,28 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 77,
     "type": "multiple_choice",
-    "prompt": "",
+    "prompt": "Some friends are buying bags of ice for a picnic. The graph shows the cost of the ice, in dollars, in relation to the weight, in pounds. Which statement about a point on the graph is true?",
     "imageSrc": "/exams/exam1/items/math_q27.png",
     "options": [
       {
         "id": "A",
-        "text": "Choice A"
+        "text": "The point (20, 3) means that 3 lbs of ice costs $20.00."
       },
       {
         "id": "B",
-        "text": "Choice B"
+        "text": "The point (1, 0.15) means that 1 bag of ice costs $0.15."
       },
       {
         "id": "C",
-        "text": "Choice C"
+        "text": "The point (10, 1.5) means that 10 lbs of ice costs $1.50."
       },
       {
         "id": "D",
-        "text": "Choice D"
+        "text": "The point (0, 0) means that 0 lbs of ice will be needed if 0 people go to the picnic."
       }
     ],
-    "correctAnswer": "B",
-    "topic": "Algebra: Systems of Linear Equations",
+    "correctAnswer": "C",
+    "topic": "Interpreting Coordinate Graphs",
     "difficulty": "Medium",
     "hints": [
       "Identify the fundamental formula or theorem required for this problem.",
@@ -3312,36 +3321,19 @@ export const QUESTIONS: Question[] = [
       "Solve step-by-step and verify units (e.g. converting hours to minutes or squaring scale factors)."
     ],
     "trapAlert": "Double-check algebraic steps and unit consistency.",
-    "explanation": "Isolate one variable first and substitute into the second equation."
+    "explanation": "The horizontal axis is weight (lb) and vertical is cost ($). The point (10, 1.5) represents 10 lbs of ice costing $1.50."
   },
   {
     "id": "e1_math_28",
     "examId": "exam1",
     "section": "math",
     "questionNumber": 78,
-    "type": "multiple_choice",
-    "prompt": "",
+    "type": "text_entry",
+    "prompt": "If z / 4 = 5w, what is the value of z in terms of w?",
     "imageSrc": "/exams/exam1/items/math_q28.png",
-    "options": [
-      {
-        "id": "A",
-        "text": "Choice A"
-      },
-      {
-        "id": "B",
-        "text": "Choice B"
-      },
-      {
-        "id": "C",
-        "text": "Choice C"
-      },
-      {
-        "id": "D",
-        "text": "Choice D"
-      }
-    ],
-    "correctAnswer": "A",
-    "topic": "Geometry: Pythagorean Theorem & Triangles",
+    "options": [],
+    "correctAnswer": "20w",
+    "topic": "Solving Literal Equations",
     "difficulty": "Medium",
     "hints": [
       "Identify the fundamental formula or theorem required for this problem.",
@@ -3349,36 +3341,19 @@ export const QUESTIONS: Question[] = [
       "Solve step-by-step and verify units (e.g. converting hours to minutes or squaring scale factors)."
     ],
     "trapAlert": "Double-check algebraic steps and unit consistency.",
-    "explanation": "Use a^2 + b^2 = c^2 and check for common Pythagorean triples (3-4-5, 5-12-13, 8-15-17)."
+    "explanation": "Multiply both sides by 4: z = 4 \u00d7 5w = 20w."
   },
   {
     "id": "e1_math_29",
     "examId": "exam1",
     "section": "math",
     "questionNumber": 79,
-    "type": "multiple_choice",
-    "prompt": "",
+    "type": "text_entry",
+    "prompt": "A smoothie shop recipe shows cups of fruit x and cups of yogurt y: (6, 1.5), (8, 2.0), (10, 2.5), (12, 3.0). What is the constant of proportionality of yogurt to fruit?",
     "imageSrc": "/exams/exam1/items/math_q29.png",
-    "options": [
-      {
-        "id": "A",
-        "text": "Choice A"
-      },
-      {
-        "id": "B",
-        "text": "Choice B"
-      },
-      {
-        "id": "C",
-        "text": "Choice C"
-      },
-      {
-        "id": "D",
-        "text": "Choice D"
-      }
-    ],
-    "correctAnswer": "D",
-    "topic": "Geometry: Volume of Cylinders & Prisms",
+    "options": [],
+    "correctAnswer": "1/4",
+    "topic": "Constant of Proportionality",
     "difficulty": "Medium",
     "hints": [
       "Identify the fundamental formula or theorem required for this problem.",
@@ -3386,7 +3361,7 @@ export const QUESTIONS: Question[] = [
       "Solve step-by-step and verify units (e.g. converting hours to minutes or squaring scale factors)."
     ],
     "trapAlert": "Double-check algebraic steps and unit consistency.",
-    "explanation": "Volume = \u03c0r^2h. Remember to square the radius before multiplying by height!"
+    "explanation": "Constant of proportionality k = y / x = 1.5 / 6 = 2.0 / 8 = 0.25 = 1/4."
   },
   {
     "id": "e1_math_30",
@@ -3394,28 +3369,28 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 80,
     "type": "multiple_choice",
-    "prompt": "",
+    "prompt": "Out of 2,000 high school seniors, 191 were enrolled in the Honor Society. What percentage of the entire group of 2,000 seniors were in the Honor Society?",
     "imageSrc": "/exams/exam1/items/math_q30.png",
     "options": [
       {
         "id": "A",
-        "text": "Choice A"
+        "text": "0.955%"
       },
       {
         "id": "B",
-        "text": "Choice B"
+        "text": "1.91%"
       },
       {
         "id": "C",
-        "text": "Choice C"
+        "text": "9.55%"
       },
       {
         "id": "D",
-        "text": "Choice D"
+        "text": "19.1%"
       }
     ],
     "correctAnswer": "C",
-    "topic": "Statistics: Mean, Median, Mode & Range",
+    "topic": "Percents & Proportions",
     "difficulty": "Medium",
     "hints": [
       "Identify the fundamental formula or theorem required for this problem.",
@@ -3423,19 +3398,36 @@ export const QUESTIONS: Question[] = [
       "Solve step-by-step and verify units (e.g. converting hours to minutes or squaring scale factors)."
     ],
     "trapAlert": "Double-check algebraic steps and unit consistency.",
-    "explanation": "Arrange numbers in ascending order and find the middle value."
+    "explanation": "191 / 2,000 = 0.0955 = 9.55%."
   },
   {
     "id": "e1_math_31",
     "examId": "exam1",
     "section": "math",
     "questionNumber": 81,
-    "type": "text_entry",
-    "prompt": "",
+    "type": "multiple_choice",
+    "prompt": "The table shows zoo visitors: Male Children 360, Female Children 340, Male Adults 210, Female Adults 290. The largest group made up what percentage of all visitors on that day?",
     "imageSrc": "/exams/exam1/items/math_q31.png",
-    "options": null,
-    "correctAnswer": "42",
-    "topic": "Ratios & Proportions: Scale Factor",
+    "options": [
+      {
+        "id": "A",
+        "text": "30%"
+      },
+      {
+        "id": "B",
+        "text": "28%"
+      },
+      {
+        "id": "C",
+        "text": "24%"
+      },
+      {
+        "id": "D",
+        "text": "17%"
+      }
+    ],
+    "correctAnswer": "A",
+    "topic": "Tables & Percentage Distribution",
     "difficulty": "Medium",
     "hints": [
       "Identify the fundamental formula or theorem required for this problem.",
@@ -3443,36 +3435,19 @@ export const QUESTIONS: Question[] = [
       "Solve step-by-step and verify units (e.g. converting hours to minutes or squaring scale factors)."
     ],
     "trapAlert": "Double-check algebraic steps and unit consistency.",
-    "explanation": "Remember that area scales by the SQUARE of the linear scale factor: (scale)^2!"
+    "explanation": "Total visitors = 360 + 340 + 210 + 290 = 1,200. Largest group = Male Children (360). Percentage = 360 / 1,200 = 30%."
   },
   {
     "id": "e1_math_32",
     "examId": "exam1",
     "section": "math",
     "questionNumber": 82,
-    "type": "multiple_choice",
-    "prompt": "",
+    "type": "text_entry",
+    "prompt": "The box plot shows average monthly high temperatures in NYC: Min 38\u00b0F, Q1 48\u00b0F, Median 62\u00b0F, Q3 76\u00b0F, Max 84\u00b0F. What is the difference between the range and the interquartile range (IQR) of the temperature data?",
     "imageSrc": "/exams/exam1/items/math_q32.png",
-    "options": [
-      {
-        "id": "A",
-        "text": "Choice A"
-      },
-      {
-        "id": "B",
-        "text": "Choice B"
-      },
-      {
-        "id": "C",
-        "text": "Choice C"
-      },
-      {
-        "id": "D",
-        "text": "Choice D"
-      }
-    ],
-    "correctAnswer": "A",
-    "topic": "Percents: Tax, Discount & Successive Percents",
+    "options": [],
+    "correctAnswer": "18",
+    "topic": "Statistics: Range & IQR",
     "difficulty": "Medium",
     "hints": [
       "Identify the fundamental formula or theorem required for this problem.",
@@ -3480,7 +3455,7 @@ export const QUESTIONS: Question[] = [
       "Solve step-by-step and verify units (e.g. converting hours to minutes or squaring scale factors)."
     ],
     "trapAlert": "Double-check algebraic steps and unit consistency.",
-    "explanation": "Multiply by 0.80 then by 1.08; do not simply subtract 8 from 20!"
+    "explanation": "Range = Max - Min = 84 - 38 = 46. IQR = Q3 - Q1 = 76 - 48 = 28. Difference = 46 - 28 = 18."
   },
   {
     "id": "e1_math_33",
@@ -3488,28 +3463,28 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 83,
     "type": "multiple_choice",
-    "prompt": "",
+    "prompt": "A bag contains 40 tiles that are either red, green, or blue. In 120 trials with replacement, red is selected 18 times. Based on this information, what is the most likely number of red tiles in the bag?",
     "imageSrc": "/exams/exam1/items/math_q33.png",
     "options": [
       {
         "id": "A",
-        "text": "Choice A"
+        "text": "6"
       },
       {
         "id": "B",
-        "text": "Choice B"
+        "text": "15"
       },
       {
         "id": "C",
-        "text": "Choice C"
+        "text": "18"
       },
       {
         "id": "D",
-        "text": "Choice D"
+        "text": "30"
       }
     ],
-    "correctAnswer": "D",
-    "topic": "Coordinate Geometry: Slope & Line Equations",
+    "correctAnswer": "A",
+    "topic": "Theoretical vs Experimental Probability",
     "difficulty": "Medium",
     "hints": [
       "Identify the fundamental formula or theorem required for this problem.",
@@ -3517,7 +3492,7 @@ export const QUESTIONS: Question[] = [
       "Solve step-by-step and verify units (e.g. converting hours to minutes or squaring scale factors)."
     ],
     "trapAlert": "Double-check algebraic steps and unit consistency.",
-    "explanation": "Slope m = (y2 - y1) / (x2 - x1). Be careful with double negatives!"
+    "explanation": "P(red) = 18 / 120 = 0.15. Expected red tiles in bag = 40 \u00d7 0.15 = 6 tiles."
   },
   {
     "id": "e1_math_34",
@@ -3525,65 +3500,48 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 84,
     "type": "multiple_choice",
-    "prompt": "",
+    "prompt": "A teacher selects 3 students from Classroom A or Classroom B. What is the probability that the teacher will select 2 students from Classroom A and 1 student from Classroom B (in any order)?",
     "imageSrc": "/exams/exam1/items/math_q34.png",
     "options": [
       {
         "id": "A",
-        "text": "Choice A"
+        "text": "1/8"
       },
       {
         "id": "B",
-        "text": "Choice B"
+        "text": "3/8"
       },
       {
         "id": "C",
-        "text": "Choice C"
+        "text": "1/2"
       },
       {
         "id": "D",
-        "text": "Choice D"
+        "text": "5/8"
       }
     ],
-    "correctAnswer": "C",
-    "topic": "Algebra: Systems of Linear Equations",
-    "difficulty": "Medium",
+    "correctAnswer": "B",
+    "topic": "Probability: Permutations & Combinations",
+    "difficulty": "Hard",
     "hints": [
       "Identify the fundamental formula or theorem required for this problem.",
       "Write down what values are given and what specific variable or quantity you need to solve for.",
       "Solve step-by-step and verify units (e.g. converting hours to minutes or squaring scale factors)."
     ],
     "trapAlert": "Double-check algebraic steps and unit consistency.",
-    "explanation": "Isolate one variable first and substitute into the second equation."
+    "explanation": "Total 3-student combinations = 2^3 = 8. Favorable outcomes with 2 from A and 1 from B: {AAB, ABA, BAA} = 3 outcomes. Probability = 3/8."
   },
   {
     "id": "e1_math_35",
     "examId": "exam1",
     "section": "math",
     "questionNumber": 85,
-    "type": "multiple_choice",
-    "prompt": "",
+    "type": "text_entry",
+    "prompt": "If 4(a + 2b) = 28b + 2a, what is the value of a in terms of b?",
     "imageSrc": "/exams/exam1/items/math_q35.png",
-    "options": [
-      {
-        "id": "A",
-        "text": "Choice A"
-      },
-      {
-        "id": "B",
-        "text": "Choice B"
-      },
-      {
-        "id": "C",
-        "text": "Choice C"
-      },
-      {
-        "id": "D",
-        "text": "Choice D"
-      }
-    ],
-    "correctAnswer": "B",
-    "topic": "Geometry: Pythagorean Theorem & Triangles",
+    "options": [],
+    "correctAnswer": "10b",
+    "topic": "Algebra: Rearranging Equations",
     "difficulty": "Medium",
     "hints": [
       "Identify the fundamental formula or theorem required for this problem.",
@@ -3591,7 +3549,7 @@ export const QUESTIONS: Question[] = [
       "Solve step-by-step and verify units (e.g. converting hours to minutes or squaring scale factors)."
     ],
     "trapAlert": "Double-check algebraic steps and unit consistency.",
-    "explanation": "Use a^2 + b^2 = c^2 and check for common Pythagorean triples (3-4-5, 5-12-13, 8-15-17)."
+    "explanation": "Expand: 4a + 8b = 28b + 2a => 4a - 2a = 28b - 8b => 2a = 20b => a = 10b."
   },
   {
     "id": "e1_math_36",
@@ -3599,36 +3557,36 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 86,
     "type": "multiple_choice",
-    "prompt": "",
+    "prompt": "A standard deck of 52 cards contains 13 hearts. Sara holds 12 cards, 3 of which are hearts. What is the probability that a card drawn at random from the remainder of the deck will be a heart?",
     "imageSrc": "/exams/exam1/items/math_q36.png",
     "options": [
       {
         "id": "A",
-        "text": "Choice A"
+        "text": "1/10"
       },
       {
         "id": "B",
-        "text": "Choice B"
+        "text": "1/4"
       },
       {
         "id": "C",
-        "text": "Choice C"
+        "text": "3/13"
       },
       {
         "id": "D",
-        "text": "Choice D"
+        "text": "3/4"
       }
     ],
-    "correctAnswer": "A",
-    "topic": "Geometry: Volume of Cylinders & Prisms",
-    "difficulty": "Hard",
+    "correctAnswer": "B",
+    "topic": "Conditional Probability",
+    "difficulty": "Medium",
     "hints": [
       "Identify the fundamental formula or theorem required for this problem.",
       "Write down what values are given and what specific variable or quantity you need to solve for.",
       "Solve step-by-step and verify units (e.g. converting hours to minutes or squaring scale factors)."
     ],
     "trapAlert": "Double-check algebraic steps and unit consistency.",
-    "explanation": "Volume = \u03c0r^2h. Remember to square the radius before multiplying by height!"
+    "explanation": "Remaining cards in deck = 52 - 12 = 40. Remaining hearts = 13 - 3 = 10. P(heart) = 10 / 40 = 1/4."
   },
   {
     "id": "e1_math_37",
@@ -3636,56 +3594,73 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 87,
     "type": "multiple_choice",
-    "prompt": "",
+    "prompt": "The table shows probability of picking candy flavors: Butterscotch (0.57), Lemon (0.095), Maple (0.125), Strawberry (0.21). Which flavor is most likely to be randomly picked?",
     "imageSrc": "/exams/exam1/items/math_q37.png",
     "options": [
       {
         "id": "A",
-        "text": "Choice A"
+        "text": "butterscotch"
       },
       {
         "id": "B",
-        "text": "Choice B"
+        "text": "lemon"
       },
       {
         "id": "C",
-        "text": "Choice C"
+        "text": "maple"
       },
       {
         "id": "D",
-        "text": "Choice D"
+        "text": "strawberry"
       }
     ],
-    "correctAnswer": "D",
-    "topic": "Statistics: Mean, Median, Mode & Range",
-    "difficulty": "Hard",
+    "correctAnswer": "A",
+    "topic": "Probability Distributions",
+    "difficulty": "Easy",
     "hints": [
       "Identify the fundamental formula or theorem required for this problem.",
       "Write down what values are given and what specific variable or quantity you need to solve for.",
       "Solve step-by-step and verify units (e.g. converting hours to minutes or squaring scale factors)."
     ],
     "trapAlert": "Double-check algebraic steps and unit consistency.",
-    "explanation": "Arrange numbers in ascending order and find the middle value."
+    "explanation": "0.57 is the highest probability, so Butterscotch is most likely."
   },
   {
     "id": "e1_math_38",
     "examId": "exam1",
     "section": "math",
     "questionNumber": 88,
-    "type": "text_entry",
-    "prompt": "",
+    "type": "multiple_choice",
+    "prompt": "The formula p = w/r + f gives book pages p from w words, r words per page, and f front pages. What is the formula solved for w?",
     "imageSrc": "/exams/exam1/items/math_q38.png",
-    "options": null,
-    "correctAnswer": "42",
-    "topic": "Ratios & Proportions: Scale Factor",
-    "difficulty": "Hard",
+    "options": [
+      {
+        "id": "A",
+        "text": "w = r(p - f)"
+      },
+      {
+        "id": "B",
+        "text": "w = (1/r)p + f"
+      },
+      {
+        "id": "C",
+        "text": "w = f + rp"
+      },
+      {
+        "id": "D",
+        "text": "w = r + p + f"
+      }
+    ],
+    "correctAnswer": "A",
+    "topic": "Literal Equations",
+    "difficulty": "Medium",
     "hints": [
       "Identify the fundamental formula or theorem required for this problem.",
       "Write down what values are given and what specific variable or quantity you need to solve for.",
       "Solve step-by-step and verify units (e.g. converting hours to minutes or squaring scale factors)."
     ],
     "trapAlert": "Double-check algebraic steps and unit consistency.",
-    "explanation": "Remember that area scales by the SQUARE of the linear scale factor: (scale)^2!"
+    "explanation": "p = w/r + f => p - f = w/r => w = r(p - f)."
   },
   {
     "id": "e1_math_39",
@@ -3693,36 +3668,36 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 89,
     "type": "multiple_choice",
-    "prompt": "",
+    "prompt": "In a sample of 20 boxes out of 170, 8 have damage and 12 are undamaged. What is the best prediction of the number of undamaged boxes in the remaining shipment (not including the sample)?",
     "imageSrc": "/exams/exam1/items/math_q39.png",
     "options": [
       {
         "id": "A",
-        "text": "Choice A"
+        "text": "60"
       },
       {
         "id": "B",
-        "text": "Choice B"
+        "text": "68"
       },
       {
         "id": "C",
-        "text": "Choice C"
+        "text": "90"
       },
       {
         "id": "D",
-        "text": "Choice D"
+        "text": "102"
       }
     ],
-    "correctAnswer": "B",
-    "topic": "Percents: Tax, Discount & Successive Percents",
-    "difficulty": "Hard",
+    "correctAnswer": "C",
+    "topic": "Sampling & Statistical Inference",
+    "difficulty": "Medium",
     "hints": [
       "Identify the fundamental formula or theorem required for this problem.",
       "Write down what values are given and what specific variable or quantity you need to solve for.",
       "Solve step-by-step and verify units (e.g. converting hours to minutes or squaring scale factors)."
     ],
     "trapAlert": "Double-check algebraic steps and unit consistency.",
-    "explanation": "Multiply by 0.80 then by 1.08; do not simply subtract 8 from 20!"
+    "explanation": "Proportion undamaged = 12 / 20 = 0.60. Remaining boxes = 170 - 20 = 150. Predicted undamaged = 150 \u00d7 0.60 = 90 boxes."
   },
   {
     "id": "e1_math_40",
@@ -3730,102 +3705,68 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 90,
     "type": "multiple_choice",
-    "prompt": "",
+    "prompt": "Marcus scores 1 point for a free throw (mean 8 per game) and 2 points per basket, scoring at least 25 points: 2b + 8 >= 25. What is the number of 2-point baskets Marcus needs to make?",
     "imageSrc": "/exams/exam1/items/math_q40.png",
     "options": [
       {
         "id": "A",
-        "text": "Choice A"
+        "text": "b <= 8"
       },
       {
         "id": "B",
-        "text": "Choice B"
+        "text": "b >= 9"
       },
       {
         "id": "C",
-        "text": "Choice C"
+        "text": "b > 16"
       },
       {
         "id": "D",
-        "text": "Choice D"
+        "text": "b <= 25"
       }
     ],
-    "correctAnswer": "A",
-    "topic": "Coordinate Geometry: Slope & Line Equations",
-    "difficulty": "Hard",
+    "correctAnswer": "B",
+    "topic": "Linear Inequalities",
+    "difficulty": "Medium",
     "hints": [
       "Identify the fundamental formula or theorem required for this problem.",
       "Write down what values are given and what specific variable or quantity you need to solve for.",
       "Solve step-by-step and verify units (e.g. converting hours to minutes or squaring scale factors)."
     ],
     "trapAlert": "Double-check algebraic steps and unit consistency.",
-    "explanation": "Slope m = (y2 - y1) / (x2 - x1). Be careful with double negatives!"
+    "explanation": "2b + 8 >= 25 => 2b >= 17 => b >= 8.5. Since baskets must be integers, Marcus must make at least 9 baskets (b >= 9)."
   },
   {
     "id": "e1_math_41",
     "examId": "exam1",
     "section": "math",
     "questionNumber": 91,
-    "type": "multiple_choice",
-    "prompt": "",
+    "type": "text_entry",
+    "prompt": "Elijah wants to buy a water bottle for $12.50 and notebooks for $4.75 each with at most $35.00. Write an inequality representing the number of notebooks, n, Elijah can purchase.",
     "imageSrc": "/exams/exam1/items/math_q41.png",
-    "options": [
-      {
-        "id": "A",
-        "text": "Choice A"
-      },
-      {
-        "id": "B",
-        "text": "Choice B"
-      },
-      {
-        "id": "C",
-        "text": "Choice C"
-      },
-      {
-        "id": "D",
-        "text": "Choice D"
-      }
-    ],
-    "correctAnswer": "D",
-    "topic": "Algebra: Systems of Linear Equations",
-    "difficulty": "Hard",
+    "options": [],
+    "correctAnswer": "4.75n + 12.50 <= 35",
+    "topic": "Writing Inequalities from Word Problems",
+    "difficulty": "Medium",
     "hints": [
       "Identify the fundamental formula or theorem required for this problem.",
       "Write down what values are given and what specific variable or quantity you need to solve for.",
       "Solve step-by-step and verify units (e.g. converting hours to minutes or squaring scale factors)."
     ],
     "trapAlert": "Double-check algebraic steps and unit consistency.",
-    "explanation": "Isolate one variable first and substitute into the second equation."
+    "explanation": "Notebook cost = 4.75n, water bottle = 12.50. Total must be at most $35: 4.75n + 12.50 <= 35."
   },
   {
     "id": "e1_math_42",
     "examId": "exam1",
     "section": "math",
     "questionNumber": 92,
-    "type": "multiple_choice",
-    "prompt": "",
+    "type": "text_entry",
+    "prompt": "Tariq makes a clay cube with side length 20 cm. He hollows out the center with a rectangular prism hole (base 5 cm \u00d7 5 cm, height 20 cm). What is the volume, in cubic centimeters, of the remaining block?",
     "imageSrc": "/exams/exam1/items/math_q42.png",
-    "options": [
-      {
-        "id": "A",
-        "text": "Choice A"
-      },
-      {
-        "id": "B",
-        "text": "Choice B"
-      },
-      {
-        "id": "C",
-        "text": "Choice C"
-      },
-      {
-        "id": "D",
-        "text": "Choice D"
-      }
-    ],
-    "correctAnswer": "C",
-    "topic": "Geometry: Pythagorean Theorem & Triangles",
+    "options": [],
+    "correctAnswer": "7500",
+    "topic": "Geometry: 3D Solids & Volume",
     "difficulty": "Hard",
     "hints": [
       "Identify the fundamental formula or theorem required for this problem.",
@@ -3833,7 +3774,7 @@ export const QUESTIONS: Question[] = [
       "Solve step-by-step and verify units (e.g. converting hours to minutes or squaring scale factors)."
     ],
     "trapAlert": "Double-check algebraic steps and unit consistency.",
-    "explanation": "Use a^2 + b^2 = c^2 and check for common Pythagorean triples (3-4-5, 5-12-13, 8-15-17)."
+    "explanation": "Cube volume = 20^3 = 8,000 cm^3. Removed hole volume = 5 \u00d7 5 \u00d7 20 = 500 cm^3. Remaining volume = 8,000 - 500 = 7,500 cm^3."
   },
   {
     "id": "e1_math_43",
@@ -3841,36 +3782,36 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 93,
     "type": "multiple_choice",
-    "prompt": "",
+    "prompt": "The total number of water bottles bought, b, is proportional to the number of players, n, with constant of proportionality p. Which equation represents this relationship?",
     "imageSrc": "/exams/exam1/items/math_q43.png",
     "options": [
       {
         "id": "A",
-        "text": "Choice A"
+        "text": "b = pn"
       },
       {
         "id": "B",
-        "text": "Choice B"
+        "text": "b = p + n"
       },
       {
         "id": "C",
-        "text": "Choice C"
+        "text": "b + n = p"
       },
       {
         "id": "D",
-        "text": "Choice D"
+        "text": "b + n + p = 1"
       }
     ],
-    "correctAnswer": "B",
-    "topic": "Geometry: Volume of Cylinders & Prisms",
-    "difficulty": "Hard",
+    "correctAnswer": "A",
+    "topic": "Direct Proportions",
+    "difficulty": "Medium",
     "hints": [
       "Identify the fundamental formula or theorem required for this problem.",
       "Write down what values are given and what specific variable or quantity you need to solve for.",
       "Solve step-by-step and verify units (e.g. converting hours to minutes or squaring scale factors)."
     ],
     "trapAlert": "Double-check algebraic steps and unit consistency.",
-    "explanation": "Volume = \u03c0r^2h. Remember to square the radius before multiplying by height!"
+    "explanation": "A direct proportion is expressed as y = kx. Here b = pn."
   },
   {
     "id": "e1_math_44",
@@ -3878,28 +3819,28 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 94,
     "type": "multiple_choice",
-    "prompt": "",
+    "prompt": "A smartphone screen is designed to be 72 mm wide with an allowable variation of 4%. What is the acceptable width range, in millimeters?",
     "imageSrc": "/exams/exam1/items/math_q44.png",
     "options": [
       {
         "id": "A",
-        "text": "Choice A"
+        "text": "68.00 mm to 76.00 mm"
       },
       {
         "id": "B",
-        "text": "Choice B"
+        "text": "69.12 mm to 74.88 mm"
       },
       {
         "id": "C",
-        "text": "Choice C"
+        "text": "70.00 mm to 74.00 mm"
       },
       {
         "id": "D",
-        "text": "Choice D"
+        "text": "71.28 mm to 72.72 mm"
       }
     ],
-    "correctAnswer": "A",
-    "topic": "Statistics: Mean, Median, Mode & Range",
+    "correctAnswer": "B",
+    "topic": "Percent Error & Tolerance",
     "difficulty": "Hard",
     "hints": [
       "Identify the fundamental formula or theorem required for this problem.",
@@ -3907,27 +3848,44 @@ export const QUESTIONS: Question[] = [
       "Solve step-by-step and verify units (e.g. converting hours to minutes or squaring scale factors)."
     ],
     "trapAlert": "Double-check algebraic steps and unit consistency.",
-    "explanation": "Arrange numbers in ascending order and find the middle value."
+    "explanation": "4% of 72 = 0.04 \u00d7 72 = 2.88 mm. Range is 72 - 2.88 = 69.12 mm to 72 + 2.88 = 74.88 mm."
   },
   {
     "id": "e1_math_45",
     "examId": "exam1",
     "section": "math",
     "questionNumber": 95,
-    "type": "text_entry",
-    "prompt": "",
+    "type": "multiple_choice",
+    "prompt": "Malik earns $10 per hour at his job. He wants to change to a job paying $12 per hour. What will be the percent increase in Malik's hourly pay?",
     "imageSrc": "/exams/exam1/items/math_q45.png",
-    "options": null,
-    "correctAnswer": "42",
-    "topic": "Ratios & Proportions: Scale Factor",
-    "difficulty": "Hard",
+    "options": [
+      {
+        "id": "A",
+        "text": "2%"
+      },
+      {
+        "id": "B",
+        "text": "20%"
+      },
+      {
+        "id": "C",
+        "text": "83%"
+      },
+      {
+        "id": "D",
+        "text": "120%"
+      }
+    ],
+    "correctAnswer": "B",
+    "topic": "Percent Change",
+    "difficulty": "Medium",
     "hints": [
       "Identify the fundamental formula or theorem required for this problem.",
       "Write down what values are given and what specific variable or quantity you need to solve for.",
       "Solve step-by-step and verify units (e.g. converting hours to minutes or squaring scale factors)."
     ],
     "trapAlert": "Double-check algebraic steps and unit consistency.",
-    "explanation": "Remember that area scales by the SQUARE of the linear scale factor: (scale)^2!"
+    "explanation": "Percent Increase = (12 - 10) / 10 = 2 / 10 = 0.20 = 20%."
   },
   {
     "id": "e1_math_46",
@@ -3935,36 +3893,36 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 96,
     "type": "multiple_choice",
-    "prompt": "",
+    "prompt": "A rain gauge shows that 10 centimeters of rain fell yesterday. If 1 inch is equal to approximately 2.5 centimeters, about how many inches of rain fell yesterday?",
     "imageSrc": "/exams/exam1/items/math_q46.png",
     "options": [
       {
         "id": "A",
-        "text": "Choice A"
+        "text": "1"
       },
       {
         "id": "B",
-        "text": "Choice B"
+        "text": "2.5"
       },
       {
         "id": "C",
-        "text": "Choice C"
+        "text": "4"
       },
       {
         "id": "D",
-        "text": "Choice D"
+        "text": "10"
       }
     ],
     "correctAnswer": "C",
-    "topic": "Percents: Tax, Discount & Successive Percents",
-    "difficulty": "Hard",
+    "topic": "Unit Conversions",
+    "difficulty": "Medium",
     "hints": [
       "Identify the fundamental formula or theorem required for this problem.",
       "Write down what values are given and what specific variable or quantity you need to solve for.",
       "Solve step-by-step and verify units (e.g. converting hours to minutes or squaring scale factors)."
     ],
     "trapAlert": "Double-check algebraic steps and unit consistency.",
-    "explanation": "Multiply by 0.80 then by 1.08; do not simply subtract 8 from 20!"
+    "explanation": "10 cm \u00f7 2.5 cm/inch = 4 inches."
   },
   {
     "id": "e1_math_47",
@@ -3972,36 +3930,36 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 97,
     "type": "multiple_choice",
-    "prompt": "",
+    "prompt": "A plant has grown 20 millimeters in 8 days. What is the constant of proportionality, in millimeters per day?",
     "imageSrc": "/exams/exam1/items/math_q47.png",
     "options": [
       {
         "id": "A",
-        "text": "Choice A"
+        "text": "0.4"
       },
       {
         "id": "B",
-        "text": "Choice B"
+        "text": "2.5"
       },
       {
         "id": "C",
-        "text": "Choice C"
+        "text": "12"
       },
       {
         "id": "D",
-        "text": "Choice D"
+        "text": "20"
       }
     ],
     "correctAnswer": "B",
-    "topic": "Coordinate Geometry: Slope & Line Equations",
-    "difficulty": "Hard",
+    "topic": "Unit Rates",
+    "difficulty": "Medium",
     "hints": [
       "Identify the fundamental formula or theorem required for this problem.",
       "Write down what values are given and what specific variable or quantity you need to solve for.",
       "Solve step-by-step and verify units (e.g. converting hours to minutes or squaring scale factors)."
     ],
     "trapAlert": "Double-check algebraic steps and unit consistency.",
-    "explanation": "Slope m = (y2 - y1) / (x2 - x1). Be careful with double negatives!"
+    "explanation": "Rate = 20 mm / 8 days = 2.5 mm per day."
   },
   {
     "id": "e1_math_48",
@@ -4009,73 +3967,56 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 98,
     "type": "multiple_choice",
-    "prompt": "",
+    "prompt": "Which table shows a proportional relationship between x and y?",
     "imageSrc": "/exams/exam1/items/math_q48.png",
     "options": [
       {
         "id": "A",
-        "text": "Choice A"
+        "text": "Table A: (0, 0), (4, 3), (8, 6)"
       },
       {
         "id": "B",
-        "text": "Choice B"
+        "text": "Table B: (0, 1), (4, 4), (8, 8)"
       },
       {
         "id": "C",
-        "text": "Choice C"
+        "text": "Table C: (0, -1), (4, 0), (8, 4)"
       },
       {
         "id": "D",
-        "text": "Choice D"
+        "text": "Table D: (0, 0), (4, 12), (8, 16)"
       }
     ],
     "correctAnswer": "A",
-    "topic": "Algebra: Systems of Linear Equations",
-    "difficulty": "Hard",
+    "topic": "Proportional Tables",
+    "difficulty": "Medium",
     "hints": [
       "Identify the fundamental formula or theorem required for this problem.",
       "Write down what values are given and what specific variable or quantity you need to solve for.",
       "Solve step-by-step and verify units (e.g. converting hours to minutes or squaring scale factors)."
     ],
     "trapAlert": "Double-check algebraic steps and unit consistency.",
-    "explanation": "Isolate one variable first and substitute into the second equation."
+    "explanation": "Table A includes (0, 0) and has constant ratio y/x = 3/4 = 6/8 = 0.75."
   },
   {
     "id": "e1_math_49",
     "examId": "exam1",
     "section": "math",
     "questionNumber": 99,
-    "type": "multiple_choice",
-    "prompt": "",
+    "type": "text_entry",
+    "prompt": "The box plot illustrates screen hours for 8th graders (Min 5, Q1 9, Median 13, Q3 16, Max 20). What is the difference between the range and the interquartile range (IQR)?",
     "imageSrc": "/exams/exam1/items/math_q49.png",
-    "options": [
-      {
-        "id": "A",
-        "text": "Choice A"
-      },
-      {
-        "id": "B",
-        "text": "Choice B"
-      },
-      {
-        "id": "C",
-        "text": "Choice C"
-      },
-      {
-        "id": "D",
-        "text": "Choice D"
-      }
-    ],
-    "correctAnswer": "D",
-    "topic": "Geometry: Pythagorean Theorem & Triangles",
-    "difficulty": "Hard",
+    "options": [],
+    "correctAnswer": "8",
+    "topic": "Statistics: Box Plots & Spread",
+    "difficulty": "Medium",
     "hints": [
       "Identify the fundamental formula or theorem required for this problem.",
       "Write down what values are given and what specific variable or quantity you need to solve for.",
       "Solve step-by-step and verify units (e.g. converting hours to minutes or squaring scale factors)."
     ],
     "trapAlert": "Double-check algebraic steps and unit consistency.",
-    "explanation": "Use a^2 + b^2 = c^2 and check for common Pythagorean triples (3-4-5, 5-12-13, 8-15-17)."
+    "explanation": "Range = 20 - 5 = 15. IQR = 16 - 9 = 7. Difference = 15 - 7 = 8 hours."
   },
   {
     "id": "e1_math_50",
@@ -4083,36 +4024,36 @@ export const QUESTIONS: Question[] = [
     "section": "math",
     "questionNumber": 100,
     "type": "multiple_choice",
-    "prompt": "",
+    "prompt": "Terry wants to pour cement around the edge of a circular patio with a radius of 5 feet. What is the distance around the edge? (Use 3.14 for \u03c0)",
     "imageSrc": "/exams/exam1/items/math_q50.png",
     "options": [
       {
         "id": "A",
-        "text": "Choice A"
+        "text": "15.7 ft"
       },
       {
         "id": "B",
-        "text": "Choice B"
+        "text": "31.4 ft"
       },
       {
         "id": "C",
-        "text": "Choice C"
+        "text": "49.3 ft"
       },
       {
         "id": "D",
-        "text": "Choice D"
+        "text": "78.5 ft"
       }
     ],
-    "correctAnswer": "C",
-    "topic": "Geometry: Volume of Cylinders & Prisms",
-    "difficulty": "Hard",
+    "correctAnswer": "B",
+    "topic": "Geometry: Circumference of Circles",
+    "difficulty": "Medium",
     "hints": [
       "Identify the fundamental formula or theorem required for this problem.",
       "Write down what values are given and what specific variable or quantity you need to solve for.",
       "Solve step-by-step and verify units (e.g. converting hours to minutes or squaring scale factors)."
     ],
     "trapAlert": "Double-check algebraic steps and unit consistency.",
-    "explanation": "Volume = \u03c0r^2h. Remember to square the radius before multiplying by height!"
+    "explanation": "Circumference C = 2\u03c0r = 2 \u00d7 3.14 \u00d7 5 = 10 \u00d7 3.14 = 31.4 feet."
   },
   {
     "id": "e2_ela_01",
@@ -6365,6 +6306,8 @@ export const QUESTIONS: Question[] = [
     "explanation": "Step-by-step mathematical proof verifies the correct solution."
   }
 ];
+
+;
 
 /**
  * Authentic NYC DOE SHSAT Calibrated IRT Scaled Conversion Table (0 - 50 raw items)

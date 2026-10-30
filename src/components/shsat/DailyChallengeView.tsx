@@ -46,6 +46,19 @@ function formatDisplayDate(dateStr: string): string {
   });
 }
 
+function checkAnswerMatch(userAns?: string, correctAns?: string): boolean {
+  if (!userAns || !correctAns) return false;
+  const cleanUser = userAns.trim().toUpperCase().replace(/\s+/g, "");
+  const cleanCorrect = correctAns.trim().toUpperCase().replace(/\s+/g, "");
+  if (cleanUser === cleanCorrect) return true;
+  const numUser = parseFloat(cleanUser);
+  const numCorrect = parseFloat(cleanCorrect);
+  if (!isNaN(numUser) && !isNaN(numCorrect) && Math.abs(numUser - numCorrect) < 0.001) {
+    return true;
+  }
+  return false;
+}
+
 export default function DailyChallengeView() {
   const localTodayStr = getLocalDateStr();
   const [activeDateStr, setActiveDateStr] = useState<string>(localTodayStr);
@@ -179,10 +192,8 @@ export default function DailyChallengeView() {
   };
 
   const isBothSubmitted = submitted[dailyEla.id] && submitted[dailyMath.id];
-  const isElaRight =
-    selectedAnswers[dailyEla.id]?.toUpperCase() === dailyEla.correctAnswer.toUpperCase();
-  const isMathRight =
-    selectedAnswers[dailyMath.id]?.toUpperCase() === dailyMath.correctAnswer.toUpperCase();
+  const isElaRight = checkAnswerMatch(selectedAnswers[dailyEla.id], dailyEla.correctAnswer);
+  const isMathRight = checkAnswerMatch(selectedAnswers[dailyMath.id], dailyMath.correctAnswer);
   const currentSprintScore = (isElaRight ? 1 : 0) + (isMathRight ? 1 : 0);
 
   const handleShareSquad = () => {
@@ -210,7 +221,7 @@ export default function DailyChallengeView() {
   const renderQuestionBox = (q: Question, label: string) => {
     const userAns = selectedAnswers[q.id];
     const isChecked = !!submitted[q.id];
-    const isCorrect = userAns?.toUpperCase() === q.correctAnswer.toUpperCase();
+    const isCorrect = checkAnswerMatch(userAns, q.correctAnswer);
     const passage = q.passageId ? PASSAGES.find((p) => p.id === q.passageId) : null;
 
     return (
@@ -312,7 +323,7 @@ export default function DailyChallengeView() {
           {/* Options */}
           {q.options && (
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 pt-2">
-              {q.options.map((opt) => {
+              {q.options.slice(0, 4).map((opt) => {
                 const isSelected = userAns === opt.id;
                 const isOptionCorrect = opt.id === q.correctAnswer;
                 const isEven = q.questionNumber % 2 === 0;
@@ -398,7 +409,7 @@ export default function DailyChallengeView() {
                     <span>
                       <strong>Brilliant!</strong> Correct answer:{" "}
                       <strong>
-                        {q.questionNumber % 2 === 0
+                        {q.questionNumber % 2 === 0 && q.options && q.options.length > 0
                           ? q.correctAnswer === "A"
                             ? "E"
                             : q.correctAnswer === "B"
@@ -418,7 +429,7 @@ export default function DailyChallengeView() {
                     <span>
                       <strong>Incorrect.</strong> Correct answer is{" "}
                       <strong>
-                        {q.questionNumber % 2 === 0
+                        {q.questionNumber % 2 === 0 && q.options && q.options.length > 0
                           ? q.correctAnswer === "A"
                             ? "E"
                             : q.correctAnswer === "B"
